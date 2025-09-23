@@ -357,4 +357,4 @@ git remote add origin <your-repo-url>
 git push -u origin master
 ```
 
-Теперь у вас есть полный пайплайн для загрузки данных из NoSQL в ClickHouse через Kafka с использованием шифрования персональной информации и визуализацией в Grafana.
+
