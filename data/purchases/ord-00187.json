@@ -1,84 +1,63 @@
 {
   "purchase_id": "ord-00187",
   "customer": {
-    "customer_id": "cus-1003",
-    "first_name": "Федосий",
-    "last_name": "Кулагин",
-    "email": "efim_1985@example.net",
-    "phone": "+7 (506) 308-6005",
+    "customer_id": "cus-1022",
+    "first_name": "Валерий",
+    "last_name": "Щукина",
+    "email": "sgrigoreva@example.com",
+    "phone": "+7 145 587 26 86",
     "is_loyalty_member": true,
-    "loyalty_card_number": "LOYAL-BABE7C0EB0"
+    "loyalty_card_number": "LOYAL-314C1CBF7D"
   },
   "store": {
-    "store_id": "store-027",
-    "store_name": "Большая Пикча — Магазин на бул. Леваневского",
+    "store_id": "store-004",
+    "store_name": "Большая Пикча — Магазин на пр. Ленинский",
     "store_network": "Большая Пикча",
     "location": {
       "country": "Россия",
-      "city": "г. Енисейск",
-      "street": "пр. Нахимова",
-      "house": "978",
-      "postal_code": "444837",
+      "city": "к. Усолье Сибирское",
+      "street": "ш. Белинского",
+      "house": "1/4",
+      "postal_code": "726741",
       "coordinates": {
-        "latitude": 79.739024,
-        "longitude": -88.450267
+        "latitude": -21.6706105,
+        "longitude": 173.163491
       }
     }
   },
   "items": [
     {
-      "product_id": "prd-1013",
-      "name": "Роса Наткнуться",
-      "category": "🥛 Молочные продукты",
-      "quantity": 4,
-      "unit": "упаковка",
-      "price_per_unit": 39.74,
-      "total_price": 158.96,
-      "kbju": {
-        "calories": 283.8,
-        "protein": 19.2,
-        "fat": 7.6,
-        "carbohydrates": 35.6
-      },
-      "manufacturer": {
-        "name": "АО «Потапова, Смирнова и Сазонова»",
-        "country": "Россия",
-        "website": "https://magnit.info",
-        "inn": "3006321123"
-      }
-    },
-    {
-      "product_id": "prd-1011",
-      "name": "Собеседник Цель",
-      "category": "🍏 Фрукты и ягоды",
-      "quantity": 1,
+      "product_id": "prd-1008",
+      "name": "Очутиться Песенка",
+      "category": "🥩 Мясо, рыба, яйца и бобовые",
+      "quantity": 3,
       "unit": "шт",
-      "price_per_unit": 109.38,
-      "total_price": 109.38,
+      "price_per_unit": 248.49,
+      "total_price": 745.47,
       "kbju": {
-        "calories": 140.7,
-        "protein": 19.6,
-        "fat": 11.8,
-        "carbohydrates": 11.5
+        "calories": 51.2,
+        "protein": 13.0,
+        "fat": 6.4,
+        "carbohydrates": 48.7
       },
       "manufacturer": {
-        "name": "Сысоев Лтд",
+        "name": "Лазарева Инк",
         "country": "Россия",
-        "website": "https://ip.org",
-        "inn": "3880754993"
+        "website": "https://guljaev.com",
+        "inn": "0966441801"
       }
     }
   ],
-  "total_amount": 268.34,
+  "total_amount": 745.47,
   "payment_method": "cash",
-  "is_delivery": true,
+  "is_delivery": false,
   "delivery_address": {
     "country": "Россия",
-    "city": "к. Южноуральск",
-    "street": "пер. Орджоникидзе",
-    "house": "94",
-    "apartment": "3",
-    "postal_code": "037248"
+    "city": "г. Холмск",
+    "street": "бул. Комарова",
+    "house": "48",
+    "apartment": "38",
+    "postal_code": "163195"
   },
-  "purchase_datetime": "2025-09-09T19:57:11.043126"
+  "purchase_datetime": "2025-07-21T13:42:39.594892"
 }

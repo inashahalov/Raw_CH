@@ -1,84 +1,63 @@
 {
   "purchase_id": "ord-00100",
   "customer": {
-    "customer_id": "cus-1028",
-    "first_name": "Наталья",
-    "last_name": "Гришина",
-    "email": "nikolabeljaev@example.com",
-    "phone": "85864483021",
+    "customer_id": "cus-1036",
+    "first_name": "Ким",
+    "last_name": "Егорова",
+    "email": "drozdovprohor@example.org",
+    "phone": "+7 (091) 539-70-91",
     "is_loyalty_member": true,
-    "loyalty_card_number": "LOYAL-EF32AE8CAA"
+    "loyalty_card_number": "LOYAL-BDFDF76BEE"
   },
   "store": {
-    "store_id": "store-036",
-    "store_name": "Маленькая Пикча — Магазин на бул. Волочаевский",
-    "store_network": "Маленькая Пикча",
+    "store_id": "store-008",
+    "store_name": "Большая Пикча — Магазин на алл. Снежная",
+    "store_network": "Большая Пикча",
     "location": {
       "country": "Россия",
-      "city": "с. Катав-Ивановск",
-      "street": "ш. Тукая",
-      "house": "399",
-      "postal_code": "771697",
+      "city": "ст. Тольятти",
+      "street": "ул. Нагорная",
+      "house": "6/5",
+      "postal_code": "884574",
       "coordinates": {
-        "latitude": 7.340127,
-        "longitude": 150.66847
+        "latitude": 12.6574315,
+        "longitude": 95.917203
       }
     }
   },
   "items": [
     {
-      "product_id": "prd-1012",
-      "name": "Премьера Висеть",
-      "category": "🥩 Мясо, рыба, яйца и бобовые",
-      "quantity": 2,
-      "unit": "л",
-      "price_per_unit": 193.21,
-      "total_price": 386.42,
+      "product_id": "prd-1011",
+      "name": "Сверкающий Коробка",
+      "category": "🥦 Овощи и зелень",
+      "quantity": 5,
+      "unit": "шт",
+      "price_per_unit": 242.68,
+      "total_price": 1213.4,
       "kbju": {
-        "calories": 254.5,
-        "protein": 0.8,
-        "fat": 5.6,
-        "carbohydrates": 3.1
+        "calories": 212.1,
+        "protein": 13.3,
+        "fat": 13.8,
+        "carbohydrates": 18.4
       },
       "manufacturer": {
-        "name": "АО «Ларионова, Молчанов и Ефремова»",
+        "name": "ЗАО «Филатова-Юдина»",
         "country": "Россия",
-        "website": "https://ao.edu",
-        "inn": "3317182161"
-      }
-    },
-    {
-      "product_id": "prd-1013",
-      "name": "Роса Наткнуться",
-      "category": "🥛 Молочные продукты",
-      "quantity": 4,
-      "unit": "упаковка",
-      "price_per_unit": 39.74,
-      "total_price": 158.96,
-      "kbju": {
-        "calories": 283.8,
-        "protein": 19.2,
-        "fat": 7.6,
-        "carbohydrates": 35.6
-      },
-      "manufacturer": {
-        "name": "АО «Потапова, Смирнова и Сазонова»",
-        "country": "Россия",
-        "website": "https://magnit.info",
-        "inn": "3006321123"
+        "website": "https://oao.info",
+        "inn": "6258727413"
       }
     }
   ],
-  "total_amount": 545.38,
-  "payment_method": "card",
-  "is_delivery": true,
+  "total_amount": 1213.4,
+  "payment_method": "cash",
+  "is_delivery": false,
   "delivery_address": {
     "country": "Россия",
-    "city": "клх Галич",
-    "street": "алл. Логовая",
-    "house": "95",
-    "apartment": "14",
-    "postal_code": "862953"
+    "city": "клх Биробиджан",
+    "street": "бул. Димитрова",
+    "house": "490",
+    "apartment": "100",
+    "postal_code": "621024"
   },
-  "purchase_datetime": "2025-07-18T19:57:10.998687"
+  "purchase_datetime": "2025-08-21T13:42:39.558017"
 }

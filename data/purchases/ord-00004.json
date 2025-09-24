@@ -1,105 +1,105 @@
 {
   "purchase_id": "ord-00004",
   "customer": {
-    "customer_id": "cus-1007",
-    "first_name": "Константин",
-    "last_name": "Фадеев",
-    "email": "korolevefim@example.net",
-    "phone": "8 (270) 745-5698",
+    "customer_id": "cus-1030",
+    "first_name": "Юрий",
+    "last_name": "Исакова",
+    "email": "frol_93@example.net",
+    "phone": "+70921851470",
     "is_loyalty_member": true,
-    "loyalty_card_number": "LOYAL-2DFE8E6C69"
+    "loyalty_card_number": "LOYAL-384DC34D0B"
   },
   "store": {
-    "store_id": "store-009",
-    "store_name": "Большая Пикча — Магазин на пер. Пригородный",
-    "store_network": "Большая Пикча",
+    "store_id": "store-039",
+    "store_name": "Маленькая Пикча — Магазин на наб. Мичурина",
+    "store_network": "Маленькая Пикча",
     "location": {
       "country": "Россия",
-      "city": "ст. Тосно",
-      "street": "бул. Снежный",
-      "house": "17",
-      "postal_code": "064592",
+      "city": "к. Лотошино",
+      "street": "пр. Боровой",
+      "house": "3",
+      "postal_code": "599266",
       "coordinates": {
-        "latitude": -81.084922,
-        "longitude": -135.926762
+        "latitude": -5.6986535,
+        "longitude": 4.716023
       }
     }
   },
   "items": [
     {
-      "product_id": "prd-1015",
-      "name": "Войти Приходить",
-      "category": "🥛 Молочные продукты",
-      "quantity": 4,
-      "unit": "шт",
-      "price_per_unit": 92.89,
-      "total_price": 371.56,
+      "product_id": "prd-1018",
+      "name": "Проход Запретить",
+      "category": "🍏 Фрукты и ягоды",
+      "quantity": 2,
+      "unit": "упаковка",
+      "price_per_unit": 258.84,
+      "total_price": 517.68,
       "kbju": {
-        "calories": 297.1,
-        "protein": 17.3,
+        "calories": 254.3,
+        "protein": 10.6,
         "fat": 7.9,
-        "carbohydrates": 24.3
+        "carbohydrates": 9.3
       },
       "manufacturer": {
-        "name": "Гришина Лтд",
+        "name": "ИП «Турова, Селезнев и Жданова»",
         "country": "Россия",
-        "website": "https://ooo.net",
-        "inn": "5499321537"
+        "website": "https://ao.com",
+        "inn": "7389660036"
       }
     },
     {
-      "product_id": "prd-1012",
-      "name": "Премьера Висеть",
+      "product_id": "prd-1015",
+      "name": "Умолять Нервно",
       "category": "🥩 Мясо, рыба, яйца и бобовые",
       "quantity": 1,
-      "unit": "л",
-      "price_per_unit": 193.21,
-      "total_price": 193.21,
+      "unit": "упаковка",
+      "price_per_unit": 249.57,
+      "total_price": 249.57,
       "kbju": {
-        "calories": 254.5,
-        "protein": 0.8,
-        "fat": 5.6,
-        "carbohydrates": 3.1
+        "calories": 130.6,
+        "protein": 7.3,
+        "fat": 8.5,
+        "carbohydrates": 35.1
       },
       "manufacturer": {
-        "name": "АО «Ларионова, Молчанов и Ефремова»",
+        "name": "Трофимова Лтд",
         "country": "Россия",
-        "website": "https://ao.edu",
-        "inn": "3317182161"
+        "website": "https://transkapitalbank.edu",
+        "inn": "0300157246"
       }
     },
     {
-      "product_id": "prd-1018",
-      "name": "Низкий Присесть",
-      "category": "🥩 Мясо, рыба, яйца и бобовые",
-      "quantity": 5,
-      "unit": "кг",
-      "price_per_unit": 240.2,
-      "total_price": 1201.0,
+      "product_id": "prd-1011",
+      "name": "Сверкающий Коробка",
+      "category": "🥦 Овощи и зелень",
+      "quantity": 3,
+      "unit": "шт",
+      "price_per_unit": 242.68,
+      "total_price": 728.04,
       "kbju": {
-        "calories": 272.9,
-        "protein": 7.8,
-        "fat": 2.3,
-        "carbohydrates": 5.3
+        "calories": 212.1,
+        "protein": 13.3,
+        "fat": 13.8,
+        "carbohydrates": 18.4
       },
       "manufacturer": {
-        "name": "Ланит",
+        "name": "ЗАО «Филатова-Юдина»",
         "country": "Россия",
-        "website": "https://rao.info",
-        "inn": "3763771194"
+        "website": "https://oao.info",
+        "inn": "6258727413"
       }
     }
   ],
-  "total_amount": 1765.77,
-  "payment_method": "cash",
+  "total_amount": 1495.29,
+  "payment_method": "card",
   "is_delivery": false,
   "delivery_address": {
     "country": "Россия",
-    "city": "клх Тихвин",
-    "street": "алл. Водопроводная",
-    "house": "309",
-    "apartment": "57",
-    "postal_code": "983642"
+    "city": "ст. Инта",
+    "street": "ул. Советской Армии",
+    "house": "5",
+    "apartment": "45",
+    "postal_code": "821612"
   },
-  "purchase_datetime": "2025-08-27T19:57:10.952742"
+  "purchase_datetime": "2025-07-27T13:42:39.520632"
 }

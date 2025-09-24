@@ -1,84 +1,84 @@
 {
   "purchase_id": "ord-00063",
   "customer": {
-    "customer_id": "cus-1026",
-    "first_name": "Флорентин",
-    "last_name": "Большакова",
-    "email": "veselovnazar@example.net",
-    "phone": "8 (205) 889-0655",
+    "customer_id": "cus-1025",
+    "first_name": "Христофор",
+    "last_name": "Суханова",
+    "email": "tit37@example.com",
+    "phone": "+7 126 102 90 17",
     "is_loyalty_member": true,
-    "loyalty_card_number": "LOYAL-9486E017A9"
+    "loyalty_card_number": "LOYAL-702FE49440"
   },
   "store": {
-    "store_id": "store-038",
-    "store_name": "Маленькая Пикча — Магазин на бул. Папанина",
+    "store_id": "store-036",
+    "store_name": "Маленькая Пикча — Магазин на пр. Кузнечный",
     "store_network": "Маленькая Пикча",
     "location": {
       "country": "Россия",
-      "city": "д. Терней",
-      "street": "наб. Флотская",
-      "house": "634",
-      "postal_code": "144849",
+      "city": "к. Добрянка",
+      "street": "пр. Болотный",
+      "house": "1/8",
+      "postal_code": "802482",
       "coordinates": {
-        "latitude": -24.7418805,
-        "longitude": -175.888895
+        "latitude": -38.8851715,
+        "longitude": 144.818432
       }
     }
   },
   "items": [
     {
-      "product_id": "prd-1005",
-      "name": "Уничтожение Вздрагивать",
-      "category": "🍏 Фрукты и ягоды",
-      "quantity": 1,
-      "unit": "л",
-      "price_per_unit": 207.53,
-      "total_price": 207.53,
+      "product_id": "prd-1002",
+      "name": "Издали Перебивать",
+      "category": "🥩 Мясо, рыба, яйца и бобовые",
+      "quantity": 5,
+      "unit": "упаковка",
+      "price_per_unit": 61.88,
+      "total_price": 309.4,
       "kbju": {
-        "calories": 191.8,
-        "protein": 11.1,
-        "fat": 7.9,
-        "carbohydrates": 5.4
+        "calories": 131.0,
+        "protein": 3.3,
+        "fat": 2.2,
+        "carbohydrates": 21.7
       },
       "manufacturer": {
-        "name": "ООО «Авдеев-Медведева»",
+        "name": "Государственная транспортная лизинговая компания",
         "country": "Россия",
-        "website": "https://zao.com",
-        "inn": "9782693224"
+        "website": "https://zao.org",
+        "inn": "0226529553"
       }
     },
     {
-      "product_id": "prd-1015",
-      "name": "Войти Приходить",
-      "category": "🥛 Молочные продукты",
+      "product_id": "prd-1009",
+      "name": "Расстройство Валюта",
+      "category": "🥩 Мясо, рыба, яйца и бобовые",
       "quantity": 2,
-      "unit": "шт",
-      "price_per_unit": 92.89,
-      "total_price": 185.78,
+      "unit": "л",
+      "price_per_unit": 256.33,
+      "total_price": 512.66,
       "kbju": {
-        "calories": 297.1,
-        "protein": 17.3,
-        "fat": 7.9,
-        "carbohydrates": 24.3
+        "calories": 208.9,
+        "protein": 12.9,
+        "fat": 11.4,
+        "carbohydrates": 30.9
       },
       "manufacturer": {
-        "name": "Гришина Лтд",
+        "name": "АХ Степь",
         "country": "Россия",
-        "website": "https://ooo.net",
-        "inn": "5499321537"
+        "website": "https://rao.ru",
+        "inn": "1719997409"
       }
     }
   ],
-  "total_amount": 393.31,
-  "payment_method": "cash",
-  "is_delivery": true,
+  "total_amount": 822.06,
+  "payment_method": "card",
+  "is_delivery": false,
   "delivery_address": {
     "country": "Россия",
-    "city": "г. Енисейск",
-    "street": "бул. Советской Армии",
-    "house": "403",
-    "apartment": "86",
-    "postal_code": "074919"
+    "city": "с. Минусинск",
+    "street": "ш. Аэродромное",
+    "house": "677",
+    "apartment": "35",
+    "postal_code": "710414"
   },
-  "purchase_datetime": "2025-06-27T19:57:10.979640"
+  "purchase_datetime": "2025-07-20T13:42:39.543340"
 }

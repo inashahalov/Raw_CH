@@ -1,36 +1,36 @@
 {
   "customer_id": "cus-1025",
-  "first_name": "Светозар",
-  "last_name": "Панфилова",
-  "email": "grigorigrigorev@example.org",
-  "phone": "81759582895",
-  "birth_date": "1988-08-29",
-  "gender": "female",
-  "registration_date": "2025-09-23T19:57:10.939460",
+  "first_name": "Христофор",
+  "last_name": "Суханова",
+  "email": "tit37@example.com",
+  "phone": "+7 126 102 90 17",
+  "birth_date": "1960-08-11",
+  "gender": "male",
+  "registration_date": "2025-09-24T13:42:39.507577",
   "is_loyalty_member": true,
-  "loyalty_card_number": "LOYAL-3948D7315F",
+  "loyalty_card_number": "LOYAL-702FE49440",
   "purchase_location": {
     "store_id": "store-026",
-    "store_name": "Большая Пикча — Магазин на алл. Иванова",
+    "store_name": "Большая Пикча — Магазин на наб. Советов",
     "store_network": "Большая Пикча",
     "store_type_description": "Супермаркет более 200 кв.м. Входит в сеть из 30 магазинов.",
     "country": "Россия",
-    "city": "д. Вытегра",
-    "street": "ш. Лунное",
-    "house": "6",
-    "postal_code": "030129"
+    "city": "с. Минусинск",
+    "street": "ш. Маркса Карла",
+    "house": "733",
+    "postal_code": "813798"
   },
   "delivery_address": {
     "country": "Россия",
-    "city": "д. Вытегра",
-    "street": "ш. Байкальское",
-    "house": "7",
-    "apartment": "97",
-    "postal_code": "418359"
+    "city": "с. Минусинск",
+    "street": "ш. Аэродромное",
+    "house": "677",
+    "apartment": "35",
+    "postal_code": "710414"
   },
   "preferences": {
     "preferred_language": "ru",
-    "preferred_payment_method": "card",
-    "receive_promotions": true
+    "preferred_payment_method": "cash",
+    "receive_promotions": false
   }
 }

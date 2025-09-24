@@ -1,105 +1,105 @@
 {
   "purchase_id": "ord-00158",
   "customer": {
-    "customer_id": "cus-1033",
-    "first_name": "Евграф",
-    "last_name": "Кулагин",
-    "email": "qsazonova@example.org",
-    "phone": "8 (664) 074-4446",
+    "customer_id": "cus-1009",
+    "first_name": "Кондрат",
+    "last_name": "Агафонова",
+    "email": "tshchukina@example.org",
+    "phone": "80257421757",
     "is_loyalty_member": true,
-    "loyalty_card_number": "LOYAL-615D708F68"
+    "loyalty_card_number": "LOYAL-143C43728A"
   },
   "store": {
-    "store_id": "store-011",
-    "store_name": "Большая Пикча — Магазин на ул. Таежная",
-    "store_network": "Большая Пикча",
+    "store_id": "store-044",
+    "store_name": "Маленькая Пикча — Магазин на наб. Черноморская",
+    "store_network": "Маленькая Пикча",
     "location": {
       "country": "Россия",
-      "city": "п. Снежинск",
-      "street": "алл. Клары Цеткин",
-      "house": "8",
-      "postal_code": "728596",
+      "city": "д. Псебай",
+      "street": "пр. Сплавный",
+      "house": "86",
+      "postal_code": "078632",
       "coordinates": {
-        "latitude": 42.23201,
-        "longitude": 92.394681
+        "latitude": -54.435567,
+        "longitude": 133.144877
       }
     }
   },
   "items": [
     {
-      "product_id": "prd-1008",
-      "name": "Фонарик Успокоиться",
-      "category": "🥖 Зерновые и хлебобулочные изделия",
-      "quantity": 3,
-      "unit": "упаковка",
-      "price_per_unit": 73.43,
-      "total_price": 220.29,
+      "product_id": "prd-1006",
+      "name": "Витрина Лапа",
+      "category": "🥦 Овощи и зелень",
+      "quantity": 2,
+      "unit": "л",
+      "price_per_unit": 197.14,
+      "total_price": 394.28,
       "kbju": {
-        "calories": 92.6,
-        "protein": 18.4,
-        "fat": 11.5,
-        "carbohydrates": 24.8
+        "calories": 159.3,
+        "protein": 17.1,
+        "fat": 8.9,
+        "carbohydrates": 42.8
       },
       "manufacturer": {
-        "name": "ООО «Денисов, Щукина и Гришин»",
+        "name": "ООО «Ширяева Матвеев»",
         "country": "Россия",
-        "website": "https://kozlova.org",
-        "inn": "3531459365"
+        "website": "https://rao.biz",
+        "inn": "8993676224"
       }
     },
     {
-      "product_id": "prd-1018",
-      "name": "Низкий Присесть",
-      "category": "🥩 Мясо, рыба, яйца и бобовые",
-      "quantity": 5,
-      "unit": "кг",
-      "price_per_unit": 240.2,
-      "total_price": 1201.0,
-      "kbju": {
-        "calories": 272.9,
-        "protein": 7.8,
-        "fat": 2.3,
-        "carbohydrates": 5.3
-      },
-      "manufacturer": {
-        "name": "Ланит",
-        "country": "Россия",
-        "website": "https://rao.info",
-        "inn": "3763771194"
-      }
-    },
-    {
-      "product_id": "prd-1000",
-      "name": "Заведение Задержать",
+      "product_id": "prd-1005",
+      "name": "Блин Редактор",
       "category": "🥛 Молочные продукты",
       "quantity": 2,
       "unit": "л",
-      "price_per_unit": 174.16,
-      "total_price": 348.32,
+      "price_per_unit": 252.66,
+      "total_price": 505.32,
       "kbju": {
-        "calories": 261.8,
-        "protein": 2.3,
-        "fat": 2.9,
-        "carbohydrates": 19.7
+        "calories": 169.1,
+        "protein": 14.6,
+        "fat": 4.1,
+        "carbohydrates": 39.8
       },
       "manufacturer": {
-        "name": "РАО «Бирюков, Лапина и Волков»",
+        "name": "ООО «Савельев»",
         "country": "Россия",
-        "website": "https://ao.net",
-        "inn": "0912614956"
+        "website": "https://vostok-zapad.biz",
+        "inn": "3880905200"
+      }
+    },
+    {
+      "product_id": "prd-1004",
+      "name": "Прежний Успокоиться",
+      "category": "🥦 Овощи и зелень",
+      "quantity": 1,
+      "unit": "упаковка",
+      "price_per_unit": 192.71,
+      "total_price": 192.71,
+      "kbju": {
+        "calories": 95.9,
+        "protein": 17.1,
+        "fat": 12.1,
+        "carbohydrates": 42.3
+      },
+      "manufacturer": {
+        "name": "АО «Русакова»",
+        "country": "Россия",
+        "website": "https://nesterova.com",
+        "inn": "3179388333"
       }
     }
   ],
-  "total_amount": 1769.61,
+  "total_amount": 1092.31,
   "payment_method": "cash",
-  "is_delivery": false,
+  "is_delivery": true,
   "delivery_address": {
     "country": "Россия",
-    "city": "с. Чусовой",
-    "street": "ул. Леваневского",
-    "house": "737",
-    "apartment": "67",
-    "postal_code": "413892"
+    "city": "г. Новочеркасск",
+    "street": "бул. Матросова",
+    "house": "8/7",
+    "apartment": "15",
+    "postal_code": "371221"
   },
-  "purchase_datetime": "2025-07-30T19:57:11.028849"
+  "purchase_datetime": "2025-06-30T13:42:39.582868"
 }

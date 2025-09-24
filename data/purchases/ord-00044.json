@@ -1,63 +1,84 @@
 {
   "purchase_id": "ord-00044",
   "customer": {
-    "customer_id": "cus-1038",
-    "first_name": "Фотий",
-    "last_name": "Александров",
-    "email": "borisovstanimir@example.net",
-    "phone": "+7 (110) 633-4695",
+    "customer_id": "cus-1041",
+    "first_name": "Ксения",
+    "last_name": "Кононов",
+    "email": "lihachevaanastasija@example.org",
+    "phone": "+7 512 435 4000",
     "is_loyalty_member": true,
-    "loyalty_card_number": "LOYAL-51CB82EFA1"
+    "loyalty_card_number": "LOYAL-E924F62016"
   },
   "store": {
-    "store_id": "store-030",
-    "store_name": "Большая Пикча — Магазин на пр. Вокзальный",
+    "store_id": "store-024",
+    "store_name": "Большая Пикча — Магазин на наб. Харьковская",
     "store_network": "Большая Пикча",
     "location": {
       "country": "Россия",
-      "city": "к. Мытищи",
-      "street": "ул. Логовая",
-      "house": "16",
-      "postal_code": "893399",
+      "city": "к. Кыштым",
+      "street": "пр. Луначарского",
+      "house": "969",
+      "postal_code": "152629",
       "coordinates": {
-        "latitude": 16.415211,
-        "longitude": -101.130977
+        "latitude": 46.6419795,
+        "longitude": -1.629277
       }
     }
   },
   "items": [
     {
-      "product_id": "prd-1004",
-      "name": "Рассуждение Боец",
-      "category": "🥩 Мясо, рыба, яйца и бобовые",
-      "quantity": 1,
-      "unit": "кг",
-      "price_per_unit": 167.58,
-      "total_price": 167.58,
+      "product_id": "prd-1005",
+      "name": "Блин Редактор",
+      "category": "🥛 Молочные продукты",
+      "quantity": 2,
+      "unit": "л",
+      "price_per_unit": 252.66,
+      "total_price": 505.32,
       "kbju": {
-        "calories": 270.7,
-        "protein": 8.7,
-        "fat": 11.5,
-        "carbohydrates": 1.5
+        "calories": 169.1,
+        "protein": 14.6,
+        "fat": 4.1,
+        "carbohydrates": 39.8
       },
       "manufacturer": {
-        "name": "РАО «Мухина Миронов»",
+        "name": "ООО «Савельев»",
         "country": "Россия",
-        "website": "https://rao.org",
-        "inn": "9262920859"
+        "website": "https://vostok-zapad.biz",
+        "inn": "3880905200"
+      }
+    },
+    {
+      "product_id": "prd-1001",
+      "name": "Механический Намерение",
+      "category": "🥦 Овощи и зелень",
+      "quantity": 5,
+      "unit": "упаковка",
+      "price_per_unit": 66.91,
+      "total_price": 334.55,
+      "kbju": {
+        "calories": 139.2,
+        "protein": 6.1,
+        "fat": 13.3,
+        "carbohydrates": 35.9
+      },
+      "manufacturer": {
+        "name": "ООО «Костина, Панов и Фомичева»",
+        "country": "Россия",
+        "website": "https://gsl.biz",
+        "inn": "1159800180"
       }
     }
   ],
-  "total_amount": 167.58,
+  "total_amount": 839.87,
   "payment_method": "cash",
   "is_delivery": true,
   "delivery_address": {
     "country": "Россия",
-    "city": "с. Жиганск",
-    "street": "наб. Ермака",
-    "house": "9/6",
-    "apartment": "39",
-    "postal_code": "762206"
+    "city": "с. Костомукша",
+    "street": "пр. Ростовский",
+    "house": "458",
+    "apartment": "54",
+    "postal_code": "599182"
   },
-  "purchase_datetime": "2025-09-03T19:57:10.971250"
+  "purchase_datetime": "2025-08-02T13:42:39.535348"
 }

@@ -1,84 +1,63 @@
 {
   "purchase_id": "ord-00181",
   "customer": {
-    "customer_id": "cus-1031",
-    "first_name": "Леонид",
-    "last_name": "Назарова",
-    "email": "vorontsovefim@example.org",
-    "phone": "+7 858 879 74 37",
+    "customer_id": "cus-1035",
+    "first_name": "Геннадий",
+    "last_name": "Родионов",
+    "email": "cheslav1990@example.org",
+    "phone": "8 303 158 42 60",
     "is_loyalty_member": true,
-    "loyalty_card_number": "LOYAL-EF1CA2F6B3"
+    "loyalty_card_number": "LOYAL-B5048336C8"
   },
   "store": {
-    "store_id": "store-025",
-    "store_name": "Большая Пикча — Магазин на ул. Максима Горького",
+    "store_id": "store-010",
+    "store_name": "Большая Пикча — Магазин на алл. Казанская",
     "store_network": "Большая Пикча",
     "location": {
       "country": "Россия",
-      "city": "п. Вязьма",
-      "street": "пр. Энергетиков",
-      "house": "3/8",
-      "postal_code": "499052",
+      "city": "г. Новочеркасск",
+      "street": "бул. Р.Люксембург",
+      "house": "615",
+      "postal_code": "760266",
       "coordinates": {
-        "latitude": -21.8330225,
-        "longitude": 32.3017
+        "latitude": -53.9201405,
+        "longitude": 17.97173
       }
     }
   },
   "items": [
     {
-      "product_id": "prd-1018",
-      "name": "Низкий Присесть",
-      "category": "🥩 Мясо, рыба, яйца и бобовые",
-      "quantity": 2,
-      "unit": "кг",
-      "price_per_unit": 240.2,
-      "total_price": 480.4,
-      "kbju": {
-        "calories": 272.9,
-        "protein": 7.8,
-        "fat": 2.3,
-        "carbohydrates": 5.3
-      },
-      "manufacturer": {
-        "name": "Ланит",
-        "country": "Россия",
-        "website": "https://rao.info",
-        "inn": "3763771194"
-      }
-    },
-    {
-      "product_id": "prd-1002",
-      "name": "Разводить Школьный",
-      "category": "🥦 Овощи и зелень",
-      "quantity": 1,
+      "product_id": "prd-1005",
+      "name": "Блин Редактор",
+      "category": "🥛 Молочные продукты",
+      "quantity": 4,
       "unit": "л",
-      "price_per_unit": 232.4,
-      "total_price": 232.4,
+      "price_per_unit": 252.66,
+      "total_price": 1010.64,
       "kbju": {
-        "calories": 276.5,
-        "protein": 15.9,
-        "fat": 7.0,
-        "carbohydrates": 4.4
+        "calories": 169.1,
+        "protein": 14.6,
+        "fat": 4.1,
+        "carbohydrates": 39.8
       },
       "manufacturer": {
-        "name": "ОАО «Туров, Горбунова и Галкина»",
+        "name": "ООО «Савельев»",
         "country": "Россия",
-        "website": "https://oao.com",
-        "inn": "7774237965"
+        "website": "https://vostok-zapad.biz",
+        "inn": "3880905200"
       }
     }
   ],
-  "total_amount": 712.8,
-  "payment_method": "card",
-  "is_delivery": true,
+  "total_amount": 1010.64,
+  "payment_method": "cash",
+  "is_delivery": false,
   "delivery_address": {
     "country": "Россия",
-    "city": "г. Нефтеюганск",
-    "street": "ул. Кольцова",
-    "house": "58",
-    "apartment": "40",
-    "postal_code": "890025"
+    "city": "к. Добрянка",
+    "street": "бул. Дальневосточный",
+    "house": "7/2",
+    "apartment": "89",
+    "postal_code": "893889"
   },
-  "purchase_datetime": "2025-06-25T19:57:11.040273"
+  "purchase_datetime": "2025-07-03T13:42:39.592771"
 }

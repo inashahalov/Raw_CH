@@ -1,105 +1,63 @@
 {
   "purchase_id": "ord-00072",
   "customer": {
-    "customer_id": "cus-1024",
-    "first_name": "Ульян",
-    "last_name": "Рожков",
-    "email": "lavrenti_1995@example.net",
-    "phone": "8 (716) 687-95-46",
+    "customer_id": "cus-1021",
+    "first_name": "Спиридон",
+    "last_name": "Савина",
+    "email": "konstantin98@example.net",
+    "phone": "8 952 152 46 82",
     "is_loyalty_member": true,
-    "loyalty_card_number": "LOYAL-091724D2F7"
+    "loyalty_card_number": "LOYAL-F768F67A2A"
   },
   "store": {
-    "store_id": "store-038",
-    "store_name": "Маленькая Пикча — Магазин на бул. Папанина",
-    "store_network": "Маленькая Пикча",
+    "store_id": "store-006",
+    "store_name": "Большая Пикча — Магазин на алл. Поперечная",
+    "store_network": "Большая Пикча",
     "location": {
       "country": "Россия",
-      "city": "д. Терней",
-      "street": "наб. Флотская",
-      "house": "634",
-      "postal_code": "144849",
+      "city": "ст. Сортавала",
+      "street": "бул. Шмидта",
+      "house": "31",
+      "postal_code": "947028",
       "coordinates": {
-        "latitude": -24.7418805,
-        "longitude": -175.888895
+        "latitude": -1.9295105,
+        "longitude": 149.818126
       }
     }
   },
   "items": [
     {
-      "product_id": "prd-1005",
-      "name": "Уничтожение Вздрагивать",
+      "product_id": "prd-1018",
+      "name": "Проход Запретить",
       "category": "🍏 Фрукты и ягоды",
-      "quantity": 3,
-      "unit": "л",
-      "price_per_unit": 207.53,
-      "total_price": 622.59,
-      "kbju": {
-        "calories": 191.8,
-        "protein": 11.1,
-        "fat": 7.9,
-        "carbohydrates": 5.4
-      },
-      "manufacturer": {
-        "name": "ООО «Авдеев-Медведева»",
-        "country": "Россия",
-        "website": "https://zao.com",
-        "inn": "9782693224"
-      }
-    },
-    {
-      "product_id": "prd-1009",
-      "name": "Заложить Спасть",
-      "category": "🥩 Мясо, рыба, яйца и бобовые",
       "quantity": 4,
-      "unit": "шт",
-      "price_per_unit": 101.66,
-      "total_price": 406.64,
+      "unit": "упаковка",
+      "price_per_unit": 258.84,
+      "total_price": 1035.36,
       "kbju": {
-        "calories": 246.3,
-        "protein": 19.8,
-        "fat": 4.3,
-        "carbohydrates": 48.1
+        "calories": 254.3,
+        "protein": 10.6,
+        "fat": 7.9,
+        "carbohydrates": 9.3
       },
       "manufacturer": {
-        "name": "НПО «Наумова»",
+        "name": "ИП «Турова, Селезнев и Жданова»",
         "country": "Россия",
-        "website": "https://rao.biz",
-        "inn": "4508864986"
-      }
-    },
-    {
-      "product_id": "prd-1007",
-      "name": "Штаб Приличный",
-      "category": "🍏 Фрукты и ягоды",
-      "quantity": 2,
-      "unit": "кг",
-      "price_per_unit": 196.88,
-      "total_price": 393.76,
-      "kbju": {
-        "calories": 164.9,
-        "protein": 16.7,
-        "fat": 3.6,
-        "carbohydrates": 31.4
-      },
-      "manufacturer": {
-        "name": "СДС-Уголь",
-        "country": "Россия",
-        "website": "https://npo.ru",
-        "inn": "9854590544"
+        "website": "https://ao.com",
+        "inn": "7389660036"
       }
     }
   ],
-  "total_amount": 1422.99,
-  "payment_method": "cash",
+  "total_amount": 1035.36,
+  "payment_method": "card",
   "is_delivery": true,
   "delivery_address": {
     "country": "Россия",
-    "city": "п. Вязьма",
-    "street": "наб. Радужная",
-    "house": "5",
-    "apartment": "73",
-    "postal_code": "710794"
+    "city": "г. Надым",
+    "street": "бул. Шахтерский",
+    "house": "2/3",
+    "apartment": "10",
+    "postal_code": "178201"
   },
-  "purchase_datetime": "2025-06-25T19:57:10.983580"
+  "purchase_datetime": "2025-09-12T13:42:39.546537"
 }

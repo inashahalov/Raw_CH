@@ -1,63 +1,84 @@
 {
   "purchase_id": "ord-00085",
   "customer": {
-    "customer_id": "cus-1014",
-    "first_name": "Алла",
-    "last_name": "Дмитриева",
-    "email": "maksimiljanlobanov@example.net",
-    "phone": "8 993 112 5563",
+    "customer_id": "cus-1000",
+    "first_name": "Никодим",
+    "last_name": "Шилов",
+    "email": "pavlovaksenija@example.net",
+    "phone": "+7 115 715 6344",
     "is_loyalty_member": true,
-    "loyalty_card_number": "LOYAL-4DECF4EFB7"
+    "loyalty_card_number": "LOYAL-29F03EC301"
   },
   "store": {
-    "store_id": "store-041",
-    "store_name": "Маленькая Пикча — Магазин на наб. Буденного",
+    "store_id": "store-044",
+    "store_name": "Маленькая Пикча — Магазин на наб. Черноморская",
     "store_network": "Маленькая Пикча",
     "location": {
       "country": "Россия",
-      "city": "клх Печенга",
-      "street": "ш. Раздольное",
-      "house": "7/9",
-      "postal_code": "426924",
+      "city": "д. Псебай",
+      "street": "пр. Сплавный",
+      "house": "86",
+      "postal_code": "078632",
       "coordinates": {
-        "latitude": 31.407587,
-        "longitude": -5.558878
+        "latitude": -54.435567,
+        "longitude": 133.144877
       }
     }
   },
   "items": [
     {
-      "product_id": "prd-1011",
-      "name": "Собеседник Цель",
-      "category": "🍏 Фрукты и ягоды",
+      "product_id": "prd-1007",
+      "name": "Инвалид Госпожа",
+      "category": "🥩 Мясо, рыба, яйца и бобовые",
       "quantity": 2,
-      "unit": "шт",
-      "price_per_unit": 109.38,
-      "total_price": 218.76,
+      "unit": "упаковка",
+      "price_per_unit": 216.19,
+      "total_price": 432.38,
       "kbju": {
-        "calories": 140.7,
-        "protein": 19.6,
-        "fat": 11.8,
-        "carbohydrates": 11.5
+        "calories": 103.2,
+        "protein": 11.9,
+        "fat": 9.2,
+        "carbohydrates": 32.1
       },
       "manufacturer": {
-        "name": "Сысоев Лтд",
+        "name": "НПО «Мельникова-Юдина»",
         "country": "Россия",
-        "website": "https://ip.org",
-        "inn": "3880754993"
+        "website": "https://zao.ru",
+        "inn": "8084632702"
+      }
+    },
+    {
+      "product_id": "prd-1006",
+      "name": "Витрина Лапа",
+      "category": "🥦 Овощи и зелень",
+      "quantity": 2,
+      "unit": "л",
+      "price_per_unit": 197.14,
+      "total_price": 394.28,
+      "kbju": {
+        "calories": 159.3,
+        "protein": 17.1,
+        "fat": 8.9,
+        "carbohydrates": 42.8
+      },
+      "manufacturer": {
+        "name": "ООО «Ширяева Матвеев»",
+        "country": "Россия",
+        "website": "https://rao.biz",
+        "inn": "8993676224"
       }
     }
   ],
-  "total_amount": 218.76,
-  "payment_method": "cash",
+  "total_amount": 826.66,
+  "payment_method": "card",
   "is_delivery": false,
   "delivery_address": {
     "country": "Россия",
-    "city": "г. Магнитогорск",
-    "street": "ш. Пушкина",
-    "house": "159",
-    "apartment": "22",
-    "postal_code": "129259"
+    "city": "к. Жуковский",
+    "street": "ш. Народное",
+    "house": "660",
+    "apartment": "18",
+    "postal_code": "641010"
   },
-  "purchase_datetime": "2025-08-06T19:57:10.990320"
+  "purchase_datetime": "2025-08-15T13:42:39.552243"
 }

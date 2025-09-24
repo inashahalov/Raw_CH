@@ -1,63 +1,105 @@
 {
   "purchase_id": "ord-00132",
   "customer": {
-    "customer_id": "cus-1009",
-    "first_name": "Фаина",
-    "last_name": "Моисеев",
-    "email": "isidorlazarev@example.org",
-    "phone": "+7 365 622 67 69",
+    "customer_id": "cus-1000",
+    "first_name": "Никодим",
+    "last_name": "Шилов",
+    "email": "pavlovaksenija@example.net",
+    "phone": "+7 115 715 6344",
     "is_loyalty_member": true,
-    "loyalty_card_number": "LOYAL-E59BA1E587"
+    "loyalty_card_number": "LOYAL-29F03EC301"
   },
   "store": {
-    "store_id": "store-009",
-    "store_name": "Большая Пикча — Магазин на пер. Пригородный",
+    "store_id": "store-008",
+    "store_name": "Большая Пикча — Магазин на алл. Снежная",
     "store_network": "Большая Пикча",
     "location": {
       "country": "Россия",
-      "city": "ст. Тосно",
-      "street": "бул. Снежный",
-      "house": "17",
-      "postal_code": "064592",
+      "city": "ст. Тольятти",
+      "street": "ул. Нагорная",
+      "house": "6/5",
+      "postal_code": "884574",
       "coordinates": {
-        "latitude": -81.084922,
-        "longitude": -135.926762
+        "latitude": 12.6574315,
+        "longitude": 95.917203
       }
     }
   },
   "items": [
     {
-      "product_id": "prd-1008",
-      "name": "Фонарик Успокоиться",
-      "category": "🥖 Зерновые и хлебобулочные изделия",
+      "product_id": "prd-1007",
+      "name": "Инвалид Госпожа",
+      "category": "🥩 Мясо, рыба, яйца и бобовые",
       "quantity": 4,
       "unit": "упаковка",
-      "price_per_unit": 73.43,
-      "total_price": 293.72,
+      "price_per_unit": 216.19,
+      "total_price": 864.76,
       "kbju": {
-        "calories": 92.6,
-        "protein": 18.4,
-        "fat": 11.5,
-        "carbohydrates": 24.8
+        "calories": 103.2,
+        "protein": 11.9,
+        "fat": 9.2,
+        "carbohydrates": 32.1
       },
       "manufacturer": {
-        "name": "ООО «Денисов, Щукина и Гришин»",
+        "name": "НПО «Мельникова-Юдина»",
         "country": "Россия",
-        "website": "https://kozlova.org",
-        "inn": "3531459365"
+        "website": "https://zao.ru",
+        "inn": "8084632702"
+      }
+    },
+    {
+      "product_id": "prd-1010",
+      "name": "Бак Советовать",
+      "category": "🍏 Фрукты и ягоды",
+      "quantity": 1,
+      "unit": "упаковка",
+      "price_per_unit": 283.56,
+      "total_price": 283.56,
+      "kbju": {
+        "calories": 247.4,
+        "protein": 3.4,
+        "fat": 14.4,
+        "carbohydrates": 46.0
+      },
+      "manufacturer": {
+        "name": "Гаврилова Инкорпорэйтед",
+        "country": "Россия",
+        "website": "https://ao.com",
+        "inn": "5008817113"
+      }
+    },
+    {
+      "product_id": "prd-1015",
+      "name": "Умолять Нервно",
+      "category": "🥩 Мясо, рыба, яйца и бобовые",
+      "quantity": 4,
+      "unit": "упаковка",
+      "price_per_unit": 249.57,
+      "total_price": 998.28,
+      "kbju": {
+        "calories": 130.6,
+        "protein": 7.3,
+        "fat": 8.5,
+        "carbohydrates": 35.1
+      },
+      "manufacturer": {
+        "name": "Трофимова Лтд",
+        "country": "Россия",
+        "website": "https://transkapitalbank.edu",
+        "inn": "0300157246"
       }
     }
   ],
-  "total_amount": 293.72,
-  "payment_method": "card",
-  "is_delivery": false,
+  "total_amount": 2146.6,
+  "payment_method": "cash",
+  "is_delivery": true,
   "delivery_address": {
     "country": "Россия",
-    "city": "клх Воткинск",
-    "street": "ш. 60 лет Октября",
-    "house": "4/9",
-    "apartment": "69",
-    "postal_code": "381729"
+    "city": "к. Жуковский",
+    "street": "ш. Народное",
+    "house": "660",
+    "apartment": "18",
+    "postal_code": "641010"
   },
-  "purchase_datetime": "2025-08-07T19:57:11.016315"
+  "purchase_datetime": "2025-07-20T13:42:39.570949"
 }

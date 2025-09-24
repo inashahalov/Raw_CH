@@ -1,84 +1,105 @@
 {
   "purchase_id": "ord-00200",
   "customer": {
-    "customer_id": "cus-1032",
-    "first_name": "Рубен",
-    "last_name": "Корнилов",
-    "email": "ynikolaeva@example.com",
-    "phone": "8 (658) 941-97-66",
+    "customer_id": "cus-1022",
+    "first_name": "Валерий",
+    "last_name": "Щукина",
+    "email": "sgrigoreva@example.com",
+    "phone": "+7 145 587 26 86",
     "is_loyalty_member": true,
-    "loyalty_card_number": "LOYAL-5A9D83D26F"
+    "loyalty_card_number": "LOYAL-314C1CBF7D"
   },
   "store": {
-    "store_id": "store-007",
-    "store_name": "Большая Пикча — Магазин на ш. Придорожное",
+    "store_id": "store-001",
+    "store_name": "Большая Пикча — Магазин на бул. Колхозный",
     "store_network": "Большая Пикча",
     "location": {
       "country": "Россия",
-      "city": "к. Бомнак",
-      "street": "ш. Энгельса",
-      "house": "440",
-      "postal_code": "831672",
+      "city": "к. Жуковский",
+      "street": "ш. Поперечное",
+      "house": "198",
+      "postal_code": "772195",
       "coordinates": {
-        "latitude": 25.0856345,
-        "longitude": 118.498939
+        "latitude": -80.495473,
+        "longitude": 41.675442
       }
     }
   },
   "items": [
     {
-      "product_id": "prd-1017",
-      "name": "Неожиданный Эпоха",
-      "category": "🥦 Овощи и зелень",
+      "product_id": "prd-1007",
+      "name": "Инвалид Госпожа",
+      "category": "🥩 Мясо, рыба, яйца и бобовые",
       "quantity": 2,
       "unit": "упаковка",
-      "price_per_unit": 187.0,
-      "total_price": 374.0,
+      "price_per_unit": 216.19,
+      "total_price": 432.38,
       "kbju": {
-        "calories": 291.5,
-        "protein": 6.8,
-        "fat": 3.0,
-        "carbohydrates": 7.4
+        "calories": 103.2,
+        "protein": 11.9,
+        "fat": 9.2,
+        "carbohydrates": 32.1
       },
       "manufacturer": {
-        "name": "ЗАО «Сафонова Ларионова»",
+        "name": "НПО «Мельникова-Юдина»",
         "country": "Россия",
-        "website": "https://ao.org",
-        "inn": "0841571264"
+        "website": "https://zao.ru",
+        "inn": "8084632702"
       }
     },
     {
-      "product_id": "prd-1002",
-      "name": "Разводить Школьный",
-      "category": "🥦 Овощи и зелень",
-      "quantity": 5,
-      "unit": "л",
-      "price_per_unit": 232.4,
-      "total_price": 1162.0,
+      "product_id": "prd-1000",
+      "name": "Жестокий Очередной",
+      "category": "🥛 Молочные продукты",
+      "quantity": 3,
+      "unit": "кг",
+      "price_per_unit": 286.95,
+      "total_price": 860.85,
       "kbju": {
-        "calories": 276.5,
-        "protein": 15.9,
-        "fat": 7.0,
-        "carbohydrates": 4.4
+        "calories": 269.3,
+        "protein": 18.8,
+        "fat": 6.7,
+        "carbohydrates": 25.1
       },
       "manufacturer": {
-        "name": "ОАО «Туров, Горбунова и Галкина»",
+        "name": "ОАО «Веселова Крылова»",
         "country": "Россия",
-        "website": "https://oao.com",
-        "inn": "7774237965"
+        "website": "https://alekseeva.com",
+        "inn": "3586308951"
+      }
+    },
+    {
+      "product_id": "prd-1017",
+      "name": "Сутки Покидать",
+      "category": "🥩 Мясо, рыба, яйца и бобовые",
+      "quantity": 1,
+      "unit": "кг",
+      "price_per_unit": 240.7,
+      "total_price": 240.7,
+      "kbju": {
+        "calories": 208.1,
+        "protein": 11.4,
+        "fat": 6.1,
+        "carbohydrates": 10.1
+      },
+      "manufacturer": {
+        "name": "ЗАО «Стрелков Журавлева»",
+        "country": "Россия",
+        "website": "https://ooo.com",
+        "inn": "4048587161"
       }
     }
   ],
-  "total_amount": 1536.0,
-  "payment_method": "card",
-  "is_delivery": true,
+  "total_amount": 1533.93,
+  "payment_method": "cash",
+  "is_delivery": false,
   "delivery_address": {
     "country": "Россия",
-    "city": "к. Комсомольск-на-Амуре",
-    "street": "ул. Гафури",
-    "house": "18",
-    "apartment": "85",
-    "postal_code": "983043"
+    "city": "г. Холмск",
+    "street": "бул. Комарова",
+    "house": "48",
+    "apartment": "38",
+    "postal_code": "163195"
   },
-  "purchase_datetime": "2025-07-26T19:57:11.049286"
+  "purchase_datetime": "2025-06-29T13:42:39.599716"
 }

@@ -1,105 +1,105 @@
 {
   "purchase_id": "ord-00192",
   "customer": {
-    "customer_id": "cus-1037",
-    "first_name": "Ювеналий",
-    "last_name": "Хохлов",
-    "email": "djachkovapolina@example.net",
-    "phone": "82971596132",
+    "customer_id": "cus-1036",
+    "first_name": "Ким",
+    "last_name": "Егорова",
+    "email": "drozdovprohor@example.org",
+    "phone": "+7 (091) 539-70-91",
     "is_loyalty_member": true,
-    "loyalty_card_number": "LOYAL-733B019E68"
+    "loyalty_card_number": "LOYAL-BDFDF76BEE"
   },
   "store": {
-    "store_id": "store-028",
-    "store_name": "Большая Пикча — Магазин на пр. Крупской",
+    "store_id": "store-024",
+    "store_name": "Большая Пикча — Магазин на наб. Харьковская",
     "store_network": "Большая Пикча",
     "location": {
       "country": "Россия",
-      "city": "ст. Карталы",
-      "street": "ул. Королева",
-      "house": "5",
-      "postal_code": "762232",
+      "city": "к. Кыштым",
+      "street": "пр. Луначарского",
+      "house": "969",
+      "postal_code": "152629",
       "coordinates": {
-        "latitude": -62.0370365,
-        "longitude": 85.309577
+        "latitude": 46.6419795,
+        "longitude": -1.629277
       }
     }
   },
   "items": [
     {
-      "product_id": "prd-1014",
-      "name": "Сустав Совещание",
-      "category": "🥦 Овощи и зелень",
-      "quantity": 5,
-      "unit": "л",
-      "price_per_unit": 148.14,
-      "total_price": 740.7,
-      "kbju": {
-        "calories": 294.0,
-        "protein": 10.9,
-        "fat": 5.7,
-        "carbohydrates": 7.8
-      },
-      "manufacturer": {
-        "name": "ИП «Нестерова»",
-        "country": "Россия",
-        "website": "https://novikov.info",
-        "inn": "8559866409"
-      }
-    },
-    {
-      "product_id": "prd-1019",
-      "name": "Адвокат Другой",
-      "category": "🥦 Овощи и зелень",
-      "quantity": 5,
-      "unit": "шт",
-      "price_per_unit": 43.3,
-      "total_price": 216.5,
-      "kbju": {
-        "calories": 77.7,
-        "protein": 13.9,
-        "fat": 10.1,
-        "carbohydrates": 22.7
-      },
-      "manufacturer": {
-        "name": "Чернова Групп",
-        "country": "Россия",
-        "website": "https://belozerova.com",
-        "inn": "4723890506"
-      }
-    },
-    {
-      "product_id": "prd-1007",
-      "name": "Штаб Приличный",
+      "product_id": "prd-1010",
+      "name": "Бак Советовать",
       "category": "🍏 Фрукты и ягоды",
-      "quantity": 5,
-      "unit": "кг",
-      "price_per_unit": 196.88,
-      "total_price": 984.4,
+      "quantity": 4,
+      "unit": "упаковка",
+      "price_per_unit": 283.56,
+      "total_price": 1134.24,
       "kbju": {
-        "calories": 164.9,
-        "protein": 16.7,
-        "fat": 3.6,
-        "carbohydrates": 31.4
+        "calories": 247.4,
+        "protein": 3.4,
+        "fat": 14.4,
+        "carbohydrates": 46.0
       },
       "manufacturer": {
-        "name": "СДС-Уголь",
+        "name": "Гаврилова Инкорпорэйтед",
         "country": "Россия",
-        "website": "https://npo.ru",
-        "inn": "9854590544"
+        "website": "https://ao.com",
+        "inn": "5008817113"
+      }
+    },
+    {
+      "product_id": "prd-1016",
+      "name": "Очередной Аллея",
+      "category": "🥖 Зерновые и хлебобулочные изделия",
+      "quantity": 2,
+      "unit": "шт",
+      "price_per_unit": 251.07,
+      "total_price": 502.14,
+      "kbju": {
+        "calories": 277.2,
+        "protein": 18.2,
+        "fat": 6.0,
+        "carbohydrates": 11.3
+      },
+      "manufacturer": {
+        "name": "ГК Автомир",
+        "country": "Россия",
+        "website": "https://andreev.info",
+        "inn": "8436477835"
+      }
+    },
+    {
+      "product_id": "prd-1004",
+      "name": "Прежний Успокоиться",
+      "category": "🥦 Овощи и зелень",
+      "quantity": 5,
+      "unit": "упаковка",
+      "price_per_unit": 192.71,
+      "total_price": 963.55,
+      "kbju": {
+        "calories": 95.9,
+        "protein": 17.1,
+        "fat": 12.1,
+        "carbohydrates": 42.3
+      },
+      "manufacturer": {
+        "name": "АО «Русакова»",
+        "country": "Россия",
+        "website": "https://nesterova.com",
+        "inn": "3179388333"
       }
     }
   ],
-  "total_amount": 1941.6,
+  "total_amount": 2599.93,
   "payment_method": "card",
-  "is_delivery": false,
+  "is_delivery": true,
   "delivery_address": {
     "country": "Россия",
-    "city": "д. Терней",
-    "street": "алл. Крупской",
-    "house": "8",
-    "apartment": "97",
-    "postal_code": "943074"
+    "city": "клх Биробиджан",
+    "street": "бул. Димитрова",
+    "house": "490",
+    "apartment": "100",
+    "postal_code": "621024"
   },
-  "purchase_datetime": "2025-09-03T19:57:11.045298"
+  "purchase_datetime": "2025-09-17T13:42:39.596506"
 }

@@ -1,63 +1,84 @@
 {
   "purchase_id": "ord-00098",
   "customer": {
-    "customer_id": "cus-1007",
-    "first_name": "Константин",
-    "last_name": "Фадеев",
-    "email": "korolevefim@example.net",
-    "phone": "8 (270) 745-5698",
+    "customer_id": "cus-1005",
+    "first_name": "Вячеслав",
+    "last_name": "Пономарева",
+    "email": "ipat1970@example.net",
+    "phone": "8 (271) 150-0241",
     "is_loyalty_member": true,
-    "loyalty_card_number": "LOYAL-2DFE8E6C69"
+    "loyalty_card_number": "LOYAL-016D381454"
   },
   "store": {
-    "store_id": "store-041",
-    "store_name": "Маленькая Пикча — Магазин на наб. Буденного",
+    "store_id": "store-037",
+    "store_name": "Маленькая Пикча — Магазин на пр. Мусы Джалиля",
     "store_network": "Маленькая Пикча",
     "location": {
       "country": "Россия",
-      "city": "клх Печенга",
-      "street": "ш. Раздольное",
-      "house": "7/9",
-      "postal_code": "426924",
+      "city": "клх Биробиджан",
+      "street": "ш. Достоевского",
+      "house": "8",
+      "postal_code": "786634",
       "coordinates": {
-        "latitude": 31.407587,
-        "longitude": -5.558878
+        "latitude": 88.650457,
+        "longitude": 140.229319
       }
     }
   },
   "items": [
     {
-      "product_id": "prd-1017",
-      "name": "Неожиданный Эпоха",
-      "category": "🥦 Овощи и зелень",
-      "quantity": 5,
-      "unit": "упаковка",
-      "price_per_unit": 187.0,
-      "total_price": 935.0,
+      "product_id": "prd-1016",
+      "name": "Очередной Аллея",
+      "category": "🥖 Зерновые и хлебобулочные изделия",
+      "quantity": 4,
+      "unit": "шт",
+      "price_per_unit": 251.07,
+      "total_price": 1004.28,
       "kbju": {
-        "calories": 291.5,
-        "protein": 6.8,
-        "fat": 3.0,
-        "carbohydrates": 7.4
+        "calories": 277.2,
+        "protein": 18.2,
+        "fat": 6.0,
+        "carbohydrates": 11.3
       },
       "manufacturer": {
-        "name": "ЗАО «Сафонова Ларионова»",
+        "name": "ГК Автомир",
         "country": "Россия",
-        "website": "https://ao.org",
-        "inn": "0841571264"
+        "website": "https://andreev.info",
+        "inn": "8436477835"
+      }
+    },
+    {
+      "product_id": "prd-1002",
+      "name": "Издали Перебивать",
+      "category": "🥩 Мясо, рыба, яйца и бобовые",
+      "quantity": 4,
+      "unit": "упаковка",
+      "price_per_unit": 61.88,
+      "total_price": 247.52,
+      "kbju": {
+        "calories": 131.0,
+        "protein": 3.3,
+        "fat": 2.2,
+        "carbohydrates": 21.7
+      },
+      "manufacturer": {
+        "name": "Государственная транспортная лизинговая компания",
+        "country": "Россия",
+        "website": "https://zao.org",
+        "inn": "0226529553"
       }
     }
   ],
-  "total_amount": 935.0,
-  "payment_method": "card",
-  "is_delivery": true,
+  "total_amount": 1251.8,
+  "payment_method": "cash",
+  "is_delivery": false,
   "delivery_address": {
     "country": "Россия",
-    "city": "клх Тихвин",
-    "street": "алл. Водопроводная",
-    "house": "309",
-    "apartment": "57",
-    "postal_code": "983642"
+    "city": "ст. Сортавала",
+    "street": "ш. Николаева",
+    "house": "388",
+    "apartment": "30",
+    "postal_code": "673426"
   },
-  "purchase_datetime": "2025-08-20T19:57:10.997752"
+  "purchase_datetime": "2025-07-05T13:42:39.557334"
 }

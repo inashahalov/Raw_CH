@@ -1,6 +1,6 @@
 {
   "store_id": "store-044",
-  "store_name": "Маленькая Пикча — Магазин на ш. Коммунальное",
+  "store_name": "Маленькая Пикча — Магазин на наб. Черноморская",
   "store_network": "Маленькая Пикча",
   "store_type_description": "Магазин у дома менее 100 кв.м. Входит в сеть из 15 магазинов.",
   "type": "offline",
@@ -12,19 +12,19 @@
     "🥦 Овощи и зелень"
   ],
   "manager": {
-    "name": "Елизавета Никифоровна Никитина",
-    "phone": "+7 (397) 032-9695",
-    "email": "petr_79@example.com"
+    "name": "Петр Артурович Белозеров",
+    "phone": "85204606693",
+    "email": "luchezar1970@example.com"
   },
   "location": {
     "country": "Россия",
-    "city": "ст. Богучар",
-    "street": "алл. Серова",
-    "house": "68",
-    "postal_code": "716553",
+    "city": "д. Псебай",
+    "street": "пр. Сплавный",
+    "house": "86",
+    "postal_code": "078632",
     "coordinates": {
-      "latitude": 67.2944965,
-      "longitude": 21.005267
+      "latitude": -54.435567,
+      "longitude": 133.144877
     }
   },
   "opening_hours": {
@@ -34,6 +34,6 @@
   },
   "accepts_online_orders": true,
   "delivery_available": true,
-  "warehouse_connected": false,
-  "last_inventory_date": "2025-09-23"
+  "warehouse_connected": true,
+  "last_inventory_date": "2025-09-24"
 }

@@ -1,63 +1,84 @@
 {
   "purchase_id": "ord-00038",
   "customer": {
-    "customer_id": "cus-1015",
-    "first_name": "Фока",
-    "last_name": "Тетерина",
-    "email": "rjabovboleslav@example.com",
-    "phone": "+7 (465) 499-08-07",
+    "customer_id": "cus-1042",
+    "first_name": "Дорофей",
+    "last_name": "Савельев",
+    "email": "jshchukina@example.com",
+    "phone": "8 954 185 06 66",
     "is_loyalty_member": true,
-    "loyalty_card_number": "LOYAL-0B04F4F2B7"
+    "loyalty_card_number": "LOYAL-6F1263176C"
   },
   "store": {
-    "store_id": "store-039",
-    "store_name": "Маленькая Пикча — Магазин на бул. Путейский",
+    "store_id": "store-034",
+    "store_name": "Маленькая Пикча — Магазин на алл. 9 Января",
     "store_network": "Маленькая Пикча",
     "location": {
       "country": "Россия",
-      "city": "с. Жиганск",
-      "street": "наб. Советской Армии",
-      "house": "55",
-      "postal_code": "339713",
+      "city": "ст. Беслан",
+      "street": "бул. Заовражный",
+      "house": "231",
+      "postal_code": "489039",
       "coordinates": {
-        "latitude": -41.3992205,
-        "longitude": -101.881851
+        "latitude": 10.2862715,
+        "longitude": 27.561048
       }
     }
   },
   "items": [
     {
-      "product_id": "prd-1018",
-      "name": "Низкий Присесть",
-      "category": "🥩 Мясо, рыба, яйца и бобовые",
-      "quantity": 2,
-      "unit": "кг",
-      "price_per_unit": 240.2,
-      "total_price": 480.4,
+      "product_id": "prd-1003",
+      "name": "Дорогой Руководитель",
+      "category": "🥦 Овощи и зелень",
+      "quantity": 4,
+      "unit": "упаковка",
+      "price_per_unit": 69.35,
+      "total_price": 277.4,
       "kbju": {
-        "calories": 272.9,
-        "protein": 7.8,
-        "fat": 2.3,
-        "carbohydrates": 5.3
+        "calories": 223.8,
+        "protein": 18.0,
+        "fat": 5.2,
+        "carbohydrates": 3.6
       },
       "manufacturer": {
-        "name": "Ланит",
+        "name": "НПО «Панова Ильина»",
         "country": "Россия",
-        "website": "https://rao.info",
-        "inn": "3763771194"
+        "website": "https://ooo.biz",
+        "inn": "4367291844"
+      }
+    },
+    {
+      "product_id": "prd-1015",
+      "name": "Умолять Нервно",
+      "category": "🥩 Мясо, рыба, яйца и бобовые",
+      "quantity": 2,
+      "unit": "упаковка",
+      "price_per_unit": 249.57,
+      "total_price": 499.14,
+      "kbju": {
+        "calories": 130.6,
+        "protein": 7.3,
+        "fat": 8.5,
+        "carbohydrates": 35.1
+      },
+      "manufacturer": {
+        "name": "Трофимова Лтд",
+        "country": "Россия",
+        "website": "https://transkapitalbank.edu",
+        "inn": "0300157246"
       }
     }
   ],
-  "total_amount": 480.4,
+  "total_amount": 776.54,
   "payment_method": "cash",
   "is_delivery": false,
   "delivery_address": {
     "country": "Россия",
-    "city": "д. Оренбург",
-    "street": "алл. Портовая",
-    "house": "396",
-    "apartment": "100",
-    "postal_code": "150789"
+    "city": "п. Октябрьское (Хант.)",
+    "street": "пр. Технический",
+    "house": "120",
+    "apartment": "9",
+    "postal_code": "623624"
   },
-  "purchase_datetime": "2025-09-02T19:57:10.968636"
+  "purchase_datetime": "2025-07-27T13:42:39.533080"
 }

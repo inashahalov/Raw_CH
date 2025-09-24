@@ -1,36 +1,36 @@
 {
   "customer_id": "cus-1042",
-  "first_name": "Тимофей",
-  "last_name": "Кудряшов",
-  "email": "jaroslav_50@example.org",
-  "phone": "+7 (191) 932-42-71",
-  "birth_date": "1987-10-20",
+  "first_name": "Дорофей",
+  "last_name": "Савельев",
+  "email": "jshchukina@example.com",
+  "phone": "8 954 185 06 66",
+  "birth_date": "1972-01-10",
   "gender": "female",
-  "registration_date": "2025-09-23T19:57:10.949783",
+  "registration_date": "2025-09-24T13:42:39.517409",
   "is_loyalty_member": true,
-  "loyalty_card_number": "LOYAL-859FD77F84",
+  "loyalty_card_number": "LOYAL-6F1263176C",
   "purchase_location": {
     "store_id": "store-043",
-    "store_name": "Маленькая Пикча — Магазин на наб. Полярная",
+    "store_name": "Маленькая Пикча — Магазин на бул. Менделеева",
     "store_network": "Маленькая Пикча",
     "store_type_description": "Магазин у дома менее 100 кв.м. Входит в сеть из 15 магазинов.",
     "country": "Россия",
-    "city": "д. Сусуман",
-    "street": "ул. Клубная",
-    "house": "27",
-    "postal_code": "336566"
+    "city": "п. Октябрьское (Хант.)",
+    "street": "пр. Автомобилистов",
+    "house": "234",
+    "postal_code": "988843"
   },
   "delivery_address": {
     "country": "Россия",
-    "city": "д. Сусуман",
-    "street": "наб. Торговая",
-    "house": "8/8",
-    "apartment": "65",
-    "postal_code": "695747"
+    "city": "п. Октябрьское (Хант.)",
+    "street": "пр. Технический",
+    "house": "120",
+    "apartment": "9",
+    "postal_code": "623624"
   },
   "preferences": {
     "preferred_language": "ru",
-    "preferred_payment_method": "card",
-    "receive_promotions": false
+    "preferred_payment_method": "cash",
+    "receive_promotions": true
   }
 }

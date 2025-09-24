@@ -1,6 +1,6 @@
 {
   "store_id": "store-025",
-  "store_name": "Большая Пикча — Магазин на ул. Максима Горького",
+  "store_name": "Большая Пикча — Магазин на ш. Тургенева",
   "store_network": "Большая Пикча",
   "store_type_description": "Супермаркет более 200 кв.м. Входит в сеть из 30 магазинов.",
   "type": "offline",
@@ -12,19 +12,19 @@
     "🥦 Овощи и зелень"
   ],
   "manager": {
-    "name": "Раиса Леонидовна Блохина",
-    "phone": "+7 (305) 159-62-46",
-    "email": "dsemenov@example.com"
+    "name": "Устинова Валентина Анатольевна",
+    "phone": "8 444 306 49 99",
+    "email": "grishinaaleksandra@example.net"
   },
   "location": {
     "country": "Россия",
-    "city": "п. Вязьма",
-    "street": "пр. Энергетиков",
-    "house": "3/8",
-    "postal_code": "499052",
+    "city": "г. Мичуринск",
+    "street": "алл. Нижняя",
+    "house": "3/6",
+    "postal_code": "809704",
     "coordinates": {
-      "latitude": -21.8330225,
-      "longitude": 32.3017
+      "latitude": -39.602059,
+      "longitude": -2.767983
     }
   },
   "opening_hours": {
@@ -35,5 +35,5 @@
   "accepts_online_orders": true,
   "delivery_available": true,
   "warehouse_connected": false,
-  "last_inventory_date": "2025-09-23"
+  "last_inventory_date": "2025-09-24"
 }

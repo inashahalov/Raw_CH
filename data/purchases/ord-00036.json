@@ -1,105 +1,84 @@
 {
   "purchase_id": "ord-00036",
   "customer": {
-    "customer_id": "cus-1035",
-    "first_name": "Кузьма",
-    "last_name": "Лыткин",
-    "email": "maksimtitov@example.com",
-    "phone": "+7 435 823 28 86",
+    "customer_id": "cus-1017",
+    "first_name": "Никодим",
+    "last_name": "Селиверстова",
+    "email": "alekse_1982@example.com",
+    "phone": "+7 (820) 183-6006",
     "is_loyalty_member": true,
-    "loyalty_card_number": "LOYAL-54F52DC4FC"
+    "loyalty_card_number": "LOYAL-5FCEC46A5F"
   },
   "store": {
-    "store_id": "store-010",
-    "store_name": "Большая Пикча — Магазин на наб. Энгельса",
-    "store_network": "Большая Пикча",
+    "store_id": "store-035",
+    "store_name": "Маленькая Пикча — Магазин на бул. Промышленный",
+    "store_network": "Маленькая Пикча",
     "location": {
       "country": "Россия",
-      "city": "клх Воткинск",
-      "street": "пр. Шаумяна",
-      "house": "5/8",
-      "postal_code": "770514",
+      "city": "д. Печора",
+      "street": "ш. Новоселов",
+      "house": "2",
+      "postal_code": "114081",
       "coordinates": {
-        "latitude": -37.579403,
-        "longitude": 150.370954
+        "latitude": -78.103015,
+        "longitude": -139.348891
       }
     }
   },
   "items": [
     {
-      "product_id": "prd-1006",
-      "name": "Мелькнуть Сбросить",
-      "category": "🍏 Фрукты и ягоды",
-      "quantity": 1,
-      "unit": "кг",
-      "price_per_unit": 251.59,
-      "total_price": 251.59,
-      "kbju": {
-        "calories": 208.0,
-        "protein": 7.1,
-        "fat": 7.6,
-        "carbohydrates": 15.3
-      },
-      "manufacturer": {
-        "name": "ИП «Киселев Комарова»",
-        "country": "Россия",
-        "website": "https://turova.info",
-        "inn": "8487805184"
-      }
-    },
-    {
-      "product_id": "prd-1003",
-      "name": "Идея Вообще",
-      "category": "🍏 Фрукты и ягоды",
-      "quantity": 2,
-      "unit": "упаковка",
-      "price_per_unit": 270.56,
-      "total_price": 541.12,
-      "kbju": {
-        "calories": 53.3,
-        "protein": 13.5,
-        "fat": 3.5,
-        "carbohydrates": 40.5
-      },
-      "manufacturer": {
-        "name": "АО «Назарова»",
-        "country": "Россия",
-        "website": "https://oao.ru",
-        "inn": "9069795571"
-      }
-    },
-    {
       "product_id": "prd-1015",
-      "name": "Войти Приходить",
-      "category": "🥛 Молочные продукты",
-      "quantity": 2,
-      "unit": "шт",
-      "price_per_unit": 92.89,
-      "total_price": 185.78,
+      "name": "Умолять Нервно",
+      "category": "🥩 Мясо, рыба, яйца и бобовые",
+      "quantity": 1,
+      "unit": "упаковка",
+      "price_per_unit": 249.57,
+      "total_price": 249.57,
       "kbju": {
-        "calories": 297.1,
-        "protein": 17.3,
-        "fat": 7.9,
-        "carbohydrates": 24.3
+        "calories": 130.6,
+        "protein": 7.3,
+        "fat": 8.5,
+        "carbohydrates": 35.1
       },
       "manufacturer": {
-        "name": "Гришина Лтд",
+        "name": "Трофимова Лтд",
         "country": "Россия",
-        "website": "https://ooo.net",
-        "inn": "5499321537"
+        "website": "https://transkapitalbank.edu",
+        "inn": "0300157246"
+      }
+    },
+    {
+      "product_id": "prd-1016",
+      "name": "Очередной Аллея",
+      "category": "🥖 Зерновые и хлебобулочные изделия",
+      "quantity": 1,
+      "unit": "шт",
+      "price_per_unit": 251.07,
+      "total_price": 251.07,
+      "kbju": {
+        "calories": 277.2,
+        "protein": 18.2,
+        "fat": 6.0,
+        "carbohydrates": 11.3
+      },
+      "manufacturer": {
+        "name": "ГК Автомир",
+        "country": "Россия",
+        "website": "https://andreev.info",
+        "inn": "8436477835"
       }
     }
   ],
-  "total_amount": 978.49,
+  "total_amount": 500.64,
   "payment_method": "card",
-  "is_delivery": false,
+  "is_delivery": true,
   "delivery_address": {
     "country": "Россия",
-    "city": "с. Катав-Ивановск",
-    "street": "бул. Молодежный",
-    "house": "7",
-    "apartment": "82",
-    "postal_code": "657961"
+    "city": "г. Раменское",
+    "street": "бул. Березовый",
+    "house": "69",
+    "apartment": "36",
+    "postal_code": "147385"
   },
-  "purchase_datetime": "2025-06-27T19:57:10.967716"
+  "purchase_datetime": "2025-07-28T13:42:39.532385"
 }

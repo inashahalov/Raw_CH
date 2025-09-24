@@ -1,6 +1,6 @@
 {
   "store_id": "store-010",
-  "store_name": "Большая Пикча — Магазин на наб. Энгельса",
+  "store_name": "Большая Пикча — Магазин на алл. Казанская",
   "store_network": "Большая Пикча",
   "store_type_description": "Супермаркет более 200 кв.м. Входит в сеть из 30 магазинов.",
   "type": "offline",
@@ -12,19 +12,19 @@
     "🥦 Овощи и зелень"
   ],
   "manager": {
-    "name": "Одинцов Никон Владленович",
-    "phone": "8 095 009 7972",
-    "email": "kalashnikovmiron@example.com"
+    "name": "Ефимов Гордей Филатович",
+    "phone": "8 489 927 8550",
+    "email": "erofe_36@example.com"
   },
   "location": {
     "country": "Россия",
-    "city": "клх Воткинск",
-    "street": "пр. Шаумяна",
-    "house": "5/8",
-    "postal_code": "770514",
+    "city": "г. Новочеркасск",
+    "street": "бул. Р.Люксембург",
+    "house": "615",
+    "postal_code": "760266",
     "coordinates": {
-      "latitude": -37.579403,
-      "longitude": 150.370954
+      "latitude": -53.9201405,
+      "longitude": 17.97173
     }
   },
   "opening_hours": {
@@ -35,5 +35,5 @@
   "accepts_online_orders": true,
   "delivery_available": true,
   "warehouse_connected": true,
-  "last_inventory_date": "2025-09-23"
+  "last_inventory_date": "2025-09-24"
 }

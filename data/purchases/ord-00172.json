@@ -1,63 +1,105 @@
 {
   "purchase_id": "ord-00172",
   "customer": {
-    "customer_id": "cus-1000",
-    "first_name": "Лора",
-    "last_name": "Тетерин",
-    "email": "eduardpopov@example.net",
-    "phone": "+7 360 725 52 37",
+    "customer_id": "cus-1005",
+    "first_name": "Вячеслав",
+    "last_name": "Пономарева",
+    "email": "ipat1970@example.net",
+    "phone": "8 (271) 150-0241",
     "is_loyalty_member": true,
-    "loyalty_card_number": "LOYAL-E7A3E28BE6"
+    "loyalty_card_number": "LOYAL-016D381454"
   },
   "store": {
-    "store_id": "store-005",
-    "store_name": "Большая Пикча — Магазин на алл. Гагарина",
+    "store_id": "store-028",
+    "store_name": "Большая Пикча — Магазин на наб. Высокая",
     "store_network": "Большая Пикча",
     "location": {
       "country": "Россия",
-      "city": "п. Выборг",
-      "street": "наб. Виноградная",
-      "house": "5",
-      "postal_code": "649137",
+      "city": "клх Терней",
+      "street": "ш. Майское",
+      "house": "4/6",
+      "postal_code": "740829",
       "coordinates": {
-        "latitude": -20.3813075,
-        "longitude": 69.885599
+        "latitude": 42.5208505,
+        "longitude": -137.089372
       }
     }
   },
   "items": [
     {
-      "product_id": "prd-1017",
-      "name": "Неожиданный Эпоха",
-      "category": "🥦 Овощи и зелень",
-      "quantity": 3,
-      "unit": "упаковка",
-      "price_per_unit": 187.0,
-      "total_price": 561.0,
+      "product_id": "prd-1008",
+      "name": "Очутиться Песенка",
+      "category": "🥩 Мясо, рыба, яйца и бобовые",
+      "quantity": 4,
+      "unit": "шт",
+      "price_per_unit": 248.49,
+      "total_price": 993.96,
       "kbju": {
-        "calories": 291.5,
-        "protein": 6.8,
-        "fat": 3.0,
-        "carbohydrates": 7.4
+        "calories": 51.2,
+        "protein": 13.0,
+        "fat": 6.4,
+        "carbohydrates": 48.7
       },
       "manufacturer": {
-        "name": "ЗАО «Сафонова Ларионова»",
+        "name": "Лазарева Инк",
         "country": "Россия",
-        "website": "https://ao.org",
-        "inn": "0841571264"
+        "website": "https://guljaev.com",
+        "inn": "0966441801"
+      }
+    },
+    {
+      "product_id": "prd-1003",
+      "name": "Дорогой Руководитель",
+      "category": "🥦 Овощи и зелень",
+      "quantity": 2,
+      "unit": "упаковка",
+      "price_per_unit": 69.35,
+      "total_price": 138.7,
+      "kbju": {
+        "calories": 223.8,
+        "protein": 18.0,
+        "fat": 5.2,
+        "carbohydrates": 3.6
+      },
+      "manufacturer": {
+        "name": "НПО «Панова Ильина»",
+        "country": "Россия",
+        "website": "https://ooo.biz",
+        "inn": "4367291844"
+      }
+    },
+    {
+      "product_id": "prd-1019",
+      "name": "Исследование Мягкий",
+      "category": "🥦 Овощи и зелень",
+      "quantity": 1,
+      "unit": "шт",
+      "price_per_unit": 101.49,
+      "total_price": 101.49,
+      "kbju": {
+        "calories": 262.4,
+        "protein": 19.7,
+        "fat": 5.4,
+        "carbohydrates": 6.1
+      },
+      "manufacturer": {
+        "name": "ИП «Хохлова»",
+        "country": "Россия",
+        "website": "https://ooo.org",
+        "inn": "2460511347"
       }
     }
   ],
-  "total_amount": 561.0,
+  "total_amount": 1234.15,
   "payment_method": "cash",
-  "is_delivery": true,
+  "is_delivery": false,
   "delivery_address": {
     "country": "Россия",
-    "city": "п. Качканар",
-    "street": "пер. Абрикосовый",
-    "house": "41",
-    "apartment": "62",
-    "postal_code": "030086"
+    "city": "ст. Сортавала",
+    "street": "ш. Николаева",
+    "house": "388",
+    "apartment": "30",
+    "postal_code": "673426"
   },
-  "purchase_datetime": "2025-08-10T19:57:11.036029"
+  "purchase_datetime": "2025-08-30T13:42:39.589283"
 }

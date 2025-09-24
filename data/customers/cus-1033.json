@@ -1,36 +1,36 @@
 {
   "customer_id": "cus-1033",
-  "first_name": "Евграф",
-  "last_name": "Кулагин",
-  "email": "qsazonova@example.org",
-  "phone": "8 (664) 074-4446",
-  "birth_date": "1976-04-10",
-  "gender": "female",
-  "registration_date": "2025-09-23T19:57:10.944371",
+  "first_name": "Радован",
+  "last_name": "Максимова",
+  "email": "iosif02@example.net",
+  "phone": "+7 (426) 638-65-12",
+  "birth_date": "1996-03-28",
+  "gender": "male",
+  "registration_date": "2025-09-24T13:42:39.512304",
   "is_loyalty_member": true,
-  "loyalty_card_number": "LOYAL-615D708F68",
+  "loyalty_card_number": "LOYAL-E8AFED5DEF",
   "purchase_location": {
     "store_id": "store-034",
-    "store_name": "Маленькая Пикча — Магазин на наб. Уральская",
+    "store_name": "Маленькая Пикча — Магазин на алл. 9 Января",
     "store_network": "Маленькая Пикча",
     "store_type_description": "Магазин у дома менее 100 кв.м. Входит в сеть из 15 магазинов.",
     "country": "Россия",
-    "city": "с. Чусовой",
-    "street": "наб. Сплавная",
-    "house": "4/7",
-    "postal_code": "817955"
+    "city": "ст. Беслан",
+    "street": "бул. Заовражный",
+    "house": "231",
+    "postal_code": "489039"
   },
   "delivery_address": {
     "country": "Россия",
-    "city": "с. Чусовой",
-    "street": "ул. Леваневского",
-    "house": "737",
-    "apartment": "67",
-    "postal_code": "413892"
+    "city": "ст. Беслан",
+    "street": "бул. Вокзальный",
+    "house": "292",
+    "apartment": "99",
+    "postal_code": "614412"
   },
   "preferences": {
     "preferred_language": "ru",
-    "preferred_payment_method": "card",
-    "receive_promotions": true
+    "preferred_payment_method": "cash",
+    "receive_promotions": false
   }
 }

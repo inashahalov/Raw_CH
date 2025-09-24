@@ -1,36 +1,36 @@
 {
   "customer_id": "cus-1007",
-  "first_name": "Константин",
-  "last_name": "Фадеев",
-  "email": "korolevefim@example.net",
-  "phone": "8 (270) 745-5698",
-  "birth_date": "1992-12-04",
+  "first_name": "Селиверст",
+  "last_name": "Шестакова",
+  "email": "adrian_1977@example.com",
+  "phone": "+7 (503) 194-5334",
+  "birth_date": "1974-01-18",
   "gender": "male",
-  "registration_date": "2025-09-23T19:57:10.928387",
+  "registration_date": "2025-09-24T13:42:39.498169",
   "is_loyalty_member": true,
-  "loyalty_card_number": "LOYAL-2DFE8E6C69",
+  "loyalty_card_number": "LOYAL-F9E4F0EA83",
   "purchase_location": {
     "store_id": "store-008",
-    "store_name": "Большая Пикча — Магазин на бул. Вавилова",
+    "store_name": "Большая Пикча — Магазин на алл. Снежная",
     "store_network": "Большая Пикча",
     "store_type_description": "Супермаркет более 200 кв.м. Входит в сеть из 30 магазинов.",
     "country": "Россия",
-    "city": "клх Тихвин",
-    "street": "пр. Социалистический",
-    "house": "98",
-    "postal_code": "571353"
+    "city": "ст. Тольятти",
+    "street": "ул. Нагорная",
+    "house": "6/5",
+    "postal_code": "884574"
   },
   "delivery_address": {
     "country": "Россия",
-    "city": "клх Тихвин",
-    "street": "алл. Водопроводная",
-    "house": "309",
-    "apartment": "57",
-    "postal_code": "983642"
+    "city": "ст. Тольятти",
+    "street": "алл. Парижской Коммуны",
+    "house": "329",
+    "apartment": "3",
+    "postal_code": "022629"
   },
   "preferences": {
     "preferred_language": "ru",
-    "preferred_payment_method": "cash",
-    "receive_promotions": true
+    "preferred_payment_method": "card",
+    "receive_promotions": false
   }
 }

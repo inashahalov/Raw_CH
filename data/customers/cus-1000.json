@@ -1,36 +1,36 @@
 {
   "customer_id": "cus-1000",
-  "first_name": "Лора",
-  "last_name": "Тетерин",
-  "email": "eduardpopov@example.net",
-  "phone": "+7 360 725 52 37",
-  "birth_date": "1995-01-15",
-  "gender": "male",
-  "registration_date": "2025-09-23T19:57:10.924047",
+  "first_name": "Никодим",
+  "last_name": "Шилов",
+  "email": "pavlovaksenija@example.net",
+  "phone": "+7 115 715 6344",
+  "birth_date": "1969-09-22",
+  "gender": "female",
+  "registration_date": "2025-09-24T13:42:39.494233",
   "is_loyalty_member": true,
-  "loyalty_card_number": "LOYAL-E7A3E28BE6",
+  "loyalty_card_number": "LOYAL-29F03EC301",
   "purchase_location": {
     "store_id": "store-001",
-    "store_name": "Большая Пикча — Магазин на пер. 60 лет СССР",
+    "store_name": "Большая Пикча — Магазин на бул. Колхозный",
     "store_network": "Большая Пикча",
     "store_type_description": "Супермаркет более 200 кв.м. Входит в сеть из 30 магазинов.",
     "country": "Россия",
-    "city": "п. Качканар",
-    "street": "бул. Панфилова",
-    "house": "90",
-    "postal_code": "699299"
+    "city": "к. Жуковский",
+    "street": "ш. Поперечное",
+    "house": "198",
+    "postal_code": "772195"
   },
   "delivery_address": {
     "country": "Россия",
-    "city": "п. Качканар",
-    "street": "пер. Абрикосовый",
-    "house": "41",
-    "apartment": "62",
-    "postal_code": "030086"
+    "city": "к. Жуковский",
+    "street": "ш. Народное",
+    "house": "660",
+    "apartment": "18",
+    "postal_code": "641010"
   },
   "preferences": {
     "preferred_language": "ru",
-    "preferred_payment_method": "cash",
+    "preferred_payment_method": "card",
     "receive_promotions": false
   }
 }

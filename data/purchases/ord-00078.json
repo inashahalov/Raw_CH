@@ -1,105 +1,84 @@
 {
   "purchase_id": "ord-00078",
   "customer": {
-    "customer_id": "cus-1023",
-    "first_name": "Давыд",
-    "last_name": "Александров",
-    "email": "vissarion_1987@example.com",
-    "phone": "84881392433",
+    "customer_id": "cus-1003",
+    "first_name": "Мефодий",
+    "last_name": "Афанасьев",
+    "email": "nadezhda_2014@example.net",
+    "phone": "83623022204",
     "is_loyalty_member": true,
-    "loyalty_card_number": "LOYAL-91E5CDC861"
+    "loyalty_card_number": "LOYAL-7C90F1406F"
   },
   "store": {
-    "store_id": "store-018",
-    "store_name": "Большая Пикча — Магазин на пер. З.Космодемьянской",
+    "store_id": "store-010",
+    "store_name": "Большая Пикча — Магазин на алл. Казанская",
     "store_network": "Большая Пикча",
     "location": {
       "country": "Россия",
-      "city": "к. Минеральные Воды",
-      "street": "пер. Каштановый",
-      "house": "85",
-      "postal_code": "972733",
+      "city": "г. Новочеркасск",
+      "street": "бул. Р.Люксембург",
+      "house": "615",
+      "postal_code": "760266",
       "coordinates": {
-        "latitude": 1.333662,
-        "longitude": -136.6214
+        "latitude": -53.9201405,
+        "longitude": 17.97173
       }
     }
   },
   "items": [
     {
-      "product_id": "prd-1004",
-      "name": "Рассуждение Боец",
-      "category": "🥩 Мясо, рыба, яйца и бобовые",
+      "product_id": "prd-1003",
+      "name": "Дорогой Руководитель",
+      "category": "🥦 Овощи и зелень",
       "quantity": 1,
-      "unit": "кг",
-      "price_per_unit": 167.58,
-      "total_price": 167.58,
+      "unit": "упаковка",
+      "price_per_unit": 69.35,
+      "total_price": 69.35,
       "kbju": {
-        "calories": 270.7,
-        "protein": 8.7,
-        "fat": 11.5,
-        "carbohydrates": 1.5
+        "calories": 223.8,
+        "protein": 18.0,
+        "fat": 5.2,
+        "carbohydrates": 3.6
       },
       "manufacturer": {
-        "name": "РАО «Мухина Миронов»",
+        "name": "НПО «Панова Ильина»",
         "country": "Россия",
-        "website": "https://rao.org",
-        "inn": "9262920859"
+        "website": "https://ooo.biz",
+        "inn": "4367291844"
       }
     },
     {
-      "product_id": "prd-1008",
-      "name": "Фонарик Успокоиться",
-      "category": "🥖 Зерновые и хлебобулочные изделия",
+      "product_id": "prd-1007",
+      "name": "Инвалид Госпожа",
+      "category": "🥩 Мясо, рыба, яйца и бобовые",
       "quantity": 5,
       "unit": "упаковка",
-      "price_per_unit": 73.43,
-      "total_price": 367.15,
+      "price_per_unit": 216.19,
+      "total_price": 1080.95,
       "kbju": {
-        "calories": 92.6,
-        "protein": 18.4,
-        "fat": 11.5,
-        "carbohydrates": 24.8
+        "calories": 103.2,
+        "protein": 11.9,
+        "fat": 9.2,
+        "carbohydrates": 32.1
       },
       "manufacturer": {
-        "name": "ООО «Денисов, Щукина и Гришин»",
+        "name": "НПО «Мельникова-Юдина»",
         "country": "Россия",
-        "website": "https://kozlova.org",
-        "inn": "3531459365"
-      }
-    },
-    {
-      "product_id": "prd-1000",
-      "name": "Заведение Задержать",
-      "category": "🥛 Молочные продукты",
-      "quantity": 1,
-      "unit": "л",
-      "price_per_unit": 174.16,
-      "total_price": 174.16,
-      "kbju": {
-        "calories": 261.8,
-        "protein": 2.3,
-        "fat": 2.9,
-        "carbohydrates": 19.7
-      },
-      "manufacturer": {
-        "name": "РАО «Бирюков, Лапина и Волков»",
-        "country": "Россия",
-        "website": "https://ao.net",
-        "inn": "0912614956"
+        "website": "https://zao.ru",
+        "inn": "8084632702"
       }
     }
   ],
-  "total_amount": 708.89,
+  "total_amount": 1150.3,
   "payment_method": "card",
-  "is_delivery": false,
+  "is_delivery": true,
   "delivery_address": {
     "country": "Россия",
-    "city": "д. Сковородино",
-    "street": "бул. 50 лет ВЛКСМ",
-    "house": "17",
-    "apartment": "37",
-    "postal_code": "072988"
+    "city": "к. Усолье Сибирское",
+    "street": "ул. Белорусская",
+    "house": "230",
+    "apartment": "13",
+    "postal_code": "672568"
   },
-  "purchase_datetime": "2025-07-18T19:57:10.986106"
+  "purchase_datetime": "2025-07-08T13:42:39.548735"
 }

@@ -1,63 +1,84 @@
 {
   "purchase_id": "ord-00010",
   "customer": {
-    "customer_id": "cus-1033",
-    "first_name": "Евграф",
-    "last_name": "Кулагин",
-    "email": "qsazonova@example.org",
-    "phone": "8 (664) 074-4446",
+    "customer_id": "cus-1021",
+    "first_name": "Спиридон",
+    "last_name": "Савина",
+    "email": "konstantin98@example.net",
+    "phone": "8 952 152 46 82",
     "is_loyalty_member": true,
-    "loyalty_card_number": "LOYAL-615D708F68"
+    "loyalty_card_number": "LOYAL-F768F67A2A"
   },
   "store": {
-    "store_id": "store-001",
-    "store_name": "Большая Пикча — Магазин на пер. 60 лет СССР",
+    "store_id": "store-011",
+    "store_name": "Большая Пикча — Магазин на наб. Светлая",
     "store_network": "Большая Пикча",
     "location": {
       "country": "Россия",
-      "city": "п. Качканар",
-      "street": "бул. Панфилова",
-      "house": "90",
-      "postal_code": "699299",
+      "city": "д. Петрозаводск",
+      "street": "наб. Некрасова",
+      "house": "1/2",
+      "postal_code": "016668",
       "coordinates": {
-        "latitude": 23.7573875,
-        "longitude": -54.155635
+        "latitude": -29.6315255,
+        "longitude": -174.977322
       }
     }
   },
   "items": [
     {
-      "product_id": "prd-1012",
-      "name": "Премьера Висеть",
-      "category": "🥩 Мясо, рыба, яйца и бобовые",
+      "product_id": "prd-1016",
+      "name": "Очередной Аллея",
+      "category": "🥖 Зерновые и хлебобулочные изделия",
       "quantity": 5,
-      "unit": "л",
-      "price_per_unit": 193.21,
-      "total_price": 966.05,
+      "unit": "шт",
+      "price_per_unit": 251.07,
+      "total_price": 1255.35,
       "kbju": {
-        "calories": 254.5,
-        "protein": 0.8,
-        "fat": 5.6,
-        "carbohydrates": 3.1
+        "calories": 277.2,
+        "protein": 18.2,
+        "fat": 6.0,
+        "carbohydrates": 11.3
       },
       "manufacturer": {
-        "name": "АО «Ларионова, Молчанов и Ефремова»",
+        "name": "ГК Автомир",
         "country": "Россия",
-        "website": "https://ao.edu",
-        "inn": "3317182161"
+        "website": "https://andreev.info",
+        "inn": "8436477835"
+      }
+    },
+    {
+      "product_id": "prd-1006",
+      "name": "Витрина Лапа",
+      "category": "🥦 Овощи и зелень",
+      "quantity": 2,
+      "unit": "л",
+      "price_per_unit": 197.14,
+      "total_price": 394.28,
+      "kbju": {
+        "calories": 159.3,
+        "protein": 17.1,
+        "fat": 8.9,
+        "carbohydrates": 42.8
+      },
+      "manufacturer": {
+        "name": "ООО «Ширяева Матвеев»",
+        "country": "Россия",
+        "website": "https://rao.biz",
+        "inn": "8993676224"
       }
     }
   ],
-  "total_amount": 966.05,
-  "payment_method": "card",
-  "is_delivery": false,
+  "total_amount": 1649.63,
+  "payment_method": "cash",
+  "is_delivery": true,
   "delivery_address": {
     "country": "Россия",
-    "city": "с. Чусовой",
-    "street": "ул. Леваневского",
-    "house": "737",
-    "apartment": "67",
-    "postal_code": "413892"
+    "city": "г. Надым",
+    "street": "бул. Шахтерский",
+    "house": "2/3",
+    "apartment": "10",
+    "postal_code": "178201"
   },
-  "purchase_datetime": "2025-08-19T19:57:10.955706"
+  "purchase_datetime": "2025-09-04T13:42:39.522881"
 }

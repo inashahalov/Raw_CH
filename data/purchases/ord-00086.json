@@ -1,63 +1,105 @@
 {
   "purchase_id": "ord-00086",
   "customer": {
-    "customer_id": "cus-1042",
-    "first_name": "Тимофей",
-    "last_name": "Кудряшов",
-    "email": "jaroslav_50@example.org",
-    "phone": "+7 (191) 932-42-71",
+    "customer_id": "cus-1000",
+    "first_name": "Никодим",
+    "last_name": "Шилов",
+    "email": "pavlovaksenija@example.net",
+    "phone": "+7 115 715 6344",
     "is_loyalty_member": true,
-    "loyalty_card_number": "LOYAL-859FD77F84"
+    "loyalty_card_number": "LOYAL-29F03EC301"
   },
   "store": {
-    "store_id": "store-032",
-    "store_name": "Маленькая Пикча — Магазин на бул. Подгорный",
-    "store_network": "Маленькая Пикча",
+    "store_id": "store-017",
+    "store_name": "Большая Пикча — Магазин на пр. Советский",
+    "store_network": "Большая Пикча",
     "location": {
       "country": "Россия",
-      "city": "г. Нефтеюганск",
-      "street": "ш. Новоселов",
-      "house": "1",
-      "postal_code": "780917",
+      "city": "с. Чусовой",
+      "street": "бул. Металлистов",
+      "house": "76",
+      "postal_code": "465241",
       "coordinates": {
-        "latitude": -42.6968625,
-        "longitude": 4.808936
+        "latitude": -31.6654215,
+        "longitude": 32.773325
       }
     }
   },
   "items": [
     {
-      "product_id": "prd-1001",
-      "name": "Тревога Появление",
-      "category": "🥖 Зерновые и хлебобулочные изделия",
-      "quantity": 4,
-      "unit": "шт",
-      "price_per_unit": 168.16,
-      "total_price": 672.64,
+      "product_id": "prd-1018",
+      "name": "Проход Запретить",
+      "category": "🍏 Фрукты и ягоды",
+      "quantity": 2,
+      "unit": "упаковка",
+      "price_per_unit": 258.84,
+      "total_price": 517.68,
       "kbju": {
-        "calories": 205.2,
-        "protein": 13.4,
-        "fat": 1.1,
-        "carbohydrates": 43.2
+        "calories": 254.3,
+        "protein": 10.6,
+        "fat": 7.9,
+        "carbohydrates": 9.3
       },
       "manufacturer": {
-        "name": "ОАО «Селезнева Турова»",
+        "name": "ИП «Турова, Селезнев и Жданова»",
         "country": "Россия",
-        "website": "https://panfilov.net",
-        "inn": "5790638925"
+        "website": "https://ao.com",
+        "inn": "7389660036"
+      }
+    },
+    {
+      "product_id": "prd-1010",
+      "name": "Бак Советовать",
+      "category": "🍏 Фрукты и ягоды",
+      "quantity": 1,
+      "unit": "упаковка",
+      "price_per_unit": 283.56,
+      "total_price": 283.56,
+      "kbju": {
+        "calories": 247.4,
+        "protein": 3.4,
+        "fat": 14.4,
+        "carbohydrates": 46.0
+      },
+      "manufacturer": {
+        "name": "Гаврилова Инкорпорэйтед",
+        "country": "Россия",
+        "website": "https://ao.com",
+        "inn": "5008817113"
+      }
+    },
+    {
+      "product_id": "prd-1011",
+      "name": "Сверкающий Коробка",
+      "category": "🥦 Овощи и зелень",
+      "quantity": 4,
+      "unit": "шт",
+      "price_per_unit": 242.68,
+      "total_price": 970.72,
+      "kbju": {
+        "calories": 212.1,
+        "protein": 13.3,
+        "fat": 13.8,
+        "carbohydrates": 18.4
+      },
+      "manufacturer": {
+        "name": "ЗАО «Филатова-Юдина»",
+        "country": "Россия",
+        "website": "https://oao.info",
+        "inn": "6258727413"
       }
     }
   ],
-  "total_amount": 672.64,
+  "total_amount": 1771.96,
   "payment_method": "cash",
   "is_delivery": false,
   "delivery_address": {
     "country": "Россия",
-    "city": "д. Сусуман",
-    "street": "наб. Торговая",
-    "house": "8/8",
-    "apartment": "65",
-    "postal_code": "695747"
+    "city": "к. Жуковский",
+    "street": "ш. Народное",
+    "house": "660",
+    "apartment": "18",
+    "postal_code": "641010"
   },
-  "purchase_datetime": "2025-09-10T19:57:10.990692"
+  "purchase_datetime": "2025-08-25T13:42:39.552695"
 }

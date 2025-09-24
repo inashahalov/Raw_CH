@@ -1,63 +1,84 @@
 {
   "purchase_id": "ord-00195",
   "customer": {
-    "customer_id": "cus-1038",
-    "first_name": "Фотий",
-    "last_name": "Александров",
-    "email": "borisovstanimir@example.net",
-    "phone": "+7 (110) 633-4695",
+    "customer_id": "cus-1034",
+    "first_name": "Алла",
+    "last_name": "Миронов",
+    "email": "matve1987@example.org",
+    "phone": "8 (076) 922-2434",
     "is_loyalty_member": true,
-    "loyalty_card_number": "LOYAL-51CB82EFA1"
+    "loyalty_card_number": "LOYAL-268F5E553A"
   },
   "store": {
-    "store_id": "store-029",
-    "store_name": "Большая Пикча — Магазин на ш. Панфилова",
-    "store_network": "Большая Пикча",
+    "store_id": "store-034",
+    "store_name": "Маленькая Пикча — Магазин на алл. 9 Января",
+    "store_network": "Маленькая Пикча",
     "location": {
       "country": "Россия",
-      "city": "клх Галич",
-      "street": "пер. Щетинкина",
-      "house": "9/5",
-      "postal_code": "777233",
+      "city": "ст. Беслан",
+      "street": "бул. Заовражный",
+      "house": "231",
+      "postal_code": "489039",
       "coordinates": {
-        "latitude": -80.1321,
-        "longitude": 30.808882
+        "latitude": 10.2862715,
+        "longitude": 27.561048
       }
     }
   },
   "items": [
     {
-      "product_id": "prd-1018",
-      "name": "Низкий Присесть",
-      "category": "🥩 Мясо, рыба, яйца и бобовые",
-      "quantity": 1,
+      "product_id": "prd-1013",
+      "name": "Коммунизм Полевой",
+      "category": "🥖 Зерновые и хлебобулочные изделия",
+      "quantity": 4,
       "unit": "кг",
-      "price_per_unit": 240.2,
-      "total_price": 240.2,
+      "price_per_unit": 155.06,
+      "total_price": 620.24,
       "kbju": {
-        "calories": 272.9,
-        "protein": 7.8,
-        "fat": 2.3,
-        "carbohydrates": 5.3
+        "calories": 292.6,
+        "protein": 2.6,
+        "fat": 6.2,
+        "carbohydrates": 4.1
       },
       "manufacturer": {
-        "name": "Ланит",
+        "name": "АО «Абрамов»",
         "country": "Россия",
-        "website": "https://rao.info",
-        "inn": "3763771194"
+        "website": "https://ip.org",
+        "inn": "8372516031"
+      }
+    },
+    {
+      "product_id": "prd-1017",
+      "name": "Сутки Покидать",
+      "category": "🥩 Мясо, рыба, яйца и бобовые",
+      "quantity": 3,
+      "unit": "кг",
+      "price_per_unit": 240.7,
+      "total_price": 722.1,
+      "kbju": {
+        "calories": 208.1,
+        "protein": 11.4,
+        "fat": 6.1,
+        "carbohydrates": 10.1
+      },
+      "manufacturer": {
+        "name": "ЗАО «Стрелков Журавлева»",
+        "country": "Россия",
+        "website": "https://ooo.com",
+        "inn": "4048587161"
       }
     }
   ],
-  "total_amount": 240.2,
+  "total_amount": 1342.34,
   "payment_method": "card",
-  "is_delivery": false,
+  "is_delivery": true,
   "delivery_address": {
     "country": "Россия",
-    "city": "с. Жиганск",
-    "street": "наб. Ермака",
-    "house": "9/6",
-    "apartment": "39",
-    "postal_code": "762206"
+    "city": "д. Печора",
+    "street": "ул. Чайкиной",
+    "house": "5",
+    "apartment": "15",
+    "postal_code": "059937"
   },
-  "purchase_datetime": "2025-09-08T19:57:11.046760"
+  "purchase_datetime": "2025-09-21T13:42:39.597625"
 }

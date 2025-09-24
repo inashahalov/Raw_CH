@@ -1,105 +1,84 @@
 {
   "purchase_id": "ord-00097",
   "customer": {
-    "customer_id": "cus-1010",
-    "first_name": "Любовь",
-    "last_name": "Михайлова",
-    "email": "modest1978@example.net",
-    "phone": "8 118 437 7036",
+    "customer_id": "cus-1014",
+    "first_name": "Егор",
+    "last_name": "Евдокимова",
+    "email": "pahommuravev@example.com",
+    "phone": "8 (223) 207-18-09",
     "is_loyalty_member": true,
-    "loyalty_card_number": "LOYAL-D73D37F221"
+    "loyalty_card_number": "LOYAL-D43032439D"
   },
   "store": {
-    "store_id": "store-034",
-    "store_name": "Маленькая Пикча — Магазин на наб. Уральская",
-    "store_network": "Маленькая Пикча",
+    "store_id": "store-025",
+    "store_name": "Большая Пикча — Магазин на ш. Тургенева",
+    "store_network": "Большая Пикча",
     "location": {
       "country": "Россия",
-      "city": "с. Чусовой",
-      "street": "наб. Сплавная",
-      "house": "4/7",
-      "postal_code": "817955",
+      "city": "г. Мичуринск",
+      "street": "алл. Нижняя",
+      "house": "3/6",
+      "postal_code": "809704",
       "coordinates": {
-        "latitude": -48.6863215,
-        "longitude": -176.05311
+        "latitude": -39.602059,
+        "longitude": -2.767983
       }
     }
   },
   "items": [
     {
-      "product_id": "prd-1005",
-      "name": "Уничтожение Вздрагивать",
-      "category": "🍏 Фрукты и ягоды",
-      "quantity": 5,
+      "product_id": "prd-1012",
+      "name": "Полюбить Прошептать",
+      "category": "🥛 Молочные продукты",
+      "quantity": 1,
       "unit": "л",
-      "price_per_unit": 207.53,
-      "total_price": 1037.65,
+      "price_per_unit": 179.33,
+      "total_price": 179.33,
       "kbju": {
-        "calories": 191.8,
-        "protein": 11.1,
-        "fat": 7.9,
-        "carbohydrates": 5.4
+        "calories": 251.8,
+        "protein": 19.3,
+        "fat": 14.3,
+        "carbohydrates": 22.3
       },
       "manufacturer": {
-        "name": "ООО «Авдеев-Медведева»",
+        "name": "ИП «Шарова»",
         "country": "Россия",
-        "website": "https://zao.com",
-        "inn": "9782693224"
+        "website": "https://ip.ru",
+        "inn": "2195881079"
       }
     },
     {
       "product_id": "prd-1008",
-      "name": "Фонарик Успокоиться",
-      "category": "🥖 Зерновые и хлебобулочные изделия",
-      "quantity": 4,
-      "unit": "упаковка",
-      "price_per_unit": 73.43,
-      "total_price": 293.72,
+      "name": "Очутиться Песенка",
+      "category": "🥩 Мясо, рыба, яйца и бобовые",
+      "quantity": 1,
+      "unit": "шт",
+      "price_per_unit": 248.49,
+      "total_price": 248.49,
       "kbju": {
-        "calories": 92.6,
-        "protein": 18.4,
-        "fat": 11.5,
-        "carbohydrates": 24.8
+        "calories": 51.2,
+        "protein": 13.0,
+        "fat": 6.4,
+        "carbohydrates": 48.7
       },
       "manufacturer": {
-        "name": "ООО «Денисов, Щукина и Гришин»",
+        "name": "Лазарева Инк",
         "country": "Россия",
-        "website": "https://kozlova.org",
-        "inn": "3531459365"
-      }
-    },
-    {
-      "product_id": "prd-1003",
-      "name": "Идея Вообще",
-      "category": "🍏 Фрукты и ягоды",
-      "quantity": 2,
-      "unit": "упаковка",
-      "price_per_unit": 270.56,
-      "total_price": 541.12,
-      "kbju": {
-        "calories": 53.3,
-        "protein": 13.5,
-        "fat": 3.5,
-        "carbohydrates": 40.5
-      },
-      "manufacturer": {
-        "name": "АО «Назарова»",
-        "country": "Россия",
-        "website": "https://oao.ru",
-        "inn": "9069795571"
+        "website": "https://guljaev.com",
+        "inn": "0966441801"
       }
     }
   ],
-  "total_amount": 1872.49,
+  "total_amount": 427.82,
   "payment_method": "cash",
-  "is_delivery": true,
+  "is_delivery": false,
   "delivery_address": {
     "country": "Россия",
-    "city": "п. Снежинск",
-    "street": "наб. Войкова",
-    "house": "24",
-    "apartment": "70",
-    "postal_code": "963857"
+    "city": "к. Ардон",
+    "street": "ул. Южная",
+    "house": "517",
+    "apartment": "38",
+    "postal_code": "808291"
   },
-  "purchase_datetime": "2025-07-18T19:57:10.997204"
+  "purchase_datetime": "2025-08-12T13:42:39.556959"
 }

@@ -1,84 +1,84 @@
 {
   "purchase_id": "ord-00032",
   "customer": {
-    "customer_id": "cus-1016",
-    "first_name": "Анна",
-    "last_name": "Самойлова",
-    "email": "shubinavksenti@example.net",
-    "phone": "8 (544) 774-4118",
+    "customer_id": "cus-1028",
+    "first_name": "Агата",
+    "last_name": "Коновалов",
+    "email": "viktorin66@example.com",
+    "phone": "87313394695",
     "is_loyalty_member": true,
-    "loyalty_card_number": "LOYAL-65D213A3F5"
+    "loyalty_card_number": "LOYAL-A499338F41"
   },
   "store": {
-    "store_id": "store-010",
-    "store_name": "Большая Пикча — Магазин на наб. Энгельса",
+    "store_id": "store-006",
+    "store_name": "Большая Пикча — Магазин на алл. Поперечная",
     "store_network": "Большая Пикча",
     "location": {
       "country": "Россия",
-      "city": "клх Воткинск",
-      "street": "пр. Шаумяна",
-      "house": "5/8",
-      "postal_code": "770514",
+      "city": "ст. Сортавала",
+      "street": "бул. Шмидта",
+      "house": "31",
+      "postal_code": "947028",
       "coordinates": {
-        "latitude": -37.579403,
-        "longitude": 150.370954
+        "latitude": -1.9295105,
+        "longitude": 149.818126
       }
     }
   },
   "items": [
     {
-      "product_id": "prd-1011",
-      "name": "Собеседник Цель",
-      "category": "🍏 Фрукты и ягоды",
-      "quantity": 4,
-      "unit": "шт",
-      "price_per_unit": 109.38,
-      "total_price": 437.52,
+      "product_id": "prd-1014",
+      "name": "Господь Падаль",
+      "category": "🥦 Овощи и зелень",
+      "quantity": 2,
+      "unit": "л",
+      "price_per_unit": 222.18,
+      "total_price": 444.36,
       "kbju": {
-        "calories": 140.7,
-        "protein": 19.6,
-        "fat": 11.8,
-        "carbohydrates": 11.5
+        "calories": 191.4,
+        "protein": 12.2,
+        "fat": 4.5,
+        "carbohydrates": 5.2
       },
       "manufacturer": {
-        "name": "Сысоев Лтд",
+        "name": "ИП «Афанасьев, Щербаков и Пахомова»",
         "country": "Россия",
-        "website": "https://ip.org",
-        "inn": "3880754993"
+        "website": "https://oao.biz",
+        "inn": "7090374985"
       }
     },
     {
-      "product_id": "prd-1001",
-      "name": "Тревога Появление",
-      "category": "🥖 Зерновые и хлебобулочные изделия",
-      "quantity": 4,
-      "unit": "шт",
-      "price_per_unit": 168.16,
-      "total_price": 672.64,
+      "product_id": "prd-1009",
+      "name": "Расстройство Валюта",
+      "category": "🥩 Мясо, рыба, яйца и бобовые",
+      "quantity": 5,
+      "unit": "л",
+      "price_per_unit": 256.33,
+      "total_price": 1281.65,
       "kbju": {
-        "calories": 205.2,
-        "protein": 13.4,
-        "fat": 1.1,
-        "carbohydrates": 43.2
+        "calories": 208.9,
+        "protein": 12.9,
+        "fat": 11.4,
+        "carbohydrates": 30.9
       },
       "manufacturer": {
-        "name": "ОАО «Селезнева Турова»",
+        "name": "АХ Степь",
         "country": "Россия",
-        "website": "https://panfilov.net",
-        "inn": "5790638925"
+        "website": "https://rao.ru",
+        "inn": "1719997409"
       }
     }
   ],
-  "total_amount": 1110.16,
-  "payment_method": "card",
+  "total_amount": 1726.01,
+  "payment_method": "cash",
   "is_delivery": true,
   "delivery_address": {
     "country": "Россия",
-    "city": "ст. Любань",
-    "street": "пер. Камский",
-    "house": "974",
-    "apartment": "2",
-    "postal_code": "965257"
+    "city": "д. Геленджик",
+    "street": "ул. Коллективная",
+    "house": "7",
+    "apartment": "81",
+    "postal_code": "259869"
   },
-  "purchase_datetime": "2025-09-20T19:57:10.965869"
+  "purchase_datetime": "2025-09-21T13:42:39.530694"
 }

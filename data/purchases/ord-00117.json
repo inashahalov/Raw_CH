@@ -1,84 +1,105 @@
 {
   "purchase_id": "ord-00117",
   "customer": {
-    "customer_id": "cus-1007",
-    "first_name": "Константин",
-    "last_name": "Фадеев",
-    "email": "korolevefim@example.net",
-    "phone": "8 (270) 745-5698",
+    "customer_id": "cus-1032",
+    "first_name": "Богдан",
+    "last_name": "Евдокимова",
+    "email": "ilarion1993@example.com",
+    "phone": "+7 (898) 210-20-94",
     "is_loyalty_member": true,
-    "loyalty_card_number": "LOYAL-2DFE8E6C69"
+    "loyalty_card_number": "LOYAL-89E91A1521"
   },
   "store": {
-    "store_id": "store-029",
-    "store_name": "Большая Пикча — Магазин на ш. Панфилова",
+    "store_id": "store-024",
+    "store_name": "Большая Пикча — Магазин на наб. Харьковская",
     "store_network": "Большая Пикча",
     "location": {
       "country": "Россия",
-      "city": "клх Галич",
-      "street": "пер. Щетинкина",
-      "house": "9/5",
-      "postal_code": "777233",
+      "city": "к. Кыштым",
+      "street": "пр. Луначарского",
+      "house": "969",
+      "postal_code": "152629",
       "coordinates": {
-        "latitude": -80.1321,
-        "longitude": 30.808882
+        "latitude": 46.6419795,
+        "longitude": -1.629277
       }
     }
   },
   "items": [
     {
-      "product_id": "prd-1009",
-      "name": "Заложить Спасть",
-      "category": "🥩 Мясо, рыба, яйца и бобовые",
-      "quantity": 5,
+      "product_id": "prd-1011",
+      "name": "Сверкающий Коробка",
+      "category": "🥦 Овощи и зелень",
+      "quantity": 4,
       "unit": "шт",
-      "price_per_unit": 101.66,
-      "total_price": 508.3,
+      "price_per_unit": 242.68,
+      "total_price": 970.72,
       "kbju": {
-        "calories": 246.3,
-        "protein": 19.8,
-        "fat": 4.3,
-        "carbohydrates": 48.1
+        "calories": 212.1,
+        "protein": 13.3,
+        "fat": 13.8,
+        "carbohydrates": 18.4
       },
       "manufacturer": {
-        "name": "НПО «Наумова»",
+        "name": "ЗАО «Филатова-Юдина»",
         "country": "Россия",
-        "website": "https://rao.biz",
-        "inn": "4508864986"
+        "website": "https://oao.info",
+        "inn": "6258727413"
       }
     },
     {
-      "product_id": "prd-1003",
-      "name": "Идея Вообще",
-      "category": "🍏 Фрукты и ягоды",
-      "quantity": 3,
+      "product_id": "prd-1004",
+      "name": "Прежний Успокоиться",
+      "category": "🥦 Овощи и зелень",
+      "quantity": 1,
       "unit": "упаковка",
-      "price_per_unit": 270.56,
-      "total_price": 811.68,
+      "price_per_unit": 192.71,
+      "total_price": 192.71,
       "kbju": {
-        "calories": 53.3,
-        "protein": 13.5,
-        "fat": 3.5,
-        "carbohydrates": 40.5
+        "calories": 95.9,
+        "protein": 17.1,
+        "fat": 12.1,
+        "carbohydrates": 42.3
       },
       "manufacturer": {
-        "name": "АО «Назарова»",
+        "name": "АО «Русакова»",
         "country": "Россия",
-        "website": "https://oao.ru",
-        "inn": "9069795571"
+        "website": "https://nesterova.com",
+        "inn": "3179388333"
+      }
+    },
+    {
+      "product_id": "prd-1017",
+      "name": "Сутки Покидать",
+      "category": "🥩 Мясо, рыба, яйца и бобовые",
+      "quantity": 5,
+      "unit": "кг",
+      "price_per_unit": 240.7,
+      "total_price": 1203.5,
+      "kbju": {
+        "calories": 208.1,
+        "protein": 11.4,
+        "fat": 6.1,
+        "carbohydrates": 10.1
+      },
+      "manufacturer": {
+        "name": "ЗАО «Стрелков Журавлева»",
+        "country": "Россия",
+        "website": "https://ooo.com",
+        "inn": "4048587161"
       }
     }
   ],
-  "total_amount": 1319.98,
+  "total_amount": 2366.93,
   "payment_method": "cash",
   "is_delivery": false,
   "delivery_address": {
     "country": "Россия",
-    "city": "клх Тихвин",
-    "street": "алл. Водопроводная",
-    "house": "309",
-    "apartment": "57",
-    "postal_code": "983642"
+    "city": "г. Корсаков",
+    "street": "бул. Горный",
+    "house": "726",
+    "apartment": "14",
+    "postal_code": "983714"
   },
-  "purchase_datetime": "2025-08-29T19:57:11.009037"
+  "purchase_datetime": "2025-08-02T13:42:39.564909"
 }

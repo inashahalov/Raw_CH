@@ -1,84 +1,84 @@
 {
   "purchase_id": "ord-00104",
   "customer": {
-    "customer_id": "cus-1014",
-    "first_name": "Алла",
-    "last_name": "Дмитриева",
-    "email": "maksimiljanlobanov@example.net",
-    "phone": "8 993 112 5563",
+    "customer_id": "cus-1035",
+    "first_name": "Геннадий",
+    "last_name": "Родионов",
+    "email": "cheslav1990@example.org",
+    "phone": "8 303 158 42 60",
     "is_loyalty_member": true,
-    "loyalty_card_number": "LOYAL-4DECF4EFB7"
+    "loyalty_card_number": "LOYAL-B5048336C8"
   },
   "store": {
-    "store_id": "store-033",
-    "store_name": "Маленькая Пикча — Магазин на бул. Высоцкого",
-    "store_network": "Маленькая Пикча",
+    "store_id": "store-008",
+    "store_name": "Большая Пикча — Магазин на алл. Снежная",
+    "store_network": "Большая Пикча",
     "location": {
       "country": "Россия",
-      "city": "к. Комсомольск-на-Амуре",
-      "street": "ш. Ленина",
-      "house": "5",
-      "postal_code": "979044",
+      "city": "ст. Тольятти",
+      "street": "ул. Нагорная",
+      "house": "6/5",
+      "postal_code": "884574",
       "coordinates": {
-        "latitude": -82.2107835,
-        "longitude": 170.986594
+        "latitude": 12.6574315,
+        "longitude": 95.917203
       }
     }
   },
   "items": [
     {
-      "product_id": "prd-1002",
-      "name": "Разводить Школьный",
+      "product_id": "prd-1011",
+      "name": "Сверкающий Коробка",
       "category": "🥦 Овощи и зелень",
-      "quantity": 3,
-      "unit": "л",
-      "price_per_unit": 232.4,
-      "total_price": 697.2,
+      "quantity": 2,
+      "unit": "шт",
+      "price_per_unit": 242.68,
+      "total_price": 485.36,
       "kbju": {
-        "calories": 276.5,
-        "protein": 15.9,
-        "fat": 7.0,
-        "carbohydrates": 4.4
+        "calories": 212.1,
+        "protein": 13.3,
+        "fat": 13.8,
+        "carbohydrates": 18.4
       },
       "manufacturer": {
-        "name": "ОАО «Туров, Горбунова и Галкина»",
+        "name": "ЗАО «Филатова-Юдина»",
         "country": "Россия",
-        "website": "https://oao.com",
-        "inn": "7774237965"
+        "website": "https://oao.info",
+        "inn": "6258727413"
       }
     },
     {
-      "product_id": "prd-1000",
-      "name": "Заведение Задержать",
-      "category": "🥛 Молочные продукты",
-      "quantity": 5,
-      "unit": "л",
-      "price_per_unit": 174.16,
-      "total_price": 870.8,
+      "product_id": "prd-1019",
+      "name": "Исследование Мягкий",
+      "category": "🥦 Овощи и зелень",
+      "quantity": 4,
+      "unit": "шт",
+      "price_per_unit": 101.49,
+      "total_price": 405.96,
       "kbju": {
-        "calories": 261.8,
-        "protein": 2.3,
-        "fat": 2.9,
-        "carbohydrates": 19.7
+        "calories": 262.4,
+        "protein": 19.7,
+        "fat": 5.4,
+        "carbohydrates": 6.1
       },
       "manufacturer": {
-        "name": "РАО «Бирюков, Лапина и Волков»",
+        "name": "ИП «Хохлова»",
         "country": "Россия",
-        "website": "https://ao.net",
-        "inn": "0912614956"
+        "website": "https://ooo.org",
+        "inn": "2460511347"
       }
     }
   ],
-  "total_amount": 1568.0,
+  "total_amount": 891.32,
   "payment_method": "cash",
-  "is_delivery": false,
+  "is_delivery": true,
   "delivery_address": {
     "country": "Россия",
-    "city": "г. Магнитогорск",
-    "street": "ш. Пушкина",
-    "house": "159",
-    "apartment": "22",
-    "postal_code": "129259"
+    "city": "к. Добрянка",
+    "street": "бул. Дальневосточный",
+    "house": "7/2",
+    "apartment": "89",
+    "postal_code": "893889"
   },
-  "purchase_datetime": "2025-07-17T19:57:11.002938"
+  "purchase_datetime": "2025-09-23T13:42:39.559429"
 }

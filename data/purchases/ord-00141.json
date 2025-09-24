@@ -1,105 +1,84 @@
 {
   "purchase_id": "ord-00141",
   "customer": {
-    "customer_id": "cus-1015",
-    "first_name": "Фока",
-    "last_name": "Тетерина",
-    "email": "rjabovboleslav@example.com",
-    "phone": "+7 (465) 499-08-07",
+    "customer_id": "cus-1043",
+    "first_name": "Измаил",
+    "last_name": "Лазарева",
+    "email": "vorontsovaeleonora@example.net",
+    "phone": "+7 762 201 84 01",
     "is_loyalty_member": true,
-    "loyalty_card_number": "LOYAL-0B04F4F2B7"
+    "loyalty_card_number": "LOYAL-176F00FF2B"
   },
   "store": {
-    "store_id": "store-008",
-    "store_name": "Большая Пикча — Магазин на бул. Вавилова",
+    "store_id": "store-012",
+    "store_name": "Большая Пикча — Магазин на бул. Химиков",
     "store_network": "Большая Пикча",
     "location": {
       "country": "Россия",
-      "city": "клх Тихвин",
-      "street": "пр. Социалистический",
-      "house": "98",
-      "postal_code": "571353",
+      "city": "ст. Черусти",
+      "street": "пр. Волгоградский",
+      "house": "707",
+      "postal_code": "464132",
       "coordinates": {
-        "latitude": -34.3116645,
-        "longitude": -14.210246
+        "latitude": -68.074901,
+        "longitude": 29.59835
       }
     }
   },
   "items": [
     {
-      "product_id": "prd-1015",
-      "name": "Войти Приходить",
-      "category": "🥛 Молочные продукты",
-      "quantity": 5,
-      "unit": "шт",
-      "price_per_unit": 92.89,
-      "total_price": 464.45,
-      "kbju": {
-        "calories": 297.1,
-        "protein": 17.3,
-        "fat": 7.9,
-        "carbohydrates": 24.3
-      },
-      "manufacturer": {
-        "name": "Гришина Лтд",
-        "country": "Россия",
-        "website": "https://ooo.net",
-        "inn": "5499321537"
-      }
-    },
-    {
-      "product_id": "prd-1004",
-      "name": "Рассуждение Боец",
-      "category": "🥩 Мясо, рыба, яйца и бобовые",
-      "quantity": 1,
-      "unit": "кг",
-      "price_per_unit": 167.58,
-      "total_price": 167.58,
-      "kbju": {
-        "calories": 270.7,
-        "protein": 8.7,
-        "fat": 11.5,
-        "carbohydrates": 1.5
-      },
-      "manufacturer": {
-        "name": "РАО «Мухина Миронов»",
-        "country": "Россия",
-        "website": "https://rao.org",
-        "inn": "9262920859"
-      }
-    },
-    {
-      "product_id": "prd-1002",
-      "name": "Разводить Школьный",
+      "product_id": "prd-1019",
+      "name": "Исследование Мягкий",
       "category": "🥦 Овощи и зелень",
-      "quantity": 4,
-      "unit": "л",
-      "price_per_unit": 232.4,
-      "total_price": 929.6,
+      "quantity": 3,
+      "unit": "шт",
+      "price_per_unit": 101.49,
+      "total_price": 304.47,
       "kbju": {
-        "calories": 276.5,
-        "protein": 15.9,
-        "fat": 7.0,
-        "carbohydrates": 4.4
+        "calories": 262.4,
+        "protein": 19.7,
+        "fat": 5.4,
+        "carbohydrates": 6.1
       },
       "manufacturer": {
-        "name": "ОАО «Туров, Горбунова и Галкина»",
+        "name": "ИП «Хохлова»",
         "country": "Россия",
-        "website": "https://oao.com",
-        "inn": "7774237965"
+        "website": "https://ooo.org",
+        "inn": "2460511347"
+      }
+    },
+    {
+      "product_id": "prd-1014",
+      "name": "Господь Падаль",
+      "category": "🥦 Овощи и зелень",
+      "quantity": 3,
+      "unit": "л",
+      "price_per_unit": 222.18,
+      "total_price": 666.54,
+      "kbju": {
+        "calories": 191.4,
+        "protein": 12.2,
+        "fat": 4.5,
+        "carbohydrates": 5.2
+      },
+      "manufacturer": {
+        "name": "ИП «Афанасьев, Щербаков и Пахомова»",
+        "country": "Россия",
+        "website": "https://oao.biz",
+        "inn": "7090374985"
       }
     }
   ],
-  "total_amount": 1561.63,
-  "payment_method": "cash",
-  "is_delivery": true,
+  "total_amount": 971.01,
+  "payment_method": "card",
+  "is_delivery": false,
   "delivery_address": {
     "country": "Россия",
-    "city": "д. Оренбург",
-    "street": "алл. Портовая",
-    "house": "396",
-    "apartment": "100",
-    "postal_code": "150789"
+    "city": "д. Псебай",
+    "street": "пр. Мичурина",
+    "house": "313",
+    "apartment": "45",
+    "postal_code": "619059"
   },
-  "purchase_datetime": "2025-07-27T19:57:11.020335"
+  "purchase_datetime": "2025-07-02T13:42:39.574256"
 }

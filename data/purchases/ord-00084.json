@@ -1,105 +1,105 @@
 {
   "purchase_id": "ord-00084",
   "customer": {
-    "customer_id": "cus-1002",
-    "first_name": "Эммануил",
-    "last_name": "Сорокина",
-    "email": "bogdan_1994@example.com",
-    "phone": "+78403056533",
+    "customer_id": "cus-1014",
+    "first_name": "Егор",
+    "last_name": "Евдокимова",
+    "email": "pahommuravev@example.com",
+    "phone": "8 (223) 207-18-09",
     "is_loyalty_member": true,
-    "loyalty_card_number": "LOYAL-C9106DA2DE"
+    "loyalty_card_number": "LOYAL-D43032439D"
   },
   "store": {
-    "store_id": "store-003",
-    "store_name": "Большая Пикча — Магазин на пер. Л.Толстого",
-    "store_network": "Большая Пикча",
+    "store_id": "store-031",
+    "store_name": "Маленькая Пикча — Магазин на ул. Чапаева",
+    "store_network": "Маленькая Пикча",
     "location": {
       "country": "Россия",
-      "city": "г. Вилюйск",
-      "street": "ш. Моховое",
-      "house": "323",
-      "postal_code": "806043",
+      "city": "ст. Инта",
+      "street": "ул. Мирная",
+      "house": "211",
+      "postal_code": "066458",
       "coordinates": {
-        "latitude": 89.85812,
-        "longitude": -128.13909
+        "latitude": -69.3461705,
+        "longitude": 140.56952
       }
     }
   },
   "items": [
     {
-      "product_id": "prd-1017",
-      "name": "Неожиданный Эпоха",
-      "category": "🥦 Овощи и зелень",
-      "quantity": 4,
+      "product_id": "prd-1018",
+      "name": "Проход Запретить",
+      "category": "🍏 Фрукты и ягоды",
+      "quantity": 2,
       "unit": "упаковка",
-      "price_per_unit": 187.0,
-      "total_price": 748.0,
+      "price_per_unit": 258.84,
+      "total_price": 517.68,
       "kbju": {
-        "calories": 291.5,
-        "protein": 6.8,
-        "fat": 3.0,
-        "carbohydrates": 7.4
+        "calories": 254.3,
+        "protein": 10.6,
+        "fat": 7.9,
+        "carbohydrates": 9.3
       },
       "manufacturer": {
-        "name": "ЗАО «Сафонова Ларионова»",
+        "name": "ИП «Турова, Селезнев и Жданова»",
         "country": "Россия",
-        "website": "https://ao.org",
-        "inn": "0841571264"
+        "website": "https://ao.com",
+        "inn": "7389660036"
       }
     },
     {
-      "product_id": "prd-1001",
-      "name": "Тревога Появление",
-      "category": "🥖 Зерновые и хлебобулочные изделия",
-      "quantity": 5,
-      "unit": "шт",
-      "price_per_unit": 168.16,
-      "total_price": 840.8,
-      "kbju": {
-        "calories": 205.2,
-        "protein": 13.4,
-        "fat": 1.1,
-        "carbohydrates": 43.2
-      },
-      "manufacturer": {
-        "name": "ОАО «Селезнева Турова»",
-        "country": "Россия",
-        "website": "https://panfilov.net",
-        "inn": "5790638925"
-      }
-    },
-    {
-      "product_id": "prd-1008",
-      "name": "Фонарик Успокоиться",
-      "category": "🥖 Зерновые и хлебобулочные изделия",
+      "product_id": "prd-1015",
+      "name": "Умолять Нервно",
+      "category": "🥩 Мясо, рыба, яйца и бобовые",
       "quantity": 3,
       "unit": "упаковка",
-      "price_per_unit": 73.43,
-      "total_price": 220.29,
+      "price_per_unit": 249.57,
+      "total_price": 748.71,
       "kbju": {
-        "calories": 92.6,
-        "protein": 18.4,
-        "fat": 11.5,
-        "carbohydrates": 24.8
+        "calories": 130.6,
+        "protein": 7.3,
+        "fat": 8.5,
+        "carbohydrates": 35.1
       },
       "manufacturer": {
-        "name": "ООО «Денисов, Щукина и Гришин»",
+        "name": "Трофимова Лтд",
         "country": "Россия",
-        "website": "https://kozlova.org",
-        "inn": "3531459365"
+        "website": "https://transkapitalbank.edu",
+        "inn": "0300157246"
+      }
+    },
+    {
+      "product_id": "prd-1011",
+      "name": "Сверкающий Коробка",
+      "category": "🥦 Овощи и зелень",
+      "quantity": 4,
+      "unit": "шт",
+      "price_per_unit": 242.68,
+      "total_price": 970.72,
+      "kbju": {
+        "calories": 212.1,
+        "protein": 13.3,
+        "fat": 13.8,
+        "carbohydrates": 18.4
+      },
+      "manufacturer": {
+        "name": "ЗАО «Филатова-Юдина»",
+        "country": "Россия",
+        "website": "https://oao.info",
+        "inn": "6258727413"
       }
     }
   ],
-  "total_amount": 1809.09,
+  "total_amount": 2237.11,
   "payment_method": "cash",
   "is_delivery": false,
   "delivery_address": {
     "country": "Россия",
-    "city": "г. Вилюйск",
-    "street": "бул. Революционный",
-    "house": "972",
-    "apartment": "98",
-    "postal_code": "852736"
+    "city": "к. Ардон",
+    "street": "ул. Южная",
+    "house": "517",
+    "apartment": "38",
+    "postal_code": "808291"
   },
-  "purchase_datetime": "2025-08-08T19:57:10.989835"
+  "purchase_datetime": "2025-07-27T13:42:39.551708"
 }

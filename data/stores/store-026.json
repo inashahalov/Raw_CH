@@ -1,6 +1,6 @@
 {
   "store_id": "store-026",
-  "store_name": "Большая Пикча — Магазин на алл. Иванова",
+  "store_name": "Большая Пикча — Магазин на наб. Советов",
   "store_network": "Большая Пикча",
   "store_type_description": "Супермаркет более 200 кв.м. Входит в сеть из 30 магазинов.",
   "type": "offline",
@@ -12,19 +12,19 @@
     "🥦 Овощи и зелень"
   ],
   "manager": {
-    "name": "Самойлова Евгения Ефимовна",
-    "phone": "+7 859 613 35 02",
-    "email": "semen78@example.net"
+    "name": "Потапов Егор Антонович",
+    "phone": "89625870154",
+    "email": "vsemilshestakov@example.net"
   },
   "location": {
     "country": "Россия",
-    "city": "д. Вытегра",
-    "street": "ш. Лунное",
-    "house": "6",
-    "postal_code": "030129",
+    "city": "с. Минусинск",
+    "street": "ш. Маркса Карла",
+    "house": "733",
+    "postal_code": "813798",
     "coordinates": {
-      "latitude": 12.0765525,
-      "longitude": 50.950176
+      "latitude": -69.303255,
+      "longitude": 40.36564
     }
   },
   "opening_hours": {
@@ -35,5 +35,5 @@
   "accepts_online_orders": true,
   "delivery_available": true,
   "warehouse_connected": true,
-  "last_inventory_date": "2025-09-23"
+  "last_inventory_date": "2025-09-24"
 }

@@ -1,63 +1,84 @@
 {
   "purchase_id": "ord-00176",
   "customer": {
-    "customer_id": "cus-1016",
-    "first_name": "Анна",
-    "last_name": "Самойлова",
-    "email": "shubinavksenti@example.net",
-    "phone": "8 (544) 774-4118",
+    "customer_id": "cus-1032",
+    "first_name": "Богдан",
+    "last_name": "Евдокимова",
+    "email": "ilarion1993@example.com",
+    "phone": "+7 (898) 210-20-94",
     "is_loyalty_member": true,
-    "loyalty_card_number": "LOYAL-65D213A3F5"
+    "loyalty_card_number": "LOYAL-89E91A1521"
   },
   "store": {
-    "store_id": "store-037",
-    "store_name": "Маленькая Пикча — Магазин на пер. Новоселов",
+    "store_id": "store-032",
+    "store_name": "Маленькая Пикча — Магазин на бул. Марта 8",
     "store_network": "Маленькая Пикча",
     "location": {
       "country": "Россия",
-      "city": "клх Нягань",
-      "street": "бул. Покровский",
-      "house": "3/6",
-      "postal_code": "915377",
+      "city": "г. Красноуфимск",
+      "street": "алл. Сенная",
+      "house": "9",
+      "postal_code": "765237",
       "coordinates": {
-        "latitude": 81.94456,
-        "longitude": 125.897117
+        "latitude": -82.329366,
+        "longitude": -144.925411
       }
     }
   },
   "items": [
     {
-      "product_id": "prd-1001",
-      "name": "Тревога Появление",
-      "category": "🥖 Зерновые и хлебобулочные изделия",
-      "quantity": 5,
-      "unit": "шт",
-      "price_per_unit": 168.16,
-      "total_price": 840.8,
+      "product_id": "prd-1018",
+      "name": "Проход Запретить",
+      "category": "🍏 Фрукты и ягоды",
+      "quantity": 1,
+      "unit": "упаковка",
+      "price_per_unit": 258.84,
+      "total_price": 258.84,
       "kbju": {
-        "calories": 205.2,
-        "protein": 13.4,
-        "fat": 1.1,
-        "carbohydrates": 43.2
+        "calories": 254.3,
+        "protein": 10.6,
+        "fat": 7.9,
+        "carbohydrates": 9.3
       },
       "manufacturer": {
-        "name": "ОАО «Селезнева Турова»",
+        "name": "ИП «Турова, Селезнев и Жданова»",
         "country": "Россия",
-        "website": "https://panfilov.net",
-        "inn": "5790638925"
+        "website": "https://ao.com",
+        "inn": "7389660036"
+      }
+    },
+    {
+      "product_id": "prd-1005",
+      "name": "Блин Редактор",
+      "category": "🥛 Молочные продукты",
+      "quantity": 5,
+      "unit": "л",
+      "price_per_unit": 252.66,
+      "total_price": 1263.3,
+      "kbju": {
+        "calories": 169.1,
+        "protein": 14.6,
+        "fat": 4.1,
+        "carbohydrates": 39.8
+      },
+      "manufacturer": {
+        "name": "ООО «Савельев»",
+        "country": "Россия",
+        "website": "https://vostok-zapad.biz",
+        "inn": "3880905200"
       }
     }
   ],
-  "total_amount": 840.8,
+  "total_amount": 1522.14,
   "payment_method": "cash",
   "is_delivery": false,
   "delivery_address": {
     "country": "Россия",
-    "city": "ст. Любань",
-    "street": "пер. Камский",
-    "house": "974",
-    "apartment": "2",
-    "postal_code": "965257"
+    "city": "г. Корсаков",
+    "street": "бул. Горный",
+    "house": "726",
+    "apartment": "14",
+    "postal_code": "983714"
   },
-  "purchase_datetime": "2025-08-23T19:57:11.038009"
+  "purchase_datetime": "2025-09-18T13:42:39.590899"
 }

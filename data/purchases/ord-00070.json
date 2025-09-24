@@ -1,84 +1,105 @@
 {
   "purchase_id": "ord-00070",
   "customer": {
-    "customer_id": "cus-1017",
-    "first_name": "Анна",
-    "last_name": "Кулагина",
-    "email": "blinovagafon@example.com",
-    "phone": "8 378 774 4882",
+    "customer_id": "cus-1006",
+    "first_name": "Павел",
+    "last_name": "Самойлова",
+    "email": "okrasilnikova@example.com",
+    "phone": "8 (345) 897-01-55",
     "is_loyalty_member": true,
-    "loyalty_card_number": "LOYAL-BB85942A1A"
+    "loyalty_card_number": "LOYAL-BE3CAFEC55"
   },
   "store": {
-    "store_id": "store-031",
-    "store_name": "Маленькая Пикча — Магазин на наб. Максима Горького",
-    "store_network": "Маленькая Пикча",
+    "store_id": "store-017",
+    "store_name": "Большая Пикча — Магазин на пр. Советский",
+    "store_network": "Большая Пикча",
     "location": {
       "country": "Россия",
-      "city": "к. Шереметьево",
-      "street": "бул. 70 лет Октября",
-      "house": "974",
-      "postal_code": "658842",
+      "city": "с. Чусовой",
+      "street": "бул. Металлистов",
+      "house": "76",
+      "postal_code": "465241",
       "coordinates": {
-        "latitude": -54.276802,
-        "longitude": -95.137118
+        "latitude": -31.6654215,
+        "longitude": 32.773325
       }
     }
   },
   "items": [
     {
-      "product_id": "prd-1007",
-      "name": "Штаб Приличный",
-      "category": "🍏 Фрукты и ягоды",
-      "quantity": 4,
-      "unit": "кг",
-      "price_per_unit": 196.88,
-      "total_price": 787.52,
+      "product_id": "prd-1016",
+      "name": "Очередной Аллея",
+      "category": "🥖 Зерновые и хлебобулочные изделия",
+      "quantity": 2,
+      "unit": "шт",
+      "price_per_unit": 251.07,
+      "total_price": 502.14,
       "kbju": {
-        "calories": 164.9,
-        "protein": 16.7,
-        "fat": 3.6,
-        "carbohydrates": 31.4
+        "calories": 277.2,
+        "protein": 18.2,
+        "fat": 6.0,
+        "carbohydrates": 11.3
       },
       "manufacturer": {
-        "name": "СДС-Уголь",
+        "name": "ГК Автомир",
         "country": "Россия",
-        "website": "https://npo.ru",
-        "inn": "9854590544"
+        "website": "https://andreev.info",
+        "inn": "8436477835"
       }
     },
     {
-      "product_id": "prd-1019",
-      "name": "Адвокат Другой",
-      "category": "🥦 Овощи и зелень",
-      "quantity": 3,
-      "unit": "шт",
-      "price_per_unit": 43.3,
-      "total_price": 129.9,
+      "product_id": "prd-1009",
+      "name": "Расстройство Валюта",
+      "category": "🥩 Мясо, рыба, яйца и бобовые",
+      "quantity": 4,
+      "unit": "л",
+      "price_per_unit": 256.33,
+      "total_price": 1025.32,
       "kbju": {
-        "calories": 77.7,
-        "protein": 13.9,
-        "fat": 10.1,
-        "carbohydrates": 22.7
+        "calories": 208.9,
+        "protein": 12.9,
+        "fat": 11.4,
+        "carbohydrates": 30.9
       },
       "manufacturer": {
-        "name": "Чернова Групп",
+        "name": "АХ Степь",
         "country": "Россия",
-        "website": "https://belozerova.com",
-        "inn": "4723890506"
+        "website": "https://rao.ru",
+        "inn": "1719997409"
+      }
+    },
+    {
+      "product_id": "prd-1005",
+      "name": "Блин Редактор",
+      "category": "🥛 Молочные продукты",
+      "quantity": 4,
+      "unit": "л",
+      "price_per_unit": 252.66,
+      "total_price": 1010.64,
+      "kbju": {
+        "calories": 169.1,
+        "protein": 14.6,
+        "fat": 4.1,
+        "carbohydrates": 39.8
+      },
+      "manufacturer": {
+        "name": "ООО «Савельев»",
+        "country": "Россия",
+        "website": "https://vostok-zapad.biz",
+        "inn": "3880905200"
       }
     }
   ],
-  "total_amount": 917.42,
+  "total_amount": 2538.1,
   "payment_method": "card",
-  "is_delivery": true,
+  "is_delivery": false,
   "delivery_address": {
     "country": "Россия",
-    "city": "к. Минеральные Воды",
-    "street": "бул. Тракторный",
-    "house": "1/6",
-    "apartment": "35",
-    "postal_code": "468913"
+    "city": "ст. Избербаш",
+    "street": "алл. Тихая",
+    "house": "2",
+    "apartment": "30",
+    "postal_code": "747274"
   },
-  "purchase_datetime": "2025-08-24T19:57:10.982606"
+  "purchase_datetime": "2025-07-21T13:42:39.545719"
 }

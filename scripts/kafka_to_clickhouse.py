@@ -1,10 +1,10 @@
 # scripts/kafka_to_clickhouse.py
-from __future__ import annotations
 
+from __future__ import annotations
 import json
 import logging
 from typing import Any, Dict, List, TypedDict, cast
-
+from datetime import datetime
 from clickhouse_driver import Client
 from cryptography.fernet import Fernet
 from kafka import KafkaConsumer
@@ -13,37 +13,32 @@ from kafka import KafkaConsumer
 logging.basicConfig(level=logging.INFO, format='%(asctime)s - %(levelname)s - %(message)s')
 logger = logging.getLogger(__name__)
 
-# === Генерация ключа шифрования ===
-ENCRYPTION_KEY = Fernet.generate_key()
+# === Ключ шифрования (вставьте сюда ключ из kafka_producer.py) ===
+ENCRYPTION_KEY = b'xw0PVIua1VW4Z4zb5oaT9LBwOGSPLlRyA9MwdK0e5q4='  # ⚠️ ЗАМЕНИТЕ НА ВАШ КЛЮЧ ИЗ kafka_producer.py
 cipher = Fernet(ENCRYPTION_KEY)
-logger.info(f"🔑 Ключ шифрования (сохраните!): {ENCRYPTION_KEY.decode()}")
 
+logger.info("🔑 Используем ключ шифрования.")
 
-def encrypt_field(value: str | None) -> str:
-    """Шифрует строковое поле. Возвращает пустую строку, если значение None или пустое."""
+# === Нормализация и дешифровка ===
+def decrypt_phone_or_email(value: str | None) -> str:
     if not value:
         return ""
-    return cipher.encrypt(value.encode()).decode()
-
+    try:
+        return cipher.decrypt(value.encode()).decode()
+    except Exception:
+        return value  # fallback: вернуть как есть, если не расшифровывается
 
 def normalize_phone(phone: str | None) -> str:
-    """Приводит номер телефона к формату +7XXXXXXXXXX."""
     if not phone:
         return ""
-    digits = ''.join(filter(str.isdigit, phone))
-    if len(digits) == 11 and digits.startswith('8'):
-        digits = '7' + digits[1:]
-    if len(digits) == 10:
-        digits = '7' + digits
-    if len(digits) == 11 and digits.startswith('7'):
-        return f"+{digits}"
+    # Приведение к единому формату +7 (если не зашифровано)
+    if phone.startswith('+7') and phone[1:].isdigit() and len(phone) == 12:
+        return phone
     return phone  # fallback на оригинальный формат
-
 
 def normalize_email(email: str | None) -> str:
     """Нормализует email: приводит к нижнему регистру и удаляет пробелы."""
     return email.strip().lower() if email else ""
-
 
 # === Типы для валидации структуры данных из Kafka ===
 class ManagerDict(TypedDict):
@@ -51,11 +46,9 @@ class ManagerDict(TypedDict):
     phone: str
     email: str
 
-
 class CoordinatesDict(TypedDict):
     latitude: float
     longitude: float
-
 
 class LocationDict(TypedDict):
     country: str
@@ -65,12 +58,10 @@ class LocationDict(TypedDict):
     postal_code: str
     coordinates: CoordinatesDict
 
-
 class OpeningHoursDict(TypedDict):
     mon_fri: str
     sat: str
     sun: str
-
 
 class StoreDocument(TypedDict):
     store_id: str
@@ -85,99 +76,21 @@ class StoreDocument(TypedDict):
     accepts_online_orders: bool
     delivery_available: bool
     warehouse_connected: bool
-    last_inventory_date: str  # YYYY-MM-DD
-
-
-class KBJUDict(TypedDict):
-    calories: float
-    protein: float
-    fat: float
-    carbohydrates: float
-
-
-class ManufacturerDict(TypedDict):
-    name: str
-    country: str
-    website: str
-    inn: str
-
+    last_inventory_date: str  # ISO format
 
 class ProductDocument(TypedDict):
     id: str
     name: str
     group: str
     description: str
-    kbju: KBJUDict
+    kbju: Dict[str, float]
     price: float
     unit: str
     origin_country: str
     expiry_days: int
     is_organic: bool
     barcode: str
-    manufacturer: ManufacturerDict
-
-
-class PurchaseLocationDict(TypedDict):
-    store_id: str
-    store_name: str
-    store_network: str
-    store_type_description: str
-    country: str
-    city: str
-    street: str
-    house: str
-    postal_code: str
-
-
-class DeliveryAddressDict(TypedDict):
-    country: str
-    city: str
-    street: str
-    house: str
-    apartment: str
-    postal_code: str
-
-
-class PreferencesDict(TypedDict):
-    preferred_language: str
-    preferred_payment_method: str
-    receive_promotions: bool
-
-
-class CustomerDocument(TypedDict):
-    customer_id: str
-    first_name: str
-    last_name: str
-    email: str
-    phone: str
-    birth_date: str  # ISO format
-    gender: str
-    registration_date: str  # ISO format
-    is_loyalty_member: bool
-    loyalty_card_number: str
-    purchase_location: PurchaseLocationDict
-    delivery_address: DeliveryAddressDict
-    preferences: PreferencesDict
-
-
-class PurchaseItemDict(TypedDict):
-    product_id: str
-    name: str
-    category: str
-    quantity: int
-    unit: str
-    price_per_unit: float
-    total_price: float
-    kbju: KBJUDict
-    manufacturer: ManufacturerDict
-
-
-class StoreRefDict(TypedDict):
-    store_id: str
-    store_name: str
-    store_network: str
-    location: LocationDict
-
+    manufacturer: Dict[str, Any]
 
 class CustomerRefDict(TypedDict):
     customer_id: str
@@ -188,6 +101,29 @@ class CustomerRefDict(TypedDict):
     is_loyalty_member: bool
     loyalty_card_number: str
 
+class StoreRefDict(TypedDict):
+    store_id: str
+    store_name: str
+    store_network: str
+    location: LocationDict
+
+class PurchaseItemDict(TypedDict):
+    product_id: str
+    name: str
+    category: str
+    quantity: int
+    unit: str
+    price_per_unit: float
+    total_price: float
+    kbju: Dict[str, float]
+    manufacturer: Dict[str, str]
+
+class DeliveryAddressDict(TypedDict):
+    city: str
+    street: str
+    house: str
+    apartment: str
+    postal_code: str
 
 class PurchaseDocument(TypedDict):
     purchase_id: str
@@ -200,10 +136,8 @@ class PurchaseDocument(TypedDict):
     delivery_address: DeliveryAddressDict
     purchase_datetime: str  # ISO format
 
-
 # === Подключение к ClickHouse ===
 client = Client(host='localhost', port=9000)  # Используем порт 9000, как настроено в docker-compose.yml
-
 
 # === Создание таблиц ===
 def create_tables() -> None:
@@ -243,14 +177,14 @@ def create_tables() -> None:
         name String,
         group String,
         description String,
-        kbju_calories Float64,
-        kbju_protein Float64,
-        kbju_fat Float64,
-        kbju_carbohydrates Float64,
-        price Float64,
+        kbju_calories Float32,
+        kbju_protein Float32,
+        kbju_fat Float32,
+        kbju_carbohydrates Float32,
+        price Float32,
         unit String,
         origin_country String,
-        expiry_days Int32,
+        expiry_days UInt16,
         is_organic UInt8,
         barcode String,
         manufacturer_name String,
@@ -265,8 +199,8 @@ def create_tables() -> None:
         customer_id String,
         first_name String,
         last_name String,
-        email_encrypted String,
-        phone_encrypted String,
+        email String,
+        phone String,
         birth_date Date,
         gender String,
         registration_date DateTime,
@@ -290,7 +224,7 @@ def create_tables() -> None:
         purchase_id String,
         customer_id String,
         store_id String,
-        total_amount Float64,
+        total_amount Float32,
         payment_method String,
         is_delivery UInt8,
         delivery_address_city String,
@@ -306,24 +240,22 @@ def create_tables() -> None:
     CREATE TABLE IF NOT EXISTS piccha_raw.purchase_items (
         purchase_id String,
         product_id String,
-        name String,
+        item_name String,
         category String,
-        quantity Int32,
+        quantity UInt32,
         unit String,
-        price_per_unit Float64,
-        total_price Float64,
-        kbju_calories Float64,
-        kbju_protein Float64,
-        kbju_fat Float64,
-        kbju_carbohydrates Float64,
+        price_per_unit Float32,
+        total_price Float32,
+        kbju_calories Float32,
+        kbju_protein Float32,
+        kbju_fat Float32,
+        kbju_carbohydrates Float32,
         manufacturer_name String
     ) ENGINE = MergeTree() ORDER BY (purchase_id, product_id)
     """)
 
-
 # === Основной consumer ===
 def main() -> None:
-    global doc
     create_tables()
 
     consumer = KafkaConsumer(
@@ -344,9 +276,10 @@ def main() -> None:
 
             if coll == 'stores':
                 doc = cast(StoreDocument, raw_doc)
-                categories = doc.get('categories', [])
-                if not isinstance(categories, list):
-                    categories = [str(categories)]
+
+                # Конвертация last_inventory_date из строки в дату
+                last_inventory_date_str = doc.get('last_inventory_date', '')
+                last_inventory_date = datetime.fromisoformat(last_inventory_date_str.replace("Z", "+00:00")) if last_inventory_date_str else datetime(1970, 1, 1)
 
                 client.execute("""
                 INSERT INTO piccha_raw.stores VALUES
@@ -356,10 +289,10 @@ def main() -> None:
                     doc['store_network'],
                     doc['store_type_description'],
                     doc['type'],
-                    categories,
+                    doc['categories'],
                     doc['manager']['name'],
-                    encrypt_field(normalize_phone(doc['manager']['phone'])),
-                    encrypt_field(normalize_email(doc['manager']['email'])),
+                    normalize_phone(decrypt_phone_or_email(doc['manager']['phone'])),
+                    doc['manager']['email'],  # email не шифруется в manager?
                     doc['location']['country'],
                     doc['location']['city'],
                     doc['location']['street'],
@@ -373,11 +306,12 @@ def main() -> None:
                     int(doc['accepts_online_orders']),
                     int(doc['delivery_available']),
                     int(doc['warehouse_connected']),
-                    doc['last_inventory_date']
+                    last_inventory_date.date()
                 )])
 
             elif coll == 'products':
                 doc = cast(ProductDocument, raw_doc)
+
                 client.execute("""
                 INSERT INTO piccha_raw.products VALUES
                 """, [(
@@ -402,18 +336,26 @@ def main() -> None:
                 )])
 
             elif coll == 'customers':
-                doc = cast(CustomerDocument, raw_doc)
+                doc = cast(CustomerRefDict, raw_doc)
+
+                # Конвертация дат
+                birth_date_str = doc.get('birth_date', '')
+                birth_date = datetime.fromisoformat(birth_date_str) if birth_date_str else datetime(1970, 1, 1)
+
+                registration_date_str = doc.get('registration_date', '')
+                registration_date = datetime.fromisoformat(registration_date_str.replace("Z", "+00:00")) if registration_date_str else datetime(1970, 1, 1)
+
                 client.execute("""
                 INSERT INTO piccha_raw.customers VALUES
                 """, [(
                     doc['customer_id'],
                     doc['first_name'],
                     doc['last_name'],
-                    encrypt_field(normalize_email(doc['email'])),
-                    encrypt_field(normalize_phone(doc['phone'])),
-                    doc['birth_date'],
+                    normalize_email(decrypt_phone_or_email(doc.get('email', ''))),
+                    normalize_phone(decrypt_phone_or_email(doc.get('phone', ''))),
+                    birth_date.date(),
                     doc['gender'],
-                    doc['registration_date'],
+                    registration_date,
                     int(doc['is_loyalty_member']),
                     doc['loyalty_card_number'],
                     doc['purchase_location']['store_id'],
@@ -430,7 +372,11 @@ def main() -> None:
 
             elif coll == 'purchases':
                 doc = cast(PurchaseDocument, raw_doc)
-                # Основная запись покупки
+
+                # Конвертация даты покупки
+                purchase_datetime_str = doc.get('purchase_datetime', '')
+                purchase_datetime = datetime.fromisoformat(purchase_datetime_str.replace("Z", "+00:00")) if purchase_datetime_str else datetime(1970, 1, 1)
+
                 client.execute("""
                 INSERT INTO piccha_raw.purchases VALUES
                 """, [(
@@ -445,8 +391,9 @@ def main() -> None:
                     doc['delivery_address']['house'],
                     doc['delivery_address']['apartment'],
                     doc['delivery_address']['postal_code'],
-                    doc['purchase_datetime']
+                    purchase_datetime
                 )])
+
                 # Запись товаров в покупке
                 for item in doc['items']:
                     client.execute("""
@@ -474,7 +421,6 @@ def main() -> None:
             continue
 
     logger.info("🏁 Загрузка в ClickHouse завершена.")
-
 
 if __name__ == "__main__":
     main()

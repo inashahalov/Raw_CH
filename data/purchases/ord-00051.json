@@ -1,63 +1,105 @@
 {
   "purchase_id": "ord-00051",
   "customer": {
-    "customer_id": "cus-1041",
-    "first_name": "Нифонт",
-    "last_name": "Григорьева",
-    "email": "kononovzinovi@example.org",
-    "phone": "84135987426",
+    "customer_id": "cus-1017",
+    "first_name": "Никодим",
+    "last_name": "Селиверстова",
+    "email": "alekse_1982@example.com",
+    "phone": "+7 (820) 183-6006",
     "is_loyalty_member": true,
-    "loyalty_card_number": "LOYAL-DA8CFBAA69"
+    "loyalty_card_number": "LOYAL-5FCEC46A5F"
   },
   "store": {
-    "store_id": "store-001",
-    "store_name": "Большая Пикча — Магазин на пер. 60 лет СССР",
-    "store_network": "Большая Пикча",
+    "store_id": "store-044",
+    "store_name": "Маленькая Пикча — Магазин на наб. Черноморская",
+    "store_network": "Маленькая Пикча",
     "location": {
       "country": "Россия",
-      "city": "п. Качканар",
-      "street": "бул. Панфилова",
-      "house": "90",
-      "postal_code": "699299",
+      "city": "д. Псебай",
+      "street": "пр. Сплавный",
+      "house": "86",
+      "postal_code": "078632",
       "coordinates": {
-        "latitude": 23.7573875,
-        "longitude": -54.155635
+        "latitude": -54.435567,
+        "longitude": 133.144877
       }
     }
   },
   "items": [
     {
-      "product_id": "prd-1005",
-      "name": "Уничтожение Вздрагивать",
-      "category": "🍏 Фрукты и ягоды",
+      "product_id": "prd-1012",
+      "name": "Полюбить Прошептать",
+      "category": "🥛 Молочные продукты",
       "quantity": 5,
       "unit": "л",
-      "price_per_unit": 207.53,
-      "total_price": 1037.65,
+      "price_per_unit": 179.33,
+      "total_price": 896.65,
       "kbju": {
-        "calories": 191.8,
-        "protein": 11.1,
-        "fat": 7.9,
-        "carbohydrates": 5.4
+        "calories": 251.8,
+        "protein": 19.3,
+        "fat": 14.3,
+        "carbohydrates": 22.3
       },
       "manufacturer": {
-        "name": "ООО «Авдеев-Медведева»",
+        "name": "ИП «Шарова»",
         "country": "Россия",
-        "website": "https://zao.com",
-        "inn": "9782693224"
+        "website": "https://ip.ru",
+        "inn": "2195881079"
+      }
+    },
+    {
+      "product_id": "prd-1009",
+      "name": "Расстройство Валюта",
+      "category": "🥩 Мясо, рыба, яйца и бобовые",
+      "quantity": 3,
+      "unit": "л",
+      "price_per_unit": 256.33,
+      "total_price": 768.99,
+      "kbju": {
+        "calories": 208.9,
+        "protein": 12.9,
+        "fat": 11.4,
+        "carbohydrates": 30.9
+      },
+      "manufacturer": {
+        "name": "АХ Степь",
+        "country": "Россия",
+        "website": "https://rao.ru",
+        "inn": "1719997409"
+      }
+    },
+    {
+      "product_id": "prd-1002",
+      "name": "Издали Перебивать",
+      "category": "🥩 Мясо, рыба, яйца и бобовые",
+      "quantity": 5,
+      "unit": "упаковка",
+      "price_per_unit": 61.88,
+      "total_price": 309.4,
+      "kbju": {
+        "calories": 131.0,
+        "protein": 3.3,
+        "fat": 2.2,
+        "carbohydrates": 21.7
+      },
+      "manufacturer": {
+        "name": "Государственная транспортная лизинговая компания",
+        "country": "Россия",
+        "website": "https://zao.org",
+        "inn": "0226529553"
       }
     }
   ],
-  "total_amount": 1037.65,
-  "payment_method": "cash",
+  "total_amount": 1975.04,
+  "payment_method": "card",
   "is_delivery": true,
   "delivery_address": {
     "country": "Россия",
-    "city": "г. Псков",
-    "street": "наб. Кочубея",
-    "house": "6",
-    "apartment": "65",
-    "postal_code": "944554"
+    "city": "г. Раменское",
+    "street": "бул. Березовый",
+    "house": "69",
+    "apartment": "36",
+    "postal_code": "147385"
   },
-  "purchase_datetime": "2025-07-13T19:57:10.974182"
+  "purchase_datetime": "2025-07-07T13:42:39.537990"
 }

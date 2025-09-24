@@ -1,6 +1,6 @@
 {
   "store_id": "store-007",
-  "store_name": "Большая Пикча — Магазин на ш. Придорожное",
+  "store_name": "Большая Пикча — Магазин на наб. Горького",
   "store_network": "Большая Пикча",
   "store_type_description": "Супермаркет более 200 кв.м. Входит в сеть из 30 магазинов.",
   "type": "offline",
@@ -12,19 +12,19 @@
     "🥦 Овощи и зелень"
   ],
   "manager": {
-    "name": "Екатерина Феликсовна Смирнова",
-    "phone": "8 (504) 700-54-15",
-    "email": "jakushevmilovan@example.org"
+    "name": "Осип Чеславович Веселов",
+    "phone": "+78962187683",
+    "email": "lazarevatamara@example.org"
   },
   "location": {
     "country": "Россия",
-    "city": "к. Бомнак",
-    "street": "ш. Энгельса",
-    "house": "440",
-    "postal_code": "831672",
+    "city": "ст. Избербаш",
+    "street": "пр. 9 мая",
+    "house": "78",
+    "postal_code": "920515",
     "coordinates": {
-      "latitude": 25.0856345,
-      "longitude": 118.498939
+      "latitude": 62.470896,
+      "longitude": -74.740492
     }
   },
   "opening_hours": {
@@ -34,6 +34,6 @@
   },
   "accepts_online_orders": true,
   "delivery_available": true,
-  "warehouse_connected": false,
-  "last_inventory_date": "2025-09-23"
+  "warehouse_connected": true,
+  "last_inventory_date": "2025-09-24"
 }

@@ -1,6 +1,6 @@
 {
   "store_id": "store-037",
-  "store_name": "Маленькая Пикча — Магазин на пер. Новоселов",
+  "store_name": "Маленькая Пикча — Магазин на пр. Мусы Джалиля",
   "store_network": "Маленькая Пикча",
   "store_type_description": "Магазин у дома менее 100 кв.м. Входит в сеть из 15 магазинов.",
   "type": "offline",
@@ -12,19 +12,19 @@
     "🥦 Овощи и зелень"
   ],
   "manager": {
-    "name": "Зуев Корнил Жоресович",
-    "phone": "80930456299",
-    "email": "olga2004@example.net"
+    "name": "Зыкова Людмила Станиславовна",
+    "phone": "+7 (070) 602-8685",
+    "email": "psemenov@example.com"
   },
   "location": {
     "country": "Россия",
-    "city": "клх Нягань",
-    "street": "бул. Покровский",
-    "house": "3/6",
-    "postal_code": "915377",
+    "city": "клх Биробиджан",
+    "street": "ш. Достоевского",
+    "house": "8",
+    "postal_code": "786634",
     "coordinates": {
-      "latitude": 81.94456,
-      "longitude": 125.897117
+      "latitude": 88.650457,
+      "longitude": 140.229319
     }
   },
   "opening_hours": {
@@ -34,6 +34,6 @@
   },
   "accepts_online_orders": true,
   "delivery_available": true,
-  "warehouse_connected": true,
-  "last_inventory_date": "2025-09-23"
+  "warehouse_connected": false,
+  "last_inventory_date": "2025-09-24"
 }

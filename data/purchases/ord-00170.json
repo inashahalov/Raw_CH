@@ -1,105 +1,105 @@
 {
   "purchase_id": "ord-00170",
   "customer": {
-    "customer_id": "cus-1002",
-    "first_name": "Эммануил",
-    "last_name": "Сорокина",
-    "email": "bogdan_1994@example.com",
-    "phone": "+78403056533",
+    "customer_id": "cus-1010",
+    "first_name": "Лариса",
+    "last_name": "Рябова",
+    "email": "ovchinnikovprov@example.net",
+    "phone": "83020994303",
     "is_loyalty_member": true,
-    "loyalty_card_number": "LOYAL-C9106DA2DE"
+    "loyalty_card_number": "LOYAL-D0092FF126"
   },
   "store": {
-    "store_id": "store-012",
-    "store_name": "Большая Пикча — Магазин на наб. Центральная",
+    "store_id": "store-011",
+    "store_name": "Большая Пикча — Магазин на наб. Светлая",
     "store_network": "Большая Пикча",
     "location": {
       "country": "Россия",
-      "city": "ст. Валдай",
-      "street": "алл. Станиславского",
-      "house": "8/1",
-      "postal_code": "481389",
+      "city": "д. Петрозаводск",
+      "street": "наб. Некрасова",
+      "house": "1/2",
+      "postal_code": "016668",
       "coordinates": {
-        "latitude": 33.4852585,
-        "longitude": 19.302012
+        "latitude": -29.6315255,
+        "longitude": -174.977322
       }
     }
   },
   "items": [
     {
-      "product_id": "prd-1008",
-      "name": "Фонарик Успокоиться",
-      "category": "🥖 Зерновые и хлебобулочные изделия",
-      "quantity": 5,
-      "unit": "упаковка",
-      "price_per_unit": 73.43,
-      "total_price": 367.15,
-      "kbju": {
-        "calories": 92.6,
-        "protein": 18.4,
-        "fat": 11.5,
-        "carbohydrates": 24.8
-      },
-      "manufacturer": {
-        "name": "ООО «Денисов, Щукина и Гришин»",
-        "country": "Россия",
-        "website": "https://kozlova.org",
-        "inn": "3531459365"
-      }
-    },
-    {
-      "product_id": "prd-1007",
-      "name": "Штаб Приличный",
-      "category": "🍏 Фрукты и ягоды",
-      "quantity": 2,
-      "unit": "кг",
-      "price_per_unit": 196.88,
-      "total_price": 393.76,
-      "kbju": {
-        "calories": 164.9,
-        "protein": 16.7,
-        "fat": 3.6,
-        "carbohydrates": 31.4
-      },
-      "manufacturer": {
-        "name": "СДС-Уголь",
-        "country": "Россия",
-        "website": "https://npo.ru",
-        "inn": "9854590544"
-      }
-    },
-    {
-      "product_id": "prd-1012",
-      "name": "Премьера Висеть",
+      "product_id": "prd-1009",
+      "name": "Расстройство Валюта",
       "category": "🥩 Мясо, рыба, яйца и бобовые",
       "quantity": 3,
       "unit": "л",
-      "price_per_unit": 193.21,
-      "total_price": 579.63,
+      "price_per_unit": 256.33,
+      "total_price": 768.99,
       "kbju": {
-        "calories": 254.5,
-        "protein": 0.8,
-        "fat": 5.6,
-        "carbohydrates": 3.1
+        "calories": 208.9,
+        "protein": 12.9,
+        "fat": 11.4,
+        "carbohydrates": 30.9
       },
       "manufacturer": {
-        "name": "АО «Ларионова, Молчанов и Ефремова»",
+        "name": "АХ Степь",
         "country": "Россия",
-        "website": "https://ao.edu",
-        "inn": "3317182161"
+        "website": "https://rao.ru",
+        "inn": "1719997409"
+      }
+    },
+    {
+      "product_id": "prd-1014",
+      "name": "Господь Падаль",
+      "category": "🥦 Овощи и зелень",
+      "quantity": 5,
+      "unit": "л",
+      "price_per_unit": 222.18,
+      "total_price": 1110.9,
+      "kbju": {
+        "calories": 191.4,
+        "protein": 12.2,
+        "fat": 4.5,
+        "carbohydrates": 5.2
+      },
+      "manufacturer": {
+        "name": "ИП «Афанасьев, Щербаков и Пахомова»",
+        "country": "Россия",
+        "website": "https://oao.biz",
+        "inn": "7090374985"
+      }
+    },
+    {
+      "product_id": "prd-1018",
+      "name": "Проход Запретить",
+      "category": "🍏 Фрукты и ягоды",
+      "quantity": 2,
+      "unit": "упаковка",
+      "price_per_unit": 258.84,
+      "total_price": 517.68,
+      "kbju": {
+        "calories": 254.3,
+        "protein": 10.6,
+        "fat": 7.9,
+        "carbohydrates": 9.3
+      },
+      "manufacturer": {
+        "name": "ИП «Турова, Селезнев и Жданова»",
+        "country": "Россия",
+        "website": "https://ao.com",
+        "inn": "7389660036"
       }
     }
   ],
-  "total_amount": 1340.54,
+  "total_amount": 2397.57,
   "payment_method": "card",
   "is_delivery": true,
   "delivery_address": {
     "country": "Россия",
-    "city": "г. Вилюйск",
-    "street": "бул. Революционный",
-    "house": "972",
-    "apartment": "98",
-    "postal_code": "852736"
+    "city": "д. Петрозаводск",
+    "street": "пер. Запрудный",
+    "house": "500",
+    "apartment": "10",
+    "postal_code": "349314"
   },
-  "purchase_datetime": "2025-09-11T19:57:11.034746"
+  "purchase_datetime": "2025-08-07T13:42:39.588514"
 }

@@ -1,84 +1,84 @@
 {
   "purchase_id": "ord-00108",
   "customer": {
-    "customer_id": "cus-1043",
-    "first_name": "Жанна",
-    "last_name": "Сидорова",
-    "email": "ostapmoiseev@example.org",
-    "phone": "+78782851181",
+    "customer_id": "cus-1030",
+    "first_name": "Юрий",
+    "last_name": "Исакова",
+    "email": "frol_93@example.net",
+    "phone": "+70921851470",
     "is_loyalty_member": true,
-    "loyalty_card_number": "LOYAL-21A26202A6"
+    "loyalty_card_number": "LOYAL-384DC34D0B"
   },
   "store": {
-    "store_id": "store-043",
-    "store_name": "Маленькая Пикча — Магазин на наб. Полярная",
-    "store_network": "Маленькая Пикча",
+    "store_id": "store-001",
+    "store_name": "Большая Пикча — Магазин на бул. Колхозный",
+    "store_network": "Большая Пикча",
     "location": {
       "country": "Россия",
-      "city": "д. Сусуман",
-      "street": "ул. Клубная",
-      "house": "27",
-      "postal_code": "336566",
+      "city": "к. Жуковский",
+      "street": "ш. Поперечное",
+      "house": "198",
+      "postal_code": "772195",
       "coordinates": {
-        "latitude": -54.2720925,
-        "longitude": -115.044775
+        "latitude": -80.495473,
+        "longitude": 41.675442
       }
     }
   },
   "items": [
     {
-      "product_id": "prd-1013",
-      "name": "Роса Наткнуться",
-      "category": "🥛 Молочные продукты",
-      "quantity": 1,
-      "unit": "упаковка",
-      "price_per_unit": 39.74,
-      "total_price": 39.74,
+      "product_id": "prd-1006",
+      "name": "Витрина Лапа",
+      "category": "🥦 Овощи и зелень",
+      "quantity": 2,
+      "unit": "л",
+      "price_per_unit": 197.14,
+      "total_price": 394.28,
       "kbju": {
-        "calories": 283.8,
-        "protein": 19.2,
-        "fat": 7.6,
-        "carbohydrates": 35.6
+        "calories": 159.3,
+        "protein": 17.1,
+        "fat": 8.9,
+        "carbohydrates": 42.8
       },
       "manufacturer": {
-        "name": "АО «Потапова, Смирнова и Сазонова»",
+        "name": "ООО «Ширяева Матвеев»",
         "country": "Россия",
-        "website": "https://magnit.info",
-        "inn": "3006321123"
+        "website": "https://rao.biz",
+        "inn": "8993676224"
       }
     },
     {
-      "product_id": "prd-1006",
-      "name": "Мелькнуть Сбросить",
-      "category": "🍏 Фрукты и ягоды",
-      "quantity": 4,
-      "unit": "кг",
-      "price_per_unit": 251.59,
-      "total_price": 1006.36,
+      "product_id": "prd-1005",
+      "name": "Блин Редактор",
+      "category": "🥛 Молочные продукты",
+      "quantity": 2,
+      "unit": "л",
+      "price_per_unit": 252.66,
+      "total_price": 505.32,
       "kbju": {
-        "calories": 208.0,
-        "protein": 7.1,
-        "fat": 7.6,
-        "carbohydrates": 15.3
+        "calories": 169.1,
+        "protein": 14.6,
+        "fat": 4.1,
+        "carbohydrates": 39.8
       },
       "manufacturer": {
-        "name": "ИП «Киселев Комарова»",
+        "name": "ООО «Савельев»",
         "country": "Россия",
-        "website": "https://turova.info",
-        "inn": "8487805184"
+        "website": "https://vostok-zapad.biz",
+        "inn": "3880905200"
       }
     }
   ],
-  "total_amount": 1046.1,
-  "payment_method": "card",
+  "total_amount": 899.6,
+  "payment_method": "cash",
   "is_delivery": false,
   "delivery_address": {
     "country": "Россия",
-    "city": "ст. Богучар",
-    "street": "пер. Нефтяников",
-    "house": "9",
-    "apartment": "76",
-    "postal_code": "522549"
+    "city": "ст. Инта",
+    "street": "ул. Советской Армии",
+    "house": "5",
+    "apartment": "45",
+    "postal_code": "821612"
   },
-  "purchase_datetime": "2025-08-16T19:57:11.004853"
+  "purchase_datetime": "2025-07-12T13:42:39.561159"
 }

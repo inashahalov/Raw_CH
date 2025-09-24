@@ -1,84 +1,63 @@
 {
   "purchase_id": "ord-00076",
   "customer": {
-    "customer_id": "cus-1038",
-    "first_name": "Фотий",
-    "last_name": "Александров",
-    "email": "borisovstanimir@example.net",
-    "phone": "+7 (110) 633-4695",
+    "customer_id": "cus-1044",
+    "first_name": "Парфен",
+    "last_name": "Данилов",
+    "email": "angelina2012@example.net",
+    "phone": "+7 (210) 244-1602",
     "is_loyalty_member": true,
-    "loyalty_card_number": "LOYAL-51CB82EFA1"
+    "loyalty_card_number": "LOYAL-3D67D58F4B"
   },
   "store": {
-    "store_id": "store-038",
-    "store_name": "Маленькая Пикча — Магазин на бул. Папанина",
-    "store_network": "Маленькая Пикча",
+    "store_id": "store-024",
+    "store_name": "Большая Пикча — Магазин на наб. Харьковская",
+    "store_network": "Большая Пикча",
     "location": {
       "country": "Россия",
-      "city": "д. Терней",
-      "street": "наб. Флотская",
-      "house": "634",
-      "postal_code": "144849",
+      "city": "к. Кыштым",
+      "street": "пр. Луначарского",
+      "house": "969",
+      "postal_code": "152629",
       "coordinates": {
-        "latitude": -24.7418805,
-        "longitude": -175.888895
+        "latitude": 46.6419795,
+        "longitude": -1.629277
       }
     }
   },
   "items": [
     {
-      "product_id": "prd-1006",
-      "name": "Мелькнуть Сбросить",
-      "category": "🍏 Фрукты и ягоды",
-      "quantity": 2,
-      "unit": "кг",
-      "price_per_unit": 251.59,
-      "total_price": 503.18,
-      "kbju": {
-        "calories": 208.0,
-        "protein": 7.1,
-        "fat": 7.6,
-        "carbohydrates": 15.3
-      },
-      "manufacturer": {
-        "name": "ИП «Киселев Комарова»",
-        "country": "Россия",
-        "website": "https://turova.info",
-        "inn": "8487805184"
-      }
-    },
-    {
-      "product_id": "prd-1001",
-      "name": "Тревога Появление",
-      "category": "🥖 Зерновые и хлебобулочные изделия",
-      "quantity": 2,
+      "product_id": "prd-1011",
+      "name": "Сверкающий Коробка",
+      "category": "🥦 Овощи и зелень",
+      "quantity": 3,
       "unit": "шт",
-      "price_per_unit": 168.16,
-      "total_price": 336.32,
+      "price_per_unit": 242.68,
+      "total_price": 728.04,
       "kbju": {
-        "calories": 205.2,
-        "protein": 13.4,
-        "fat": 1.1,
-        "carbohydrates": 43.2
+        "calories": 212.1,
+        "protein": 13.3,
+        "fat": 13.8,
+        "carbohydrates": 18.4
       },
       "manufacturer": {
-        "name": "ОАО «Селезнева Турова»",
+        "name": "ЗАО «Филатова-Юдина»",
         "country": "Россия",
-        "website": "https://panfilov.net",
-        "inn": "5790638925"
+        "website": "https://oao.info",
+        "inn": "6258727413"
       }
     }
   ],
-  "total_amount": 839.5,
+  "total_amount": 728.04,
   "payment_method": "card",
-  "is_delivery": false,
+  "is_delivery": true,
   "delivery_address": {
     "country": "Россия",
-    "city": "с. Жиганск",
-    "street": "наб. Ермака",
-    "house": "9/6",
-    "apartment": "39",
-    "postal_code": "762206"
+    "city": "с. Тымовское",
+    "street": "пер. Невского",
+    "house": "247",
+    "apartment": "36",
+    "postal_code": "490798"
   },
-  "purchase_datetime": "2025-08-24T19:57:10.985318"
+  "purchase_datetime": "2025-08-18T13:42:39.548092"
 }

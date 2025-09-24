@@ -1,84 +1,84 @@
 {
   "purchase_id": "ord-00199",
   "customer": {
-    "customer_id": "cus-1037",
-    "first_name": "Ювеналий",
-    "last_name": "Хохлов",
-    "email": "djachkovapolina@example.net",
-    "phone": "82971596132",
+    "customer_id": "cus-1038",
+    "first_name": "Анатолий",
+    "last_name": "Комаров",
+    "email": "sila_10@example.com",
+    "phone": "+7 215 444 83 13",
     "is_loyalty_member": true,
-    "loyalty_card_number": "LOYAL-733B019E68"
+    "loyalty_card_number": "LOYAL-5E95E7F4D3"
   },
   "store": {
-    "store_id": "store-001",
-    "store_name": "Большая Пикча — Магазин на пер. 60 лет СССР",
-    "store_network": "Большая Пикча",
+    "store_id": "store-040",
+    "store_name": "Маленькая Пикча — Магазин на бул. Мая 1",
+    "store_network": "Маленькая Пикча",
     "location": {
       "country": "Россия",
-      "city": "п. Качканар",
-      "street": "бул. Панфилова",
-      "house": "90",
-      "postal_code": "699299",
+      "city": "клх Краснотурьинск",
+      "street": "ул. 9 мая",
+      "house": "86",
+      "postal_code": "172371",
       "coordinates": {
-        "latitude": 23.7573875,
-        "longitude": -54.155635
+        "latitude": 68.233675,
+        "longitude": 149.964304
       }
     }
   },
   "items": [
     {
-      "product_id": "prd-1018",
-      "name": "Низкий Присесть",
-      "category": "🥩 Мясо, рыба, яйца и бобовые",
-      "quantity": 2,
+      "product_id": "prd-1013",
+      "name": "Коммунизм Полевой",
+      "category": "🥖 Зерновые и хлебобулочные изделия",
+      "quantity": 5,
       "unit": "кг",
-      "price_per_unit": 240.2,
-      "total_price": 480.4,
+      "price_per_unit": 155.06,
+      "total_price": 775.3,
       "kbju": {
-        "calories": 272.9,
-        "protein": 7.8,
-        "fat": 2.3,
-        "carbohydrates": 5.3
+        "calories": 292.6,
+        "protein": 2.6,
+        "fat": 6.2,
+        "carbohydrates": 4.1
       },
       "manufacturer": {
-        "name": "Ланит",
+        "name": "АО «Абрамов»",
         "country": "Россия",
-        "website": "https://rao.info",
-        "inn": "3763771194"
+        "website": "https://ip.org",
+        "inn": "8372516031"
       }
     },
     {
-      "product_id": "prd-1000",
-      "name": "Заведение Задержать",
-      "category": "🥛 Молочные продукты",
-      "quantity": 1,
-      "unit": "л",
-      "price_per_unit": 174.16,
-      "total_price": 174.16,
+      "product_id": "prd-1010",
+      "name": "Бак Советовать",
+      "category": "🍏 Фрукты и ягоды",
+      "quantity": 5,
+      "unit": "упаковка",
+      "price_per_unit": 283.56,
+      "total_price": 1417.8,
       "kbju": {
-        "calories": 261.8,
-        "protein": 2.3,
-        "fat": 2.9,
-        "carbohydrates": 19.7
+        "calories": 247.4,
+        "protein": 3.4,
+        "fat": 14.4,
+        "carbohydrates": 46.0
       },
       "manufacturer": {
-        "name": "РАО «Бирюков, Лапина и Волков»",
+        "name": "Гаврилова Инкорпорэйтед",
         "country": "Россия",
-        "website": "https://ao.net",
-        "inn": "0912614956"
+        "website": "https://ao.com",
+        "inn": "5008817113"
       }
     }
   ],
-  "total_amount": 654.56,
+  "total_amount": 2193.1,
   "payment_method": "card",
-  "is_delivery": false,
+  "is_delivery": true,
   "delivery_address": {
     "country": "Россия",
-    "city": "д. Терней",
-    "street": "алл. Крупской",
-    "house": "8",
-    "apartment": "97",
-    "postal_code": "943074"
+    "city": "к. Лотошино",
+    "street": "бул. Попова",
+    "house": "8/6",
+    "apartment": "62",
+    "postal_code": "510126"
   },
-  "purchase_datetime": "2025-08-13T19:57:11.048647"
+  "purchase_datetime": "2025-07-18T13:42:39.599159"
 }

@@ -1,105 +1,105 @@
 {
   "purchase_id": "ord-00151",
   "customer": {
-    "customer_id": "cus-1015",
-    "first_name": "Фока",
-    "last_name": "Тетерина",
-    "email": "rjabovboleslav@example.com",
-    "phone": "+7 (465) 499-08-07",
+    "customer_id": "cus-1006",
+    "first_name": "Павел",
+    "last_name": "Самойлова",
+    "email": "okrasilnikova@example.com",
+    "phone": "8 (345) 897-01-55",
     "is_loyalty_member": true,
-    "loyalty_card_number": "LOYAL-0B04F4F2B7"
+    "loyalty_card_number": "LOYAL-BE3CAFEC55"
   },
   "store": {
     "store_id": "store-027",
-    "store_name": "Большая Пикча — Магазин на бул. Леваневского",
+    "store_name": "Большая Пикча — Магазин на ул. Детская",
     "store_network": "Большая Пикча",
     "location": {
       "country": "Россия",
-      "city": "г. Енисейск",
-      "street": "пр. Нахимова",
-      "house": "978",
-      "postal_code": "444837",
+      "city": "п. Наро-Фоминск",
+      "street": "наб. Физкультурная",
+      "house": "92",
+      "postal_code": "043690",
       "coordinates": {
-        "latitude": 79.739024,
-        "longitude": -88.450267
+        "latitude": 25.557303,
+        "longitude": -130.687503
       }
     }
   },
   "items": [
     {
-      "product_id": "prd-1006",
-      "name": "Мелькнуть Сбросить",
-      "category": "🍏 Фрукты и ягоды",
+      "product_id": "prd-1014",
+      "name": "Господь Падаль",
+      "category": "🥦 Овощи и зелень",
       "quantity": 3,
-      "unit": "кг",
-      "price_per_unit": 251.59,
-      "total_price": 754.77,
-      "kbju": {
-        "calories": 208.0,
-        "protein": 7.1,
-        "fat": 7.6,
-        "carbohydrates": 15.3
-      },
-      "manufacturer": {
-        "name": "ИП «Киселев Комарова»",
-        "country": "Россия",
-        "website": "https://turova.info",
-        "inn": "8487805184"
-      }
-    },
-    {
-      "product_id": "prd-1000",
-      "name": "Заведение Задержать",
-      "category": "🥛 Молочные продукты",
-      "quantity": 4,
       "unit": "л",
-      "price_per_unit": 174.16,
-      "total_price": 696.64,
+      "price_per_unit": 222.18,
+      "total_price": 666.54,
       "kbju": {
-        "calories": 261.8,
-        "protein": 2.3,
-        "fat": 2.9,
-        "carbohydrates": 19.7
+        "calories": 191.4,
+        "protein": 12.2,
+        "fat": 4.5,
+        "carbohydrates": 5.2
       },
       "manufacturer": {
-        "name": "РАО «Бирюков, Лапина и Волков»",
+        "name": "ИП «Афанасьев, Щербаков и Пахомова»",
         "country": "Россия",
-        "website": "https://ao.net",
-        "inn": "0912614956"
+        "website": "https://oao.biz",
+        "inn": "7090374985"
       }
     },
     {
-      "product_id": "prd-1016",
-      "name": "Цвет Трубка",
-      "category": "🥖 Зерновые и хлебобулочные изделия",
-      "quantity": 5,
+      "product_id": "prd-1004",
+      "name": "Прежний Успокоиться",
+      "category": "🥦 Овощи и зелень",
+      "quantity": 3,
       "unit": "упаковка",
-      "price_per_unit": 59.3,
-      "total_price": 296.5,
+      "price_per_unit": 192.71,
+      "total_price": 578.13,
       "kbju": {
-        "calories": 239.4,
-        "protein": 10.5,
-        "fat": 4.0,
-        "carbohydrates": 33.8
+        "calories": 95.9,
+        "protein": 17.1,
+        "fat": 12.1,
+        "carbohydrates": 42.3
       },
       "manufacturer": {
-        "name": "ОАО «Давыдова-Калинин»",
+        "name": "АО «Русакова»",
         "country": "Россия",
-        "website": "https://zao.org",
-        "inn": "7235646922"
+        "website": "https://nesterova.com",
+        "inn": "3179388333"
+      }
+    },
+    {
+      "product_id": "prd-1010",
+      "name": "Бак Советовать",
+      "category": "🍏 Фрукты и ягоды",
+      "quantity": 4,
+      "unit": "упаковка",
+      "price_per_unit": 283.56,
+      "total_price": 1134.24,
+      "kbju": {
+        "calories": 247.4,
+        "protein": 3.4,
+        "fat": 14.4,
+        "carbohydrates": 46.0
+      },
+      "manufacturer": {
+        "name": "Гаврилова Инкорпорэйтед",
+        "country": "Россия",
+        "website": "https://ao.com",
+        "inn": "5008817113"
       }
     }
   ],
-  "total_amount": 1747.91,
-  "payment_method": "card",
-  "is_delivery": false,
+  "total_amount": 2378.91,
+  "payment_method": "cash",
+  "is_delivery": true,
   "delivery_address": {
     "country": "Россия",
-    "city": "д. Оренбург",
-    "street": "алл. Портовая",
-    "house": "396",
-    "apartment": "100",
-    "postal_code": "150789"
+    "city": "ст. Избербаш",
+    "street": "алл. Тихая",
+    "house": "2",
+    "apartment": "30",
+    "postal_code": "747274"
   },
-  "purchase_datetime": "2025-09-08T19:57:11.025125"
+  "purchase_datetime": "2025-07-22T13:42:39.578663"
 }

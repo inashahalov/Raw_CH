@@ -1,84 +1,105 @@
 {
   "purchase_id": "ord-00048",
   "customer": {
-    "customer_id": "cus-1037",
-    "first_name": "Ювеналий",
-    "last_name": "Хохлов",
-    "email": "djachkovapolina@example.net",
-    "phone": "82971596132",
+    "customer_id": "cus-1000",
+    "first_name": "Никодим",
+    "last_name": "Шилов",
+    "email": "pavlovaksenija@example.net",
+    "phone": "+7 115 715 6344",
     "is_loyalty_member": true,
-    "loyalty_card_number": "LOYAL-733B019E68"
+    "loyalty_card_number": "LOYAL-29F03EC301"
   },
   "store": {
-    "store_id": "store-010",
-    "store_name": "Большая Пикча — Магазин на наб. Энгельса",
+    "store_id": "store-018",
+    "store_name": "Большая Пикча — Магазин на алл. Томская",
     "store_network": "Большая Пикча",
     "location": {
       "country": "Россия",
-      "city": "клх Воткинск",
-      "street": "пр. Шаумяна",
-      "house": "5/8",
-      "postal_code": "770514",
+      "city": "г. Раменское",
+      "street": "ш. Совхозное",
+      "house": "6/4",
+      "postal_code": "304111",
       "coordinates": {
-        "latitude": -37.579403,
-        "longitude": 150.370954
+        "latitude": -73.476612,
+        "longitude": -129.65665
       }
     }
   },
   "items": [
     {
       "product_id": "prd-1006",
-      "name": "Мелькнуть Сбросить",
-      "category": "🍏 Фрукты и ягоды",
-      "quantity": 4,
-      "unit": "кг",
-      "price_per_unit": 251.59,
-      "total_price": 1006.36,
+      "name": "Витрина Лапа",
+      "category": "🥦 Овощи и зелень",
+      "quantity": 2,
+      "unit": "л",
+      "price_per_unit": 197.14,
+      "total_price": 394.28,
       "kbju": {
-        "calories": 208.0,
-        "protein": 7.1,
-        "fat": 7.6,
-        "carbohydrates": 15.3
+        "calories": 159.3,
+        "protein": 17.1,
+        "fat": 8.9,
+        "carbohydrates": 42.8
       },
       "manufacturer": {
-        "name": "ИП «Киселев Комарова»",
+        "name": "ООО «Ширяева Матвеев»",
         "country": "Россия",
-        "website": "https://turova.info",
-        "inn": "8487805184"
+        "website": "https://rao.biz",
+        "inn": "8993676224"
       }
     },
     {
-      "product_id": "prd-1009",
-      "name": "Заложить Спасть",
-      "category": "🥩 Мясо, рыба, яйца и бобовые",
-      "quantity": 2,
+      "product_id": "prd-1019",
+      "name": "Исследование Мягкий",
+      "category": "🥦 Овощи и зелень",
+      "quantity": 5,
       "unit": "шт",
-      "price_per_unit": 101.66,
-      "total_price": 203.32,
+      "price_per_unit": 101.49,
+      "total_price": 507.45,
       "kbju": {
-        "calories": 246.3,
-        "protein": 19.8,
-        "fat": 4.3,
-        "carbohydrates": 48.1
+        "calories": 262.4,
+        "protein": 19.7,
+        "fat": 5.4,
+        "carbohydrates": 6.1
       },
       "manufacturer": {
-        "name": "НПО «Наумова»",
+        "name": "ИП «Хохлова»",
         "country": "Россия",
-        "website": "https://rao.biz",
-        "inn": "4508864986"
+        "website": "https://ooo.org",
+        "inn": "2460511347"
+      }
+    },
+    {
+      "product_id": "prd-1011",
+      "name": "Сверкающий Коробка",
+      "category": "🥦 Овощи и зелень",
+      "quantity": 2,
+      "unit": "шт",
+      "price_per_unit": 242.68,
+      "total_price": 485.36,
+      "kbju": {
+        "calories": 212.1,
+        "protein": 13.3,
+        "fat": 13.8,
+        "carbohydrates": 18.4
+      },
+      "manufacturer": {
+        "name": "ЗАО «Филатова-Юдина»",
+        "country": "Россия",
+        "website": "https://oao.info",
+        "inn": "6258727413"
       }
     }
   ],
-  "total_amount": 1209.68,
+  "total_amount": 1387.09,
   "payment_method": "card",
   "is_delivery": true,
   "delivery_address": {
     "country": "Россия",
-    "city": "д. Терней",
-    "street": "алл. Крупской",
-    "house": "8",
-    "apartment": "97",
-    "postal_code": "943074"
+    "city": "к. Жуковский",
+    "street": "ш. Народное",
+    "house": "660",
+    "apartment": "18",
+    "postal_code": "641010"
   },
-  "purchase_datetime": "2025-08-11T19:57:10.972882"
+  "purchase_datetime": "2025-08-12T13:42:39.536792"
 }

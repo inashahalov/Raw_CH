@@ -1,6 +1,6 @@
 {
   "store_id": "store-028",
-  "store_name": "Большая Пикча — Магазин на пр. Крупской",
+  "store_name": "Большая Пикча — Магазин на наб. Высокая",
   "store_network": "Большая Пикча",
   "store_type_description": "Супермаркет более 200 кв.м. Входит в сеть из 30 магазинов.",
   "type": "offline",
@@ -12,19 +12,19 @@
     "🥦 Овощи и зелень"
   ],
   "manager": {
-    "name": "Матвеев Петр Гертрудович",
-    "phone": "+7 (070) 972-1019",
-    "email": "zinaida1976@example.org"
+    "name": "Дроздова Людмила Кузьминична",
+    "phone": "8 330 630 63 24",
+    "email": "borislav33@example.com"
   },
   "location": {
     "country": "Россия",
-    "city": "ст. Карталы",
-    "street": "ул. Королева",
-    "house": "5",
-    "postal_code": "762232",
+    "city": "клх Терней",
+    "street": "ш. Майское",
+    "house": "4/6",
+    "postal_code": "740829",
     "coordinates": {
-      "latitude": -62.0370365,
-      "longitude": 85.309577
+      "latitude": 42.5208505,
+      "longitude": -137.089372
     }
   },
   "opening_hours": {
@@ -35,5 +35,5 @@
   "accepts_online_orders": true,
   "delivery_available": true,
   "warehouse_connected": false,
-  "last_inventory_date": "2025-09-23"
+  "last_inventory_date": "2025-09-24"
 }

@@ -1,6 +1,6 @@
 {
   "store_id": "store-029",
-  "store_name": "Большая Пикча — Магазин на ш. Панфилова",
+  "store_name": "Большая Пикча — Магазин на пер. Р.Люксембург",
   "store_network": "Большая Пикча",
   "store_type_description": "Супермаркет более 200 кв.м. Входит в сеть из 30 магазинов.",
   "type": "offline",
@@ -12,19 +12,19 @@
     "🥦 Овощи и зелень"
   ],
   "manager": {
-    "name": "Евпраксия Степановна Якушева",
-    "phone": "+75254459195",
-    "email": "gpotapov@example.net"
+    "name": "Полина Ждановна Носкова",
+    "phone": "+7 956 027 50 31",
+    "email": "avdeevserge@example.org"
   },
   "location": {
     "country": "Россия",
-    "city": "клх Галич",
-    "street": "пер. Щетинкина",
-    "house": "9/5",
-    "postal_code": "777233",
+    "city": "д. Геленджик",
+    "street": "ш. Харьковское",
+    "house": "3/1",
+    "postal_code": "740343",
     "coordinates": {
-      "latitude": -80.1321,
-      "longitude": 30.808882
+      "latitude": -59.7230715,
+      "longitude": -128.557279
     }
   },
   "opening_hours": {
@@ -34,6 +34,6 @@
   },
   "accepts_online_orders": true,
   "delivery_available": true,
-  "warehouse_connected": false,
-  "last_inventory_date": "2025-09-23"
+  "warehouse_connected": true,
+  "last_inventory_date": "2025-09-24"
 }

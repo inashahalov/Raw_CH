@@ -1,84 +1,63 @@
 {
   "purchase_id": "ord-00106",
   "customer": {
-    "customer_id": "cus-1044",
-    "first_name": "Ирина",
-    "last_name": "Горбунов",
-    "email": "bikovavde@example.org",
-    "phone": "+7 (467) 240-7744",
+    "customer_id": "cus-1003",
+    "first_name": "Мефодий",
+    "last_name": "Афанасьев",
+    "email": "nadezhda_2014@example.net",
+    "phone": "83623022204",
     "is_loyalty_member": true,
-    "loyalty_card_number": "LOYAL-543187F95B"
+    "loyalty_card_number": "LOYAL-7C90F1406F"
   },
   "store": {
-    "store_id": "store-028",
-    "store_name": "Большая Пикча — Магазин на пр. Крупской",
-    "store_network": "Большая Пикча",
+    "store_id": "store-038",
+    "store_name": "Маленькая Пикча — Магазин на ул. Подгорная",
+    "store_network": "Маленькая Пикча",
     "location": {
       "country": "Россия",
-      "city": "ст. Карталы",
-      "street": "ул. Королева",
-      "house": "5",
-      "postal_code": "762232",
+      "city": "с. Липецк",
+      "street": "ш. Гагарина",
+      "house": "15",
+      "postal_code": "670571",
       "coordinates": {
-        "latitude": -62.0370365,
-        "longitude": 85.309577
+        "latitude": -19.9065625,
+        "longitude": 136.311862
       }
     }
   },
   "items": [
     {
-      "product_id": "prd-1009",
-      "name": "Заложить Спасть",
-      "category": "🥩 Мясо, рыба, яйца и бобовые",
-      "quantity": 3,
-      "unit": "шт",
-      "price_per_unit": 101.66,
-      "total_price": 304.98,
-      "kbju": {
-        "calories": 246.3,
-        "protein": 19.8,
-        "fat": 4.3,
-        "carbohydrates": 48.1
-      },
-      "manufacturer": {
-        "name": "НПО «Наумова»",
-        "country": "Россия",
-        "website": "https://rao.biz",
-        "inn": "4508864986"
-      }
-    },
-    {
-      "product_id": "prd-1007",
-      "name": "Штаб Приличный",
-      "category": "🍏 Фрукты и ягоды",
+      "product_id": "prd-1003",
+      "name": "Дорогой Руководитель",
+      "category": "🥦 Овощи и зелень",
       "quantity": 2,
-      "unit": "кг",
-      "price_per_unit": 196.88,
-      "total_price": 393.76,
+      "unit": "упаковка",
+      "price_per_unit": 69.35,
+      "total_price": 138.7,
       "kbju": {
-        "calories": 164.9,
-        "protein": 16.7,
-        "fat": 3.6,
-        "carbohydrates": 31.4
+        "calories": 223.8,
+        "protein": 18.0,
+        "fat": 5.2,
+        "carbohydrates": 3.6
       },
       "manufacturer": {
-        "name": "СДС-Уголь",
+        "name": "НПО «Панова Ильина»",
         "country": "Россия",
-        "website": "https://npo.ru",
-        "inn": "9854590544"
+        "website": "https://ooo.biz",
+        "inn": "4367291844"
       }
     }
   ],
-  "total_amount": 698.74,
-  "payment_method": "card",
+  "total_amount": 138.7,
+  "payment_method": "cash",
   "is_delivery": true,
   "delivery_address": {
     "country": "Россия",
-    "city": "д. Нягань",
-    "street": "бул. Подгорный",
-    "house": "68",
-    "apartment": "62",
-    "postal_code": "634627"
+    "city": "к. Усолье Сибирское",
+    "street": "ул. Белорусская",
+    "house": "230",
+    "apartment": "13",
+    "postal_code": "672568"
   },
-  "purchase_datetime": "2025-09-22T19:57:11.003977"
+  "purchase_datetime": "2025-08-07T13:42:39.560238"
 }

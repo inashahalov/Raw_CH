@@ -1,36 +1,36 @@
 {
   "customer_id": "cus-1001",
-  "first_name": "Александр",
-  "last_name": "Родионов",
-  "email": "alekseevspiridon@example.net",
-  "phone": "8 478 647 01 50",
-  "birth_date": "2000-06-05",
+  "first_name": "Агафон",
+  "last_name": "Богданова",
+  "email": "iraida_53@example.com",
+  "phone": "+7 206 137 7742",
+  "birth_date": "1970-11-16",
   "gender": "female",
-  "registration_date": "2025-09-23T19:57:10.924738",
+  "registration_date": "2025-09-24T13:42:39.494688",
   "is_loyalty_member": true,
-  "loyalty_card_number": "LOYAL-B175F13B22",
+  "loyalty_card_number": "LOYAL-B124725FD8",
   "purchase_location": {
     "store_id": "store-002",
-    "store_name": "Большая Пикча — Магазин на наб. Седова",
+    "store_name": "Большая Пикча — Магазин на наб. Чапаева",
     "store_network": "Большая Пикча",
     "store_type_description": "Супермаркет более 200 кв.м. Входит в сеть из 30 магазинов.",
     "country": "Россия",
-    "city": "с. Одинцово",
-    "street": "наб. Пионерская",
-    "house": "619",
-    "postal_code": "379040"
+    "city": "с. Октябрьский (Башк.)",
+    "street": "пер. Сурикова",
+    "house": "5/4",
+    "postal_code": "488039"
   },
   "delivery_address": {
     "country": "Россия",
-    "city": "с. Одинцово",
-    "street": "алл. Проточная",
-    "house": "43",
-    "apartment": "83",
-    "postal_code": "565847"
+    "city": "с. Октябрьский (Башк.)",
+    "street": "пер. Амурский",
+    "house": "112",
+    "apartment": "5",
+    "postal_code": "195188"
   },
   "preferences": {
     "preferred_language": "ru",
-    "preferred_payment_method": "card",
-    "receive_promotions": true
+    "preferred_payment_method": "cash",
+    "receive_promotions": false
   }
 }

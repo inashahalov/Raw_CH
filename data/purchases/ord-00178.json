@@ -1,63 +1,84 @@
 {
   "purchase_id": "ord-00178",
   "customer": {
-    "customer_id": "cus-1004",
-    "first_name": "Эрнст",
-    "last_name": "Чернова",
-    "email": "raisa_2008@example.org",
-    "phone": "8 107 081 6420",
+    "customer_id": "cus-1006",
+    "first_name": "Павел",
+    "last_name": "Самойлова",
+    "email": "okrasilnikova@example.com",
+    "phone": "8 (345) 897-01-55",
     "is_loyalty_member": true,
-    "loyalty_card_number": "LOYAL-CD5CCA41C2"
+    "loyalty_card_number": "LOYAL-BE3CAFEC55"
   },
   "store": {
-    "store_id": "store-023",
-    "store_name": "Большая Пикча — Магазин на алл. Московская",
-    "store_network": "Большая Пикча",
+    "store_id": "store-033",
+    "store_name": "Маленькая Пикча — Магазин на ш. Геологическое",
+    "store_network": "Маленькая Пикча",
     "location": {
       "country": "Россия",
-      "city": "к. Красногорск (Моск.)",
-      "street": "бул. Бабушкина",
-      "house": "74",
-      "postal_code": "103606",
+      "city": "г. Корсаков",
+      "street": "наб. Толбухина",
+      "house": "238",
+      "postal_code": "443125",
       "coordinates": {
-        "latitude": -72.0031925,
-        "longitude": -94.798688
+        "latitude": 83.8197755,
+        "longitude": -109.403892
       }
     }
   },
   "items": [
     {
-      "product_id": "prd-1001",
-      "name": "Тревога Появление",
+      "product_id": "prd-1013",
+      "name": "Коммунизм Полевой",
       "category": "🥖 Зерновые и хлебобулочные изделия",
-      "quantity": 5,
-      "unit": "шт",
-      "price_per_unit": 168.16,
-      "total_price": 840.8,
+      "quantity": 2,
+      "unit": "кг",
+      "price_per_unit": 155.06,
+      "total_price": 310.12,
       "kbju": {
-        "calories": 205.2,
-        "protein": 13.4,
-        "fat": 1.1,
-        "carbohydrates": 43.2
+        "calories": 292.6,
+        "protein": 2.6,
+        "fat": 6.2,
+        "carbohydrates": 4.1
       },
       "manufacturer": {
-        "name": "ОАО «Селезнева Турова»",
+        "name": "АО «Абрамов»",
         "country": "Россия",
-        "website": "https://panfilov.net",
-        "inn": "5790638925"
+        "website": "https://ip.org",
+        "inn": "8372516031"
+      }
+    },
+    {
+      "product_id": "prd-1019",
+      "name": "Исследование Мягкий",
+      "category": "🥦 Овощи и зелень",
+      "quantity": 1,
+      "unit": "шт",
+      "price_per_unit": 101.49,
+      "total_price": 101.49,
+      "kbju": {
+        "calories": 262.4,
+        "protein": 19.7,
+        "fat": 5.4,
+        "carbohydrates": 6.1
+      },
+      "manufacturer": {
+        "name": "ИП «Хохлова»",
+        "country": "Россия",
+        "website": "https://ooo.org",
+        "inn": "2460511347"
       }
     }
   ],
-  "total_amount": 840.8,
-  "payment_method": "card",
+  "total_amount": 411.61,
+  "payment_method": "cash",
   "is_delivery": false,
   "delivery_address": {
     "country": "Россия",
-    "city": "п. Выборг",
-    "street": "наб. Высотная",
-    "house": "7",
-    "apartment": "66",
-    "postal_code": "973893"
+    "city": "ст. Избербаш",
+    "street": "алл. Тихая",
+    "house": "2",
+    "apartment": "30",
+    "postal_code": "747274"
   },
-  "purchase_datetime": "2025-09-13T19:57:11.038805"
+  "purchase_datetime": "2025-08-01T13:42:39.591655"
 }

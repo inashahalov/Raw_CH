@@ -1,63 +1,105 @@
 {
   "purchase_id": "ord-00111",
   "customer": {
-    "customer_id": "cus-1023",
-    "first_name": "Давыд",
-    "last_name": "Александров",
-    "email": "vissarion_1987@example.com",
-    "phone": "84881392433",
+    "customer_id": "cus-1032",
+    "first_name": "Богдан",
+    "last_name": "Евдокимова",
+    "email": "ilarion1993@example.com",
+    "phone": "+7 (898) 210-20-94",
     "is_loyalty_member": true,
-    "loyalty_card_number": "LOYAL-91E5CDC861"
+    "loyalty_card_number": "LOYAL-89E91A1521"
   },
   "store": {
-    "store_id": "store-037",
-    "store_name": "Маленькая Пикча — Магазин на пер. Новоселов",
-    "store_network": "Маленькая Пикча",
+    "store_id": "store-010",
+    "store_name": "Большая Пикча — Магазин на алл. Казанская",
+    "store_network": "Большая Пикча",
     "location": {
       "country": "Россия",
-      "city": "клх Нягань",
-      "street": "бул. Покровский",
-      "house": "3/6",
-      "postal_code": "915377",
+      "city": "г. Новочеркасск",
+      "street": "бул. Р.Люксембург",
+      "house": "615",
+      "postal_code": "760266",
       "coordinates": {
-        "latitude": 81.94456,
-        "longitude": 125.897117
+        "latitude": -53.9201405,
+        "longitude": 17.97173
       }
     }
   },
   "items": [
     {
-      "product_id": "prd-1016",
-      "name": "Цвет Трубка",
-      "category": "🥖 Зерновые и хлебобулочные изделия",
+      "product_id": "prd-1008",
+      "name": "Очутиться Песенка",
+      "category": "🥩 Мясо, рыба, яйца и бобовые",
       "quantity": 1,
-      "unit": "упаковка",
-      "price_per_unit": 59.3,
-      "total_price": 59.3,
+      "unit": "шт",
+      "price_per_unit": 248.49,
+      "total_price": 248.49,
       "kbju": {
-        "calories": 239.4,
-        "protein": 10.5,
-        "fat": 4.0,
-        "carbohydrates": 33.8
+        "calories": 51.2,
+        "protein": 13.0,
+        "fat": 6.4,
+        "carbohydrates": 48.7
       },
       "manufacturer": {
-        "name": "ОАО «Давыдова-Калинин»",
+        "name": "Лазарева Инк",
         "country": "Россия",
-        "website": "https://zao.org",
-        "inn": "7235646922"
+        "website": "https://guljaev.com",
+        "inn": "0966441801"
+      }
+    },
+    {
+      "product_id": "prd-1012",
+      "name": "Полюбить Прошептать",
+      "category": "🥛 Молочные продукты",
+      "quantity": 2,
+      "unit": "л",
+      "price_per_unit": 179.33,
+      "total_price": 358.66,
+      "kbju": {
+        "calories": 251.8,
+        "protein": 19.3,
+        "fat": 14.3,
+        "carbohydrates": 22.3
+      },
+      "manufacturer": {
+        "name": "ИП «Шарова»",
+        "country": "Россия",
+        "website": "https://ip.ru",
+        "inn": "2195881079"
+      }
+    },
+    {
+      "product_id": "prd-1005",
+      "name": "Блин Редактор",
+      "category": "🥛 Молочные продукты",
+      "quantity": 5,
+      "unit": "л",
+      "price_per_unit": 252.66,
+      "total_price": 1263.3,
+      "kbju": {
+        "calories": 169.1,
+        "protein": 14.6,
+        "fat": 4.1,
+        "carbohydrates": 39.8
+      },
+      "manufacturer": {
+        "name": "ООО «Савельев»",
+        "country": "Россия",
+        "website": "https://vostok-zapad.biz",
+        "inn": "3880905200"
       }
     }
   ],
-  "total_amount": 59.3,
+  "total_amount": 1870.45,
   "payment_method": "card",
   "is_delivery": true,
   "delivery_address": {
     "country": "Россия",
-    "city": "д. Сковородино",
-    "street": "бул. 50 лет ВЛКСМ",
-    "house": "17",
-    "apartment": "37",
-    "postal_code": "072988"
+    "city": "г. Корсаков",
+    "street": "бул. Горный",
+    "house": "726",
+    "apartment": "14",
+    "postal_code": "983714"
   },
-  "purchase_datetime": "2025-08-12T19:57:11.006320"
+  "purchase_datetime": "2025-09-08T13:42:39.562619"
 }

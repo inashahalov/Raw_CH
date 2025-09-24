@@ -1,6 +1,6 @@
 {
   "store_id": "store-005",
-  "store_name": "Большая Пикча — Магазин на алл. Гагарина",
+  "store_name": "Большая Пикча — Магазин на бул. Волочаевский",
   "store_network": "Большая Пикча",
   "store_type_description": "Супермаркет более 200 кв.м. Входит в сеть из 30 магазинов.",
   "type": "offline",
@@ -12,19 +12,19 @@
     "🥦 Овощи и зелень"
   ],
   "manager": {
-    "name": "Ратибор Венедиктович Силин",
-    "phone": "8 684 047 78 59",
-    "email": "filatovapraskovja@example.net"
+    "name": "Ковалев Амвросий Ефремович",
+    "phone": "8 311 829 7912",
+    "email": "blohinapollon@example.net"
   },
   "location": {
     "country": "Россия",
-    "city": "п. Выборг",
-    "street": "наб. Виноградная",
-    "house": "5",
-    "postal_code": "649137",
+    "city": "к. Краснотурьинск",
+    "street": "бул. Л.Толстого",
+    "house": "1",
+    "postal_code": "760635",
     "coordinates": {
-      "latitude": -20.3813075,
-      "longitude": 69.885599
+      "latitude": 47.398162,
+      "longitude": 81.958454
     }
   },
   "opening_hours": {
@@ -34,6 +34,6 @@
   },
   "accepts_online_orders": true,
   "delivery_available": true,
-  "warehouse_connected": false,
-  "last_inventory_date": "2025-09-23"
+  "warehouse_connected": true,
+  "last_inventory_date": "2025-09-24"
 }

@@ -1,24 +1,24 @@
 {
   "id": "prd-1019",
-  "name": "Адвокат Другой",
+  "name": "Исследование Мягкий",
   "group": "🥦 Овощи и зелень",
-  "description": "Казнь спичка палец медицина.",
+  "description": "Сбросить носок носок лиловый.",
   "kbju": {
-    "calories": 77.7,
-    "protein": 13.9,
-    "fat": 10.1,
-    "carbohydrates": 22.7
+    "calories": 262.4,
+    "protein": 19.7,
+    "fat": 5.4,
+    "carbohydrates": 6.1
   },
-  "price": 43.3,
+  "price": 101.49,
   "unit": "шт",
   "origin_country": "Россия",
-  "expiry_days": 24,
-  "is_organic": true,
-  "barcode": "0840290430480",
+  "expiry_days": 26,
+  "is_organic": false,
+  "barcode": "5078190240105",
   "manufacturer": {
-    "name": "Чернова Групп",
+    "name": "ИП «Хохлова»",
     "country": "Россия",
-    "website": "https://belozerova.com",
-    "inn": "4723890506"
+    "website": "https://ooo.org",
+    "inn": "2460511347"
   }
 }

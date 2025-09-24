@@ -1,63 +1,84 @@
 {
   "purchase_id": "ord-00162",
   "customer": {
-    "customer_id": "cus-1009",
-    "first_name": "Фаина",
-    "last_name": "Моисеев",
-    "email": "isidorlazarev@example.org",
-    "phone": "+7 365 622 67 69",
+    "customer_id": "cus-1006",
+    "first_name": "Павел",
+    "last_name": "Самойлова",
+    "email": "okrasilnikova@example.com",
+    "phone": "8 (345) 897-01-55",
     "is_loyalty_member": true,
-    "loyalty_card_number": "LOYAL-E59BA1E587"
+    "loyalty_card_number": "LOYAL-BE3CAFEC55"
   },
   "store": {
-    "store_id": "store-002",
-    "store_name": "Большая Пикча — Магазин на наб. Седова",
+    "store_id": "store-026",
+    "store_name": "Большая Пикча — Магазин на наб. Советов",
     "store_network": "Большая Пикча",
     "location": {
       "country": "Россия",
-      "city": "с. Одинцово",
-      "street": "наб. Пионерская",
-      "house": "619",
-      "postal_code": "379040",
+      "city": "с. Минусинск",
+      "street": "ш. Маркса Карла",
+      "house": "733",
+      "postal_code": "813798",
       "coordinates": {
-        "latitude": -32.252973,
-        "longitude": 15.015005
+        "latitude": -69.303255,
+        "longitude": 40.36564
       }
     }
   },
   "items": [
     {
-      "product_id": "prd-1000",
-      "name": "Заведение Задержать",
-      "category": "🥛 Молочные продукты",
-      "quantity": 2,
-      "unit": "л",
-      "price_per_unit": 174.16,
-      "total_price": 348.32,
+      "product_id": "prd-1001",
+      "name": "Механический Намерение",
+      "category": "🥦 Овощи и зелень",
+      "quantity": 3,
+      "unit": "упаковка",
+      "price_per_unit": 66.91,
+      "total_price": 200.73,
       "kbju": {
-        "calories": 261.8,
-        "protein": 2.3,
-        "fat": 2.9,
-        "carbohydrates": 19.7
+        "calories": 139.2,
+        "protein": 6.1,
+        "fat": 13.3,
+        "carbohydrates": 35.9
       },
       "manufacturer": {
-        "name": "РАО «Бирюков, Лапина и Волков»",
+        "name": "ООО «Костина, Панов и Фомичева»",
         "country": "Россия",
-        "website": "https://ao.net",
-        "inn": "0912614956"
+        "website": "https://gsl.biz",
+        "inn": "1159800180"
+      }
+    },
+    {
+      "product_id": "prd-1003",
+      "name": "Дорогой Руководитель",
+      "category": "🥦 Овощи и зелень",
+      "quantity": 5,
+      "unit": "упаковка",
+      "price_per_unit": 69.35,
+      "total_price": 346.75,
+      "kbju": {
+        "calories": 223.8,
+        "protein": 18.0,
+        "fat": 5.2,
+        "carbohydrates": 3.6
+      },
+      "manufacturer": {
+        "name": "НПО «Панова Ильина»",
+        "country": "Россия",
+        "website": "https://ooo.biz",
+        "inn": "4367291844"
       }
     }
   ],
-  "total_amount": 348.32,
+  "total_amount": 547.48,
   "payment_method": "card",
   "is_delivery": true,
   "delivery_address": {
     "country": "Россия",
-    "city": "клх Воткинск",
-    "street": "ш. 60 лет Октября",
-    "house": "4/9",
-    "apartment": "69",
-    "postal_code": "381729"
+    "city": "ст. Избербаш",
+    "street": "алл. Тихая",
+    "house": "2",
+    "apartment": "30",
+    "postal_code": "747274"
   },
-  "purchase_datetime": "2025-08-31T19:57:11.030760"
+  "purchase_datetime": "2025-09-12T13:42:39.584861"
 }

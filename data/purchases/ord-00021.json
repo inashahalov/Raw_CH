@@ -1,105 +1,63 @@
 {
   "purchase_id": "ord-00021",
   "customer": {
-    "customer_id": "cus-1024",
-    "first_name": "Ульян",
-    "last_name": "Рожков",
-    "email": "lavrenti_1995@example.net",
-    "phone": "8 (716) 687-95-46",
+    "customer_id": "cus-1011",
+    "first_name": "Ермолай",
+    "last_name": "Беспалова",
+    "email": "gerasimovpimen@example.org",
+    "phone": "+7 (246) 452-9273",
     "is_loyalty_member": true,
-    "loyalty_card_number": "LOYAL-091724D2F7"
+    "loyalty_card_number": "LOYAL-4762080D4F"
   },
   "store": {
-    "store_id": "store-017",
-    "store_name": "Большая Пикча — Магазин на наб. Терешковой",
+    "store_id": "store-027",
+    "store_name": "Большая Пикча — Магазин на ул. Детская",
     "store_network": "Большая Пикча",
     "location": {
       "country": "Россия",
-      "city": "ст. Любань",
-      "street": "пер. Есенина",
-      "house": "255",
-      "postal_code": "515675",
+      "city": "п. Наро-Фоминск",
+      "street": "наб. Физкультурная",
+      "house": "92",
+      "postal_code": "043690",
       "coordinates": {
-        "latitude": -40.8579335,
-        "longitude": 15.399726
+        "latitude": 25.557303,
+        "longitude": -130.687503
       }
     }
   },
   "items": [
     {
       "product_id": "prd-1019",
-      "name": "Адвокат Другой",
+      "name": "Исследование Мягкий",
       "category": "🥦 Овощи и зелень",
-      "quantity": 2,
+      "quantity": 4,
       "unit": "шт",
-      "price_per_unit": 43.3,
-      "total_price": 86.6,
+      "price_per_unit": 101.49,
+      "total_price": 405.96,
       "kbju": {
-        "calories": 77.7,
-        "protein": 13.9,
-        "fat": 10.1,
-        "carbohydrates": 22.7
+        "calories": 262.4,
+        "protein": 19.7,
+        "fat": 5.4,
+        "carbohydrates": 6.1
       },
       "manufacturer": {
-        "name": "Чернова Групп",
+        "name": "ИП «Хохлова»",
         "country": "Россия",
-        "website": "https://belozerova.com",
-        "inn": "4723890506"
-      }
-    },
-    {
-      "product_id": "prd-1005",
-      "name": "Уничтожение Вздрагивать",
-      "category": "🍏 Фрукты и ягоды",
-      "quantity": 2,
-      "unit": "л",
-      "price_per_unit": 207.53,
-      "total_price": 415.06,
-      "kbju": {
-        "calories": 191.8,
-        "protein": 11.1,
-        "fat": 7.9,
-        "carbohydrates": 5.4
-      },
-      "manufacturer": {
-        "name": "ООО «Авдеев-Медведева»",
-        "country": "Россия",
-        "website": "https://zao.com",
-        "inn": "9782693224"
-      }
-    },
-    {
-      "product_id": "prd-1002",
-      "name": "Разводить Школьный",
-      "category": "🥦 Овощи и зелень",
-      "quantity": 3,
-      "unit": "л",
-      "price_per_unit": 232.4,
-      "total_price": 697.2,
-      "kbju": {
-        "calories": 276.5,
-        "protein": 15.9,
-        "fat": 7.0,
-        "carbohydrates": 4.4
-      },
-      "manufacturer": {
-        "name": "ОАО «Туров, Горбунова и Галкина»",
-        "country": "Россия",
-        "website": "https://oao.com",
-        "inn": "7774237965"
+        "website": "https://ooo.org",
+        "inn": "2460511347"
       }
     }
   ],
-  "total_amount": 1198.86,
+  "total_amount": 405.96,
   "payment_method": "card",
   "is_delivery": false,
   "delivery_address": {
     "country": "Россия",
-    "city": "п. Вязьма",
-    "street": "наб. Радужная",
-    "house": "5",
-    "apartment": "73",
-    "postal_code": "710794"
+    "city": "ст. Черусти",
+    "street": "бул. Высокий",
+    "house": "1/6",
+    "apartment": "21",
+    "postal_code": "009499"
   },
-  "purchase_datetime": "2025-08-29T19:57:10.960462"
+  "purchase_datetime": "2025-08-21T13:42:39.526417"
 }

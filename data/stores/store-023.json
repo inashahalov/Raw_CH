@@ -1,6 +1,6 @@
 {
   "store_id": "store-023",
-  "store_name": "Большая Пикча — Магазин на алл. Московская",
+  "store_name": "Большая Пикча — Магазин на ш. Восьмого Марта",
   "store_network": "Большая Пикча",
   "store_type_description": "Супермаркет более 200 кв.м. Входит в сеть из 30 магазинов.",
   "type": "offline",
@@ -12,19 +12,19 @@
     "🥦 Овощи и зелень"
   ],
   "manager": {
-    "name": "г-жа Стрелкова Евфросиния Геннадьевна",
-    "phone": "8 724 230 31 59",
-    "email": "viktoringusev@example.com"
+    "name": "Евгений Арсеньевич Белозеров",
+    "phone": "+7 402 318 66 18",
+    "email": "borisovaaleksandra@example.com"
   },
   "location": {
     "country": "Россия",
-    "city": "к. Красногорск (Моск.)",
-    "street": "бул. Бабушкина",
-    "house": "74",
-    "postal_code": "103606",
+    "city": "г. Холмск",
+    "street": "ш. Майское",
+    "house": "435",
+    "postal_code": "198436",
     "coordinates": {
-      "latitude": -72.0031925,
-      "longitude": -94.798688
+      "latitude": 6.0641875,
+      "longitude": 19.737599
     }
   },
   "opening_hours": {
@@ -35,5 +35,5 @@
   "accepts_online_orders": true,
   "delivery_available": true,
   "warehouse_connected": true,
-  "last_inventory_date": "2025-09-23"
+  "last_inventory_date": "2025-09-24"
 }

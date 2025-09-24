@@ -1,36 +1,36 @@
 {
   "customer_id": "cus-1035",
-  "first_name": "Кузьма",
-  "last_name": "Лыткин",
-  "email": "maksimtitov@example.com",
-  "phone": "+7 435 823 28 86",
-  "birth_date": "1974-02-24",
-  "gender": "male",
-  "registration_date": "2025-09-23T19:57:10.945569",
+  "first_name": "Геннадий",
+  "last_name": "Родионов",
+  "email": "cheslav1990@example.org",
+  "phone": "8 303 158 42 60",
+  "birth_date": "2004-01-11",
+  "gender": "female",
+  "registration_date": "2025-09-24T13:42:39.513500",
   "is_loyalty_member": true,
-  "loyalty_card_number": "LOYAL-54F52DC4FC",
+  "loyalty_card_number": "LOYAL-B5048336C8",
   "purchase_location": {
     "store_id": "store-036",
-    "store_name": "Маленькая Пикча — Магазин на бул. Волочаевский",
+    "store_name": "Маленькая Пикча — Магазин на пр. Кузнечный",
     "store_network": "Маленькая Пикча",
     "store_type_description": "Магазин у дома менее 100 кв.м. Входит в сеть из 15 магазинов.",
     "country": "Россия",
-    "city": "с. Катав-Ивановск",
-    "street": "ш. Тукая",
-    "house": "399",
-    "postal_code": "771697"
+    "city": "к. Добрянка",
+    "street": "пр. Болотный",
+    "house": "1/8",
+    "postal_code": "802482"
   },
   "delivery_address": {
     "country": "Россия",
-    "city": "с. Катав-Ивановск",
-    "street": "бул. Молодежный",
-    "house": "7",
-    "apartment": "82",
-    "postal_code": "657961"
+    "city": "к. Добрянка",
+    "street": "бул. Дальневосточный",
+    "house": "7/2",
+    "apartment": "89",
+    "postal_code": "893889"
   },
   "preferences": {
     "preferred_language": "ru",
-    "preferred_payment_method": "card",
+    "preferred_payment_method": "cash",
     "receive_promotions": false
   }
 }

@@ -1,84 +1,63 @@
 {
   "purchase_id": "ord-00182",
   "customer": {
-    "customer_id": "cus-1011",
-    "first_name": "Аркадий",
-    "last_name": "Беляков",
-    "email": "mir_2021@example.net",
-    "phone": "8 (459) 651-56-98",
+    "customer_id": "cus-1027",
+    "first_name": "Всеволод",
+    "last_name": "Афанасьева",
+    "email": "dmitrievasvetlana@example.org",
+    "phone": "8 684 470 9863",
     "is_loyalty_member": true,
-    "loyalty_card_number": "LOYAL-7E0D508BB5"
+    "loyalty_card_number": "LOYAL-D9D3F6B098"
   },
   "store": {
-    "store_id": "store-012",
-    "store_name": "Большая Пикча — Магазин на наб. Центральная",
-    "store_network": "Большая Пикча",
+    "store_id": "store-043",
+    "store_name": "Маленькая Пикча — Магазин на бул. Менделеева",
+    "store_network": "Маленькая Пикча",
     "location": {
       "country": "Россия",
-      "city": "ст. Валдай",
-      "street": "алл. Станиславского",
-      "house": "8/1",
-      "postal_code": "481389",
+      "city": "п. Октябрьское (Хант.)",
+      "street": "пр. Автомобилистов",
+      "house": "234",
+      "postal_code": "988843",
       "coordinates": {
-        "latitude": 33.4852585,
-        "longitude": 19.302012
+        "latitude": -53.166371,
+        "longitude": 125.732211
       }
     }
   },
   "items": [
     {
-      "product_id": "prd-1013",
-      "name": "Роса Наткнуться",
-      "category": "🥛 Молочные продукты",
+      "product_id": "prd-1009",
+      "name": "Расстройство Валюта",
+      "category": "🥩 Мясо, рыба, яйца и бобовые",
       "quantity": 3,
-      "unit": "упаковка",
-      "price_per_unit": 39.74,
-      "total_price": 119.22,
+      "unit": "л",
+      "price_per_unit": 256.33,
+      "total_price": 768.99,
       "kbju": {
-        "calories": 283.8,
-        "protein": 19.2,
-        "fat": 7.6,
-        "carbohydrates": 35.6
+        "calories": 208.9,
+        "protein": 12.9,
+        "fat": 11.4,
+        "carbohydrates": 30.9
       },
       "manufacturer": {
-        "name": "АО «Потапова, Смирнова и Сазонова»",
+        "name": "АХ Степь",
         "country": "Россия",
-        "website": "https://magnit.info",
-        "inn": "3006321123"
-      }
-    },
-    {
-      "product_id": "prd-1015",
-      "name": "Войти Приходить",
-      "category": "🥛 Молочные продукты",
-      "quantity": 2,
-      "unit": "шт",
-      "price_per_unit": 92.89,
-      "total_price": 185.78,
-      "kbju": {
-        "calories": 297.1,
-        "protein": 17.3,
-        "fat": 7.9,
-        "carbohydrates": 24.3
-      },
-      "manufacturer": {
-        "name": "Гришина Лтд",
-        "country": "Россия",
-        "website": "https://ooo.net",
-        "inn": "5499321537"
+        "website": "https://rao.ru",
+        "inn": "1719997409"
       }
     }
   ],
-  "total_amount": 305.0,
+  "total_amount": 768.99,
   "payment_method": "card",
   "is_delivery": false,
   "delivery_address": {
     "country": "Россия",
-    "city": "ст. Валдай",
-    "street": "пер. Луговой",
-    "house": "322",
-    "apartment": "50",
-    "postal_code": "969455"
+    "city": "клх Терней",
+    "street": "ул. Приморская",
+    "house": "5/5",
+    "apartment": "36",
+    "postal_code": "704087"
   },
-  "purchase_datetime": "2025-08-16T19:57:11.040771"
+  "purchase_datetime": "2025-09-01T13:42:39.593108"
 }

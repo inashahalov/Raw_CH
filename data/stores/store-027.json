@@ -1,6 +1,6 @@
 {
   "store_id": "store-027",
-  "store_name": "Большая Пикча — Магазин на бул. Леваневского",
+  "store_name": "Большая Пикча — Магазин на ул. Детская",
   "store_network": "Большая Пикча",
   "store_type_description": "Супермаркет более 200 кв.м. Входит в сеть из 30 магазинов.",
   "type": "offline",
@@ -12,19 +12,19 @@
     "🥦 Овощи и зелень"
   ],
   "manager": {
-    "name": "Никодим Ефремович Данилов",
-    "phone": "8 (407) 650-67-82",
-    "email": "ksimonov@example.com"
+    "name": "Агафья Александровна Хохлова",
+    "phone": "+7 (243) 765-62-99",
+    "email": "emilteterin@example.net"
   },
   "location": {
     "country": "Россия",
-    "city": "г. Енисейск",
-    "street": "пр. Нахимова",
-    "house": "978",
-    "postal_code": "444837",
+    "city": "п. Наро-Фоминск",
+    "street": "наб. Физкультурная",
+    "house": "92",
+    "postal_code": "043690",
     "coordinates": {
-      "latitude": 79.739024,
-      "longitude": -88.450267
+      "latitude": 25.557303,
+      "longitude": -130.687503
     }
   },
   "opening_hours": {
@@ -34,6 +34,6 @@
   },
   "accepts_online_orders": true,
   "delivery_available": true,
-  "warehouse_connected": false,
-  "last_inventory_date": "2025-09-23"
+  "warehouse_connected": true,
+  "last_inventory_date": "2025-09-24"
 }

@@ -1,36 +1,36 @@
 {
   "customer_id": "cus-1006",
-  "first_name": "Силантий",
-  "last_name": "Захаров",
-  "email": "kondrat1978@example.org",
-  "phone": "+70679155630",
-  "birth_date": "1999-03-13",
-  "gender": "male",
-  "registration_date": "2025-09-23T19:57:10.927818",
+  "first_name": "Павел",
+  "last_name": "Самойлова",
+  "email": "okrasilnikova@example.com",
+  "phone": "8 (345) 897-01-55",
+  "birth_date": "1981-07-27",
+  "gender": "female",
+  "registration_date": "2025-09-24T13:42:39.497447",
   "is_loyalty_member": true,
-  "loyalty_card_number": "LOYAL-C2F1903EE8",
+  "loyalty_card_number": "LOYAL-BE3CAFEC55",
   "purchase_location": {
     "store_id": "store-007",
-    "store_name": "Большая Пикча — Магазин на ш. Придорожное",
+    "store_name": "Большая Пикча — Магазин на наб. Горького",
     "store_network": "Большая Пикча",
     "store_type_description": "Супермаркет более 200 кв.м. Входит в сеть из 30 магазинов.",
     "country": "Россия",
-    "city": "к. Бомнак",
-    "street": "ш. Энгельса",
-    "house": "440",
-    "postal_code": "831672"
+    "city": "ст. Избербаш",
+    "street": "пр. 9 мая",
+    "house": "78",
+    "postal_code": "920515"
   },
   "delivery_address": {
     "country": "Россия",
-    "city": "к. Бомнак",
-    "street": "алл. 30 лет Победы",
-    "house": "53",
-    "apartment": "61",
-    "postal_code": "233514"
+    "city": "ст. Избербаш",
+    "street": "алл. Тихая",
+    "house": "2",
+    "apartment": "30",
+    "postal_code": "747274"
   },
   "preferences": {
     "preferred_language": "ru",
-    "preferred_payment_method": "card",
+    "preferred_payment_method": "cash",
     "receive_promotions": true
   }
 }

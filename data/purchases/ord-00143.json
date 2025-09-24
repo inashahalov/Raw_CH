@@ -1,105 +1,84 @@
 {
   "purchase_id": "ord-00143",
   "customer": {
-    "customer_id": "cus-1008",
-    "first_name": "Корнил",
-    "last_name": "Данилова",
-    "email": "ljubim28@example.net",
-    "phone": "84143737040",
+    "customer_id": "cus-1001",
+    "first_name": "Агафон",
+    "last_name": "Богданова",
+    "email": "iraida_53@example.com",
+    "phone": "+7 206 137 7742",
     "is_loyalty_member": true,
-    "loyalty_card_number": "LOYAL-0E9C233BA4"
+    "loyalty_card_number": "LOYAL-B124725FD8"
   },
   "store": {
-    "store_id": "store-024",
-    "store_name": "Большая Пикча — Магазин на алл. 60 лет СССР",
+    "store_id": "store-001",
+    "store_name": "Большая Пикча — Магазин на бул. Колхозный",
     "store_network": "Большая Пикча",
     "location": {
       "country": "Россия",
-      "city": "д. Сковородино",
-      "street": "бул. Инженерный",
-      "house": "5/5",
-      "postal_code": "146939",
+      "city": "к. Жуковский",
+      "street": "ш. Поперечное",
+      "house": "198",
+      "postal_code": "772195",
       "coordinates": {
-        "latitude": 12.892401,
-        "longitude": 56.364252
+        "latitude": -80.495473,
+        "longitude": 41.675442
       }
     }
   },
   "items": [
     {
-      "product_id": "prd-1007",
-      "name": "Штаб Приличный",
-      "category": "🍏 Фрукты и ягоды",
-      "quantity": 2,
+      "product_id": "prd-1013",
+      "name": "Коммунизм Полевой",
+      "category": "🥖 Зерновые и хлебобулочные изделия",
+      "quantity": 3,
       "unit": "кг",
-      "price_per_unit": 196.88,
-      "total_price": 393.76,
+      "price_per_unit": 155.06,
+      "total_price": 465.18,
       "kbju": {
-        "calories": 164.9,
-        "protein": 16.7,
-        "fat": 3.6,
-        "carbohydrates": 31.4
+        "calories": 292.6,
+        "protein": 2.6,
+        "fat": 6.2,
+        "carbohydrates": 4.1
       },
       "manufacturer": {
-        "name": "СДС-Уголь",
+        "name": "АО «Абрамов»",
         "country": "Россия",
-        "website": "https://npo.ru",
-        "inn": "9854590544"
+        "website": "https://ip.org",
+        "inn": "8372516031"
       }
     },
     {
       "product_id": "prd-1008",
-      "name": "Фонарик Успокоиться",
-      "category": "🥖 Зерновые и хлебобулочные изделия",
-      "quantity": 3,
-      "unit": "упаковка",
-      "price_per_unit": 73.43,
-      "total_price": 220.29,
-      "kbju": {
-        "calories": 92.6,
-        "protein": 18.4,
-        "fat": 11.5,
-        "carbohydrates": 24.8
-      },
-      "manufacturer": {
-        "name": "ООО «Денисов, Щукина и Гришин»",
-        "country": "Россия",
-        "website": "https://kozlova.org",
-        "inn": "3531459365"
-      }
-    },
-    {
-      "product_id": "prd-1005",
-      "name": "Уничтожение Вздрагивать",
-      "category": "🍏 Фрукты и ягоды",
+      "name": "Очутиться Песенка",
+      "category": "🥩 Мясо, рыба, яйца и бобовые",
       "quantity": 5,
-      "unit": "л",
-      "price_per_unit": 207.53,
-      "total_price": 1037.65,
+      "unit": "шт",
+      "price_per_unit": 248.49,
+      "total_price": 1242.45,
       "kbju": {
-        "calories": 191.8,
-        "protein": 11.1,
-        "fat": 7.9,
-        "carbohydrates": 5.4
+        "calories": 51.2,
+        "protein": 13.0,
+        "fat": 6.4,
+        "carbohydrates": 48.7
       },
       "manufacturer": {
-        "name": "ООО «Авдеев-Медведева»",
+        "name": "Лазарева Инк",
         "country": "Россия",
-        "website": "https://zao.com",
-        "inn": "9782693224"
+        "website": "https://guljaev.com",
+        "inn": "0966441801"
       }
     }
   ],
-  "total_amount": 1651.7,
+  "total_amount": 1707.63,
   "payment_method": "card",
-  "is_delivery": false,
+  "is_delivery": true,
   "delivery_address": {
     "country": "Россия",
-    "city": "ст. Тосно",
-    "street": "ул. Маяковского",
-    "house": "515",
-    "apartment": "67",
-    "postal_code": "862981"
+    "city": "с. Октябрьский (Башк.)",
+    "street": "пер. Амурский",
+    "house": "112",
+    "apartment": "5",
+    "postal_code": "195188"
   },
-  "purchase_datetime": "2025-08-24T19:57:11.021289"
+  "purchase_datetime": "2025-08-22T13:42:39.575004"
 }

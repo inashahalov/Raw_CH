@@ -1,63 +1,84 @@
 {
   "purchase_id": "ord-00159",
   "customer": {
-    "customer_id": "cus-1033",
-    "first_name": "Евграф",
-    "last_name": "Кулагин",
-    "email": "qsazonova@example.org",
-    "phone": "8 (664) 074-4446",
+    "customer_id": "cus-1001",
+    "first_name": "Агафон",
+    "last_name": "Богданова",
+    "email": "iraida_53@example.com",
+    "phone": "+7 206 137 7742",
     "is_loyalty_member": true,
-    "loyalty_card_number": "LOYAL-615D708F68"
+    "loyalty_card_number": "LOYAL-B124725FD8"
   },
   "store": {
-    "store_id": "store-001",
-    "store_name": "Большая Пикча — Магазин на пер. 60 лет СССР",
+    "store_id": "store-027",
+    "store_name": "Большая Пикча — Магазин на ул. Детская",
     "store_network": "Большая Пикча",
     "location": {
       "country": "Россия",
-      "city": "п. Качканар",
-      "street": "бул. Панфилова",
-      "house": "90",
-      "postal_code": "699299",
+      "city": "п. Наро-Фоминск",
+      "street": "наб. Физкультурная",
+      "house": "92",
+      "postal_code": "043690",
       "coordinates": {
-        "latitude": 23.7573875,
-        "longitude": -54.155635
+        "latitude": 25.557303,
+        "longitude": -130.687503
       }
     }
   },
   "items": [
     {
-      "product_id": "prd-1010",
-      "name": "Вытаскивать Правый",
-      "category": "🥦 Овощи и зелень",
-      "quantity": 3,
-      "unit": "л",
-      "price_per_unit": 181.57,
-      "total_price": 544.71,
+      "product_id": "prd-1007",
+      "name": "Инвалид Госпожа",
+      "category": "🥩 Мясо, рыба, яйца и бобовые",
+      "quantity": 1,
+      "unit": "упаковка",
+      "price_per_unit": 216.19,
+      "total_price": 216.19,
       "kbju": {
-        "calories": 113.2,
-        "protein": 7.5,
-        "fat": 3.6,
-        "carbohydrates": 41.4
+        "calories": 103.2,
+        "protein": 11.9,
+        "fat": 9.2,
+        "carbohydrates": 32.1
       },
       "manufacturer": {
-        "name": "Сергеев Инкорпорэйтед",
+        "name": "НПО «Мельникова-Юдина»",
         "country": "Россия",
-        "website": "https://zao.biz",
-        "inn": "0493815810"
+        "website": "https://zao.ru",
+        "inn": "8084632702"
+      }
+    },
+    {
+      "product_id": "prd-1006",
+      "name": "Витрина Лапа",
+      "category": "🥦 Овощи и зелень",
+      "quantity": 5,
+      "unit": "л",
+      "price_per_unit": 197.14,
+      "total_price": 985.7,
+      "kbju": {
+        "calories": 159.3,
+        "protein": 17.1,
+        "fat": 8.9,
+        "carbohydrates": 42.8
+      },
+      "manufacturer": {
+        "name": "ООО «Ширяева Матвеев»",
+        "country": "Россия",
+        "website": "https://rao.biz",
+        "inn": "8993676224"
       }
     }
   ],
-  "total_amount": 544.71,
+  "total_amount": 1201.89,
   "payment_method": "cash",
   "is_delivery": false,
   "delivery_address": {
     "country": "Россия",
-    "city": "с. Чусовой",
-    "street": "ул. Леваневского",
-    "house": "737",
-    "apartment": "67",
-    "postal_code": "413892"
+    "city": "с. Октябрьский (Башк.)",
+    "street": "пер. Амурский",
+    "house": "112",
+    "apartment": "5",
+    "postal_code": "195188"
   },
-  "purchase_datetime": "2025-08-17T19:57:11.029381"
+  "purchase_datetime": "2025-07-28T13:42:39.583468"
 }

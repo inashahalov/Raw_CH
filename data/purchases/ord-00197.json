@@ -1,105 +1,105 @@
 {
   "purchase_id": "ord-00197",
   "customer": {
-    "customer_id": "cus-1030",
-    "first_name": "Мефодий",
-    "last_name": "Зимина",
-    "email": "bazhen2013@example.com",
-    "phone": "8 625 494 4334",
+    "customer_id": "cus-1037",
+    "first_name": "Денис",
+    "last_name": "Попов",
+    "email": "radim_84@example.com",
+    "phone": "+7 135 291 6973",
     "is_loyalty_member": true,
-    "loyalty_card_number": "LOYAL-5D0BBBC12C"
+    "loyalty_card_number": "LOYAL-F818CE4535"
   },
   "store": {
-    "store_id": "store-016",
-    "store_name": "Большая Пикча — Магазин на пр. Сиреневый",
+    "store_id": "store-017",
+    "store_name": "Большая Пикча — Магазин на пр. Советский",
     "store_network": "Большая Пикча",
     "location": {
       "country": "Россия",
-      "city": "д. Оренбург",
-      "street": "ул. Горная",
-      "house": "61",
-      "postal_code": "395799",
+      "city": "с. Чусовой",
+      "street": "бул. Металлистов",
+      "house": "76",
+      "postal_code": "465241",
       "coordinates": {
-        "latitude": -45.4646875,
-        "longitude": -11.515672
+        "latitude": -31.6654215,
+        "longitude": 32.773325
       }
     }
   },
   "items": [
     {
-      "product_id": "prd-1000",
-      "name": "Заведение Задержать",
-      "category": "🥛 Молочные продукты",
-      "quantity": 3,
-      "unit": "л",
-      "price_per_unit": 174.16,
-      "total_price": 522.48,
-      "kbju": {
-        "calories": 261.8,
-        "protein": 2.3,
-        "fat": 2.9,
-        "carbohydrates": 19.7
-      },
-      "manufacturer": {
-        "name": "РАО «Бирюков, Лапина и Волков»",
-        "country": "Россия",
-        "website": "https://ao.net",
-        "inn": "0912614956"
-      }
-    },
-    {
-      "product_id": "prd-1004",
-      "name": "Рассуждение Боец",
+      "product_id": "prd-1009",
+      "name": "Расстройство Валюта",
       "category": "🥩 Мясо, рыба, яйца и бобовые",
-      "quantity": 2,
-      "unit": "кг",
-      "price_per_unit": 167.58,
-      "total_price": 335.16,
+      "quantity": 1,
+      "unit": "л",
+      "price_per_unit": 256.33,
+      "total_price": 256.33,
       "kbju": {
-        "calories": 270.7,
-        "protein": 8.7,
-        "fat": 11.5,
-        "carbohydrates": 1.5
+        "calories": 208.9,
+        "protein": 12.9,
+        "fat": 11.4,
+        "carbohydrates": 30.9
       },
       "manufacturer": {
-        "name": "РАО «Мухина Миронов»",
+        "name": "АХ Степь",
         "country": "Россия",
-        "website": "https://rao.org",
-        "inn": "9262920859"
+        "website": "https://rao.ru",
+        "inn": "1719997409"
       }
     },
     {
       "product_id": "prd-1011",
-      "name": "Собеседник Цель",
-      "category": "🍏 Фрукты и ягоды",
-      "quantity": 4,
+      "name": "Сверкающий Коробка",
+      "category": "🥦 Овощи и зелень",
+      "quantity": 3,
       "unit": "шт",
-      "price_per_unit": 109.38,
-      "total_price": 437.52,
+      "price_per_unit": 242.68,
+      "total_price": 728.04,
       "kbju": {
-        "calories": 140.7,
-        "protein": 19.6,
-        "fat": 11.8,
-        "carbohydrates": 11.5
+        "calories": 212.1,
+        "protein": 13.3,
+        "fat": 13.8,
+        "carbohydrates": 18.4
       },
       "manufacturer": {
-        "name": "Сысоев Лтд",
+        "name": "ЗАО «Филатова-Юдина»",
         "country": "Россия",
-        "website": "https://ip.org",
-        "inn": "3880754993"
+        "website": "https://oao.info",
+        "inn": "6258727413"
+      }
+    },
+    {
+      "product_id": "prd-1006",
+      "name": "Витрина Лапа",
+      "category": "🥦 Овощи и зелень",
+      "quantity": 1,
+      "unit": "л",
+      "price_per_unit": 197.14,
+      "total_price": 197.14,
+      "kbju": {
+        "calories": 159.3,
+        "protein": 17.1,
+        "fat": 8.9,
+        "carbohydrates": 42.8
+      },
+      "manufacturer": {
+        "name": "ООО «Ширяева Матвеев»",
+        "country": "Россия",
+        "website": "https://rao.biz",
+        "inn": "8993676224"
       }
     }
   ],
-  "total_amount": 1295.16,
+  "total_amount": 1181.51,
   "payment_method": "card",
-  "is_delivery": false,
+  "is_delivery": true,
   "delivery_address": {
     "country": "Россия",
-    "city": "к. Шереметьево",
-    "street": "ул. Глинки",
-    "house": "71",
-    "apartment": "82",
-    "postal_code": "129105"
+    "city": "с. Липецк",
+    "street": "алл. Набережная",
+    "house": "8",
+    "apartment": "50",
+    "postal_code": "721037"
   },
-  "purchase_datetime": "2025-07-30T19:57:11.047655"
+  "purchase_datetime": "2025-07-30T13:42:39.598252"
 }

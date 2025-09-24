@@ -1,6 +1,6 @@
 {
   "store_id": "store-017",
-  "store_name": "Большая Пикча — Магазин на наб. Терешковой",
+  "store_name": "Большая Пикча — Магазин на пр. Советский",
   "store_network": "Большая Пикча",
   "store_type_description": "Супермаркет более 200 кв.м. Входит в сеть из 30 магазинов.",
   "type": "offline",
@@ -12,19 +12,19 @@
     "🥦 Овощи и зелень"
   ],
   "manager": {
-    "name": "Лора Егоровна Зиновьева",
-    "phone": "84760499130",
-    "email": "filimongorbunov@example.com"
+    "name": "Ефим Тарасович Симонов",
+    "phone": "+7 711 503 0531",
+    "email": "ivan47@example.net"
   },
   "location": {
     "country": "Россия",
-    "city": "ст. Любань",
-    "street": "пер. Есенина",
-    "house": "255",
-    "postal_code": "515675",
+    "city": "с. Чусовой",
+    "street": "бул. Металлистов",
+    "house": "76",
+    "postal_code": "465241",
     "coordinates": {
-      "latitude": -40.8579335,
-      "longitude": 15.399726
+      "latitude": -31.6654215,
+      "longitude": 32.773325
     }
   },
   "opening_hours": {
@@ -35,5 +35,5 @@
   "accepts_online_orders": true,
   "delivery_available": true,
   "warehouse_connected": true,
-  "last_inventory_date": "2025-09-23"
+  "last_inventory_date": "2025-09-24"
 }

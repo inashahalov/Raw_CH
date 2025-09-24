@@ -1,6 +1,6 @@
 {
   "store_id": "store-001",
-  "store_name": "Большая Пикча — Магазин на пер. 60 лет СССР",
+  "store_name": "Большая Пикча — Магазин на бул. Колхозный",
   "store_network": "Большая Пикча",
   "store_type_description": "Супермаркет более 200 кв.м. Входит в сеть из 30 магазинов.",
   "type": "offline",
@@ -12,19 +12,19 @@
     "🥦 Овощи и зелень"
   ],
   "manager": {
-    "name": "Яковлева Алевтина Филипповна",
-    "phone": "+7 (320) 148-66-44",
-    "email": "prokl_91@example.net"
+    "name": "Натан Витальевич Беляков",
+    "phone": "8 (462) 238-62-52",
+    "email": "konstantinovfeliks@example.net"
   },
   "location": {
     "country": "Россия",
-    "city": "п. Качканар",
-    "street": "бул. Панфилова",
-    "house": "90",
-    "postal_code": "699299",
+    "city": "к. Жуковский",
+    "street": "ш. Поперечное",
+    "house": "198",
+    "postal_code": "772195",
     "coordinates": {
-      "latitude": 23.7573875,
-      "longitude": -54.155635
+      "latitude": -80.495473,
+      "longitude": 41.675442
     }
   },
   "opening_hours": {
@@ -34,6 +34,6 @@
   },
   "accepts_online_orders": true,
   "delivery_available": true,
-  "warehouse_connected": true,
-  "last_inventory_date": "2025-09-23"
+  "warehouse_connected": false,
+  "last_inventory_date": "2025-09-24"
 }

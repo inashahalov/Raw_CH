@@ -1,63 +1,84 @@
 {
   "purchase_id": "ord-00033",
   "customer": {
-    "customer_id": "cus-1033",
-    "first_name": "Евграф",
-    "last_name": "Кулагин",
-    "email": "qsazonova@example.org",
-    "phone": "8 (664) 074-4446",
+    "customer_id": "cus-1022",
+    "first_name": "Валерий",
+    "last_name": "Щукина",
+    "email": "sgrigoreva@example.com",
+    "phone": "+7 145 587 26 86",
     "is_loyalty_member": true,
-    "loyalty_card_number": "LOYAL-615D708F68"
+    "loyalty_card_number": "LOYAL-314C1CBF7D"
   },
   "store": {
-    "store_id": "store-038",
-    "store_name": "Маленькая Пикча — Магазин на бул. Папанина",
-    "store_network": "Маленькая Пикча",
+    "store_id": "store-027",
+    "store_name": "Большая Пикча — Магазин на ул. Детская",
+    "store_network": "Большая Пикча",
     "location": {
       "country": "Россия",
-      "city": "д. Терней",
-      "street": "наб. Флотская",
-      "house": "634",
-      "postal_code": "144849",
+      "city": "п. Наро-Фоминск",
+      "street": "наб. Физкультурная",
+      "house": "92",
+      "postal_code": "043690",
       "coordinates": {
-        "latitude": -24.7418805,
-        "longitude": -175.888895
+        "latitude": 25.557303,
+        "longitude": -130.687503
       }
     }
   },
   "items": [
     {
-      "product_id": "prd-1000",
-      "name": "Заведение Задержать",
-      "category": "🥛 Молочные продукты",
+      "product_id": "prd-1010",
+      "name": "Бак Советовать",
+      "category": "🍏 Фрукты и ягоды",
       "quantity": 1,
-      "unit": "л",
-      "price_per_unit": 174.16,
-      "total_price": 174.16,
+      "unit": "упаковка",
+      "price_per_unit": 283.56,
+      "total_price": 283.56,
       "kbju": {
-        "calories": 261.8,
-        "protein": 2.3,
-        "fat": 2.9,
-        "carbohydrates": 19.7
+        "calories": 247.4,
+        "protein": 3.4,
+        "fat": 14.4,
+        "carbohydrates": 46.0
       },
       "manufacturer": {
-        "name": "РАО «Бирюков, Лапина и Волков»",
+        "name": "Гаврилова Инкорпорэйтед",
         "country": "Россия",
-        "website": "https://ao.net",
-        "inn": "0912614956"
+        "website": "https://ao.com",
+        "inn": "5008817113"
+      }
+    },
+    {
+      "product_id": "prd-1003",
+      "name": "Дорогой Руководитель",
+      "category": "🥦 Овощи и зелень",
+      "quantity": 4,
+      "unit": "упаковка",
+      "price_per_unit": 69.35,
+      "total_price": 277.4,
+      "kbju": {
+        "calories": 223.8,
+        "protein": 18.0,
+        "fat": 5.2,
+        "carbohydrates": 3.6
+      },
+      "manufacturer": {
+        "name": "НПО «Панова Ильина»",
+        "country": "Россия",
+        "website": "https://ooo.biz",
+        "inn": "4367291844"
       }
     }
   ],
-  "total_amount": 174.16,
+  "total_amount": 560.96,
   "payment_method": "cash",
   "is_delivery": false,
   "delivery_address": {
     "country": "Россия",
-    "city": "с. Чусовой",
-    "street": "ул. Леваневского",
-    "house": "737",
-    "apartment": "67",
-    "postal_code": "413892"
+    "city": "г. Холмск",
+    "street": "бул. Комарова",
+    "house": "48",
+    "apartment": "38",
+    "postal_code": "163195"
   },
-  "purchase_datetime": "2025-07-29T19:57:10.966314"
+  "purchase_datetime": "2025-08-18T13:42:39.531139"
 }

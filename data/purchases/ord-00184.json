@@ -1,105 +1,84 @@
 {
   "purchase_id": "ord-00184",
   "customer": {
-    "customer_id": "cus-1002",
-    "first_name": "Эммануил",
-    "last_name": "Сорокина",
-    "email": "bogdan_1994@example.com",
-    "phone": "+78403056533",
+    "customer_id": "cus-1015",
+    "first_name": "Леонид",
+    "last_name": "Кошелев",
+    "email": "azari_1993@example.net",
+    "phone": "+7 (634) 197-88-21",
     "is_loyalty_member": true,
-    "loyalty_card_number": "LOYAL-C9106DA2DE"
+    "loyalty_card_number": "LOYAL-E7F66D6229"
   },
   "store": {
-    "store_id": "store-019",
-    "store_name": "Большая Пикча — Магазин на ул. Войкова",
+    "store_id": "store-001",
+    "store_name": "Большая Пикча — Магазин на бул. Колхозный",
     "store_network": "Большая Пикча",
     "location": {
       "country": "Россия",
-      "city": "п. Балашиха",
-      "street": "пер. Тимирязева",
-      "house": "17",
-      "postal_code": "568590",
+      "city": "к. Жуковский",
+      "street": "ш. Поперечное",
+      "house": "198",
+      "postal_code": "772195",
       "coordinates": {
-        "latitude": 60.2486205,
-        "longitude": -16.230204
+        "latitude": -80.495473,
+        "longitude": 41.675442
       }
     }
   },
   "items": [
     {
-      "product_id": "prd-1012",
-      "name": "Премьера Висеть",
+      "product_id": "prd-1002",
+      "name": "Издали Перебивать",
       "category": "🥩 Мясо, рыба, яйца и бобовые",
-      "quantity": 2,
-      "unit": "л",
-      "price_per_unit": 193.21,
-      "total_price": 386.42,
+      "quantity": 5,
+      "unit": "упаковка",
+      "price_per_unit": 61.88,
+      "total_price": 309.4,
       "kbju": {
-        "calories": 254.5,
-        "protein": 0.8,
-        "fat": 5.6,
-        "carbohydrates": 3.1
+        "calories": 131.0,
+        "protein": 3.3,
+        "fat": 2.2,
+        "carbohydrates": 21.7
       },
       "manufacturer": {
-        "name": "АО «Ларионова, Молчанов и Ефремова»",
+        "name": "Государственная транспортная лизинговая компания",
         "country": "Россия",
-        "website": "https://ao.edu",
-        "inn": "3317182161"
+        "website": "https://zao.org",
+        "inn": "0226529553"
       }
     },
     {
-      "product_id": "prd-1007",
-      "name": "Штаб Приличный",
-      "category": "🍏 Фрукты и ягоды",
+      "product_id": "prd-1016",
+      "name": "Очередной Аллея",
+      "category": "🥖 Зерновые и хлебобулочные изделия",
       "quantity": 1,
-      "unit": "кг",
-      "price_per_unit": 196.88,
-      "total_price": 196.88,
-      "kbju": {
-        "calories": 164.9,
-        "protein": 16.7,
-        "fat": 3.6,
-        "carbohydrates": 31.4
-      },
-      "manufacturer": {
-        "name": "СДС-Уголь",
-        "country": "Россия",
-        "website": "https://npo.ru",
-        "inn": "9854590544"
-      }
-    },
-    {
-      "product_id": "prd-1011",
-      "name": "Собеседник Цель",
-      "category": "🍏 Фрукты и ягоды",
-      "quantity": 3,
       "unit": "шт",
-      "price_per_unit": 109.38,
-      "total_price": 328.14,
+      "price_per_unit": 251.07,
+      "total_price": 251.07,
       "kbju": {
-        "calories": 140.7,
-        "protein": 19.6,
-        "fat": 11.8,
-        "carbohydrates": 11.5
+        "calories": 277.2,
+        "protein": 18.2,
+        "fat": 6.0,
+        "carbohydrates": 11.3
       },
       "manufacturer": {
-        "name": "Сысоев Лтд",
+        "name": "ГК Автомир",
         "country": "Россия",
-        "website": "https://ip.org",
-        "inn": "3880754993"
+        "website": "https://andreev.info",
+        "inn": "8436477835"
       }
     }
   ],
-  "total_amount": 911.44,
+  "total_amount": 560.47,
   "payment_method": "cash",
-  "is_delivery": true,
+  "is_delivery": false,
   "delivery_address": {
     "country": "Россия",
-    "city": "г. Вилюйск",
-    "street": "бул. Революционный",
-    "house": "972",
-    "apartment": "98",
-    "postal_code": "852736"
+    "city": "ст. Приморско-Ахтарск",
+    "street": "ш. Дружбы",
+    "house": "8",
+    "apartment": "95",
+    "postal_code": "501123"
   },
-  "purchase_datetime": "2025-07-24T19:57:11.041717"
+  "purchase_datetime": "2025-08-27T13:42:39.593738"
 }

@@ -1,105 +1,105 @@
 {
   "purchase_id": "ord-00035",
   "customer": {
-    "customer_id": "cus-1014",
-    "first_name": "Алла",
-    "last_name": "Дмитриева",
-    "email": "maksimiljanlobanov@example.net",
-    "phone": "8 993 112 5563",
+    "customer_id": "cus-1008",
+    "first_name": "Самуил",
+    "last_name": "Назаров",
+    "email": "afanasigrishin@example.org",
+    "phone": "89122562959",
     "is_loyalty_member": true,
-    "loyalty_card_number": "LOYAL-4DECF4EFB7"
+    "loyalty_card_number": "LOYAL-BA05BD4642"
   },
   "store": {
-    "store_id": "store-033",
-    "store_name": "Маленькая Пикча — Магазин на бул. Высоцкого",
+    "store_id": "store-032",
+    "store_name": "Маленькая Пикча — Магазин на бул. Марта 8",
     "store_network": "Маленькая Пикча",
     "location": {
       "country": "Россия",
-      "city": "к. Комсомольск-на-Амуре",
-      "street": "ш. Ленина",
-      "house": "5",
-      "postal_code": "979044",
+      "city": "г. Красноуфимск",
+      "street": "алл. Сенная",
+      "house": "9",
+      "postal_code": "765237",
       "coordinates": {
-        "latitude": -82.2107835,
-        "longitude": 170.986594
+        "latitude": -82.329366,
+        "longitude": -144.925411
       }
     }
   },
   "items": [
     {
       "product_id": "prd-1019",
-      "name": "Адвокат Другой",
+      "name": "Исследование Мягкий",
+      "category": "🥦 Овощи и зелень",
+      "quantity": 5,
+      "unit": "шт",
+      "price_per_unit": 101.49,
+      "total_price": 507.45,
+      "kbju": {
+        "calories": 262.4,
+        "protein": 19.7,
+        "fat": 5.4,
+        "carbohydrates": 6.1
+      },
+      "manufacturer": {
+        "name": "ИП «Хохлова»",
+        "country": "Россия",
+        "website": "https://ooo.org",
+        "inn": "2460511347"
+      }
+    },
+    {
+      "product_id": "prd-1001",
+      "name": "Механический Намерение",
+      "category": "🥦 Овощи и зелень",
+      "quantity": 2,
+      "unit": "упаковка",
+      "price_per_unit": 66.91,
+      "total_price": 133.82,
+      "kbju": {
+        "calories": 139.2,
+        "protein": 6.1,
+        "fat": 13.3,
+        "carbohydrates": 35.9
+      },
+      "manufacturer": {
+        "name": "ООО «Костина, Панов и Фомичева»",
+        "country": "Россия",
+        "website": "https://gsl.biz",
+        "inn": "1159800180"
+      }
+    },
+    {
+      "product_id": "prd-1014",
+      "name": "Господь Падаль",
       "category": "🥦 Овощи и зелень",
       "quantity": 3,
-      "unit": "шт",
-      "price_per_unit": 43.3,
-      "total_price": 129.9,
+      "unit": "л",
+      "price_per_unit": 222.18,
+      "total_price": 666.54,
       "kbju": {
-        "calories": 77.7,
-        "protein": 13.9,
-        "fat": 10.1,
-        "carbohydrates": 22.7
+        "calories": 191.4,
+        "protein": 12.2,
+        "fat": 4.5,
+        "carbohydrates": 5.2
       },
       "manufacturer": {
-        "name": "Чернова Групп",
+        "name": "ИП «Афанасьев, Щербаков и Пахомова»",
         "country": "Россия",
-        "website": "https://belozerova.com",
-        "inn": "4723890506"
-      }
-    },
-    {
-      "product_id": "prd-1006",
-      "name": "Мелькнуть Сбросить",
-      "category": "🍏 Фрукты и ягоды",
-      "quantity": 4,
-      "unit": "кг",
-      "price_per_unit": 251.59,
-      "total_price": 1006.36,
-      "kbju": {
-        "calories": 208.0,
-        "protein": 7.1,
-        "fat": 7.6,
-        "carbohydrates": 15.3
-      },
-      "manufacturer": {
-        "name": "ИП «Киселев Комарова»",
-        "country": "Россия",
-        "website": "https://turova.info",
-        "inn": "8487805184"
-      }
-    },
-    {
-      "product_id": "prd-1008",
-      "name": "Фонарик Успокоиться",
-      "category": "🥖 Зерновые и хлебобулочные изделия",
-      "quantity": 3,
-      "unit": "упаковка",
-      "price_per_unit": 73.43,
-      "total_price": 220.29,
-      "kbju": {
-        "calories": 92.6,
-        "protein": 18.4,
-        "fat": 11.5,
-        "carbohydrates": 24.8
-      },
-      "manufacturer": {
-        "name": "ООО «Денисов, Щукина и Гришин»",
-        "country": "Россия",
-        "website": "https://kozlova.org",
-        "inn": "3531459365"
+        "website": "https://oao.biz",
+        "inn": "7090374985"
       }
     }
   ],
-  "total_amount": 1356.55,
-  "payment_method": "card",
+  "total_amount": 1307.81,
+  "payment_method": "cash",
   "is_delivery": false,
   "delivery_address": {
     "country": "Россия",
-    "city": "г. Магнитогорск",
-    "street": "ш. Пушкина",
-    "house": "159",
-    "apartment": "22",
-    "postal_code": "129259"
+    "city": "г. Усть-Ишим",
+    "street": "бул. Никитина",
+    "house": "98",
+    "apartment": "6",
+    "postal_code": "792102"
   },
-  "purchase_datetime": "2025-08-07T19:57:10.967212"
+  "purchase_datetime": "2025-09-03T13:42:39.532041"
 }

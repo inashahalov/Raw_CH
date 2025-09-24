@@ -1,36 +1,36 @@
 {
   "customer_id": "cus-1040",
-  "first_name": "Святополк",
-  "last_name": "Туров",
-  "email": "galina48@example.net",
-  "phone": "89206249774",
-  "birth_date": "1973-04-29",
-  "gender": "female",
-  "registration_date": "2025-09-23T19:57:10.948551",
+  "first_name": "Галактион",
+  "last_name": "Мельников",
+  "email": "ksenija_1977@example.org",
+  "phone": "8 155 492 6988",
+  "birth_date": "1960-06-14",
+  "gender": "male",
+  "registration_date": "2025-09-24T13:42:39.516439",
   "is_loyalty_member": true,
-  "loyalty_card_number": "LOYAL-BDB77CCF0B",
+  "loyalty_card_number": "LOYAL-CCE736A6EF",
   "purchase_location": {
     "store_id": "store-041",
-    "store_name": "Маленькая Пикча — Магазин на наб. Буденного",
+    "store_name": "Маленькая Пикча — Магазин на пер. Невского",
     "store_network": "Маленькая Пикча",
     "store_type_description": "Магазин у дома менее 100 кв.м. Входит в сеть из 15 магазинов.",
     "country": "Россия",
-    "city": "клх Печенга",
-    "street": "ш. Раздольное",
-    "house": "7/9",
-    "postal_code": "426924"
+    "city": "к. Камышин",
+    "street": "алл. Октября",
+    "house": "271",
+    "postal_code": "907583"
   },
   "delivery_address": {
     "country": "Россия",
-    "city": "клх Печенга",
-    "street": "пр. Горняцкий",
-    "house": "771",
-    "apartment": "11",
-    "postal_code": "066690"
+    "city": "к. Камышин",
+    "street": "наб. Вавилова",
+    "house": "180",
+    "apartment": "8",
+    "postal_code": "100327"
   },
   "preferences": {
     "preferred_language": "ru",
-    "preferred_payment_method": "card",
+    "preferred_payment_method": "cash",
     "receive_promotions": true
   }
 }

@@ -1,84 +1,63 @@
 {
   "purchase_id": "ord-00134",
   "customer": {
-    "customer_id": "cus-1021",
-    "first_name": "Геннадий",
-    "last_name": "Савина",
-    "email": "maksim_1981@example.org",
-    "phone": "+7 127 507 5728",
+    "customer_id": "cus-1033",
+    "first_name": "Радован",
+    "last_name": "Максимова",
+    "email": "iosif02@example.net",
+    "phone": "+7 (426) 638-65-12",
     "is_loyalty_member": true,
-    "loyalty_card_number": "LOYAL-E815D9C89B"
+    "loyalty_card_number": "LOYAL-E8AFED5DEF"
   },
   "store": {
-    "store_id": "store-023",
-    "store_name": "Большая Пикча — Магазин на алл. Московская",
-    "store_network": "Большая Пикча",
+    "store_id": "store-039",
+    "store_name": "Маленькая Пикча — Магазин на наб. Мичурина",
+    "store_network": "Маленькая Пикча",
     "location": {
       "country": "Россия",
-      "city": "к. Красногорск (Моск.)",
-      "street": "бул. Бабушкина",
-      "house": "74",
-      "postal_code": "103606",
+      "city": "к. Лотошино",
+      "street": "пр. Боровой",
+      "house": "3",
+      "postal_code": "599266",
       "coordinates": {
-        "latitude": -72.0031925,
-        "longitude": -94.798688
+        "latitude": -5.6986535,
+        "longitude": 4.716023
       }
     }
   },
   "items": [
     {
-      "product_id": "prd-1004",
-      "name": "Рассуждение Боец",
-      "category": "🥩 Мясо, рыба, яйца и бобовые",
-      "quantity": 5,
-      "unit": "кг",
-      "price_per_unit": 167.58,
-      "total_price": 837.9,
-      "kbju": {
-        "calories": 270.7,
-        "protein": 8.7,
-        "fat": 11.5,
-        "carbohydrates": 1.5
-      },
-      "manufacturer": {
-        "name": "РАО «Мухина Миронов»",
-        "country": "Россия",
-        "website": "https://rao.org",
-        "inn": "9262920859"
-      }
-    },
-    {
-      "product_id": "prd-1003",
-      "name": "Идея Вообще",
-      "category": "🍏 Фрукты и ягоды",
+      "product_id": "prd-1014",
+      "name": "Господь Падаль",
+      "category": "🥦 Овощи и зелень",
       "quantity": 2,
-      "unit": "упаковка",
-      "price_per_unit": 270.56,
-      "total_price": 541.12,
+      "unit": "л",
+      "price_per_unit": 222.18,
+      "total_price": 444.36,
       "kbju": {
-        "calories": 53.3,
-        "protein": 13.5,
-        "fat": 3.5,
-        "carbohydrates": 40.5
+        "calories": 191.4,
+        "protein": 12.2,
+        "fat": 4.5,
+        "carbohydrates": 5.2
       },
       "manufacturer": {
-        "name": "АО «Назарова»",
+        "name": "ИП «Афанасьев, Щербаков и Пахомова»",
         "country": "Россия",
-        "website": "https://oao.ru",
-        "inn": "9069795571"
+        "website": "https://oao.biz",
+        "inn": "7090374985"
       }
     }
   ],
-  "total_amount": 1379.02,
+  "total_amount": 444.36,
   "payment_method": "card",
   "is_delivery": true,
   "delivery_address": {
     "country": "Россия",
-    "city": "с. Сковородино",
-    "street": "алл. Коммуны",
-    "house": "67",
-    "apartment": "74",
-    "postal_code": "225952"
+    "city": "ст. Беслан",
+    "street": "бул. Вокзальный",
+    "house": "292",
+    "apartment": "99",
+    "postal_code": "614412"
   },
-  "purchase_datetime": "2025-08-01T19:57:11.017173"
+  "purchase_datetime": "2025-09-21T13:42:39.571663"
 }

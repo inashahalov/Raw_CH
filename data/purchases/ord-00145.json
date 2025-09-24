@@ -1,105 +1,105 @@
 {
   "purchase_id": "ord-00145",
   "customer": {
-    "customer_id": "cus-1009",
-    "first_name": "Фаина",
-    "last_name": "Моисеев",
-    "email": "isidorlazarev@example.org",
-    "phone": "+7 365 622 67 69",
+    "customer_id": "cus-1023",
+    "first_name": "Нина",
+    "last_name": "Субботина",
+    "email": "vsemil77@example.com",
+    "phone": "84785529018",
     "is_loyalty_member": true,
-    "loyalty_card_number": "LOYAL-E59BA1E587"
+    "loyalty_card_number": "LOYAL-770C798FB5"
   },
   "store": {
-    "store_id": "store-020",
-    "store_name": "Большая Пикча — Магазин на ш. Торговое",
+    "store_id": "store-028",
+    "store_name": "Большая Пикча — Магазин на наб. Высокая",
     "store_network": "Большая Пикча",
     "location": {
       "country": "Россия",
-      "city": "к. Апшеронск",
-      "street": "пр. Войкова",
-      "house": "6/9",
-      "postal_code": "046873",
+      "city": "клх Терней",
+      "street": "ш. Майское",
+      "house": "4/6",
+      "postal_code": "740829",
       "coordinates": {
-        "latitude": -44.909337,
-        "longitude": -111.402746
+        "latitude": 42.5208505,
+        "longitude": -137.089372
       }
     }
   },
   "items": [
     {
-      "product_id": "prd-1019",
-      "name": "Адвокат Другой",
-      "category": "🥦 Овощи и зелень",
-      "quantity": 4,
-      "unit": "шт",
-      "price_per_unit": 43.3,
-      "total_price": 173.2,
-      "kbju": {
-        "calories": 77.7,
-        "protein": 13.9,
-        "fat": 10.1,
-        "carbohydrates": 22.7
-      },
-      "manufacturer": {
-        "name": "Чернова Групп",
-        "country": "Россия",
-        "website": "https://belozerova.com",
-        "inn": "4723890506"
-      }
-    },
-    {
-      "product_id": "prd-1013",
-      "name": "Роса Наткнуться",
-      "category": "🥛 Молочные продукты",
+      "product_id": "prd-1018",
+      "name": "Проход Запретить",
+      "category": "🍏 Фрукты и ягоды",
       "quantity": 4,
       "unit": "упаковка",
-      "price_per_unit": 39.74,
-      "total_price": 158.96,
+      "price_per_unit": 258.84,
+      "total_price": 1035.36,
       "kbju": {
-        "calories": 283.8,
-        "protein": 19.2,
-        "fat": 7.6,
-        "carbohydrates": 35.6
+        "calories": 254.3,
+        "protein": 10.6,
+        "fat": 7.9,
+        "carbohydrates": 9.3
       },
       "manufacturer": {
-        "name": "АО «Потапова, Смирнова и Сазонова»",
+        "name": "ИП «Турова, Селезнев и Жданова»",
         "country": "Россия",
-        "website": "https://magnit.info",
-        "inn": "3006321123"
+        "website": "https://ao.com",
+        "inn": "7389660036"
       }
     },
     {
-      "product_id": "prd-1010",
-      "name": "Вытаскивать Правый",
-      "category": "🥦 Овощи и зелень",
+      "product_id": "prd-1007",
+      "name": "Инвалид Госпожа",
+      "category": "🥩 Мясо, рыба, яйца и бобовые",
       "quantity": 1,
-      "unit": "л",
-      "price_per_unit": 181.57,
-      "total_price": 181.57,
+      "unit": "упаковка",
+      "price_per_unit": 216.19,
+      "total_price": 216.19,
       "kbju": {
-        "calories": 113.2,
-        "protein": 7.5,
-        "fat": 3.6,
-        "carbohydrates": 41.4
+        "calories": 103.2,
+        "protein": 11.9,
+        "fat": 9.2,
+        "carbohydrates": 32.1
       },
       "manufacturer": {
-        "name": "Сергеев Инкорпорэйтед",
+        "name": "НПО «Мельникова-Юдина»",
         "country": "Россия",
-        "website": "https://zao.biz",
-        "inn": "0493815810"
+        "website": "https://zao.ru",
+        "inn": "8084632702"
+      }
+    },
+    {
+      "product_id": "prd-1004",
+      "name": "Прежний Успокоиться",
+      "category": "🥦 Овощи и зелень",
+      "quantity": 2,
+      "unit": "упаковка",
+      "price_per_unit": 192.71,
+      "total_price": 385.42,
+      "kbju": {
+        "calories": 95.9,
+        "protein": 17.1,
+        "fat": 12.1,
+        "carbohydrates": 42.3
+      },
+      "manufacturer": {
+        "name": "АО «Русакова»",
+        "country": "Россия",
+        "website": "https://nesterova.com",
+        "inn": "3179388333"
       }
     }
   ],
-  "total_amount": 513.73,
-  "payment_method": "cash",
+  "total_amount": 1636.97,
+  "payment_method": "card",
   "is_delivery": false,
   "delivery_address": {
     "country": "Россия",
-    "city": "клх Воткинск",
-    "street": "ш. 60 лет Октября",
-    "house": "4/9",
-    "apartment": "69",
-    "postal_code": "381729"
+    "city": "к. Кыштым",
+    "street": "ул. Заводская",
+    "house": "7",
+    "apartment": "100",
+    "postal_code": "093476"
   },
-  "purchase_datetime": "2025-07-19T19:57:11.022197"
+  "purchase_datetime": "2025-08-31T13:42:39.575729"
 }

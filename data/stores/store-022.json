@@ -1,6 +1,6 @@
 {
   "store_id": "store-022",
-  "store_name": "Большая Пикча — Магазин на пер. Дальневосточный",
+  "store_name": "Большая Пикча — Магазин на пр. Астраханский",
   "store_network": "Большая Пикча",
   "store_type_description": "Супермаркет более 200 кв.м. Входит в сеть из 30 магазинов.",
   "type": "offline",
@@ -12,19 +12,19 @@
     "🥦 Овощи и зелень"
   ],
   "manager": {
-    "name": "Ершова Наталья Борисовна",
-    "phone": "+7 331 736 55 62",
-    "email": "svjatopolk2002@example.com"
+    "name": "Платон Демидович Михеев",
+    "phone": "+7 042 929 4165",
+    "email": "adam49@example.org"
   },
   "location": {
     "country": "Россия",
-    "city": "с. Сковородино",
-    "street": "пер. Лесозаводский",
-    "house": "4",
-    "postal_code": "799838",
+    "city": "г. Надым",
+    "street": "ул. Николаева",
+    "house": "166",
+    "postal_code": "490188",
     "coordinates": {
-      "latitude": -32.786023,
-      "longitude": -128.704452
+      "latitude": 46.1271665,
+      "longitude": -45.553362
     }
   },
   "opening_hours": {
@@ -34,6 +34,6 @@
   },
   "accepts_online_orders": true,
   "delivery_available": true,
-  "warehouse_connected": false,
-  "last_inventory_date": "2025-09-23"
+  "warehouse_connected": true,
+  "last_inventory_date": "2025-09-24"
 }

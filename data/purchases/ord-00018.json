@@ -1,63 +1,105 @@
 {
   "purchase_id": "ord-00018",
   "customer": {
-    "customer_id": "cus-1029",
-    "first_name": "Фаина",
-    "last_name": "Харитонов",
-    "email": "miroslav68@example.com",
-    "phone": "+7 (850) 338-79-16",
+    "customer_id": "cus-1000",
+    "first_name": "Никодим",
+    "last_name": "Шилов",
+    "email": "pavlovaksenija@example.net",
+    "phone": "+7 115 715 6344",
     "is_loyalty_member": true,
-    "loyalty_card_number": "LOYAL-E58C4F2854"
+    "loyalty_card_number": "LOYAL-29F03EC301"
   },
   "store": {
-    "store_id": "store-035",
-    "store_name": "Маленькая Пикча — Магазин на пер. Некрасова",
-    "store_network": "Маленькая Пикча",
+    "store_id": "store-011",
+    "store_name": "Большая Пикча — Магазин на наб. Светлая",
+    "store_network": "Большая Пикча",
     "location": {
       "country": "Россия",
-      "city": "клх Александров",
-      "street": "пр. Чайковского",
-      "house": "4",
-      "postal_code": "124796",
+      "city": "д. Петрозаводск",
+      "street": "наб. Некрасова",
+      "house": "1/2",
+      "postal_code": "016668",
       "coordinates": {
-        "latitude": -70.6444295,
-        "longitude": -97.215615
+        "latitude": -29.6315255,
+        "longitude": -174.977322
       }
     }
   },
   "items": [
     {
-      "product_id": "prd-1009",
-      "name": "Заложить Спасть",
-      "category": "🥩 Мясо, рыба, яйца и бобовые",
-      "quantity": 1,
-      "unit": "шт",
-      "price_per_unit": 101.66,
-      "total_price": 101.66,
+      "product_id": "prd-1010",
+      "name": "Бак Советовать",
+      "category": "🍏 Фрукты и ягоды",
+      "quantity": 5,
+      "unit": "упаковка",
+      "price_per_unit": 283.56,
+      "total_price": 1417.8,
       "kbju": {
-        "calories": 246.3,
-        "protein": 19.8,
-        "fat": 4.3,
-        "carbohydrates": 48.1
+        "calories": 247.4,
+        "protein": 3.4,
+        "fat": 14.4,
+        "carbohydrates": 46.0
       },
       "manufacturer": {
-        "name": "НПО «Наумова»",
+        "name": "Гаврилова Инкорпорэйтед",
         "country": "Россия",
-        "website": "https://rao.biz",
-        "inn": "4508864986"
+        "website": "https://ao.com",
+        "inn": "5008817113"
+      }
+    },
+    {
+      "product_id": "prd-1005",
+      "name": "Блин Редактор",
+      "category": "🥛 Молочные продукты",
+      "quantity": 2,
+      "unit": "л",
+      "price_per_unit": 252.66,
+      "total_price": 505.32,
+      "kbju": {
+        "calories": 169.1,
+        "protein": 14.6,
+        "fat": 4.1,
+        "carbohydrates": 39.8
+      },
+      "manufacturer": {
+        "name": "ООО «Савельев»",
+        "country": "Россия",
+        "website": "https://vostok-zapad.biz",
+        "inn": "3880905200"
+      }
+    },
+    {
+      "product_id": "prd-1000",
+      "name": "Жестокий Очередной",
+      "category": "🥛 Молочные продукты",
+      "quantity": 1,
+      "unit": "кг",
+      "price_per_unit": 286.95,
+      "total_price": 286.95,
+      "kbju": {
+        "calories": 269.3,
+        "protein": 18.8,
+        "fat": 6.7,
+        "carbohydrates": 25.1
+      },
+      "manufacturer": {
+        "name": "ОАО «Веселова Крылова»",
+        "country": "Россия",
+        "website": "https://alekseeva.com",
+        "inn": "3586308951"
       }
     }
   ],
-  "total_amount": 101.66,
+  "total_amount": 2210.07,
   "payment_method": "card",
   "is_delivery": false,
   "delivery_address": {
     "country": "Россия",
-    "city": "к. Мытищи",
-    "street": "пер. Волкова",
-    "house": "7",
+    "city": "к. Жуковский",
+    "street": "ш. Народное",
+    "house": "660",
     "apartment": "18",
-    "postal_code": "904836"
+    "postal_code": "641010"
   },
-  "purchase_datetime": "2025-09-14T19:57:10.959214"
+  "purchase_datetime": "2025-09-22T13:42:39.525445"
 }

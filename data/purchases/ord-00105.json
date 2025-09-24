@@ -1,63 +1,63 @@
 {
   "purchase_id": "ord-00105",
   "customer": {
-    "customer_id": "cus-1012",
-    "first_name": "Тит",
-    "last_name": "Максимов",
-    "email": "tsvetkovkim@example.com",
-    "phone": "+7 307 933 6870",
+    "customer_id": "cus-1004",
+    "first_name": "Майя",
+    "last_name": "Максимова",
+    "email": "uermakova@example.com",
+    "phone": "+77929671540",
     "is_loyalty_member": true,
-    "loyalty_card_number": "LOYAL-F303593AAF"
+    "loyalty_card_number": "LOYAL-7A036FF551"
   },
   "store": {
-    "store_id": "store-028",
-    "store_name": "Большая Пикча — Магазин на пр. Крупской",
+    "store_id": "store-029",
+    "store_name": "Большая Пикча — Магазин на пер. Р.Люксембург",
     "store_network": "Большая Пикча",
     "location": {
       "country": "Россия",
-      "city": "ст. Карталы",
-      "street": "ул. Королева",
-      "house": "5",
-      "postal_code": "762232",
+      "city": "д. Геленджик",
+      "street": "ш. Харьковское",
+      "house": "3/1",
+      "postal_code": "740343",
       "coordinates": {
-        "latitude": -62.0370365,
-        "longitude": 85.309577
+        "latitude": -59.7230715,
+        "longitude": -128.557279
       }
     }
   },
   "items": [
     {
-      "product_id": "prd-1004",
-      "name": "Рассуждение Боец",
-      "category": "🥩 Мясо, рыба, яйца и бобовые",
-      "quantity": 1,
-      "unit": "кг",
-      "price_per_unit": 167.58,
-      "total_price": 167.58,
+      "product_id": "prd-1003",
+      "name": "Дорогой Руководитель",
+      "category": "🥦 Овощи и зелень",
+      "quantity": 4,
+      "unit": "упаковка",
+      "price_per_unit": 69.35,
+      "total_price": 277.4,
       "kbju": {
-        "calories": 270.7,
-        "protein": 8.7,
-        "fat": 11.5,
-        "carbohydrates": 1.5
+        "calories": 223.8,
+        "protein": 18.0,
+        "fat": 5.2,
+        "carbohydrates": 3.6
       },
       "manufacturer": {
-        "name": "РАО «Мухина Миронов»",
+        "name": "НПО «Панова Ильина»",
         "country": "Россия",
-        "website": "https://rao.org",
-        "inn": "9262920859"
+        "website": "https://ooo.biz",
+        "inn": "4367291844"
       }
     }
   ],
-  "total_amount": 167.58,
-  "payment_method": "cash",
-  "is_delivery": false,
+  "total_amount": 277.4,
+  "payment_method": "card",
+  "is_delivery": true,
   "delivery_address": {
     "country": "Россия",
-    "city": "д. Махачкала",
-    "street": "ул. Ручейная",
-    "house": "65",
-    "apartment": "79",
-    "postal_code": "436303"
+    "city": "к. Краснотурьинск",
+    "street": "ул. Краснознаменная",
+    "house": "663",
+    "apartment": "57",
+    "postal_code": "080454"
   },
-  "purchase_datetime": "2025-08-14T19:57:11.003533"
+  "purchase_datetime": "2025-09-15T13:42:39.559794"
 }

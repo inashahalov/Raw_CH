@@ -1,84 +1,105 @@
 {
   "purchase_id": "ord-00147",
   "customer": {
-    "customer_id": "cus-1003",
-    "first_name": "Федосий",
-    "last_name": "Кулагин",
-    "email": "efim_1985@example.net",
-    "phone": "+7 (506) 308-6005",
+    "customer_id": "cus-1044",
+    "first_name": "Парфен",
+    "last_name": "Данилов",
+    "email": "angelina2012@example.net",
+    "phone": "+7 (210) 244-1602",
     "is_loyalty_member": true,
-    "loyalty_card_number": "LOYAL-BABE7C0EB0"
+    "loyalty_card_number": "LOYAL-3D67D58F4B"
   },
   "store": {
-    "store_id": "store-016",
-    "store_name": "Большая Пикча — Магазин на пр. Сиреневый",
+    "store_id": "store-023",
+    "store_name": "Большая Пикча — Магазин на ш. Восьмого Марта",
     "store_network": "Большая Пикча",
     "location": {
       "country": "Россия",
-      "city": "д. Оренбург",
-      "street": "ул. Горная",
-      "house": "61",
-      "postal_code": "395799",
+      "city": "г. Холмск",
+      "street": "ш. Майское",
+      "house": "435",
+      "postal_code": "198436",
       "coordinates": {
-        "latitude": -45.4646875,
-        "longitude": -11.515672
+        "latitude": 6.0641875,
+        "longitude": 19.737599
       }
     }
   },
   "items": [
     {
-      "product_id": "prd-1013",
-      "name": "Роса Наткнуться",
-      "category": "🥛 Молочные продукты",
-      "quantity": 3,
-      "unit": "упаковка",
-      "price_per_unit": 39.74,
-      "total_price": 119.22,
+      "product_id": "prd-1017",
+      "name": "Сутки Покидать",
+      "category": "🥩 Мясо, рыба, яйца и бобовые",
+      "quantity": 2,
+      "unit": "кг",
+      "price_per_unit": 240.7,
+      "total_price": 481.4,
       "kbju": {
-        "calories": 283.8,
-        "protein": 19.2,
-        "fat": 7.6,
-        "carbohydrates": 35.6
+        "calories": 208.1,
+        "protein": 11.4,
+        "fat": 6.1,
+        "carbohydrates": 10.1
       },
       "manufacturer": {
-        "name": "АО «Потапова, Смирнова и Сазонова»",
+        "name": "ЗАО «Стрелков Журавлева»",
         "country": "Россия",
-        "website": "https://magnit.info",
-        "inn": "3006321123"
+        "website": "https://ooo.com",
+        "inn": "4048587161"
       }
     },
     {
-      "product_id": "prd-1015",
-      "name": "Войти Приходить",
-      "category": "🥛 Молочные продукты",
-      "quantity": 2,
+      "product_id": "prd-1008",
+      "name": "Очутиться Песенка",
+      "category": "🥩 Мясо, рыба, яйца и бобовые",
+      "quantity": 3,
       "unit": "шт",
-      "price_per_unit": 92.89,
-      "total_price": 185.78,
+      "price_per_unit": 248.49,
+      "total_price": 745.47,
       "kbju": {
-        "calories": 297.1,
-        "protein": 17.3,
-        "fat": 7.9,
-        "carbohydrates": 24.3
+        "calories": 51.2,
+        "protein": 13.0,
+        "fat": 6.4,
+        "carbohydrates": 48.7
       },
       "manufacturer": {
-        "name": "Гришина Лтд",
+        "name": "Лазарева Инк",
         "country": "Россия",
-        "website": "https://ooo.net",
-        "inn": "5499321537"
+        "website": "https://guljaev.com",
+        "inn": "0966441801"
+      }
+    },
+    {
+      "product_id": "prd-1013",
+      "name": "Коммунизм Полевой",
+      "category": "🥖 Зерновые и хлебобулочные изделия",
+      "quantity": 2,
+      "unit": "кг",
+      "price_per_unit": 155.06,
+      "total_price": 310.12,
+      "kbju": {
+        "calories": 292.6,
+        "protein": 2.6,
+        "fat": 6.2,
+        "carbohydrates": 4.1
+      },
+      "manufacturer": {
+        "name": "АО «Абрамов»",
+        "country": "Россия",
+        "website": "https://ip.org",
+        "inn": "8372516031"
       }
     }
   ],
-  "total_amount": 305.0,
-  "payment_method": "card",
-  "is_delivery": true,
+  "total_amount": 1536.99,
+  "payment_method": "cash",
+  "is_delivery": false,
   "delivery_address": {
     "country": "Россия",
-    "city": "к. Южноуральск",
-    "street": "пер. Орджоникидзе",
-    "house": "94",
-    "apartment": "3",
-    "postal_code": "037248"
+    "city": "с. Тымовское",
+    "street": "пер. Невского",
+    "house": "247",
+    "apartment": "36",
+    "postal_code": "490798"
   },
-  "purchase_datetime": "2025-09-04T19:57:11.023088"
+  "purchase_datetime": "2025-07-06T13:42:39.576736"
 }

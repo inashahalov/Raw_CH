@@ -1,84 +1,63 @@
 {
   "purchase_id": "ord-00166",
   "customer": {
-    "customer_id": "cus-1024",
-    "first_name": "Ульян",
-    "last_name": "Рожков",
-    "email": "lavrenti_1995@example.net",
-    "phone": "8 (716) 687-95-46",
+    "customer_id": "cus-1009",
+    "first_name": "Кондрат",
+    "last_name": "Агафонова",
+    "email": "tshchukina@example.org",
+    "phone": "80257421757",
     "is_loyalty_member": true,
-    "loyalty_card_number": "LOYAL-091724D2F7"
+    "loyalty_card_number": "LOYAL-143C43728A"
   },
   "store": {
-    "store_id": "store-012",
-    "store_name": "Большая Пикча — Магазин на наб. Центральная",
+    "store_id": "store-009",
+    "store_name": "Большая Пикча — Магазин на пер. Аэродромный",
     "store_network": "Большая Пикча",
     "location": {
       "country": "Россия",
-      "city": "ст. Валдай",
-      "street": "алл. Станиславского",
-      "house": "8/1",
-      "postal_code": "481389",
+      "city": "г. Усть-Ишим",
+      "street": "бул. Высотный",
+      "house": "7/5",
+      "postal_code": "497524",
       "coordinates": {
-        "latitude": 33.4852585,
-        "longitude": 19.302012
+        "latitude": -20.3115105,
+        "longitude": 154.51158
       }
     }
   },
   "items": [
     {
-      "product_id": "prd-1002",
-      "name": "Разводить Школьный",
-      "category": "🥦 Овощи и зелень",
-      "quantity": 2,
-      "unit": "л",
-      "price_per_unit": 232.4,
-      "total_price": 464.8,
-      "kbju": {
-        "calories": 276.5,
-        "protein": 15.9,
-        "fat": 7.0,
-        "carbohydrates": 4.4
-      },
-      "manufacturer": {
-        "name": "ОАО «Туров, Горбунова и Галкина»",
-        "country": "Россия",
-        "website": "https://oao.com",
-        "inn": "7774237965"
-      }
-    },
-    {
       "product_id": "prd-1017",
-      "name": "Неожиданный Эпоха",
-      "category": "🥦 Овощи и зелень",
-      "quantity": 3,
-      "unit": "упаковка",
-      "price_per_unit": 187.0,
-      "total_price": 561.0,
+      "name": "Сутки Покидать",
+      "category": "🥩 Мясо, рыба, яйца и бобовые",
+      "quantity": 4,
+      "unit": "кг",
+      "price_per_unit": 240.7,
+      "total_price": 962.8,
       "kbju": {
-        "calories": 291.5,
-        "protein": 6.8,
-        "fat": 3.0,
-        "carbohydrates": 7.4
+        "calories": 208.1,
+        "protein": 11.4,
+        "fat": 6.1,
+        "carbohydrates": 10.1
       },
       "manufacturer": {
-        "name": "ЗАО «Сафонова Ларионова»",
+        "name": "ЗАО «Стрелков Журавлева»",
         "country": "Россия",
-        "website": "https://ao.org",
-        "inn": "0841571264"
+        "website": "https://ooo.com",
+        "inn": "4048587161"
       }
     }
   ],
-  "total_amount": 1025.8,
-  "payment_method": "cash",
+  "total_amount": 962.8,
+  "payment_method": "card",
   "is_delivery": false,
   "delivery_address": {
     "country": "Россия",
-    "city": "п. Вязьма",
-    "street": "наб. Радужная",
-    "house": "5",
-    "apartment": "73",
-    "postal_code": "710794"
+    "city": "г. Новочеркасск",
+    "street": "бул. Матросова",
+    "house": "8/7",
+    "apartment": "15",
+    "postal_code": "371221"
   },
-  "purchase_datetime": "2025-08-15T19:57:11.032716"
+  "purchase_datetime": "2025-09-22T13:42:39.586749"
 }

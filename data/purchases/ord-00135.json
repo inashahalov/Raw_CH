@@ -1,63 +1,105 @@
 {
   "purchase_id": "ord-00135",
   "customer": {
-    "customer_id": "cus-1025",
-    "first_name": "Светозар",
-    "last_name": "Панфилова",
-    "email": "grigorigrigorev@example.org",
-    "phone": "81759582895",
+    "customer_id": "cus-1002",
+    "first_name": "Галина",
+    "last_name": "Тетерин",
+    "email": "proklterentev@example.net",
+    "phone": "82079260379",
     "is_loyalty_member": true,
-    "loyalty_card_number": "LOYAL-3948D7315F"
+    "loyalty_card_number": "LOYAL-96EE270825"
   },
   "store": {
-    "store_id": "store-013",
-    "store_name": "Большая Пикча — Магазин на пер. Белорусский",
+    "store_id": "store-023",
+    "store_name": "Большая Пикча — Магазин на ш. Восьмого Марта",
     "store_network": "Большая Пикча",
     "location": {
       "country": "Россия",
-      "city": "д. Махачкала",
-      "street": "алл. Тупиковая",
-      "house": "8/9",
-      "postal_code": "029495",
+      "city": "г. Холмск",
+      "street": "ш. Майское",
+      "house": "435",
+      "postal_code": "198436",
       "coordinates": {
-        "latitude": 0.219858,
-        "longitude": -53.203028
+        "latitude": 6.0641875,
+        "longitude": 19.737599
       }
     }
   },
   "items": [
     {
-      "product_id": "prd-1019",
-      "name": "Адвокат Другой",
-      "category": "🥦 Овощи и зелень",
-      "quantity": 2,
-      "unit": "шт",
-      "price_per_unit": 43.3,
-      "total_price": 86.6,
+      "product_id": "prd-1007",
+      "name": "Инвалид Госпожа",
+      "category": "🥩 Мясо, рыба, яйца и бобовые",
+      "quantity": 3,
+      "unit": "упаковка",
+      "price_per_unit": 216.19,
+      "total_price": 648.57,
       "kbju": {
-        "calories": 77.7,
-        "protein": 13.9,
-        "fat": 10.1,
-        "carbohydrates": 22.7
+        "calories": 103.2,
+        "protein": 11.9,
+        "fat": 9.2,
+        "carbohydrates": 32.1
       },
       "manufacturer": {
-        "name": "Чернова Групп",
+        "name": "НПО «Мельникова-Юдина»",
         "country": "Россия",
-        "website": "https://belozerova.com",
-        "inn": "4723890506"
+        "website": "https://zao.ru",
+        "inn": "8084632702"
+      }
+    },
+    {
+      "product_id": "prd-1012",
+      "name": "Полюбить Прошептать",
+      "category": "🥛 Молочные продукты",
+      "quantity": 3,
+      "unit": "л",
+      "price_per_unit": 179.33,
+      "total_price": 537.99,
+      "kbju": {
+        "calories": 251.8,
+        "protein": 19.3,
+        "fat": 14.3,
+        "carbohydrates": 22.3
+      },
+      "manufacturer": {
+        "name": "ИП «Шарова»",
+        "country": "Россия",
+        "website": "https://ip.ru",
+        "inn": "2195881079"
+      }
+    },
+    {
+      "product_id": "prd-1017",
+      "name": "Сутки Покидать",
+      "category": "🥩 Мясо, рыба, яйца и бобовые",
+      "quantity": 5,
+      "unit": "кг",
+      "price_per_unit": 240.7,
+      "total_price": 1203.5,
+      "kbju": {
+        "calories": 208.1,
+        "protein": 11.4,
+        "fat": 6.1,
+        "carbohydrates": 10.1
+      },
+      "manufacturer": {
+        "name": "ЗАО «Стрелков Журавлева»",
+        "country": "Россия",
+        "website": "https://ooo.com",
+        "inn": "4048587161"
       }
     }
   ],
-  "total_amount": 86.6,
-  "payment_method": "card",
+  "total_amount": 2390.06,
+  "payment_method": "cash",
   "is_delivery": true,
   "delivery_address": {
     "country": "Россия",
-    "city": "д. Вытегра",
-    "street": "ш. Байкальское",
-    "house": "7",
-    "apartment": "97",
-    "postal_code": "418359"
+    "city": "с. Южноуральск",
+    "street": "алл. Макарова",
+    "house": "2/9",
+    "apartment": "59",
+    "postal_code": "634527"
   },
-  "purchase_datetime": "2025-09-20T19:57:11.017627"
+  "purchase_datetime": "2025-07-20T13:42:39.572019"
 }

@@ -1,84 +1,84 @@
 {
   "purchase_id": "ord-00011",
   "customer": {
-    "customer_id": "cus-1044",
-    "first_name": "Ирина",
-    "last_name": "Горбунов",
-    "email": "bikovavde@example.org",
-    "phone": "+7 (467) 240-7744",
+    "customer_id": "cus-1006",
+    "first_name": "Павел",
+    "last_name": "Самойлова",
+    "email": "okrasilnikova@example.com",
+    "phone": "8 (345) 897-01-55",
     "is_loyalty_member": true,
-    "loyalty_card_number": "LOYAL-543187F95B"
+    "loyalty_card_number": "LOYAL-BE3CAFEC55"
   },
   "store": {
-    "store_id": "store-033",
-    "store_name": "Маленькая Пикча — Магазин на бул. Высоцкого",
-    "store_network": "Маленькая Пикча",
+    "store_id": "store-005",
+    "store_name": "Большая Пикча — Магазин на бул. Волочаевский",
+    "store_network": "Большая Пикча",
     "location": {
       "country": "Россия",
-      "city": "к. Комсомольск-на-Амуре",
-      "street": "ш. Ленина",
-      "house": "5",
-      "postal_code": "979044",
+      "city": "к. Краснотурьинск",
+      "street": "бул. Л.Толстого",
+      "house": "1",
+      "postal_code": "760635",
       "coordinates": {
-        "latitude": -82.2107835,
-        "longitude": 170.986594
+        "latitude": 47.398162,
+        "longitude": 81.958454
       }
     }
   },
   "items": [
     {
-      "product_id": "prd-1007",
-      "name": "Штаб Приличный",
-      "category": "🍏 Фрукты и ягоды",
-      "quantity": 4,
-      "unit": "кг",
-      "price_per_unit": 196.88,
-      "total_price": 787.52,
+      "product_id": "prd-1001",
+      "name": "Механический Намерение",
+      "category": "🥦 Овощи и зелень",
+      "quantity": 5,
+      "unit": "упаковка",
+      "price_per_unit": 66.91,
+      "total_price": 334.55,
       "kbju": {
-        "calories": 164.9,
-        "protein": 16.7,
-        "fat": 3.6,
-        "carbohydrates": 31.4
+        "calories": 139.2,
+        "protein": 6.1,
+        "fat": 13.3,
+        "carbohydrates": 35.9
       },
       "manufacturer": {
-        "name": "СДС-Уголь",
+        "name": "ООО «Костина, Панов и Фомичева»",
         "country": "Россия",
-        "website": "https://npo.ru",
-        "inn": "9854590544"
+        "website": "https://gsl.biz",
+        "inn": "1159800180"
       }
     },
     {
-      "product_id": "prd-1002",
-      "name": "Разводить Школьный",
-      "category": "🥦 Овощи и зелень",
-      "quantity": 1,
+      "product_id": "prd-1012",
+      "name": "Полюбить Прошептать",
+      "category": "🥛 Молочные продукты",
+      "quantity": 5,
       "unit": "л",
-      "price_per_unit": 232.4,
-      "total_price": 232.4,
+      "price_per_unit": 179.33,
+      "total_price": 896.65,
       "kbju": {
-        "calories": 276.5,
-        "protein": 15.9,
-        "fat": 7.0,
-        "carbohydrates": 4.4
+        "calories": 251.8,
+        "protein": 19.3,
+        "fat": 14.3,
+        "carbohydrates": 22.3
       },
       "manufacturer": {
-        "name": "ОАО «Туров, Горбунова и Галкина»",
+        "name": "ИП «Шарова»",
         "country": "Россия",
-        "website": "https://oao.com",
-        "inn": "7774237965"
+        "website": "https://ip.ru",
+        "inn": "2195881079"
       }
     }
   ],
-  "total_amount": 1019.92,
-  "payment_method": "cash",
+  "total_amount": 1231.2,
+  "payment_method": "card",
   "is_delivery": false,
   "delivery_address": {
     "country": "Россия",
-    "city": "д. Нягань",
-    "street": "бул. Подгорный",
-    "house": "68",
-    "apartment": "62",
-    "postal_code": "634627"
+    "city": "ст. Избербаш",
+    "street": "алл. Тихая",
+    "house": "2",
+    "apartment": "30",
+    "postal_code": "747274"
   },
-  "purchase_datetime": "2025-07-29T19:57:10.956079"
+  "purchase_datetime": "2025-07-06T13:42:39.523194"
 }

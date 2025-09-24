@@ -1,105 +1,84 @@
 {
   "purchase_id": "ord-00194",
   "customer": {
-    "customer_id": "cus-1034",
-    "first_name": "Флорентин",
-    "last_name": "Коновалов",
-    "email": "rostislav_29@example.net",
-    "phone": "+7 173 924 74 38",
+    "customer_id": "cus-1013",
+    "first_name": "Самсон",
+    "last_name": "Суханов",
+    "email": "ilinaanzhela@example.net",
+    "phone": "8 (762) 433-88-02",
     "is_loyalty_member": true,
-    "loyalty_card_number": "LOYAL-CC920C8565"
+    "loyalty_card_number": "LOYAL-8CF44E9FE2"
   },
   "store": {
-    "store_id": "store-017",
-    "store_name": "Большая Пикча — Магазин на наб. Терешковой",
+    "store_id": "store-027",
+    "store_name": "Большая Пикча — Магазин на ул. Детская",
     "store_network": "Большая Пикча",
     "location": {
       "country": "Россия",
-      "city": "ст. Любань",
-      "street": "пер. Есенина",
-      "house": "255",
-      "postal_code": "515675",
+      "city": "п. Наро-Фоминск",
+      "street": "наб. Физкультурная",
+      "house": "92",
+      "postal_code": "043690",
       "coordinates": {
-        "latitude": -40.8579335,
-        "longitude": 15.399726
+        "latitude": 25.557303,
+        "longitude": -130.687503
       }
     }
   },
   "items": [
     {
-      "product_id": "prd-1013",
-      "name": "Роса Наткнуться",
-      "category": "🥛 Молочные продукты",
+      "product_id": "prd-1006",
+      "name": "Витрина Лапа",
+      "category": "🥦 Овощи и зелень",
+      "quantity": 5,
+      "unit": "л",
+      "price_per_unit": 197.14,
+      "total_price": 985.7,
+      "kbju": {
+        "calories": 159.3,
+        "protein": 17.1,
+        "fat": 8.9,
+        "carbohydrates": 42.8
+      },
+      "manufacturer": {
+        "name": "ООО «Ширяева Матвеев»",
+        "country": "Россия",
+        "website": "https://rao.biz",
+        "inn": "8993676224"
+      }
+    },
+    {
+      "product_id": "prd-1003",
+      "name": "Дорогой Руководитель",
+      "category": "🥦 Овощи и зелень",
       "quantity": 3,
       "unit": "упаковка",
-      "price_per_unit": 39.74,
-      "total_price": 119.22,
+      "price_per_unit": 69.35,
+      "total_price": 208.05,
       "kbju": {
-        "calories": 283.8,
-        "protein": 19.2,
-        "fat": 7.6,
-        "carbohydrates": 35.6
+        "calories": 223.8,
+        "protein": 18.0,
+        "fat": 5.2,
+        "carbohydrates": 3.6
       },
       "manufacturer": {
-        "name": "АО «Потапова, Смирнова и Сазонова»",
+        "name": "НПО «Панова Ильина»",
         "country": "Россия",
-        "website": "https://magnit.info",
-        "inn": "3006321123"
-      }
-    },
-    {
-      "product_id": "prd-1019",
-      "name": "Адвокат Другой",
-      "category": "🥦 Овощи и зелень",
-      "quantity": 2,
-      "unit": "шт",
-      "price_per_unit": 43.3,
-      "total_price": 86.6,
-      "kbju": {
-        "calories": 77.7,
-        "protein": 13.9,
-        "fat": 10.1,
-        "carbohydrates": 22.7
-      },
-      "manufacturer": {
-        "name": "Чернова Групп",
-        "country": "Россия",
-        "website": "https://belozerova.com",
-        "inn": "4723890506"
-      }
-    },
-    {
-      "product_id": "prd-1001",
-      "name": "Тревога Появление",
-      "category": "🥖 Зерновые и хлебобулочные изделия",
-      "quantity": 3,
-      "unit": "шт",
-      "price_per_unit": 168.16,
-      "total_price": 504.48,
-      "kbju": {
-        "calories": 205.2,
-        "protein": 13.4,
-        "fat": 1.1,
-        "carbohydrates": 43.2
-      },
-      "manufacturer": {
-        "name": "ОАО «Селезнева Турова»",
-        "country": "Россия",
-        "website": "https://panfilov.net",
-        "inn": "5790638925"
+        "website": "https://ooo.biz",
+        "inn": "4367291844"
       }
     }
   ],
-  "total_amount": 710.3,
+  "total_amount": 1193.75,
   "payment_method": "cash",
   "is_delivery": true,
   "delivery_address": {
     "country": "Россия",
-    "city": "клх Александров",
-    "street": "ул. Поперечная",
-    "house": "3/9",
-    "apartment": "58",
-    "postal_code": "321126"
+    "city": "д. Челюскин",
+    "street": "пер. Кольцова",
+    "house": "670",
+    "apartment": "31",
+    "postal_code": "961057"
   },
-  "purchase_datetime": "2025-09-04T19:57:11.046237"
+  "purchase_datetime": "2025-07-23T13:42:39.597297"
 }

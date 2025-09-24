@@ -1,6 +1,6 @@
 {
   "store_id": "store-018",
-  "store_name": "Большая Пикча — Магазин на пер. З.Космодемьянской",
+  "store_name": "Большая Пикча — Магазин на алл. Томская",
   "store_network": "Большая Пикча",
   "store_type_description": "Супермаркет более 200 кв.м. Входит в сеть из 30 магазинов.",
   "type": "offline",
@@ -12,19 +12,19 @@
     "🥦 Овощи и зелень"
   ],
   "manager": {
-    "name": "Алла Петровна Лазарева",
-    "phone": "+7 (613) 121-39-10",
-    "email": "isakovevstigne@example.com"
+    "name": "Григорьев Ипатий Виленович",
+    "phone": "+75701634511",
+    "email": "melnikovkirill@example.com"
   },
   "location": {
     "country": "Россия",
-    "city": "к. Минеральные Воды",
-    "street": "пер. Каштановый",
-    "house": "85",
-    "postal_code": "972733",
+    "city": "г. Раменское",
+    "street": "ш. Совхозное",
+    "house": "6/4",
+    "postal_code": "304111",
     "coordinates": {
-      "latitude": 1.333662,
-      "longitude": -136.6214
+      "latitude": -73.476612,
+      "longitude": -129.65665
     }
   },
   "opening_hours": {
@@ -34,6 +34,6 @@
   },
   "accepts_online_orders": true,
   "delivery_available": true,
-  "warehouse_connected": false,
-  "last_inventory_date": "2025-09-23"
+  "warehouse_connected": true,
+  "last_inventory_date": "2025-09-24"
 }

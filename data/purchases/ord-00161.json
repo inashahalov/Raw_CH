@@ -1,63 +1,105 @@
 {
   "purchase_id": "ord-00161",
   "customer": {
-    "customer_id": "cus-1032",
-    "first_name": "Рубен",
-    "last_name": "Корнилов",
-    "email": "ynikolaeva@example.com",
-    "phone": "8 (658) 941-97-66",
+    "customer_id": "cus-1023",
+    "first_name": "Нина",
+    "last_name": "Субботина",
+    "email": "vsemil77@example.com",
+    "phone": "84785529018",
     "is_loyalty_member": true,
-    "loyalty_card_number": "LOYAL-5A9D83D26F"
+    "loyalty_card_number": "LOYAL-770C798FB5"
   },
   "store": {
-    "store_id": "store-019",
-    "store_name": "Большая Пикча — Магазин на ул. Войкова",
+    "store_id": "store-018",
+    "store_name": "Большая Пикча — Магазин на алл. Томская",
     "store_network": "Большая Пикча",
     "location": {
       "country": "Россия",
-      "city": "п. Балашиха",
-      "street": "пер. Тимирязева",
-      "house": "17",
-      "postal_code": "568590",
+      "city": "г. Раменское",
+      "street": "ш. Совхозное",
+      "house": "6/4",
+      "postal_code": "304111",
       "coordinates": {
-        "latitude": 60.2486205,
-        "longitude": -16.230204
+        "latitude": -73.476612,
+        "longitude": -129.65665
       }
     }
   },
   "items": [
     {
-      "product_id": "prd-1007",
-      "name": "Штаб Приличный",
-      "category": "🍏 Фрукты и ягоды",
+      "product_id": "prd-1000",
+      "name": "Жестокий Очередной",
+      "category": "🥛 Молочные продукты",
       "quantity": 3,
       "unit": "кг",
-      "price_per_unit": 196.88,
-      "total_price": 590.64,
+      "price_per_unit": 286.95,
+      "total_price": 860.85,
       "kbju": {
-        "calories": 164.9,
-        "protein": 16.7,
-        "fat": 3.6,
-        "carbohydrates": 31.4
+        "calories": 269.3,
+        "protein": 18.8,
+        "fat": 6.7,
+        "carbohydrates": 25.1
       },
       "manufacturer": {
-        "name": "СДС-Уголь",
+        "name": "ОАО «Веселова Крылова»",
         "country": "Россия",
-        "website": "https://npo.ru",
-        "inn": "9854590544"
+        "website": "https://alekseeva.com",
+        "inn": "3586308951"
+      }
+    },
+    {
+      "product_id": "prd-1001",
+      "name": "Механический Намерение",
+      "category": "🥦 Овощи и зелень",
+      "quantity": 2,
+      "unit": "упаковка",
+      "price_per_unit": 66.91,
+      "total_price": 133.82,
+      "kbju": {
+        "calories": 139.2,
+        "protein": 6.1,
+        "fat": 13.3,
+        "carbohydrates": 35.9
+      },
+      "manufacturer": {
+        "name": "ООО «Костина, Панов и Фомичева»",
+        "country": "Россия",
+        "website": "https://gsl.biz",
+        "inn": "1159800180"
+      }
+    },
+    {
+      "product_id": "prd-1016",
+      "name": "Очередной Аллея",
+      "category": "🥖 Зерновые и хлебобулочные изделия",
+      "quantity": 4,
+      "unit": "шт",
+      "price_per_unit": 251.07,
+      "total_price": 1004.28,
+      "kbju": {
+        "calories": 277.2,
+        "protein": 18.2,
+        "fat": 6.0,
+        "carbohydrates": 11.3
+      },
+      "manufacturer": {
+        "name": "ГК Автомир",
+        "country": "Россия",
+        "website": "https://andreev.info",
+        "inn": "8436477835"
       }
     }
   ],
-  "total_amount": 590.64,
+  "total_amount": 1998.95,
   "payment_method": "cash",
   "is_delivery": false,
   "delivery_address": {
     "country": "Россия",
-    "city": "к. Комсомольск-на-Амуре",
-    "street": "ул. Гафури",
-    "house": "18",
-    "apartment": "85",
-    "postal_code": "983043"
+    "city": "к. Кыштым",
+    "street": "ул. Заводская",
+    "house": "7",
+    "apartment": "100",
+    "postal_code": "093476"
   },
-  "purchase_datetime": "2025-06-29T19:57:11.030352"
+  "purchase_datetime": "2025-07-15T13:42:39.584483"
 }

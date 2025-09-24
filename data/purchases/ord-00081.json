@@ -1,105 +1,105 @@
 {
   "purchase_id": "ord-00081",
   "customer": {
-    "customer_id": "cus-1003",
-    "first_name": "Федосий",
-    "last_name": "Кулагин",
-    "email": "efim_1985@example.net",
-    "phone": "+7 (506) 308-6005",
+    "customer_id": "cus-1038",
+    "first_name": "Анатолий",
+    "last_name": "Комаров",
+    "email": "sila_10@example.com",
+    "phone": "+7 215 444 83 13",
     "is_loyalty_member": true,
-    "loyalty_card_number": "LOYAL-BABE7C0EB0"
+    "loyalty_card_number": "LOYAL-5E95E7F4D3"
   },
   "store": {
-    "store_id": "store-041",
-    "store_name": "Маленькая Пикча — Магазин на наб. Буденного",
+    "store_id": "store-036",
+    "store_name": "Маленькая Пикча — Магазин на пр. Кузнечный",
     "store_network": "Маленькая Пикча",
     "location": {
       "country": "Россия",
-      "city": "клх Печенга",
-      "street": "ш. Раздольное",
-      "house": "7/9",
-      "postal_code": "426924",
+      "city": "к. Добрянка",
+      "street": "пр. Болотный",
+      "house": "1/8",
+      "postal_code": "802482",
       "coordinates": {
-        "latitude": 31.407587,
-        "longitude": -5.558878
+        "latitude": -38.8851715,
+        "longitude": 144.818432
       }
     }
   },
   "items": [
     {
-      "product_id": "prd-1004",
-      "name": "Рассуждение Боец",
-      "category": "🥩 Мясо, рыба, яйца и бобовые",
-      "quantity": 3,
-      "unit": "кг",
-      "price_per_unit": 167.58,
-      "total_price": 502.74,
+      "product_id": "prd-1018",
+      "name": "Проход Запретить",
+      "category": "🍏 Фрукты и ягоды",
+      "quantity": 5,
+      "unit": "упаковка",
+      "price_per_unit": 258.84,
+      "total_price": 1294.2,
       "kbju": {
-        "calories": 270.7,
-        "protein": 8.7,
-        "fat": 11.5,
-        "carbohydrates": 1.5
+        "calories": 254.3,
+        "protein": 10.6,
+        "fat": 7.9,
+        "carbohydrates": 9.3
       },
       "manufacturer": {
-        "name": "РАО «Мухина Миронов»",
+        "name": "ИП «Турова, Селезнев и Жданова»",
         "country": "Россия",
-        "website": "https://rao.org",
-        "inn": "9262920859"
+        "website": "https://ao.com",
+        "inn": "7389660036"
       }
     },
     {
-      "product_id": "prd-1014",
-      "name": "Сустав Совещание",
+      "product_id": "prd-1005",
+      "name": "Блин Редактор",
+      "category": "🥛 Молочные продукты",
+      "quantity": 4,
+      "unit": "л",
+      "price_per_unit": 252.66,
+      "total_price": 1010.64,
+      "kbju": {
+        "calories": 169.1,
+        "protein": 14.6,
+        "fat": 4.1,
+        "carbohydrates": 39.8
+      },
+      "manufacturer": {
+        "name": "ООО «Савельев»",
+        "country": "Россия",
+        "website": "https://vostok-zapad.biz",
+        "inn": "3880905200"
+      }
+    },
+    {
+      "product_id": "prd-1011",
+      "name": "Сверкающий Коробка",
       "category": "🥦 Овощи и зелень",
       "quantity": 2,
-      "unit": "л",
-      "price_per_unit": 148.14,
-      "total_price": 296.28,
+      "unit": "шт",
+      "price_per_unit": 242.68,
+      "total_price": 485.36,
       "kbju": {
-        "calories": 294.0,
-        "protein": 10.9,
-        "fat": 5.7,
-        "carbohydrates": 7.8
+        "calories": 212.1,
+        "protein": 13.3,
+        "fat": 13.8,
+        "carbohydrates": 18.4
       },
       "manufacturer": {
-        "name": "ИП «Нестерова»",
+        "name": "ЗАО «Филатова-Юдина»",
         "country": "Россия",
-        "website": "https://novikov.info",
-        "inn": "8559866409"
-      }
-    },
-    {
-      "product_id": "prd-1008",
-      "name": "Фонарик Успокоиться",
-      "category": "🥖 Зерновые и хлебобулочные изделия",
-      "quantity": 4,
-      "unit": "упаковка",
-      "price_per_unit": 73.43,
-      "total_price": 293.72,
-      "kbju": {
-        "calories": 92.6,
-        "protein": 18.4,
-        "fat": 11.5,
-        "carbohydrates": 24.8
-      },
-      "manufacturer": {
-        "name": "ООО «Денисов, Щукина и Гришин»",
-        "country": "Россия",
-        "website": "https://kozlova.org",
-        "inn": "3531459365"
+        "website": "https://oao.info",
+        "inn": "6258727413"
       }
     }
   ],
-  "total_amount": 1092.74,
-  "payment_method": "card",
-  "is_delivery": true,
+  "total_amount": 2790.2,
+  "payment_method": "cash",
+  "is_delivery": false,
   "delivery_address": {
     "country": "Россия",
-    "city": "к. Южноуральск",
-    "street": "пер. Орджоникидзе",
-    "house": "94",
-    "apartment": "3",
-    "postal_code": "037248"
+    "city": "к. Лотошино",
+    "street": "бул. Попова",
+    "house": "8/6",
+    "apartment": "62",
+    "postal_code": "510126"
   },
-  "purchase_datetime": "2025-07-21T19:57:10.988419"
+  "purchase_datetime": "2025-08-09T13:42:39.550407"
 }

@@ -1,11 +1,17 @@
+
+
+
 # scripts/load_to_mongo.py
 from pymongo import MongoClient
 import json
 import os
 
+# Подключается к MongoDB (порт 27018, как указано в docker-compose)
 client = MongoClient('mongodb://localhost:27018/')
 db = client['piccha_db']
 
+# Очищает коллекции перед загрузкой
+# Загружает JSON-файлы из соответствующих директорий в нужные коллекции
 collections = {
     'stores': 'data/stores/',
     'products': 'data/products/',

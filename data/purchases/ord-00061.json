@@ -1,63 +1,63 @@
 {
   "purchase_id": "ord-00061",
   "customer": {
-    "customer_id": "cus-1013",
-    "first_name": "Кирилл",
-    "last_name": "Рожков",
-    "email": "gleb74@example.net",
-    "phone": "8 (334) 633-00-91",
+    "customer_id": "cus-1033",
+    "first_name": "Радован",
+    "last_name": "Максимова",
+    "email": "iosif02@example.net",
+    "phone": "+7 (426) 638-65-12",
     "is_loyalty_member": true,
-    "loyalty_card_number": "LOYAL-055E6E6FB0"
+    "loyalty_card_number": "LOYAL-E8AFED5DEF"
   },
   "store": {
     "store_id": "store-021",
-    "store_name": "Большая Пикча — Магазин на ш. Мусы Джалиля",
+    "store_name": "Большая Пикча — Магазин на ул. Транспортная",
     "store_network": "Большая Пикча",
     "location": {
       "country": "Россия",
-      "city": "п. Ноглики",
-      "street": "пер. Просвещения",
-      "house": "846",
-      "postal_code": "673348",
+      "city": "г. Туапсе",
+      "street": "наб. 50 лет Октября",
+      "house": "1",
+      "postal_code": "624695",
       "coordinates": {
-        "latitude": 68.9485715,
-        "longitude": -158.508773
+        "latitude": 68.5175565,
+        "longitude": 142.387674
       }
     }
   },
   "items": [
     {
-      "product_id": "prd-1007",
-      "name": "Штаб Приличный",
-      "category": "🍏 Фрукты и ягоды",
-      "quantity": 2,
-      "unit": "кг",
-      "price_per_unit": 196.88,
-      "total_price": 393.76,
+      "product_id": "prd-1015",
+      "name": "Умолять Нервно",
+      "category": "🥩 Мясо, рыба, яйца и бобовые",
+      "quantity": 4,
+      "unit": "упаковка",
+      "price_per_unit": 249.57,
+      "total_price": 998.28,
       "kbju": {
-        "calories": 164.9,
-        "protein": 16.7,
-        "fat": 3.6,
-        "carbohydrates": 31.4
+        "calories": 130.6,
+        "protein": 7.3,
+        "fat": 8.5,
+        "carbohydrates": 35.1
       },
       "manufacturer": {
-        "name": "СДС-Уголь",
+        "name": "Трофимова Лтд",
         "country": "Россия",
-        "website": "https://npo.ru",
-        "inn": "9854590544"
+        "website": "https://transkapitalbank.edu",
+        "inn": "0300157246"
       }
     }
   ],
-  "total_amount": 393.76,
+  "total_amount": 998.28,
   "payment_method": "cash",
-  "is_delivery": false,
+  "is_delivery": true,
   "delivery_address": {
     "country": "Россия",
-    "city": "д. Энгельс",
-    "street": "ш. Л.Толстого",
-    "house": "61",
-    "apartment": "39",
-    "postal_code": "533676"
+    "city": "ст. Беслан",
+    "street": "бул. Вокзальный",
+    "house": "292",
+    "apartment": "99",
+    "postal_code": "614412"
   },
-  "purchase_datetime": "2025-09-21T19:57:10.978759"
+  "purchase_datetime": "2025-06-30T13:42:39.542326"
 }

@@ -1,105 +1,84 @@
 {
   "purchase_id": "ord-00157",
   "customer": {
-    "customer_id": "cus-1000",
-    "first_name": "Лора",
-    "last_name": "Тетерин",
-    "email": "eduardpopov@example.net",
-    "phone": "+7 360 725 52 37",
+    "customer_id": "cus-1019",
+    "first_name": "Вячеслав",
+    "last_name": "Мишина",
+    "email": "nikiforovepifan@example.org",
+    "phone": "8 (286) 110-6842",
     "is_loyalty_member": true,
-    "loyalty_card_number": "LOYAL-E7A3E28BE6"
+    "loyalty_card_number": "LOYAL-63A538EEFB"
   },
   "store": {
-    "store_id": "store-034",
-    "store_name": "Маленькая Пикча — Магазин на наб. Уральская",
-    "store_network": "Маленькая Пикча",
+    "store_id": "store-020",
+    "store_name": "Большая Пикча — Магазин на пер. Папанина",
+    "store_network": "Большая Пикча",
     "location": {
       "country": "Россия",
-      "city": "с. Чусовой",
-      "street": "наб. Сплавная",
-      "house": "4/7",
-      "postal_code": "817955",
+      "city": "клх Видное",
+      "street": "ул. 50 лет ВЛКСМ",
+      "house": "61",
+      "postal_code": "597456",
       "coordinates": {
-        "latitude": -48.6863215,
-        "longitude": -176.05311
+        "latitude": 53.1277825,
+        "longitude": 110.890124
       }
     }
   },
   "items": [
     {
-      "product_id": "prd-1019",
-      "name": "Адвокат Другой",
-      "category": "🥦 Овощи и зелень",
-      "quantity": 4,
-      "unit": "шт",
-      "price_per_unit": 43.3,
-      "total_price": 173.2,
+      "product_id": "prd-1018",
+      "name": "Проход Запретить",
+      "category": "🍏 Фрукты и ягоды",
+      "quantity": 5,
+      "unit": "упаковка",
+      "price_per_unit": 258.84,
+      "total_price": 1294.2,
       "kbju": {
-        "calories": 77.7,
-        "protein": 13.9,
-        "fat": 10.1,
-        "carbohydrates": 22.7
+        "calories": 254.3,
+        "protein": 10.6,
+        "fat": 7.9,
+        "carbohydrates": 9.3
       },
       "manufacturer": {
-        "name": "Чернова Групп",
+        "name": "ИП «Турова, Селезнев и Жданова»",
         "country": "Россия",
-        "website": "https://belozerova.com",
-        "inn": "4723890506"
+        "website": "https://ao.com",
+        "inn": "7389660036"
       }
     },
     {
-      "product_id": "prd-1004",
-      "name": "Рассуждение Боец",
+      "product_id": "prd-1008",
+      "name": "Очутиться Песенка",
       "category": "🥩 Мясо, рыба, яйца и бобовые",
-      "quantity": 4,
-      "unit": "кг",
-      "price_per_unit": 167.58,
-      "total_price": 670.32,
+      "quantity": 2,
+      "unit": "шт",
+      "price_per_unit": 248.49,
+      "total_price": 496.98,
       "kbju": {
-        "calories": 270.7,
-        "protein": 8.7,
-        "fat": 11.5,
-        "carbohydrates": 1.5
+        "calories": 51.2,
+        "protein": 13.0,
+        "fat": 6.4,
+        "carbohydrates": 48.7
       },
       "manufacturer": {
-        "name": "РАО «Мухина Миронов»",
+        "name": "Лазарева Инк",
         "country": "Россия",
-        "website": "https://rao.org",
-        "inn": "9262920859"
-      }
-    },
-    {
-      "product_id": "prd-1010",
-      "name": "Вытаскивать Правый",
-      "category": "🥦 Овощи и зелень",
-      "quantity": 4,
-      "unit": "л",
-      "price_per_unit": 181.57,
-      "total_price": 726.28,
-      "kbju": {
-        "calories": 113.2,
-        "protein": 7.5,
-        "fat": 3.6,
-        "carbohydrates": 41.4
-      },
-      "manufacturer": {
-        "name": "Сергеев Инкорпорэйтед",
-        "country": "Россия",
-        "website": "https://zao.biz",
-        "inn": "0493815810"
+        "website": "https://guljaev.com",
+        "inn": "0966441801"
       }
     }
   ],
-  "total_amount": 1569.8,
-  "payment_method": "card",
-  "is_delivery": false,
+  "total_amount": 1791.18,
+  "payment_method": "cash",
+  "is_delivery": true,
   "delivery_address": {
     "country": "Россия",
-    "city": "п. Качканар",
-    "street": "пер. Абрикосовый",
-    "house": "41",
-    "apartment": "62",
-    "postal_code": "030086"
+    "city": "клх Видное",
+    "street": "бул. Клубный",
+    "house": "1/5",
+    "apartment": "99",
+    "postal_code": "789869"
   },
-  "purchase_datetime": "2025-07-11T19:57:11.028297"
+  "purchase_datetime": "2025-08-10T13:42:39.582334"
 }

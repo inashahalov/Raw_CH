@@ -1,63 +1,84 @@
 {
   "purchase_id": "ord-00053",
   "customer": {
-    "customer_id": "cus-1038",
-    "first_name": "Фотий",
-    "last_name": "Александров",
-    "email": "borisovstanimir@example.net",
-    "phone": "+7 (110) 633-4695",
+    "customer_id": "cus-1022",
+    "first_name": "Валерий",
+    "last_name": "Щукина",
+    "email": "sgrigoreva@example.com",
+    "phone": "+7 145 587 26 86",
     "is_loyalty_member": true,
-    "loyalty_card_number": "LOYAL-51CB82EFA1"
+    "loyalty_card_number": "LOYAL-314C1CBF7D"
   },
   "store": {
-    "store_id": "store-020",
-    "store_name": "Большая Пикча — Магазин на ш. Торговое",
+    "store_id": "store-010",
+    "store_name": "Большая Пикча — Магазин на алл. Казанская",
     "store_network": "Большая Пикча",
     "location": {
       "country": "Россия",
-      "city": "к. Апшеронск",
-      "street": "пр. Войкова",
-      "house": "6/9",
-      "postal_code": "046873",
+      "city": "г. Новочеркасск",
+      "street": "бул. Р.Люксембург",
+      "house": "615",
+      "postal_code": "760266",
       "coordinates": {
-        "latitude": -44.909337,
-        "longitude": -111.402746
+        "latitude": -53.9201405,
+        "longitude": 17.97173
       }
     }
   },
   "items": [
     {
-      "product_id": "prd-1019",
-      "name": "Адвокат Другой",
-      "category": "🥦 Овощи и зелень",
-      "quantity": 3,
-      "unit": "шт",
-      "price_per_unit": 43.3,
-      "total_price": 129.9,
+      "product_id": "prd-1000",
+      "name": "Жестокий Очередной",
+      "category": "🥛 Молочные продукты",
+      "quantity": 5,
+      "unit": "кг",
+      "price_per_unit": 286.95,
+      "total_price": 1434.75,
       "kbju": {
-        "calories": 77.7,
-        "protein": 13.9,
-        "fat": 10.1,
-        "carbohydrates": 22.7
+        "calories": 269.3,
+        "protein": 18.8,
+        "fat": 6.7,
+        "carbohydrates": 25.1
       },
       "manufacturer": {
-        "name": "Чернова Групп",
+        "name": "ОАО «Веселова Крылова»",
         "country": "Россия",
-        "website": "https://belozerova.com",
-        "inn": "4723890506"
+        "website": "https://alekseeva.com",
+        "inn": "3586308951"
+      }
+    },
+    {
+      "product_id": "prd-1016",
+      "name": "Очередной Аллея",
+      "category": "🥖 Зерновые и хлебобулочные изделия",
+      "quantity": 5,
+      "unit": "шт",
+      "price_per_unit": 251.07,
+      "total_price": 1255.35,
+      "kbju": {
+        "calories": 277.2,
+        "protein": 18.2,
+        "fat": 6.0,
+        "carbohydrates": 11.3
+      },
+      "manufacturer": {
+        "name": "ГК Автомир",
+        "country": "Россия",
+        "website": "https://andreev.info",
+        "inn": "8436477835"
       }
     }
   ],
-  "total_amount": 129.9,
+  "total_amount": 2690.1,
   "payment_method": "cash",
-  "is_delivery": true,
+  "is_delivery": false,
   "delivery_address": {
     "country": "Россия",
-    "city": "с. Жиганск",
-    "street": "наб. Ермака",
-    "house": "9/6",
-    "apartment": "39",
-    "postal_code": "762206"
+    "city": "г. Холмск",
+    "street": "бул. Комарова",
+    "house": "48",
+    "apartment": "38",
+    "postal_code": "163195"
   },
-  "purchase_datetime": "2025-07-09T19:57:10.975070"
+  "purchase_datetime": "2025-08-22T13:42:39.538991"
 }

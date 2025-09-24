@@ -1,105 +1,63 @@
 {
   "purchase_id": "ord-00043",
   "customer": {
-    "customer_id": "cus-1003",
-    "first_name": "Федосий",
-    "last_name": "Кулагин",
-    "email": "efim_1985@example.net",
-    "phone": "+7 (506) 308-6005",
+    "customer_id": "cus-1006",
+    "first_name": "Павел",
+    "last_name": "Самойлова",
+    "email": "okrasilnikova@example.com",
+    "phone": "8 (345) 897-01-55",
     "is_loyalty_member": true,
-    "loyalty_card_number": "LOYAL-BABE7C0EB0"
+    "loyalty_card_number": "LOYAL-BE3CAFEC55"
   },
   "store": {
-    "store_id": "store-003",
-    "store_name": "Большая Пикча — Магазин на пер. Л.Толстого",
+    "store_id": "store-025",
+    "store_name": "Большая Пикча — Магазин на ш. Тургенева",
     "store_network": "Большая Пикча",
     "location": {
       "country": "Россия",
-      "city": "г. Вилюйск",
-      "street": "ш. Моховое",
-      "house": "323",
-      "postal_code": "806043",
+      "city": "г. Мичуринск",
+      "street": "алл. Нижняя",
+      "house": "3/6",
+      "postal_code": "809704",
       "coordinates": {
-        "latitude": 89.85812,
-        "longitude": -128.13909
+        "latitude": -39.602059,
+        "longitude": -2.767983
       }
     }
   },
   "items": [
     {
-      "product_id": "prd-1000",
-      "name": "Заведение Задержать",
-      "category": "🥛 Молочные продукты",
-      "quantity": 5,
-      "unit": "л",
-      "price_per_unit": 174.16,
-      "total_price": 870.8,
-      "kbju": {
-        "calories": 261.8,
-        "protein": 2.3,
-        "fat": 2.9,
-        "carbohydrates": 19.7
-      },
-      "manufacturer": {
-        "name": "РАО «Бирюков, Лапина и Волков»",
-        "country": "Россия",
-        "website": "https://ao.net",
-        "inn": "0912614956"
-      }
-    },
-    {
-      "product_id": "prd-1003",
-      "name": "Идея Вообще",
-      "category": "🍏 Фрукты и ягоды",
+      "product_id": "prd-1017",
+      "name": "Сутки Покидать",
+      "category": "🥩 Мясо, рыба, яйца и бобовые",
       "quantity": 2,
-      "unit": "упаковка",
-      "price_per_unit": 270.56,
-      "total_price": 541.12,
+      "unit": "кг",
+      "price_per_unit": 240.7,
+      "total_price": 481.4,
       "kbju": {
-        "calories": 53.3,
-        "protein": 13.5,
-        "fat": 3.5,
-        "carbohydrates": 40.5
+        "calories": 208.1,
+        "protein": 11.4,
+        "fat": 6.1,
+        "carbohydrates": 10.1
       },
       "manufacturer": {
-        "name": "АО «Назарова»",
+        "name": "ЗАО «Стрелков Журавлева»",
         "country": "Россия",
-        "website": "https://oao.ru",
-        "inn": "9069795571"
-      }
-    },
-    {
-      "product_id": "prd-1013",
-      "name": "Роса Наткнуться",
-      "category": "🥛 Молочные продукты",
-      "quantity": 3,
-      "unit": "упаковка",
-      "price_per_unit": 39.74,
-      "total_price": 119.22,
-      "kbju": {
-        "calories": 283.8,
-        "protein": 19.2,
-        "fat": 7.6,
-        "carbohydrates": 35.6
-      },
-      "manufacturer": {
-        "name": "АО «Потапова, Смирнова и Сазонова»",
-        "country": "Россия",
-        "website": "https://magnit.info",
-        "inn": "3006321123"
+        "website": "https://ooo.com",
+        "inn": "4048587161"
       }
     }
   ],
-  "total_amount": 1531.14,
+  "total_amount": 481.4,
   "payment_method": "card",
-  "is_delivery": false,
+  "is_delivery": true,
   "delivery_address": {
     "country": "Россия",
-    "city": "к. Южноуральск",
-    "street": "пер. Орджоникидзе",
-    "house": "94",
-    "apartment": "3",
-    "postal_code": "037248"
+    "city": "ст. Избербаш",
+    "street": "алл. Тихая",
+    "house": "2",
+    "apartment": "30",
+    "postal_code": "747274"
   },
-  "purchase_datetime": "2025-08-30T19:57:10.970743"
+  "purchase_datetime": "2025-08-07T13:42:39.535089"
 }

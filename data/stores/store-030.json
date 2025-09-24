@@ -1,6 +1,6 @@
 {
   "store_id": "store-030",
-  "store_name": "Большая Пикча — Магазин на пр. Вокзальный",
+  "store_name": "Большая Пикча — Магазин на ул. Брянская",
   "store_network": "Большая Пикча",
   "store_type_description": "Супермаркет более 200 кв.м. Входит в сеть из 30 магазинов.",
   "type": "offline",
@@ -12,19 +12,19 @@
     "🥦 Овощи и зелень"
   ],
   "manager": {
-    "name": "Гусева Прасковья Васильевна",
-    "phone": "82641597357",
-    "email": "sergeevagge@example.org"
+    "name": "Модест Эдгарович Виноградов",
+    "phone": "+7 (954) 842-69-69",
+    "email": "rostislavavdeev@example.org"
   },
   "location": {
     "country": "Россия",
-    "city": "к. Мытищи",
-    "street": "ул. Логовая",
-    "house": "16",
-    "postal_code": "893399",
+    "city": "п. Новочеркасск",
+    "street": "ш. Весеннее",
+    "house": "77",
+    "postal_code": "015391",
     "coordinates": {
-      "latitude": 16.415211,
-      "longitude": -101.130977
+      "latitude": 31.4406375,
+      "longitude": -6.099828
     }
   },
   "opening_hours": {
@@ -35,5 +35,5 @@
   "accepts_online_orders": true,
   "delivery_available": true,
   "warehouse_connected": true,
-  "last_inventory_date": "2025-09-23"
+  "last_inventory_date": "2025-09-24"
 }

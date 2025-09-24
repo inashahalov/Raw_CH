@@ -1,36 +1,36 @@
 {
   "customer_id": "cus-1005",
-  "first_name": "Татьяна",
-  "last_name": "Козлов",
-  "email": "andrelukin@example.net",
-  "phone": "8 947 466 32 88",
-  "birth_date": "1955-07-08",
+  "first_name": "Вячеслав",
+  "last_name": "Пономарева",
+  "email": "ipat1970@example.net",
+  "phone": "8 (271) 150-0241",
+  "birth_date": "1972-06-07",
   "gender": "male",
-  "registration_date": "2025-09-23T19:57:10.927191",
+  "registration_date": "2025-09-24T13:42:39.496753",
   "is_loyalty_member": true,
-  "loyalty_card_number": "LOYAL-4E22F41740",
+  "loyalty_card_number": "LOYAL-016D381454",
   "purchase_location": {
     "store_id": "store-006",
-    "store_name": "Большая Пикча — Магазин на пр. Серова",
+    "store_name": "Большая Пикча — Магазин на алл. Поперечная",
     "store_network": "Большая Пикча",
     "store_type_description": "Супермаркет более 200 кв.м. Входит в сеть из 30 магазинов.",
     "country": "Россия",
-    "city": "г. Верхний Баскунчак",
-    "street": "ш. Октябрьское",
-    "house": "8/9",
-    "postal_code": "527881"
+    "city": "ст. Сортавала",
+    "street": "бул. Шмидта",
+    "house": "31",
+    "postal_code": "947028"
   },
   "delivery_address": {
     "country": "Россия",
-    "city": "г. Верхний Баскунчак",
-    "street": "бул. Крайний",
-    "house": "4",
-    "apartment": "38",
-    "postal_code": "369547"
+    "city": "ст. Сортавала",
+    "street": "ш. Николаева",
+    "house": "388",
+    "apartment": "30",
+    "postal_code": "673426"
   },
   "preferences": {
     "preferred_language": "ru",
     "preferred_payment_method": "card",
-    "receive_promotions": false
+    "receive_promotions": true
   }
 }

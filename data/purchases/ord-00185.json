@@ -1,63 +1,84 @@
 {
   "purchase_id": "ord-00185",
   "customer": {
-    "customer_id": "cus-1019",
-    "first_name": "Август",
-    "last_name": "Сергеева",
-    "email": "borisovmilan@example.com",
-    "phone": "+74992445151",
+    "customer_id": "cus-1011",
+    "first_name": "Ермолай",
+    "last_name": "Беспалова",
+    "email": "gerasimovpimen@example.org",
+    "phone": "+7 (246) 452-9273",
     "is_loyalty_member": true,
-    "loyalty_card_number": "LOYAL-935B208ACD"
+    "loyalty_card_number": "LOYAL-4762080D4F"
   },
   "store": {
-    "store_id": "store-020",
-    "store_name": "Большая Пикча — Магазин на ш. Торговое",
-    "store_network": "Большая Пикча",
+    "store_id": "store-040",
+    "store_name": "Маленькая Пикча — Магазин на бул. Мая 1",
+    "store_network": "Маленькая Пикча",
     "location": {
       "country": "Россия",
-      "city": "к. Апшеронск",
-      "street": "пр. Войкова",
-      "house": "6/9",
-      "postal_code": "046873",
+      "city": "клх Краснотурьинск",
+      "street": "ул. 9 мая",
+      "house": "86",
+      "postal_code": "172371",
       "coordinates": {
-        "latitude": -44.909337,
-        "longitude": -111.402746
+        "latitude": 68.233675,
+        "longitude": 149.964304
       }
     }
   },
   "items": [
     {
-      "product_id": "prd-1001",
-      "name": "Тревога Появление",
+      "product_id": "prd-1013",
+      "name": "Коммунизм Полевой",
       "category": "🥖 Зерновые и хлебобулочные изделия",
       "quantity": 3,
-      "unit": "шт",
-      "price_per_unit": 168.16,
-      "total_price": 504.48,
+      "unit": "кг",
+      "price_per_unit": 155.06,
+      "total_price": 465.18,
       "kbju": {
-        "calories": 205.2,
-        "protein": 13.4,
-        "fat": 1.1,
-        "carbohydrates": 43.2
+        "calories": 292.6,
+        "protein": 2.6,
+        "fat": 6.2,
+        "carbohydrates": 4.1
       },
       "manufacturer": {
-        "name": "ОАО «Селезнева Турова»",
+        "name": "АО «Абрамов»",
         "country": "Россия",
-        "website": "https://panfilov.net",
-        "inn": "5790638925"
+        "website": "https://ip.org",
+        "inn": "8372516031"
+      }
+    },
+    {
+      "product_id": "prd-1005",
+      "name": "Блин Редактор",
+      "category": "🥛 Молочные продукты",
+      "quantity": 2,
+      "unit": "л",
+      "price_per_unit": 252.66,
+      "total_price": 505.32,
+      "kbju": {
+        "calories": 169.1,
+        "protein": 14.6,
+        "fat": 4.1,
+        "carbohydrates": 39.8
+      },
+      "manufacturer": {
+        "name": "ООО «Савельев»",
+        "country": "Россия",
+        "website": "https://vostok-zapad.biz",
+        "inn": "3880905200"
       }
     }
   ],
-  "total_amount": 504.48,
+  "total_amount": 970.5,
   "payment_method": "card",
-  "is_delivery": true,
+  "is_delivery": false,
   "delivery_address": {
     "country": "Россия",
-    "city": "к. Апшеронск",
-    "street": "пр. 70 лет Октября",
-    "house": "79",
-    "apartment": "65",
-    "postal_code": "550824"
+    "city": "ст. Черусти",
+    "street": "бул. Высокий",
+    "house": "1/6",
+    "apartment": "21",
+    "postal_code": "009499"
   },
-  "purchase_datetime": "2025-07-13T19:57:11.042270"
+  "purchase_datetime": "2025-09-09T13:42:39.594108"
 }

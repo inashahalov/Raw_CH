@@ -1,105 +1,105 @@
 {
   "purchase_id": "ord-00154",
   "customer": {
-    "customer_id": "cus-1030",
-    "first_name": "Мефодий",
-    "last_name": "Зимина",
-    "email": "bazhen2013@example.com",
-    "phone": "8 625 494 4334",
+    "customer_id": "cus-1039",
+    "first_name": "Панкрат",
+    "last_name": "Рожков",
+    "email": "evgeni2014@example.com",
+    "phone": "8 918 523 8162",
     "is_loyalty_member": true,
-    "loyalty_card_number": "LOYAL-5D0BBBC12C"
+    "loyalty_card_number": "LOYAL-13098029BA"
   },
   "store": {
-    "store_id": "store-008",
-    "store_name": "Большая Пикча — Магазин на бул. Вавилова",
-    "store_network": "Большая Пикча",
+    "store_id": "store-035",
+    "store_name": "Маленькая Пикча — Магазин на бул. Промышленный",
+    "store_network": "Маленькая Пикча",
     "location": {
       "country": "Россия",
-      "city": "клх Тихвин",
-      "street": "пр. Социалистический",
-      "house": "98",
-      "postal_code": "571353",
+      "city": "д. Печора",
+      "street": "ш. Новоселов",
+      "house": "2",
+      "postal_code": "114081",
       "coordinates": {
-        "latitude": -34.3116645,
-        "longitude": -14.210246
+        "latitude": -78.103015,
+        "longitude": -139.348891
       }
     }
   },
   "items": [
     {
-      "product_id": "prd-1004",
-      "name": "Рассуждение Боец",
-      "category": "🥩 Мясо, рыба, яйца и бобовые",
-      "quantity": 3,
-      "unit": "кг",
-      "price_per_unit": 167.58,
-      "total_price": 502.74,
-      "kbju": {
-        "calories": 270.7,
-        "protein": 8.7,
-        "fat": 11.5,
-        "carbohydrates": 1.5
-      },
-      "manufacturer": {
-        "name": "РАО «Мухина Миронов»",
-        "country": "Россия",
-        "website": "https://rao.org",
-        "inn": "9262920859"
-      }
-    },
-    {
-      "product_id": "prd-1018",
-      "name": "Низкий Присесть",
-      "category": "🥩 Мясо, рыба, яйца и бобовые",
-      "quantity": 2,
-      "unit": "кг",
-      "price_per_unit": 240.2,
-      "total_price": 480.4,
-      "kbju": {
-        "calories": 272.9,
-        "protein": 7.8,
-        "fat": 2.3,
-        "carbohydrates": 5.3
-      },
-      "manufacturer": {
-        "name": "Ланит",
-        "country": "Россия",
-        "website": "https://rao.info",
-        "inn": "3763771194"
-      }
-    },
-    {
-      "product_id": "prd-1013",
-      "name": "Роса Наткнуться",
+      "product_id": "prd-1000",
+      "name": "Жестокий Очередной",
       "category": "🥛 Молочные продукты",
       "quantity": 5,
-      "unit": "упаковка",
-      "price_per_unit": 39.74,
-      "total_price": 198.7,
+      "unit": "кг",
+      "price_per_unit": 286.95,
+      "total_price": 1434.75,
       "kbju": {
-        "calories": 283.8,
-        "protein": 19.2,
-        "fat": 7.6,
-        "carbohydrates": 35.6
+        "calories": 269.3,
+        "protein": 18.8,
+        "fat": 6.7,
+        "carbohydrates": 25.1
       },
       "manufacturer": {
-        "name": "АО «Потапова, Смирнова и Сазонова»",
+        "name": "ОАО «Веселова Крылова»",
         "country": "Россия",
-        "website": "https://magnit.info",
-        "inn": "3006321123"
+        "website": "https://alekseeva.com",
+        "inn": "3586308951"
+      }
+    },
+    {
+      "product_id": "prd-1007",
+      "name": "Инвалид Госпожа",
+      "category": "🥩 Мясо, рыба, яйца и бобовые",
+      "quantity": 3,
+      "unit": "упаковка",
+      "price_per_unit": 216.19,
+      "total_price": 648.57,
+      "kbju": {
+        "calories": 103.2,
+        "protein": 11.9,
+        "fat": 9.2,
+        "carbohydrates": 32.1
+      },
+      "manufacturer": {
+        "name": "НПО «Мельникова-Юдина»",
+        "country": "Россия",
+        "website": "https://zao.ru",
+        "inn": "8084632702"
+      }
+    },
+    {
+      "product_id": "prd-1003",
+      "name": "Дорогой Руководитель",
+      "category": "🥦 Овощи и зелень",
+      "quantity": 2,
+      "unit": "упаковка",
+      "price_per_unit": 69.35,
+      "total_price": 138.7,
+      "kbju": {
+        "calories": 223.8,
+        "protein": 18.0,
+        "fat": 5.2,
+        "carbohydrates": 3.6
+      },
+      "manufacturer": {
+        "name": "НПО «Панова Ильина»",
+        "country": "Россия",
+        "website": "https://ooo.biz",
+        "inn": "4367291844"
       }
     }
   ],
-  "total_amount": 1181.84,
+  "total_amount": 2222.02,
   "payment_method": "cash",
-  "is_delivery": true,
+  "is_delivery": false,
   "delivery_address": {
     "country": "Россия",
-    "city": "к. Шереметьево",
-    "street": "ул. Глинки",
-    "house": "71",
-    "apartment": "82",
-    "postal_code": "129105"
+    "city": "клх Краснотурьинск",
+    "street": "бул. Волкова",
+    "house": "37",
+    "apartment": "44",
+    "postal_code": "402871"
   },
-  "purchase_datetime": "2025-09-08T19:57:11.026796"
+  "purchase_datetime": "2025-09-13T13:42:39.580661"
 }

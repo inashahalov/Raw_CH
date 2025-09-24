@@ -1,6 +1,6 @@
 {
   "store_id": "store-003",
-  "store_name": "Большая Пикча — Магазин на пер. Л.Толстого",
+  "store_name": "Большая Пикча — Магазин на алл. Никитина",
   "store_network": "Большая Пикча",
   "store_type_description": "Супермаркет более 200 кв.м. Входит в сеть из 30 магазинов.",
   "type": "offline",
@@ -12,19 +12,19 @@
     "🥦 Овощи и зелень"
   ],
   "manager": {
-    "name": "София Филипповна Михеева",
-    "phone": "+7 769 481 38 56",
-    "email": "trofimarhipov@example.com"
+    "name": "Соколова Дарья Станиславовна",
+    "phone": "88926889429",
+    "email": "marina06@example.org"
   },
   "location": {
     "country": "Россия",
-    "city": "г. Вилюйск",
-    "street": "ш. Моховое",
-    "house": "323",
-    "postal_code": "806043",
+    "city": "с. Южноуральск",
+    "street": "пер. Угловой",
+    "house": "9/6",
+    "postal_code": "307884",
     "coordinates": {
-      "latitude": 89.85812,
-      "longitude": -128.13909
+      "latitude": -64.2331935,
+      "longitude": -32.587304
     }
   },
   "opening_hours": {
@@ -34,6 +34,6 @@
   },
   "accepts_online_orders": true,
   "delivery_available": true,
-  "warehouse_connected": true,
-  "last_inventory_date": "2025-09-23"
+  "warehouse_connected": false,
+  "last_inventory_date": "2025-09-24"
 }

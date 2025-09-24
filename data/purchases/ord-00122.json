@@ -1,105 +1,105 @@
 {
   "purchase_id": "ord-00122",
   "customer": {
-    "customer_id": "cus-1006",
-    "first_name": "Силантий",
-    "last_name": "Захаров",
-    "email": "kondrat1978@example.org",
-    "phone": "+70679155630",
+    "customer_id": "cus-1005",
+    "first_name": "Вячеслав",
+    "last_name": "Пономарева",
+    "email": "ipat1970@example.net",
+    "phone": "8 (271) 150-0241",
     "is_loyalty_member": true,
-    "loyalty_card_number": "LOYAL-C2F1903EE8"
+    "loyalty_card_number": "LOYAL-016D381454"
   },
   "store": {
-    "store_id": "store-011",
-    "store_name": "Большая Пикча — Магазин на ул. Таежная",
+    "store_id": "store-019",
+    "store_name": "Большая Пикча — Магазин на пр. Балтийский",
     "store_network": "Большая Пикча",
     "location": {
       "country": "Россия",
-      "city": "п. Снежинск",
-      "street": "алл. Клары Цеткин",
-      "house": "8",
-      "postal_code": "728596",
+      "city": "с. Кижи",
+      "street": "алл. Монтажников",
+      "house": "2",
+      "postal_code": "594312",
       "coordinates": {
-        "latitude": 42.23201,
-        "longitude": 92.394681
+        "latitude": -32.2267315,
+        "longitude": 1.277883
       }
     }
   },
   "items": [
     {
-      "product_id": "prd-1014",
-      "name": "Сустав Совещание",
+      "product_id": "prd-1001",
+      "name": "Механический Намерение",
       "category": "🥦 Овощи и зелень",
-      "quantity": 1,
-      "unit": "л",
-      "price_per_unit": 148.14,
-      "total_price": 148.14,
+      "quantity": 2,
+      "unit": "упаковка",
+      "price_per_unit": 66.91,
+      "total_price": 133.82,
       "kbju": {
-        "calories": 294.0,
-        "protein": 10.9,
-        "fat": 5.7,
-        "carbohydrates": 7.8
+        "calories": 139.2,
+        "protein": 6.1,
+        "fat": 13.3,
+        "carbohydrates": 35.9
       },
       "manufacturer": {
-        "name": "ИП «Нестерова»",
+        "name": "ООО «Костина, Панов и Фомичева»",
         "country": "Россия",
-        "website": "https://novikov.info",
-        "inn": "8559866409"
+        "website": "https://gsl.biz",
+        "inn": "1159800180"
       }
     },
     {
-      "product_id": "prd-1006",
-      "name": "Мелькнуть Сбросить",
+      "product_id": "prd-1018",
+      "name": "Проход Запретить",
       "category": "🍏 Фрукты и ягоды",
-      "quantity": 5,
-      "unit": "кг",
-      "price_per_unit": 251.59,
-      "total_price": 1257.95,
+      "quantity": 1,
+      "unit": "упаковка",
+      "price_per_unit": 258.84,
+      "total_price": 258.84,
       "kbju": {
-        "calories": 208.0,
-        "protein": 7.1,
-        "fat": 7.6,
-        "carbohydrates": 15.3
+        "calories": 254.3,
+        "protein": 10.6,
+        "fat": 7.9,
+        "carbohydrates": 9.3
       },
       "manufacturer": {
-        "name": "ИП «Киселев Комарова»",
+        "name": "ИП «Турова, Селезнев и Жданова»",
         "country": "Россия",
-        "website": "https://turova.info",
-        "inn": "8487805184"
+        "website": "https://ao.com",
+        "inn": "7389660036"
       }
     },
     {
-      "product_id": "prd-1002",
-      "name": "Разводить Школьный",
-      "category": "🥦 Овощи и зелень",
-      "quantity": 4,
+      "product_id": "prd-1009",
+      "name": "Расстройство Валюта",
+      "category": "🥩 Мясо, рыба, яйца и бобовые",
+      "quantity": 3,
       "unit": "л",
-      "price_per_unit": 232.4,
-      "total_price": 929.6,
+      "price_per_unit": 256.33,
+      "total_price": 768.99,
       "kbju": {
-        "calories": 276.5,
-        "protein": 15.9,
-        "fat": 7.0,
-        "carbohydrates": 4.4
+        "calories": 208.9,
+        "protein": 12.9,
+        "fat": 11.4,
+        "carbohydrates": 30.9
       },
       "manufacturer": {
-        "name": "ОАО «Туров, Горбунова и Галкина»",
+        "name": "АХ Степь",
         "country": "Россия",
-        "website": "https://oao.com",
-        "inn": "7774237965"
+        "website": "https://rao.ru",
+        "inn": "1719997409"
       }
     }
   ],
-  "total_amount": 2335.69,
-  "payment_method": "card",
-  "is_delivery": true,
+  "total_amount": 1161.65,
+  "payment_method": "cash",
+  "is_delivery": false,
   "delivery_address": {
     "country": "Россия",
-    "city": "к. Бомнак",
-    "street": "алл. 30 лет Победы",
-    "house": "53",
-    "apartment": "61",
-    "postal_code": "233514"
+    "city": "ст. Сортавала",
+    "street": "ш. Николаева",
+    "house": "388",
+    "apartment": "30",
+    "postal_code": "673426"
   },
-  "purchase_datetime": "2025-09-04T19:57:11.011374"
+  "purchase_datetime": "2025-07-29T13:42:39.566912"
 }

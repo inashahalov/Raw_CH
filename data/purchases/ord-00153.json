@@ -1,63 +1,105 @@
 {
   "purchase_id": "ord-00153",
   "customer": {
-    "customer_id": "cus-1026",
-    "first_name": "Флорентин",
-    "last_name": "Большакова",
-    "email": "veselovnazar@example.net",
-    "phone": "8 (205) 889-0655",
+    "customer_id": "cus-1035",
+    "first_name": "Геннадий",
+    "last_name": "Родионов",
+    "email": "cheslav1990@example.org",
+    "phone": "8 303 158 42 60",
     "is_loyalty_member": true,
-    "loyalty_card_number": "LOYAL-9486E017A9"
+    "loyalty_card_number": "LOYAL-B5048336C8"
   },
   "store": {
-    "store_id": "store-020",
-    "store_name": "Большая Пикча — Магазин на ш. Торговое",
+    "store_id": "store-023",
+    "store_name": "Большая Пикча — Магазин на ш. Восьмого Марта",
     "store_network": "Большая Пикча",
     "location": {
       "country": "Россия",
-      "city": "к. Апшеронск",
-      "street": "пр. Войкова",
-      "house": "6/9",
-      "postal_code": "046873",
+      "city": "г. Холмск",
+      "street": "ш. Майское",
+      "house": "435",
+      "postal_code": "198436",
       "coordinates": {
-        "latitude": -44.909337,
-        "longitude": -111.402746
+        "latitude": 6.0641875,
+        "longitude": 19.737599
       }
     }
   },
   "items": [
     {
-      "product_id": "prd-1006",
-      "name": "Мелькнуть Сбросить",
-      "category": "🍏 Фрукты и ягоды",
-      "quantity": 3,
-      "unit": "кг",
-      "price_per_unit": 251.59,
-      "total_price": 754.77,
+      "product_id": "prd-1002",
+      "name": "Издали Перебивать",
+      "category": "🥩 Мясо, рыба, яйца и бобовые",
+      "quantity": 2,
+      "unit": "упаковка",
+      "price_per_unit": 61.88,
+      "total_price": 123.76,
       "kbju": {
-        "calories": 208.0,
-        "protein": 7.1,
-        "fat": 7.6,
-        "carbohydrates": 15.3
+        "calories": 131.0,
+        "protein": 3.3,
+        "fat": 2.2,
+        "carbohydrates": 21.7
       },
       "manufacturer": {
-        "name": "ИП «Киселев Комарова»",
+        "name": "Государственная транспортная лизинговая компания",
         "country": "Россия",
-        "website": "https://turova.info",
-        "inn": "8487805184"
+        "website": "https://zao.org",
+        "inn": "0226529553"
+      }
+    },
+    {
+      "product_id": "prd-1005",
+      "name": "Блин Редактор",
+      "category": "🥛 Молочные продукты",
+      "quantity": 1,
+      "unit": "л",
+      "price_per_unit": 252.66,
+      "total_price": 252.66,
+      "kbju": {
+        "calories": 169.1,
+        "protein": 14.6,
+        "fat": 4.1,
+        "carbohydrates": 39.8
+      },
+      "manufacturer": {
+        "name": "ООО «Савельев»",
+        "country": "Россия",
+        "website": "https://vostok-zapad.biz",
+        "inn": "3880905200"
+      }
+    },
+    {
+      "product_id": "prd-1019",
+      "name": "Исследование Мягкий",
+      "category": "🥦 Овощи и зелень",
+      "quantity": 4,
+      "unit": "шт",
+      "price_per_unit": 101.49,
+      "total_price": 405.96,
+      "kbju": {
+        "calories": 262.4,
+        "protein": 19.7,
+        "fat": 5.4,
+        "carbohydrates": 6.1
+      },
+      "manufacturer": {
+        "name": "ИП «Хохлова»",
+        "country": "Россия",
+        "website": "https://ooo.org",
+        "inn": "2460511347"
       }
     }
   ],
-  "total_amount": 754.77,
-  "payment_method": "card",
-  "is_delivery": true,
+  "total_amount": 782.38,
+  "payment_method": "cash",
+  "is_delivery": false,
   "delivery_address": {
     "country": "Россия",
-    "city": "г. Енисейск",
-    "street": "бул. Советской Армии",
-    "house": "403",
-    "apartment": "86",
-    "postal_code": "074919"
+    "city": "к. Добрянка",
+    "street": "бул. Дальневосточный",
+    "house": "7/2",
+    "apartment": "89",
+    "postal_code": "893889"
   },
-  "purchase_datetime": "2025-09-07T19:57:11.026391"
+  "purchase_datetime": "2025-07-08T13:42:39.580062"
 }

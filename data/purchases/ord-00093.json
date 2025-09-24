@@ -1,84 +1,105 @@
 {
   "purchase_id": "ord-00093",
   "customer": {
-    "customer_id": "cus-1028",
-    "first_name": "Наталья",
-    "last_name": "Гришина",
-    "email": "nikolabeljaev@example.com",
-    "phone": "85864483021",
+    "customer_id": "cus-1040",
+    "first_name": "Галактион",
+    "last_name": "Мельников",
+    "email": "ksenija_1977@example.org",
+    "phone": "8 155 492 6988",
     "is_loyalty_member": true,
-    "loyalty_card_number": "LOYAL-EF32AE8CAA"
+    "loyalty_card_number": "LOYAL-CCE736A6EF"
   },
   "store": {
-    "store_id": "store-016",
-    "store_name": "Большая Пикча — Магазин на пр. Сиреневый",
-    "store_network": "Большая Пикча",
+    "store_id": "store-044",
+    "store_name": "Маленькая Пикча — Магазин на наб. Черноморская",
+    "store_network": "Маленькая Пикча",
     "location": {
       "country": "Россия",
-      "city": "д. Оренбург",
-      "street": "ул. Горная",
-      "house": "61",
-      "postal_code": "395799",
+      "city": "д. Псебай",
+      "street": "пр. Сплавный",
+      "house": "86",
+      "postal_code": "078632",
       "coordinates": {
-        "latitude": -45.4646875,
-        "longitude": -11.515672
+        "latitude": -54.435567,
+        "longitude": 133.144877
       }
     }
   },
   "items": [
     {
-      "product_id": "prd-1000",
-      "name": "Заведение Задержать",
-      "category": "🥛 Молочные продукты",
+      "product_id": "prd-1008",
+      "name": "Очутиться Песенка",
+      "category": "🥩 Мясо, рыба, яйца и бобовые",
       "quantity": 3,
-      "unit": "л",
-      "price_per_unit": 174.16,
-      "total_price": 522.48,
+      "unit": "шт",
+      "price_per_unit": 248.49,
+      "total_price": 745.47,
       "kbju": {
-        "calories": 261.8,
-        "protein": 2.3,
-        "fat": 2.9,
-        "carbohydrates": 19.7
+        "calories": 51.2,
+        "protein": 13.0,
+        "fat": 6.4,
+        "carbohydrates": 48.7
       },
       "manufacturer": {
-        "name": "РАО «Бирюков, Лапина и Волков»",
+        "name": "Лазарева Инк",
         "country": "Россия",
-        "website": "https://ao.net",
-        "inn": "0912614956"
+        "website": "https://guljaev.com",
+        "inn": "0966441801"
       }
     },
     {
-      "product_id": "prd-1009",
-      "name": "Заложить Спасть",
-      "category": "🥩 Мясо, рыба, яйца и бобовые",
-      "quantity": 4,
-      "unit": "шт",
-      "price_per_unit": 101.66,
-      "total_price": 406.64,
+      "product_id": "prd-1000",
+      "name": "Жестокий Очередной",
+      "category": "🥛 Молочные продукты",
+      "quantity": 2,
+      "unit": "кг",
+      "price_per_unit": 286.95,
+      "total_price": 573.9,
       "kbju": {
-        "calories": 246.3,
-        "protein": 19.8,
-        "fat": 4.3,
-        "carbohydrates": 48.1
+        "calories": 269.3,
+        "protein": 18.8,
+        "fat": 6.7,
+        "carbohydrates": 25.1
       },
       "manufacturer": {
-        "name": "НПО «Наумова»",
+        "name": "ОАО «Веселова Крылова»",
         "country": "Россия",
-        "website": "https://rao.biz",
-        "inn": "4508864986"
+        "website": "https://alekseeva.com",
+        "inn": "3586308951"
+      }
+    },
+    {
+      "product_id": "prd-1011",
+      "name": "Сверкающий Коробка",
+      "category": "🥦 Овощи и зелень",
+      "quantity": 5,
+      "unit": "шт",
+      "price_per_unit": 242.68,
+      "total_price": 1213.4,
+      "kbju": {
+        "calories": 212.1,
+        "protein": 13.3,
+        "fat": 13.8,
+        "carbohydrates": 18.4
+      },
+      "manufacturer": {
+        "name": "ЗАО «Филатова-Юдина»",
+        "country": "Россия",
+        "website": "https://oao.info",
+        "inn": "6258727413"
       }
     }
   ],
-  "total_amount": 929.12,
+  "total_amount": 2532.77,
   "payment_method": "card",
   "is_delivery": true,
   "delivery_address": {
     "country": "Россия",
-    "city": "клх Галич",
-    "street": "алл. Логовая",
-    "house": "95",
-    "apartment": "14",
-    "postal_code": "862953"
+    "city": "к. Камышин",
+    "street": "наб. Вавилова",
+    "house": "180",
+    "apartment": "8",
+    "postal_code": "100327"
   },
-  "purchase_datetime": "2025-07-14T19:57:10.994030"
+  "purchase_datetime": "2025-07-03T13:42:39.555461"
 }

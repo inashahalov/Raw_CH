@@ -1,63 +1,105 @@
 {
   "purchase_id": "ord-00102",
   "customer": {
-    "customer_id": "cus-1015",
-    "first_name": "Фока",
-    "last_name": "Тетерина",
-    "email": "rjabovboleslav@example.com",
-    "phone": "+7 (465) 499-08-07",
+    "customer_id": "cus-1008",
+    "first_name": "Самуил",
+    "last_name": "Назаров",
+    "email": "afanasigrishin@example.org",
+    "phone": "89122562959",
     "is_loyalty_member": true,
-    "loyalty_card_number": "LOYAL-0B04F4F2B7"
+    "loyalty_card_number": "LOYAL-BA05BD4642"
   },
   "store": {
-    "store_id": "store-013",
-    "store_name": "Большая Пикча — Магазин на пер. Белорусский",
+    "store_id": "store-029",
+    "store_name": "Большая Пикча — Магазин на пер. Р.Люксембург",
     "store_network": "Большая Пикча",
     "location": {
       "country": "Россия",
-      "city": "д. Махачкала",
-      "street": "алл. Тупиковая",
-      "house": "8/9",
-      "postal_code": "029495",
+      "city": "д. Геленджик",
+      "street": "ш. Харьковское",
+      "house": "3/1",
+      "postal_code": "740343",
       "coordinates": {
-        "latitude": 0.219858,
-        "longitude": -53.203028
+        "latitude": -59.7230715,
+        "longitude": -128.557279
       }
     }
   },
   "items": [
     {
-      "product_id": "prd-1008",
-      "name": "Фонарик Успокоиться",
-      "category": "🥖 Зерновые и хлебобулочные изделия",
-      "quantity": 3,
-      "unit": "упаковка",
-      "price_per_unit": 73.43,
-      "total_price": 220.29,
+      "product_id": "prd-1012",
+      "name": "Полюбить Прошептать",
+      "category": "🥛 Молочные продукты",
+      "quantity": 5,
+      "unit": "л",
+      "price_per_unit": 179.33,
+      "total_price": 896.65,
       "kbju": {
-        "calories": 92.6,
-        "protein": 18.4,
-        "fat": 11.5,
-        "carbohydrates": 24.8
+        "calories": 251.8,
+        "protein": 19.3,
+        "fat": 14.3,
+        "carbohydrates": 22.3
       },
       "manufacturer": {
-        "name": "ООО «Денисов, Щукина и Гришин»",
+        "name": "ИП «Шарова»",
         "country": "Россия",
-        "website": "https://kozlova.org",
-        "inn": "3531459365"
+        "website": "https://ip.ru",
+        "inn": "2195881079"
+      }
+    },
+    {
+      "product_id": "prd-1002",
+      "name": "Издали Перебивать",
+      "category": "🥩 Мясо, рыба, яйца и бобовые",
+      "quantity": 4,
+      "unit": "упаковка",
+      "price_per_unit": 61.88,
+      "total_price": 247.52,
+      "kbju": {
+        "calories": 131.0,
+        "protein": 3.3,
+        "fat": 2.2,
+        "carbohydrates": 21.7
+      },
+      "manufacturer": {
+        "name": "Государственная транспортная лизинговая компания",
+        "country": "Россия",
+        "website": "https://zao.org",
+        "inn": "0226529553"
+      }
+    },
+    {
+      "product_id": "prd-1005",
+      "name": "Блин Редактор",
+      "category": "🥛 Молочные продукты",
+      "quantity": 2,
+      "unit": "л",
+      "price_per_unit": 252.66,
+      "total_price": 505.32,
+      "kbju": {
+        "calories": 169.1,
+        "protein": 14.6,
+        "fat": 4.1,
+        "carbohydrates": 39.8
+      },
+      "manufacturer": {
+        "name": "ООО «Савельев»",
+        "country": "Россия",
+        "website": "https://vostok-zapad.biz",
+        "inn": "3880905200"
       }
     }
   ],
-  "total_amount": 220.29,
+  "total_amount": 1649.49,
   "payment_method": "card",
   "is_delivery": true,
   "delivery_address": {
     "country": "Россия",
-    "city": "д. Оренбург",
-    "street": "алл. Портовая",
-    "house": "396",
-    "apartment": "100",
-    "postal_code": "150789"
+    "city": "г. Усть-Ишим",
+    "street": "бул. Никитина",
+    "house": "98",
+    "apartment": "6",
+    "postal_code": "792102"
   },
-  "purchase_datetime": "2025-07-07T19:57:10.999522"
+  "purchase_datetime": "2025-07-20T13:42:39.558540"
 }

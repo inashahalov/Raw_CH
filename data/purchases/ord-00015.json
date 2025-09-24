@@ -1,63 +1,105 @@
 {
   "purchase_id": "ord-00015",
   "customer": {
-    "customer_id": "cus-1000",
-    "first_name": "Лора",
-    "last_name": "Тетерин",
-    "email": "eduardpopov@example.net",
-    "phone": "+7 360 725 52 37",
+    "customer_id": "cus-1016",
+    "first_name": "Ипполит",
+    "last_name": "Гаврилов",
+    "email": "jdorofeev@example.net",
+    "phone": "+7 301 264 7844",
     "is_loyalty_member": true,
-    "loyalty_card_number": "LOYAL-E7A3E28BE6"
+    "loyalty_card_number": "LOYAL-3A71946831"
   },
   "store": {
-    "store_id": "store-023",
-    "store_name": "Большая Пикча — Магазин на алл. Московская",
-    "store_network": "Большая Пикча",
+    "store_id": "store-037",
+    "store_name": "Маленькая Пикча — Магазин на пр. Мусы Джалиля",
+    "store_network": "Маленькая Пикча",
     "location": {
       "country": "Россия",
-      "city": "к. Красногорск (Моск.)",
-      "street": "бул. Бабушкина",
-      "house": "74",
-      "postal_code": "103606",
+      "city": "клх Биробиджан",
+      "street": "ш. Достоевского",
+      "house": "8",
+      "postal_code": "786634",
       "coordinates": {
-        "latitude": -72.0031925,
-        "longitude": -94.798688
+        "latitude": 88.650457,
+        "longitude": 140.229319
       }
     }
   },
   "items": [
     {
-      "product_id": "prd-1006",
-      "name": "Мелькнуть Сбросить",
-      "category": "🍏 Фрукты и ягоды",
-      "quantity": 5,
-      "unit": "кг",
-      "price_per_unit": 251.59,
-      "total_price": 1257.95,
+      "product_id": "prd-1008",
+      "name": "Очутиться Песенка",
+      "category": "🥩 Мясо, рыба, яйца и бобовые",
+      "quantity": 4,
+      "unit": "шт",
+      "price_per_unit": 248.49,
+      "total_price": 993.96,
       "kbju": {
-        "calories": 208.0,
-        "protein": 7.1,
-        "fat": 7.6,
-        "carbohydrates": 15.3
+        "calories": 51.2,
+        "protein": 13.0,
+        "fat": 6.4,
+        "carbohydrates": 48.7
       },
       "manufacturer": {
-        "name": "ИП «Киселев Комарова»",
+        "name": "Лазарева Инк",
         "country": "Россия",
-        "website": "https://turova.info",
-        "inn": "8487805184"
+        "website": "https://guljaev.com",
+        "inn": "0966441801"
+      }
+    },
+    {
+      "product_id": "prd-1002",
+      "name": "Издали Перебивать",
+      "category": "🥩 Мясо, рыба, яйца и бобовые",
+      "quantity": 3,
+      "unit": "упаковка",
+      "price_per_unit": 61.88,
+      "total_price": 185.64,
+      "kbju": {
+        "calories": 131.0,
+        "protein": 3.3,
+        "fat": 2.2,
+        "carbohydrates": 21.7
+      },
+      "manufacturer": {
+        "name": "Государственная транспортная лизинговая компания",
+        "country": "Россия",
+        "website": "https://zao.org",
+        "inn": "0226529553"
+      }
+    },
+    {
+      "product_id": "prd-1000",
+      "name": "Жестокий Очередной",
+      "category": "🥛 Молочные продукты",
+      "quantity": 5,
+      "unit": "кг",
+      "price_per_unit": 286.95,
+      "total_price": 1434.75,
+      "kbju": {
+        "calories": 269.3,
+        "protein": 18.8,
+        "fat": 6.7,
+        "carbohydrates": 25.1
+      },
+      "manufacturer": {
+        "name": "ОАО «Веселова Крылова»",
+        "country": "Россия",
+        "website": "https://alekseeva.com",
+        "inn": "3586308951"
       }
     }
   ],
-  "total_amount": 1257.95,
-  "payment_method": "card",
+  "total_amount": 2614.35,
+  "payment_method": "cash",
   "is_delivery": true,
   "delivery_address": {
     "country": "Россия",
-    "city": "п. Качканар",
-    "street": "пер. Абрикосовый",
-    "house": "41",
-    "apartment": "62",
-    "postal_code": "030086"
+    "city": "с. Чусовой",
+    "street": "ул. Лесхозная",
+    "house": "4/3",
+    "apartment": "54",
+    "postal_code": "086380"
   },
-  "purchase_datetime": "2025-09-01T19:57:10.957755"
+  "purchase_datetime": "2025-09-23T13:42:39.524535"
 }

@@ -1,84 +1,63 @@
 {
   "purchase_id": "ord-00136",
   "customer": {
-    "customer_id": "cus-1025",
-    "first_name": "Светозар",
-    "last_name": "Панфилова",
-    "email": "grigorigrigorev@example.org",
-    "phone": "81759582895",
+    "customer_id": "cus-1035",
+    "first_name": "Геннадий",
+    "last_name": "Родионов",
+    "email": "cheslav1990@example.org",
+    "phone": "8 303 158 42 60",
     "is_loyalty_member": true,
-    "loyalty_card_number": "LOYAL-3948D7315F"
+    "loyalty_card_number": "LOYAL-B5048336C8"
   },
   "store": {
-    "store_id": "store-014",
-    "store_name": "Большая Пикча — Магазин на ул. Дзержинского",
+    "store_id": "store-002",
+    "store_name": "Большая Пикча — Магазин на наб. Чапаева",
     "store_network": "Большая Пикча",
     "location": {
       "country": "Россия",
-      "city": "д. Энгельс",
-      "street": "пер. Лермонтова",
-      "house": "286",
-      "postal_code": "327777",
+      "city": "с. Октябрьский (Башк.)",
+      "street": "пер. Сурикова",
+      "house": "5/4",
+      "postal_code": "488039",
       "coordinates": {
-        "latitude": -84.1876275,
-        "longitude": 111.109438
+        "latitude": 71.932577,
+        "longitude": -66.136951
       }
     }
   },
   "items": [
     {
-      "product_id": "prd-1004",
-      "name": "Рассуждение Боец",
-      "category": "🥩 Мясо, рыба, яйца и бобовые",
-      "quantity": 4,
-      "unit": "кг",
-      "price_per_unit": 167.58,
-      "total_price": 670.32,
+      "product_id": "prd-1019",
+      "name": "Исследование Мягкий",
+      "category": "🥦 Овощи и зелень",
+      "quantity": 5,
+      "unit": "шт",
+      "price_per_unit": 101.49,
+      "total_price": 507.45,
       "kbju": {
-        "calories": 270.7,
-        "protein": 8.7,
-        "fat": 11.5,
-        "carbohydrates": 1.5
+        "calories": 262.4,
+        "protein": 19.7,
+        "fat": 5.4,
+        "carbohydrates": 6.1
       },
       "manufacturer": {
-        "name": "РАО «Мухина Миронов»",
+        "name": "ИП «Хохлова»",
         "country": "Россия",
-        "website": "https://rao.org",
-        "inn": "9262920859"
-      }
-    },
-    {
-      "product_id": "prd-1005",
-      "name": "Уничтожение Вздрагивать",
-      "category": "🍏 Фрукты и ягоды",
-      "quantity": 4,
-      "unit": "л",
-      "price_per_unit": 207.53,
-      "total_price": 830.12,
-      "kbju": {
-        "calories": 191.8,
-        "protein": 11.1,
-        "fat": 7.9,
-        "carbohydrates": 5.4
-      },
-      "manufacturer": {
-        "name": "ООО «Авдеев-Медведева»",
-        "country": "Россия",
-        "website": "https://zao.com",
-        "inn": "9782693224"
+        "website": "https://ooo.org",
+        "inn": "2460511347"
       }
     }
   ],
-  "total_amount": 1500.44,
+  "total_amount": 507.45,
   "payment_method": "cash",
   "is_delivery": true,
   "delivery_address": {
     "country": "Россия",
-    "city": "д. Вытегра",
-    "street": "ш. Байкальское",
-    "house": "7",
-    "apartment": "97",
-    "postal_code": "418359"
+    "city": "к. Добрянка",
+    "street": "бул. Дальневосточный",
+    "house": "7/2",
+    "apartment": "89",
+    "postal_code": "893889"
   },
-  "purchase_datetime": "2025-07-24T19:57:11.018008"
+  "purchase_datetime": "2025-07-09T13:42:39.572396"
 }

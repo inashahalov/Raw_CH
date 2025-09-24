@@ -1,6 +1,6 @@
 {
   "store_id": "store-002",
-  "store_name": "Большая Пикча — Магазин на наб. Седова",
+  "store_name": "Большая Пикча — Магазин на наб. Чапаева",
   "store_network": "Большая Пикча",
   "store_type_description": "Супермаркет более 200 кв.м. Входит в сеть из 30 магазинов.",
   "type": "offline",
@@ -12,19 +12,19 @@
     "🥦 Овощи и зелень"
   ],
   "manager": {
-    "name": "Елизавета Захаровна Герасимова",
-    "phone": "+7 236 641 2991",
-    "email": "zhuravlevaemilija@example.com"
+    "name": "Кулагина Маргарита Аркадьевна",
+    "phone": "+7 848 082 3390",
+    "email": "solovevemmanuil@example.org"
   },
   "location": {
     "country": "Россия",
-    "city": "с. Одинцово",
-    "street": "наб. Пионерская",
-    "house": "619",
-    "postal_code": "379040",
+    "city": "с. Октябрьский (Башк.)",
+    "street": "пер. Сурикова",
+    "house": "5/4",
+    "postal_code": "488039",
     "coordinates": {
-      "latitude": -32.252973,
-      "longitude": 15.015005
+      "latitude": 71.932577,
+      "longitude": -66.136951
     }
   },
   "opening_hours": {
@@ -34,6 +34,6 @@
   },
   "accepts_online_orders": true,
   "delivery_available": true,
-  "warehouse_connected": true,
-  "last_inventory_date": "2025-09-23"
+  "warehouse_connected": false,
+  "last_inventory_date": "2025-09-24"
 }

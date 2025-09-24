@@ -1,63 +1,63 @@
 {
   "purchase_id": "ord-00045",
   "customer": {
-    "customer_id": "cus-1033",
-    "first_name": "Евграф",
-    "last_name": "Кулагин",
-    "email": "qsazonova@example.org",
-    "phone": "8 (664) 074-4446",
+    "customer_id": "cus-1024",
+    "first_name": "Поликарп",
+    "last_name": "Сидоров",
+    "email": "kostindmitri@example.org",
+    "phone": "8 (437) 612-37-57",
     "is_loyalty_member": true,
-    "loyalty_card_number": "LOYAL-615D708F68"
+    "loyalty_card_number": "LOYAL-1575CC42A8"
   },
   "store": {
-    "store_id": "store-020",
-    "store_name": "Большая Пикча — Магазин на ш. Торговое",
+    "store_id": "store-028",
+    "store_name": "Большая Пикча — Магазин на наб. Высокая",
     "store_network": "Большая Пикча",
     "location": {
       "country": "Россия",
-      "city": "к. Апшеронск",
-      "street": "пр. Войкова",
-      "house": "6/9",
-      "postal_code": "046873",
+      "city": "клх Терней",
+      "street": "ш. Майское",
+      "house": "4/6",
+      "postal_code": "740829",
       "coordinates": {
-        "latitude": -44.909337,
-        "longitude": -111.402746
+        "latitude": 42.5208505,
+        "longitude": -137.089372
       }
     }
   },
   "items": [
     {
-      "product_id": "prd-1001",
-      "name": "Тревога Появление",
-      "category": "🥖 Зерновые и хлебобулочные изделия",
-      "quantity": 1,
-      "unit": "шт",
-      "price_per_unit": 168.16,
-      "total_price": 168.16,
+      "product_id": "prd-1014",
+      "name": "Господь Падаль",
+      "category": "🥦 Овощи и зелень",
+      "quantity": 2,
+      "unit": "л",
+      "price_per_unit": 222.18,
+      "total_price": 444.36,
       "kbju": {
-        "calories": 205.2,
-        "protein": 13.4,
-        "fat": 1.1,
-        "carbohydrates": 43.2
+        "calories": 191.4,
+        "protein": 12.2,
+        "fat": 4.5,
+        "carbohydrates": 5.2
       },
       "manufacturer": {
-        "name": "ОАО «Селезнева Турова»",
+        "name": "ИП «Афанасьев, Щербаков и Пахомова»",
         "country": "Россия",
-        "website": "https://panfilov.net",
-        "inn": "5790638925"
+        "website": "https://oao.biz",
+        "inn": "7090374985"
       }
     }
   ],
-  "total_amount": 168.16,
-  "payment_method": "cash",
+  "total_amount": 444.36,
+  "payment_method": "card",
   "is_delivery": true,
   "delivery_address": {
     "country": "Россия",
-    "city": "с. Чусовой",
-    "street": "ул. Леваневского",
-    "house": "737",
-    "apartment": "67",
-    "postal_code": "413892"
+    "city": "г. Мичуринск",
+    "street": "пр. Привольный",
+    "house": "1/5",
+    "apartment": "57",
+    "postal_code": "392457"
   },
-  "purchase_datetime": "2025-08-01T19:57:10.971588"
+  "purchase_datetime": "2025-06-27T13:42:39.535663"
 }

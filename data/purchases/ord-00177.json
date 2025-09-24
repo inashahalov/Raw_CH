@@ -1,63 +1,105 @@
 {
   "purchase_id": "ord-00177",
   "customer": {
-    "customer_id": "cus-1023",
-    "first_name": "Давыд",
-    "last_name": "Александров",
-    "email": "vissarion_1987@example.com",
-    "phone": "84881392433",
+    "customer_id": "cus-1013",
+    "first_name": "Самсон",
+    "last_name": "Суханов",
+    "email": "ilinaanzhela@example.net",
+    "phone": "8 (762) 433-88-02",
     "is_loyalty_member": true,
-    "loyalty_card_number": "LOYAL-91E5CDC861"
+    "loyalty_card_number": "LOYAL-8CF44E9FE2"
   },
   "store": {
-    "store_id": "store-033",
-    "store_name": "Маленькая Пикча — Магазин на бул. Высоцкого",
-    "store_network": "Маленькая Пикча",
+    "store_id": "store-023",
+    "store_name": "Большая Пикча — Магазин на ш. Восьмого Марта",
+    "store_network": "Большая Пикча",
     "location": {
       "country": "Россия",
-      "city": "к. Комсомольск-на-Амуре",
-      "street": "ш. Ленина",
-      "house": "5",
-      "postal_code": "979044",
+      "city": "г. Холмск",
+      "street": "ш. Майское",
+      "house": "435",
+      "postal_code": "198436",
       "coordinates": {
-        "latitude": -82.2107835,
-        "longitude": 170.986594
+        "latitude": 6.0641875,
+        "longitude": 19.737599
       }
     }
   },
   "items": [
     {
-      "product_id": "prd-1015",
-      "name": "Войти Приходить",
-      "category": "🥛 Молочные продукты",
+      "product_id": "prd-1013",
+      "name": "Коммунизм Полевой",
+      "category": "🥖 Зерновые и хлебобулочные изделия",
       "quantity": 3,
-      "unit": "шт",
-      "price_per_unit": 92.89,
-      "total_price": 278.67,
+      "unit": "кг",
+      "price_per_unit": 155.06,
+      "total_price": 465.18,
       "kbju": {
-        "calories": 297.1,
-        "protein": 17.3,
-        "fat": 7.9,
-        "carbohydrates": 24.3
+        "calories": 292.6,
+        "protein": 2.6,
+        "fat": 6.2,
+        "carbohydrates": 4.1
       },
       "manufacturer": {
-        "name": "Гришина Лтд",
+        "name": "АО «Абрамов»",
         "country": "Россия",
-        "website": "https://ooo.net",
-        "inn": "5499321537"
+        "website": "https://ip.org",
+        "inn": "8372516031"
+      }
+    },
+    {
+      "product_id": "prd-1002",
+      "name": "Издали Перебивать",
+      "category": "🥩 Мясо, рыба, яйца и бобовые",
+      "quantity": 4,
+      "unit": "упаковка",
+      "price_per_unit": 61.88,
+      "total_price": 247.52,
+      "kbju": {
+        "calories": 131.0,
+        "protein": 3.3,
+        "fat": 2.2,
+        "carbohydrates": 21.7
+      },
+      "manufacturer": {
+        "name": "Государственная транспортная лизинговая компания",
+        "country": "Россия",
+        "website": "https://zao.org",
+        "inn": "0226529553"
+      }
+    },
+    {
+      "product_id": "prd-1018",
+      "name": "Проход Запретить",
+      "category": "🍏 Фрукты и ягоды",
+      "quantity": 5,
+      "unit": "упаковка",
+      "price_per_unit": 258.84,
+      "total_price": 1294.2,
+      "kbju": {
+        "calories": 254.3,
+        "protein": 10.6,
+        "fat": 7.9,
+        "carbohydrates": 9.3
+      },
+      "manufacturer": {
+        "name": "ИП «Турова, Селезнев и Жданова»",
+        "country": "Россия",
+        "website": "https://ao.com",
+        "inn": "7389660036"
       }
     }
   ],
-  "total_amount": 278.67,
-  "payment_method": "card",
-  "is_delivery": true,
+  "total_amount": 2006.9,
+  "payment_method": "cash",
+  "is_delivery": false,
   "delivery_address": {
     "country": "Россия",
-    "city": "д. Сковородино",
-    "street": "бул. 50 лет ВЛКСМ",
-    "house": "17",
-    "apartment": "37",
-    "postal_code": "072988"
+    "city": "д. Челюскин",
+    "street": "пер. Кольцова",
+    "house": "670",
+    "apartment": "31",
+    "postal_code": "961057"
   },
-  "purchase_datetime": "2025-09-04T19:57:11.038413"
+  "purchase_datetime": "2025-09-18T13:42:39.591270"
 }

@@ -1,84 +1,84 @@
 {
   "purchase_id": "ord-00054",
   "customer": {
-    "customer_id": "cus-1044",
-    "first_name": "Ирина",
-    "last_name": "Горбунов",
-    "email": "bikovavde@example.org",
-    "phone": "+7 (467) 240-7744",
+    "customer_id": "cus-1031",
+    "first_name": "Вацлав",
+    "last_name": "Матвеева",
+    "email": "xsharov@example.org",
+    "phone": "8 (213) 492-1057",
     "is_loyalty_member": true,
-    "loyalty_card_number": "LOYAL-543187F95B"
+    "loyalty_card_number": "LOYAL-28DDBA0FCB"
   },
   "store": {
-    "store_id": "store-044",
-    "store_name": "Маленькая Пикча — Магазин на ш. Коммунальное",
-    "store_network": "Маленькая Пикча",
+    "store_id": "store-026",
+    "store_name": "Большая Пикча — Магазин на наб. Советов",
+    "store_network": "Большая Пикча",
     "location": {
       "country": "Россия",
-      "city": "ст. Богучар",
-      "street": "алл. Серова",
-      "house": "68",
-      "postal_code": "716553",
+      "city": "с. Минусинск",
+      "street": "ш. Маркса Карла",
+      "house": "733",
+      "postal_code": "813798",
       "coordinates": {
-        "latitude": 67.2944965,
-        "longitude": 21.005267
+        "latitude": -69.303255,
+        "longitude": 40.36564
       }
     }
   },
   "items": [
     {
-      "product_id": "prd-1010",
-      "name": "Вытаскивать Правый",
+      "product_id": "prd-1003",
+      "name": "Дорогой Руководитель",
       "category": "🥦 Овощи и зелень",
-      "quantity": 5,
-      "unit": "л",
-      "price_per_unit": 181.57,
-      "total_price": 907.85,
+      "quantity": 2,
+      "unit": "упаковка",
+      "price_per_unit": 69.35,
+      "total_price": 138.7,
       "kbju": {
-        "calories": 113.2,
-        "protein": 7.5,
-        "fat": 3.6,
-        "carbohydrates": 41.4
+        "calories": 223.8,
+        "protein": 18.0,
+        "fat": 5.2,
+        "carbohydrates": 3.6
       },
       "manufacturer": {
-        "name": "Сергеев Инкорпорэйтед",
+        "name": "НПО «Панова Ильина»",
         "country": "Россия",
-        "website": "https://zao.biz",
-        "inn": "0493815810"
+        "website": "https://ooo.biz",
+        "inn": "4367291844"
       }
     },
     {
-      "product_id": "prd-1015",
-      "name": "Войти Приходить",
-      "category": "🥛 Молочные продукты",
+      "product_id": "prd-1014",
+      "name": "Господь Падаль",
+      "category": "🥦 Овощи и зелень",
       "quantity": 3,
-      "unit": "шт",
-      "price_per_unit": 92.89,
-      "total_price": 278.67,
+      "unit": "л",
+      "price_per_unit": 222.18,
+      "total_price": 666.54,
       "kbju": {
-        "calories": 297.1,
-        "protein": 17.3,
-        "fat": 7.9,
-        "carbohydrates": 24.3
+        "calories": 191.4,
+        "protein": 12.2,
+        "fat": 4.5,
+        "carbohydrates": 5.2
       },
       "manufacturer": {
-        "name": "Гришина Лтд",
+        "name": "ИП «Афанасьев, Щербаков и Пахомова»",
         "country": "Россия",
-        "website": "https://ooo.net",
-        "inn": "5499321537"
+        "website": "https://oao.biz",
+        "inn": "7090374985"
       }
     }
   ],
-  "total_amount": 1186.52,
+  "total_amount": 805.24,
   "payment_method": "cash",
-  "is_delivery": true,
+  "is_delivery": false,
   "delivery_address": {
     "country": "Россия",
-    "city": "д. Нягань",
-    "street": "бул. Подгорный",
-    "house": "68",
-    "apartment": "62",
-    "postal_code": "634627"
+    "city": "г. Красноуфимск",
+    "street": "пр. Братский",
+    "house": "687",
+    "apartment": "26",
+    "postal_code": "067724"
   },
-  "purchase_datetime": "2025-08-07T19:57:10.975453"
+  "purchase_datetime": "2025-08-13T13:42:39.539445"
 }

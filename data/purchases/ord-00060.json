@@ -1,84 +1,84 @@
 {
   "purchase_id": "ord-00060",
   "customer": {
-    "customer_id": "cus-1028",
-    "first_name": "Наталья",
-    "last_name": "Гришина",
-    "email": "nikolabeljaev@example.com",
-    "phone": "85864483021",
+    "customer_id": "cus-1021",
+    "first_name": "Спиридон",
+    "last_name": "Савина",
+    "email": "konstantin98@example.net",
+    "phone": "8 952 152 46 82",
     "is_loyalty_member": true,
-    "loyalty_card_number": "LOYAL-EF32AE8CAA"
+    "loyalty_card_number": "LOYAL-F768F67A2A"
   },
   "store": {
-    "store_id": "store-027",
-    "store_name": "Большая Пикча — Магазин на бул. Леваневского",
-    "store_network": "Большая Пикча",
+    "store_id": "store-044",
+    "store_name": "Маленькая Пикча — Магазин на наб. Черноморская",
+    "store_network": "Маленькая Пикча",
     "location": {
       "country": "Россия",
-      "city": "г. Енисейск",
-      "street": "пр. Нахимова",
-      "house": "978",
-      "postal_code": "444837",
+      "city": "д. Псебай",
+      "street": "пр. Сплавный",
+      "house": "86",
+      "postal_code": "078632",
       "coordinates": {
-        "latitude": 79.739024,
-        "longitude": -88.450267
+        "latitude": -54.435567,
+        "longitude": 133.144877
       }
     }
   },
   "items": [
     {
-      "product_id": "prd-1013",
-      "name": "Роса Наткнуться",
-      "category": "🥛 Молочные продукты",
-      "quantity": 4,
+      "product_id": "prd-1003",
+      "name": "Дорогой Руководитель",
+      "category": "🥦 Овощи и зелень",
+      "quantity": 1,
       "unit": "упаковка",
-      "price_per_unit": 39.74,
-      "total_price": 158.96,
+      "price_per_unit": 69.35,
+      "total_price": 69.35,
       "kbju": {
-        "calories": 283.8,
-        "protein": 19.2,
-        "fat": 7.6,
-        "carbohydrates": 35.6
+        "calories": 223.8,
+        "protein": 18.0,
+        "fat": 5.2,
+        "carbohydrates": 3.6
       },
       "manufacturer": {
-        "name": "АО «Потапова, Смирнова и Сазонова»",
+        "name": "НПО «Панова Ильина»",
         "country": "Россия",
-        "website": "https://magnit.info",
-        "inn": "3006321123"
+        "website": "https://ooo.biz",
+        "inn": "4367291844"
       }
     },
     {
-      "product_id": "prd-1008",
-      "name": "Фонарик Успокоиться",
-      "category": "🥖 Зерновые и хлебобулочные изделия",
+      "product_id": "prd-1010",
+      "name": "Бак Советовать",
+      "category": "🍏 Фрукты и ягоды",
       "quantity": 5,
       "unit": "упаковка",
-      "price_per_unit": 73.43,
-      "total_price": 367.15,
+      "price_per_unit": 283.56,
+      "total_price": 1417.8,
       "kbju": {
-        "calories": 92.6,
-        "protein": 18.4,
-        "fat": 11.5,
-        "carbohydrates": 24.8
+        "calories": 247.4,
+        "protein": 3.4,
+        "fat": 14.4,
+        "carbohydrates": 46.0
       },
       "manufacturer": {
-        "name": "ООО «Денисов, Щукина и Гришин»",
+        "name": "Гаврилова Инкорпорэйтед",
         "country": "Россия",
-        "website": "https://kozlova.org",
-        "inn": "3531459365"
+        "website": "https://ao.com",
+        "inn": "5008817113"
       }
     }
   ],
-  "total_amount": 526.11,
-  "payment_method": "cash",
+  "total_amount": 1487.15,
+  "payment_method": "card",
   "is_delivery": false,
   "delivery_address": {
     "country": "Россия",
-    "city": "клх Галич",
-    "street": "алл. Логовая",
-    "house": "95",
-    "apartment": "14",
-    "postal_code": "862953"
+    "city": "г. Надым",
+    "street": "бул. Шахтерский",
+    "house": "2/3",
+    "apartment": "10",
+    "postal_code": "178201"
   },
-  "purchase_datetime": "2025-07-17T19:57:10.978335"
+  "purchase_datetime": "2025-08-24T13:42:39.541979"
 }

@@ -1,105 +1,84 @@
 {
   "purchase_id": "ord-00001",
   "customer": {
-    "customer_id": "cus-1019",
-    "first_name": "Август",
-    "last_name": "Сергеева",
-    "email": "borisovmilan@example.com",
-    "phone": "+74992445151",
+    "customer_id": "cus-1020",
+    "first_name": "Любим",
+    "last_name": "Лаврентьева",
+    "email": "jmamontova@example.org",
+    "phone": "+7 (498) 192-45-44",
     "is_loyalty_member": true,
-    "loyalty_card_number": "LOYAL-935B208ACD"
+    "loyalty_card_number": "LOYAL-532E07D3D0"
   },
   "store": {
-    "store_id": "store-031",
-    "store_name": "Маленькая Пикча — Магазин на наб. Максима Горького",
-    "store_network": "Маленькая Пикча",
+    "store_id": "store-014",
+    "store_name": "Большая Пикча — Магазин на наб. Автомобилистов",
+    "store_network": "Большая Пикча",
     "location": {
       "country": "Россия",
-      "city": "к. Шереметьево",
-      "street": "бул. 70 лет Октября",
-      "house": "974",
-      "postal_code": "658842",
+      "city": "д. Челюскин",
+      "street": "пр. Прудный",
+      "house": "254",
+      "postal_code": "481000",
       "coordinates": {
-        "latitude": -54.276802,
-        "longitude": -95.137118
+        "latitude": -8.1180335,
+        "longitude": 175.298147
       }
     }
   },
   "items": [
     {
-      "product_id": "prd-1005",
-      "name": "Уничтожение Вздрагивать",
-      "category": "🍏 Фрукты и ягоды",
-      "quantity": 2,
-      "unit": "л",
-      "price_per_unit": 207.53,
-      "total_price": 415.06,
-      "kbju": {
-        "calories": 191.8,
-        "protein": 11.1,
-        "fat": 7.9,
-        "carbohydrates": 5.4
-      },
-      "manufacturer": {
-        "name": "ООО «Авдеев-Медведева»",
-        "country": "Россия",
-        "website": "https://zao.com",
-        "inn": "9782693224"
-      }
-    },
-    {
-      "product_id": "prd-1002",
-      "name": "Разводить Школьный",
-      "category": "🥦 Овощи и зелень",
-      "quantity": 5,
-      "unit": "л",
-      "price_per_unit": 232.4,
-      "total_price": 1162.0,
-      "kbju": {
-        "calories": 276.5,
-        "protein": 15.9,
-        "fat": 7.0,
-        "carbohydrates": 4.4
-      },
-      "manufacturer": {
-        "name": "ОАО «Туров, Горбунова и Галкина»",
-        "country": "Россия",
-        "website": "https://oao.com",
-        "inn": "7774237965"
-      }
-    },
-    {
-      "product_id": "prd-1016",
-      "name": "Цвет Трубка",
+      "product_id": "prd-1013",
+      "name": "Коммунизм Полевой",
       "category": "🥖 Зерновые и хлебобулочные изделия",
+      "quantity": 2,
+      "unit": "кг",
+      "price_per_unit": 155.06,
+      "total_price": 310.12,
+      "kbju": {
+        "calories": 292.6,
+        "protein": 2.6,
+        "fat": 6.2,
+        "carbohydrates": 4.1
+      },
+      "manufacturer": {
+        "name": "АО «Абрамов»",
+        "country": "Россия",
+        "website": "https://ip.org",
+        "inn": "8372516031"
+      }
+    },
+    {
+      "product_id": "prd-1010",
+      "name": "Бак Советовать",
+      "category": "🍏 Фрукты и ягоды",
       "quantity": 1,
       "unit": "упаковка",
-      "price_per_unit": 59.3,
-      "total_price": 59.3,
+      "price_per_unit": 283.56,
+      "total_price": 283.56,
       "kbju": {
-        "calories": 239.4,
-        "protein": 10.5,
-        "fat": 4.0,
-        "carbohydrates": 33.8
+        "calories": 247.4,
+        "protein": 3.4,
+        "fat": 14.4,
+        "carbohydrates": 46.0
       },
       "manufacturer": {
-        "name": "ОАО «Давыдова-Калинин»",
+        "name": "Гаврилова Инкорпорэйтед",
         "country": "Россия",
-        "website": "https://zao.org",
-        "inn": "7235646922"
+        "website": "https://ao.com",
+        "inn": "5008817113"
       }
     }
   ],
-  "total_amount": 1636.36,
-  "payment_method": "cash",
+  "total_amount": 593.68,
+  "payment_method": "card",
   "is_delivery": false,
   "delivery_address": {
     "country": "Россия",
-    "city": "к. Апшеронск",
-    "street": "пр. 70 лет Октября",
-    "house": "79",
-    "apartment": "65",
-    "postal_code": "550824"
+    "city": "г. Туапсе",
+    "street": "бул. Шевченко",
+    "house": "8",
+    "apartment": "54",
+    "postal_code": "711089"
   },
-  "purchase_datetime": "2025-08-12T19:57:10.951458"
+  "purchase_datetime": "2025-08-12T13:42:39.518804"
 }

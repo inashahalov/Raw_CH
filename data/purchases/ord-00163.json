@@ -1,63 +1,84 @@
 {
   "purchase_id": "ord-00163",
   "customer": {
-    "customer_id": "cus-1042",
-    "first_name": "Тимофей",
-    "last_name": "Кудряшов",
-    "email": "jaroslav_50@example.org",
-    "phone": "+7 (191) 932-42-71",
+    "customer_id": "cus-1017",
+    "first_name": "Никодим",
+    "last_name": "Селиверстова",
+    "email": "alekse_1982@example.com",
+    "phone": "+7 (820) 183-6006",
     "is_loyalty_member": true,
-    "loyalty_card_number": "LOYAL-859FD77F84"
+    "loyalty_card_number": "LOYAL-5FCEC46A5F"
   },
   "store": {
-    "store_id": "store-009",
-    "store_name": "Большая Пикча — Магазин на пер. Пригородный",
-    "store_network": "Большая Пикча",
+    "store_id": "store-036",
+    "store_name": "Маленькая Пикча — Магазин на пр. Кузнечный",
+    "store_network": "Маленькая Пикча",
     "location": {
       "country": "Россия",
-      "city": "ст. Тосно",
-      "street": "бул. Снежный",
-      "house": "17",
-      "postal_code": "064592",
+      "city": "к. Добрянка",
+      "street": "пр. Болотный",
+      "house": "1/8",
+      "postal_code": "802482",
       "coordinates": {
-        "latitude": -81.084922,
-        "longitude": -135.926762
+        "latitude": -38.8851715,
+        "longitude": 144.818432
       }
     }
   },
   "items": [
     {
-      "product_id": "prd-1009",
-      "name": "Заложить Спасть",
-      "category": "🥩 Мясо, рыба, яйца и бобовые",
-      "quantity": 5,
-      "unit": "шт",
-      "price_per_unit": 101.66,
-      "total_price": 508.3,
+      "product_id": "prd-1005",
+      "name": "Блин Редактор",
+      "category": "🥛 Молочные продукты",
+      "quantity": 2,
+      "unit": "л",
+      "price_per_unit": 252.66,
+      "total_price": 505.32,
       "kbju": {
-        "calories": 246.3,
-        "protein": 19.8,
-        "fat": 4.3,
-        "carbohydrates": 48.1
+        "calories": 169.1,
+        "protein": 14.6,
+        "fat": 4.1,
+        "carbohydrates": 39.8
       },
       "manufacturer": {
-        "name": "НПО «Наумова»",
+        "name": "ООО «Савельев»",
         "country": "Россия",
-        "website": "https://rao.biz",
-        "inn": "4508864986"
+        "website": "https://vostok-zapad.biz",
+        "inn": "3880905200"
+      }
+    },
+    {
+      "product_id": "prd-1007",
+      "name": "Инвалид Госпожа",
+      "category": "🥩 Мясо, рыба, яйца и бобовые",
+      "quantity": 4,
+      "unit": "упаковка",
+      "price_per_unit": 216.19,
+      "total_price": 864.76,
+      "kbju": {
+        "calories": 103.2,
+        "protein": 11.9,
+        "fat": 9.2,
+        "carbohydrates": 32.1
+      },
+      "manufacturer": {
+        "name": "НПО «Мельникова-Юдина»",
+        "country": "Россия",
+        "website": "https://zao.ru",
+        "inn": "8084632702"
       }
     }
   ],
-  "total_amount": 508.3,
+  "total_amount": 1370.08,
   "payment_method": "cash",
   "is_delivery": true,
   "delivery_address": {
     "country": "Россия",
-    "city": "д. Сусуман",
-    "street": "наб. Торговая",
-    "house": "8/8",
-    "apartment": "65",
-    "postal_code": "695747"
+    "city": "г. Раменское",
+    "street": "бул. Березовый",
+    "house": "69",
+    "apartment": "36",
+    "postal_code": "147385"
   },
-  "purchase_datetime": "2025-08-06T19:57:11.031167"
+  "purchase_datetime": "2025-07-18T13:42:39.585360"
 }

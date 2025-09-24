@@ -1,105 +1,105 @@
 {
   "purchase_id": "ord-00020",
   "customer": {
-    "customer_id": "cus-1039",
-    "first_name": "Никодим",
-    "last_name": "Белоусова",
-    "email": "varlaam1991@example.com",
-    "phone": "+7 148 865 5194",
+    "customer_id": "cus-1041",
+    "first_name": "Ксения",
+    "last_name": "Кононов",
+    "email": "lihachevaanastasija@example.org",
+    "phone": "+7 512 435 4000",
     "is_loyalty_member": true,
-    "loyalty_card_number": "LOYAL-345785EB3A"
+    "loyalty_card_number": "LOYAL-E924F62016"
   },
   "store": {
-    "store_id": "store-012",
-    "store_name": "Большая Пикча — Магазин на наб. Центральная",
-    "store_network": "Большая Пикча",
+    "store_id": "store-033",
+    "store_name": "Маленькая Пикча — Магазин на ш. Геологическое",
+    "store_network": "Маленькая Пикча",
     "location": {
       "country": "Россия",
-      "city": "ст. Валдай",
-      "street": "алл. Станиславского",
-      "house": "8/1",
-      "postal_code": "481389",
+      "city": "г. Корсаков",
+      "street": "наб. Толбухина",
+      "house": "238",
+      "postal_code": "443125",
       "coordinates": {
-        "latitude": 33.4852585,
-        "longitude": 19.302012
+        "latitude": 83.8197755,
+        "longitude": -109.403892
       }
     }
   },
   "items": [
     {
-      "product_id": "prd-1003",
-      "name": "Идея Вообще",
-      "category": "🍏 Фрукты и ягоды",
-      "quantity": 2,
-      "unit": "упаковка",
-      "price_per_unit": 270.56,
-      "total_price": 541.12,
-      "kbju": {
-        "calories": 53.3,
-        "protein": 13.5,
-        "fat": 3.5,
-        "carbohydrates": 40.5
-      },
-      "manufacturer": {
-        "name": "АО «Назарова»",
-        "country": "Россия",
-        "website": "https://oao.ru",
-        "inn": "9069795571"
-      }
-    },
-    {
-      "product_id": "prd-1018",
-      "name": "Низкий Присесть",
+      "product_id": "prd-1002",
+      "name": "Издали Перебивать",
       "category": "🥩 Мясо, рыба, яйца и бобовые",
       "quantity": 1,
-      "unit": "кг",
-      "price_per_unit": 240.2,
-      "total_price": 240.2,
+      "unit": "упаковка",
+      "price_per_unit": 61.88,
+      "total_price": 61.88,
       "kbju": {
-        "calories": 272.9,
-        "protein": 7.8,
-        "fat": 2.3,
-        "carbohydrates": 5.3
+        "calories": 131.0,
+        "protein": 3.3,
+        "fat": 2.2,
+        "carbohydrates": 21.7
       },
       "manufacturer": {
-        "name": "Ланит",
+        "name": "Государственная транспортная лизинговая компания",
         "country": "Россия",
-        "website": "https://rao.info",
-        "inn": "3763771194"
+        "website": "https://zao.org",
+        "inn": "0226529553"
       }
     },
     {
-      "product_id": "prd-1019",
-      "name": "Адвокат Другой",
+      "product_id": "prd-1011",
+      "name": "Сверкающий Коробка",
       "category": "🥦 Овощи и зелень",
-      "quantity": 5,
+      "quantity": 1,
       "unit": "шт",
-      "price_per_unit": 43.3,
-      "total_price": 216.5,
+      "price_per_unit": 242.68,
+      "total_price": 242.68,
       "kbju": {
-        "calories": 77.7,
-        "protein": 13.9,
-        "fat": 10.1,
-        "carbohydrates": 22.7
+        "calories": 212.1,
+        "protein": 13.3,
+        "fat": 13.8,
+        "carbohydrates": 18.4
       },
       "manufacturer": {
-        "name": "Чернова Групп",
+        "name": "ЗАО «Филатова-Юдина»",
         "country": "Россия",
-        "website": "https://belozerova.com",
-        "inn": "4723890506"
+        "website": "https://oao.info",
+        "inn": "6258727413"
+      }
+    },
+    {
+      "product_id": "prd-1009",
+      "name": "Расстройство Валюта",
+      "category": "🥩 Мясо, рыба, яйца и бобовые",
+      "quantity": 2,
+      "unit": "л",
+      "price_per_unit": 256.33,
+      "total_price": 512.66,
+      "kbju": {
+        "calories": 208.9,
+        "protein": 12.9,
+        "fat": 11.4,
+        "carbohydrates": 30.9
+      },
+      "manufacturer": {
+        "name": "АХ Степь",
+        "country": "Россия",
+        "website": "https://rao.ru",
+        "inn": "1719997409"
       }
     }
   ],
-  "total_amount": 997.82,
+  "total_amount": 817.22,
   "payment_method": "cash",
   "is_delivery": false,
   "delivery_address": {
     "country": "Россия",
-    "city": "г. Курумкан",
-    "street": "алл. Гаражная",
-    "house": "494",
-    "apartment": "64",
-    "postal_code": "544699"
+    "city": "с. Костомукша",
+    "street": "пр. Ростовский",
+    "house": "458",
+    "apartment": "54",
+    "postal_code": "599182"
   },
-  "purchase_datetime": "2025-09-02T19:57:10.959943"
+  "purchase_datetime": "2025-07-11T13:42:39.526084"
 }

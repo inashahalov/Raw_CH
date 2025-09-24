@@ -1,105 +1,84 @@
 {
   "purchase_id": "ord-00008",
   "customer": {
-    "customer_id": "cus-1003",
-    "first_name": "Федосий",
-    "last_name": "Кулагин",
-    "email": "efim_1985@example.net",
-    "phone": "+7 (506) 308-6005",
+    "customer_id": "cus-1010",
+    "first_name": "Лариса",
+    "last_name": "Рябова",
+    "email": "ovchinnikovprov@example.net",
+    "phone": "83020994303",
     "is_loyalty_member": true,
-    "loyalty_card_number": "LOYAL-BABE7C0EB0"
+    "loyalty_card_number": "LOYAL-D0092FF126"
   },
   "store": {
-    "store_id": "store-004",
-    "store_name": "Большая Пикча — Магазин на алл. Базарная",
+    "store_id": "store-029",
+    "store_name": "Большая Пикча — Магазин на пер. Р.Люксембург",
     "store_network": "Большая Пикча",
     "location": {
       "country": "Россия",
-      "city": "к. Южноуральск",
-      "street": "алл. Мелиораторов",
-      "house": "30",
-      "postal_code": "971964",
+      "city": "д. Геленджик",
+      "street": "ш. Харьковское",
+      "house": "3/1",
+      "postal_code": "740343",
       "coordinates": {
-        "latitude": 85.9746595,
-        "longitude": -124.814831
+        "latitude": -59.7230715,
+        "longitude": -128.557279
       }
     }
   },
   "items": [
     {
-      "product_id": "prd-1013",
-      "name": "Роса Наткнуться",
-      "category": "🥛 Молочные продукты",
-      "quantity": 2,
-      "unit": "упаковка",
-      "price_per_unit": 39.74,
-      "total_price": 79.48,
-      "kbju": {
-        "calories": 283.8,
-        "protein": 19.2,
-        "fat": 7.6,
-        "carbohydrates": 35.6
-      },
-      "manufacturer": {
-        "name": "АО «Потапова, Смирнова и Сазонова»",
-        "country": "Россия",
-        "website": "https://magnit.info",
-        "inn": "3006321123"
-      }
-    },
-    {
-      "product_id": "prd-1016",
-      "name": "Цвет Трубка",
-      "category": "🥖 Зерновые и хлебобулочные изделия",
-      "quantity": 3,
-      "unit": "упаковка",
-      "price_per_unit": 59.3,
-      "total_price": 177.9,
-      "kbju": {
-        "calories": 239.4,
-        "protein": 10.5,
-        "fat": 4.0,
-        "carbohydrates": 33.8
-      },
-      "manufacturer": {
-        "name": "ОАО «Давыдова-Калинин»",
-        "country": "Россия",
-        "website": "https://zao.org",
-        "inn": "7235646922"
-      }
-    },
-    {
-      "product_id": "prd-1000",
-      "name": "Заведение Задержать",
+      "product_id": "prd-1005",
+      "name": "Блин Редактор",
       "category": "🥛 Молочные продукты",
       "quantity": 2,
       "unit": "л",
-      "price_per_unit": 174.16,
-      "total_price": 348.32,
+      "price_per_unit": 252.66,
+      "total_price": 505.32,
       "kbju": {
-        "calories": 261.8,
-        "protein": 2.3,
-        "fat": 2.9,
-        "carbohydrates": 19.7
+        "calories": 169.1,
+        "protein": 14.6,
+        "fat": 4.1,
+        "carbohydrates": 39.8
       },
       "manufacturer": {
-        "name": "РАО «Бирюков, Лапина и Волков»",
+        "name": "ООО «Савельев»",
         "country": "Россия",
-        "website": "https://ao.net",
-        "inn": "0912614956"
+        "website": "https://vostok-zapad.biz",
+        "inn": "3880905200"
+      }
+    },
+    {
+      "product_id": "prd-1012",
+      "name": "Полюбить Прошептать",
+      "category": "🥛 Молочные продукты",
+      "quantity": 5,
+      "unit": "л",
+      "price_per_unit": 179.33,
+      "total_price": 896.65,
+      "kbju": {
+        "calories": 251.8,
+        "protein": 19.3,
+        "fat": 14.3,
+        "carbohydrates": 22.3
+      },
+      "manufacturer": {
+        "name": "ИП «Шарова»",
+        "country": "Россия",
+        "website": "https://ip.ru",
+        "inn": "2195881079"
       }
     }
   ],
-  "total_amount": 605.7,
-  "payment_method": "card",
-  "is_delivery": true,
+  "total_amount": 1401.97,
+  "payment_method": "cash",
+  "is_delivery": false,
   "delivery_address": {
     "country": "Россия",
-    "city": "к. Южноуральск",
-    "street": "пер. Орджоникидзе",
-    "house": "94",
-    "apartment": "3",
-    "postal_code": "037248"
+    "city": "д. Петрозаводск",
+    "street": "пер. Запрудный",
+    "house": "500",
+    "apartment": "10",
+    "postal_code": "349314"
   },
-  "purchase_datetime": "2025-08-15T19:57:10.954813"
+  "purchase_datetime": "2025-08-08T13:42:39.522154"
 }

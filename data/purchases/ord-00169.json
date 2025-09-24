@@ -1,84 +1,84 @@
 {
   "purchase_id": "ord-00169",
   "customer": {
-    "customer_id": "cus-1044",
-    "first_name": "Ирина",
-    "last_name": "Горбунов",
-    "email": "bikovavde@example.org",
-    "phone": "+7 (467) 240-7744",
+    "customer_id": "cus-1031",
+    "first_name": "Вацлав",
+    "last_name": "Матвеева",
+    "email": "xsharov@example.org",
+    "phone": "8 (213) 492-1057",
     "is_loyalty_member": true,
-    "loyalty_card_number": "LOYAL-543187F95B"
+    "loyalty_card_number": "LOYAL-28DDBA0FCB"
   },
   "store": {
-    "store_id": "store-008",
-    "store_name": "Большая Пикча — Магазин на бул. Вавилова",
-    "store_network": "Большая Пикча",
+    "store_id": "store-039",
+    "store_name": "Маленькая Пикча — Магазин на наб. Мичурина",
+    "store_network": "Маленькая Пикча",
     "location": {
       "country": "Россия",
-      "city": "клх Тихвин",
-      "street": "пр. Социалистический",
-      "house": "98",
-      "postal_code": "571353",
+      "city": "к. Лотошино",
+      "street": "пр. Боровой",
+      "house": "3",
+      "postal_code": "599266",
       "coordinates": {
-        "latitude": -34.3116645,
-        "longitude": -14.210246
+        "latitude": -5.6986535,
+        "longitude": 4.716023
       }
     }
   },
   "items": [
     {
-      "product_id": "prd-1007",
-      "name": "Штаб Приличный",
-      "category": "🍏 Фрукты и ягоды",
-      "quantity": 5,
-      "unit": "кг",
-      "price_per_unit": 196.88,
-      "total_price": 984.4,
+      "product_id": "prd-1019",
+      "name": "Исследование Мягкий",
+      "category": "🥦 Овощи и зелень",
+      "quantity": 1,
+      "unit": "шт",
+      "price_per_unit": 101.49,
+      "total_price": 101.49,
       "kbju": {
-        "calories": 164.9,
-        "protein": 16.7,
-        "fat": 3.6,
-        "carbohydrates": 31.4
+        "calories": 262.4,
+        "protein": 19.7,
+        "fat": 5.4,
+        "carbohydrates": 6.1
       },
       "manufacturer": {
-        "name": "СДС-Уголь",
+        "name": "ИП «Хохлова»",
         "country": "Россия",
-        "website": "https://npo.ru",
-        "inn": "9854590544"
+        "website": "https://ooo.org",
+        "inn": "2460511347"
       }
     },
     {
-      "product_id": "prd-1008",
-      "name": "Фонарик Успокоиться",
-      "category": "🥖 Зерновые и хлебобулочные изделия",
-      "quantity": 1,
-      "unit": "упаковка",
-      "price_per_unit": 73.43,
-      "total_price": 73.43,
+      "product_id": "prd-1006",
+      "name": "Витрина Лапа",
+      "category": "🥦 Овощи и зелень",
+      "quantity": 3,
+      "unit": "л",
+      "price_per_unit": 197.14,
+      "total_price": 591.42,
       "kbju": {
-        "calories": 92.6,
-        "protein": 18.4,
-        "fat": 11.5,
-        "carbohydrates": 24.8
+        "calories": 159.3,
+        "protein": 17.1,
+        "fat": 8.9,
+        "carbohydrates": 42.8
       },
       "manufacturer": {
-        "name": "ООО «Денисов, Щукина и Гришин»",
+        "name": "ООО «Ширяева Матвеев»",
         "country": "Россия",
-        "website": "https://kozlova.org",
-        "inn": "3531459365"
+        "website": "https://rao.biz",
+        "inn": "8993676224"
       }
     }
   ],
-  "total_amount": 1057.83,
-  "payment_method": "cash",
+  "total_amount": 692.91,
+  "payment_method": "card",
   "is_delivery": true,
   "delivery_address": {
     "country": "Россия",
-    "city": "д. Нягань",
-    "street": "бул. Подгорный",
-    "house": "68",
-    "apartment": "62",
-    "postal_code": "634627"
+    "city": "г. Красноуфимск",
+    "street": "пр. Братский",
+    "house": "687",
+    "apartment": "26",
+    "postal_code": "067724"
   },
-  "purchase_datetime": "2025-07-07T19:57:11.034184"
+  "purchase_datetime": "2025-09-20T13:42:39.587975"
 }

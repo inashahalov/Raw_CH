@@ -1,105 +1,63 @@
 {
   "purchase_id": "ord-00074",
   "customer": {
-    "customer_id": "cus-1011",
-    "first_name": "Аркадий",
-    "last_name": "Беляков",
-    "email": "mir_2021@example.net",
-    "phone": "8 (459) 651-56-98",
+    "customer_id": "cus-1003",
+    "first_name": "Мефодий",
+    "last_name": "Афанасьев",
+    "email": "nadezhda_2014@example.net",
+    "phone": "83623022204",
     "is_loyalty_member": true,
-    "loyalty_card_number": "LOYAL-7E0D508BB5"
+    "loyalty_card_number": "LOYAL-7C90F1406F"
   },
   "store": {
     "store_id": "store-012",
-    "store_name": "Большая Пикча — Магазин на наб. Центральная",
+    "store_name": "Большая Пикча — Магазин на бул. Химиков",
     "store_network": "Большая Пикча",
     "location": {
       "country": "Россия",
-      "city": "ст. Валдай",
-      "street": "алл. Станиславского",
-      "house": "8/1",
-      "postal_code": "481389",
+      "city": "ст. Черусти",
+      "street": "пр. Волгоградский",
+      "house": "707",
+      "postal_code": "464132",
       "coordinates": {
-        "latitude": 33.4852585,
-        "longitude": 19.302012
+        "latitude": -68.074901,
+        "longitude": 29.59835
       }
     }
   },
   "items": [
     {
       "product_id": "prd-1016",
-      "name": "Цвет Трубка",
-      "category": "🥖 Зерновые и хлебобулочные изделия",
-      "quantity": 1,
-      "unit": "упаковка",
-      "price_per_unit": 59.3,
-      "total_price": 59.3,
-      "kbju": {
-        "calories": 239.4,
-        "protein": 10.5,
-        "fat": 4.0,
-        "carbohydrates": 33.8
-      },
-      "manufacturer": {
-        "name": "ОАО «Давыдова-Калинин»",
-        "country": "Россия",
-        "website": "https://zao.org",
-        "inn": "7235646922"
-      }
-    },
-    {
-      "product_id": "prd-1001",
-      "name": "Тревога Появление",
+      "name": "Очередной Аллея",
       "category": "🥖 Зерновые и хлебобулочные изделия",
       "quantity": 1,
       "unit": "шт",
-      "price_per_unit": 168.16,
-      "total_price": 168.16,
+      "price_per_unit": 251.07,
+      "total_price": 251.07,
       "kbju": {
-        "calories": 205.2,
-        "protein": 13.4,
-        "fat": 1.1,
-        "carbohydrates": 43.2
+        "calories": 277.2,
+        "protein": 18.2,
+        "fat": 6.0,
+        "carbohydrates": 11.3
       },
       "manufacturer": {
-        "name": "ОАО «Селезнева Турова»",
+        "name": "ГК Автомир",
         "country": "Россия",
-        "website": "https://panfilov.net",
-        "inn": "5790638925"
-      }
-    },
-    {
-      "product_id": "prd-1015",
-      "name": "Войти Приходить",
-      "category": "🥛 Молочные продукты",
-      "quantity": 1,
-      "unit": "шт",
-      "price_per_unit": 92.89,
-      "total_price": 92.89,
-      "kbju": {
-        "calories": 297.1,
-        "protein": 17.3,
-        "fat": 7.9,
-        "carbohydrates": 24.3
-      },
-      "manufacturer": {
-        "name": "Гришина Лтд",
-        "country": "Россия",
-        "website": "https://ooo.net",
-        "inn": "5499321537"
+        "website": "https://andreev.info",
+        "inn": "8436477835"
       }
     }
   ],
-  "total_amount": 320.35,
+  "total_amount": 251.07,
   "payment_method": "card",
-  "is_delivery": true,
+  "is_delivery": false,
   "delivery_address": {
     "country": "Россия",
-    "city": "ст. Валдай",
-    "street": "пер. Луговой",
-    "house": "322",
-    "apartment": "50",
-    "postal_code": "969455"
+    "city": "к. Усолье Сибирское",
+    "street": "ул. Белорусская",
+    "house": "230",
+    "apartment": "13",
+    "postal_code": "672568"
   },
-  "purchase_datetime": "2025-08-01T19:57:10.984475"
+  "purchase_datetime": "2025-09-16T13:42:39.547353"
 }

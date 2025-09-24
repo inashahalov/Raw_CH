@@ -1,63 +1,84 @@
 {
   "purchase_id": "ord-00107",
   "customer": {
-    "customer_id": "cus-1035",
-    "first_name": "Кузьма",
-    "last_name": "Лыткин",
-    "email": "maksimtitov@example.com",
-    "phone": "+7 435 823 28 86",
+    "customer_id": "cus-1026",
+    "first_name": "Прасковья",
+    "last_name": "Афанасьев",
+    "email": "vladimir_2020@example.net",
+    "phone": "+7 (333) 227-54-90",
     "is_loyalty_member": true,
-    "loyalty_card_number": "LOYAL-54F52DC4FC"
+    "loyalty_card_number": "LOYAL-6DF214DEDC"
   },
   "store": {
-    "store_id": "store-011",
-    "store_name": "Большая Пикча — Магазин на ул. Таежная",
+    "store_id": "store-004",
+    "store_name": "Большая Пикча — Магазин на пр. Ленинский",
     "store_network": "Большая Пикча",
     "location": {
       "country": "Россия",
-      "city": "п. Снежинск",
-      "street": "алл. Клары Цеткин",
-      "house": "8",
-      "postal_code": "728596",
+      "city": "к. Усолье Сибирское",
+      "street": "ш. Белинского",
+      "house": "1/4",
+      "postal_code": "726741",
       "coordinates": {
-        "latitude": 42.23201,
-        "longitude": 92.394681
+        "latitude": -21.6706105,
+        "longitude": 173.163491
       }
     }
   },
   "items": [
     {
-      "product_id": "prd-1003",
-      "name": "Идея Вообще",
-      "category": "🍏 Фрукты и ягоды",
-      "quantity": 5,
+      "product_id": "prd-1004",
+      "name": "Прежний Успокоиться",
+      "category": "🥦 Овощи и зелень",
+      "quantity": 1,
       "unit": "упаковка",
-      "price_per_unit": 270.56,
-      "total_price": 1352.8,
+      "price_per_unit": 192.71,
+      "total_price": 192.71,
       "kbju": {
-        "calories": 53.3,
-        "protein": 13.5,
-        "fat": 3.5,
-        "carbohydrates": 40.5
+        "calories": 95.9,
+        "protein": 17.1,
+        "fat": 12.1,
+        "carbohydrates": 42.3
       },
       "manufacturer": {
-        "name": "АО «Назарова»",
+        "name": "АО «Русакова»",
         "country": "Россия",
-        "website": "https://oao.ru",
-        "inn": "9069795571"
+        "website": "https://nesterova.com",
+        "inn": "3179388333"
+      }
+    },
+    {
+      "product_id": "prd-1002",
+      "name": "Издали Перебивать",
+      "category": "🥩 Мясо, рыба, яйца и бобовые",
+      "quantity": 4,
+      "unit": "упаковка",
+      "price_per_unit": 61.88,
+      "total_price": 247.52,
+      "kbju": {
+        "calories": 131.0,
+        "protein": 3.3,
+        "fat": 2.2,
+        "carbohydrates": 21.7
+      },
+      "manufacturer": {
+        "name": "Государственная транспортная лизинговая компания",
+        "country": "Россия",
+        "website": "https://zao.org",
+        "inn": "0226529553"
       }
     }
   ],
-  "total_amount": 1352.8,
-  "payment_method": "card",
-  "is_delivery": true,
+  "total_amount": 440.23,
+  "payment_method": "cash",
+  "is_delivery": false,
   "delivery_address": {
     "country": "Россия",
-    "city": "с. Катав-Ивановск",
-    "street": "бул. Молодежный",
-    "house": "7",
-    "apartment": "82",
-    "postal_code": "657961"
+    "city": "п. Наро-Фоминск",
+    "street": "бул. Белорусский",
+    "house": "700",
+    "apartment": "23",
+    "postal_code": "599541"
   },
-  "purchase_datetime": "2025-09-10T19:57:11.004455"
+  "purchase_datetime": "2025-07-07T13:42:39.560662"
 }

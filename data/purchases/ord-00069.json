@@ -1,63 +1,63 @@
 {
   "purchase_id": "ord-00069",
   "customer": {
-    "customer_id": "cus-1038",
-    "first_name": "Фотий",
-    "last_name": "Александров",
-    "email": "borisovstanimir@example.net",
-    "phone": "+7 (110) 633-4695",
+    "customer_id": "cus-1035",
+    "first_name": "Геннадий",
+    "last_name": "Родионов",
+    "email": "cheslav1990@example.org",
+    "phone": "8 303 158 42 60",
     "is_loyalty_member": true,
-    "loyalty_card_number": "LOYAL-51CB82EFA1"
+    "loyalty_card_number": "LOYAL-B5048336C8"
   },
   "store": {
-    "store_id": "store-039",
-    "store_name": "Маленькая Пикча — Магазин на бул. Путейский",
+    "store_id": "store-034",
+    "store_name": "Маленькая Пикча — Магазин на алл. 9 Января",
     "store_network": "Маленькая Пикча",
     "location": {
       "country": "Россия",
-      "city": "с. Жиганск",
-      "street": "наб. Советской Армии",
-      "house": "55",
-      "postal_code": "339713",
+      "city": "ст. Беслан",
+      "street": "бул. Заовражный",
+      "house": "231",
+      "postal_code": "489039",
       "coordinates": {
-        "latitude": -41.3992205,
-        "longitude": -101.881851
+        "latitude": 10.2862715,
+        "longitude": 27.561048
       }
     }
   },
   "items": [
     {
-      "product_id": "prd-1007",
-      "name": "Штаб Приличный",
-      "category": "🍏 Фрукты и ягоды",
-      "quantity": 3,
+      "product_id": "prd-1000",
+      "name": "Жестокий Очередной",
+      "category": "🥛 Молочные продукты",
+      "quantity": 1,
       "unit": "кг",
-      "price_per_unit": 196.88,
-      "total_price": 590.64,
+      "price_per_unit": 286.95,
+      "total_price": 286.95,
       "kbju": {
-        "calories": 164.9,
-        "protein": 16.7,
-        "fat": 3.6,
-        "carbohydrates": 31.4
+        "calories": 269.3,
+        "protein": 18.8,
+        "fat": 6.7,
+        "carbohydrates": 25.1
       },
       "manufacturer": {
-        "name": "СДС-Уголь",
+        "name": "ОАО «Веселова Крылова»",
         "country": "Россия",
-        "website": "https://npo.ru",
-        "inn": "9854590544"
+        "website": "https://alekseeva.com",
+        "inn": "3586308951"
       }
     }
   ],
-  "total_amount": 590.64,
+  "total_amount": 286.95,
   "payment_method": "card",
   "is_delivery": false,
   "delivery_address": {
     "country": "Россия",
-    "city": "с. Жиганск",
-    "street": "наб. Ермака",
-    "house": "9/6",
-    "apartment": "39",
-    "postal_code": "762206"
+    "city": "к. Добрянка",
+    "street": "бул. Дальневосточный",
+    "house": "7/2",
+    "apartment": "89",
+    "postal_code": "893889"
   },
-  "purchase_datetime": "2025-09-19T19:57:10.982240"
+  "purchase_datetime": "2025-09-18T13:42:39.545420"
 }

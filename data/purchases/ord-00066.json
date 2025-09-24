@@ -1,105 +1,84 @@
 {
   "purchase_id": "ord-00066",
   "customer": {
-    "customer_id": "cus-1023",
-    "first_name": "Давыд",
-    "last_name": "Александров",
-    "email": "vissarion_1987@example.com",
-    "phone": "84881392433",
+    "customer_id": "cus-1007",
+    "first_name": "Селиверст",
+    "last_name": "Шестакова",
+    "email": "adrian_1977@example.com",
+    "phone": "+7 (503) 194-5334",
     "is_loyalty_member": true,
-    "loyalty_card_number": "LOYAL-91E5CDC861"
+    "loyalty_card_number": "LOYAL-F9E4F0EA83"
   },
   "store": {
-    "store_id": "store-026",
-    "store_name": "Большая Пикча — Магазин на алл. Иванова",
-    "store_network": "Большая Пикча",
+    "store_id": "store-042",
+    "store_name": "Маленькая Пикча — Магазин на пер. Ушакова",
+    "store_network": "Маленькая Пикча",
     "location": {
       "country": "Россия",
-      "city": "д. Вытегра",
-      "street": "ш. Лунное",
-      "house": "6",
-      "postal_code": "030129",
+      "city": "с. Костомукша",
+      "street": "бул. Мичурина",
+      "house": "530",
+      "postal_code": "882024",
       "coordinates": {
-        "latitude": 12.0765525,
-        "longitude": 50.950176
+        "latitude": -61.248237,
+        "longitude": -133.851346
       }
     }
   },
   "items": [
     {
-      "product_id": "prd-1018",
-      "name": "Низкий Присесть",
-      "category": "🥩 Мясо, рыба, яйца и бобовые",
-      "quantity": 4,
-      "unit": "кг",
-      "price_per_unit": 240.2,
-      "total_price": 960.8,
-      "kbju": {
-        "calories": 272.9,
-        "protein": 7.8,
-        "fat": 2.3,
-        "carbohydrates": 5.3
-      },
-      "manufacturer": {
-        "name": "Ланит",
-        "country": "Россия",
-        "website": "https://rao.info",
-        "inn": "3763771194"
-      }
-    },
-    {
       "product_id": "prd-1005",
-      "name": "Уничтожение Вздрагивать",
-      "category": "🍏 Фрукты и ягоды",
-      "quantity": 1,
+      "name": "Блин Редактор",
+      "category": "🥛 Молочные продукты",
+      "quantity": 4,
       "unit": "л",
-      "price_per_unit": 207.53,
-      "total_price": 207.53,
+      "price_per_unit": 252.66,
+      "total_price": 1010.64,
       "kbju": {
-        "calories": 191.8,
-        "protein": 11.1,
-        "fat": 7.9,
-        "carbohydrates": 5.4
+        "calories": 169.1,
+        "protein": 14.6,
+        "fat": 4.1,
+        "carbohydrates": 39.8
       },
       "manufacturer": {
-        "name": "ООО «Авдеев-Медведева»",
+        "name": "ООО «Савельев»",
         "country": "Россия",
-        "website": "https://zao.com",
-        "inn": "9782693224"
+        "website": "https://vostok-zapad.biz",
+        "inn": "3880905200"
       }
     },
     {
-      "product_id": "prd-1013",
-      "name": "Роса Наткнуться",
-      "category": "🥛 Молочные продукты",
-      "quantity": 3,
+      "product_id": "prd-1007",
+      "name": "Инвалид Госпожа",
+      "category": "🥩 Мясо, рыба, яйца и бобовые",
+      "quantity": 1,
       "unit": "упаковка",
-      "price_per_unit": 39.74,
-      "total_price": 119.22,
+      "price_per_unit": 216.19,
+      "total_price": 216.19,
       "kbju": {
-        "calories": 283.8,
-        "protein": 19.2,
-        "fat": 7.6,
-        "carbohydrates": 35.6
+        "calories": 103.2,
+        "protein": 11.9,
+        "fat": 9.2,
+        "carbohydrates": 32.1
       },
       "manufacturer": {
-        "name": "АО «Потапова, Смирнова и Сазонова»",
+        "name": "НПО «Мельникова-Юдина»",
         "country": "Россия",
-        "website": "https://magnit.info",
-        "inn": "3006321123"
+        "website": "https://zao.ru",
+        "inn": "8084632702"
       }
     }
   ],
-  "total_amount": 1287.55,
-  "payment_method": "card",
-  "is_delivery": true,
+  "total_amount": 1226.83,
+  "payment_method": "cash",
+  "is_delivery": false,
   "delivery_address": {
     "country": "Россия",
-    "city": "д. Сковородино",
-    "street": "бул. 50 лет ВЛКСМ",
-    "house": "17",
-    "apartment": "37",
-    "postal_code": "072988"
+    "city": "ст. Тольятти",
+    "street": "алл. Парижской Коммуны",
+    "house": "329",
+    "apartment": "3",
+    "postal_code": "022629"
   },
-  "purchase_datetime": "2025-09-11T19:57:10.980856"
+  "purchase_datetime": "2025-07-09T13:42:39.544409"
 }

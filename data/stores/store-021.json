@@ -1,6 +1,6 @@
 {
   "store_id": "store-021",
-  "store_name": "Большая Пикча — Магазин на ш. Мусы Джалиля",
+  "store_name": "Большая Пикча — Магазин на ул. Транспортная",
   "store_network": "Большая Пикча",
   "store_type_description": "Супермаркет более 200 кв.м. Входит в сеть из 30 магазинов.",
   "type": "offline",
@@ -12,19 +12,19 @@
     "🥦 Овощи и зелень"
   ],
   "manager": {
-    "name": "Елизавета Владимировна Сазонова",
-    "phone": "81270892337",
-    "email": "arhipbobilev@example.com"
+    "name": "Антонина Андреевна Лыткина",
+    "phone": "84992919745",
+    "email": "sazonovafevronija@example.net"
   },
   "location": {
     "country": "Россия",
-    "city": "п. Ноглики",
-    "street": "пер. Просвещения",
-    "house": "846",
-    "postal_code": "673348",
+    "city": "г. Туапсе",
+    "street": "наб. 50 лет Октября",
+    "house": "1",
+    "postal_code": "624695",
     "coordinates": {
-      "latitude": 68.9485715,
-      "longitude": -158.508773
+      "latitude": 68.5175565,
+      "longitude": 142.387674
     }
   },
   "opening_hours": {
@@ -35,5 +35,5 @@
   "accepts_online_orders": true,
   "delivery_available": true,
   "warehouse_connected": true,
-  "last_inventory_date": "2025-09-23"
+  "last_inventory_date": "2025-09-24"
 }

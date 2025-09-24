@@ -1,63 +1,63 @@
 {
   "purchase_id": "ord-00155",
   "customer": {
-    "customer_id": "cus-1037",
-    "first_name": "Ювеналий",
-    "last_name": "Хохлов",
-    "email": "djachkovapolina@example.net",
-    "phone": "82971596132",
+    "customer_id": "cus-1044",
+    "first_name": "Парфен",
+    "last_name": "Данилов",
+    "email": "angelina2012@example.net",
+    "phone": "+7 (210) 244-1602",
     "is_loyalty_member": true,
-    "loyalty_card_number": "LOYAL-733B019E68"
+    "loyalty_card_number": "LOYAL-3D67D58F4B"
   },
   "store": {
-    "store_id": "store-025",
-    "store_name": "Большая Пикча — Магазин на ул. Максима Горького",
-    "store_network": "Большая Пикча",
+    "store_id": "store-033",
+    "store_name": "Маленькая Пикча — Магазин на ш. Геологическое",
+    "store_network": "Маленькая Пикча",
     "location": {
       "country": "Россия",
-      "city": "п. Вязьма",
-      "street": "пр. Энергетиков",
-      "house": "3/8",
-      "postal_code": "499052",
+      "city": "г. Корсаков",
+      "street": "наб. Толбухина",
+      "house": "238",
+      "postal_code": "443125",
       "coordinates": {
-        "latitude": -21.8330225,
-        "longitude": 32.3017
+        "latitude": 83.8197755,
+        "longitude": -109.403892
       }
     }
   },
   "items": [
     {
-      "product_id": "prd-1007",
-      "name": "Штаб Приличный",
-      "category": "🍏 Фрукты и ягоды",
-      "quantity": 4,
-      "unit": "кг",
-      "price_per_unit": 196.88,
-      "total_price": 787.52,
+      "product_id": "prd-1014",
+      "name": "Господь Падаль",
+      "category": "🥦 Овощи и зелень",
+      "quantity": 5,
+      "unit": "л",
+      "price_per_unit": 222.18,
+      "total_price": 1110.9,
       "kbju": {
-        "calories": 164.9,
-        "protein": 16.7,
-        "fat": 3.6,
-        "carbohydrates": 31.4
+        "calories": 191.4,
+        "protein": 12.2,
+        "fat": 4.5,
+        "carbohydrates": 5.2
       },
       "manufacturer": {
-        "name": "СДС-Уголь",
+        "name": "ИП «Афанасьев, Щербаков и Пахомова»",
         "country": "Россия",
-        "website": "https://npo.ru",
-        "inn": "9854590544"
+        "website": "https://oao.biz",
+        "inn": "7090374985"
       }
     }
   ],
-  "total_amount": 787.52,
+  "total_amount": 1110.9,
   "payment_method": "cash",
-  "is_delivery": false,
+  "is_delivery": true,
   "delivery_address": {
     "country": "Россия",
-    "city": "д. Терней",
-    "street": "алл. Крупской",
-    "house": "8",
-    "apartment": "97",
-    "postal_code": "943074"
+    "city": "с. Тымовское",
+    "street": "пер. Невского",
+    "house": "247",
+    "apartment": "36",
+    "postal_code": "490798"
   },
-  "purchase_datetime": "2025-06-25T19:57:11.027350"
+  "purchase_datetime": "2025-09-23T13:42:39.581259"
 }

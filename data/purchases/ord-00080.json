@@ -1,63 +1,63 @@
 {
   "purchase_id": "ord-00080",
   "customer": {
-    "customer_id": "cus-1012",
-    "first_name": "Тит",
-    "last_name": "Максимов",
-    "email": "tsvetkovkim@example.com",
-    "phone": "+7 307 933 6870",
+    "customer_id": "cus-1039",
+    "first_name": "Панкрат",
+    "last_name": "Рожков",
+    "email": "evgeni2014@example.com",
+    "phone": "8 918 523 8162",
     "is_loyalty_member": true,
-    "loyalty_card_number": "LOYAL-F303593AAF"
+    "loyalty_card_number": "LOYAL-13098029BA"
   },
   "store": {
-    "store_id": "store-021",
-    "store_name": "Большая Пикча — Магазин на ш. Мусы Джалиля",
+    "store_id": "store-007",
+    "store_name": "Большая Пикча — Магазин на наб. Горького",
     "store_network": "Большая Пикча",
     "location": {
       "country": "Россия",
-      "city": "п. Ноглики",
-      "street": "пер. Просвещения",
-      "house": "846",
-      "postal_code": "673348",
+      "city": "ст. Избербаш",
+      "street": "пр. 9 мая",
+      "house": "78",
+      "postal_code": "920515",
       "coordinates": {
-        "latitude": 68.9485715,
-        "longitude": -158.508773
+        "latitude": 62.470896,
+        "longitude": -74.740492
       }
     }
   },
   "items": [
     {
-      "product_id": "prd-1015",
-      "name": "Войти Приходить",
-      "category": "🥛 Молочные продукты",
+      "product_id": "prd-1002",
+      "name": "Издали Перебивать",
+      "category": "🥩 Мясо, рыба, яйца и бобовые",
       "quantity": 5,
-      "unit": "шт",
-      "price_per_unit": 92.89,
-      "total_price": 464.45,
+      "unit": "упаковка",
+      "price_per_unit": 61.88,
+      "total_price": 309.4,
       "kbju": {
-        "calories": 297.1,
-        "protein": 17.3,
-        "fat": 7.9,
-        "carbohydrates": 24.3
+        "calories": 131.0,
+        "protein": 3.3,
+        "fat": 2.2,
+        "carbohydrates": 21.7
       },
       "manufacturer": {
-        "name": "Гришина Лтд",
+        "name": "Государственная транспортная лизинговая компания",
         "country": "Россия",
-        "website": "https://ooo.net",
-        "inn": "5499321537"
+        "website": "https://zao.org",
+        "inn": "0226529553"
       }
     }
   ],
-  "total_amount": 464.45,
-  "payment_method": "card",
+  "total_amount": 309.4,
+  "payment_method": "cash",
   "is_delivery": false,
   "delivery_address": {
     "country": "Россия",
-    "city": "д. Махачкала",
-    "street": "ул. Ручейная",
-    "house": "65",
-    "apartment": "79",
-    "postal_code": "436303"
+    "city": "клх Краснотурьинск",
+    "street": "бул. Волкова",
+    "house": "37",
+    "apartment": "44",
+    "postal_code": "402871"
   },
-  "purchase_datetime": "2025-08-23T19:57:10.988007"
+  "purchase_datetime": "2025-09-24T13:42:39.550084"
 }

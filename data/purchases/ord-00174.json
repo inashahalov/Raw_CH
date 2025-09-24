@@ -1,63 +1,84 @@
 {
   "purchase_id": "ord-00174",
   "customer": {
-    "customer_id": "cus-1034",
-    "first_name": "Флорентин",
-    "last_name": "Коновалов",
-    "email": "rostislav_29@example.net",
-    "phone": "+7 173 924 74 38",
+    "customer_id": "cus-1043",
+    "first_name": "Измаил",
+    "last_name": "Лазарева",
+    "email": "vorontsovaeleonora@example.net",
+    "phone": "+7 762 201 84 01",
     "is_loyalty_member": true,
-    "loyalty_card_number": "LOYAL-CC920C8565"
+    "loyalty_card_number": "LOYAL-176F00FF2B"
   },
   "store": {
-    "store_id": "store-007",
-    "store_name": "Большая Пикча — Магазин на ш. Придорожное",
-    "store_network": "Большая Пикча",
+    "store_id": "store-034",
+    "store_name": "Маленькая Пикча — Магазин на алл. 9 Января",
+    "store_network": "Маленькая Пикча",
     "location": {
       "country": "Россия",
-      "city": "к. Бомнак",
-      "street": "ш. Энгельса",
-      "house": "440",
-      "postal_code": "831672",
+      "city": "ст. Беслан",
+      "street": "бул. Заовражный",
+      "house": "231",
+      "postal_code": "489039",
       "coordinates": {
-        "latitude": 25.0856345,
-        "longitude": 118.498939
+        "latitude": 10.2862715,
+        "longitude": 27.561048
       }
     }
   },
   "items": [
     {
-      "product_id": "prd-1011",
-      "name": "Собеседник Цель",
-      "category": "🍏 Фрукты и ягоды",
-      "quantity": 4,
+      "product_id": "prd-1016",
+      "name": "Очередной Аллея",
+      "category": "🥖 Зерновые и хлебобулочные изделия",
+      "quantity": 3,
       "unit": "шт",
-      "price_per_unit": 109.38,
-      "total_price": 437.52,
+      "price_per_unit": 251.07,
+      "total_price": 753.21,
       "kbju": {
-        "calories": 140.7,
-        "protein": 19.6,
-        "fat": 11.8,
-        "carbohydrates": 11.5
+        "calories": 277.2,
+        "protein": 18.2,
+        "fat": 6.0,
+        "carbohydrates": 11.3
       },
       "manufacturer": {
-        "name": "Сысоев Лтд",
+        "name": "ГК Автомир",
         "country": "Россия",
-        "website": "https://ip.org",
-        "inn": "3880754993"
+        "website": "https://andreev.info",
+        "inn": "8436477835"
+      }
+    },
+    {
+      "product_id": "prd-1018",
+      "name": "Проход Запретить",
+      "category": "🍏 Фрукты и ягоды",
+      "quantity": 3,
+      "unit": "упаковка",
+      "price_per_unit": 258.84,
+      "total_price": 776.52,
+      "kbju": {
+        "calories": 254.3,
+        "protein": 10.6,
+        "fat": 7.9,
+        "carbohydrates": 9.3
+      },
+      "manufacturer": {
+        "name": "ИП «Турова, Селезнев и Жданова»",
+        "country": "Россия",
+        "website": "https://ao.com",
+        "inn": "7389660036"
       }
     }
   ],
-  "total_amount": 437.52,
-  "payment_method": "cash",
-  "is_delivery": false,
+  "total_amount": 1529.73,
+  "payment_method": "card",
+  "is_delivery": true,
   "delivery_address": {
     "country": "Россия",
-    "city": "клх Александров",
-    "street": "ул. Поперечная",
-    "house": "3/9",
-    "apartment": "58",
-    "postal_code": "321126"
+    "city": "д. Псебай",
+    "street": "пр. Мичурина",
+    "house": "313",
+    "apartment": "45",
+    "postal_code": "619059"
   },
-  "purchase_datetime": "2025-07-28T19:57:11.036988"
+  "purchase_datetime": "2025-06-27T13:42:39.590036"
 }

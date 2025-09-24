@@ -1,6 +1,6 @@
 {
   "store_id": "store-008",
-  "store_name": "Большая Пикча — Магазин на бул. Вавилова",
+  "store_name": "Большая Пикча — Магазин на алл. Снежная",
   "store_network": "Большая Пикча",
   "store_type_description": "Супермаркет более 200 кв.м. Входит в сеть из 30 магазинов.",
   "type": "offline",
@@ -12,19 +12,19 @@
     "🥦 Овощи и зелень"
   ],
   "manager": {
-    "name": "Иванна Валентиновна Овчинникова",
-    "phone": "+7 061 007 9634",
-    "email": "cheslav93@example.org"
+    "name": "Адам Архипович Суворов",
+    "phone": "+78831193158",
+    "email": "jkolesnikova@example.net"
   },
   "location": {
     "country": "Россия",
-    "city": "клх Тихвин",
-    "street": "пр. Социалистический",
-    "house": "98",
-    "postal_code": "571353",
+    "city": "ст. Тольятти",
+    "street": "ул. Нагорная",
+    "house": "6/5",
+    "postal_code": "884574",
     "coordinates": {
-      "latitude": -34.3116645,
-      "longitude": -14.210246
+      "latitude": 12.6574315,
+      "longitude": 95.917203
     }
   },
   "opening_hours": {
@@ -34,6 +34,6 @@
   },
   "accepts_online_orders": true,
   "delivery_available": true,
-  "warehouse_connected": false,
-  "last_inventory_date": "2025-09-23"
+  "warehouse_connected": true,
+  "last_inventory_date": "2025-09-24"
 }

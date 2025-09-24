@@ -1,84 +1,84 @@
 {
   "purchase_id": "ord-00046",
   "customer": {
-    "customer_id": "cus-1016",
-    "first_name": "Анна",
-    "last_name": "Самойлова",
-    "email": "shubinavksenti@example.net",
-    "phone": "8 (544) 774-4118",
+    "customer_id": "cus-1002",
+    "first_name": "Галина",
+    "last_name": "Тетерин",
+    "email": "proklterentev@example.net",
+    "phone": "82079260379",
     "is_loyalty_member": true,
-    "loyalty_card_number": "LOYAL-65D213A3F5"
+    "loyalty_card_number": "LOYAL-96EE270825"
   },
   "store": {
-    "store_id": "store-016",
-    "store_name": "Большая Пикча — Магазин на пр. Сиреневый",
-    "store_network": "Большая Пикча",
+    "store_id": "store-040",
+    "store_name": "Маленькая Пикча — Магазин на бул. Мая 1",
+    "store_network": "Маленькая Пикча",
     "location": {
       "country": "Россия",
-      "city": "д. Оренбург",
-      "street": "ул. Горная",
-      "house": "61",
-      "postal_code": "395799",
+      "city": "клх Краснотурьинск",
+      "street": "ул. 9 мая",
+      "house": "86",
+      "postal_code": "172371",
       "coordinates": {
-        "latitude": -45.4646875,
-        "longitude": -11.515672
+        "latitude": 68.233675,
+        "longitude": 149.964304
       }
     }
   },
   "items": [
     {
-      "product_id": "prd-1002",
-      "name": "Разводить Школьный",
-      "category": "🥦 Овощи и зелень",
-      "quantity": 5,
-      "unit": "л",
-      "price_per_unit": 232.4,
-      "total_price": 1162.0,
+      "product_id": "prd-1000",
+      "name": "Жестокий Очередной",
+      "category": "🥛 Молочные продукты",
+      "quantity": 2,
+      "unit": "кг",
+      "price_per_unit": 286.95,
+      "total_price": 573.9,
       "kbju": {
-        "calories": 276.5,
-        "protein": 15.9,
-        "fat": 7.0,
-        "carbohydrates": 4.4
+        "calories": 269.3,
+        "protein": 18.8,
+        "fat": 6.7,
+        "carbohydrates": 25.1
       },
       "manufacturer": {
-        "name": "ОАО «Туров, Горбунова и Галкина»",
+        "name": "ОАО «Веселова Крылова»",
         "country": "Россия",
-        "website": "https://oao.com",
-        "inn": "7774237965"
+        "website": "https://alekseeva.com",
+        "inn": "3586308951"
       }
     },
     {
-      "product_id": "prd-1011",
-      "name": "Собеседник Цель",
+      "product_id": "prd-1018",
+      "name": "Проход Запретить",
       "category": "🍏 Фрукты и ягоды",
       "quantity": 2,
-      "unit": "шт",
-      "price_per_unit": 109.38,
-      "total_price": 218.76,
+      "unit": "упаковка",
+      "price_per_unit": 258.84,
+      "total_price": 517.68,
       "kbju": {
-        "calories": 140.7,
-        "protein": 19.6,
-        "fat": 11.8,
-        "carbohydrates": 11.5
+        "calories": 254.3,
+        "protein": 10.6,
+        "fat": 7.9,
+        "carbohydrates": 9.3
       },
       "manufacturer": {
-        "name": "Сысоев Лтд",
+        "name": "ИП «Турова, Селезнев и Жданова»",
         "country": "Россия",
-        "website": "https://ip.org",
-        "inn": "3880754993"
+        "website": "https://ao.com",
+        "inn": "7389660036"
       }
     }
   ],
-  "total_amount": 1380.76,
+  "total_amount": 1091.58,
   "payment_method": "card",
-  "is_delivery": true,
+  "is_delivery": false,
   "delivery_address": {
     "country": "Россия",
-    "city": "ст. Любань",
-    "street": "пер. Камский",
-    "house": "974",
-    "apartment": "2",
-    "postal_code": "965257"
+    "city": "с. Южноуральск",
+    "street": "алл. Макарова",
+    "house": "2/9",
+    "apartment": "59",
+    "postal_code": "634527"
   },
-  "purchase_datetime": "2025-07-13T19:57:10.971965"
+  "purchase_datetime": "2025-09-18T13:42:39.536025"
 }

@@ -1,63 +1,105 @@
 {
   "purchase_id": "ord-00007",
   "customer": {
-    "customer_id": "cus-1041",
-    "first_name": "Нифонт",
-    "last_name": "Григорьева",
-    "email": "kononovzinovi@example.org",
-    "phone": "84135987426",
+    "customer_id": "cus-1028",
+    "first_name": "Агата",
+    "last_name": "Коновалов",
+    "email": "viktorin66@example.com",
+    "phone": "87313394695",
     "is_loyalty_member": true,
-    "loyalty_card_number": "LOYAL-DA8CFBAA69"
+    "loyalty_card_number": "LOYAL-A499338F41"
   },
   "store": {
-    "store_id": "store-039",
-    "store_name": "Маленькая Пикча — Магазин на бул. Путейский",
-    "store_network": "Маленькая Пикча",
+    "store_id": "store-022",
+    "store_name": "Большая Пикча — Магазин на пр. Астраханский",
+    "store_network": "Большая Пикча",
     "location": {
       "country": "Россия",
-      "city": "с. Жиганск",
-      "street": "наб. Советской Армии",
-      "house": "55",
-      "postal_code": "339713",
+      "city": "г. Надым",
+      "street": "ул. Николаева",
+      "house": "166",
+      "postal_code": "490188",
       "coordinates": {
-        "latitude": -41.3992205,
-        "longitude": -101.881851
+        "latitude": 46.1271665,
+        "longitude": -45.553362
       }
     }
   },
   "items": [
     {
       "product_id": "prd-1016",
-      "name": "Цвет Трубка",
+      "name": "Очередной Аллея",
       "category": "🥖 Зерновые и хлебобулочные изделия",
-      "quantity": 1,
-      "unit": "упаковка",
-      "price_per_unit": 59.3,
-      "total_price": 59.3,
+      "quantity": 5,
+      "unit": "шт",
+      "price_per_unit": 251.07,
+      "total_price": 1255.35,
       "kbju": {
-        "calories": 239.4,
-        "protein": 10.5,
-        "fat": 4.0,
-        "carbohydrates": 33.8
+        "calories": 277.2,
+        "protein": 18.2,
+        "fat": 6.0,
+        "carbohydrates": 11.3
       },
       "manufacturer": {
-        "name": "ОАО «Давыдова-Калинин»",
+        "name": "ГК Автомир",
         "country": "Россия",
-        "website": "https://zao.org",
-        "inn": "7235646922"
+        "website": "https://andreev.info",
+        "inn": "8436477835"
+      }
+    },
+    {
+      "product_id": "prd-1003",
+      "name": "Дорогой Руководитель",
+      "category": "🥦 Овощи и зелень",
+      "quantity": 1,
+      "unit": "упаковка",
+      "price_per_unit": 69.35,
+      "total_price": 69.35,
+      "kbju": {
+        "calories": 223.8,
+        "protein": 18.0,
+        "fat": 5.2,
+        "carbohydrates": 3.6
+      },
+      "manufacturer": {
+        "name": "НПО «Панова Ильина»",
+        "country": "Россия",
+        "website": "https://ooo.biz",
+        "inn": "4367291844"
+      }
+    },
+    {
+      "product_id": "prd-1010",
+      "name": "Бак Советовать",
+      "category": "🍏 Фрукты и ягоды",
+      "quantity": 5,
+      "unit": "упаковка",
+      "price_per_unit": 283.56,
+      "total_price": 1417.8,
+      "kbju": {
+        "calories": 247.4,
+        "protein": 3.4,
+        "fat": 14.4,
+        "carbohydrates": 46.0
+      },
+      "manufacturer": {
+        "name": "Гаврилова Инкорпорэйтед",
+        "country": "Россия",
+        "website": "https://ao.com",
+        "inn": "5008817113"
       }
     }
   ],
-  "total_amount": 59.3,
+  "total_amount": 2742.5,
   "payment_method": "cash",
-  "is_delivery": false,
+  "is_delivery": true,
   "delivery_address": {
     "country": "Россия",
-    "city": "г. Псков",
-    "street": "наб. Кочубея",
-    "house": "6",
-    "apartment": "65",
-    "postal_code": "944554"
+    "city": "д. Геленджик",
+    "street": "ул. Коллективная",
+    "house": "7",
+    "apartment": "81",
+    "postal_code": "259869"
   },
-  "purchase_datetime": "2025-07-23T19:57:10.954254"
+  "purchase_datetime": "2025-07-28T13:42:39.521692"
 }

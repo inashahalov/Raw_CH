@@ -1,63 +1,63 @@
 {
   "purchase_id": "ord-00183",
   "customer": {
-    "customer_id": "cus-1006",
-    "first_name": "Силантий",
-    "last_name": "Захаров",
-    "email": "kondrat1978@example.org",
-    "phone": "+70679155630",
+    "customer_id": "cus-1023",
+    "first_name": "Нина",
+    "last_name": "Субботина",
+    "email": "vsemil77@example.com",
+    "phone": "84785529018",
     "is_loyalty_member": true,
-    "loyalty_card_number": "LOYAL-C2F1903EE8"
+    "loyalty_card_number": "LOYAL-770C798FB5"
   },
   "store": {
-    "store_id": "store-044",
-    "store_name": "Маленькая Пикча — Магазин на ш. Коммунальное",
-    "store_network": "Маленькая Пикча",
+    "store_id": "store-008",
+    "store_name": "Большая Пикча — Магазин на алл. Снежная",
+    "store_network": "Большая Пикча",
     "location": {
       "country": "Россия",
-      "city": "ст. Богучар",
-      "street": "алл. Серова",
-      "house": "68",
-      "postal_code": "716553",
+      "city": "ст. Тольятти",
+      "street": "ул. Нагорная",
+      "house": "6/5",
+      "postal_code": "884574",
       "coordinates": {
-        "latitude": 67.2944965,
-        "longitude": 21.005267
+        "latitude": 12.6574315,
+        "longitude": 95.917203
       }
     }
   },
   "items": [
     {
-      "product_id": "prd-1006",
-      "name": "Мелькнуть Сбросить",
-      "category": "🍏 Фрукты и ягоды",
-      "quantity": 2,
-      "unit": "кг",
-      "price_per_unit": 251.59,
-      "total_price": 503.18,
+      "product_id": "prd-1016",
+      "name": "Очередной Аллея",
+      "category": "🥖 Зерновые и хлебобулочные изделия",
+      "quantity": 4,
+      "unit": "шт",
+      "price_per_unit": 251.07,
+      "total_price": 1004.28,
       "kbju": {
-        "calories": 208.0,
-        "protein": 7.1,
-        "fat": 7.6,
-        "carbohydrates": 15.3
+        "calories": 277.2,
+        "protein": 18.2,
+        "fat": 6.0,
+        "carbohydrates": 11.3
       },
       "manufacturer": {
-        "name": "ИП «Киселев Комарова»",
+        "name": "ГК Автомир",
         "country": "Россия",
-        "website": "https://turova.info",
-        "inn": "8487805184"
+        "website": "https://andreev.info",
+        "inn": "8436477835"
       }
     }
   ],
-  "total_amount": 503.18,
-  "payment_method": "cash",
+  "total_amount": 1004.28,
+  "payment_method": "card",
   "is_delivery": true,
   "delivery_address": {
     "country": "Россия",
-    "city": "к. Бомнак",
-    "street": "алл. 30 лет Победы",
-    "house": "53",
-    "apartment": "61",
-    "postal_code": "233514"
+    "city": "к. Кыштым",
+    "street": "ул. Заводская",
+    "house": "7",
+    "apartment": "100",
+    "postal_code": "093476"
   },
-  "purchase_datetime": "2025-07-22T19:57:11.041290"
+  "purchase_datetime": "2025-08-30T13:42:39.593422"
 }

@@ -1,105 +1,105 @@
 {
   "purchase_id": "ord-00089",
   "customer": {
-    "customer_id": "cus-1011",
-    "first_name": "Аркадий",
-    "last_name": "Беляков",
-    "email": "mir_2021@example.net",
-    "phone": "8 (459) 651-56-98",
+    "customer_id": "cus-1020",
+    "first_name": "Любим",
+    "last_name": "Лаврентьева",
+    "email": "jmamontova@example.org",
+    "phone": "+7 (498) 192-45-44",
     "is_loyalty_member": true,
-    "loyalty_card_number": "LOYAL-7E0D508BB5"
+    "loyalty_card_number": "LOYAL-532E07D3D0"
   },
   "store": {
-    "store_id": "store-038",
-    "store_name": "Маленькая Пикча — Магазин на бул. Папанина",
-    "store_network": "Маленькая Пикча",
+    "store_id": "store-003",
+    "store_name": "Большая Пикча — Магазин на алл. Никитина",
+    "store_network": "Большая Пикча",
     "location": {
       "country": "Россия",
-      "city": "д. Терней",
-      "street": "наб. Флотская",
-      "house": "634",
-      "postal_code": "144849",
+      "city": "с. Южноуральск",
+      "street": "пер. Угловой",
+      "house": "9/6",
+      "postal_code": "307884",
       "coordinates": {
-        "latitude": -24.7418805,
-        "longitude": -175.888895
+        "latitude": -64.2331935,
+        "longitude": -32.587304
       }
     }
   },
   "items": [
     {
-      "product_id": "prd-1017",
-      "name": "Неожиданный Эпоха",
+      "product_id": "prd-1001",
+      "name": "Механический Намерение",
       "category": "🥦 Овощи и зелень",
-      "quantity": 1,
+      "quantity": 3,
       "unit": "упаковка",
-      "price_per_unit": 187.0,
-      "total_price": 187.0,
+      "price_per_unit": 66.91,
+      "total_price": 200.73,
       "kbju": {
-        "calories": 291.5,
-        "protein": 6.8,
-        "fat": 3.0,
-        "carbohydrates": 7.4
+        "calories": 139.2,
+        "protein": 6.1,
+        "fat": 13.3,
+        "carbohydrates": 35.9
       },
       "manufacturer": {
-        "name": "ЗАО «Сафонова Ларионова»",
+        "name": "ООО «Костина, Панов и Фомичева»",
         "country": "Россия",
-        "website": "https://ao.org",
-        "inn": "0841571264"
+        "website": "https://gsl.biz",
+        "inn": "1159800180"
       }
     },
     {
-      "product_id": "prd-1007",
-      "name": "Штаб Приличный",
+      "product_id": "prd-1010",
+      "name": "Бак Советовать",
       "category": "🍏 Фрукты и ягоды",
-      "quantity": 4,
-      "unit": "кг",
-      "price_per_unit": 196.88,
-      "total_price": 787.52,
+      "quantity": 5,
+      "unit": "упаковка",
+      "price_per_unit": 283.56,
+      "total_price": 1417.8,
       "kbju": {
-        "calories": 164.9,
-        "protein": 16.7,
-        "fat": 3.6,
-        "carbohydrates": 31.4
+        "calories": 247.4,
+        "protein": 3.4,
+        "fat": 14.4,
+        "carbohydrates": 46.0
       },
       "manufacturer": {
-        "name": "СДС-Уголь",
+        "name": "Гаврилова Инкорпорэйтед",
         "country": "Россия",
-        "website": "https://npo.ru",
-        "inn": "9854590544"
+        "website": "https://ao.com",
+        "inn": "5008817113"
       }
     },
     {
-      "product_id": "prd-1009",
-      "name": "Заложить Спасть",
-      "category": "🥩 Мясо, рыба, яйца и бобовые",
-      "quantity": 4,
+      "product_id": "prd-1016",
+      "name": "Очередной Аллея",
+      "category": "🥖 Зерновые и хлебобулочные изделия",
+      "quantity": 3,
       "unit": "шт",
-      "price_per_unit": 101.66,
-      "total_price": 406.64,
+      "price_per_unit": 251.07,
+      "total_price": 753.21,
       "kbju": {
-        "calories": 246.3,
-        "protein": 19.8,
-        "fat": 4.3,
-        "carbohydrates": 48.1
+        "calories": 277.2,
+        "protein": 18.2,
+        "fat": 6.0,
+        "carbohydrates": 11.3
       },
       "manufacturer": {
-        "name": "НПО «Наумова»",
+        "name": "ГК Автомир",
         "country": "Россия",
-        "website": "https://rao.biz",
-        "inn": "4508864986"
+        "website": "https://andreev.info",
+        "inn": "8436477835"
       }
     }
   ],
-  "total_amount": 1381.16,
+  "total_amount": 2371.74,
   "payment_method": "cash",
   "is_delivery": true,
   "delivery_address": {
     "country": "Россия",
-    "city": "ст. Валдай",
-    "street": "пер. Луговой",
-    "house": "322",
-    "apartment": "50",
-    "postal_code": "969455"
+    "city": "г. Туапсе",
+    "street": "бул. Шевченко",
+    "house": "8",
+    "apartment": "54",
+    "postal_code": "711089"
   },
-  "purchase_datetime": "2025-08-11T19:57:10.991948"
+  "purchase_datetime": "2025-07-23T13:42:39.554072"
 }

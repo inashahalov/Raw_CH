@@ -1,84 +1,105 @@
 {
   "purchase_id": "ord-00152",
   "customer": {
-    "customer_id": "cus-1028",
-    "first_name": "Наталья",
-    "last_name": "Гришина",
-    "email": "nikolabeljaev@example.com",
-    "phone": "85864483021",
+    "customer_id": "cus-1032",
+    "first_name": "Богдан",
+    "last_name": "Евдокимова",
+    "email": "ilarion1993@example.com",
+    "phone": "+7 (898) 210-20-94",
     "is_loyalty_member": true,
-    "loyalty_card_number": "LOYAL-EF32AE8CAA"
+    "loyalty_card_number": "LOYAL-89E91A1521"
   },
   "store": {
-    "store_id": "store-023",
-    "store_name": "Большая Пикча — Магазин на алл. Московская",
+    "store_id": "store-005",
+    "store_name": "Большая Пикча — Магазин на бул. Волочаевский",
     "store_network": "Большая Пикча",
     "location": {
       "country": "Россия",
-      "city": "к. Красногорск (Моск.)",
-      "street": "бул. Бабушкина",
-      "house": "74",
-      "postal_code": "103606",
+      "city": "к. Краснотурьинск",
+      "street": "бул. Л.Толстого",
+      "house": "1",
+      "postal_code": "760635",
       "coordinates": {
-        "latitude": -72.0031925,
-        "longitude": -94.798688
+        "latitude": 47.398162,
+        "longitude": 81.958454
       }
     }
   },
   "items": [
     {
-      "product_id": "prd-1008",
-      "name": "Фонарик Успокоиться",
-      "category": "🥖 Зерновые и хлебобулочные изделия",
-      "quantity": 5,
-      "unit": "упаковка",
-      "price_per_unit": 73.43,
-      "total_price": 367.15,
+      "product_id": "prd-1005",
+      "name": "Блин Редактор",
+      "category": "🥛 Молочные продукты",
+      "quantity": 1,
+      "unit": "л",
+      "price_per_unit": 252.66,
+      "total_price": 252.66,
       "kbju": {
-        "calories": 92.6,
-        "protein": 18.4,
-        "fat": 11.5,
-        "carbohydrates": 24.8
+        "calories": 169.1,
+        "protein": 14.6,
+        "fat": 4.1,
+        "carbohydrates": 39.8
       },
       "manufacturer": {
-        "name": "ООО «Денисов, Щукина и Гришин»",
+        "name": "ООО «Савельев»",
         "country": "Россия",
-        "website": "https://kozlova.org",
-        "inn": "3531459365"
+        "website": "https://vostok-zapad.biz",
+        "inn": "3880905200"
       }
     },
     {
-      "product_id": "prd-1006",
-      "name": "Мелькнуть Сбросить",
-      "category": "🍏 Фрукты и ягоды",
-      "quantity": 1,
-      "unit": "кг",
-      "price_per_unit": 251.59,
-      "total_price": 251.59,
+      "product_id": "prd-1012",
+      "name": "Полюбить Прошептать",
+      "category": "🥛 Молочные продукты",
+      "quantity": 2,
+      "unit": "л",
+      "price_per_unit": 179.33,
+      "total_price": 358.66,
       "kbju": {
-        "calories": 208.0,
-        "protein": 7.1,
-        "fat": 7.6,
-        "carbohydrates": 15.3
+        "calories": 251.8,
+        "protein": 19.3,
+        "fat": 14.3,
+        "carbohydrates": 22.3
       },
       "manufacturer": {
-        "name": "ИП «Киселев Комарова»",
+        "name": "ИП «Шарова»",
         "country": "Россия",
-        "website": "https://turova.info",
-        "inn": "8487805184"
+        "website": "https://ip.ru",
+        "inn": "2195881079"
+      }
+    },
+    {
+      "product_id": "prd-1013",
+      "name": "Коммунизм Полевой",
+      "category": "🥖 Зерновые и хлебобулочные изделия",
+      "quantity": 3,
+      "unit": "кг",
+      "price_per_unit": 155.06,
+      "total_price": 465.18,
+      "kbju": {
+        "calories": 292.6,
+        "protein": 2.6,
+        "fat": 6.2,
+        "carbohydrates": 4.1
+      },
+      "manufacturer": {
+        "name": "АО «Абрамов»",
+        "country": "Россия",
+        "website": "https://ip.org",
+        "inn": "8372516031"
       }
     }
   ],
-  "total_amount": 618.74,
+  "total_amount": 1076.5,
   "payment_method": "cash",
   "is_delivery": true,
   "delivery_address": {
     "country": "Россия",
-    "city": "клх Галич",
-    "street": "алл. Логовая",
-    "house": "95",
+    "city": "г. Корсаков",
+    "street": "бул. Горный",
+    "house": "726",
     "apartment": "14",
-    "postal_code": "862953"
+    "postal_code": "983714"
   },
-  "purchase_datetime": "2025-07-24T19:57:11.025910"
+  "purchase_datetime": "2025-09-17T13:42:39.579459"
 }

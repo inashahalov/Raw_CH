@@ -1,63 +1,63 @@
 {
   "purchase_id": "ord-00002",
   "customer": {
-    "customer_id": "cus-1012",
-    "first_name": "Тит",
-    "last_name": "Максимов",
-    "email": "tsvetkovkim@example.com",
-    "phone": "+7 307 933 6870",
+    "customer_id": "cus-1026",
+    "first_name": "Прасковья",
+    "last_name": "Афанасьев",
+    "email": "vladimir_2020@example.net",
+    "phone": "+7 (333) 227-54-90",
     "is_loyalty_member": true,
-    "loyalty_card_number": "LOYAL-F303593AAF"
+    "loyalty_card_number": "LOYAL-6DF214DEDC"
   },
   "store": {
-    "store_id": "store-008",
-    "store_name": "Большая Пикча — Магазин на бул. Вавилова",
+    "store_id": "store-018",
+    "store_name": "Большая Пикча — Магазин на алл. Томская",
     "store_network": "Большая Пикча",
     "location": {
       "country": "Россия",
-      "city": "клх Тихвин",
-      "street": "пр. Социалистический",
-      "house": "98",
-      "postal_code": "571353",
+      "city": "г. Раменское",
+      "street": "ш. Совхозное",
+      "house": "6/4",
+      "postal_code": "304111",
       "coordinates": {
-        "latitude": -34.3116645,
-        "longitude": -14.210246
+        "latitude": -73.476612,
+        "longitude": -129.65665
       }
     }
   },
   "items": [
     {
-      "product_id": "prd-1019",
-      "name": "Адвокат Другой",
+      "product_id": "prd-1006",
+      "name": "Витрина Лапа",
       "category": "🥦 Овощи и зелень",
-      "quantity": 2,
-      "unit": "шт",
-      "price_per_unit": 43.3,
-      "total_price": 86.6,
+      "quantity": 4,
+      "unit": "л",
+      "price_per_unit": 197.14,
+      "total_price": 788.56,
       "kbju": {
-        "calories": 77.7,
-        "protein": 13.9,
-        "fat": 10.1,
-        "carbohydrates": 22.7
+        "calories": 159.3,
+        "protein": 17.1,
+        "fat": 8.9,
+        "carbohydrates": 42.8
       },
       "manufacturer": {
-        "name": "Чернова Групп",
+        "name": "ООО «Ширяева Матвеев»",
         "country": "Россия",
-        "website": "https://belozerova.com",
-        "inn": "4723890506"
+        "website": "https://rao.biz",
+        "inn": "8993676224"
       }
     }
   ],
-  "total_amount": 86.6,
+  "total_amount": 788.56,
   "payment_method": "cash",
-  "is_delivery": false,
+  "is_delivery": true,
   "delivery_address": {
     "country": "Россия",
-    "city": "д. Махачкала",
-    "street": "ул. Ручейная",
-    "house": "65",
-    "apartment": "79",
-    "postal_code": "436303"
+    "city": "п. Наро-Фоминск",
+    "street": "бул. Белорусский",
+    "house": "700",
+    "apartment": "23",
+    "postal_code": "599541"
   },
-  "purchase_datetime": "2025-06-28T19:57:10.951996"
+  "purchase_datetime": "2025-08-28T13:42:39.519554"
 }

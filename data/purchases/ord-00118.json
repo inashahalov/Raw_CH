@@ -1,63 +1,84 @@
 {
   "purchase_id": "ord-00118",
   "customer": {
-    "customer_id": "cus-1027",
-    "first_name": "Тамара",
-    "last_name": "Щукин",
-    "email": "ostromirbelov@example.net",
-    "phone": "+7 995 583 6738",
+    "customer_id": "cus-1044",
+    "first_name": "Парфен",
+    "last_name": "Данилов",
+    "email": "angelina2012@example.net",
+    "phone": "+7 (210) 244-1602",
     "is_loyalty_member": true,
-    "loyalty_card_number": "LOYAL-266038E03B"
+    "loyalty_card_number": "LOYAL-3D67D58F4B"
   },
   "store": {
-    "store_id": "store-018",
-    "store_name": "Большая Пикча — Магазин на пер. З.Космодемьянской",
+    "store_id": "store-001",
+    "store_name": "Большая Пикча — Магазин на бул. Колхозный",
     "store_network": "Большая Пикча",
     "location": {
       "country": "Россия",
-      "city": "к. Минеральные Воды",
-      "street": "пер. Каштановый",
-      "house": "85",
-      "postal_code": "972733",
+      "city": "к. Жуковский",
+      "street": "ш. Поперечное",
+      "house": "198",
+      "postal_code": "772195",
       "coordinates": {
-        "latitude": 1.333662,
-        "longitude": -136.6214
+        "latitude": -80.495473,
+        "longitude": 41.675442
       }
     }
   },
   "items": [
     {
-      "product_id": "prd-1017",
-      "name": "Неожиданный Эпоха",
-      "category": "🥦 Овощи и зелень",
+      "product_id": "prd-1007",
+      "name": "Инвалид Госпожа",
+      "category": "🥩 Мясо, рыба, яйца и бобовые",
       "quantity": 5,
       "unit": "упаковка",
-      "price_per_unit": 187.0,
-      "total_price": 935.0,
+      "price_per_unit": 216.19,
+      "total_price": 1080.95,
       "kbju": {
-        "calories": 291.5,
-        "protein": 6.8,
-        "fat": 3.0,
-        "carbohydrates": 7.4
+        "calories": 103.2,
+        "protein": 11.9,
+        "fat": 9.2,
+        "carbohydrates": 32.1
       },
       "manufacturer": {
-        "name": "ЗАО «Сафонова Ларионова»",
+        "name": "НПО «Мельникова-Юдина»",
         "country": "Россия",
-        "website": "https://ao.org",
-        "inn": "0841571264"
+        "website": "https://zao.ru",
+        "inn": "8084632702"
+      }
+    },
+    {
+      "product_id": "prd-1010",
+      "name": "Бак Советовать",
+      "category": "🍏 Фрукты и ягоды",
+      "quantity": 3,
+      "unit": "упаковка",
+      "price_per_unit": 283.56,
+      "total_price": 850.68,
+      "kbju": {
+        "calories": 247.4,
+        "protein": 3.4,
+        "fat": 14.4,
+        "carbohydrates": 46.0
+      },
+      "manufacturer": {
+        "name": "Гаврилова Инкорпорэйтед",
+        "country": "Россия",
+        "website": "https://ao.com",
+        "inn": "5008817113"
       }
     }
   ],
-  "total_amount": 935.0,
+  "total_amount": 1931.63,
   "payment_method": "cash",
   "is_delivery": false,
   "delivery_address": {
     "country": "Россия",
-    "city": "ст. Карталы",
-    "street": "пр. Репина",
-    "house": "83",
-    "apartment": "19",
-    "postal_code": "029613"
+    "city": "с. Тымовское",
+    "street": "пер. Невского",
+    "house": "247",
+    "apartment": "36",
+    "postal_code": "490798"
   },
-  "purchase_datetime": "2025-07-04T19:57:11.009491"
+  "purchase_datetime": "2025-08-09T13:42:39.565306"
 }

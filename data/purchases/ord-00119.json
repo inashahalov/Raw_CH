@@ -1,105 +1,105 @@
 {
   "purchase_id": "ord-00119",
   "customer": {
-    "customer_id": "cus-1012",
-    "first_name": "Тит",
-    "last_name": "Максимов",
-    "email": "tsvetkovkim@example.com",
-    "phone": "+7 307 933 6870",
+    "customer_id": "cus-1036",
+    "first_name": "Ким",
+    "last_name": "Егорова",
+    "email": "drozdovprohor@example.org",
+    "phone": "+7 (091) 539-70-91",
     "is_loyalty_member": true,
-    "loyalty_card_number": "LOYAL-F303593AAF"
+    "loyalty_card_number": "LOYAL-BDFDF76BEE"
   },
   "store": {
-    "store_id": "store-017",
-    "store_name": "Большая Пикча — Магазин на наб. Терешковой",
+    "store_id": "store-021",
+    "store_name": "Большая Пикча — Магазин на ул. Транспортная",
     "store_network": "Большая Пикча",
     "location": {
       "country": "Россия",
-      "city": "ст. Любань",
-      "street": "пер. Есенина",
-      "house": "255",
-      "postal_code": "515675",
+      "city": "г. Туапсе",
+      "street": "наб. 50 лет Октября",
+      "house": "1",
+      "postal_code": "624695",
       "coordinates": {
-        "latitude": -40.8579335,
-        "longitude": 15.399726
+        "latitude": 68.5175565,
+        "longitude": 142.387674
       }
     }
   },
   "items": [
     {
-      "product_id": "prd-1014",
-      "name": "Сустав Совещание",
+      "product_id": "prd-1017",
+      "name": "Сутки Покидать",
+      "category": "🥩 Мясо, рыба, яйца и бобовые",
+      "quantity": 3,
+      "unit": "кг",
+      "price_per_unit": 240.7,
+      "total_price": 722.1,
+      "kbju": {
+        "calories": 208.1,
+        "protein": 11.4,
+        "fat": 6.1,
+        "carbohydrates": 10.1
+      },
+      "manufacturer": {
+        "name": "ЗАО «Стрелков Журавлева»",
+        "country": "Россия",
+        "website": "https://ooo.com",
+        "inn": "4048587161"
+      }
+    },
+    {
+      "product_id": "prd-1006",
+      "name": "Витрина Лапа",
       "category": "🥦 Овощи и зелень",
-      "quantity": 2,
+      "quantity": 3,
       "unit": "л",
-      "price_per_unit": 148.14,
-      "total_price": 296.28,
+      "price_per_unit": 197.14,
+      "total_price": 591.42,
       "kbju": {
-        "calories": 294.0,
-        "protein": 10.9,
-        "fat": 5.7,
-        "carbohydrates": 7.8
+        "calories": 159.3,
+        "protein": 17.1,
+        "fat": 8.9,
+        "carbohydrates": 42.8
       },
       "manufacturer": {
-        "name": "ИП «Нестерова»",
+        "name": "ООО «Ширяева Матвеев»",
         "country": "Россия",
-        "website": "https://novikov.info",
-        "inn": "8559866409"
+        "website": "https://rao.biz",
+        "inn": "8993676224"
       }
     },
     {
-      "product_id": "prd-1011",
-      "name": "Собеседник Цель",
-      "category": "🍏 Фрукты и ягоды",
-      "quantity": 1,
-      "unit": "шт",
-      "price_per_unit": 109.38,
-      "total_price": 109.38,
-      "kbju": {
-        "calories": 140.7,
-        "protein": 19.6,
-        "fat": 11.8,
-        "carbohydrates": 11.5
-      },
-      "manufacturer": {
-        "name": "Сысоев Лтд",
-        "country": "Россия",
-        "website": "https://ip.org",
-        "inn": "3880754993"
-      }
-    },
-    {
-      "product_id": "prd-1010",
-      "name": "Вытаскивать Правый",
-      "category": "🥦 Овощи и зелень",
+      "product_id": "prd-1000",
+      "name": "Жестокий Очередной",
+      "category": "🥛 Молочные продукты",
       "quantity": 4,
-      "unit": "л",
-      "price_per_unit": 181.57,
-      "total_price": 726.28,
+      "unit": "кг",
+      "price_per_unit": 286.95,
+      "total_price": 1147.8,
       "kbju": {
-        "calories": 113.2,
-        "protein": 7.5,
-        "fat": 3.6,
-        "carbohydrates": 41.4
+        "calories": 269.3,
+        "protein": 18.8,
+        "fat": 6.7,
+        "carbohydrates": 25.1
       },
       "manufacturer": {
-        "name": "Сергеев Инкорпорэйтед",
+        "name": "ОАО «Веселова Крылова»",
         "country": "Россия",
-        "website": "https://zao.biz",
-        "inn": "0493815810"
+        "website": "https://alekseeva.com",
+        "inn": "3586308951"
       }
     }
   ],
-  "total_amount": 1131.94,
-  "payment_method": "cash",
-  "is_delivery": true,
+  "total_amount": 2461.32,
+  "payment_method": "card",
+  "is_delivery": false,
   "delivery_address": {
     "country": "Россия",
-    "city": "д. Махачкала",
-    "street": "ул. Ручейная",
-    "house": "65",
-    "apartment": "79",
-    "postal_code": "436303"
+    "city": "клх Биробиджан",
+    "street": "бул. Димитрова",
+    "house": "490",
+    "apartment": "100",
+    "postal_code": "621024"
   },
-  "purchase_datetime": "2025-09-13T19:57:11.009906"
+  "purchase_datetime": "2025-08-11T13:42:39.565721"
 }

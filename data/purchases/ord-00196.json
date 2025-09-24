@@ -1,84 +1,63 @@
 {
   "purchase_id": "ord-00196",
   "customer": {
-    "customer_id": "cus-1032",
-    "first_name": "Рубен",
-    "last_name": "Корнилов",
-    "email": "ynikolaeva@example.com",
-    "phone": "8 (658) 941-97-66",
+    "customer_id": "cus-1016",
+    "first_name": "Ипполит",
+    "last_name": "Гаврилов",
+    "email": "jdorofeev@example.net",
+    "phone": "+7 301 264 7844",
     "is_loyalty_member": true,
-    "loyalty_card_number": "LOYAL-5A9D83D26F"
+    "loyalty_card_number": "LOYAL-3A71946831"
   },
   "store": {
-    "store_id": "store-020",
-    "store_name": "Большая Пикча — Магазин на ш. Торговое",
+    "store_id": "store-024",
+    "store_name": "Большая Пикча — Магазин на наб. Харьковская",
     "store_network": "Большая Пикча",
     "location": {
       "country": "Россия",
-      "city": "к. Апшеронск",
-      "street": "пр. Войкова",
-      "house": "6/9",
-      "postal_code": "046873",
+      "city": "к. Кыштым",
+      "street": "пр. Луначарского",
+      "house": "969",
+      "postal_code": "152629",
       "coordinates": {
-        "latitude": -44.909337,
-        "longitude": -111.402746
+        "latitude": 46.6419795,
+        "longitude": -1.629277
       }
     }
   },
   "items": [
     {
       "product_id": "prd-1007",
-      "name": "Штаб Приличный",
-      "category": "🍏 Фрукты и ягоды",
+      "name": "Инвалид Госпожа",
+      "category": "🥩 Мясо, рыба, яйца и бобовые",
       "quantity": 5,
-      "unit": "кг",
-      "price_per_unit": 196.88,
-      "total_price": 984.4,
+      "unit": "упаковка",
+      "price_per_unit": 216.19,
+      "total_price": 1080.95,
       "kbju": {
-        "calories": 164.9,
-        "protein": 16.7,
-        "fat": 3.6,
-        "carbohydrates": 31.4
+        "calories": 103.2,
+        "protein": 11.9,
+        "fat": 9.2,
+        "carbohydrates": 32.1
       },
       "manufacturer": {
-        "name": "СДС-Уголь",
+        "name": "НПО «Мельникова-Юдина»",
         "country": "Россия",
-        "website": "https://npo.ru",
-        "inn": "9854590544"
-      }
-    },
-    {
-      "product_id": "prd-1019",
-      "name": "Адвокат Другой",
-      "category": "🥦 Овощи и зелень",
-      "quantity": 1,
-      "unit": "шт",
-      "price_per_unit": 43.3,
-      "total_price": 43.3,
-      "kbju": {
-        "calories": 77.7,
-        "protein": 13.9,
-        "fat": 10.1,
-        "carbohydrates": 22.7
-      },
-      "manufacturer": {
-        "name": "Чернова Групп",
-        "country": "Россия",
-        "website": "https://belozerova.com",
-        "inn": "4723890506"
+        "website": "https://zao.ru",
+        "inn": "8084632702"
       }
     }
   ],
-  "total_amount": 1027.7,
-  "payment_method": "card",
-  "is_delivery": true,
+  "total_amount": 1080.95,
+  "payment_method": "cash",
+  "is_delivery": false,
   "delivery_address": {
     "country": "Россия",
-    "city": "к. Комсомольск-на-Амуре",
-    "street": "ул. Гафури",
-    "house": "18",
-    "apartment": "85",
-    "postal_code": "983043"
+    "city": "с. Чусовой",
+    "street": "ул. Лесхозная",
+    "house": "4/3",
+    "apartment": "54",
+    "postal_code": "086380"
   },
-  "purchase_datetime": "2025-07-11T19:57:11.047177"
+  "purchase_datetime": "2025-09-14T13:42:39.597932"
 }

@@ -1,84 +1,63 @@
 {
   "purchase_id": "ord-00198",
   "customer": {
-    "customer_id": "cus-1036",
-    "first_name": "Ия",
-    "last_name": "Князев",
-    "email": "fadeevaaleksandra@example.org",
-    "phone": "+71282879102",
+    "customer_id": "cus-1020",
+    "first_name": "Любим",
+    "last_name": "Лаврентьева",
+    "email": "jmamontova@example.org",
+    "phone": "+7 (498) 192-45-44",
     "is_loyalty_member": true,
-    "loyalty_card_number": "LOYAL-EBB77AE969"
+    "loyalty_card_number": "LOYAL-532E07D3D0"
   },
   "store": {
-    "store_id": "store-014",
-    "store_name": "Большая Пикча — Магазин на ул. Дзержинского",
-    "store_network": "Большая Пикча",
+    "store_id": "store-038",
+    "store_name": "Маленькая Пикча — Магазин на ул. Подгорная",
+    "store_network": "Маленькая Пикча",
     "location": {
       "country": "Россия",
-      "city": "д. Энгельс",
-      "street": "пер. Лермонтова",
-      "house": "286",
-      "postal_code": "327777",
+      "city": "с. Липецк",
+      "street": "ш. Гагарина",
+      "house": "15",
+      "postal_code": "670571",
       "coordinates": {
-        "latitude": -84.1876275,
-        "longitude": 111.109438
+        "latitude": -19.9065625,
+        "longitude": 136.311862
       }
     }
   },
   "items": [
     {
-      "product_id": "prd-1011",
-      "name": "Собеседник Цель",
+      "product_id": "prd-1018",
+      "name": "Проход Запретить",
       "category": "🍏 Фрукты и ягоды",
-      "quantity": 2,
-      "unit": "шт",
-      "price_per_unit": 109.38,
-      "total_price": 218.76,
-      "kbju": {
-        "calories": 140.7,
-        "protein": 19.6,
-        "fat": 11.8,
-        "carbohydrates": 11.5
-      },
-      "manufacturer": {
-        "name": "Сысоев Лтд",
-        "country": "Россия",
-        "website": "https://ip.org",
-        "inn": "3880754993"
-      }
-    },
-    {
-      "product_id": "prd-1003",
-      "name": "Идея Вообще",
-      "category": "🍏 Фрукты и ягоды",
-      "quantity": 3,
+      "quantity": 4,
       "unit": "упаковка",
-      "price_per_unit": 270.56,
-      "total_price": 811.68,
+      "price_per_unit": 258.84,
+      "total_price": 1035.36,
       "kbju": {
-        "calories": 53.3,
-        "protein": 13.5,
-        "fat": 3.5,
-        "carbohydrates": 40.5
+        "calories": 254.3,
+        "protein": 10.6,
+        "fat": 7.9,
+        "carbohydrates": 9.3
       },
       "manufacturer": {
-        "name": "АО «Назарова»",
+        "name": "ИП «Турова, Селезнев и Жданова»",
         "country": "Россия",
-        "website": "https://oao.ru",
-        "inn": "9069795571"
+        "website": "https://ao.com",
+        "inn": "7389660036"
       }
     }
   ],
-  "total_amount": 1030.44,
+  "total_amount": 1035.36,
   "payment_method": "card",
-  "is_delivery": false,
+  "is_delivery": true,
   "delivery_address": {
     "country": "Россия",
-    "city": "клх Нягань",
-    "street": "алл. Папанина",
-    "house": "334",
-    "apartment": "32",
-    "postal_code": "506664"
+    "city": "г. Туапсе",
+    "street": "бул. Шевченко",
+    "house": "8",
+    "apartment": "54",
+    "postal_code": "711089"
   },
-  "purchase_datetime": "2025-06-25T19:57:11.048189"
+  "purchase_datetime": "2025-06-28T13:42:39.598763"
 }

@@ -2,62 +2,62 @@
   "purchase_id": "ord-00114",
   "customer": {
     "customer_id": "cus-1013",
-    "first_name": "Кирилл",
-    "last_name": "Рожков",
-    "email": "gleb74@example.net",
-    "phone": "8 (334) 633-00-91",
+    "first_name": "Самсон",
+    "last_name": "Суханов",
+    "email": "ilinaanzhela@example.net",
+    "phone": "8 (762) 433-88-02",
     "is_loyalty_member": true,
-    "loyalty_card_number": "LOYAL-055E6E6FB0"
+    "loyalty_card_number": "LOYAL-8CF44E9FE2"
   },
   "store": {
-    "store_id": "store-029",
-    "store_name": "Большая Пикча — Магазин на ш. Панфилова",
-    "store_network": "Большая Пикча",
+    "store_id": "store-034",
+    "store_name": "Маленькая Пикча — Магазин на алл. 9 Января",
+    "store_network": "Маленькая Пикча",
     "location": {
       "country": "Россия",
-      "city": "клх Галич",
-      "street": "пер. Щетинкина",
-      "house": "9/5",
-      "postal_code": "777233",
+      "city": "ст. Беслан",
+      "street": "бул. Заовражный",
+      "house": "231",
+      "postal_code": "489039",
       "coordinates": {
-        "latitude": -80.1321,
-        "longitude": 30.808882
+        "latitude": 10.2862715,
+        "longitude": 27.561048
       }
     }
   },
   "items": [
     {
-      "product_id": "prd-1012",
-      "name": "Премьера Висеть",
+      "product_id": "prd-1017",
+      "name": "Сутки Покидать",
       "category": "🥩 Мясо, рыба, яйца и бобовые",
-      "quantity": 5,
-      "unit": "л",
-      "price_per_unit": 193.21,
-      "total_price": 966.05,
+      "quantity": 1,
+      "unit": "кг",
+      "price_per_unit": 240.7,
+      "total_price": 240.7,
       "kbju": {
-        "calories": 254.5,
-        "protein": 0.8,
-        "fat": 5.6,
-        "carbohydrates": 3.1
+        "calories": 208.1,
+        "protein": 11.4,
+        "fat": 6.1,
+        "carbohydrates": 10.1
       },
       "manufacturer": {
-        "name": "АО «Ларионова, Молчанов и Ефремова»",
+        "name": "ЗАО «Стрелков Журавлева»",
         "country": "Россия",
-        "website": "https://ao.edu",
-        "inn": "3317182161"
+        "website": "https://ooo.com",
+        "inn": "4048587161"
       }
     }
   ],
-  "total_amount": 966.05,
+  "total_amount": 240.7,
   "payment_method": "card",
   "is_delivery": false,
   "delivery_address": {
     "country": "Россия",
-    "city": "д. Энгельс",
-    "street": "ш. Л.Толстого",
-    "house": "61",
-    "apartment": "39",
-    "postal_code": "533676"
+    "city": "д. Челюскин",
+    "street": "пер. Кольцова",
+    "house": "670",
+    "apartment": "31",
+    "postal_code": "961057"
   },
-  "purchase_datetime": "2025-08-15T19:57:11.007743"
+  "purchase_datetime": "2025-09-20T13:42:39.563900"
 }

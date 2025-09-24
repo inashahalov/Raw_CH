@@ -1,6 +1,6 @@
 {
   "store_id": "store-034",
-  "store_name": "Маленькая Пикча — Магазин на наб. Уральская",
+  "store_name": "Маленькая Пикча — Магазин на алл. 9 Января",
   "store_network": "Маленькая Пикча",
   "store_type_description": "Магазин у дома менее 100 кв.м. Входит в сеть из 15 магазинов.",
   "type": "offline",
@@ -12,19 +12,19 @@
     "🥦 Овощи и зелень"
   ],
   "manager": {
-    "name": "Капустина Ия Юльевна",
-    "phone": "+77139266882",
-    "email": "ljubosmisl1977@example.net"
+    "name": "Архипов Богдан Анатольевич",
+    "phone": "8 232 206 6672",
+    "email": "natanbelousov@example.com"
   },
   "location": {
     "country": "Россия",
-    "city": "с. Чусовой",
-    "street": "наб. Сплавная",
-    "house": "4/7",
-    "postal_code": "817955",
+    "city": "ст. Беслан",
+    "street": "бул. Заовражный",
+    "house": "231",
+    "postal_code": "489039",
     "coordinates": {
-      "latitude": -48.6863215,
-      "longitude": -176.05311
+      "latitude": 10.2862715,
+      "longitude": 27.561048
     }
   },
   "opening_hours": {
@@ -34,6 +34,6 @@
   },
   "accepts_online_orders": true,
   "delivery_available": true,
-  "warehouse_connected": false,
-  "last_inventory_date": "2025-09-23"
+  "warehouse_connected": true,
+  "last_inventory_date": "2025-09-24"
 }

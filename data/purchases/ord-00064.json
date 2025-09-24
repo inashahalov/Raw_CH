@@ -1,63 +1,84 @@
 {
   "purchase_id": "ord-00064",
   "customer": {
-    "customer_id": "cus-1040",
-    "first_name": "Святополк",
-    "last_name": "Туров",
-    "email": "galina48@example.net",
-    "phone": "89206249774",
+    "customer_id": "cus-1007",
+    "first_name": "Селиверст",
+    "last_name": "Шестакова",
+    "email": "adrian_1977@example.com",
+    "phone": "+7 (503) 194-5334",
     "is_loyalty_member": true,
-    "loyalty_card_number": "LOYAL-BDB77CCF0B"
+    "loyalty_card_number": "LOYAL-F9E4F0EA83"
   },
   "store": {
-    "store_id": "store-024",
-    "store_name": "Большая Пикча — Магазин на алл. 60 лет СССР",
+    "store_id": "store-009",
+    "store_name": "Большая Пикча — Магазин на пер. Аэродромный",
     "store_network": "Большая Пикча",
     "location": {
       "country": "Россия",
-      "city": "д. Сковородино",
-      "street": "бул. Инженерный",
-      "house": "5/5",
-      "postal_code": "146939",
+      "city": "г. Усть-Ишим",
+      "street": "бул. Высотный",
+      "house": "7/5",
+      "postal_code": "497524",
       "coordinates": {
-        "latitude": 12.892401,
-        "longitude": 56.364252
+        "latitude": -20.3115105,
+        "longitude": 154.51158
       }
     }
   },
   "items": [
     {
       "product_id": "prd-1013",
-      "name": "Роса Наткнуться",
-      "category": "🥛 Молочные продукты",
-      "quantity": 3,
-      "unit": "упаковка",
-      "price_per_unit": 39.74,
-      "total_price": 119.22,
+      "name": "Коммунизм Полевой",
+      "category": "🥖 Зерновые и хлебобулочные изделия",
+      "quantity": 2,
+      "unit": "кг",
+      "price_per_unit": 155.06,
+      "total_price": 310.12,
       "kbju": {
-        "calories": 283.8,
-        "protein": 19.2,
-        "fat": 7.6,
-        "carbohydrates": 35.6
+        "calories": 292.6,
+        "protein": 2.6,
+        "fat": 6.2,
+        "carbohydrates": 4.1
       },
       "manufacturer": {
-        "name": "АО «Потапова, Смирнова и Сазонова»",
+        "name": "АО «Абрамов»",
         "country": "Россия",
-        "website": "https://magnit.info",
-        "inn": "3006321123"
+        "website": "https://ip.org",
+        "inn": "8372516031"
+      }
+    },
+    {
+      "product_id": "prd-1017",
+      "name": "Сутки Покидать",
+      "category": "🥩 Мясо, рыба, яйца и бобовые",
+      "quantity": 5,
+      "unit": "кг",
+      "price_per_unit": 240.7,
+      "total_price": 1203.5,
+      "kbju": {
+        "calories": 208.1,
+        "protein": 11.4,
+        "fat": 6.1,
+        "carbohydrates": 10.1
+      },
+      "manufacturer": {
+        "name": "ЗАО «Стрелков Журавлева»",
+        "country": "Россия",
+        "website": "https://ooo.com",
+        "inn": "4048587161"
       }
     }
   ],
-  "total_amount": 119.22,
-  "payment_method": "cash",
+  "total_amount": 1513.62,
+  "payment_method": "card",
   "is_delivery": false,
   "delivery_address": {
     "country": "Россия",
-    "city": "клх Печенга",
-    "street": "пр. Горняцкий",
-    "house": "771",
-    "apartment": "11",
-    "postal_code": "066690"
+    "city": "ст. Тольятти",
+    "street": "алл. Парижской Коммуны",
+    "house": "329",
+    "apartment": "3",
+    "postal_code": "022629"
   },
-  "purchase_datetime": "2025-08-13T19:57:10.980059"
+  "purchase_datetime": "2025-07-19T13:42:39.543691"
 }

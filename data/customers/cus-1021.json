@@ -1,32 +1,32 @@
 {
   "customer_id": "cus-1021",
-  "first_name": "Геннадий",
+  "first_name": "Спиридон",
   "last_name": "Савина",
-  "email": "maksim_1981@example.org",
-  "phone": "+7 127 507 5728",
-  "birth_date": "1986-01-01",
+  "email": "konstantin98@example.net",
+  "phone": "8 952 152 46 82",
+  "birth_date": "1964-06-26",
   "gender": "male",
-  "registration_date": "2025-09-23T19:57:10.937050",
+  "registration_date": "2025-09-24T13:42:39.505634",
   "is_loyalty_member": true,
-  "loyalty_card_number": "LOYAL-E815D9C89B",
+  "loyalty_card_number": "LOYAL-F768F67A2A",
   "purchase_location": {
     "store_id": "store-022",
-    "store_name": "Большая Пикча — Магазин на пер. Дальневосточный",
+    "store_name": "Большая Пикча — Магазин на пр. Астраханский",
     "store_network": "Большая Пикча",
     "store_type_description": "Супермаркет более 200 кв.м. Входит в сеть из 30 магазинов.",
     "country": "Россия",
-    "city": "с. Сковородино",
-    "street": "пер. Лесозаводский",
-    "house": "4",
-    "postal_code": "799838"
+    "city": "г. Надым",
+    "street": "ул. Николаева",
+    "house": "166",
+    "postal_code": "490188"
   },
   "delivery_address": {
     "country": "Россия",
-    "city": "с. Сковородино",
-    "street": "алл. Коммуны",
-    "house": "67",
-    "apartment": "74",
-    "postal_code": "225952"
+    "city": "г. Надым",
+    "street": "бул. Шахтерский",
+    "house": "2/3",
+    "apartment": "10",
+    "postal_code": "178201"
   },
   "preferences": {
     "preferred_language": "ru",

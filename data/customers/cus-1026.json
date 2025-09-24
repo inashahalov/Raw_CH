@@ -1,36 +1,36 @@
 {
   "customer_id": "cus-1026",
-  "first_name": "Флорентин",
-  "last_name": "Большакова",
-  "email": "veselovnazar@example.net",
-  "phone": "8 (205) 889-0655",
-  "birth_date": "2004-12-19",
-  "gender": "female",
-  "registration_date": "2025-09-23T19:57:10.940080",
+  "first_name": "Прасковья",
+  "last_name": "Афанасьев",
+  "email": "vladimir_2020@example.net",
+  "phone": "+7 (333) 227-54-90",
+  "birth_date": "1982-11-18",
+  "gender": "male",
+  "registration_date": "2025-09-24T13:42:39.508226",
   "is_loyalty_member": true,
-  "loyalty_card_number": "LOYAL-9486E017A9",
+  "loyalty_card_number": "LOYAL-6DF214DEDC",
   "purchase_location": {
     "store_id": "store-027",
-    "store_name": "Большая Пикча — Магазин на бул. Леваневского",
+    "store_name": "Большая Пикча — Магазин на ул. Детская",
     "store_network": "Большая Пикча",
     "store_type_description": "Супермаркет более 200 кв.м. Входит в сеть из 30 магазинов.",
     "country": "Россия",
-    "city": "г. Енисейск",
-    "street": "пр. Нахимова",
-    "house": "978",
-    "postal_code": "444837"
+    "city": "п. Наро-Фоминск",
+    "street": "наб. Физкультурная",
+    "house": "92",
+    "postal_code": "043690"
   },
   "delivery_address": {
     "country": "Россия",
-    "city": "г. Енисейск",
-    "street": "бул. Советской Армии",
-    "house": "403",
-    "apartment": "86",
-    "postal_code": "074919"
+    "city": "п. Наро-Фоминск",
+    "street": "бул. Белорусский",
+    "house": "700",
+    "apartment": "23",
+    "postal_code": "599541"
   },
   "preferences": {
     "preferred_language": "ru",
-    "preferred_payment_method": "card",
+    "preferred_payment_method": "cash",
     "receive_promotions": true
   }
 }

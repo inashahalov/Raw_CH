@@ -1,84 +1,63 @@
 {
   "purchase_id": "ord-00024",
   "customer": {
-    "customer_id": "cus-1026",
-    "first_name": "Флорентин",
-    "last_name": "Большакова",
-    "email": "veselovnazar@example.net",
-    "phone": "8 (205) 889-0655",
+    "customer_id": "cus-1003",
+    "first_name": "Мефодий",
+    "last_name": "Афанасьев",
+    "email": "nadezhda_2014@example.net",
+    "phone": "83623022204",
     "is_loyalty_member": true,
-    "loyalty_card_number": "LOYAL-9486E017A9"
+    "loyalty_card_number": "LOYAL-7C90F1406F"
   },
   "store": {
-    "store_id": "store-038",
-    "store_name": "Маленькая Пикча — Магазин на бул. Папанина",
-    "store_network": "Маленькая Пикча",
+    "store_id": "store-007",
+    "store_name": "Большая Пикча — Магазин на наб. Горького",
+    "store_network": "Большая Пикча",
     "location": {
       "country": "Россия",
-      "city": "д. Терней",
-      "street": "наб. Флотская",
-      "house": "634",
-      "postal_code": "144849",
+      "city": "ст. Избербаш",
+      "street": "пр. 9 мая",
+      "house": "78",
+      "postal_code": "920515",
       "coordinates": {
-        "latitude": -24.7418805,
-        "longitude": -175.888895
+        "latitude": 62.470896,
+        "longitude": -74.740492
       }
     }
   },
   "items": [
     {
-      "product_id": "prd-1018",
-      "name": "Низкий Присесть",
-      "category": "🥩 Мясо, рыба, яйца и бобовые",
-      "quantity": 4,
-      "unit": "кг",
-      "price_per_unit": 240.2,
-      "total_price": 960.8,
-      "kbju": {
-        "calories": 272.9,
-        "protein": 7.8,
-        "fat": 2.3,
-        "carbohydrates": 5.3
-      },
-      "manufacturer": {
-        "name": "Ланит",
-        "country": "Россия",
-        "website": "https://rao.info",
-        "inn": "3763771194"
-      }
-    },
-    {
-      "product_id": "prd-1017",
-      "name": "Неожиданный Эпоха",
-      "category": "🥦 Овощи и зелень",
+      "product_id": "prd-1000",
+      "name": "Жестокий Очередной",
+      "category": "🥛 Молочные продукты",
       "quantity": 2,
-      "unit": "упаковка",
-      "price_per_unit": 187.0,
-      "total_price": 374.0,
+      "unit": "кг",
+      "price_per_unit": 286.95,
+      "total_price": 573.9,
       "kbju": {
-        "calories": 291.5,
-        "protein": 6.8,
-        "fat": 3.0,
-        "carbohydrates": 7.4
+        "calories": 269.3,
+        "protein": 18.8,
+        "fat": 6.7,
+        "carbohydrates": 25.1
       },
       "manufacturer": {
-        "name": "ЗАО «Сафонова Ларионова»",
+        "name": "ОАО «Веселова Крылова»",
         "country": "Россия",
-        "website": "https://ao.org",
-        "inn": "0841571264"
+        "website": "https://alekseeva.com",
+        "inn": "3586308951"
       }
     }
   ],
-  "total_amount": 1334.8,
+  "total_amount": 573.9,
   "payment_method": "cash",
   "is_delivery": false,
   "delivery_address": {
     "country": "Россия",
-    "city": "г. Енисейск",
-    "street": "бул. Советской Армии",
-    "house": "403",
-    "apartment": "86",
-    "postal_code": "074919"
+    "city": "к. Усолье Сибирское",
+    "street": "ул. Белорусская",
+    "house": "230",
+    "apartment": "13",
+    "postal_code": "672568"
   },
-  "purchase_datetime": "2025-07-06T19:57:10.961950"
+  "purchase_datetime": "2025-07-12T13:42:39.527476"
 }

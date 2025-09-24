@@ -1,105 +1,63 @@
 {
   "purchase_id": "ord-00165",
   "customer": {
-    "customer_id": "cus-1013",
-    "first_name": "Кирилл",
-    "last_name": "Рожков",
-    "email": "gleb74@example.net",
-    "phone": "8 (334) 633-00-91",
+    "customer_id": "cus-1032",
+    "first_name": "Богдан",
+    "last_name": "Евдокимова",
+    "email": "ilarion1993@example.com",
+    "phone": "+7 (898) 210-20-94",
     "is_loyalty_member": true,
-    "loyalty_card_number": "LOYAL-055E6E6FB0"
+    "loyalty_card_number": "LOYAL-89E91A1521"
   },
   "store": {
-    "store_id": "store-040",
-    "store_name": "Маленькая Пикча — Магазин на бул. Буденного",
+    "store_id": "store-043",
+    "store_name": "Маленькая Пикча — Магазин на бул. Менделеева",
     "store_network": "Маленькая Пикча",
     "location": {
       "country": "Россия",
-      "city": "г. Курумкан",
-      "street": "алл. Чапаева",
-      "house": "8",
-      "postal_code": "242329",
+      "city": "п. Октябрьское (Хант.)",
+      "street": "пр. Автомобилистов",
+      "house": "234",
+      "postal_code": "988843",
       "coordinates": {
-        "latitude": -50.914079,
-        "longitude": -2.513515
+        "latitude": -53.166371,
+        "longitude": 125.732211
       }
     }
   },
   "items": [
     {
-      "product_id": "prd-1013",
-      "name": "Роса Наткнуться",
+      "product_id": "prd-1012",
+      "name": "Полюбить Прошептать",
       "category": "🥛 Молочные продукты",
-      "quantity": 1,
-      "unit": "упаковка",
-      "price_per_unit": 39.74,
-      "total_price": 39.74,
+      "quantity": 3,
+      "unit": "л",
+      "price_per_unit": 179.33,
+      "total_price": 537.99,
       "kbju": {
-        "calories": 283.8,
-        "protein": 19.2,
-        "fat": 7.6,
-        "carbohydrates": 35.6
+        "calories": 251.8,
+        "protein": 19.3,
+        "fat": 14.3,
+        "carbohydrates": 22.3
       },
       "manufacturer": {
-        "name": "АО «Потапова, Смирнова и Сазонова»",
+        "name": "ИП «Шарова»",
         "country": "Россия",
-        "website": "https://magnit.info",
-        "inn": "3006321123"
-      }
-    },
-    {
-      "product_id": "prd-1004",
-      "name": "Рассуждение Боец",
-      "category": "🥩 Мясо, рыба, яйца и бобовые",
-      "quantity": 1,
-      "unit": "кг",
-      "price_per_unit": 167.58,
-      "total_price": 167.58,
-      "kbju": {
-        "calories": 270.7,
-        "protein": 8.7,
-        "fat": 11.5,
-        "carbohydrates": 1.5
-      },
-      "manufacturer": {
-        "name": "РАО «Мухина Миронов»",
-        "country": "Россия",
-        "website": "https://rao.org",
-        "inn": "9262920859"
-      }
-    },
-    {
-      "product_id": "prd-1017",
-      "name": "Неожиданный Эпоха",
-      "category": "🥦 Овощи и зелень",
-      "quantity": 4,
-      "unit": "упаковка",
-      "price_per_unit": 187.0,
-      "total_price": 748.0,
-      "kbju": {
-        "calories": 291.5,
-        "protein": 6.8,
-        "fat": 3.0,
-        "carbohydrates": 7.4
-      },
-      "manufacturer": {
-        "name": "ЗАО «Сафонова Ларионова»",
-        "country": "Россия",
-        "website": "https://ao.org",
-        "inn": "0841571264"
+        "website": "https://ip.ru",
+        "inn": "2195881079"
       }
     }
   ],
-  "total_amount": 955.32,
+  "total_amount": 537.99,
   "payment_method": "cash",
-  "is_delivery": true,
+  "is_delivery": false,
   "delivery_address": {
     "country": "Россия",
-    "city": "д. Энгельс",
-    "street": "ш. Л.Толстого",
-    "house": "61",
-    "apartment": "39",
-    "postal_code": "533676"
+    "city": "г. Корсаков",
+    "street": "бул. Горный",
+    "house": "726",
+    "apartment": "14",
+    "postal_code": "983714"
   },
-  "purchase_datetime": "2025-07-29T19:57:11.032172"
+  "purchase_datetime": "2025-09-04T13:42:39.586296"
 }

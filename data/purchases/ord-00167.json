@@ -1,105 +1,84 @@
 {
   "purchase_id": "ord-00167",
   "customer": {
-    "customer_id": "cus-1040",
-    "first_name": "Святополк",
-    "last_name": "Туров",
-    "email": "galina48@example.net",
-    "phone": "89206249774",
+    "customer_id": "cus-1020",
+    "first_name": "Любим",
+    "last_name": "Лаврентьева",
+    "email": "jmamontova@example.org",
+    "phone": "+7 (498) 192-45-44",
     "is_loyalty_member": true,
-    "loyalty_card_number": "LOYAL-BDB77CCF0B"
+    "loyalty_card_number": "LOYAL-532E07D3D0"
   },
   "store": {
-    "store_id": "store-014",
-    "store_name": "Большая Пикча — Магазин на ул. Дзержинского",
+    "store_id": "store-002",
+    "store_name": "Большая Пикча — Магазин на наб. Чапаева",
     "store_network": "Большая Пикча",
     "location": {
       "country": "Россия",
-      "city": "д. Энгельс",
-      "street": "пер. Лермонтова",
-      "house": "286",
-      "postal_code": "327777",
+      "city": "с. Октябрьский (Башк.)",
+      "street": "пер. Сурикова",
+      "house": "5/4",
+      "postal_code": "488039",
       "coordinates": {
-        "latitude": -84.1876275,
-        "longitude": 111.109438
+        "latitude": 71.932577,
+        "longitude": -66.136951
       }
     }
   },
   "items": [
     {
-      "product_id": "prd-1017",
-      "name": "Неожиданный Эпоха",
+      "product_id": "prd-1011",
+      "name": "Сверкающий Коробка",
       "category": "🥦 Овощи и зелень",
-      "quantity": 4,
-      "unit": "упаковка",
-      "price_per_unit": 187.0,
-      "total_price": 748.0,
+      "quantity": 2,
+      "unit": "шт",
+      "price_per_unit": 242.68,
+      "total_price": 485.36,
       "kbju": {
-        "calories": 291.5,
-        "protein": 6.8,
-        "fat": 3.0,
-        "carbohydrates": 7.4
+        "calories": 212.1,
+        "protein": 13.3,
+        "fat": 13.8,
+        "carbohydrates": 18.4
       },
       "manufacturer": {
-        "name": "ЗАО «Сафонова Ларионова»",
+        "name": "ЗАО «Филатова-Юдина»",
         "country": "Россия",
-        "website": "https://ao.org",
-        "inn": "0841571264"
+        "website": "https://oao.info",
+        "inn": "6258727413"
       }
     },
     {
-      "product_id": "prd-1015",
-      "name": "Войти Приходить",
-      "category": "🥛 Молочные продукты",
+      "product_id": "prd-1008",
+      "name": "Очутиться Песенка",
+      "category": "🥩 Мясо, рыба, яйца и бобовые",
       "quantity": 5,
       "unit": "шт",
-      "price_per_unit": 92.89,
-      "total_price": 464.45,
+      "price_per_unit": 248.49,
+      "total_price": 1242.45,
       "kbju": {
-        "calories": 297.1,
-        "protein": 17.3,
-        "fat": 7.9,
-        "carbohydrates": 24.3
+        "calories": 51.2,
+        "protein": 13.0,
+        "fat": 6.4,
+        "carbohydrates": 48.7
       },
       "manufacturer": {
-        "name": "Гришина Лтд",
+        "name": "Лазарева Инк",
         "country": "Россия",
-        "website": "https://ooo.net",
-        "inn": "5499321537"
-      }
-    },
-    {
-      "product_id": "prd-1007",
-      "name": "Штаб Приличный",
-      "category": "🍏 Фрукты и ягоды",
-      "quantity": 2,
-      "unit": "кг",
-      "price_per_unit": 196.88,
-      "total_price": 393.76,
-      "kbju": {
-        "calories": 164.9,
-        "protein": 16.7,
-        "fat": 3.6,
-        "carbohydrates": 31.4
-      },
-      "manufacturer": {
-        "name": "СДС-Уголь",
-        "country": "Россия",
-        "website": "https://npo.ru",
-        "inn": "9854590544"
+        "website": "https://guljaev.com",
+        "inn": "0966441801"
       }
     }
   ],
-  "total_amount": 1606.21,
+  "total_amount": 1727.81,
   "payment_method": "card",
   "is_delivery": true,
   "delivery_address": {
     "country": "Россия",
-    "city": "клх Печенга",
-    "street": "пр. Горняцкий",
-    "house": "771",
-    "apartment": "11",
-    "postal_code": "066690"
+    "city": "г. Туапсе",
+    "street": "бул. Шевченко",
+    "house": "8",
+    "apartment": "54",
+    "postal_code": "711089"
   },
-  "purchase_datetime": "2025-09-11T19:57:11.033219"
+  "purchase_datetime": "2025-07-18T13:42:39.587210"
 }

@@ -1,105 +1,63 @@
 {
   "purchase_id": "ord-00099",
   "customer": {
-    "customer_id": "cus-1008",
-    "first_name": "Корнил",
-    "last_name": "Данилова",
-    "email": "ljubim28@example.net",
-    "phone": "84143737040",
+    "customer_id": "cus-1033",
+    "first_name": "Радован",
+    "last_name": "Максимова",
+    "email": "iosif02@example.net",
+    "phone": "+7 (426) 638-65-12",
     "is_loyalty_member": true,
-    "loyalty_card_number": "LOYAL-0E9C233BA4"
+    "loyalty_card_number": "LOYAL-E8AFED5DEF"
   },
   "store": {
-    "store_id": "store-030",
-    "store_name": "Большая Пикча — Магазин на пр. Вокзальный",
-    "store_network": "Большая Пикча",
+    "store_id": "store-031",
+    "store_name": "Маленькая Пикча — Магазин на ул. Чапаева",
+    "store_network": "Маленькая Пикча",
     "location": {
       "country": "Россия",
-      "city": "к. Мытищи",
-      "street": "ул. Логовая",
-      "house": "16",
-      "postal_code": "893399",
+      "city": "ст. Инта",
+      "street": "ул. Мирная",
+      "house": "211",
+      "postal_code": "066458",
       "coordinates": {
-        "latitude": 16.415211,
-        "longitude": -101.130977
+        "latitude": -69.3461705,
+        "longitude": 140.56952
       }
     }
   },
   "items": [
     {
-      "product_id": "prd-1006",
-      "name": "Мелькнуть Сбросить",
-      "category": "🍏 Фрукты и ягоды",
-      "quantity": 1,
-      "unit": "кг",
-      "price_per_unit": 251.59,
-      "total_price": 251.59,
-      "kbju": {
-        "calories": 208.0,
-        "protein": 7.1,
-        "fat": 7.6,
-        "carbohydrates": 15.3
-      },
-      "manufacturer": {
-        "name": "ИП «Киселев Комарова»",
-        "country": "Россия",
-        "website": "https://turova.info",
-        "inn": "8487805184"
-      }
-    },
-    {
-      "product_id": "prd-1012",
-      "name": "Премьера Висеть",
+      "product_id": "prd-1015",
+      "name": "Умолять Нервно",
       "category": "🥩 Мясо, рыба, яйца и бобовые",
-      "quantity": 2,
-      "unit": "л",
-      "price_per_unit": 193.21,
-      "total_price": 386.42,
-      "kbju": {
-        "calories": 254.5,
-        "protein": 0.8,
-        "fat": 5.6,
-        "carbohydrates": 3.1
-      },
-      "manufacturer": {
-        "name": "АО «Ларионова, Молчанов и Ефремова»",
-        "country": "Россия",
-        "website": "https://ao.edu",
-        "inn": "3317182161"
-      }
-    },
-    {
-      "product_id": "prd-1007",
-      "name": "Штаб Приличный",
-      "category": "🍏 Фрукты и ягоды",
       "quantity": 1,
-      "unit": "кг",
-      "price_per_unit": 196.88,
-      "total_price": 196.88,
+      "unit": "упаковка",
+      "price_per_unit": 249.57,
+      "total_price": 249.57,
       "kbju": {
-        "calories": 164.9,
-        "protein": 16.7,
-        "fat": 3.6,
-        "carbohydrates": 31.4
+        "calories": 130.6,
+        "protein": 7.3,
+        "fat": 8.5,
+        "carbohydrates": 35.1
       },
       "manufacturer": {
-        "name": "СДС-Уголь",
+        "name": "Трофимова Лтд",
         "country": "Россия",
-        "website": "https://npo.ru",
-        "inn": "9854590544"
+        "website": "https://transkapitalbank.edu",
+        "inn": "0300157246"
       }
     }
   ],
-  "total_amount": 834.89,
+  "total_amount": 249.57,
   "payment_method": "card",
   "is_delivery": false,
   "delivery_address": {
     "country": "Россия",
-    "city": "ст. Тосно",
-    "street": "ул. Маяковского",
-    "house": "515",
-    "apartment": "67",
-    "postal_code": "862981"
+    "city": "ст. Беслан",
+    "street": "бул. Вокзальный",
+    "house": "292",
+    "apartment": "99",
+    "postal_code": "614412"
   },
-  "purchase_datetime": "2025-08-06T19:57:10.998159"
+  "purchase_datetime": "2025-06-29T13:42:39.557724"
 }

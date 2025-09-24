@@ -1,105 +1,63 @@
 {
   "purchase_id": "ord-00017",
   "customer": {
-    "customer_id": "cus-1038",
-    "first_name": "Фотий",
-    "last_name": "Александров",
-    "email": "borisovstanimir@example.net",
-    "phone": "+7 (110) 633-4695",
+    "customer_id": "cus-1023",
+    "first_name": "Нина",
+    "last_name": "Субботина",
+    "email": "vsemil77@example.com",
+    "phone": "84785529018",
     "is_loyalty_member": true,
-    "loyalty_card_number": "LOYAL-51CB82EFA1"
+    "loyalty_card_number": "LOYAL-770C798FB5"
   },
   "store": {
-    "store_id": "store-017",
-    "store_name": "Большая Пикча — Магазин на наб. Терешковой",
+    "store_id": "store-028",
+    "store_name": "Большая Пикча — Магазин на наб. Высокая",
     "store_network": "Большая Пикча",
     "location": {
       "country": "Россия",
-      "city": "ст. Любань",
-      "street": "пер. Есенина",
-      "house": "255",
-      "postal_code": "515675",
+      "city": "клх Терней",
+      "street": "ш. Майское",
+      "house": "4/6",
+      "postal_code": "740829",
       "coordinates": {
-        "latitude": -40.8579335,
-        "longitude": 15.399726
+        "latitude": 42.5208505,
+        "longitude": -137.089372
       }
     }
   },
   "items": [
     {
-      "product_id": "prd-1006",
-      "name": "Мелькнуть Сбросить",
-      "category": "🍏 Фрукты и ягоды",
-      "quantity": 2,
+      "product_id": "prd-1017",
+      "name": "Сутки Покидать",
+      "category": "🥩 Мясо, рыба, яйца и бобовые",
+      "quantity": 4,
       "unit": "кг",
-      "price_per_unit": 251.59,
-      "total_price": 503.18,
+      "price_per_unit": 240.7,
+      "total_price": 962.8,
       "kbju": {
-        "calories": 208.0,
-        "protein": 7.1,
-        "fat": 7.6,
-        "carbohydrates": 15.3
+        "calories": 208.1,
+        "protein": 11.4,
+        "fat": 6.1,
+        "carbohydrates": 10.1
       },
       "manufacturer": {
-        "name": "ИП «Киселев Комарова»",
+        "name": "ЗАО «Стрелков Журавлева»",
         "country": "Россия",
-        "website": "https://turova.info",
-        "inn": "8487805184"
-      }
-    },
-    {
-      "product_id": "prd-1019",
-      "name": "Адвокат Другой",
-      "category": "🥦 Овощи и зелень",
-      "quantity": 2,
-      "unit": "шт",
-      "price_per_unit": 43.3,
-      "total_price": 86.6,
-      "kbju": {
-        "calories": 77.7,
-        "protein": 13.9,
-        "fat": 10.1,
-        "carbohydrates": 22.7
-      },
-      "manufacturer": {
-        "name": "Чернова Групп",
-        "country": "Россия",
-        "website": "https://belozerova.com",
-        "inn": "4723890506"
-      }
-    },
-    {
-      "product_id": "prd-1010",
-      "name": "Вытаскивать Правый",
-      "category": "🥦 Овощи и зелень",
-      "quantity": 2,
-      "unit": "л",
-      "price_per_unit": 181.57,
-      "total_price": 363.14,
-      "kbju": {
-        "calories": 113.2,
-        "protein": 7.5,
-        "fat": 3.6,
-        "carbohydrates": 41.4
-      },
-      "manufacturer": {
-        "name": "Сергеев Инкорпорэйтед",
-        "country": "Россия",
-        "website": "https://zao.biz",
-        "inn": "0493815810"
+        "website": "https://ooo.com",
+        "inn": "4048587161"
       }
     }
   ],
-  "total_amount": 952.92,
+  "total_amount": 962.8,
   "payment_method": "card",
   "is_delivery": false,
   "delivery_address": {
     "country": "Россия",
-    "city": "с. Жиганск",
-    "street": "наб. Ермака",
-    "house": "9/6",
-    "apartment": "39",
-    "postal_code": "762206"
+    "city": "к. Кыштым",
+    "street": "ул. Заводская",
+    "house": "7",
+    "apartment": "100",
+    "postal_code": "093476"
   },
-  "purchase_datetime": "2025-08-25T19:57:10.958689"
+  "purchase_datetime": "2025-07-10T13:42:39.525177"
 }

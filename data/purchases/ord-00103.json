@@ -1,105 +1,84 @@
 {
   "purchase_id": "ord-00103",
   "customer": {
-    "customer_id": "cus-1000",
-    "first_name": "Лора",
-    "last_name": "Тетерин",
-    "email": "eduardpopov@example.net",
-    "phone": "+7 360 725 52 37",
+    "customer_id": "cus-1038",
+    "first_name": "Анатолий",
+    "last_name": "Комаров",
+    "email": "sila_10@example.com",
+    "phone": "+7 215 444 83 13",
     "is_loyalty_member": true,
-    "loyalty_card_number": "LOYAL-E7A3E28BE6"
+    "loyalty_card_number": "LOYAL-5E95E7F4D3"
   },
   "store": {
-    "store_id": "store-002",
-    "store_name": "Большая Пикча — Магазин на наб. Седова",
+    "store_id": "store-017",
+    "store_name": "Большая Пикча — Магазин на пр. Советский",
     "store_network": "Большая Пикча",
     "location": {
       "country": "Россия",
-      "city": "с. Одинцово",
-      "street": "наб. Пионерская",
-      "house": "619",
-      "postal_code": "379040",
+      "city": "с. Чусовой",
+      "street": "бул. Металлистов",
+      "house": "76",
+      "postal_code": "465241",
       "coordinates": {
-        "latitude": -32.252973,
-        "longitude": 15.015005
+        "latitude": -31.6654215,
+        "longitude": 32.773325
       }
     }
   },
   "items": [
     {
-      "product_id": "prd-1011",
-      "name": "Собеседник Цель",
-      "category": "🍏 Фрукты и ягоды",
+      "product_id": "prd-1004",
+      "name": "Прежний Успокоиться",
+      "category": "🥦 Овощи и зелень",
       "quantity": 1,
-      "unit": "шт",
-      "price_per_unit": 109.38,
-      "total_price": 109.38,
-      "kbju": {
-        "calories": 140.7,
-        "protein": 19.6,
-        "fat": 11.8,
-        "carbohydrates": 11.5
-      },
-      "manufacturer": {
-        "name": "Сысоев Лтд",
-        "country": "Россия",
-        "website": "https://ip.org",
-        "inn": "3880754993"
-      }
-    },
-    {
-      "product_id": "prd-1008",
-      "name": "Фонарик Успокоиться",
-      "category": "🥖 Зерновые и хлебобулочные изделия",
-      "quantity": 3,
       "unit": "упаковка",
-      "price_per_unit": 73.43,
-      "total_price": 220.29,
+      "price_per_unit": 192.71,
+      "total_price": 192.71,
       "kbju": {
-        "calories": 92.6,
-        "protein": 18.4,
-        "fat": 11.5,
-        "carbohydrates": 24.8
+        "calories": 95.9,
+        "protein": 17.1,
+        "fat": 12.1,
+        "carbohydrates": 42.3
       },
       "manufacturer": {
-        "name": "ООО «Денисов, Щукина и Гришин»",
+        "name": "АО «Русакова»",
         "country": "Россия",
-        "website": "https://kozlova.org",
-        "inn": "3531459365"
+        "website": "https://nesterova.com",
+        "inn": "3179388333"
       }
     },
     {
-      "product_id": "prd-1001",
-      "name": "Тревога Появление",
-      "category": "🥖 Зерновые и хлебобулочные изделия",
+      "product_id": "prd-1011",
+      "name": "Сверкающий Коробка",
+      "category": "🥦 Овощи и зелень",
       "quantity": 1,
       "unit": "шт",
-      "price_per_unit": 168.16,
-      "total_price": 168.16,
+      "price_per_unit": 242.68,
+      "total_price": 242.68,
       "kbju": {
-        "calories": 205.2,
-        "protein": 13.4,
-        "fat": 1.1,
-        "carbohydrates": 43.2
+        "calories": 212.1,
+        "protein": 13.3,
+        "fat": 13.8,
+        "carbohydrates": 18.4
       },
       "manufacturer": {
-        "name": "ОАО «Селезнева Турова»",
+        "name": "ЗАО «Филатова-Юдина»",
         "country": "Россия",
-        "website": "https://panfilov.net",
-        "inn": "5790638925"
+        "website": "https://oao.info",
+        "inn": "6258727413"
       }
     }
   ],
-  "total_amount": 497.83,
-  "payment_method": "cash",
+  "total_amount": 435.39,
+  "payment_method": "card",
   "is_delivery": false,
   "delivery_address": {
     "country": "Россия",
-    "city": "п. Качканар",
-    "street": "пер. Абрикосовый",
-    "house": "41",
+    "city": "к. Лотошино",
+    "street": "бул. Попова",
+    "house": "8/6",
     "apartment": "62",
-    "postal_code": "030086"
+    "postal_code": "510126"
   },
-  "purchase_datetime": "2025-06-26T19:57:10.999911"
+  "purchase_datetime": "2025-08-03T13:42:39.558948"
 }

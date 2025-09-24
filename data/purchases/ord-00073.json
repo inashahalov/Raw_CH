@@ -1,84 +1,105 @@
 {
   "purchase_id": "ord-00073",
   "customer": {
-    "customer_id": "cus-1008",
-    "first_name": "Корнил",
-    "last_name": "Данилова",
-    "email": "ljubim28@example.net",
-    "phone": "84143737040",
+    "customer_id": "cus-1033",
+    "first_name": "Радован",
+    "last_name": "Максимова",
+    "email": "iosif02@example.net",
+    "phone": "+7 (426) 638-65-12",
     "is_loyalty_member": true,
-    "loyalty_card_number": "LOYAL-0E9C233BA4"
+    "loyalty_card_number": "LOYAL-E8AFED5DEF"
   },
   "store": {
-    "store_id": "store-038",
-    "store_name": "Маленькая Пикча — Магазин на бул. Папанина",
+    "store_id": "store-036",
+    "store_name": "Маленькая Пикча — Магазин на пр. Кузнечный",
     "store_network": "Маленькая Пикча",
     "location": {
       "country": "Россия",
-      "city": "д. Терней",
-      "street": "наб. Флотская",
-      "house": "634",
-      "postal_code": "144849",
+      "city": "к. Добрянка",
+      "street": "пр. Болотный",
+      "house": "1/8",
+      "postal_code": "802482",
       "coordinates": {
-        "latitude": -24.7418805,
-        "longitude": -175.888895
+        "latitude": -38.8851715,
+        "longitude": 144.818432
       }
     }
   },
   "items": [
     {
-      "product_id": "prd-1016",
-      "name": "Цвет Трубка",
-      "category": "🥖 Зерновые и хлебобулочные изделия",
+      "product_id": "prd-1012",
+      "name": "Полюбить Прошептать",
+      "category": "🥛 Молочные продукты",
       "quantity": 2,
-      "unit": "упаковка",
-      "price_per_unit": 59.3,
-      "total_price": 118.6,
+      "unit": "л",
+      "price_per_unit": 179.33,
+      "total_price": 358.66,
       "kbju": {
-        "calories": 239.4,
-        "protein": 10.5,
-        "fat": 4.0,
-        "carbohydrates": 33.8
+        "calories": 251.8,
+        "protein": 19.3,
+        "fat": 14.3,
+        "carbohydrates": 22.3
       },
       "manufacturer": {
-        "name": "ОАО «Давыдова-Калинин»",
+        "name": "ИП «Шарова»",
         "country": "Россия",
-        "website": "https://zao.org",
-        "inn": "7235646922"
+        "website": "https://ip.ru",
+        "inn": "2195881079"
       }
     },
     {
-      "product_id": "prd-1007",
-      "name": "Штаб Приличный",
-      "category": "🍏 Фрукты и ягоды",
-      "quantity": 5,
-      "unit": "кг",
-      "price_per_unit": 196.88,
-      "total_price": 984.4,
+      "product_id": "prd-1008",
+      "name": "Очутиться Песенка",
+      "category": "🥩 Мясо, рыба, яйца и бобовые",
+      "quantity": 3,
+      "unit": "шт",
+      "price_per_unit": 248.49,
+      "total_price": 745.47,
       "kbju": {
-        "calories": 164.9,
-        "protein": 16.7,
-        "fat": 3.6,
-        "carbohydrates": 31.4
+        "calories": 51.2,
+        "protein": 13.0,
+        "fat": 6.4,
+        "carbohydrates": 48.7
       },
       "manufacturer": {
-        "name": "СДС-Уголь",
+        "name": "Лазарева Инк",
         "country": "Россия",
-        "website": "https://npo.ru",
-        "inn": "9854590544"
+        "website": "https://guljaev.com",
+        "inn": "0966441801"
+      }
+    },
+    {
+      "product_id": "prd-1009",
+      "name": "Расстройство Валюта",
+      "category": "🥩 Мясо, рыба, яйца и бобовые",
+      "quantity": 2,
+      "unit": "л",
+      "price_per_unit": 256.33,
+      "total_price": 512.66,
+      "kbju": {
+        "calories": 208.9,
+        "protein": 12.9,
+        "fat": 11.4,
+        "carbohydrates": 30.9
+      },
+      "manufacturer": {
+        "name": "АХ Степь",
+        "country": "Россия",
+        "website": "https://rao.ru",
+        "inn": "1719997409"
       }
     }
   ],
-  "total_amount": 1103.0,
-  "payment_method": "cash",
+  "total_amount": 1616.79,
+  "payment_method": "card",
   "is_delivery": true,
   "delivery_address": {
     "country": "Россия",
-    "city": "ст. Тосно",
-    "street": "ул. Маяковского",
-    "house": "515",
-    "apartment": "67",
-    "postal_code": "862981"
+    "city": "ст. Беслан",
+    "street": "бул. Вокзальный",
+    "house": "292",
+    "apartment": "99",
+    "postal_code": "614412"
   },
-  "purchase_datetime": "2025-08-12T19:57:10.984049"
+  "purchase_datetime": "2025-07-10T13:42:39.546890"
 }

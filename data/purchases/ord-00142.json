@@ -1,84 +1,84 @@
 {
   "purchase_id": "ord-00142",
   "customer": {
-    "customer_id": "cus-1039",
-    "first_name": "Никодим",
-    "last_name": "Белоусова",
-    "email": "varlaam1991@example.com",
-    "phone": "+7 148 865 5194",
+    "customer_id": "cus-1026",
+    "first_name": "Прасковья",
+    "last_name": "Афанасьев",
+    "email": "vladimir_2020@example.net",
+    "phone": "+7 (333) 227-54-90",
     "is_loyalty_member": true,
-    "loyalty_card_number": "LOYAL-345785EB3A"
+    "loyalty_card_number": "LOYAL-6DF214DEDC"
   },
   "store": {
-    "store_id": "store-018",
-    "store_name": "Большая Пикча — Магазин на пер. З.Космодемьянской",
+    "store_id": "store-025",
+    "store_name": "Большая Пикча — Магазин на ш. Тургенева",
     "store_network": "Большая Пикча",
     "location": {
       "country": "Россия",
-      "city": "к. Минеральные Воды",
-      "street": "пер. Каштановый",
-      "house": "85",
-      "postal_code": "972733",
+      "city": "г. Мичуринск",
+      "street": "алл. Нижняя",
+      "house": "3/6",
+      "postal_code": "809704",
       "coordinates": {
-        "latitude": 1.333662,
-        "longitude": -136.6214
+        "latitude": -39.602059,
+        "longitude": -2.767983
       }
     }
   },
   "items": [
     {
-      "product_id": "prd-1008",
-      "name": "Фонарик Успокоиться",
-      "category": "🥖 Зерновые и хлебобулочные изделия",
-      "quantity": 4,
-      "unit": "упаковка",
-      "price_per_unit": 73.43,
-      "total_price": 293.72,
+      "product_id": "prd-1011",
+      "name": "Сверкающий Коробка",
+      "category": "🥦 Овощи и зелень",
+      "quantity": 2,
+      "unit": "шт",
+      "price_per_unit": 242.68,
+      "total_price": 485.36,
       "kbju": {
-        "calories": 92.6,
-        "protein": 18.4,
-        "fat": 11.5,
-        "carbohydrates": 24.8
+        "calories": 212.1,
+        "protein": 13.3,
+        "fat": 13.8,
+        "carbohydrates": 18.4
       },
       "manufacturer": {
-        "name": "ООО «Денисов, Щукина и Гришин»",
+        "name": "ЗАО «Филатова-Юдина»",
         "country": "Россия",
-        "website": "https://kozlova.org",
-        "inn": "3531459365"
+        "website": "https://oao.info",
+        "inn": "6258727413"
       }
     },
     {
-      "product_id": "prd-1018",
-      "name": "Низкий Присесть",
-      "category": "🥩 Мясо, рыба, яйца и бобовые",
-      "quantity": 5,
-      "unit": "кг",
-      "price_per_unit": 240.2,
-      "total_price": 1201.0,
+      "product_id": "prd-1001",
+      "name": "Механический Намерение",
+      "category": "🥦 Овощи и зелень",
+      "quantity": 1,
+      "unit": "упаковка",
+      "price_per_unit": 66.91,
+      "total_price": 66.91,
       "kbju": {
-        "calories": 272.9,
-        "protein": 7.8,
-        "fat": 2.3,
-        "carbohydrates": 5.3
+        "calories": 139.2,
+        "protein": 6.1,
+        "fat": 13.3,
+        "carbohydrates": 35.9
       },
       "manufacturer": {
-        "name": "Ланит",
+        "name": "ООО «Костина, Панов и Фомичева»",
         "country": "Россия",
-        "website": "https://rao.info",
-        "inn": "3763771194"
+        "website": "https://gsl.biz",
+        "inn": "1159800180"
       }
     }
   ],
-  "total_amount": 1494.72,
-  "payment_method": "card",
-  "is_delivery": true,
+  "total_amount": 552.27,
+  "payment_method": "cash",
+  "is_delivery": false,
   "delivery_address": {
     "country": "Россия",
-    "city": "г. Курумкан",
-    "street": "алл. Гаражная",
-    "house": "494",
-    "apartment": "64",
-    "postal_code": "544699"
+    "city": "п. Наро-Фоминск",
+    "street": "бул. Белорусский",
+    "house": "700",
+    "apartment": "23",
+    "postal_code": "599541"
   },
-  "purchase_datetime": "2025-09-12T19:57:11.020829"
+  "purchase_datetime": "2025-08-26T13:42:39.574632"
 }

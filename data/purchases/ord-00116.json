@@ -1,105 +1,105 @@
 {
   "purchase_id": "ord-00116",
   "customer": {
-    "customer_id": "cus-1002",
-    "first_name": "Эммануил",
-    "last_name": "Сорокина",
-    "email": "bogdan_1994@example.com",
-    "phone": "+78403056533",
+    "customer_id": "cus-1019",
+    "first_name": "Вячеслав",
+    "last_name": "Мишина",
+    "email": "nikiforovepifan@example.org",
+    "phone": "8 (286) 110-6842",
     "is_loyalty_member": true,
-    "loyalty_card_number": "LOYAL-C9106DA2DE"
+    "loyalty_card_number": "LOYAL-63A538EEFB"
   },
   "store": {
-    "store_id": "store-026",
-    "store_name": "Большая Пикча — Магазин на алл. Иванова",
+    "store_id": "store-024",
+    "store_name": "Большая Пикча — Магазин на наб. Харьковская",
     "store_network": "Большая Пикча",
     "location": {
       "country": "Россия",
-      "city": "д. Вытегра",
-      "street": "ш. Лунное",
-      "house": "6",
-      "postal_code": "030129",
+      "city": "к. Кыштым",
+      "street": "пр. Луначарского",
+      "house": "969",
+      "postal_code": "152629",
       "coordinates": {
-        "latitude": 12.0765525,
-        "longitude": 50.950176
+        "latitude": 46.6419795,
+        "longitude": -1.629277
       }
     }
   },
   "items": [
     {
-      "product_id": "prd-1008",
-      "name": "Фонарик Успокоиться",
-      "category": "🥖 Зерновые и хлебобулочные изделия",
-      "quantity": 4,
-      "unit": "упаковка",
-      "price_per_unit": 73.43,
-      "total_price": 293.72,
-      "kbju": {
-        "calories": 92.6,
-        "protein": 18.4,
-        "fat": 11.5,
-        "carbohydrates": 24.8
-      },
-      "manufacturer": {
-        "name": "ООО «Денисов, Щукина и Гришин»",
-        "country": "Россия",
-        "website": "https://kozlova.org",
-        "inn": "3531459365"
-      }
-    },
-    {
-      "product_id": "prd-1009",
-      "name": "Заложить Спасть",
-      "category": "🥩 Мясо, рыба, яйца и бобовые",
-      "quantity": 4,
-      "unit": "шт",
-      "price_per_unit": 101.66,
-      "total_price": 406.64,
-      "kbju": {
-        "calories": 246.3,
-        "protein": 19.8,
-        "fat": 4.3,
-        "carbohydrates": 48.1
-      },
-      "manufacturer": {
-        "name": "НПО «Наумова»",
-        "country": "Россия",
-        "website": "https://rao.biz",
-        "inn": "4508864986"
-      }
-    },
-    {
-      "product_id": "prd-1007",
-      "name": "Штаб Приличный",
+      "product_id": "prd-1010",
+      "name": "Бак Советовать",
       "category": "🍏 Фрукты и ягоды",
       "quantity": 5,
-      "unit": "кг",
-      "price_per_unit": 196.88,
-      "total_price": 984.4,
+      "unit": "упаковка",
+      "price_per_unit": 283.56,
+      "total_price": 1417.8,
       "kbju": {
-        "calories": 164.9,
-        "protein": 16.7,
-        "fat": 3.6,
-        "carbohydrates": 31.4
+        "calories": 247.4,
+        "protein": 3.4,
+        "fat": 14.4,
+        "carbohydrates": 46.0
       },
       "manufacturer": {
-        "name": "СДС-Уголь",
+        "name": "Гаврилова Инкорпорэйтед",
         "country": "Россия",
-        "website": "https://npo.ru",
-        "inn": "9854590544"
+        "website": "https://ao.com",
+        "inn": "5008817113"
+      }
+    },
+    {
+      "product_id": "prd-1016",
+      "name": "Очередной Аллея",
+      "category": "🥖 Зерновые и хлебобулочные изделия",
+      "quantity": 2,
+      "unit": "шт",
+      "price_per_unit": 251.07,
+      "total_price": 502.14,
+      "kbju": {
+        "calories": 277.2,
+        "protein": 18.2,
+        "fat": 6.0,
+        "carbohydrates": 11.3
+      },
+      "manufacturer": {
+        "name": "ГК Автомир",
+        "country": "Россия",
+        "website": "https://andreev.info",
+        "inn": "8436477835"
+      }
+    },
+    {
+      "product_id": "prd-1003",
+      "name": "Дорогой Руководитель",
+      "category": "🥦 Овощи и зелень",
+      "quantity": 2,
+      "unit": "упаковка",
+      "price_per_unit": 69.35,
+      "total_price": 138.7,
+      "kbju": {
+        "calories": 223.8,
+        "protein": 18.0,
+        "fat": 5.2,
+        "carbohydrates": 3.6
+      },
+      "manufacturer": {
+        "name": "НПО «Панова Ильина»",
+        "country": "Россия",
+        "website": "https://ooo.biz",
+        "inn": "4367291844"
       }
     }
   ],
-  "total_amount": 1684.76,
+  "total_amount": 2058.64,
   "payment_method": "card",
   "is_delivery": true,
   "delivery_address": {
     "country": "Россия",
-    "city": "г. Вилюйск",
-    "street": "бул. Революционный",
-    "house": "972",
-    "apartment": "98",
-    "postal_code": "852736"
+    "city": "клх Видное",
+    "street": "бул. Клубный",
+    "house": "1/5",
+    "apartment": "99",
+    "postal_code": "789869"
   },
-  "purchase_datetime": "2025-08-28T19:57:11.008500"
+  "purchase_datetime": "2025-08-12T13:42:39.564516"
 }

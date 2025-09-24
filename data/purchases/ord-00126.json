@@ -1,63 +1,105 @@
 {
   "purchase_id": "ord-00126",
   "customer": {
-    "customer_id": "cus-1043",
-    "first_name": "Жанна",
-    "last_name": "Сидорова",
-    "email": "ostapmoiseev@example.org",
-    "phone": "+78782851181",
+    "customer_id": "cus-1035",
+    "first_name": "Геннадий",
+    "last_name": "Родионов",
+    "email": "cheslav1990@example.org",
+    "phone": "8 303 158 42 60",
     "is_loyalty_member": true,
-    "loyalty_card_number": "LOYAL-21A26202A6"
+    "loyalty_card_number": "LOYAL-B5048336C8"
   },
   "store": {
-    "store_id": "store-017",
-    "store_name": "Большая Пикча — Магазин на наб. Терешковой",
+    "store_id": "store-006",
+    "store_name": "Большая Пикча — Магазин на алл. Поперечная",
     "store_network": "Большая Пикча",
     "location": {
       "country": "Россия",
-      "city": "ст. Любань",
-      "street": "пер. Есенина",
-      "house": "255",
-      "postal_code": "515675",
+      "city": "ст. Сортавала",
+      "street": "бул. Шмидта",
+      "house": "31",
+      "postal_code": "947028",
       "coordinates": {
-        "latitude": -40.8579335,
-        "longitude": 15.399726
+        "latitude": -1.9295105,
+        "longitude": 149.818126
       }
     }
   },
   "items": [
     {
-      "product_id": "prd-1013",
-      "name": "Роса Наткнуться",
-      "category": "🥛 Молочные продукты",
-      "quantity": 3,
-      "unit": "упаковка",
-      "price_per_unit": 39.74,
-      "total_price": 119.22,
+      "product_id": "prd-1009",
+      "name": "Расстройство Валюта",
+      "category": "🥩 Мясо, рыба, яйца и бобовые",
+      "quantity": 4,
+      "unit": "л",
+      "price_per_unit": 256.33,
+      "total_price": 1025.32,
       "kbju": {
-        "calories": 283.8,
-        "protein": 19.2,
-        "fat": 7.6,
-        "carbohydrates": 35.6
+        "calories": 208.9,
+        "protein": 12.9,
+        "fat": 11.4,
+        "carbohydrates": 30.9
       },
       "manufacturer": {
-        "name": "АО «Потапова, Смирнова и Сазонова»",
+        "name": "АХ Степь",
         "country": "Россия",
-        "website": "https://magnit.info",
-        "inn": "3006321123"
+        "website": "https://rao.ru",
+        "inn": "1719997409"
+      }
+    },
+    {
+      "product_id": "prd-1016",
+      "name": "Очередной Аллея",
+      "category": "🥖 Зерновые и хлебобулочные изделия",
+      "quantity": 5,
+      "unit": "шт",
+      "price_per_unit": 251.07,
+      "total_price": 1255.35,
+      "kbju": {
+        "calories": 277.2,
+        "protein": 18.2,
+        "fat": 6.0,
+        "carbohydrates": 11.3
+      },
+      "manufacturer": {
+        "name": "ГК Автомир",
+        "country": "Россия",
+        "website": "https://andreev.info",
+        "inn": "8436477835"
+      }
+    },
+    {
+      "product_id": "prd-1010",
+      "name": "Бак Советовать",
+      "category": "🍏 Фрукты и ягоды",
+      "quantity": 4,
+      "unit": "упаковка",
+      "price_per_unit": 283.56,
+      "total_price": 1134.24,
+      "kbju": {
+        "calories": 247.4,
+        "protein": 3.4,
+        "fat": 14.4,
+        "carbohydrates": 46.0
+      },
+      "manufacturer": {
+        "name": "Гаврилова Инкорпорэйтед",
+        "country": "Россия",
+        "website": "https://ao.com",
+        "inn": "5008817113"
       }
     }
   ],
-  "total_amount": 119.22,
-  "payment_method": "card",
+  "total_amount": 3414.91,
+  "payment_method": "cash",
   "is_delivery": true,
   "delivery_address": {
     "country": "Россия",
-    "city": "ст. Богучар",
-    "street": "пер. Нефтяников",
-    "house": "9",
-    "apartment": "76",
-    "postal_code": "522549"
+    "city": "к. Добрянка",
+    "street": "бул. Дальневосточный",
+    "house": "7/2",
+    "apartment": "89",
+    "postal_code": "893889"
   },
-  "purchase_datetime": "2025-08-23T19:57:11.013158"
+  "purchase_datetime": "2025-07-10T13:42:39.568566"
 }

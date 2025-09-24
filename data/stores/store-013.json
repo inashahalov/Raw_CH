@@ -1,6 +1,6 @@
 {
   "store_id": "store-013",
-  "store_name": "Большая Пикча — Магазин на пер. Белорусский",
+  "store_name": "Большая Пикча — Магазин на наб. Волгоградская",
   "store_network": "Большая Пикча",
   "store_type_description": "Супермаркет более 200 кв.м. Входит в сеть из 30 магазинов.",
   "type": "offline",
@@ -12,19 +12,19 @@
     "🥦 Овощи и зелень"
   ],
   "manager": {
-    "name": "Светлана Геннадиевна Самсонова",
-    "phone": "+7 (166) 454-4378",
-    "email": "timofevlasov@example.org"
+    "name": "Веселова Валерия Тимофеевна",
+    "phone": "8 883 687 00 52",
+    "email": "veniamin96@example.org"
   },
   "location": {
     "country": "Россия",
-    "city": "д. Махачкала",
-    "street": "алл. Тупиковая",
-    "house": "8/9",
-    "postal_code": "029495",
+    "city": "с. Серафимович",
+    "street": "пер. Промышленный",
+    "house": "463",
+    "postal_code": "829502",
     "coordinates": {
-      "latitude": 0.219858,
-      "longitude": -53.203028
+      "latitude": -21.8797625,
+      "longitude": 51.86166
     }
   },
   "opening_hours": {
@@ -34,6 +34,6 @@
   },
   "accepts_online_orders": true,
   "delivery_available": true,
-  "warehouse_connected": false,
-  "last_inventory_date": "2025-09-23"
+  "warehouse_connected": true,
+  "last_inventory_date": "2025-09-24"
 }

@@ -1,36 +1,36 @@
 {
   "customer_id": "cus-1037",
-  "first_name": "Ювеналий",
-  "last_name": "Хохлов",
-  "email": "djachkovapolina@example.net",
-  "phone": "82971596132",
-  "birth_date": "1966-06-04",
+  "first_name": "Денис",
+  "last_name": "Попов",
+  "email": "radim_84@example.com",
+  "phone": "+7 135 291 6973",
+  "birth_date": "1981-03-19",
   "gender": "male",
-  "registration_date": "2025-09-23T19:57:10.946761",
+  "registration_date": "2025-09-24T13:42:39.514662",
   "is_loyalty_member": true,
-  "loyalty_card_number": "LOYAL-733B019E68",
+  "loyalty_card_number": "LOYAL-F818CE4535",
   "purchase_location": {
     "store_id": "store-038",
-    "store_name": "Маленькая Пикча — Магазин на бул. Папанина",
+    "store_name": "Маленькая Пикча — Магазин на ул. Подгорная",
     "store_network": "Маленькая Пикча",
     "store_type_description": "Магазин у дома менее 100 кв.м. Входит в сеть из 15 магазинов.",
     "country": "Россия",
-    "city": "д. Терней",
-    "street": "наб. Флотская",
-    "house": "634",
-    "postal_code": "144849"
+    "city": "с. Липецк",
+    "street": "ш. Гагарина",
+    "house": "15",
+    "postal_code": "670571"
   },
   "delivery_address": {
     "country": "Россия",
-    "city": "д. Терней",
-    "street": "алл. Крупской",
+    "city": "с. Липецк",
+    "street": "алл. Набережная",
     "house": "8",
-    "apartment": "97",
-    "postal_code": "943074"
+    "apartment": "50",
+    "postal_code": "721037"
   },
   "preferences": {
     "preferred_language": "ru",
     "preferred_payment_method": "card",
-    "receive_promotions": true
+    "receive_promotions": false
   }
 }

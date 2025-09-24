@@ -1,6 +1,6 @@
 {
   "store_id": "store-040",
-  "store_name": "Маленькая Пикча — Магазин на бул. Буденного",
+  "store_name": "Маленькая Пикча — Магазин на бул. Мая 1",
   "store_network": "Маленькая Пикча",
   "store_type_description": "Магазин у дома менее 100 кв.м. Входит в сеть из 15 магазинов.",
   "type": "offline",
@@ -12,19 +12,19 @@
     "🥦 Овощи и зелень"
   ],
   "manager": {
-    "name": "Рубен Измаилович Жданов",
-    "phone": "8 106 692 4947",
-    "email": "emishina@example.com"
+    "name": "Ирина Павловна Калашникова",
+    "phone": "+7 (495) 257-5649",
+    "email": "ferapont_76@example.net"
   },
   "location": {
     "country": "Россия",
-    "city": "г. Курумкан",
-    "street": "алл. Чапаева",
-    "house": "8",
-    "postal_code": "242329",
+    "city": "клх Краснотурьинск",
+    "street": "ул. 9 мая",
+    "house": "86",
+    "postal_code": "172371",
     "coordinates": {
-      "latitude": -50.914079,
-      "longitude": -2.513515
+      "latitude": 68.233675,
+      "longitude": 149.964304
     }
   },
   "opening_hours": {
@@ -34,6 +34,6 @@
   },
   "accepts_online_orders": true,
   "delivery_available": true,
-  "warehouse_connected": true,
-  "last_inventory_date": "2025-09-23"
+  "warehouse_connected": false,
+  "last_inventory_date": "2025-09-24"
 }

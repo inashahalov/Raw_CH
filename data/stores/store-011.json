@@ -1,6 +1,6 @@
 {
   "store_id": "store-011",
-  "store_name": "Большая Пикча — Магазин на ул. Таежная",
+  "store_name": "Большая Пикча — Магазин на наб. Светлая",
   "store_network": "Большая Пикча",
   "store_type_description": "Супермаркет более 200 кв.м. Входит в сеть из 30 магазинов.",
   "type": "offline",
@@ -12,19 +12,19 @@
     "🥦 Овощи и зелень"
   ],
   "manager": {
-    "name": "Исакова Оксана Руслановна",
-    "phone": "8 224 679 4056",
-    "email": "agapfomichev@example.com"
+    "name": "Эрнест Глебович Суханов",
+    "phone": "8 (010) 434-44-80",
+    "email": "moke_1979@example.com"
   },
   "location": {
     "country": "Россия",
-    "city": "п. Снежинск",
-    "street": "алл. Клары Цеткин",
-    "house": "8",
-    "postal_code": "728596",
+    "city": "д. Петрозаводск",
+    "street": "наб. Некрасова",
+    "house": "1/2",
+    "postal_code": "016668",
     "coordinates": {
-      "latitude": 42.23201,
-      "longitude": 92.394681
+      "latitude": -29.6315255,
+      "longitude": -174.977322
     }
   },
   "opening_hours": {
@@ -35,5 +35,5 @@
   "accepts_online_orders": true,
   "delivery_available": true,
   "warehouse_connected": false,
-  "last_inventory_date": "2025-09-23"
+  "last_inventory_date": "2025-09-24"
 }

@@ -1,6 +1,6 @@
 {
   "store_id": "store-032",
-  "store_name": "Маленькая Пикча — Магазин на бул. Подгорный",
+  "store_name": "Маленькая Пикча — Магазин на бул. Марта 8",
   "store_network": "Маленькая Пикча",
   "store_type_description": "Магазин у дома менее 100 кв.м. Входит в сеть из 15 магазинов.",
   "type": "offline",
@@ -12,19 +12,19 @@
     "🥦 Овощи и зелень"
   ],
   "manager": {
-    "name": "тов. Молчанов Ювеналий Брониславович",
-    "phone": "8 456 726 7773",
-    "email": "aristarh_63@example.com"
+    "name": "Гусева Евпраксия Константиновна",
+    "phone": "+7 (989) 471-8334",
+    "email": "revdokimov@example.org"
   },
   "location": {
     "country": "Россия",
-    "city": "г. Нефтеюганск",
-    "street": "ш. Новоселов",
-    "house": "1",
-    "postal_code": "780917",
+    "city": "г. Красноуфимск",
+    "street": "алл. Сенная",
+    "house": "9",
+    "postal_code": "765237",
     "coordinates": {
-      "latitude": -42.6968625,
-      "longitude": 4.808936
+      "latitude": -82.329366,
+      "longitude": -144.925411
     }
   },
   "opening_hours": {
@@ -34,6 +34,6 @@
   },
   "accepts_online_orders": true,
   "delivery_available": true,
-  "warehouse_connected": false,
-  "last_inventory_date": "2025-09-23"
+  "warehouse_connected": true,
+  "last_inventory_date": "2025-09-24"
 }

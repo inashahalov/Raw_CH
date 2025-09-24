@@ -1,84 +1,63 @@
 {
   "purchase_id": "ord-00067",
   "customer": {
-    "customer_id": "cus-1015",
-    "first_name": "Фока",
-    "last_name": "Тетерина",
-    "email": "rjabovboleslav@example.com",
-    "phone": "+7 (465) 499-08-07",
+    "customer_id": "cus-1043",
+    "first_name": "Измаил",
+    "last_name": "Лазарева",
+    "email": "vorontsovaeleonora@example.net",
+    "phone": "+7 762 201 84 01",
     "is_loyalty_member": true,
-    "loyalty_card_number": "LOYAL-0B04F4F2B7"
+    "loyalty_card_number": "LOYAL-176F00FF2B"
   },
   "store": {
-    "store_id": "store-003",
-    "store_name": "Большая Пикча — Магазин на пер. Л.Толстого",
-    "store_network": "Большая Пикча",
+    "store_id": "store-039",
+    "store_name": "Маленькая Пикча — Магазин на наб. Мичурина",
+    "store_network": "Маленькая Пикча",
     "location": {
       "country": "Россия",
-      "city": "г. Вилюйск",
-      "street": "ш. Моховое",
-      "house": "323",
-      "postal_code": "806043",
+      "city": "к. Лотошино",
+      "street": "пр. Боровой",
+      "house": "3",
+      "postal_code": "599266",
       "coordinates": {
-        "latitude": 89.85812,
-        "longitude": -128.13909
+        "latitude": -5.6986535,
+        "longitude": 4.716023
       }
     }
   },
   "items": [
     {
-      "product_id": "prd-1015",
-      "name": "Войти Приходить",
-      "category": "🥛 Молочные продукты",
-      "quantity": 4,
-      "unit": "шт",
-      "price_per_unit": 92.89,
-      "total_price": 371.56,
-      "kbju": {
-        "calories": 297.1,
-        "protein": 17.3,
-        "fat": 7.9,
-        "carbohydrates": 24.3
-      },
-      "manufacturer": {
-        "name": "Гришина Лтд",
-        "country": "Россия",
-        "website": "https://ooo.net",
-        "inn": "5499321537"
-      }
-    },
-    {
-      "product_id": "prd-1011",
-      "name": "Собеседник Цель",
-      "category": "🍏 Фрукты и ягоды",
+      "product_id": "prd-1009",
+      "name": "Расстройство Валюта",
+      "category": "🥩 Мясо, рыба, яйца и бобовые",
       "quantity": 1,
-      "unit": "шт",
-      "price_per_unit": 109.38,
-      "total_price": 109.38,
+      "unit": "л",
+      "price_per_unit": 256.33,
+      "total_price": 256.33,
       "kbju": {
-        "calories": 140.7,
-        "protein": 19.6,
-        "fat": 11.8,
-        "carbohydrates": 11.5
+        "calories": 208.9,
+        "protein": 12.9,
+        "fat": 11.4,
+        "carbohydrates": 30.9
       },
       "manufacturer": {
-        "name": "Сысоев Лтд",
+        "name": "АХ Степь",
         "country": "Россия",
-        "website": "https://ip.org",
-        "inn": "3880754993"
+        "website": "https://rao.ru",
+        "inn": "1719997409"
       }
     }
   ],
-  "total_amount": 480.94,
-  "payment_method": "card",
-  "is_delivery": false,
+  "total_amount": 256.33,
+  "payment_method": "cash",
+  "is_delivery": true,
   "delivery_address": {
     "country": "Россия",
-    "city": "д. Оренбург",
-    "street": "алл. Портовая",
-    "house": "396",
-    "apartment": "100",
-    "postal_code": "150789"
+    "city": "д. Псебай",
+    "street": "пр. Мичурина",
+    "house": "313",
+    "apartment": "45",
+    "postal_code": "619059"
   },
-  "purchase_datetime": "2025-07-16T19:57:10.981355"
+  "purchase_datetime": "2025-07-13T13:42:39.544751"
 }

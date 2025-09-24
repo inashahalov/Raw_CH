@@ -1,105 +1,84 @@
 {
   "purchase_id": "ord-00129",
   "customer": {
-    "customer_id": "cus-1036",
-    "first_name": "Ия",
-    "last_name": "Князев",
-    "email": "fadeevaaleksandra@example.org",
-    "phone": "+71282879102",
+    "customer_id": "cus-1040",
+    "first_name": "Галактион",
+    "last_name": "Мельников",
+    "email": "ksenija_1977@example.org",
+    "phone": "8 155 492 6988",
     "is_loyalty_member": true,
-    "loyalty_card_number": "LOYAL-EBB77AE969"
+    "loyalty_card_number": "LOYAL-CCE736A6EF"
   },
   "store": {
-    "store_id": "store-001",
-    "store_name": "Большая Пикча — Магазин на пер. 60 лет СССР",
-    "store_network": "Большая Пикча",
+    "store_id": "store-038",
+    "store_name": "Маленькая Пикча — Магазин на ул. Подгорная",
+    "store_network": "Маленькая Пикча",
     "location": {
       "country": "Россия",
-      "city": "п. Качканар",
-      "street": "бул. Панфилова",
-      "house": "90",
-      "postal_code": "699299",
+      "city": "с. Липецк",
+      "street": "ш. Гагарина",
+      "house": "15",
+      "postal_code": "670571",
       "coordinates": {
-        "latitude": 23.7573875,
-        "longitude": -54.155635
+        "latitude": -19.9065625,
+        "longitude": 136.311862
       }
     }
   },
   "items": [
     {
-      "product_id": "prd-1011",
-      "name": "Собеседник Цель",
-      "category": "🍏 Фрукты и ягоды",
-      "quantity": 3,
-      "unit": "шт",
-      "price_per_unit": 109.38,
-      "total_price": 328.14,
+      "product_id": "prd-1001",
+      "name": "Механический Намерение",
+      "category": "🥦 Овощи и зелень",
+      "quantity": 5,
+      "unit": "упаковка",
+      "price_per_unit": 66.91,
+      "total_price": 334.55,
       "kbju": {
-        "calories": 140.7,
-        "protein": 19.6,
-        "fat": 11.8,
-        "carbohydrates": 11.5
+        "calories": 139.2,
+        "protein": 6.1,
+        "fat": 13.3,
+        "carbohydrates": 35.9
       },
       "manufacturer": {
-        "name": "Сысоев Лтд",
+        "name": "ООО «Костина, Панов и Фомичева»",
         "country": "Россия",
-        "website": "https://ip.org",
-        "inn": "3880754993"
+        "website": "https://gsl.biz",
+        "inn": "1159800180"
       }
     },
     {
-      "product_id": "prd-1009",
-      "name": "Заложить Спасть",
-      "category": "🥩 Мясо, рыба, яйца и бобовые",
-      "quantity": 4,
-      "unit": "шт",
-      "price_per_unit": 101.66,
-      "total_price": 406.64,
+      "product_id": "prd-1003",
+      "name": "Дорогой Руководитель",
+      "category": "🥦 Овощи и зелень",
+      "quantity": 2,
+      "unit": "упаковка",
+      "price_per_unit": 69.35,
+      "total_price": 138.7,
       "kbju": {
-        "calories": 246.3,
-        "protein": 19.8,
-        "fat": 4.3,
-        "carbohydrates": 48.1
+        "calories": 223.8,
+        "protein": 18.0,
+        "fat": 5.2,
+        "carbohydrates": 3.6
       },
       "manufacturer": {
-        "name": "НПО «Наумова»",
+        "name": "НПО «Панова Ильина»",
         "country": "Россия",
-        "website": "https://rao.biz",
-        "inn": "4508864986"
-      }
-    },
-    {
-      "product_id": "prd-1015",
-      "name": "Войти Приходить",
-      "category": "🥛 Молочные продукты",
-      "quantity": 4,
-      "unit": "шт",
-      "price_per_unit": 92.89,
-      "total_price": 371.56,
-      "kbju": {
-        "calories": 297.1,
-        "protein": 17.3,
-        "fat": 7.9,
-        "carbohydrates": 24.3
-      },
-      "manufacturer": {
-        "name": "Гришина Лтд",
-        "country": "Россия",
-        "website": "https://ooo.net",
-        "inn": "5499321537"
+        "website": "https://ooo.biz",
+        "inn": "4367291844"
       }
     }
   ],
-  "total_amount": 1106.34,
+  "total_amount": 473.25,
   "payment_method": "card",
-  "is_delivery": true,
+  "is_delivery": false,
   "delivery_address": {
     "country": "Россия",
-    "city": "клх Нягань",
-    "street": "алл. Папанина",
-    "house": "334",
-    "apartment": "32",
-    "postal_code": "506664"
+    "city": "к. Камышин",
+    "street": "наб. Вавилова",
+    "house": "180",
+    "apartment": "8",
+    "postal_code": "100327"
   },
-  "purchase_datetime": "2025-07-02T19:57:11.014705"
+  "purchase_datetime": "2025-08-07T13:42:39.569882"
 }

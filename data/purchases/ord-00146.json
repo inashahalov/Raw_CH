@@ -1,63 +1,84 @@
 {
   "purchase_id": "ord-00146",
   "customer": {
-    "customer_id": "cus-1017",
-    "first_name": "Анна",
-    "last_name": "Кулагина",
-    "email": "blinovagafon@example.com",
-    "phone": "8 378 774 4882",
+    "customer_id": "cus-1002",
+    "first_name": "Галина",
+    "last_name": "Тетерин",
+    "email": "proklterentev@example.net",
+    "phone": "82079260379",
     "is_loyalty_member": true,
-    "loyalty_card_number": "LOYAL-BB85942A1A"
+    "loyalty_card_number": "LOYAL-96EE270825"
   },
   "store": {
-    "store_id": "store-004",
-    "store_name": "Большая Пикча — Магазин на алл. Базарная",
+    "store_id": "store-017",
+    "store_name": "Большая Пикча — Магазин на пр. Советский",
     "store_network": "Большая Пикча",
     "location": {
       "country": "Россия",
-      "city": "к. Южноуральск",
-      "street": "алл. Мелиораторов",
-      "house": "30",
-      "postal_code": "971964",
+      "city": "с. Чусовой",
+      "street": "бул. Металлистов",
+      "house": "76",
+      "postal_code": "465241",
       "coordinates": {
-        "latitude": 85.9746595,
-        "longitude": -124.814831
+        "latitude": -31.6654215,
+        "longitude": 32.773325
       }
     }
   },
   "items": [
     {
-      "product_id": "prd-1019",
-      "name": "Адвокат Другой",
-      "category": "🥦 Овощи и зелень",
-      "quantity": 1,
+      "product_id": "prd-1008",
+      "name": "Очутиться Песенка",
+      "category": "🥩 Мясо, рыба, яйца и бобовые",
+      "quantity": 5,
       "unit": "шт",
-      "price_per_unit": 43.3,
-      "total_price": 43.3,
+      "price_per_unit": 248.49,
+      "total_price": 1242.45,
       "kbju": {
-        "calories": 77.7,
-        "protein": 13.9,
-        "fat": 10.1,
-        "carbohydrates": 22.7
+        "calories": 51.2,
+        "protein": 13.0,
+        "fat": 6.4,
+        "carbohydrates": 48.7
       },
       "manufacturer": {
-        "name": "Чернова Групп",
+        "name": "Лазарева Инк",
         "country": "Россия",
-        "website": "https://belozerova.com",
-        "inn": "4723890506"
+        "website": "https://guljaev.com",
+        "inn": "0966441801"
+      }
+    },
+    {
+      "product_id": "prd-1006",
+      "name": "Витрина Лапа",
+      "category": "🥦 Овощи и зелень",
+      "quantity": 4,
+      "unit": "л",
+      "price_per_unit": 197.14,
+      "total_price": 788.56,
+      "kbju": {
+        "calories": 159.3,
+        "protein": 17.1,
+        "fat": 8.9,
+        "carbohydrates": 42.8
+      },
+      "manufacturer": {
+        "name": "ООО «Ширяева Матвеев»",
+        "country": "Россия",
+        "website": "https://rao.biz",
+        "inn": "8993676224"
       }
     }
   ],
-  "total_amount": 43.3,
+  "total_amount": 2031.01,
   "payment_method": "cash",
   "is_delivery": true,
   "delivery_address": {
     "country": "Россия",
-    "city": "к. Минеральные Воды",
-    "street": "бул. Тракторный",
-    "house": "1/6",
-    "apartment": "35",
-    "postal_code": "468913"
+    "city": "с. Южноуральск",
+    "street": "алл. Макарова",
+    "house": "2/9",
+    "apartment": "59",
+    "postal_code": "634527"
   },
-  "purchase_datetime": "2025-08-15T19:57:11.022708"
+  "purchase_datetime": "2025-09-12T13:42:39.576325"
 }

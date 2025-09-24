@@ -2,62 +2,83 @@
   "purchase_id": "ord-00056",
   "customer": {
     "customer_id": "cus-1043",
-    "first_name": "Жанна",
-    "last_name": "Сидорова",
-    "email": "ostapmoiseev@example.org",
-    "phone": "+78782851181",
+    "first_name": "Измаил",
+    "last_name": "Лазарева",
+    "email": "vorontsovaeleonora@example.net",
+    "phone": "+7 762 201 84 01",
     "is_loyalty_member": true,
-    "loyalty_card_number": "LOYAL-21A26202A6"
+    "loyalty_card_number": "LOYAL-176F00FF2B"
   },
   "store": {
-    "store_id": "store-016",
-    "store_name": "Большая Пикча — Магазин на пр. Сиреневый",
+    "store_id": "store-024",
+    "store_name": "Большая Пикча — Магазин на наб. Харьковская",
     "store_network": "Большая Пикча",
     "location": {
       "country": "Россия",
-      "city": "д. Оренбург",
-      "street": "ул. Горная",
-      "house": "61",
-      "postal_code": "395799",
+      "city": "к. Кыштым",
+      "street": "пр. Луначарского",
+      "house": "969",
+      "postal_code": "152629",
       "coordinates": {
-        "latitude": -45.4646875,
-        "longitude": -11.515672
+        "latitude": 46.6419795,
+        "longitude": -1.629277
       }
     }
   },
   "items": [
     {
-      "product_id": "prd-1001",
-      "name": "Тревога Появление",
-      "category": "🥖 Зерновые и хлебобулочные изделия",
-      "quantity": 3,
+      "product_id": "prd-1008",
+      "name": "Очутиться Песенка",
+      "category": "🥩 Мясо, рыба, яйца и бобовые",
+      "quantity": 2,
       "unit": "шт",
-      "price_per_unit": 168.16,
-      "total_price": 504.48,
+      "price_per_unit": 248.49,
+      "total_price": 496.98,
       "kbju": {
-        "calories": 205.2,
-        "protein": 13.4,
-        "fat": 1.1,
-        "carbohydrates": 43.2
+        "calories": 51.2,
+        "protein": 13.0,
+        "fat": 6.4,
+        "carbohydrates": 48.7
       },
       "manufacturer": {
-        "name": "ОАО «Селезнева Турова»",
+        "name": "Лазарева Инк",
         "country": "Россия",
-        "website": "https://panfilov.net",
-        "inn": "5790638925"
+        "website": "https://guljaev.com",
+        "inn": "0966441801"
+      }
+    },
+    {
+      "product_id": "prd-1012",
+      "name": "Полюбить Прошептать",
+      "category": "🥛 Молочные продукты",
+      "quantity": 1,
+      "unit": "л",
+      "price_per_unit": 179.33,
+      "total_price": 179.33,
+      "kbju": {
+        "calories": 251.8,
+        "protein": 19.3,
+        "fat": 14.3,
+        "carbohydrates": 22.3
+      },
+      "manufacturer": {
+        "name": "ИП «Шарова»",
+        "country": "Россия",
+        "website": "https://ip.ru",
+        "inn": "2195881079"
       }
     }
   ],
-  "total_amount": 504.48,
+  "total_amount": 676.31,
   "payment_method": "card",
   "is_delivery": true,
   "delivery_address": {
     "country": "Россия",
-    "city": "ст. Богучар",
-    "street": "пер. Нефтяников",
-    "house": "9",
-    "apartment": "76",
-    "postal_code": "522549"
+    "city": "д. Псебай",
+    "street": "пр. Мичурина",
+    "house": "313",
+    "apartment": "45",
+    "postal_code": "619059"
   },
-  "purchase_datetime": "2025-08-28T19:57:10.976437"
+  "purchase_datetime": "2025-07-18T13:42:39.540426"
 }

@@ -1,36 +1,36 @@
 {
   "customer_id": "cus-1012",
-  "first_name": "Тит",
-  "last_name": "Максимов",
-  "email": "tsvetkovkim@example.com",
-  "phone": "+7 307 933 6870",
-  "birth_date": "1997-08-26",
-  "gender": "male",
-  "registration_date": "2025-09-23T19:57:10.931627",
+  "first_name": "Анжела",
+  "last_name": "Горшков",
+  "email": "simonovavasilisa@example.net",
+  "phone": "+77507824793",
+  "birth_date": "1985-03-13",
+  "gender": "female",
+  "registration_date": "2025-09-24T13:42:39.501718",
   "is_loyalty_member": true,
-  "loyalty_card_number": "LOYAL-F303593AAF",
+  "loyalty_card_number": "LOYAL-FA23985448",
   "purchase_location": {
     "store_id": "store-013",
-    "store_name": "Большая Пикча — Магазин на пер. Белорусский",
+    "store_name": "Большая Пикча — Магазин на наб. Волгоградская",
     "store_network": "Большая Пикча",
     "store_type_description": "Супермаркет более 200 кв.м. Входит в сеть из 30 магазинов.",
     "country": "Россия",
-    "city": "д. Махачкала",
-    "street": "алл. Тупиковая",
-    "house": "8/9",
-    "postal_code": "029495"
+    "city": "с. Серафимович",
+    "street": "пер. Промышленный",
+    "house": "463",
+    "postal_code": "829502"
   },
   "delivery_address": {
     "country": "Россия",
-    "city": "д. Махачкала",
-    "street": "ул. Ручейная",
-    "house": "65",
-    "apartment": "79",
-    "postal_code": "436303"
+    "city": "с. Серафимович",
+    "street": "наб. Заречная",
+    "house": "541",
+    "apartment": "52",
+    "postal_code": "460417"
   },
   "preferences": {
     "preferred_language": "ru",
     "preferred_payment_method": "cash",
-    "receive_promotions": true
+    "receive_promotions": false
   }
 }

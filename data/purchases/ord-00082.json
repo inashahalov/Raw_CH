@@ -1,84 +1,84 @@
 {
   "purchase_id": "ord-00082",
   "customer": {
-    "customer_id": "cus-1038",
-    "first_name": "Фотий",
-    "last_name": "Александров",
-    "email": "borisovstanimir@example.net",
-    "phone": "+7 (110) 633-4695",
+    "customer_id": "cus-1027",
+    "first_name": "Всеволод",
+    "last_name": "Афанасьева",
+    "email": "dmitrievasvetlana@example.org",
+    "phone": "8 684 470 9863",
     "is_loyalty_member": true,
-    "loyalty_card_number": "LOYAL-51CB82EFA1"
+    "loyalty_card_number": "LOYAL-D9D3F6B098"
   },
   "store": {
-    "store_id": "store-027",
-    "store_name": "Большая Пикча — Магазин на бул. Леваневского",
+    "store_id": "store-008",
+    "store_name": "Большая Пикча — Магазин на алл. Снежная",
     "store_network": "Большая Пикча",
     "location": {
       "country": "Россия",
-      "city": "г. Енисейск",
-      "street": "пр. Нахимова",
-      "house": "978",
-      "postal_code": "444837",
+      "city": "ст. Тольятти",
+      "street": "ул. Нагорная",
+      "house": "6/5",
+      "postal_code": "884574",
       "coordinates": {
-        "latitude": 79.739024,
-        "longitude": -88.450267
+        "latitude": 12.6574315,
+        "longitude": 95.917203
       }
     }
   },
   "items": [
     {
-      "product_id": "prd-1009",
-      "name": "Заложить Спасть",
-      "category": "🥩 Мясо, рыба, яйца и бобовые",
-      "quantity": 5,
-      "unit": "шт",
-      "price_per_unit": 101.66,
-      "total_price": 508.3,
+      "product_id": "prd-1004",
+      "name": "Прежний Успокоиться",
+      "category": "🥦 Овощи и зелень",
+      "quantity": 1,
+      "unit": "упаковка",
+      "price_per_unit": 192.71,
+      "total_price": 192.71,
       "kbju": {
-        "calories": 246.3,
-        "protein": 19.8,
-        "fat": 4.3,
-        "carbohydrates": 48.1
+        "calories": 95.9,
+        "protein": 17.1,
+        "fat": 12.1,
+        "carbohydrates": 42.3
       },
       "manufacturer": {
-        "name": "НПО «Наумова»",
+        "name": "АО «Русакова»",
         "country": "Россия",
-        "website": "https://rao.biz",
-        "inn": "4508864986"
+        "website": "https://nesterova.com",
+        "inn": "3179388333"
       }
     },
     {
-      "product_id": "prd-1002",
-      "name": "Разводить Школьный",
+      "product_id": "prd-1019",
+      "name": "Исследование Мягкий",
       "category": "🥦 Овощи и зелень",
-      "quantity": 2,
-      "unit": "л",
-      "price_per_unit": 232.4,
-      "total_price": 464.8,
+      "quantity": 5,
+      "unit": "шт",
+      "price_per_unit": 101.49,
+      "total_price": 507.45,
       "kbju": {
-        "calories": 276.5,
-        "protein": 15.9,
-        "fat": 7.0,
-        "carbohydrates": 4.4
+        "calories": 262.4,
+        "protein": 19.7,
+        "fat": 5.4,
+        "carbohydrates": 6.1
       },
       "manufacturer": {
-        "name": "ОАО «Туров, Горбунова и Галкина»",
+        "name": "ИП «Хохлова»",
         "country": "Россия",
-        "website": "https://oao.com",
-        "inn": "7774237965"
+        "website": "https://ooo.org",
+        "inn": "2460511347"
       }
     }
   ],
-  "total_amount": 973.1,
+  "total_amount": 700.16,
   "payment_method": "cash",
   "is_delivery": false,
   "delivery_address": {
     "country": "Россия",
-    "city": "с. Жиганск",
-    "street": "наб. Ермака",
-    "house": "9/6",
-    "apartment": "39",
-    "postal_code": "762206"
+    "city": "клх Терней",
+    "street": "ул. Приморская",
+    "house": "5/5",
+    "apartment": "36",
+    "postal_code": "704087"
   },
-  "purchase_datetime": "2025-08-26T19:57:10.988890"
+  "purchase_datetime": "2025-07-02T13:42:39.550786"
 }

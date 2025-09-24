@@ -1,63 +1,105 @@
 {
   "purchase_id": "ord-00012",
   "customer": {
-    "customer_id": "cus-1008",
-    "first_name": "Корнил",
-    "last_name": "Данилова",
-    "email": "ljubim28@example.net",
-    "phone": "84143737040",
+    "customer_id": "cus-1010",
+    "first_name": "Лариса",
+    "last_name": "Рябова",
+    "email": "ovchinnikovprov@example.net",
+    "phone": "83020994303",
     "is_loyalty_member": true,
-    "loyalty_card_number": "LOYAL-0E9C233BA4"
+    "loyalty_card_number": "LOYAL-D0092FF126"
   },
   "store": {
-    "store_id": "store-015",
-    "store_name": "Большая Пикча — Магазин на ул. Новосельская",
+    "store_id": "store-023",
+    "store_name": "Большая Пикча — Магазин на ш. Восьмого Марта",
     "store_network": "Большая Пикча",
     "location": {
       "country": "Россия",
-      "city": "г. Магнитогорск",
-      "street": "бул. Омский",
-      "house": "3",
-      "postal_code": "604955",
+      "city": "г. Холмск",
+      "street": "ш. Майское",
+      "house": "435",
+      "postal_code": "198436",
       "coordinates": {
-        "latitude": 45.7538115,
-        "longitude": 57.343765
+        "latitude": 6.0641875,
+        "longitude": 19.737599
       }
     }
   },
   "items": [
     {
-      "product_id": "prd-1012",
-      "name": "Премьера Висеть",
-      "category": "🥩 Мясо, рыба, яйца и бобовые",
+      "product_id": "prd-1005",
+      "name": "Блин Редактор",
+      "category": "🥛 Молочные продукты",
       "quantity": 5,
       "unit": "л",
-      "price_per_unit": 193.21,
-      "total_price": 966.05,
+      "price_per_unit": 252.66,
+      "total_price": 1263.3,
       "kbju": {
-        "calories": 254.5,
-        "protein": 0.8,
-        "fat": 5.6,
-        "carbohydrates": 3.1
+        "calories": 169.1,
+        "protein": 14.6,
+        "fat": 4.1,
+        "carbohydrates": 39.8
       },
       "manufacturer": {
-        "name": "АО «Ларионова, Молчанов и Ефремова»",
+        "name": "ООО «Савельев»",
         "country": "Россия",
-        "website": "https://ao.edu",
-        "inn": "3317182161"
+        "website": "https://vostok-zapad.biz",
+        "inn": "3880905200"
+      }
+    },
+    {
+      "product_id": "prd-1010",
+      "name": "Бак Советовать",
+      "category": "🍏 Фрукты и ягоды",
+      "quantity": 4,
+      "unit": "упаковка",
+      "price_per_unit": 283.56,
+      "total_price": 1134.24,
+      "kbju": {
+        "calories": 247.4,
+        "protein": 3.4,
+        "fat": 14.4,
+        "carbohydrates": 46.0
+      },
+      "manufacturer": {
+        "name": "Гаврилова Инкорпорэйтед",
+        "country": "Россия",
+        "website": "https://ao.com",
+        "inn": "5008817113"
+      }
+    },
+    {
+      "product_id": "prd-1018",
+      "name": "Проход Запретить",
+      "category": "🍏 Фрукты и ягоды",
+      "quantity": 2,
+      "unit": "упаковка",
+      "price_per_unit": 258.84,
+      "total_price": 517.68,
+      "kbju": {
+        "calories": 254.3,
+        "protein": 10.6,
+        "fat": 7.9,
+        "carbohydrates": 9.3
+      },
+      "manufacturer": {
+        "name": "ИП «Турова, Селезнев и Жданова»",
+        "country": "Россия",
+        "website": "https://ao.com",
+        "inn": "7389660036"
       }
     }
   ],
-  "total_amount": 966.05,
+  "total_amount": 2915.22,
   "payment_method": "cash",
-  "is_delivery": false,
+  "is_delivery": true,
   "delivery_address": {
     "country": "Россия",
-    "city": "ст. Тосно",
-    "street": "ул. Маяковского",
-    "house": "515",
-    "apartment": "67",
-    "postal_code": "862981"
+    "city": "д. Петрозаводск",
+    "street": "пер. Запрудный",
+    "house": "500",
+    "apartment": "10",
+    "postal_code": "349314"
   },
-  "purchase_datetime": "2025-07-03T19:57:10.956521"
+  "purchase_datetime": "2025-09-14T13:42:39.523492"
 }

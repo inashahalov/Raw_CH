@@ -1,63 +1,105 @@
 {
   "purchase_id": "ord-00075",
   "customer": {
-    "customer_id": "cus-1011",
-    "first_name": "Аркадий",
-    "last_name": "Беляков",
-    "email": "mir_2021@example.net",
-    "phone": "8 (459) 651-56-98",
+    "customer_id": "cus-1042",
+    "first_name": "Дорофей",
+    "last_name": "Савельев",
+    "email": "jshchukina@example.com",
+    "phone": "8 954 185 06 66",
     "is_loyalty_member": true,
-    "loyalty_card_number": "LOYAL-7E0D508BB5"
+    "loyalty_card_number": "LOYAL-6F1263176C"
   },
   "store": {
-    "store_id": "store-032",
-    "store_name": "Маленькая Пикча — Магазин на бул. Подгорный",
-    "store_network": "Маленькая Пикча",
+    "store_id": "store-013",
+    "store_name": "Большая Пикча — Магазин на наб. Волгоградская",
+    "store_network": "Большая Пикча",
     "location": {
       "country": "Россия",
-      "city": "г. Нефтеюганск",
-      "street": "ш. Новоселов",
-      "house": "1",
-      "postal_code": "780917",
+      "city": "с. Серафимович",
+      "street": "пер. Промышленный",
+      "house": "463",
+      "postal_code": "829502",
       "coordinates": {
-        "latitude": -42.6968625,
-        "longitude": 4.808936
+        "latitude": -21.8797625,
+        "longitude": 51.86166
       }
     }
   },
   "items": [
     {
-      "product_id": "prd-1008",
-      "name": "Фонарик Успокоиться",
-      "category": "🥖 Зерновые и хлебобулочные изделия",
-      "quantity": 4,
-      "unit": "упаковка",
-      "price_per_unit": 73.43,
-      "total_price": 293.72,
+      "product_id": "prd-1014",
+      "name": "Господь Падаль",
+      "category": "🥦 Овощи и зелень",
+      "quantity": 1,
+      "unit": "л",
+      "price_per_unit": 222.18,
+      "total_price": 222.18,
       "kbju": {
-        "calories": 92.6,
-        "protein": 18.4,
-        "fat": 11.5,
-        "carbohydrates": 24.8
+        "calories": 191.4,
+        "protein": 12.2,
+        "fat": 4.5,
+        "carbohydrates": 5.2
       },
       "manufacturer": {
-        "name": "ООО «Денисов, Щукина и Гришин»",
+        "name": "ИП «Афанасьев, Щербаков и Пахомова»",
         "country": "Россия",
-        "website": "https://kozlova.org",
-        "inn": "3531459365"
+        "website": "https://oao.biz",
+        "inn": "7090374985"
+      }
+    },
+    {
+      "product_id": "prd-1006",
+      "name": "Витрина Лапа",
+      "category": "🥦 Овощи и зелень",
+      "quantity": 4,
+      "unit": "л",
+      "price_per_unit": 197.14,
+      "total_price": 788.56,
+      "kbju": {
+        "calories": 159.3,
+        "protein": 17.1,
+        "fat": 8.9,
+        "carbohydrates": 42.8
+      },
+      "manufacturer": {
+        "name": "ООО «Ширяева Матвеев»",
+        "country": "Россия",
+        "website": "https://rao.biz",
+        "inn": "8993676224"
+      }
+    },
+    {
+      "product_id": "prd-1018",
+      "name": "Проход Запретить",
+      "category": "🍏 Фрукты и ягоды",
+      "quantity": 3,
+      "unit": "упаковка",
+      "price_per_unit": 258.84,
+      "total_price": 776.52,
+      "kbju": {
+        "calories": 254.3,
+        "protein": 10.6,
+        "fat": 7.9,
+        "carbohydrates": 9.3
+      },
+      "manufacturer": {
+        "name": "ИП «Турова, Селезнев и Жданова»",
+        "country": "Россия",
+        "website": "https://ao.com",
+        "inn": "7389660036"
       }
     }
   ],
-  "total_amount": 293.72,
-  "payment_method": "cash",
-  "is_delivery": false,
+  "total_amount": 1787.26,
+  "payment_method": "card",
+  "is_delivery": true,
   "delivery_address": {
     "country": "Россия",
-    "city": "ст. Валдай",
-    "street": "пер. Луговой",
-    "house": "322",
-    "apartment": "50",
-    "postal_code": "969455"
+    "city": "п. Октябрьское (Хант.)",
+    "street": "пр. Технический",
+    "house": "120",
+    "apartment": "9",
+    "postal_code": "623624"
   },
-  "purchase_datetime": "2025-09-18T19:57:10.984946"
+  "purchase_datetime": "2025-09-13T13:42:39.547689"
 }

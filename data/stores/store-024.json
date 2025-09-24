@@ -1,6 +1,6 @@
 {
   "store_id": "store-024",
-  "store_name": "Большая Пикча — Магазин на алл. 60 лет СССР",
+  "store_name": "Большая Пикча — Магазин на наб. Харьковская",
   "store_network": "Большая Пикча",
   "store_type_description": "Супермаркет более 200 кв.м. Входит в сеть из 30 магазинов.",
   "type": "offline",
@@ -12,19 +12,19 @@
     "🥦 Овощи и зелень"
   ],
   "manager": {
-    "name": "Самуил Игнатович Буров",
-    "phone": "8 (838) 032-54-47",
-    "email": "averkishilov@example.net"
+    "name": "Милица Тимофеевна Кудряшова",
+    "phone": "+7 (247) 510-2777",
+    "email": "evdokija_1979@example.org"
   },
   "location": {
     "country": "Россия",
-    "city": "д. Сковородино",
-    "street": "бул. Инженерный",
-    "house": "5/5",
-    "postal_code": "146939",
+    "city": "к. Кыштым",
+    "street": "пр. Луначарского",
+    "house": "969",
+    "postal_code": "152629",
     "coordinates": {
-      "latitude": 12.892401,
-      "longitude": 56.364252
+      "latitude": 46.6419795,
+      "longitude": -1.629277
     }
   },
   "opening_hours": {
@@ -34,6 +34,6 @@
   },
   "accepts_online_orders": true,
   "delivery_available": true,
-  "warehouse_connected": false,
-  "last_inventory_date": "2025-09-23"
+  "warehouse_connected": true,
+  "last_inventory_date": "2025-09-24"
 }

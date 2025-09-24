@@ -1,6 +1,6 @@
 {
   "store_id": "store-019",
-  "store_name": "Большая Пикча — Магазин на ул. Войкова",
+  "store_name": "Большая Пикча — Магазин на пр. Балтийский",
   "store_network": "Большая Пикча",
   "store_type_description": "Супермаркет более 200 кв.м. Входит в сеть из 30 магазинов.",
   "type": "offline",
@@ -12,19 +12,19 @@
     "🥦 Овощи и зелень"
   ],
   "manager": {
-    "name": "Пахом Афанасьевич Князев",
-    "phone": "8 (323) 082-9583",
-    "email": "matveevnikodim@example.net"
+    "name": "Герман Андреевич Петухов",
+    "phone": "+7 390 931 80 33",
+    "email": "nestor1990@example.com"
   },
   "location": {
     "country": "Россия",
-    "city": "п. Балашиха",
-    "street": "пер. Тимирязева",
-    "house": "17",
-    "postal_code": "568590",
+    "city": "с. Кижи",
+    "street": "алл. Монтажников",
+    "house": "2",
+    "postal_code": "594312",
     "coordinates": {
-      "latitude": 60.2486205,
-      "longitude": -16.230204
+      "latitude": -32.2267315,
+      "longitude": 1.277883
     }
   },
   "opening_hours": {
@@ -34,6 +34,6 @@
   },
   "accepts_online_orders": true,
   "delivery_available": true,
-  "warehouse_connected": false,
-  "last_inventory_date": "2025-09-23"
+  "warehouse_connected": true,
+  "last_inventory_date": "2025-09-24"
 }

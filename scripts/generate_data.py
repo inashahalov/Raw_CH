@@ -1,3 +1,4 @@
+# scripts/generate_data.py
 import os
 import json
 import random
@@ -7,13 +8,11 @@ from faker import Faker
 
 fake = Faker("ru_RU")
 
-# Создание директорий
 os.makedirs("data/stores", exist_ok=True)
 os.makedirs("data/products", exist_ok=True)
 os.makedirs("data/customers", exist_ok=True)
 os.makedirs("data/purchases", exist_ok=True)
 
-# Категории
 categories = [
     "🥖 Зерновые и хлебобулочные изделия",
     "🥩 Мясо, рыба, яйца и бобовые",
@@ -51,7 +50,6 @@ for network, count in store_networks:
                 "coordinates": {
                     "latitude": float(fake.latitude()),
                     "longitude": float(fake.longitude())
-
                 }
             },
             "opening_hours": {
@@ -73,7 +71,7 @@ products = []
 for i in range(20):
     product = {
         "id": f"prd-{1000+i}",
-        "name": fake.word().capitalize(),
+        "name": fake.word().capitalize() + " " + fake.word().capitalize(),
         "group": random.choice(categories),
         "description": fake.sentence(),
         "kbju": {
@@ -83,7 +81,7 @@ for i in range(20):
             "carbohydrates": round(random.uniform(0.5, 50), 1)
         },
         "price": round(random.uniform(30, 300), 2),
-        "unit": "шт",
+        "unit": random.choice(["упаковка", "шт", "кг", "л"]),
         "origin_country": "Россия",
         "expiry_days": random.randint(5, 30),
         "is_organic": random.choice([True, False]),
@@ -99,7 +97,7 @@ for i in range(20):
     with open(f"data/products/{product['id']}.json", "w", encoding="utf-8") as f:
         json.dump(product, f, ensure_ascii=False, indent=2)
 
-# === 3. Генерация покупателей ===
+# === 3. Генерация покупателей (по 1 на магазин) ===
 customers = []
 for store in stores:
     customer_id = f"cus-{1000 + len(customers)}"
@@ -114,7 +112,17 @@ for store in stores:
         "registration_date": datetime.now().isoformat(),
         "is_loyalty_member": True,
         "loyalty_card_number": f"LOYAL-{uuid.uuid4().hex[:10].upper()}",
-        "purchase_location": store["location"],
+        "purchase_location": {
+            "store_id": store["store_id"],
+            "store_name": store["store_name"],
+            "store_network": store["store_network"],
+            "store_type_description": store["store_type_description"],
+            "country": store["location"]["country"],
+            "city": store["location"]["city"],
+            "street": store["location"]["street"],
+            "house": store["location"]["house"],
+            "postal_code": store["location"]["postal_code"]
+        },
         "delivery_address": {
             "country": "Россия",
             "city": store["location"]["city"],
@@ -133,7 +141,7 @@ for store in stores:
     with open(f"data/customers/{customer_id}.json", "w", encoding="utf-8") as f:
         json.dump(customer, f, ensure_ascii=False, indent=2)
 
-# === 4. Генерация покупок ===
+# === 4. Генерация покупок (200 шт) ===
 for i in range(200):
     customer = random.choice(customers)
     store = random.choice(stores)
@@ -160,7 +168,11 @@ for i in range(200):
         "customer": {
             "customer_id": customer["customer_id"],
             "first_name": customer["first_name"],
-            "last_name": customer["last_name"]
+            "last_name": customer["last_name"],
+            "email": customer["email"],  # будет зашифровано позже
+            "phone": customer["phone"],  # будет зашифровано позже
+            "is_loyalty_member": customer["is_loyalty_member"],
+            "loyalty_card_number": customer["loyalty_card_number"]
         },
         "store": {
             "store_id": store["store_id"],
@@ -177,3 +189,5 @@ for i in range(200):
     }
     with open(f"data/purchases/{purchase['purchase_id']}.json", "w", encoding="utf-8") as f:
         json.dump(purchase, f, ensure_ascii=False, indent=2)
+
+print("✅ Генерация данных завершена: 45 магазинов, 20 товаров, 45 покупателей, 200 покупок.")

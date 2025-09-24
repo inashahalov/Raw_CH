@@ -1,63 +1,63 @@
 {
   "purchase_id": "ord-00028",
   "customer": {
-    "customer_id": "cus-1007",
-    "first_name": "Константин",
-    "last_name": "Фадеев",
-    "email": "korolevefim@example.net",
-    "phone": "8 (270) 745-5698",
+    "customer_id": "cus-1043",
+    "first_name": "Измаил",
+    "last_name": "Лазарева",
+    "email": "vorontsovaeleonora@example.net",
+    "phone": "+7 762 201 84 01",
     "is_loyalty_member": true,
-    "loyalty_card_number": "LOYAL-2DFE8E6C69"
+    "loyalty_card_number": "LOYAL-176F00FF2B"
   },
   "store": {
-    "store_id": "store-043",
-    "store_name": "Маленькая Пикча — Магазин на наб. Полярная",
-    "store_network": "Маленькая Пикча",
+    "store_id": "store-029",
+    "store_name": "Большая Пикча — Магазин на пер. Р.Люксембург",
+    "store_network": "Большая Пикча",
     "location": {
       "country": "Россия",
-      "city": "д. Сусуман",
-      "street": "ул. Клубная",
-      "house": "27",
-      "postal_code": "336566",
+      "city": "д. Геленджик",
+      "street": "ш. Харьковское",
+      "house": "3/1",
+      "postal_code": "740343",
       "coordinates": {
-        "latitude": -54.2720925,
-        "longitude": -115.044775
+        "latitude": -59.7230715,
+        "longitude": -128.557279
       }
     }
   },
   "items": [
     {
-      "product_id": "prd-1009",
-      "name": "Заложить Спасть",
-      "category": "🥩 Мясо, рыба, яйца и бобовые",
-      "quantity": 5,
-      "unit": "шт",
-      "price_per_unit": 101.66,
-      "total_price": 508.3,
+      "product_id": "prd-1003",
+      "name": "Дорогой Руководитель",
+      "category": "🥦 Овощи и зелень",
+      "quantity": 2,
+      "unit": "упаковка",
+      "price_per_unit": 69.35,
+      "total_price": 138.7,
       "kbju": {
-        "calories": 246.3,
-        "protein": 19.8,
-        "fat": 4.3,
-        "carbohydrates": 48.1
+        "calories": 223.8,
+        "protein": 18.0,
+        "fat": 5.2,
+        "carbohydrates": 3.6
       },
       "manufacturer": {
-        "name": "НПО «Наумова»",
+        "name": "НПО «Панова Ильина»",
         "country": "Россия",
-        "website": "https://rao.biz",
-        "inn": "4508864986"
+        "website": "https://ooo.biz",
+        "inn": "4367291844"
       }
     }
   ],
-  "total_amount": 508.3,
-  "payment_method": "cash",
+  "total_amount": 138.7,
+  "payment_method": "card",
   "is_delivery": false,
   "delivery_address": {
     "country": "Россия",
-    "city": "клх Тихвин",
-    "street": "алл. Водопроводная",
-    "house": "309",
-    "apartment": "57",
-    "postal_code": "983642"
+    "city": "д. Псебай",
+    "street": "пр. Мичурина",
+    "house": "313",
+    "apartment": "45",
+    "postal_code": "619059"
   },
-  "purchase_datetime": "2025-06-26T19:57:10.963792"
+  "purchase_datetime": "2025-08-17T13:42:39.528958"
 }

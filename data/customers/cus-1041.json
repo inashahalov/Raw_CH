@@ -1,36 +1,36 @@
 {
   "customer_id": "cus-1041",
-  "first_name": "Нифонт",
-  "last_name": "Григорьева",
-  "email": "kononovzinovi@example.org",
-  "phone": "84135987426",
-  "birth_date": "1987-08-16",
+  "first_name": "Ксения",
+  "last_name": "Кононов",
+  "email": "lihachevaanastasija@example.org",
+  "phone": "+7 512 435 4000",
+  "birth_date": "1962-10-07",
   "gender": "male",
-  "registration_date": "2025-09-23T19:57:10.949169",
+  "registration_date": "2025-09-24T13:42:39.516952",
   "is_loyalty_member": true,
-  "loyalty_card_number": "LOYAL-DA8CFBAA69",
+  "loyalty_card_number": "LOYAL-E924F62016",
   "purchase_location": {
     "store_id": "store-042",
-    "store_name": "Маленькая Пикча — Магазин на ул. Октябрьская",
+    "store_name": "Маленькая Пикча — Магазин на пер. Ушакова",
     "store_network": "Маленькая Пикча",
     "store_type_description": "Магазин у дома менее 100 кв.м. Входит в сеть из 15 магазинов.",
     "country": "Россия",
-    "city": "г. Псков",
-    "street": "пр. Тепличный",
-    "house": "7/9",
-    "postal_code": "849187"
+    "city": "с. Костомукша",
+    "street": "бул. Мичурина",
+    "house": "530",
+    "postal_code": "882024"
   },
   "delivery_address": {
     "country": "Россия",
-    "city": "г. Псков",
-    "street": "наб. Кочубея",
-    "house": "6",
-    "apartment": "65",
-    "postal_code": "944554"
+    "city": "с. Костомукша",
+    "street": "пр. Ростовский",
+    "house": "458",
+    "apartment": "54",
+    "postal_code": "599182"
   },
   "preferences": {
     "preferred_language": "ru",
     "preferred_payment_method": "cash",
-    "receive_promotions": true
+    "receive_promotions": false
   }
 }

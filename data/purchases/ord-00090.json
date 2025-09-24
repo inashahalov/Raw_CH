@@ -1,84 +1,63 @@
 {
   "purchase_id": "ord-00090",
   "customer": {
-    "customer_id": "cus-1040",
-    "first_name": "Святополк",
-    "last_name": "Туров",
-    "email": "galina48@example.net",
-    "phone": "89206249774",
+    "customer_id": "cus-1036",
+    "first_name": "Ким",
+    "last_name": "Егорова",
+    "email": "drozdovprohor@example.org",
+    "phone": "+7 (091) 539-70-91",
     "is_loyalty_member": true,
-    "loyalty_card_number": "LOYAL-BDB77CCF0B"
+    "loyalty_card_number": "LOYAL-BDFDF76BEE"
   },
   "store": {
-    "store_id": "store-020",
-    "store_name": "Большая Пикча — Магазин на ш. Торговое",
-    "store_network": "Большая Пикча",
+    "store_id": "store-032",
+    "store_name": "Маленькая Пикча — Магазин на бул. Марта 8",
+    "store_network": "Маленькая Пикча",
     "location": {
       "country": "Россия",
-      "city": "к. Апшеронск",
-      "street": "пр. Войкова",
-      "house": "6/9",
-      "postal_code": "046873",
+      "city": "г. Красноуфимск",
+      "street": "алл. Сенная",
+      "house": "9",
+      "postal_code": "765237",
       "coordinates": {
-        "latitude": -44.909337,
-        "longitude": -111.402746
+        "latitude": -82.329366,
+        "longitude": -144.925411
       }
     }
   },
   "items": [
     {
-      "product_id": "prd-1016",
-      "name": "Цвет Трубка",
-      "category": "🥖 Зерновые и хлебобулочные изделия",
-      "quantity": 3,
-      "unit": "упаковка",
-      "price_per_unit": 59.3,
-      "total_price": 177.9,
+      "product_id": "prd-1019",
+      "name": "Исследование Мягкий",
+      "category": "🥦 Овощи и зелень",
+      "quantity": 5,
+      "unit": "шт",
+      "price_per_unit": 101.49,
+      "total_price": 507.45,
       "kbju": {
-        "calories": 239.4,
-        "protein": 10.5,
-        "fat": 4.0,
-        "carbohydrates": 33.8
+        "calories": 262.4,
+        "protein": 19.7,
+        "fat": 5.4,
+        "carbohydrates": 6.1
       },
       "manufacturer": {
-        "name": "ОАО «Давыдова-Калинин»",
+        "name": "ИП «Хохлова»",
         "country": "Россия",
-        "website": "https://zao.org",
-        "inn": "7235646922"
-      }
-    },
-    {
-      "product_id": "prd-1008",
-      "name": "Фонарик Успокоиться",
-      "category": "🥖 Зерновые и хлебобулочные изделия",
-      "quantity": 2,
-      "unit": "упаковка",
-      "price_per_unit": 73.43,
-      "total_price": 146.86,
-      "kbju": {
-        "calories": 92.6,
-        "protein": 18.4,
-        "fat": 11.5,
-        "carbohydrates": 24.8
-      },
-      "manufacturer": {
-        "name": "ООО «Денисов, Щукина и Гришин»",
-        "country": "Россия",
-        "website": "https://kozlova.org",
-        "inn": "3531459365"
+        "website": "https://ooo.org",
+        "inn": "2460511347"
       }
     }
   ],
-  "total_amount": 324.76,
+  "total_amount": 507.45,
   "payment_method": "cash",
-  "is_delivery": false,
+  "is_delivery": true,
   "delivery_address": {
     "country": "Россия",
-    "city": "клх Печенга",
-    "street": "пр. Горняцкий",
-    "house": "771",
-    "apartment": "11",
-    "postal_code": "066690"
+    "city": "клх Биробиджан",
+    "street": "бул. Димитрова",
+    "house": "490",
+    "apartment": "100",
+    "postal_code": "621024"
   },
-  "purchase_datetime": "2025-08-13T19:57:10.992493"
+  "purchase_datetime": "2025-09-02T13:42:39.554457"
 }

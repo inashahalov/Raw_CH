@@ -1,6 +1,6 @@
 {
   "store_id": "store-041",
-  "store_name": "Маленькая Пикча — Магазин на наб. Буденного",
+  "store_name": "Маленькая Пикча — Магазин на пер. Невского",
   "store_network": "Маленькая Пикча",
   "store_type_description": "Магазин у дома менее 100 кв.м. Входит в сеть из 15 магазинов.",
   "type": "offline",
@@ -12,19 +12,19 @@
     "🥦 Овощи и зелень"
   ],
   "manager": {
-    "name": "Лапин Любосмысл Тарасович",
-    "phone": "8 (724) 236-9824",
-    "email": "avde_2021@example.com"
+    "name": "Екатерина Матвеевна Крюкова",
+    "phone": "8 (115) 445-7083",
+    "email": "bobilevgedeon@example.com"
   },
   "location": {
     "country": "Россия",
-    "city": "клх Печенга",
-    "street": "ш. Раздольное",
-    "house": "7/9",
-    "postal_code": "426924",
+    "city": "к. Камышин",
+    "street": "алл. Октября",
+    "house": "271",
+    "postal_code": "907583",
     "coordinates": {
-      "latitude": 31.407587,
-      "longitude": -5.558878
+      "latitude": 21.912098,
+      "longitude": 54.804293
     }
   },
   "opening_hours": {
@@ -34,6 +34,6 @@
   },
   "accepts_online_orders": true,
   "delivery_available": true,
-  "warehouse_connected": false,
-  "last_inventory_date": "2025-09-23"
+  "warehouse_connected": true,
+  "last_inventory_date": "2025-09-24"
 }

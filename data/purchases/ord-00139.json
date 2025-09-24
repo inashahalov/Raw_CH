@@ -1,63 +1,84 @@
 {
   "purchase_id": "ord-00139",
   "customer": {
-    "customer_id": "cus-1013",
-    "first_name": "Кирилл",
-    "last_name": "Рожков",
-    "email": "gleb74@example.net",
-    "phone": "8 (334) 633-00-91",
+    "customer_id": "cus-1029",
+    "first_name": "Любосмысл",
+    "last_name": "Терентьев",
+    "email": "nonna_1971@example.net",
+    "phone": "8 360 310 2166",
     "is_loyalty_member": true,
-    "loyalty_card_number": "LOYAL-055E6E6FB0"
+    "loyalty_card_number": "LOYAL-16CDF8CCDA"
   },
   "store": {
-    "store_id": "store-036",
-    "store_name": "Маленькая Пикча — Магазин на бул. Волочаевский",
+    "store_id": "store-042",
+    "store_name": "Маленькая Пикча — Магазин на пер. Ушакова",
     "store_network": "Маленькая Пикча",
     "location": {
       "country": "Россия",
-      "city": "с. Катав-Ивановск",
-      "street": "ш. Тукая",
-      "house": "399",
-      "postal_code": "771697",
+      "city": "с. Костомукша",
+      "street": "бул. Мичурина",
+      "house": "530",
+      "postal_code": "882024",
       "coordinates": {
-        "latitude": 7.340127,
-        "longitude": 150.66847
+        "latitude": -61.248237,
+        "longitude": -133.851346
       }
     }
   },
   "items": [
     {
-      "product_id": "prd-1009",
-      "name": "Заложить Спасть",
-      "category": "🥩 Мясо, рыба, яйца и бобовые",
-      "quantity": 5,
-      "unit": "шт",
-      "price_per_unit": 101.66,
-      "total_price": 508.3,
+      "product_id": "prd-1001",
+      "name": "Механический Намерение",
+      "category": "🥦 Овощи и зелень",
+      "quantity": 1,
+      "unit": "упаковка",
+      "price_per_unit": 66.91,
+      "total_price": 66.91,
       "kbju": {
-        "calories": 246.3,
-        "protein": 19.8,
-        "fat": 4.3,
-        "carbohydrates": 48.1
+        "calories": 139.2,
+        "protein": 6.1,
+        "fat": 13.3,
+        "carbohydrates": 35.9
       },
       "manufacturer": {
-        "name": "НПО «Наумова»",
+        "name": "ООО «Костина, Панов и Фомичева»",
         "country": "Россия",
-        "website": "https://rao.biz",
-        "inn": "4508864986"
+        "website": "https://gsl.biz",
+        "inn": "1159800180"
+      }
+    },
+    {
+      "product_id": "prd-1019",
+      "name": "Исследование Мягкий",
+      "category": "🥦 Овощи и зелень",
+      "quantity": 3,
+      "unit": "шт",
+      "price_per_unit": 101.49,
+      "total_price": 304.47,
+      "kbju": {
+        "calories": 262.4,
+        "protein": 19.7,
+        "fat": 5.4,
+        "carbohydrates": 6.1
+      },
+      "manufacturer": {
+        "name": "ИП «Хохлова»",
+        "country": "Россия",
+        "website": "https://ooo.org",
+        "inn": "2460511347"
       }
     }
   ],
-  "total_amount": 508.3,
-  "payment_method": "card",
+  "total_amount": 371.38,
+  "payment_method": "cash",
   "is_delivery": true,
   "delivery_address": {
     "country": "Россия",
-    "city": "д. Энгельс",
-    "street": "ш. Л.Толстого",
-    "house": "61",
-    "apartment": "39",
-    "postal_code": "533676"
+    "city": "п. Новочеркасск",
+    "street": "наб. Тукая",
+    "house": "6/8",
+    "apartment": "89",
+    "postal_code": "053086"
   },
-  "purchase_datetime": "2025-07-24T19:57:11.019369"
+  "purchase_datetime": "2025-07-18T13:42:39.573472"
 }

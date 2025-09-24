@@ -1,105 +1,84 @@
 {
   "purchase_id": "ord-00006",
   "customer": {
-    "customer_id": "cus-1019",
-    "first_name": "Август",
-    "last_name": "Сергеева",
-    "email": "borisovmilan@example.com",
-    "phone": "+74992445151",
+    "customer_id": "cus-1043",
+    "first_name": "Измаил",
+    "last_name": "Лазарева",
+    "email": "vorontsovaeleonora@example.net",
+    "phone": "+7 762 201 84 01",
     "is_loyalty_member": true,
-    "loyalty_card_number": "LOYAL-935B208ACD"
+    "loyalty_card_number": "LOYAL-176F00FF2B"
   },
   "store": {
-    "store_id": "store-028",
-    "store_name": "Большая Пикча — Магазин на пр. Крупской",
-    "store_network": "Большая Пикча",
+    "store_id": "store-033",
+    "store_name": "Маленькая Пикча — Магазин на ш. Геологическое",
+    "store_network": "Маленькая Пикча",
     "location": {
       "country": "Россия",
-      "city": "ст. Карталы",
-      "street": "ул. Королева",
-      "house": "5",
-      "postal_code": "762232",
+      "city": "г. Корсаков",
+      "street": "наб. Толбухина",
+      "house": "238",
+      "postal_code": "443125",
       "coordinates": {
-        "latitude": -62.0370365,
-        "longitude": 85.309577
+        "latitude": 83.8197755,
+        "longitude": -109.403892
       }
     }
   },
   "items": [
     {
-      "product_id": "prd-1019",
-      "name": "Адвокат Другой",
-      "category": "🥦 Овощи и зелень",
-      "quantity": 3,
-      "unit": "шт",
-      "price_per_unit": 43.3,
-      "total_price": 129.9,
+      "product_id": "prd-1000",
+      "name": "Жестокий Очередной",
+      "category": "🥛 Молочные продукты",
+      "quantity": 4,
+      "unit": "кг",
+      "price_per_unit": 286.95,
+      "total_price": 1147.8,
       "kbju": {
-        "calories": 77.7,
-        "protein": 13.9,
-        "fat": 10.1,
-        "carbohydrates": 22.7
+        "calories": 269.3,
+        "protein": 18.8,
+        "fat": 6.7,
+        "carbohydrates": 25.1
       },
       "manufacturer": {
-        "name": "Чернова Групп",
+        "name": "ОАО «Веселова Крылова»",
         "country": "Россия",
-        "website": "https://belozerova.com",
-        "inn": "4723890506"
+        "website": "https://alekseeva.com",
+        "inn": "3586308951"
       }
     },
     {
-      "product_id": "prd-1010",
-      "name": "Вытаскивать Правый",
-      "category": "🥦 Овощи и зелень",
-      "quantity": 4,
-      "unit": "л",
-      "price_per_unit": 181.57,
-      "total_price": 726.28,
-      "kbju": {
-        "calories": 113.2,
-        "protein": 7.5,
-        "fat": 3.6,
-        "carbohydrates": 41.4
-      },
-      "manufacturer": {
-        "name": "Сергеев Инкорпорэйтед",
-        "country": "Россия",
-        "website": "https://zao.biz",
-        "inn": "0493815810"
-      }
-    },
-    {
-      "product_id": "prd-1011",
-      "name": "Собеседник Цель",
-      "category": "🍏 Фрукты и ягоды",
+      "product_id": "prd-1008",
+      "name": "Очутиться Песенка",
+      "category": "🥩 Мясо, рыба, яйца и бобовые",
       "quantity": 4,
       "unit": "шт",
-      "price_per_unit": 109.38,
-      "total_price": 437.52,
+      "price_per_unit": 248.49,
+      "total_price": 993.96,
       "kbju": {
-        "calories": 140.7,
-        "protein": 19.6,
-        "fat": 11.8,
-        "carbohydrates": 11.5
+        "calories": 51.2,
+        "protein": 13.0,
+        "fat": 6.4,
+        "carbohydrates": 48.7
       },
       "manufacturer": {
-        "name": "Сысоев Лтд",
+        "name": "Лазарева Инк",
         "country": "Россия",
-        "website": "https://ip.org",
-        "inn": "3880754993"
+        "website": "https://guljaev.com",
+        "inn": "0966441801"
       }
     }
   ],
-  "total_amount": 1293.7,
-  "payment_method": "cash",
-  "is_delivery": true,
+  "total_amount": 2141.76,
+  "payment_method": "card",
+  "is_delivery": false,
   "delivery_address": {
     "country": "Россия",
-    "city": "к. Апшеронск",
-    "street": "пр. 70 лет Октября",
-    "house": "79",
-    "apartment": "65",
-    "postal_code": "550824"
+    "city": "д. Псебай",
+    "street": "пр. Мичурина",
+    "house": "313",
+    "apartment": "45",
+    "postal_code": "619059"
   },
-  "purchase_datetime": "2025-08-13T19:57:10.953735"
+  "purchase_datetime": "2025-07-15T13:42:39.521384"
 }

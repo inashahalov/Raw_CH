@@ -1,63 +1,84 @@
 {
   "purchase_id": "ord-00013",
   "customer": {
-    "customer_id": "cus-1033",
-    "first_name": "Евграф",
-    "last_name": "Кулагин",
-    "email": "qsazonova@example.org",
-    "phone": "8 (664) 074-4446",
+    "customer_id": "cus-1008",
+    "first_name": "Самуил",
+    "last_name": "Назаров",
+    "email": "afanasigrishin@example.org",
+    "phone": "89122562959",
     "is_loyalty_member": true,
-    "loyalty_card_number": "LOYAL-615D708F68"
+    "loyalty_card_number": "LOYAL-BA05BD4642"
   },
   "store": {
-    "store_id": "store-040",
-    "store_name": "Маленькая Пикча — Магазин на бул. Буденного",
-    "store_network": "Маленькая Пикча",
+    "store_id": "store-017",
+    "store_name": "Большая Пикча — Магазин на пр. Советский",
+    "store_network": "Большая Пикча",
     "location": {
       "country": "Россия",
-      "city": "г. Курумкан",
-      "street": "алл. Чапаева",
-      "house": "8",
-      "postal_code": "242329",
+      "city": "с. Чусовой",
+      "street": "бул. Металлистов",
+      "house": "76",
+      "postal_code": "465241",
       "coordinates": {
-        "latitude": -50.914079,
-        "longitude": -2.513515
+        "latitude": -31.6654215,
+        "longitude": 32.773325
       }
     }
   },
   "items": [
     {
-      "product_id": "prd-1000",
-      "name": "Заведение Задержать",
+      "product_id": "prd-1005",
+      "name": "Блин Редактор",
       "category": "🥛 Молочные продукты",
       "quantity": 2,
       "unit": "л",
-      "price_per_unit": 174.16,
-      "total_price": 348.32,
+      "price_per_unit": 252.66,
+      "total_price": 505.32,
       "kbju": {
-        "calories": 261.8,
-        "protein": 2.3,
-        "fat": 2.9,
-        "carbohydrates": 19.7
+        "calories": 169.1,
+        "protein": 14.6,
+        "fat": 4.1,
+        "carbohydrates": 39.8
       },
       "manufacturer": {
-        "name": "РАО «Бирюков, Лапина и Волков»",
+        "name": "ООО «Савельев»",
         "country": "Россия",
-        "website": "https://ao.net",
-        "inn": "0912614956"
+        "website": "https://vostok-zapad.biz",
+        "inn": "3880905200"
+      }
+    },
+    {
+      "product_id": "prd-1000",
+      "name": "Жестокий Очередной",
+      "category": "🥛 Молочные продукты",
+      "quantity": 1,
+      "unit": "кг",
+      "price_per_unit": 286.95,
+      "total_price": 286.95,
+      "kbju": {
+        "calories": 269.3,
+        "protein": 18.8,
+        "fat": 6.7,
+        "carbohydrates": 25.1
+      },
+      "manufacturer": {
+        "name": "ОАО «Веселова Крылова»",
+        "country": "Россия",
+        "website": "https://alekseeva.com",
+        "inn": "3586308951"
       }
     }
   ],
-  "total_amount": 348.32,
-  "payment_method": "card",
+  "total_amount": 792.27,
+  "payment_method": "cash",
   "is_delivery": false,
   "delivery_address": {
     "country": "Россия",
-    "city": "с. Чусовой",
-    "street": "ул. Леваневского",
-    "house": "737",
-    "apartment": "67",
-    "postal_code": "413892"
+    "city": "г. Усть-Ишим",
+    "street": "бул. Никитина",
+    "house": "98",
+    "apartment": "6",
+    "postal_code": "792102"
   },
-  "purchase_datetime": "2025-07-31T19:57:10.956869"
+  "purchase_datetime": "2025-07-10T13:42:39.523916"
 }

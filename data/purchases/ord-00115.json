@@ -1,63 +1,63 @@
 {
   "purchase_id": "ord-00115",
   "customer": {
-    "customer_id": "cus-1008",
-    "first_name": "Корнил",
-    "last_name": "Данилова",
-    "email": "ljubim28@example.net",
-    "phone": "84143737040",
+    "customer_id": "cus-1028",
+    "first_name": "Агата",
+    "last_name": "Коновалов",
+    "email": "viktorin66@example.com",
+    "phone": "87313394695",
     "is_loyalty_member": true,
-    "loyalty_card_number": "LOYAL-0E9C233BA4"
+    "loyalty_card_number": "LOYAL-A499338F41"
   },
   "store": {
-    "store_id": "store-031",
-    "store_name": "Маленькая Пикча — Магазин на наб. Максима Горького",
-    "store_network": "Маленькая Пикча",
+    "store_id": "store-012",
+    "store_name": "Большая Пикча — Магазин на бул. Химиков",
+    "store_network": "Большая Пикча",
     "location": {
       "country": "Россия",
-      "city": "к. Шереметьево",
-      "street": "бул. 70 лет Октября",
-      "house": "974",
-      "postal_code": "658842",
+      "city": "ст. Черусти",
+      "street": "пр. Волгоградский",
+      "house": "707",
+      "postal_code": "464132",
       "coordinates": {
-        "latitude": -54.276802,
-        "longitude": -95.137118
+        "latitude": -68.074901,
+        "longitude": 29.59835
       }
     }
   },
   "items": [
     {
       "product_id": "prd-1005",
-      "name": "Уничтожение Вздрагивать",
-      "category": "🍏 Фрукты и ягоды",
-      "quantity": 1,
+      "name": "Блин Редактор",
+      "category": "🥛 Молочные продукты",
+      "quantity": 5,
       "unit": "л",
-      "price_per_unit": 207.53,
-      "total_price": 207.53,
+      "price_per_unit": 252.66,
+      "total_price": 1263.3,
       "kbju": {
-        "calories": 191.8,
-        "protein": 11.1,
-        "fat": 7.9,
-        "carbohydrates": 5.4
+        "calories": 169.1,
+        "protein": 14.6,
+        "fat": 4.1,
+        "carbohydrates": 39.8
       },
       "manufacturer": {
-        "name": "ООО «Авдеев-Медведева»",
+        "name": "ООО «Савельев»",
         "country": "Россия",
-        "website": "https://zao.com",
-        "inn": "9782693224"
+        "website": "https://vostok-zapad.biz",
+        "inn": "3880905200"
       }
     }
   ],
-  "total_amount": 207.53,
-  "payment_method": "card",
+  "total_amount": 1263.3,
+  "payment_method": "cash",
   "is_delivery": false,
   "delivery_address": {
     "country": "Россия",
-    "city": "ст. Тосно",
-    "street": "ул. Маяковского",
-    "house": "515",
-    "apartment": "67",
-    "postal_code": "862981"
+    "city": "д. Геленджик",
+    "street": "ул. Коллективная",
+    "house": "7",
+    "apartment": "81",
+    "postal_code": "259869"
   },
-  "purchase_datetime": "2025-06-27T19:57:11.008111"
+  "purchase_datetime": "2025-06-28T13:42:39.564201"
 }

@@ -1,63 +1,84 @@
 {
   "purchase_id": "ord-00189",
   "customer": {
-    "customer_id": "cus-1038",
-    "first_name": "Фотий",
-    "last_name": "Александров",
-    "email": "borisovstanimir@example.net",
-    "phone": "+7 (110) 633-4695",
+    "customer_id": "cus-1009",
+    "first_name": "Кондрат",
+    "last_name": "Агафонова",
+    "email": "tshchukina@example.org",
+    "phone": "80257421757",
     "is_loyalty_member": true,
-    "loyalty_card_number": "LOYAL-51CB82EFA1"
+    "loyalty_card_number": "LOYAL-143C43728A"
   },
   "store": {
-    "store_id": "store-016",
-    "store_name": "Большая Пикча — Магазин на пр. Сиреневый",
-    "store_network": "Большая Пикча",
+    "store_id": "store-035",
+    "store_name": "Маленькая Пикча — Магазин на бул. Промышленный",
+    "store_network": "Маленькая Пикча",
     "location": {
       "country": "Россия",
-      "city": "д. Оренбург",
-      "street": "ул. Горная",
-      "house": "61",
-      "postal_code": "395799",
+      "city": "д. Печора",
+      "street": "ш. Новоселов",
+      "house": "2",
+      "postal_code": "114081",
       "coordinates": {
-        "latitude": -45.4646875,
-        "longitude": -11.515672
+        "latitude": -78.103015,
+        "longitude": -139.348891
       }
     }
   },
   "items": [
     {
-      "product_id": "prd-1000",
-      "name": "Заведение Задержать",
-      "category": "🥛 Молочные продукты",
+      "product_id": "prd-1004",
+      "name": "Прежний Успокоиться",
+      "category": "🥦 Овощи и зелень",
       "quantity": 5,
-      "unit": "л",
-      "price_per_unit": 174.16,
-      "total_price": 870.8,
+      "unit": "упаковка",
+      "price_per_unit": 192.71,
+      "total_price": 963.55,
       "kbju": {
-        "calories": 261.8,
-        "protein": 2.3,
-        "fat": 2.9,
-        "carbohydrates": 19.7
+        "calories": 95.9,
+        "protein": 17.1,
+        "fat": 12.1,
+        "carbohydrates": 42.3
       },
       "manufacturer": {
-        "name": "РАО «Бирюков, Лапина и Волков»",
+        "name": "АО «Русакова»",
         "country": "Россия",
-        "website": "https://ao.net",
-        "inn": "0912614956"
+        "website": "https://nesterova.com",
+        "inn": "3179388333"
+      }
+    },
+    {
+      "product_id": "prd-1003",
+      "name": "Дорогой Руководитель",
+      "category": "🥦 Овощи и зелень",
+      "quantity": 2,
+      "unit": "упаковка",
+      "price_per_unit": 69.35,
+      "total_price": 138.7,
+      "kbju": {
+        "calories": 223.8,
+        "protein": 18.0,
+        "fat": 5.2,
+        "carbohydrates": 3.6
+      },
+      "manufacturer": {
+        "name": "НПО «Панова Ильина»",
+        "country": "Россия",
+        "website": "https://ooo.biz",
+        "inn": "4367291844"
       }
     }
   ],
-  "total_amount": 870.8,
+  "total_amount": 1102.25,
   "payment_method": "card",
-  "is_delivery": true,
+  "is_delivery": false,
   "delivery_address": {
     "country": "Россия",
-    "city": "с. Жиганск",
-    "street": "наб. Ермака",
-    "house": "9/6",
-    "apartment": "39",
-    "postal_code": "762206"
+    "city": "г. Новочеркасск",
+    "street": "бул. Матросова",
+    "house": "8/7",
+    "apartment": "15",
+    "postal_code": "371221"
   },
-  "purchase_datetime": "2025-09-17T19:57:11.043998"
+  "purchase_datetime": "2025-09-02T13:42:39.595596"
 }

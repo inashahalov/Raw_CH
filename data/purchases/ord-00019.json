@@ -1,63 +1,84 @@
 {
   "purchase_id": "ord-00019",
   "customer": {
-    "customer_id": "cus-1043",
-    "first_name": "Жанна",
-    "last_name": "Сидорова",
-    "email": "ostapmoiseev@example.org",
-    "phone": "+78782851181",
+    "customer_id": "cus-1042",
+    "first_name": "Дорофей",
+    "last_name": "Савельев",
+    "email": "jshchukina@example.com",
+    "phone": "8 954 185 06 66",
     "is_loyalty_member": true,
-    "loyalty_card_number": "LOYAL-21A26202A6"
+    "loyalty_card_number": "LOYAL-6F1263176C"
   },
   "store": {
-    "store_id": "store-021",
-    "store_name": "Большая Пикча — Магазин на ш. Мусы Джалиля",
+    "store_id": "store-015",
+    "store_name": "Большая Пикча — Магазин на алл. Тукая",
     "store_network": "Большая Пикча",
     "location": {
       "country": "Россия",
-      "city": "п. Ноглики",
-      "street": "пер. Просвещения",
-      "house": "846",
-      "postal_code": "673348",
+      "city": "к. Ардон",
+      "street": "пер. Шевченко",
+      "house": "4",
+      "postal_code": "135874",
       "coordinates": {
-        "latitude": 68.9485715,
-        "longitude": -158.508773
+        "latitude": 22.0097665,
+        "longitude": 80.732573
       }
     }
   },
   "items": [
     {
-      "product_id": "prd-1009",
-      "name": "Заложить Спасть",
+      "product_id": "prd-1008",
+      "name": "Очутиться Песенка",
       "category": "🥩 Мясо, рыба, яйца и бобовые",
-      "quantity": 2,
+      "quantity": 5,
       "unit": "шт",
-      "price_per_unit": 101.66,
-      "total_price": 203.32,
+      "price_per_unit": 248.49,
+      "total_price": 1242.45,
       "kbju": {
-        "calories": 246.3,
-        "protein": 19.8,
-        "fat": 4.3,
-        "carbohydrates": 48.1
+        "calories": 51.2,
+        "protein": 13.0,
+        "fat": 6.4,
+        "carbohydrates": 48.7
       },
       "manufacturer": {
-        "name": "НПО «Наумова»",
+        "name": "Лазарева Инк",
+        "country": "Россия",
+        "website": "https://guljaev.com",
+        "inn": "0966441801"
+      }
+    },
+    {
+      "product_id": "prd-1006",
+      "name": "Витрина Лапа",
+      "category": "🥦 Овощи и зелень",
+      "quantity": 2,
+      "unit": "л",
+      "price_per_unit": 197.14,
+      "total_price": 394.28,
+      "kbju": {
+        "calories": 159.3,
+        "protein": 17.1,
+        "fat": 8.9,
+        "carbohydrates": 42.8
+      },
+      "manufacturer": {
+        "name": "ООО «Ширяева Матвеев»",
         "country": "Россия",
         "website": "https://rao.biz",
-        "inn": "4508864986"
+        "inn": "8993676224"
       }
     }
   ],
-  "total_amount": 203.32,
+  "total_amount": 1636.73,
   "payment_method": "cash",
   "is_delivery": true,
   "delivery_address": {
     "country": "Россия",
-    "city": "ст. Богучар",
-    "street": "пер. Нефтяников",
-    "house": "9",
-    "apartment": "76",
-    "postal_code": "522549"
+    "city": "п. Октябрьское (Хант.)",
+    "street": "пр. Технический",
+    "house": "120",
+    "apartment": "9",
+    "postal_code": "623624"
   },
-  "purchase_datetime": "2025-09-05T19:57:10.959575"
+  "purchase_datetime": "2025-08-28T13:42:39.525775"
 }

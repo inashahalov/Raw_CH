@@ -1,6 +1,6 @@
 {
   "store_id": "store-038",
-  "store_name": "Маленькая Пикча — Магазин на бул. Папанина",
+  "store_name": "Маленькая Пикча — Магазин на ул. Подгорная",
   "store_network": "Маленькая Пикча",
   "store_type_description": "Магазин у дома менее 100 кв.м. Входит в сеть из 15 магазинов.",
   "type": "offline",
@@ -12,19 +12,19 @@
     "🥦 Овощи и зелень"
   ],
   "manager": {
-    "name": "Филатова Валентина Яковлевна",
-    "phone": "+7 (196) 372-5991",
-    "email": "semenfadeev@example.com"
+    "name": "Власов Порфирий Тихонович",
+    "phone": "8 374 850 1312",
+    "email": "antonin_2024@example.org"
   },
   "location": {
     "country": "Россия",
-    "city": "д. Терней",
-    "street": "наб. Флотская",
-    "house": "634",
-    "postal_code": "144849",
+    "city": "с. Липецк",
+    "street": "ш. Гагарина",
+    "house": "15",
+    "postal_code": "670571",
     "coordinates": {
-      "latitude": -24.7418805,
-      "longitude": -175.888895
+      "latitude": -19.9065625,
+      "longitude": 136.311862
     }
   },
   "opening_hours": {
@@ -34,6 +34,6 @@
   },
   "accepts_online_orders": true,
   "delivery_available": true,
-  "warehouse_connected": true,
-  "last_inventory_date": "2025-09-23"
+  "warehouse_connected": false,
+  "last_inventory_date": "2025-09-24"
 }

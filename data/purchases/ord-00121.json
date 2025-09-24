@@ -1,84 +1,63 @@
 {
   "purchase_id": "ord-00121",
   "customer": {
-    "customer_id": "cus-1017",
-    "first_name": "Анна",
-    "last_name": "Кулагина",
-    "email": "blinovagafon@example.com",
-    "phone": "8 378 774 4882",
+    "customer_id": "cus-1028",
+    "first_name": "Агата",
+    "last_name": "Коновалов",
+    "email": "viktorin66@example.com",
+    "phone": "87313394695",
     "is_loyalty_member": true,
-    "loyalty_card_number": "LOYAL-BB85942A1A"
+    "loyalty_card_number": "LOYAL-A499338F41"
   },
   "store": {
-    "store_id": "store-045",
-    "store_name": "Маленькая Пикча — Магазин на ш. Новгородское",
+    "store_id": "store-036",
+    "store_name": "Маленькая Пикча — Магазин на пр. Кузнечный",
     "store_network": "Маленькая Пикча",
     "location": {
       "country": "Россия",
-      "city": "д. Нягань",
-      "street": "бул. Кузнецкий",
-      "house": "131",
-      "postal_code": "265786",
+      "city": "к. Добрянка",
+      "street": "пр. Болотный",
+      "house": "1/8",
+      "postal_code": "802482",
       "coordinates": {
-        "latitude": 47.6212905,
-        "longitude": -30.402347
+        "latitude": -38.8851715,
+        "longitude": 144.818432
       }
     }
   },
   "items": [
     {
-      "product_id": "prd-1019",
-      "name": "Адвокат Другой",
+      "product_id": "prd-1006",
+      "name": "Витрина Лапа",
       "category": "🥦 Овощи и зелень",
-      "quantity": 4,
-      "unit": "шт",
-      "price_per_unit": 43.3,
-      "total_price": 173.2,
-      "kbju": {
-        "calories": 77.7,
-        "protein": 13.9,
-        "fat": 10.1,
-        "carbohydrates": 22.7
-      },
-      "manufacturer": {
-        "name": "Чернова Групп",
-        "country": "Россия",
-        "website": "https://belozerova.com",
-        "inn": "4723890506"
-      }
-    },
-    {
-      "product_id": "prd-1012",
-      "name": "Премьера Висеть",
-      "category": "🥩 Мясо, рыба, яйца и бобовые",
       "quantity": 5,
       "unit": "л",
-      "price_per_unit": 193.21,
-      "total_price": 966.05,
+      "price_per_unit": 197.14,
+      "total_price": 985.7,
       "kbju": {
-        "calories": 254.5,
-        "protein": 0.8,
-        "fat": 5.6,
-        "carbohydrates": 3.1
+        "calories": 159.3,
+        "protein": 17.1,
+        "fat": 8.9,
+        "carbohydrates": 42.8
       },
       "manufacturer": {
-        "name": "АО «Ларионова, Молчанов и Ефремова»",
+        "name": "ООО «Ширяева Матвеев»",
         "country": "Россия",
-        "website": "https://ao.edu",
-        "inn": "3317182161"
+        "website": "https://rao.biz",
+        "inn": "8993676224"
       }
     }
   ],
-  "total_amount": 1139.25,
-  "payment_method": "card",
-  "is_delivery": false,
+  "total_amount": 985.7,
+  "payment_method": "cash",
+  "is_delivery": true,
   "delivery_address": {
     "country": "Россия",
-    "city": "к. Минеральные Воды",
-    "street": "бул. Тракторный",
-    "house": "1/6",
-    "apartment": "35",
-    "postal_code": "468913"
+    "city": "д. Геленджик",
+    "street": "ул. Коллективная",
+    "house": "7",
+    "apartment": "81",
+    "postal_code": "259869"
   },
-  "purchase_datetime": "2025-08-17T19:57:11.010885"
+  "purchase_datetime": "2025-09-02T13:42:39.566538"
 }

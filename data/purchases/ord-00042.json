@@ -1,84 +1,63 @@
 {
   "purchase_id": "ord-00042",
   "customer": {
-    "customer_id": "cus-1004",
-    "first_name": "Эрнст",
-    "last_name": "Чернова",
-    "email": "raisa_2008@example.org",
-    "phone": "8 107 081 6420",
+    "customer_id": "cus-1015",
+    "first_name": "Леонид",
+    "last_name": "Кошелев",
+    "email": "azari_1993@example.net",
+    "phone": "+7 (634) 197-88-21",
     "is_loyalty_member": true,
-    "loyalty_card_number": "LOYAL-CD5CCA41C2"
+    "loyalty_card_number": "LOYAL-E7F66D6229"
   },
   "store": {
-    "store_id": "store-018",
-    "store_name": "Большая Пикча — Магазин на пер. З.Космодемьянской",
+    "store_id": "store-006",
+    "store_name": "Большая Пикча — Магазин на алл. Поперечная",
     "store_network": "Большая Пикча",
     "location": {
       "country": "Россия",
-      "city": "к. Минеральные Воды",
-      "street": "пер. Каштановый",
-      "house": "85",
-      "postal_code": "972733",
+      "city": "ст. Сортавала",
+      "street": "бул. Шмидта",
+      "house": "31",
+      "postal_code": "947028",
       "coordinates": {
-        "latitude": 1.333662,
-        "longitude": -136.6214
+        "latitude": -1.9295105,
+        "longitude": 149.818126
       }
     }
   },
   "items": [
     {
-      "product_id": "prd-1008",
-      "name": "Фонарик Успокоиться",
-      "category": "🥖 Зерновые и хлебобулочные изделия",
-      "quantity": 4,
-      "unit": "упаковка",
-      "price_per_unit": 73.43,
-      "total_price": 293.72,
+      "product_id": "prd-1012",
+      "name": "Полюбить Прошептать",
+      "category": "🥛 Молочные продукты",
+      "quantity": 5,
+      "unit": "л",
+      "price_per_unit": 179.33,
+      "total_price": 896.65,
       "kbju": {
-        "calories": 92.6,
-        "protein": 18.4,
-        "fat": 11.5,
-        "carbohydrates": 24.8
+        "calories": 251.8,
+        "protein": 19.3,
+        "fat": 14.3,
+        "carbohydrates": 22.3
       },
       "manufacturer": {
-        "name": "ООО «Денисов, Щукина и Гришин»",
+        "name": "ИП «Шарова»",
         "country": "Россия",
-        "website": "https://kozlova.org",
-        "inn": "3531459365"
-      }
-    },
-    {
-      "product_id": "prd-1004",
-      "name": "Рассуждение Боец",
-      "category": "🥩 Мясо, рыба, яйца и бобовые",
-      "quantity": 2,
-      "unit": "кг",
-      "price_per_unit": 167.58,
-      "total_price": 335.16,
-      "kbju": {
-        "calories": 270.7,
-        "protein": 8.7,
-        "fat": 11.5,
-        "carbohydrates": 1.5
-      },
-      "manufacturer": {
-        "name": "РАО «Мухина Миронов»",
-        "country": "Россия",
-        "website": "https://rao.org",
-        "inn": "9262920859"
+        "website": "https://ip.ru",
+        "inn": "2195881079"
       }
     }
   ],
-  "total_amount": 628.88,
-  "payment_method": "cash",
+  "total_amount": 896.65,
+  "payment_method": "card",
   "is_delivery": true,
   "delivery_address": {
     "country": "Россия",
-    "city": "п. Выборг",
-    "street": "наб. Высотная",
-    "house": "7",
-    "apartment": "66",
-    "postal_code": "973893"
+    "city": "ст. Приморско-Ахтарск",
+    "street": "ш. Дружбы",
+    "house": "8",
+    "apartment": "95",
+    "postal_code": "501123"
   },
-  "purchase_datetime": "2025-06-30T19:57:10.970307"
+  "purchase_datetime": "2025-08-23T13:42:39.534804"
 }

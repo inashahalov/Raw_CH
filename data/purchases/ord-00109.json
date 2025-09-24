@@ -1,105 +1,105 @@
 {
   "purchase_id": "ord-00109",
   "customer": {
-    "customer_id": "cus-1017",
-    "first_name": "Анна",
-    "last_name": "Кулагина",
-    "email": "blinovagafon@example.com",
-    "phone": "8 378 774 4882",
+    "customer_id": "cus-1025",
+    "first_name": "Христофор",
+    "last_name": "Суханова",
+    "email": "tit37@example.com",
+    "phone": "+7 126 102 90 17",
     "is_loyalty_member": true,
-    "loyalty_card_number": "LOYAL-BB85942A1A"
+    "loyalty_card_number": "LOYAL-702FE49440"
   },
   "store": {
-    "store_id": "store-012",
-    "store_name": "Большая Пикча — Магазин на наб. Центральная",
-    "store_network": "Большая Пикча",
+    "store_id": "store-041",
+    "store_name": "Маленькая Пикча — Магазин на пер. Невского",
+    "store_network": "Маленькая Пикча",
     "location": {
       "country": "Россия",
-      "city": "ст. Валдай",
-      "street": "алл. Станиславского",
-      "house": "8/1",
-      "postal_code": "481389",
+      "city": "к. Камышин",
+      "street": "алл. Октября",
+      "house": "271",
+      "postal_code": "907583",
       "coordinates": {
-        "latitude": 33.4852585,
-        "longitude": 19.302012
+        "latitude": 21.912098,
+        "longitude": 54.804293
       }
     }
   },
   "items": [
     {
-      "product_id": "prd-1019",
-      "name": "Адвокат Другой",
+      "product_id": "prd-1011",
+      "name": "Сверкающий Коробка",
       "category": "🥦 Овощи и зелень",
-      "quantity": 1,
-      "unit": "шт",
-      "price_per_unit": 43.3,
-      "total_price": 43.3,
-      "kbju": {
-        "calories": 77.7,
-        "protein": 13.9,
-        "fat": 10.1,
-        "carbohydrates": 22.7
-      },
-      "manufacturer": {
-        "name": "Чернова Групп",
-        "country": "Россия",
-        "website": "https://belozerova.com",
-        "inn": "4723890506"
-      }
-    },
-    {
-      "product_id": "prd-1009",
-      "name": "Заложить Спасть",
-      "category": "🥩 Мясо, рыба, яйца и бобовые",
       "quantity": 5,
       "unit": "шт",
-      "price_per_unit": 101.66,
-      "total_price": 508.3,
+      "price_per_unit": 242.68,
+      "total_price": 1213.4,
       "kbju": {
-        "calories": 246.3,
-        "protein": 19.8,
-        "fat": 4.3,
-        "carbohydrates": 48.1
+        "calories": 212.1,
+        "protein": 13.3,
+        "fat": 13.8,
+        "carbohydrates": 18.4
       },
       "manufacturer": {
-        "name": "НПО «Наумова»",
+        "name": "ЗАО «Филатова-Юдина»",
         "country": "Россия",
-        "website": "https://rao.biz",
-        "inn": "4508864986"
+        "website": "https://oao.info",
+        "inn": "6258727413"
       }
     },
     {
       "product_id": "prd-1018",
-      "name": "Низкий Присесть",
-      "category": "🥩 Мясо, рыба, яйца и бобовые",
-      "quantity": 4,
-      "unit": "кг",
-      "price_per_unit": 240.2,
-      "total_price": 960.8,
+      "name": "Проход Запретить",
+      "category": "🍏 Фрукты и ягоды",
+      "quantity": 1,
+      "unit": "упаковка",
+      "price_per_unit": 258.84,
+      "total_price": 258.84,
       "kbju": {
-        "calories": 272.9,
-        "protein": 7.8,
-        "fat": 2.3,
-        "carbohydrates": 5.3
+        "calories": 254.3,
+        "protein": 10.6,
+        "fat": 7.9,
+        "carbohydrates": 9.3
       },
       "manufacturer": {
-        "name": "Ланит",
+        "name": "ИП «Турова, Селезнев и Жданова»",
         "country": "Россия",
-        "website": "https://rao.info",
-        "inn": "3763771194"
+        "website": "https://ao.com",
+        "inn": "7389660036"
+      }
+    },
+    {
+      "product_id": "prd-1007",
+      "name": "Инвалид Госпожа",
+      "category": "🥩 Мясо, рыба, яйца и бобовые",
+      "quantity": 4,
+      "unit": "упаковка",
+      "price_per_unit": 216.19,
+      "total_price": 864.76,
+      "kbju": {
+        "calories": 103.2,
+        "protein": 11.9,
+        "fat": 9.2,
+        "carbohydrates": 32.1
+      },
+      "manufacturer": {
+        "name": "НПО «Мельникова-Юдина»",
+        "country": "Россия",
+        "website": "https://zao.ru",
+        "inn": "8084632702"
       }
     }
   ],
-  "total_amount": 1512.4,
+  "total_amount": 2337.0,
   "payment_method": "cash",
   "is_delivery": false,
   "delivery_address": {
     "country": "Россия",
-    "city": "к. Минеральные Воды",
-    "street": "бул. Тракторный",
-    "house": "1/6",
+    "city": "с. Минусинск",
+    "street": "ш. Аэродромное",
+    "house": "677",
     "apartment": "35",
-    "postal_code": "468913"
+    "postal_code": "710414"
   },
-  "purchase_datetime": "2025-08-29T19:57:11.005337"
+  "purchase_datetime": "2025-08-29T13:42:39.561636"
 }

@@ -1,36 +1,36 @@
 {
   "customer_id": "cus-1003",
-  "first_name": "Федосий",
-  "last_name": "Кулагин",
-  "email": "efim_1985@example.net",
-  "phone": "+7 (506) 308-6005",
-  "birth_date": "1959-04-06",
-  "gender": "female",
-  "registration_date": "2025-09-23T19:57:10.926017",
+  "first_name": "Мефодий",
+  "last_name": "Афанасьев",
+  "email": "nadezhda_2014@example.net",
+  "phone": "83623022204",
+  "birth_date": "1957-07-23",
+  "gender": "male",
+  "registration_date": "2025-09-24T13:42:39.495666",
   "is_loyalty_member": true,
-  "loyalty_card_number": "LOYAL-BABE7C0EB0",
+  "loyalty_card_number": "LOYAL-7C90F1406F",
   "purchase_location": {
     "store_id": "store-004",
-    "store_name": "Большая Пикча — Магазин на алл. Базарная",
+    "store_name": "Большая Пикча — Магазин на пр. Ленинский",
     "store_network": "Большая Пикча",
     "store_type_description": "Супермаркет более 200 кв.м. Входит в сеть из 30 магазинов.",
     "country": "Россия",
-    "city": "к. Южноуральск",
-    "street": "алл. Мелиораторов",
-    "house": "30",
-    "postal_code": "971964"
+    "city": "к. Усолье Сибирское",
+    "street": "ш. Белинского",
+    "house": "1/4",
+    "postal_code": "726741"
   },
   "delivery_address": {
     "country": "Россия",
-    "city": "к. Южноуральск",
-    "street": "пер. Орджоникидзе",
-    "house": "94",
-    "apartment": "3",
-    "postal_code": "037248"
+    "city": "к. Усолье Сибирское",
+    "street": "ул. Белорусская",
+    "house": "230",
+    "apartment": "13",
+    "postal_code": "672568"
   },
   "preferences": {
     "preferred_language": "ru",
-    "preferred_payment_method": "cash",
+    "preferred_payment_method": "card",
     "receive_promotions": false
   }
 }

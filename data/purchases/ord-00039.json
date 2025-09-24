@@ -1,84 +1,63 @@
 {
   "purchase_id": "ord-00039",
   "customer": {
-    "customer_id": "cus-1027",
-    "first_name": "Тамара",
-    "last_name": "Щукин",
-    "email": "ostromirbelov@example.net",
-    "phone": "+7 995 583 6738",
+    "customer_id": "cus-1044",
+    "first_name": "Парфен",
+    "last_name": "Данилов",
+    "email": "angelina2012@example.net",
+    "phone": "+7 (210) 244-1602",
     "is_loyalty_member": true,
-    "loyalty_card_number": "LOYAL-266038E03B"
+    "loyalty_card_number": "LOYAL-3D67D58F4B"
   },
   "store": {
     "store_id": "store-028",
-    "store_name": "Большая Пикча — Магазин на пр. Крупской",
+    "store_name": "Большая Пикча — Магазин на наб. Высокая",
     "store_network": "Большая Пикча",
     "location": {
       "country": "Россия",
-      "city": "ст. Карталы",
-      "street": "ул. Королева",
-      "house": "5",
-      "postal_code": "762232",
+      "city": "клх Терней",
+      "street": "ш. Майское",
+      "house": "4/6",
+      "postal_code": "740829",
       "coordinates": {
-        "latitude": -62.0370365,
-        "longitude": 85.309577
+        "latitude": 42.5208505,
+        "longitude": -137.089372
       }
     }
   },
   "items": [
     {
-      "product_id": "prd-1002",
-      "name": "Разводить Школьный",
+      "product_id": "prd-1011",
+      "name": "Сверкающий Коробка",
       "category": "🥦 Овощи и зелень",
-      "quantity": 3,
-      "unit": "л",
-      "price_per_unit": 232.4,
-      "total_price": 697.2,
+      "quantity": 4,
+      "unit": "шт",
+      "price_per_unit": 242.68,
+      "total_price": 970.72,
       "kbju": {
-        "calories": 276.5,
-        "protein": 15.9,
-        "fat": 7.0,
-        "carbohydrates": 4.4
+        "calories": 212.1,
+        "protein": 13.3,
+        "fat": 13.8,
+        "carbohydrates": 18.4
       },
       "manufacturer": {
-        "name": "ОАО «Туров, Горбунова и Галкина»",
+        "name": "ЗАО «Филатова-Юдина»",
         "country": "Россия",
-        "website": "https://oao.com",
-        "inn": "7774237965"
-      }
-    },
-    {
-      "product_id": "prd-1007",
-      "name": "Штаб Приличный",
-      "category": "🍏 Фрукты и ягоды",
-      "quantity": 1,
-      "unit": "кг",
-      "price_per_unit": 196.88,
-      "total_price": 196.88,
-      "kbju": {
-        "calories": 164.9,
-        "protein": 16.7,
-        "fat": 3.6,
-        "carbohydrates": 31.4
-      },
-      "manufacturer": {
-        "name": "СДС-Уголь",
-        "country": "Россия",
-        "website": "https://npo.ru",
-        "inn": "9854590544"
+        "website": "https://oao.info",
+        "inn": "6258727413"
       }
     }
   ],
-  "total_amount": 894.08,
+  "total_amount": 970.72,
   "payment_method": "card",
-  "is_delivery": true,
+  "is_delivery": false,
   "delivery_address": {
     "country": "Россия",
-    "city": "ст. Карталы",
-    "street": "пр. Репина",
-    "house": "83",
-    "apartment": "19",
-    "postal_code": "029613"
+    "city": "с. Тымовское",
+    "street": "пер. Невского",
+    "house": "247",
+    "apartment": "36",
+    "postal_code": "490798"
   },
-  "purchase_datetime": "2025-09-05T19:57:10.968999"
+  "purchase_datetime": "2025-08-26T13:42:39.533498"
 }

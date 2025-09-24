@@ -1,6 +1,6 @@
 {
   "store_id": "store-020",
-  "store_name": "Большая Пикча — Магазин на ш. Торговое",
+  "store_name": "Большая Пикча — Магазин на пер. Папанина",
   "store_network": "Большая Пикча",
   "store_type_description": "Супермаркет более 200 кв.м. Входит в сеть из 30 магазинов.",
   "type": "offline",
@@ -12,19 +12,19 @@
     "🥦 Овощи и зелень"
   ],
   "manager": {
-    "name": "Мария Юрьевна Кириллова",
-    "phone": "+72269763814",
-    "email": "terenti_34@example.com"
+    "name": "Людмила Наумовна Сорокина",
+    "phone": "85232820494",
+    "email": "potapmiheev@example.org"
   },
   "location": {
     "country": "Россия",
-    "city": "к. Апшеронск",
-    "street": "пр. Войкова",
-    "house": "6/9",
-    "postal_code": "046873",
+    "city": "клх Видное",
+    "street": "ул. 50 лет ВЛКСМ",
+    "house": "61",
+    "postal_code": "597456",
     "coordinates": {
-      "latitude": -44.909337,
-      "longitude": -111.402746
+      "latitude": 53.1277825,
+      "longitude": 110.890124
     }
   },
   "opening_hours": {
@@ -35,5 +35,5 @@
   "accepts_online_orders": true,
   "delivery_available": true,
   "warehouse_connected": true,
-  "last_inventory_date": "2025-09-23"
+  "last_inventory_date": "2025-09-24"
 }

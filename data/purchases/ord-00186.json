@@ -1,84 +1,105 @@
 {
   "purchase_id": "ord-00186",
   "customer": {
-    "customer_id": "cus-1021",
-    "first_name": "Геннадий",
-    "last_name": "Савина",
-    "email": "maksim_1981@example.org",
-    "phone": "+7 127 507 5728",
+    "customer_id": "cus-1028",
+    "first_name": "Агата",
+    "last_name": "Коновалов",
+    "email": "viktorin66@example.com",
+    "phone": "87313394695",
     "is_loyalty_member": true,
-    "loyalty_card_number": "LOYAL-E815D9C89B"
+    "loyalty_card_number": "LOYAL-A499338F41"
   },
   "store": {
     "store_id": "store-023",
-    "store_name": "Большая Пикча — Магазин на алл. Московская",
+    "store_name": "Большая Пикча — Магазин на ш. Восьмого Марта",
     "store_network": "Большая Пикча",
     "location": {
       "country": "Россия",
-      "city": "к. Красногорск (Моск.)",
-      "street": "бул. Бабушкина",
-      "house": "74",
-      "postal_code": "103606",
+      "city": "г. Холмск",
+      "street": "ш. Майское",
+      "house": "435",
+      "postal_code": "198436",
       "coordinates": {
-        "latitude": -72.0031925,
-        "longitude": -94.798688
+        "latitude": 6.0641875,
+        "longitude": 19.737599
       }
     }
   },
   "items": [
     {
-      "product_id": "prd-1004",
-      "name": "Рассуждение Боец",
+      "product_id": "prd-1017",
+      "name": "Сутки Покидать",
       "category": "🥩 Мясо, рыба, яйца и бобовые",
-      "quantity": 2,
+      "quantity": 1,
       "unit": "кг",
-      "price_per_unit": 167.58,
-      "total_price": 335.16,
+      "price_per_unit": 240.7,
+      "total_price": 240.7,
       "kbju": {
-        "calories": 270.7,
-        "protein": 8.7,
-        "fat": 11.5,
-        "carbohydrates": 1.5
+        "calories": 208.1,
+        "protein": 11.4,
+        "fat": 6.1,
+        "carbohydrates": 10.1
       },
       "manufacturer": {
-        "name": "РАО «Мухина Миронов»",
+        "name": "ЗАО «Стрелков Журавлева»",
         "country": "Россия",
-        "website": "https://rao.org",
-        "inn": "9262920859"
+        "website": "https://ooo.com",
+        "inn": "4048587161"
       }
     },
     {
-      "product_id": "prd-1000",
-      "name": "Заведение Задержать",
-      "category": "🥛 Молочные продукты",
-      "quantity": 2,
-      "unit": "л",
-      "price_per_unit": 174.16,
-      "total_price": 348.32,
+      "product_id": "prd-1001",
+      "name": "Механический Намерение",
+      "category": "🥦 Овощи и зелень",
+      "quantity": 5,
+      "unit": "упаковка",
+      "price_per_unit": 66.91,
+      "total_price": 334.55,
       "kbju": {
-        "calories": 261.8,
-        "protein": 2.3,
-        "fat": 2.9,
-        "carbohydrates": 19.7
+        "calories": 139.2,
+        "protein": 6.1,
+        "fat": 13.3,
+        "carbohydrates": 35.9
       },
       "manufacturer": {
-        "name": "РАО «Бирюков, Лапина и Волков»",
+        "name": "ООО «Костина, Панов и Фомичева»",
         "country": "Россия",
-        "website": "https://ao.net",
-        "inn": "0912614956"
+        "website": "https://gsl.biz",
+        "inn": "1159800180"
+      }
+    },
+    {
+      "product_id": "prd-1012",
+      "name": "Полюбить Прошептать",
+      "category": "🥛 Молочные продукты",
+      "quantity": 4,
+      "unit": "л",
+      "price_per_unit": 179.33,
+      "total_price": 717.32,
+      "kbju": {
+        "calories": 251.8,
+        "protein": 19.3,
+        "fat": 14.3,
+        "carbohydrates": 22.3
+      },
+      "manufacturer": {
+        "name": "ИП «Шарова»",
+        "country": "Россия",
+        "website": "https://ip.ru",
+        "inn": "2195881079"
       }
     }
   ],
-  "total_amount": 683.48,
-  "payment_method": "card",
-  "is_delivery": true,
+  "total_amount": 1292.57,
+  "payment_method": "cash",
+  "is_delivery": false,
   "delivery_address": {
     "country": "Россия",
-    "city": "с. Сковородино",
-    "street": "алл. Коммуны",
-    "house": "67",
-    "apartment": "74",
-    "postal_code": "225952"
+    "city": "д. Геленджик",
+    "street": "ул. Коллективная",
+    "house": "7",
+    "apartment": "81",
+    "postal_code": "259869"
   },
-  "purchase_datetime": "2025-07-09T19:57:11.042667"
+  "purchase_datetime": "2025-09-13T13:42:39.594465"
 }

@@ -1,63 +1,63 @@
 {
   "purchase_id": "ord-00193",
   "customer": {
-    "customer_id": "cus-1016",
-    "first_name": "Анна",
-    "last_name": "Самойлова",
-    "email": "shubinavksenti@example.net",
-    "phone": "8 (544) 774-4118",
+    "customer_id": "cus-1033",
+    "first_name": "Радован",
+    "last_name": "Максимова",
+    "email": "iosif02@example.net",
+    "phone": "+7 (426) 638-65-12",
     "is_loyalty_member": true,
-    "loyalty_card_number": "LOYAL-65D213A3F5"
+    "loyalty_card_number": "LOYAL-E8AFED5DEF"
   },
   "store": {
-    "store_id": "store-009",
-    "store_name": "Большая Пикча — Магазин на пер. Пригородный",
-    "store_network": "Большая Пикча",
+    "store_id": "store-039",
+    "store_name": "Маленькая Пикча — Магазин на наб. Мичурина",
+    "store_network": "Маленькая Пикча",
     "location": {
       "country": "Россия",
-      "city": "ст. Тосно",
-      "street": "бул. Снежный",
-      "house": "17",
-      "postal_code": "064592",
+      "city": "к. Лотошино",
+      "street": "пр. Боровой",
+      "house": "3",
+      "postal_code": "599266",
       "coordinates": {
-        "latitude": -81.084922,
-        "longitude": -135.926762
+        "latitude": -5.6986535,
+        "longitude": 4.716023
       }
     }
   },
   "items": [
     {
-      "product_id": "prd-1017",
-      "name": "Неожиданный Эпоха",
-      "category": "🥦 Овощи и зелень",
-      "quantity": 5,
+      "product_id": "prd-1010",
+      "name": "Бак Советовать",
+      "category": "🍏 Фрукты и ягоды",
+      "quantity": 2,
       "unit": "упаковка",
-      "price_per_unit": 187.0,
-      "total_price": 935.0,
+      "price_per_unit": 283.56,
+      "total_price": 567.12,
       "kbju": {
-        "calories": 291.5,
-        "protein": 6.8,
-        "fat": 3.0,
-        "carbohydrates": 7.4
+        "calories": 247.4,
+        "protein": 3.4,
+        "fat": 14.4,
+        "carbohydrates": 46.0
       },
       "manufacturer": {
-        "name": "ЗАО «Сафонова Ларионова»",
+        "name": "Гаврилова Инкорпорэйтед",
         "country": "Россия",
-        "website": "https://ao.org",
-        "inn": "0841571264"
+        "website": "https://ao.com",
+        "inn": "5008817113"
       }
     }
   ],
-  "total_amount": 935.0,
-  "payment_method": "card",
+  "total_amount": 567.12,
+  "payment_method": "cash",
   "is_delivery": false,
   "delivery_address": {
     "country": "Россия",
-    "city": "ст. Любань",
-    "street": "пер. Камский",
-    "house": "974",
-    "apartment": "2",
-    "postal_code": "965257"
+    "city": "ст. Беслан",
+    "street": "бул. Вокзальный",
+    "house": "292",
+    "apartment": "99",
+    "postal_code": "614412"
   },
-  "purchase_datetime": "2025-08-27T19:57:11.045835"
+  "purchase_datetime": "2025-09-19T13:42:39.596981"
 }

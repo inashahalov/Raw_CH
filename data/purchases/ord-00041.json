@@ -1,63 +1,105 @@
 {
   "purchase_id": "ord-00041",
   "customer": {
-    "customer_id": "cus-1039",
-    "first_name": "Никодим",
-    "last_name": "Белоусова",
-    "email": "varlaam1991@example.com",
-    "phone": "+7 148 865 5194",
+    "customer_id": "cus-1030",
+    "first_name": "Юрий",
+    "last_name": "Исакова",
+    "email": "frol_93@example.net",
+    "phone": "+70921851470",
     "is_loyalty_member": true,
-    "loyalty_card_number": "LOYAL-345785EB3A"
+    "loyalty_card_number": "LOYAL-384DC34D0B"
   },
   "store": {
-    "store_id": "store-013",
-    "store_name": "Большая Пикча — Магазин на пер. Белорусский",
+    "store_id": "store-030",
+    "store_name": "Большая Пикча — Магазин на ул. Брянская",
     "store_network": "Большая Пикча",
     "location": {
       "country": "Россия",
-      "city": "д. Махачкала",
-      "street": "алл. Тупиковая",
-      "house": "8/9",
-      "postal_code": "029495",
+      "city": "п. Новочеркасск",
+      "street": "ш. Весеннее",
+      "house": "77",
+      "postal_code": "015391",
       "coordinates": {
-        "latitude": 0.219858,
-        "longitude": -53.203028
+        "latitude": 31.4406375,
+        "longitude": -6.099828
       }
     }
   },
   "items": [
     {
-      "product_id": "prd-1007",
-      "name": "Штаб Приличный",
-      "category": "🍏 Фрукты и ягоды",
+      "product_id": "prd-1016",
+      "name": "Очередной Аллея",
+      "category": "🥖 Зерновые и хлебобулочные изделия",
       "quantity": 1,
-      "unit": "кг",
-      "price_per_unit": 196.88,
-      "total_price": 196.88,
+      "unit": "шт",
+      "price_per_unit": 251.07,
+      "total_price": 251.07,
       "kbju": {
-        "calories": 164.9,
-        "protein": 16.7,
-        "fat": 3.6,
-        "carbohydrates": 31.4
+        "calories": 277.2,
+        "protein": 18.2,
+        "fat": 6.0,
+        "carbohydrates": 11.3
       },
       "manufacturer": {
-        "name": "СДС-Уголь",
+        "name": "ГК Автомир",
         "country": "Россия",
-        "website": "https://npo.ru",
-        "inn": "9854590544"
+        "website": "https://andreev.info",
+        "inn": "8436477835"
+      }
+    },
+    {
+      "product_id": "prd-1007",
+      "name": "Инвалид Госпожа",
+      "category": "🥩 Мясо, рыба, яйца и бобовые",
+      "quantity": 5,
+      "unit": "упаковка",
+      "price_per_unit": 216.19,
+      "total_price": 1080.95,
+      "kbju": {
+        "calories": 103.2,
+        "protein": 11.9,
+        "fat": 9.2,
+        "carbohydrates": 32.1
+      },
+      "manufacturer": {
+        "name": "НПО «Мельникова-Юдина»",
+        "country": "Россия",
+        "website": "https://zao.ru",
+        "inn": "8084632702"
+      }
+    },
+    {
+      "product_id": "prd-1018",
+      "name": "Проход Запретить",
+      "category": "🍏 Фрукты и ягоды",
+      "quantity": 3,
+      "unit": "упаковка",
+      "price_per_unit": 258.84,
+      "total_price": 776.52,
+      "kbju": {
+        "calories": 254.3,
+        "protein": 10.6,
+        "fat": 7.9,
+        "carbohydrates": 9.3
+      },
+      "manufacturer": {
+        "name": "ИП «Турова, Селезнев и Жданова»",
+        "country": "Россия",
+        "website": "https://ao.com",
+        "inn": "7389660036"
       }
     }
   ],
-  "total_amount": 196.88,
+  "total_amount": 2108.54,
   "payment_method": "cash",
-  "is_delivery": false,
+  "is_delivery": true,
   "delivery_address": {
     "country": "Россия",
-    "city": "г. Курумкан",
-    "street": "алл. Гаражная",
-    "house": "494",
-    "apartment": "64",
-    "postal_code": "544699"
+    "city": "ст. Инта",
+    "street": "ул. Советской Армии",
+    "house": "5",
+    "apartment": "45",
+    "postal_code": "821612"
   },
-  "purchase_datetime": "2025-07-12T19:57:10.969920"
+  "purchase_datetime": "2025-08-24T13:42:39.534364"
 }

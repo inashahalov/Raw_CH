@@ -1,63 +1,84 @@
 {
   "purchase_id": "ord-00175",
   "customer": {
-    "customer_id": "cus-1007",
-    "first_name": "Константин",
-    "last_name": "Фадеев",
-    "email": "korolevefim@example.net",
-    "phone": "8 (270) 745-5698",
+    "customer_id": "cus-1016",
+    "first_name": "Ипполит",
+    "last_name": "Гаврилов",
+    "email": "jdorofeev@example.net",
+    "phone": "+7 301 264 7844",
     "is_loyalty_member": true,
-    "loyalty_card_number": "LOYAL-2DFE8E6C69"
+    "loyalty_card_number": "LOYAL-3A71946831"
   },
   "store": {
-    "store_id": "store-012",
-    "store_name": "Большая Пикча — Магазин на наб. Центральная",
+    "store_id": "store-014",
+    "store_name": "Большая Пикча — Магазин на наб. Автомобилистов",
     "store_network": "Большая Пикча",
     "location": {
       "country": "Россия",
-      "city": "ст. Валдай",
-      "street": "алл. Станиславского",
-      "house": "8/1",
-      "postal_code": "481389",
+      "city": "д. Челюскин",
+      "street": "пр. Прудный",
+      "house": "254",
+      "postal_code": "481000",
       "coordinates": {
-        "latitude": 33.4852585,
-        "longitude": 19.302012
+        "latitude": -8.1180335,
+        "longitude": 175.298147
       }
     }
   },
   "items": [
     {
-      "product_id": "prd-1015",
-      "name": "Войти Приходить",
-      "category": "🥛 Молочные продукты",
-      "quantity": 1,
-      "unit": "шт",
-      "price_per_unit": 92.89,
-      "total_price": 92.89,
+      "product_id": "prd-1001",
+      "name": "Механический Намерение",
+      "category": "🥦 Овощи и зелень",
+      "quantity": 4,
+      "unit": "упаковка",
+      "price_per_unit": 66.91,
+      "total_price": 267.64,
       "kbju": {
-        "calories": 297.1,
-        "protein": 17.3,
-        "fat": 7.9,
-        "carbohydrates": 24.3
+        "calories": 139.2,
+        "protein": 6.1,
+        "fat": 13.3,
+        "carbohydrates": 35.9
       },
       "manufacturer": {
-        "name": "Гришина Лтд",
+        "name": "ООО «Костина, Панов и Фомичева»",
         "country": "Россия",
-        "website": "https://ooo.net",
-        "inn": "5499321537"
+        "website": "https://gsl.biz",
+        "inn": "1159800180"
+      }
+    },
+    {
+      "product_id": "prd-1013",
+      "name": "Коммунизм Полевой",
+      "category": "🥖 Зерновые и хлебобулочные изделия",
+      "quantity": 4,
+      "unit": "кг",
+      "price_per_unit": 155.06,
+      "total_price": 620.24,
+      "kbju": {
+        "calories": 292.6,
+        "protein": 2.6,
+        "fat": 6.2,
+        "carbohydrates": 4.1
+      },
+      "manufacturer": {
+        "name": "АО «Абрамов»",
+        "country": "Россия",
+        "website": "https://ip.org",
+        "inn": "8372516031"
       }
     }
   ],
-  "total_amount": 92.89,
+  "total_amount": 887.88,
   "payment_method": "card",
   "is_delivery": false,
   "delivery_address": {
     "country": "Россия",
-    "city": "клх Тихвин",
-    "street": "алл. Водопроводная",
-    "house": "309",
-    "apartment": "57",
-    "postal_code": "983642"
+    "city": "с. Чусовой",
+    "street": "ул. Лесхозная",
+    "house": "4/3",
+    "apartment": "54",
+    "postal_code": "086380"
   },
-  "purchase_datetime": "2025-09-18T19:57:11.037402"
+  "purchase_datetime": "2025-07-13T13:42:39.590389"
 }
