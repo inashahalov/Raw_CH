@@ -1,0 +1,84 @@
+{
+  "purchase_id": "ord-00092",
+  "customer": {
+    "customer_id": "cus-1020",
+    "first_name": "Артемий",
+    "last_name": "Аксенов",
+    "email": "danila2021@example.net",
+    "phone": "+7 (526) 441-18-37",
+    "is_loyalty_member": true,
+    "loyalty_card_number": "LOYAL-CF4224E0F2"
+  },
+  "store": {
+    "store_id": "store-022",
+    "store_name": "Большая Пикча — Магазин на пер. Дальневосточный",
+    "store_network": "Большая Пикча",
+    "location": {
+      "country": "Россия",
+      "city": "с. Сковородино",
+      "street": "пер. Лесозаводский",
+      "house": "4",
+      "postal_code": "799838",
+      "coordinates": {
+        "latitude": -32.786023,
+        "longitude": -128.704452
+      }
+    }
+  },
+  "items": [
+    {
+      "product_id": "prd-1012",
+      "name": "Премьера Висеть",
+      "category": "🥩 Мясо, рыба, яйца и бобовые",
+      "quantity": 3,
+      "unit": "л",
+      "price_per_unit": 193.21,
+      "total_price": 579.63,
+      "kbju": {
+        "calories": 254.5,
+        "protein": 0.8,
+        "fat": 5.6,
+        "carbohydrates": 3.1
+      },
+      "manufacturer": {
+        "name": "АО «Ларионова, Молчанов и Ефремова»",
+        "country": "Россия",
+        "website": "https://ao.edu",
+        "inn": "3317182161"
+      }
+    },
+    {
+      "product_id": "prd-1018",
+      "name": "Низкий Присесть",
+      "category": "🥩 Мясо, рыба, яйца и бобовые",
+      "quantity": 1,
+      "unit": "кг",
+      "price_per_unit": 240.2,
+      "total_price": 240.2,
+      "kbju": {
+        "calories": 272.9,
+        "protein": 7.8,
+        "fat": 2.3,
+        "carbohydrates": 5.3
+      },
+      "manufacturer": {
+        "name": "Ланит",
+        "country": "Россия",
+        "website": "https://rao.info",
+        "inn": "3763771194"
+      }
+    }
+  ],
+  "total_amount": 819.83,
+  "payment_method": "card",
+  "is_delivery": true,
+  "delivery_address": {
+    "country": "Россия",
+    "city": "п. Ноглики",
+    "street": "бул. Гафури",
+    "house": "3/5",
+    "apartment": "37",
+    "postal_code": "659119"
+  },
+  "purchase_datetime": "2025-09-09T19:57:10.993564"
+}

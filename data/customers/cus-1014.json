@@ -1,0 +1,36 @@
+{
+  "customer_id": "cus-1014",
+  "first_name": "Алла",
+  "last_name": "Дмитриева",
+  "email": "maksimiljanlobanov@example.net",
+  "phone": "8 993 112 5563",
+  "birth_date": "1998-08-29",
+  "gender": "female",
+  "registration_date": "2025-09-23T19:57:10.932800",
+  "is_loyalty_member": true,
+  "loyalty_card_number": "LOYAL-4DECF4EFB7",
+  "purchase_location": {
+    "store_id": "store-015",
+    "store_name": "Большая Пикча — Магазин на ул. Новосельская",
+    "store_network": "Большая Пикча",
+    "store_type_description": "Супермаркет более 200 кв.м. Входит в сеть из 30 магазинов.",
+    "country": "Россия",
+    "city": "г. Магнитогорск",
+    "street": "бул. Омский",
+    "house": "3",
+    "postal_code": "604955"
+  },
+  "delivery_address": {
+    "country": "Россия",
+    "city": "г. Магнитогорск",
+    "street": "ш. Пушкина",
+    "house": "159",
+    "apartment": "22",
+    "postal_code": "129259"
+  },
+  "preferences": {
+    "preferred_language": "ru",
+    "preferred_payment_method": "cash",
+    "receive_promotions": true
+  }
+}

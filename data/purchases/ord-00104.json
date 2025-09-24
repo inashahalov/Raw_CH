@@ -1,0 +1,84 @@
+{
+  "purchase_id": "ord-00104",
+  "customer": {
+    "customer_id": "cus-1014",
+    "first_name": "Алла",
+    "last_name": "Дмитриева",
+    "email": "maksimiljanlobanov@example.net",
+    "phone": "8 993 112 5563",
+    "is_loyalty_member": true,
+    "loyalty_card_number": "LOYAL-4DECF4EFB7"
+  },
+  "store": {
+    "store_id": "store-033",
+    "store_name": "Маленькая Пикча — Магазин на бул. Высоцкого",
+    "store_network": "Маленькая Пикча",
+    "location": {
+      "country": "Россия",
+      "city": "к. Комсомольск-на-Амуре",
+      "street": "ш. Ленина",
+      "house": "5",
+      "postal_code": "979044",
+      "coordinates": {
+        "latitude": -82.2107835,
+        "longitude": 170.986594
+      }
+    }
+  },
+  "items": [
+    {
+      "product_id": "prd-1002",
+      "name": "Разводить Школьный",
+      "category": "🥦 Овощи и зелень",
+      "quantity": 3,
+      "unit": "л",
+      "price_per_unit": 232.4,
+      "total_price": 697.2,
+      "kbju": {
+        "calories": 276.5,
+        "protein": 15.9,
+        "fat": 7.0,
+        "carbohydrates": 4.4
+      },
+      "manufacturer": {
+        "name": "ОАО «Туров, Горбунова и Галкина»",
+        "country": "Россия",
+        "website": "https://oao.com",
+        "inn": "7774237965"
+      }
+    },
+    {
+      "product_id": "prd-1000",
+      "name": "Заведение Задержать",
+      "category": "🥛 Молочные продукты",
+      "quantity": 5,
+      "unit": "л",
+      "price_per_unit": 174.16,
+      "total_price": 870.8,
+      "kbju": {
+        "calories": 261.8,
+        "protein": 2.3,
+        "fat": 2.9,
+        "carbohydrates": 19.7
+      },
+      "manufacturer": {
+        "name": "РАО «Бирюков, Лапина и Волков»",
+        "country": "Россия",
+        "website": "https://ao.net",
+        "inn": "0912614956"
+      }
+    }
+  ],
+  "total_amount": 1568.0,
+  "payment_method": "cash",
+  "is_delivery": false,
+  "delivery_address": {
+    "country": "Россия",
+    "city": "г. Магнитогорск",
+    "street": "ш. Пушкина",
+    "house": "159",
+    "apartment": "22",
+    "postal_code": "129259"
+  },
+  "purchase_datetime": "2025-07-17T19:57:11.002938"
+}

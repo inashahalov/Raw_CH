@@ -1,0 +1,63 @@
+{
+  "purchase_id": "ord-00038",
+  "customer": {
+    "customer_id": "cus-1015",
+    "first_name": "Фока",
+    "last_name": "Тетерина",
+    "email": "rjabovboleslav@example.com",
+    "phone": "+7 (465) 499-08-07",
+    "is_loyalty_member": true,
+    "loyalty_card_number": "LOYAL-0B04F4F2B7"
+  },
+  "store": {
+    "store_id": "store-039",
+    "store_name": "Маленькая Пикча — Магазин на бул. Путейский",
+    "store_network": "Маленькая Пикча",
+    "location": {
+      "country": "Россия",
+      "city": "с. Жиганск",
+      "street": "наб. Советской Армии",
+      "house": "55",
+      "postal_code": "339713",
+      "coordinates": {
+        "latitude": -41.3992205,
+        "longitude": -101.881851
+      }
+    }
+  },
+  "items": [
+    {
+      "product_id": "prd-1018",
+      "name": "Низкий Присесть",
+      "category": "🥩 Мясо, рыба, яйца и бобовые",
+      "quantity": 2,
+      "unit": "кг",
+      "price_per_unit": 240.2,
+      "total_price": 480.4,
+      "kbju": {
+        "calories": 272.9,
+        "protein": 7.8,
+        "fat": 2.3,
+        "carbohydrates": 5.3
+      },
+      "manufacturer": {
+        "name": "Ланит",
+        "country": "Россия",
+        "website": "https://rao.info",
+        "inn": "3763771194"
+      }
+    }
+  ],
+  "total_amount": 480.4,
+  "payment_method": "cash",
+  "is_delivery": false,
+  "delivery_address": {
+    "country": "Россия",
+    "city": "д. Оренбург",
+    "street": "алл. Портовая",
+    "house": "396",
+    "apartment": "100",
+    "postal_code": "150789"
+  },
+  "purchase_datetime": "2025-09-02T19:57:10.968636"
+}

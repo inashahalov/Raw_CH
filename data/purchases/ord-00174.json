@@ -1,0 +1,63 @@
+{
+  "purchase_id": "ord-00174",
+  "customer": {
+    "customer_id": "cus-1034",
+    "first_name": "Флорентин",
+    "last_name": "Коновалов",
+    "email": "rostislav_29@example.net",
+    "phone": "+7 173 924 74 38",
+    "is_loyalty_member": true,
+    "loyalty_card_number": "LOYAL-CC920C8565"
+  },
+  "store": {
+    "store_id": "store-007",
+    "store_name": "Большая Пикча — Магазин на ш. Придорожное",
+    "store_network": "Большая Пикча",
+    "location": {
+      "country": "Россия",
+      "city": "к. Бомнак",
+      "street": "ш. Энгельса",
+      "house": "440",
+      "postal_code": "831672",
+      "coordinates": {
+        "latitude": 25.0856345,
+        "longitude": 118.498939
+      }
+    }
+  },
+  "items": [
+    {
+      "product_id": "prd-1011",
+      "name": "Собеседник Цель",
+      "category": "🍏 Фрукты и ягоды",
+      "quantity": 4,
+      "unit": "шт",
+      "price_per_unit": 109.38,
+      "total_price": 437.52,
+      "kbju": {
+        "calories": 140.7,
+        "protein": 19.6,
+        "fat": 11.8,
+        "carbohydrates": 11.5
+      },
+      "manufacturer": {
+        "name": "Сысоев Лтд",
+        "country": "Россия",
+        "website": "https://ip.org",
+        "inn": "3880754993"
+      }
+    }
+  ],
+  "total_amount": 437.52,
+  "payment_method": "cash",
+  "is_delivery": false,
+  "delivery_address": {
+    "country": "Россия",
+    "city": "клх Александров",
+    "street": "ул. Поперечная",
+    "house": "3/9",
+    "apartment": "58",
+    "postal_code": "321126"
+  },
+  "purchase_datetime": "2025-07-28T19:57:11.036988"
+}

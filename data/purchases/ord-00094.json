@@ -1,0 +1,63 @@
+{
+  "purchase_id": "ord-00094",
+  "customer": {
+    "customer_id": "cus-1000",
+    "first_name": "Лора",
+    "last_name": "Тетерин",
+    "email": "eduardpopov@example.net",
+    "phone": "+7 360 725 52 37",
+    "is_loyalty_member": true,
+    "loyalty_card_number": "LOYAL-E7A3E28BE6"
+  },
+  "store": {
+    "store_id": "store-015",
+    "store_name": "Большая Пикча — Магазин на ул. Новосельская",
+    "store_network": "Большая Пикча",
+    "location": {
+      "country": "Россия",
+      "city": "г. Магнитогорск",
+      "street": "бул. Омский",
+      "house": "3",
+      "postal_code": "604955",
+      "coordinates": {
+        "latitude": 45.7538115,
+        "longitude": 57.343765
+      }
+    }
+  },
+  "items": [
+    {
+      "product_id": "prd-1002",
+      "name": "Разводить Школьный",
+      "category": "🥦 Овощи и зелень",
+      "quantity": 5,
+      "unit": "л",
+      "price_per_unit": 232.4,
+      "total_price": 1162.0,
+      "kbju": {
+        "calories": 276.5,
+        "protein": 15.9,
+        "fat": 7.0,
+        "carbohydrates": 4.4
+      },
+      "manufacturer": {
+        "name": "ОАО «Туров, Горбунова и Галкина»",
+        "country": "Россия",
+        "website": "https://oao.com",
+        "inn": "7774237965"
+      }
+    }
+  ],
+  "total_amount": 1162.0,
+  "payment_method": "cash",
+  "is_delivery": false,
+  "delivery_address": {
+    "country": "Россия",
+    "city": "п. Качканар",
+    "street": "пер. Абрикосовый",
+    "house": "41",
+    "apartment": "62",
+    "postal_code": "030086"
+  },
+  "purchase_datetime": "2025-09-17T19:57:10.994490"
+}

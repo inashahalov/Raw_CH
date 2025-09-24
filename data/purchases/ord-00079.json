@@ -1,0 +1,84 @@
+{
+  "purchase_id": "ord-00079",
+  "customer": {
+    "customer_id": "cus-1022",
+    "first_name": "Наина",
+    "last_name": "Игнатьева",
+    "email": "iturov@example.org",
+    "phone": "+7 083 533 4441",
+    "is_loyalty_member": true,
+    "loyalty_card_number": "LOYAL-577F54C26A"
+  },
+  "store": {
+    "store_id": "store-044",
+    "store_name": "Маленькая Пикча — Магазин на ш. Коммунальное",
+    "store_network": "Маленькая Пикча",
+    "location": {
+      "country": "Россия",
+      "city": "ст. Богучар",
+      "street": "алл. Серова",
+      "house": "68",
+      "postal_code": "716553",
+      "coordinates": {
+        "latitude": 67.2944965,
+        "longitude": 21.005267
+      }
+    }
+  },
+  "items": [
+    {
+      "product_id": "prd-1002",
+      "name": "Разводить Школьный",
+      "category": "🥦 Овощи и зелень",
+      "quantity": 2,
+      "unit": "л",
+      "price_per_unit": 232.4,
+      "total_price": 464.8,
+      "kbju": {
+        "calories": 276.5,
+        "protein": 15.9,
+        "fat": 7.0,
+        "carbohydrates": 4.4
+      },
+      "manufacturer": {
+        "name": "ОАО «Туров, Горбунова и Галкина»",
+        "country": "Россия",
+        "website": "https://oao.com",
+        "inn": "7774237965"
+      }
+    },
+    {
+      "product_id": "prd-1012",
+      "name": "Премьера Висеть",
+      "category": "🥩 Мясо, рыба, яйца и бобовые",
+      "quantity": 3,
+      "unit": "л",
+      "price_per_unit": 193.21,
+      "total_price": 579.63,
+      "kbju": {
+        "calories": 254.5,
+        "protein": 0.8,
+        "fat": 5.6,
+        "carbohydrates": 3.1
+      },
+      "manufacturer": {
+        "name": "АО «Ларионова, Молчанов и Ефремова»",
+        "country": "Россия",
+        "website": "https://ao.edu",
+        "inn": "3317182161"
+      }
+    }
+  ],
+  "total_amount": 1044.43,
+  "payment_method": "card",
+  "is_delivery": false,
+  "delivery_address": {
+    "country": "Россия",
+    "city": "к. Красногорск (Моск.)",
+    "street": "наб. Краснопартизанская",
+    "house": "38",
+    "apartment": "36",
+    "postal_code": "552549"
+  },
+  "purchase_datetime": "2025-07-22T19:57:10.986612"
+}

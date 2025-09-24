@@ -1,0 +1,84 @@
+{
+  "purchase_id": "ord-00039",
+  "customer": {
+    "customer_id": "cus-1027",
+    "first_name": "Тамара",
+    "last_name": "Щукин",
+    "email": "ostromirbelov@example.net",
+    "phone": "+7 995 583 6738",
+    "is_loyalty_member": true,
+    "loyalty_card_number": "LOYAL-266038E03B"
+  },
+  "store": {
+    "store_id": "store-028",
+    "store_name": "Большая Пикча — Магазин на пр. Крупской",
+    "store_network": "Большая Пикча",
+    "location": {
+      "country": "Россия",
+      "city": "ст. Карталы",
+      "street": "ул. Королева",
+      "house": "5",
+      "postal_code": "762232",
+      "coordinates": {
+        "latitude": -62.0370365,
+        "longitude": 85.309577
+      }
+    }
+  },
+  "items": [
+    {
+      "product_id": "prd-1002",
+      "name": "Разводить Школьный",
+      "category": "🥦 Овощи и зелень",
+      "quantity": 3,
+      "unit": "л",
+      "price_per_unit": 232.4,
+      "total_price": 697.2,
+      "kbju": {
+        "calories": 276.5,
+        "protein": 15.9,
+        "fat": 7.0,
+        "carbohydrates": 4.4
+      },
+      "manufacturer": {
+        "name": "ОАО «Туров, Горбунова и Галкина»",
+        "country": "Россия",
+        "website": "https://oao.com",
+        "inn": "7774237965"
+      }
+    },
+    {
+      "product_id": "prd-1007",
+      "name": "Штаб Приличный",
+      "category": "🍏 Фрукты и ягоды",
+      "quantity": 1,
+      "unit": "кг",
+      "price_per_unit": 196.88,
+      "total_price": 196.88,
+      "kbju": {
+        "calories": 164.9,
+        "protein": 16.7,
+        "fat": 3.6,
+        "carbohydrates": 31.4
+      },
+      "manufacturer": {
+        "name": "СДС-Уголь",
+        "country": "Россия",
+        "website": "https://npo.ru",
+        "inn": "9854590544"
+      }
+    }
+  ],
+  "total_amount": 894.08,
+  "payment_method": "card",
+  "is_delivery": true,
+  "delivery_address": {
+    "country": "Россия",
+    "city": "ст. Карталы",
+    "street": "пр. Репина",
+    "house": "83",
+    "apartment": "19",
+    "postal_code": "029613"
+  },
+  "purchase_datetime": "2025-09-05T19:57:10.968999"
+}

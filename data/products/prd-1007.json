@@ -1,0 +1,24 @@
+{
+  "id": "prd-1007",
+  "name": "Штаб Приличный",
+  "group": "🍏 Фрукты и ягоды",
+  "description": "Порт новый ботинок плавно.",
+  "kbju": {
+    "calories": 164.9,
+    "protein": 16.7,
+    "fat": 3.6,
+    "carbohydrates": 31.4
+  },
+  "price": 196.88,
+  "unit": "кг",
+  "origin_country": "Россия",
+  "expiry_days": 9,
+  "is_organic": false,
+  "barcode": "3638209145924",
+  "manufacturer": {
+    "name": "СДС-Уголь",
+    "country": "Россия",
+    "website": "https://npo.ru",
+    "inn": "9854590544"
+  }
+}

@@ -1,0 +1,84 @@
+{
+  "purchase_id": "ord-00048",
+  "customer": {
+    "customer_id": "cus-1037",
+    "first_name": "Ювеналий",
+    "last_name": "Хохлов",
+    "email": "djachkovapolina@example.net",
+    "phone": "82971596132",
+    "is_loyalty_member": true,
+    "loyalty_card_number": "LOYAL-733B019E68"
+  },
+  "store": {
+    "store_id": "store-010",
+    "store_name": "Большая Пикча — Магазин на наб. Энгельса",
+    "store_network": "Большая Пикча",
+    "location": {
+      "country": "Россия",
+      "city": "клх Воткинск",
+      "street": "пр. Шаумяна",
+      "house": "5/8",
+      "postal_code": "770514",
+      "coordinates": {
+        "latitude": -37.579403,
+        "longitude": 150.370954
+      }
+    }
+  },
+  "items": [
+    {
+      "product_id": "prd-1006",
+      "name": "Мелькнуть Сбросить",
+      "category": "🍏 Фрукты и ягоды",
+      "quantity": 4,
+      "unit": "кг",
+      "price_per_unit": 251.59,
+      "total_price": 1006.36,
+      "kbju": {
+        "calories": 208.0,
+        "protein": 7.1,
+        "fat": 7.6,
+        "carbohydrates": 15.3
+      },
+      "manufacturer": {
+        "name": "ИП «Киселев Комарова»",
+        "country": "Россия",
+        "website": "https://turova.info",
+        "inn": "8487805184"
+      }
+    },
+    {
+      "product_id": "prd-1009",
+      "name": "Заложить Спасть",
+      "category": "🥩 Мясо, рыба, яйца и бобовые",
+      "quantity": 2,
+      "unit": "шт",
+      "price_per_unit": 101.66,
+      "total_price": 203.32,
+      "kbju": {
+        "calories": 246.3,
+        "protein": 19.8,
+        "fat": 4.3,
+        "carbohydrates": 48.1
+      },
+      "manufacturer": {
+        "name": "НПО «Наумова»",
+        "country": "Россия",
+        "website": "https://rao.biz",
+        "inn": "4508864986"
+      }
+    }
+  ],
+  "total_amount": 1209.68,
+  "payment_method": "card",
+  "is_delivery": true,
+  "delivery_address": {
+    "country": "Россия",
+    "city": "д. Терней",
+    "street": "алл. Крупской",
+    "house": "8",
+    "apartment": "97",
+    "postal_code": "943074"
+  },
+  "purchase_datetime": "2025-08-11T19:57:10.972882"
+}

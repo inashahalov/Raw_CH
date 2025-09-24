@@ -1,0 +1,84 @@
+{
+  "purchase_id": "ord-00187",
+  "customer": {
+    "customer_id": "cus-1003",
+    "first_name": "Федосий",
+    "last_name": "Кулагин",
+    "email": "efim_1985@example.net",
+    "phone": "+7 (506) 308-6005",
+    "is_loyalty_member": true,
+    "loyalty_card_number": "LOYAL-BABE7C0EB0"
+  },
+  "store": {
+    "store_id": "store-027",
+    "store_name": "Большая Пикча — Магазин на бул. Леваневского",
+    "store_network": "Большая Пикча",
+    "location": {
+      "country": "Россия",
+      "city": "г. Енисейск",
+      "street": "пр. Нахимова",
+      "house": "978",
+      "postal_code": "444837",
+      "coordinates": {
+        "latitude": 79.739024,
+        "longitude": -88.450267
+      }
+    }
+  },
+  "items": [
+    {
+      "product_id": "prd-1013",
+      "name": "Роса Наткнуться",
+      "category": "🥛 Молочные продукты",
+      "quantity": 4,
+      "unit": "упаковка",
+      "price_per_unit": 39.74,
+      "total_price": 158.96,
+      "kbju": {
+        "calories": 283.8,
+        "protein": 19.2,
+        "fat": 7.6,
+        "carbohydrates": 35.6
+      },
+      "manufacturer": {
+        "name": "АО «Потапова, Смирнова и Сазонова»",
+        "country": "Россия",
+        "website": "https://magnit.info",
+        "inn": "3006321123"
+      }
+    },
+    {
+      "product_id": "prd-1011",
+      "name": "Собеседник Цель",
+      "category": "🍏 Фрукты и ягоды",
+      "quantity": 1,
+      "unit": "шт",
+      "price_per_unit": 109.38,
+      "total_price": 109.38,
+      "kbju": {
+        "calories": 140.7,
+        "protein": 19.6,
+        "fat": 11.8,
+        "carbohydrates": 11.5
+      },
+      "manufacturer": {
+        "name": "Сысоев Лтд",
+        "country": "Россия",
+        "website": "https://ip.org",
+        "inn": "3880754993"
+      }
+    }
+  ],
+  "total_amount": 268.34,
+  "payment_method": "cash",
+  "is_delivery": true,
+  "delivery_address": {
+    "country": "Россия",
+    "city": "к. Южноуральск",
+    "street": "пер. Орджоникидзе",
+    "house": "94",
+    "apartment": "3",
+    "postal_code": "037248"
+  },
+  "purchase_datetime": "2025-09-09T19:57:11.043126"
+}

@@ -1,0 +1,63 @@
+{
+  "purchase_id": "ord-00009",
+  "customer": {
+    "customer_id": "cus-1025",
+    "first_name": "Светозар",
+    "last_name": "Панфилова",
+    "email": "grigorigrigorev@example.org",
+    "phone": "81759582895",
+    "is_loyalty_member": true,
+    "loyalty_card_number": "LOYAL-3948D7315F"
+  },
+  "store": {
+    "store_id": "store-010",
+    "store_name": "Большая Пикча — Магазин на наб. Энгельса",
+    "store_network": "Большая Пикча",
+    "location": {
+      "country": "Россия",
+      "city": "клх Воткинск",
+      "street": "пр. Шаумяна",
+      "house": "5/8",
+      "postal_code": "770514",
+      "coordinates": {
+        "latitude": -37.579403,
+        "longitude": 150.370954
+      }
+    }
+  },
+  "items": [
+    {
+      "product_id": "prd-1018",
+      "name": "Низкий Присесть",
+      "category": "🥩 Мясо, рыба, яйца и бобовые",
+      "quantity": 2,
+      "unit": "кг",
+      "price_per_unit": 240.2,
+      "total_price": 480.4,
+      "kbju": {
+        "calories": 272.9,
+        "protein": 7.8,
+        "fat": 2.3,
+        "carbohydrates": 5.3
+      },
+      "manufacturer": {
+        "name": "Ланит",
+        "country": "Россия",
+        "website": "https://rao.info",
+        "inn": "3763771194"
+      }
+    }
+  ],
+  "total_amount": 480.4,
+  "payment_method": "cash",
+  "is_delivery": false,
+  "delivery_address": {
+    "country": "Россия",
+    "city": "д. Вытегра",
+    "street": "ш. Байкальское",
+    "house": "7",
+    "apartment": "97",
+    "postal_code": "418359"
+  },
+  "purchase_datetime": "2025-06-25T19:57:10.955314"
+}

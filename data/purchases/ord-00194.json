@@ -1,0 +1,105 @@
+{
+  "purchase_id": "ord-00194",
+  "customer": {
+    "customer_id": "cus-1034",
+    "first_name": "Флорентин",
+    "last_name": "Коновалов",
+    "email": "rostislav_29@example.net",
+    "phone": "+7 173 924 74 38",
+    "is_loyalty_member": true,
+    "loyalty_card_number": "LOYAL-CC920C8565"
+  },
+  "store": {
+    "store_id": "store-017",
+    "store_name": "Большая Пикча — Магазин на наб. Терешковой",
+    "store_network": "Большая Пикча",
+    "location": {
+      "country": "Россия",
+      "city": "ст. Любань",
+      "street": "пер. Есенина",
+      "house": "255",
+      "postal_code": "515675",
+      "coordinates": {
+        "latitude": -40.8579335,
+        "longitude": 15.399726
+      }
+    }
+  },
+  "items": [
+    {
+      "product_id": "prd-1013",
+      "name": "Роса Наткнуться",
+      "category": "🥛 Молочные продукты",
+      "quantity": 3,
+      "unit": "упаковка",
+      "price_per_unit": 39.74,
+      "total_price": 119.22,
+      "kbju": {
+        "calories": 283.8,
+        "protein": 19.2,
+        "fat": 7.6,
+        "carbohydrates": 35.6
+      },
+      "manufacturer": {
+        "name": "АО «Потапова, Смирнова и Сазонова»",
+        "country": "Россия",
+        "website": "https://magnit.info",
+        "inn": "3006321123"
+      }
+    },
+    {
+      "product_id": "prd-1019",
+      "name": "Адвокат Другой",
+      "category": "🥦 Овощи и зелень",
+      "quantity": 2,
+      "unit": "шт",
+      "price_per_unit": 43.3,
+      "total_price": 86.6,
+      "kbju": {
+        "calories": 77.7,
+        "protein": 13.9,
+        "fat": 10.1,
+        "carbohydrates": 22.7
+      },
+      "manufacturer": {
+        "name": "Чернова Групп",
+        "country": "Россия",
+        "website": "https://belozerova.com",
+        "inn": "4723890506"
+      }
+    },
+    {
+      "product_id": "prd-1001",
+      "name": "Тревога Появление",
+      "category": "🥖 Зерновые и хлебобулочные изделия",
+      "quantity": 3,
+      "unit": "шт",
+      "price_per_unit": 168.16,
+      "total_price": 504.48,
+      "kbju": {
+        "calories": 205.2,
+        "protein": 13.4,
+        "fat": 1.1,
+        "carbohydrates": 43.2
+      },
+      "manufacturer": {
+        "name": "ОАО «Селезнева Турова»",
+        "country": "Россия",
+        "website": "https://panfilov.net",
+        "inn": "5790638925"
+      }
+    }
+  ],
+  "total_amount": 710.3,
+  "payment_method": "cash",
+  "is_delivery": true,
+  "delivery_address": {
+    "country": "Россия",
+    "city": "клх Александров",
+    "street": "ул. Поперечная",
+    "house": "3/9",
+    "apartment": "58",
+    "postal_code": "321126"
+  },
+  "purchase_datetime": "2025-09-04T19:57:11.046237"
+}

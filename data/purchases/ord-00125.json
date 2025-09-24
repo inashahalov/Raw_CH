@@ -1,0 +1,63 @@
+{
+  "purchase_id": "ord-00125",
+  "customer": {
+    "customer_id": "cus-1033",
+    "first_name": "Евграф",
+    "last_name": "Кулагин",
+    "email": "qsazonova@example.org",
+    "phone": "8 (664) 074-4446",
+    "is_loyalty_member": true,
+    "loyalty_card_number": "LOYAL-615D708F68"
+  },
+  "store": {
+    "store_id": "store-045",
+    "store_name": "Маленькая Пикча — Магазин на ш. Новгородское",
+    "store_network": "Маленькая Пикча",
+    "location": {
+      "country": "Россия",
+      "city": "д. Нягань",
+      "street": "бул. Кузнецкий",
+      "house": "131",
+      "postal_code": "265786",
+      "coordinates": {
+        "latitude": 47.6212905,
+        "longitude": -30.402347
+      }
+    }
+  },
+  "items": [
+    {
+      "product_id": "prd-1010",
+      "name": "Вытаскивать Правый",
+      "category": "🥦 Овощи и зелень",
+      "quantity": 3,
+      "unit": "л",
+      "price_per_unit": 181.57,
+      "total_price": 544.71,
+      "kbju": {
+        "calories": 113.2,
+        "protein": 7.5,
+        "fat": 3.6,
+        "carbohydrates": 41.4
+      },
+      "manufacturer": {
+        "name": "Сергеев Инкорпорэйтед",
+        "country": "Россия",
+        "website": "https://zao.biz",
+        "inn": "0493815810"
+      }
+    }
+  ],
+  "total_amount": 544.71,
+  "payment_method": "card",
+  "is_delivery": false,
+  "delivery_address": {
+    "country": "Россия",
+    "city": "с. Чусовой",
+    "street": "ул. Леваневского",
+    "house": "737",
+    "apartment": "67",
+    "postal_code": "413892"
+  },
+  "purchase_datetime": "2025-08-04T19:57:11.012774"
+}

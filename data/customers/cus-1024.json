@@ -1,0 +1,36 @@
+{
+  "customer_id": "cus-1024",
+  "first_name": "Ульян",
+  "last_name": "Рожков",
+  "email": "lavrenti_1995@example.net",
+  "phone": "8 (716) 687-95-46",
+  "birth_date": "1970-11-06",
+  "gender": "female",
+  "registration_date": "2025-09-23T19:57:10.938864",
+  "is_loyalty_member": true,
+  "loyalty_card_number": "LOYAL-091724D2F7",
+  "purchase_location": {
+    "store_id": "store-025",
+    "store_name": "Большая Пикча — Магазин на ул. Максима Горького",
+    "store_network": "Большая Пикча",
+    "store_type_description": "Супермаркет более 200 кв.м. Входит в сеть из 30 магазинов.",
+    "country": "Россия",
+    "city": "п. Вязьма",
+    "street": "пр. Энергетиков",
+    "house": "3/8",
+    "postal_code": "499052"
+  },
+  "delivery_address": {
+    "country": "Россия",
+    "city": "п. Вязьма",
+    "street": "наб. Радужная",
+    "house": "5",
+    "apartment": "73",
+    "postal_code": "710794"
+  },
+  "preferences": {
+    "preferred_language": "ru",
+    "preferred_payment_method": "card",
+    "receive_promotions": true
+  }
+}

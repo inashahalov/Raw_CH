@@ -1,0 +1,105 @@
+{
+  "purchase_id": "ord-00083",
+  "customer": {
+    "customer_id": "cus-1006",
+    "first_name": "Силантий",
+    "last_name": "Захаров",
+    "email": "kondrat1978@example.org",
+    "phone": "+70679155630",
+    "is_loyalty_member": true,
+    "loyalty_card_number": "LOYAL-C2F1903EE8"
+  },
+  "store": {
+    "store_id": "store-013",
+    "store_name": "Большая Пикча — Магазин на пер. Белорусский",
+    "store_network": "Большая Пикча",
+    "location": {
+      "country": "Россия",
+      "city": "д. Махачкала",
+      "street": "алл. Тупиковая",
+      "house": "8/9",
+      "postal_code": "029495",
+      "coordinates": {
+        "latitude": 0.219858,
+        "longitude": -53.203028
+      }
+    }
+  },
+  "items": [
+    {
+      "product_id": "prd-1016",
+      "name": "Цвет Трубка",
+      "category": "🥖 Зерновые и хлебобулочные изделия",
+      "quantity": 3,
+      "unit": "упаковка",
+      "price_per_unit": 59.3,
+      "total_price": 177.9,
+      "kbju": {
+        "calories": 239.4,
+        "protein": 10.5,
+        "fat": 4.0,
+        "carbohydrates": 33.8
+      },
+      "manufacturer": {
+        "name": "ОАО «Давыдова-Калинин»",
+        "country": "Россия",
+        "website": "https://zao.org",
+        "inn": "7235646922"
+      }
+    },
+    {
+      "product_id": "prd-1006",
+      "name": "Мелькнуть Сбросить",
+      "category": "🍏 Фрукты и ягоды",
+      "quantity": 4,
+      "unit": "кг",
+      "price_per_unit": 251.59,
+      "total_price": 1006.36,
+      "kbju": {
+        "calories": 208.0,
+        "protein": 7.1,
+        "fat": 7.6,
+        "carbohydrates": 15.3
+      },
+      "manufacturer": {
+        "name": "ИП «Киселев Комарова»",
+        "country": "Россия",
+        "website": "https://turova.info",
+        "inn": "8487805184"
+      }
+    },
+    {
+      "product_id": "prd-1018",
+      "name": "Низкий Присесть",
+      "category": "🥩 Мясо, рыба, яйца и бобовые",
+      "quantity": 2,
+      "unit": "кг",
+      "price_per_unit": 240.2,
+      "total_price": 480.4,
+      "kbju": {
+        "calories": 272.9,
+        "protein": 7.8,
+        "fat": 2.3,
+        "carbohydrates": 5.3
+      },
+      "manufacturer": {
+        "name": "Ланит",
+        "country": "Россия",
+        "website": "https://rao.info",
+        "inn": "3763771194"
+      }
+    }
+  ],
+  "total_amount": 1664.66,
+  "payment_method": "cash",
+  "is_delivery": false,
+  "delivery_address": {
+    "country": "Россия",
+    "city": "к. Бомнак",
+    "street": "алл. 30 лет Победы",
+    "house": "53",
+    "apartment": "61",
+    "postal_code": "233514"
+  },
+  "purchase_datetime": "2025-07-21T19:57:10.989318"
+}

@@ -1,0 +1,84 @@
+{
+  "purchase_id": "ord-00082",
+  "customer": {
+    "customer_id": "cus-1038",
+    "first_name": "Фотий",
+    "last_name": "Александров",
+    "email": "borisovstanimir@example.net",
+    "phone": "+7 (110) 633-4695",
+    "is_loyalty_member": true,
+    "loyalty_card_number": "LOYAL-51CB82EFA1"
+  },
+  "store": {
+    "store_id": "store-027",
+    "store_name": "Большая Пикча — Магазин на бул. Леваневского",
+    "store_network": "Большая Пикча",
+    "location": {
+      "country": "Россия",
+      "city": "г. Енисейск",
+      "street": "пр. Нахимова",
+      "house": "978",
+      "postal_code": "444837",
+      "coordinates": {
+        "latitude": 79.739024,
+        "longitude": -88.450267
+      }
+    }
+  },
+  "items": [
+    {
+      "product_id": "prd-1009",
+      "name": "Заложить Спасть",
+      "category": "🥩 Мясо, рыба, яйца и бобовые",
+      "quantity": 5,
+      "unit": "шт",
+      "price_per_unit": 101.66,
+      "total_price": 508.3,
+      "kbju": {
+        "calories": 246.3,
+        "protein": 19.8,
+        "fat": 4.3,
+        "carbohydrates": 48.1
+      },
+      "manufacturer": {
+        "name": "НПО «Наумова»",
+        "country": "Россия",
+        "website": "https://rao.biz",
+        "inn": "4508864986"
+      }
+    },
+    {
+      "product_id": "prd-1002",
+      "name": "Разводить Школьный",
+      "category": "🥦 Овощи и зелень",
+      "quantity": 2,
+      "unit": "л",
+      "price_per_unit": 232.4,
+      "total_price": 464.8,
+      "kbju": {
+        "calories": 276.5,
+        "protein": 15.9,
+        "fat": 7.0,
+        "carbohydrates": 4.4
+      },
+      "manufacturer": {
+        "name": "ОАО «Туров, Горбунова и Галкина»",
+        "country": "Россия",
+        "website": "https://oao.com",
+        "inn": "7774237965"
+      }
+    }
+  ],
+  "total_amount": 973.1,
+  "payment_method": "cash",
+  "is_delivery": false,
+  "delivery_address": {
+    "country": "Россия",
+    "city": "с. Жиганск",
+    "street": "наб. Ермака",
+    "house": "9/6",
+    "apartment": "39",
+    "postal_code": "762206"
+  },
+  "purchase_datetime": "2025-08-26T19:57:10.988890"
+}

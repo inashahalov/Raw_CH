@@ -1,0 +1,84 @@
+{
+  "purchase_id": "ord-00070",
+  "customer": {
+    "customer_id": "cus-1017",
+    "first_name": "Анна",
+    "last_name": "Кулагина",
+    "email": "blinovagafon@example.com",
+    "phone": "8 378 774 4882",
+    "is_loyalty_member": true,
+    "loyalty_card_number": "LOYAL-BB85942A1A"
+  },
+  "store": {
+    "store_id": "store-031",
+    "store_name": "Маленькая Пикча — Магазин на наб. Максима Горького",
+    "store_network": "Маленькая Пикча",
+    "location": {
+      "country": "Россия",
+      "city": "к. Шереметьево",
+      "street": "бул. 70 лет Октября",
+      "house": "974",
+      "postal_code": "658842",
+      "coordinates": {
+        "latitude": -54.276802,
+        "longitude": -95.137118
+      }
+    }
+  },
+  "items": [
+    {
+      "product_id": "prd-1007",
+      "name": "Штаб Приличный",
+      "category": "🍏 Фрукты и ягоды",
+      "quantity": 4,
+      "unit": "кг",
+      "price_per_unit": 196.88,
+      "total_price": 787.52,
+      "kbju": {
+        "calories": 164.9,
+        "protein": 16.7,
+        "fat": 3.6,
+        "carbohydrates": 31.4
+      },
+      "manufacturer": {
+        "name": "СДС-Уголь",
+        "country": "Россия",
+        "website": "https://npo.ru",
+        "inn": "9854590544"
+      }
+    },
+    {
+      "product_id": "prd-1019",
+      "name": "Адвокат Другой",
+      "category": "🥦 Овощи и зелень",
+      "quantity": 3,
+      "unit": "шт",
+      "price_per_unit": 43.3,
+      "total_price": 129.9,
+      "kbju": {
+        "calories": 77.7,
+        "protein": 13.9,
+        "fat": 10.1,
+        "carbohydrates": 22.7
+      },
+      "manufacturer": {
+        "name": "Чернова Групп",
+        "country": "Россия",
+        "website": "https://belozerova.com",
+        "inn": "4723890506"
+      }
+    }
+  ],
+  "total_amount": 917.42,
+  "payment_method": "card",
+  "is_delivery": true,
+  "delivery_address": {
+    "country": "Россия",
+    "city": "к. Минеральные Воды",
+    "street": "бул. Тракторный",
+    "house": "1/6",
+    "apartment": "35",
+    "postal_code": "468913"
+  },
+  "purchase_datetime": "2025-08-24T19:57:10.982606"
+}

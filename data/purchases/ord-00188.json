@@ -1,0 +1,63 @@
+{
+  "purchase_id": "ord-00188",
+  "customer": {
+    "customer_id": "cus-1005",
+    "first_name": "Татьяна",
+    "last_name": "Козлов",
+    "email": "andrelukin@example.net",
+    "phone": "8 947 466 32 88",
+    "is_loyalty_member": true,
+    "loyalty_card_number": "LOYAL-4E22F41740"
+  },
+  "store": {
+    "store_id": "store-031",
+    "store_name": "Маленькая Пикча — Магазин на наб. Максима Горького",
+    "store_network": "Маленькая Пикча",
+    "location": {
+      "country": "Россия",
+      "city": "к. Шереметьево",
+      "street": "бул. 70 лет Октября",
+      "house": "974",
+      "postal_code": "658842",
+      "coordinates": {
+        "latitude": -54.276802,
+        "longitude": -95.137118
+      }
+    }
+  },
+  "items": [
+    {
+      "product_id": "prd-1016",
+      "name": "Цвет Трубка",
+      "category": "🥖 Зерновые и хлебобулочные изделия",
+      "quantity": 1,
+      "unit": "упаковка",
+      "price_per_unit": 59.3,
+      "total_price": 59.3,
+      "kbju": {
+        "calories": 239.4,
+        "protein": 10.5,
+        "fat": 4.0,
+        "carbohydrates": 33.8
+      },
+      "manufacturer": {
+        "name": "ОАО «Давыдова-Калинин»",
+        "country": "Россия",
+        "website": "https://zao.org",
+        "inn": "7235646922"
+      }
+    }
+  ],
+  "total_amount": 59.3,
+  "payment_method": "cash",
+  "is_delivery": false,
+  "delivery_address": {
+    "country": "Россия",
+    "city": "г. Верхний Баскунчак",
+    "street": "бул. Крайний",
+    "house": "4",
+    "apartment": "38",
+    "postal_code": "369547"
+  },
+  "purchase_datetime": "2025-06-28T19:57:11.043608"
+}

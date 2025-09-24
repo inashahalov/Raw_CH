@@ -1,0 +1,63 @@
+{
+  "purchase_id": "ord-00102",
+  "customer": {
+    "customer_id": "cus-1015",
+    "first_name": "Фока",
+    "last_name": "Тетерина",
+    "email": "rjabovboleslav@example.com",
+    "phone": "+7 (465) 499-08-07",
+    "is_loyalty_member": true,
+    "loyalty_card_number": "LOYAL-0B04F4F2B7"
+  },
+  "store": {
+    "store_id": "store-013",
+    "store_name": "Большая Пикча — Магазин на пер. Белорусский",
+    "store_network": "Большая Пикча",
+    "location": {
+      "country": "Россия",
+      "city": "д. Махачкала",
+      "street": "алл. Тупиковая",
+      "house": "8/9",
+      "postal_code": "029495",
+      "coordinates": {
+        "latitude": 0.219858,
+        "longitude": -53.203028
+      }
+    }
+  },
+  "items": [
+    {
+      "product_id": "prd-1008",
+      "name": "Фонарик Успокоиться",
+      "category": "🥖 Зерновые и хлебобулочные изделия",
+      "quantity": 3,
+      "unit": "упаковка",
+      "price_per_unit": 73.43,
+      "total_price": 220.29,
+      "kbju": {
+        "calories": 92.6,
+        "protein": 18.4,
+        "fat": 11.5,
+        "carbohydrates": 24.8
+      },
+      "manufacturer": {
+        "name": "ООО «Денисов, Щукина и Гришин»",
+        "country": "Россия",
+        "website": "https://kozlova.org",
+        "inn": "3531459365"
+      }
+    }
+  ],
+  "total_amount": 220.29,
+  "payment_method": "card",
+  "is_delivery": true,
+  "delivery_address": {
+    "country": "Россия",
+    "city": "д. Оренбург",
+    "street": "алл. Портовая",
+    "house": "396",
+    "apartment": "100",
+    "postal_code": "150789"
+  },
+  "purchase_datetime": "2025-07-07T19:57:10.999522"
+}

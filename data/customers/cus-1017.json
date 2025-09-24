@@ -1,0 +1,36 @@
+{
+  "customer_id": "cus-1017",
+  "first_name": "Анна",
+  "last_name": "Кулагина",
+  "email": "blinovagafon@example.com",
+  "phone": "8 378 774 4882",
+  "birth_date": "1992-05-01",
+  "gender": "female",
+  "registration_date": "2025-09-23T19:57:10.934617",
+  "is_loyalty_member": true,
+  "loyalty_card_number": "LOYAL-BB85942A1A",
+  "purchase_location": {
+    "store_id": "store-018",
+    "store_name": "Большая Пикча — Магазин на пер. З.Космодемьянской",
+    "store_network": "Большая Пикча",
+    "store_type_description": "Супермаркет более 200 кв.м. Входит в сеть из 30 магазинов.",
+    "country": "Россия",
+    "city": "к. Минеральные Воды",
+    "street": "пер. Каштановый",
+    "house": "85",
+    "postal_code": "972733"
+  },
+  "delivery_address": {
+    "country": "Россия",
+    "city": "к. Минеральные Воды",
+    "street": "бул. Тракторный",
+    "house": "1/6",
+    "apartment": "35",
+    "postal_code": "468913"
+  },
+  "preferences": {
+    "preferred_language": "ru",
+    "preferred_payment_method": "card",
+    "receive_promotions": true
+  }
+}

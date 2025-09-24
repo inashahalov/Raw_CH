@@ -1,0 +1,63 @@
+{
+  "purchase_id": "ord-00146",
+  "customer": {
+    "customer_id": "cus-1017",
+    "first_name": "Анна",
+    "last_name": "Кулагина",
+    "email": "blinovagafon@example.com",
+    "phone": "8 378 774 4882",
+    "is_loyalty_member": true,
+    "loyalty_card_number": "LOYAL-BB85942A1A"
+  },
+  "store": {
+    "store_id": "store-004",
+    "store_name": "Большая Пикча — Магазин на алл. Базарная",
+    "store_network": "Большая Пикча",
+    "location": {
+      "country": "Россия",
+      "city": "к. Южноуральск",
+      "street": "алл. Мелиораторов",
+      "house": "30",
+      "postal_code": "971964",
+      "coordinates": {
+        "latitude": 85.9746595,
+        "longitude": -124.814831
+      }
+    }
+  },
+  "items": [
+    {
+      "product_id": "prd-1019",
+      "name": "Адвокат Другой",
+      "category": "🥦 Овощи и зелень",
+      "quantity": 1,
+      "unit": "шт",
+      "price_per_unit": 43.3,
+      "total_price": 43.3,
+      "kbju": {
+        "calories": 77.7,
+        "protein": 13.9,
+        "fat": 10.1,
+        "carbohydrates": 22.7
+      },
+      "manufacturer": {
+        "name": "Чернова Групп",
+        "country": "Россия",
+        "website": "https://belozerova.com",
+        "inn": "4723890506"
+      }
+    }
+  ],
+  "total_amount": 43.3,
+  "payment_method": "cash",
+  "is_delivery": true,
+  "delivery_address": {
+    "country": "Россия",
+    "city": "к. Минеральные Воды",
+    "street": "бул. Тракторный",
+    "house": "1/6",
+    "apartment": "35",
+    "postal_code": "468913"
+  },
+  "purchase_datetime": "2025-08-15T19:57:11.022708"
+}

@@ -1,0 +1,63 @@
+{
+  "purchase_id": "ord-00123",
+  "customer": {
+    "customer_id": "cus-1022",
+    "first_name": "Наина",
+    "last_name": "Игнатьева",
+    "email": "iturov@example.org",
+    "phone": "+7 083 533 4441",
+    "is_loyalty_member": true,
+    "loyalty_card_number": "LOYAL-577F54C26A"
+  },
+  "store": {
+    "store_id": "store-037",
+    "store_name": "Маленькая Пикча — Магазин на пер. Новоселов",
+    "store_network": "Маленькая Пикча",
+    "location": {
+      "country": "Россия",
+      "city": "клх Нягань",
+      "street": "бул. Покровский",
+      "house": "3/6",
+      "postal_code": "915377",
+      "coordinates": {
+        "latitude": 81.94456,
+        "longitude": 125.897117
+      }
+    }
+  },
+  "items": [
+    {
+      "product_id": "prd-1002",
+      "name": "Разводить Школьный",
+      "category": "🥦 Овощи и зелень",
+      "quantity": 3,
+      "unit": "л",
+      "price_per_unit": 232.4,
+      "total_price": 697.2,
+      "kbju": {
+        "calories": 276.5,
+        "protein": 15.9,
+        "fat": 7.0,
+        "carbohydrates": 4.4
+      },
+      "manufacturer": {
+        "name": "ОАО «Туров, Горбунова и Галкина»",
+        "country": "Россия",
+        "website": "https://oao.com",
+        "inn": "7774237965"
+      }
+    }
+  ],
+  "total_amount": 697.2,
+  "payment_method": "cash",
+  "is_delivery": false,
+  "delivery_address": {
+    "country": "Россия",
+    "city": "к. Красногорск (Моск.)",
+    "street": "наб. Краснопартизанская",
+    "house": "38",
+    "apartment": "36",
+    "postal_code": "552549"
+  },
+  "purchase_datetime": "2025-07-31T19:57:11.011894"
+}

@@ -1,0 +1,84 @@
+{
+  "purchase_id": "ord-00124",
+  "customer": {
+    "customer_id": "cus-1042",
+    "first_name": "Тимофей",
+    "last_name": "Кудряшов",
+    "email": "jaroslav_50@example.org",
+    "phone": "+7 (191) 932-42-71",
+    "is_loyalty_member": true,
+    "loyalty_card_number": "LOYAL-859FD77F84"
+  },
+  "store": {
+    "store_id": "store-024",
+    "store_name": "Большая Пикча — Магазин на алл. 60 лет СССР",
+    "store_network": "Большая Пикча",
+    "location": {
+      "country": "Россия",
+      "city": "д. Сковородино",
+      "street": "бул. Инженерный",
+      "house": "5/5",
+      "postal_code": "146939",
+      "coordinates": {
+        "latitude": 12.892401,
+        "longitude": 56.364252
+      }
+    }
+  },
+  "items": [
+    {
+      "product_id": "prd-1008",
+      "name": "Фонарик Успокоиться",
+      "category": "🥖 Зерновые и хлебобулочные изделия",
+      "quantity": 3,
+      "unit": "упаковка",
+      "price_per_unit": 73.43,
+      "total_price": 220.29,
+      "kbju": {
+        "calories": 92.6,
+        "protein": 18.4,
+        "fat": 11.5,
+        "carbohydrates": 24.8
+      },
+      "manufacturer": {
+        "name": "ООО «Денисов, Щукина и Гришин»",
+        "country": "Россия",
+        "website": "https://kozlova.org",
+        "inn": "3531459365"
+      }
+    },
+    {
+      "product_id": "prd-1004",
+      "name": "Рассуждение Боец",
+      "category": "🥩 Мясо, рыба, яйца и бобовые",
+      "quantity": 1,
+      "unit": "кг",
+      "price_per_unit": 167.58,
+      "total_price": 167.58,
+      "kbju": {
+        "calories": 270.7,
+        "protein": 8.7,
+        "fat": 11.5,
+        "carbohydrates": 1.5
+      },
+      "manufacturer": {
+        "name": "РАО «Мухина Миронов»",
+        "country": "Россия",
+        "website": "https://rao.org",
+        "inn": "9262920859"
+      }
+    }
+  ],
+  "total_amount": 387.87,
+  "payment_method": "card",
+  "is_delivery": true,
+  "delivery_address": {
+    "country": "Россия",
+    "city": "д. Сусуман",
+    "street": "наб. Торговая",
+    "house": "8/8",
+    "apartment": "65",
+    "postal_code": "695747"
+  },
+  "purchase_datetime": "2025-07-26T19:57:11.012325"
+}

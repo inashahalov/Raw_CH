@@ -1,0 +1,84 @@
+{
+  "purchase_id": "ord-00108",
+  "customer": {
+    "customer_id": "cus-1043",
+    "first_name": "Жанна",
+    "last_name": "Сидорова",
+    "email": "ostapmoiseev@example.org",
+    "phone": "+78782851181",
+    "is_loyalty_member": true,
+    "loyalty_card_number": "LOYAL-21A26202A6"
+  },
+  "store": {
+    "store_id": "store-043",
+    "store_name": "Маленькая Пикча — Магазин на наб. Полярная",
+    "store_network": "Маленькая Пикча",
+    "location": {
+      "country": "Россия",
+      "city": "д. Сусуман",
+      "street": "ул. Клубная",
+      "house": "27",
+      "postal_code": "336566",
+      "coordinates": {
+        "latitude": -54.2720925,
+        "longitude": -115.044775
+      }
+    }
+  },
+  "items": [
+    {
+      "product_id": "prd-1013",
+      "name": "Роса Наткнуться",
+      "category": "🥛 Молочные продукты",
+      "quantity": 1,
+      "unit": "упаковка",
+      "price_per_unit": 39.74,
+      "total_price": 39.74,
+      "kbju": {
+        "calories": 283.8,
+        "protein": 19.2,
+        "fat": 7.6,
+        "carbohydrates": 35.6
+      },
+      "manufacturer": {
+        "name": "АО «Потапова, Смирнова и Сазонова»",
+        "country": "Россия",
+        "website": "https://magnit.info",
+        "inn": "3006321123"
+      }
+    },
+    {
+      "product_id": "prd-1006",
+      "name": "Мелькнуть Сбросить",
+      "category": "🍏 Фрукты и ягоды",
+      "quantity": 4,
+      "unit": "кг",
+      "price_per_unit": 251.59,
+      "total_price": 1006.36,
+      "kbju": {
+        "calories": 208.0,
+        "protein": 7.1,
+        "fat": 7.6,
+        "carbohydrates": 15.3
+      },
+      "manufacturer": {
+        "name": "ИП «Киселев Комарова»",
+        "country": "Россия",
+        "website": "https://turova.info",
+        "inn": "8487805184"
+      }
+    }
+  ],
+  "total_amount": 1046.1,
+  "payment_method": "card",
+  "is_delivery": false,
+  "delivery_address": {
+    "country": "Россия",
+    "city": "ст. Богучар",
+    "street": "пер. Нефтяников",
+    "house": "9",
+    "apartment": "76",
+    "postal_code": "522549"
+  },
+  "purchase_datetime": "2025-08-16T19:57:11.004853"
+}

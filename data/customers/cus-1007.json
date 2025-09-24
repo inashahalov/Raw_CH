@@ -1,0 +1,36 @@
+{
+  "customer_id": "cus-1007",
+  "first_name": "Константин",
+  "last_name": "Фадеев",
+  "email": "korolevefim@example.net",
+  "phone": "8 (270) 745-5698",
+  "birth_date": "1992-12-04",
+  "gender": "male",
+  "registration_date": "2025-09-23T19:57:10.928387",
+  "is_loyalty_member": true,
+  "loyalty_card_number": "LOYAL-2DFE8E6C69",
+  "purchase_location": {
+    "store_id": "store-008",
+    "store_name": "Большая Пикча — Магазин на бул. Вавилова",
+    "store_network": "Большая Пикча",
+    "store_type_description": "Супермаркет более 200 кв.м. Входит в сеть из 30 магазинов.",
+    "country": "Россия",
+    "city": "клх Тихвин",
+    "street": "пр. Социалистический",
+    "house": "98",
+    "postal_code": "571353"
+  },
+  "delivery_address": {
+    "country": "Россия",
+    "city": "клх Тихвин",
+    "street": "алл. Водопроводная",
+    "house": "309",
+    "apartment": "57",
+    "postal_code": "983642"
+  },
+  "preferences": {
+    "preferred_language": "ru",
+    "preferred_payment_method": "cash",
+    "receive_promotions": true
+  }
+}

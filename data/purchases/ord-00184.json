@@ -1,0 +1,105 @@
+{
+  "purchase_id": "ord-00184",
+  "customer": {
+    "customer_id": "cus-1002",
+    "first_name": "Эммануил",
+    "last_name": "Сорокина",
+    "email": "bogdan_1994@example.com",
+    "phone": "+78403056533",
+    "is_loyalty_member": true,
+    "loyalty_card_number": "LOYAL-C9106DA2DE"
+  },
+  "store": {
+    "store_id": "store-019",
+    "store_name": "Большая Пикча — Магазин на ул. Войкова",
+    "store_network": "Большая Пикча",
+    "location": {
+      "country": "Россия",
+      "city": "п. Балашиха",
+      "street": "пер. Тимирязева",
+      "house": "17",
+      "postal_code": "568590",
+      "coordinates": {
+        "latitude": 60.2486205,
+        "longitude": -16.230204
+      }
+    }
+  },
+  "items": [
+    {
+      "product_id": "prd-1012",
+      "name": "Премьера Висеть",
+      "category": "🥩 Мясо, рыба, яйца и бобовые",
+      "quantity": 2,
+      "unit": "л",
+      "price_per_unit": 193.21,
+      "total_price": 386.42,
+      "kbju": {
+        "calories": 254.5,
+        "protein": 0.8,
+        "fat": 5.6,
+        "carbohydrates": 3.1
+      },
+      "manufacturer": {
+        "name": "АО «Ларионова, Молчанов и Ефремова»",
+        "country": "Россия",
+        "website": "https://ao.edu",
+        "inn": "3317182161"
+      }
+    },
+    {
+      "product_id": "prd-1007",
+      "name": "Штаб Приличный",
+      "category": "🍏 Фрукты и ягоды",
+      "quantity": 1,
+      "unit": "кг",
+      "price_per_unit": 196.88,
+      "total_price": 196.88,
+      "kbju": {
+        "calories": 164.9,
+        "protein": 16.7,
+        "fat": 3.6,
+        "carbohydrates": 31.4
+      },
+      "manufacturer": {
+        "name": "СДС-Уголь",
+        "country": "Россия",
+        "website": "https://npo.ru",
+        "inn": "9854590544"
+      }
+    },
+    {
+      "product_id": "prd-1011",
+      "name": "Собеседник Цель",
+      "category": "🍏 Фрукты и ягоды",
+      "quantity": 3,
+      "unit": "шт",
+      "price_per_unit": 109.38,
+      "total_price": 328.14,
+      "kbju": {
+        "calories": 140.7,
+        "protein": 19.6,
+        "fat": 11.8,
+        "carbohydrates": 11.5
+      },
+      "manufacturer": {
+        "name": "Сысоев Лтд",
+        "country": "Россия",
+        "website": "https://ip.org",
+        "inn": "3880754993"
+      }
+    }
+  ],
+  "total_amount": 911.44,
+  "payment_method": "cash",
+  "is_delivery": true,
+  "delivery_address": {
+    "country": "Россия",
+    "city": "г. Вилюйск",
+    "street": "бул. Революционный",
+    "house": "972",
+    "apartment": "98",
+    "postal_code": "852736"
+  },
+  "purchase_datetime": "2025-07-24T19:57:11.041717"
+}

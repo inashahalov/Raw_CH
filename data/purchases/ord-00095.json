@@ -1,0 +1,84 @@
+{
+  "purchase_id": "ord-00095",
+  "customer": {
+    "customer_id": "cus-1002",
+    "first_name": "Эммануил",
+    "last_name": "Сорокина",
+    "email": "bogdan_1994@example.com",
+    "phone": "+78403056533",
+    "is_loyalty_member": true,
+    "loyalty_card_number": "LOYAL-C9106DA2DE"
+  },
+  "store": {
+    "store_id": "store-016",
+    "store_name": "Большая Пикча — Магазин на пр. Сиреневый",
+    "store_network": "Большая Пикча",
+    "location": {
+      "country": "Россия",
+      "city": "д. Оренбург",
+      "street": "ул. Горная",
+      "house": "61",
+      "postal_code": "395799",
+      "coordinates": {
+        "latitude": -45.4646875,
+        "longitude": -11.515672
+      }
+    }
+  },
+  "items": [
+    {
+      "product_id": "prd-1003",
+      "name": "Идея Вообще",
+      "category": "🍏 Фрукты и ягоды",
+      "quantity": 3,
+      "unit": "упаковка",
+      "price_per_unit": 270.56,
+      "total_price": 811.68,
+      "kbju": {
+        "calories": 53.3,
+        "protein": 13.5,
+        "fat": 3.5,
+        "carbohydrates": 40.5
+      },
+      "manufacturer": {
+        "name": "АО «Назарова»",
+        "country": "Россия",
+        "website": "https://oao.ru",
+        "inn": "9069795571"
+      }
+    },
+    {
+      "product_id": "prd-1001",
+      "name": "Тревога Появление",
+      "category": "🥖 Зерновые и хлебобулочные изделия",
+      "quantity": 5,
+      "unit": "шт",
+      "price_per_unit": 168.16,
+      "total_price": 840.8,
+      "kbju": {
+        "calories": 205.2,
+        "protein": 13.4,
+        "fat": 1.1,
+        "carbohydrates": 43.2
+      },
+      "manufacturer": {
+        "name": "ОАО «Селезнева Турова»",
+        "country": "Россия",
+        "website": "https://panfilov.net",
+        "inn": "5790638925"
+      }
+    }
+  ],
+  "total_amount": 1652.48,
+  "payment_method": "cash",
+  "is_delivery": false,
+  "delivery_address": {
+    "country": "Россия",
+    "city": "г. Вилюйск",
+    "street": "бул. Революционный",
+    "house": "972",
+    "apartment": "98",
+    "postal_code": "852736"
+  },
+  "purchase_datetime": "2025-08-27T19:57:10.995253"
+}

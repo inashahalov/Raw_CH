@@ -1,0 +1,105 @@
+{
+  "purchase_id": "ord-00116",
+  "customer": {
+    "customer_id": "cus-1002",
+    "first_name": "Эммануил",
+    "last_name": "Сорокина",
+    "email": "bogdan_1994@example.com",
+    "phone": "+78403056533",
+    "is_loyalty_member": true,
+    "loyalty_card_number": "LOYAL-C9106DA2DE"
+  },
+  "store": {
+    "store_id": "store-026",
+    "store_name": "Большая Пикча — Магазин на алл. Иванова",
+    "store_network": "Большая Пикча",
+    "location": {
+      "country": "Россия",
+      "city": "д. Вытегра",
+      "street": "ш. Лунное",
+      "house": "6",
+      "postal_code": "030129",
+      "coordinates": {
+        "latitude": 12.0765525,
+        "longitude": 50.950176
+      }
+    }
+  },
+  "items": [
+    {
+      "product_id": "prd-1008",
+      "name": "Фонарик Успокоиться",
+      "category": "🥖 Зерновые и хлебобулочные изделия",
+      "quantity": 4,
+      "unit": "упаковка",
+      "price_per_unit": 73.43,
+      "total_price": 293.72,
+      "kbju": {
+        "calories": 92.6,
+        "protein": 18.4,
+        "fat": 11.5,
+        "carbohydrates": 24.8
+      },
+      "manufacturer": {
+        "name": "ООО «Денисов, Щукина и Гришин»",
+        "country": "Россия",
+        "website": "https://kozlova.org",
+        "inn": "3531459365"
+      }
+    },
+    {
+      "product_id": "prd-1009",
+      "name": "Заложить Спасть",
+      "category": "🥩 Мясо, рыба, яйца и бобовые",
+      "quantity": 4,
+      "unit": "шт",
+      "price_per_unit": 101.66,
+      "total_price": 406.64,
+      "kbju": {
+        "calories": 246.3,
+        "protein": 19.8,
+        "fat": 4.3,
+        "carbohydrates": 48.1
+      },
+      "manufacturer": {
+        "name": "НПО «Наумова»",
+        "country": "Россия",
+        "website": "https://rao.biz",
+        "inn": "4508864986"
+      }
+    },
+    {
+      "product_id": "prd-1007",
+      "name": "Штаб Приличный",
+      "category": "🍏 Фрукты и ягоды",
+      "quantity": 5,
+      "unit": "кг",
+      "price_per_unit": 196.88,
+      "total_price": 984.4,
+      "kbju": {
+        "calories": 164.9,
+        "protein": 16.7,
+        "fat": 3.6,
+        "carbohydrates": 31.4
+      },
+      "manufacturer": {
+        "name": "СДС-Уголь",
+        "country": "Россия",
+        "website": "https://npo.ru",
+        "inn": "9854590544"
+      }
+    }
+  ],
+  "total_amount": 1684.76,
+  "payment_method": "card",
+  "is_delivery": true,
+  "delivery_address": {
+    "country": "Россия",
+    "city": "г. Вилюйск",
+    "street": "бул. Революционный",
+    "house": "972",
+    "apartment": "98",
+    "postal_code": "852736"
+  },
+  "purchase_datetime": "2025-08-28T19:57:11.008500"
+}

@@ -1,0 +1,105 @@
+{
+  "purchase_id": "ord-00164",
+  "customer": {
+    "customer_id": "cus-1008",
+    "first_name": "Корнил",
+    "last_name": "Данилова",
+    "email": "ljubim28@example.net",
+    "phone": "84143737040",
+    "is_loyalty_member": true,
+    "loyalty_card_number": "LOYAL-0E9C233BA4"
+  },
+  "store": {
+    "store_id": "store-006",
+    "store_name": "Большая Пикча — Магазин на пр. Серова",
+    "store_network": "Большая Пикча",
+    "location": {
+      "country": "Россия",
+      "city": "г. Верхний Баскунчак",
+      "street": "ш. Октябрьское",
+      "house": "8/9",
+      "postal_code": "527881",
+      "coordinates": {
+        "latitude": -69.9027955,
+        "longitude": 46.080453
+      }
+    }
+  },
+  "items": [
+    {
+      "product_id": "prd-1006",
+      "name": "Мелькнуть Сбросить",
+      "category": "🍏 Фрукты и ягоды",
+      "quantity": 3,
+      "unit": "кг",
+      "price_per_unit": 251.59,
+      "total_price": 754.77,
+      "kbju": {
+        "calories": 208.0,
+        "protein": 7.1,
+        "fat": 7.6,
+        "carbohydrates": 15.3
+      },
+      "manufacturer": {
+        "name": "ИП «Киселев Комарова»",
+        "country": "Россия",
+        "website": "https://turova.info",
+        "inn": "8487805184"
+      }
+    },
+    {
+      "product_id": "prd-1004",
+      "name": "Рассуждение Боец",
+      "category": "🥩 Мясо, рыба, яйца и бобовые",
+      "quantity": 4,
+      "unit": "кг",
+      "price_per_unit": 167.58,
+      "total_price": 670.32,
+      "kbju": {
+        "calories": 270.7,
+        "protein": 8.7,
+        "fat": 11.5,
+        "carbohydrates": 1.5
+      },
+      "manufacturer": {
+        "name": "РАО «Мухина Миронов»",
+        "country": "Россия",
+        "website": "https://rao.org",
+        "inn": "9262920859"
+      }
+    },
+    {
+      "product_id": "prd-1000",
+      "name": "Заведение Задержать",
+      "category": "🥛 Молочные продукты",
+      "quantity": 3,
+      "unit": "л",
+      "price_per_unit": 174.16,
+      "total_price": 522.48,
+      "kbju": {
+        "calories": 261.8,
+        "protein": 2.3,
+        "fat": 2.9,
+        "carbohydrates": 19.7
+      },
+      "manufacturer": {
+        "name": "РАО «Бирюков, Лапина и Волков»",
+        "country": "Россия",
+        "website": "https://ao.net",
+        "inn": "0912614956"
+      }
+    }
+  ],
+  "total_amount": 1947.57,
+  "payment_method": "cash",
+  "is_delivery": false,
+  "delivery_address": {
+    "country": "Россия",
+    "city": "ст. Тосно",
+    "street": "ул. Маяковского",
+    "house": "515",
+    "apartment": "67",
+    "postal_code": "862981"
+  },
+  "purchase_datetime": "2025-08-29T19:57:11.031603"
+}

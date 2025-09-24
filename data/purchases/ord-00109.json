@@ -1,0 +1,105 @@
+{
+  "purchase_id": "ord-00109",
+  "customer": {
+    "customer_id": "cus-1017",
+    "first_name": "Анна",
+    "last_name": "Кулагина",
+    "email": "blinovagafon@example.com",
+    "phone": "8 378 774 4882",
+    "is_loyalty_member": true,
+    "loyalty_card_number": "LOYAL-BB85942A1A"
+  },
+  "store": {
+    "store_id": "store-012",
+    "store_name": "Большая Пикча — Магазин на наб. Центральная",
+    "store_network": "Большая Пикча",
+    "location": {
+      "country": "Россия",
+      "city": "ст. Валдай",
+      "street": "алл. Станиславского",
+      "house": "8/1",
+      "postal_code": "481389",
+      "coordinates": {
+        "latitude": 33.4852585,
+        "longitude": 19.302012
+      }
+    }
+  },
+  "items": [
+    {
+      "product_id": "prd-1019",
+      "name": "Адвокат Другой",
+      "category": "🥦 Овощи и зелень",
+      "quantity": 1,
+      "unit": "шт",
+      "price_per_unit": 43.3,
+      "total_price": 43.3,
+      "kbju": {
+        "calories": 77.7,
+        "protein": 13.9,
+        "fat": 10.1,
+        "carbohydrates": 22.7
+      },
+      "manufacturer": {
+        "name": "Чернова Групп",
+        "country": "Россия",
+        "website": "https://belozerova.com",
+        "inn": "4723890506"
+      }
+    },
+    {
+      "product_id": "prd-1009",
+      "name": "Заложить Спасть",
+      "category": "🥩 Мясо, рыба, яйца и бобовые",
+      "quantity": 5,
+      "unit": "шт",
+      "price_per_unit": 101.66,
+      "total_price": 508.3,
+      "kbju": {
+        "calories": 246.3,
+        "protein": 19.8,
+        "fat": 4.3,
+        "carbohydrates": 48.1
+      },
+      "manufacturer": {
+        "name": "НПО «Наумова»",
+        "country": "Россия",
+        "website": "https://rao.biz",
+        "inn": "4508864986"
+      }
+    },
+    {
+      "product_id": "prd-1018",
+      "name": "Низкий Присесть",
+      "category": "🥩 Мясо, рыба, яйца и бобовые",
+      "quantity": 4,
+      "unit": "кг",
+      "price_per_unit": 240.2,
+      "total_price": 960.8,
+      "kbju": {
+        "calories": 272.9,
+        "protein": 7.8,
+        "fat": 2.3,
+        "carbohydrates": 5.3
+      },
+      "manufacturer": {
+        "name": "Ланит",
+        "country": "Россия",
+        "website": "https://rao.info",
+        "inn": "3763771194"
+      }
+    }
+  ],
+  "total_amount": 1512.4,
+  "payment_method": "cash",
+  "is_delivery": false,
+  "delivery_address": {
+    "country": "Россия",
+    "city": "к. Минеральные Воды",
+    "street": "бул. Тракторный",
+    "house": "1/6",
+    "apartment": "35",
+    "postal_code": "468913"
+  },
+  "purchase_datetime": "2025-08-29T19:57:11.005337"
+}

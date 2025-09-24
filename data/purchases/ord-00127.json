@@ -1,0 +1,105 @@
+{
+  "purchase_id": "ord-00127",
+  "customer": {
+    "customer_id": "cus-1024",
+    "first_name": "Ульян",
+    "last_name": "Рожков",
+    "email": "lavrenti_1995@example.net",
+    "phone": "8 (716) 687-95-46",
+    "is_loyalty_member": true,
+    "loyalty_card_number": "LOYAL-091724D2F7"
+  },
+  "store": {
+    "store_id": "store-038",
+    "store_name": "Маленькая Пикча — Магазин на бул. Папанина",
+    "store_network": "Маленькая Пикча",
+    "location": {
+      "country": "Россия",
+      "city": "д. Терней",
+      "street": "наб. Флотская",
+      "house": "634",
+      "postal_code": "144849",
+      "coordinates": {
+        "latitude": -24.7418805,
+        "longitude": -175.888895
+      }
+    }
+  },
+  "items": [
+    {
+      "product_id": "prd-1014",
+      "name": "Сустав Совещание",
+      "category": "🥦 Овощи и зелень",
+      "quantity": 1,
+      "unit": "л",
+      "price_per_unit": 148.14,
+      "total_price": 148.14,
+      "kbju": {
+        "calories": 294.0,
+        "protein": 10.9,
+        "fat": 5.7,
+        "carbohydrates": 7.8
+      },
+      "manufacturer": {
+        "name": "ИП «Нестерова»",
+        "country": "Россия",
+        "website": "https://novikov.info",
+        "inn": "8559866409"
+      }
+    },
+    {
+      "product_id": "prd-1017",
+      "name": "Неожиданный Эпоха",
+      "category": "🥦 Овощи и зелень",
+      "quantity": 3,
+      "unit": "упаковка",
+      "price_per_unit": 187.0,
+      "total_price": 561.0,
+      "kbju": {
+        "calories": 291.5,
+        "protein": 6.8,
+        "fat": 3.0,
+        "carbohydrates": 7.4
+      },
+      "manufacturer": {
+        "name": "ЗАО «Сафонова Ларионова»",
+        "country": "Россия",
+        "website": "https://ao.org",
+        "inn": "0841571264"
+      }
+    },
+    {
+      "product_id": "prd-1012",
+      "name": "Премьера Висеть",
+      "category": "🥩 Мясо, рыба, яйца и бобовые",
+      "quantity": 4,
+      "unit": "л",
+      "price_per_unit": 193.21,
+      "total_price": 772.84,
+      "kbju": {
+        "calories": 254.5,
+        "protein": 0.8,
+        "fat": 5.6,
+        "carbohydrates": 3.1
+      },
+      "manufacturer": {
+        "name": "АО «Ларионова, Молчанов и Ефремова»",
+        "country": "Россия",
+        "website": "https://ao.edu",
+        "inn": "3317182161"
+      }
+    }
+  ],
+  "total_amount": 1481.98,
+  "payment_method": "cash",
+  "is_delivery": true,
+  "delivery_address": {
+    "country": "Россия",
+    "city": "п. Вязьма",
+    "street": "наб. Радужная",
+    "house": "5",
+    "apartment": "73",
+    "postal_code": "710794"
+  },
+  "purchase_datetime": "2025-08-22T19:57:11.013559"
+}

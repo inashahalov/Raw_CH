@@ -1,0 +1,36 @@
+{
+  "customer_id": "cus-1044",
+  "first_name": "Ирина",
+  "last_name": "Горбунов",
+  "email": "bikovavde@example.org",
+  "phone": "+7 (467) 240-7744",
+  "birth_date": "2005-03-24",
+  "gender": "male",
+  "registration_date": "2025-09-23T19:57:10.950973",
+  "is_loyalty_member": true,
+  "loyalty_card_number": "LOYAL-543187F95B",
+  "purchase_location": {
+    "store_id": "store-045",
+    "store_name": "Маленькая Пикча — Магазин на ш. Новгородское",
+    "store_network": "Маленькая Пикча",
+    "store_type_description": "Магазин у дома менее 100 кв.м. Входит в сеть из 15 магазинов.",
+    "country": "Россия",
+    "city": "д. Нягань",
+    "street": "бул. Кузнецкий",
+    "house": "131",
+    "postal_code": "265786"
+  },
+  "delivery_address": {
+    "country": "Россия",
+    "city": "д. Нягань",
+    "street": "бул. Подгорный",
+    "house": "68",
+    "apartment": "62",
+    "postal_code": "634627"
+  },
+  "preferences": {
+    "preferred_language": "ru",
+    "preferred_payment_method": "card",
+    "receive_promotions": true
+  }
+}

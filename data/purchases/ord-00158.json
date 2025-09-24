@@ -1,0 +1,105 @@
+{
+  "purchase_id": "ord-00158",
+  "customer": {
+    "customer_id": "cus-1033",
+    "first_name": "Евграф",
+    "last_name": "Кулагин",
+    "email": "qsazonova@example.org",
+    "phone": "8 (664) 074-4446",
+    "is_loyalty_member": true,
+    "loyalty_card_number": "LOYAL-615D708F68"
+  },
+  "store": {
+    "store_id": "store-011",
+    "store_name": "Большая Пикча — Магазин на ул. Таежная",
+    "store_network": "Большая Пикча",
+    "location": {
+      "country": "Россия",
+      "city": "п. Снежинск",
+      "street": "алл. Клары Цеткин",
+      "house": "8",
+      "postal_code": "728596",
+      "coordinates": {
+        "latitude": 42.23201,
+        "longitude": 92.394681
+      }
+    }
+  },
+  "items": [
+    {
+      "product_id": "prd-1008",
+      "name": "Фонарик Успокоиться",
+      "category": "🥖 Зерновые и хлебобулочные изделия",
+      "quantity": 3,
+      "unit": "упаковка",
+      "price_per_unit": 73.43,
+      "total_price": 220.29,
+      "kbju": {
+        "calories": 92.6,
+        "protein": 18.4,
+        "fat": 11.5,
+        "carbohydrates": 24.8
+      },
+      "manufacturer": {
+        "name": "ООО «Денисов, Щукина и Гришин»",
+        "country": "Россия",
+        "website": "https://kozlova.org",
+        "inn": "3531459365"
+      }
+    },
+    {
+      "product_id": "prd-1018",
+      "name": "Низкий Присесть",
+      "category": "🥩 Мясо, рыба, яйца и бобовые",
+      "quantity": 5,
+      "unit": "кг",
+      "price_per_unit": 240.2,
+      "total_price": 1201.0,
+      "kbju": {
+        "calories": 272.9,
+        "protein": 7.8,
+        "fat": 2.3,
+        "carbohydrates": 5.3
+      },
+      "manufacturer": {
+        "name": "Ланит",
+        "country": "Россия",
+        "website": "https://rao.info",
+        "inn": "3763771194"
+      }
+    },
+    {
+      "product_id": "prd-1000",
+      "name": "Заведение Задержать",
+      "category": "🥛 Молочные продукты",
+      "quantity": 2,
+      "unit": "л",
+      "price_per_unit": 174.16,
+      "total_price": 348.32,
+      "kbju": {
+        "calories": 261.8,
+        "protein": 2.3,
+        "fat": 2.9,
+        "carbohydrates": 19.7
+      },
+      "manufacturer": {
+        "name": "РАО «Бирюков, Лапина и Волков»",
+        "country": "Россия",
+        "website": "https://ao.net",
+        "inn": "0912614956"
+      }
+    }
+  ],
+  "total_amount": 1769.61,
+  "payment_method": "cash",
+  "is_delivery": false,
+  "delivery_address": {
+    "country": "Россия",
+    "city": "с. Чусовой",
+    "street": "ул. Леваневского",
+    "house": "737",
+    "apartment": "67",
+    "postal_code": "413892"
+  },
+  "purchase_datetime": "2025-07-30T19:57:11.028849"
+}

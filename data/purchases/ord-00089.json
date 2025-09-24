@@ -1,0 +1,105 @@
+{
+  "purchase_id": "ord-00089",
+  "customer": {
+    "customer_id": "cus-1011",
+    "first_name": "Аркадий",
+    "last_name": "Беляков",
+    "email": "mir_2021@example.net",
+    "phone": "8 (459) 651-56-98",
+    "is_loyalty_member": true,
+    "loyalty_card_number": "LOYAL-7E0D508BB5"
+  },
+  "store": {
+    "store_id": "store-038",
+    "store_name": "Маленькая Пикча — Магазин на бул. Папанина",
+    "store_network": "Маленькая Пикча",
+    "location": {
+      "country": "Россия",
+      "city": "д. Терней",
+      "street": "наб. Флотская",
+      "house": "634",
+      "postal_code": "144849",
+      "coordinates": {
+        "latitude": -24.7418805,
+        "longitude": -175.888895
+      }
+    }
+  },
+  "items": [
+    {
+      "product_id": "prd-1017",
+      "name": "Неожиданный Эпоха",
+      "category": "🥦 Овощи и зелень",
+      "quantity": 1,
+      "unit": "упаковка",
+      "price_per_unit": 187.0,
+      "total_price": 187.0,
+      "kbju": {
+        "calories": 291.5,
+        "protein": 6.8,
+        "fat": 3.0,
+        "carbohydrates": 7.4
+      },
+      "manufacturer": {
+        "name": "ЗАО «Сафонова Ларионова»",
+        "country": "Россия",
+        "website": "https://ao.org",
+        "inn": "0841571264"
+      }
+    },
+    {
+      "product_id": "prd-1007",
+      "name": "Штаб Приличный",
+      "category": "🍏 Фрукты и ягоды",
+      "quantity": 4,
+      "unit": "кг",
+      "price_per_unit": 196.88,
+      "total_price": 787.52,
+      "kbju": {
+        "calories": 164.9,
+        "protein": 16.7,
+        "fat": 3.6,
+        "carbohydrates": 31.4
+      },
+      "manufacturer": {
+        "name": "СДС-Уголь",
+        "country": "Россия",
+        "website": "https://npo.ru",
+        "inn": "9854590544"
+      }
+    },
+    {
+      "product_id": "prd-1009",
+      "name": "Заложить Спасть",
+      "category": "🥩 Мясо, рыба, яйца и бобовые",
+      "quantity": 4,
+      "unit": "шт",
+      "price_per_unit": 101.66,
+      "total_price": 406.64,
+      "kbju": {
+        "calories": 246.3,
+        "protein": 19.8,
+        "fat": 4.3,
+        "carbohydrates": 48.1
+      },
+      "manufacturer": {
+        "name": "НПО «Наумова»",
+        "country": "Россия",
+        "website": "https://rao.biz",
+        "inn": "4508864986"
+      }
+    }
+  ],
+  "total_amount": 1381.16,
+  "payment_method": "cash",
+  "is_delivery": true,
+  "delivery_address": {
+    "country": "Россия",
+    "city": "ст. Валдай",
+    "street": "пер. Луговой",
+    "house": "322",
+    "apartment": "50",
+    "postal_code": "969455"
+  },
+  "purchase_datetime": "2025-08-11T19:57:10.991948"
+}

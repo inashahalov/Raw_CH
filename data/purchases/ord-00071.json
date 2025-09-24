@@ -1,0 +1,105 @@
+{
+  "purchase_id": "ord-00071",
+  "customer": {
+    "customer_id": "cus-1002",
+    "first_name": "Эммануил",
+    "last_name": "Сорокина",
+    "email": "bogdan_1994@example.com",
+    "phone": "+78403056533",
+    "is_loyalty_member": true,
+    "loyalty_card_number": "LOYAL-C9106DA2DE"
+  },
+  "store": {
+    "store_id": "store-019",
+    "store_name": "Большая Пикча — Магазин на ул. Войкова",
+    "store_network": "Большая Пикча",
+    "location": {
+      "country": "Россия",
+      "city": "п. Балашиха",
+      "street": "пер. Тимирязева",
+      "house": "17",
+      "postal_code": "568590",
+      "coordinates": {
+        "latitude": 60.2486205,
+        "longitude": -16.230204
+      }
+    }
+  },
+  "items": [
+    {
+      "product_id": "prd-1009",
+      "name": "Заложить Спасть",
+      "category": "🥩 Мясо, рыба, яйца и бобовые",
+      "quantity": 4,
+      "unit": "шт",
+      "price_per_unit": 101.66,
+      "total_price": 406.64,
+      "kbju": {
+        "calories": 246.3,
+        "protein": 19.8,
+        "fat": 4.3,
+        "carbohydrates": 48.1
+      },
+      "manufacturer": {
+        "name": "НПО «Наумова»",
+        "country": "Россия",
+        "website": "https://rao.biz",
+        "inn": "4508864986"
+      }
+    },
+    {
+      "product_id": "prd-1016",
+      "name": "Цвет Трубка",
+      "category": "🥖 Зерновые и хлебобулочные изделия",
+      "quantity": 3,
+      "unit": "упаковка",
+      "price_per_unit": 59.3,
+      "total_price": 177.9,
+      "kbju": {
+        "calories": 239.4,
+        "protein": 10.5,
+        "fat": 4.0,
+        "carbohydrates": 33.8
+      },
+      "manufacturer": {
+        "name": "ОАО «Давыдова-Калинин»",
+        "country": "Россия",
+        "website": "https://zao.org",
+        "inn": "7235646922"
+      }
+    },
+    {
+      "product_id": "prd-1005",
+      "name": "Уничтожение Вздрагивать",
+      "category": "🍏 Фрукты и ягоды",
+      "quantity": 4,
+      "unit": "л",
+      "price_per_unit": 207.53,
+      "total_price": 830.12,
+      "kbju": {
+        "calories": 191.8,
+        "protein": 11.1,
+        "fat": 7.9,
+        "carbohydrates": 5.4
+      },
+      "manufacturer": {
+        "name": "ООО «Авдеев-Медведева»",
+        "country": "Россия",
+        "website": "https://zao.com",
+        "inn": "9782693224"
+      }
+    }
+  ],
+  "total_amount": 1414.66,
+  "payment_method": "cash",
+  "is_delivery": true,
+  "delivery_address": {
+    "country": "Россия",
+    "city": "г. Вилюйск",
+    "street": "бул. Революционный",
+    "house": "972",
+    "apartment": "98",
+    "postal_code": "852736"
+  },
+  "purchase_datetime": "2025-07-02T19:57:10.983043"
+}

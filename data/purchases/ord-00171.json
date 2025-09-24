@@ -1,0 +1,105 @@
+{
+  "purchase_id": "ord-00171",
+  "customer": {
+    "customer_id": "cus-1043",
+    "first_name": "Жанна",
+    "last_name": "Сидорова",
+    "email": "ostapmoiseev@example.org",
+    "phone": "+78782851181",
+    "is_loyalty_member": true,
+    "loyalty_card_number": "LOYAL-21A26202A6"
+  },
+  "store": {
+    "store_id": "store-005",
+    "store_name": "Большая Пикча — Магазин на алл. Гагарина",
+    "store_network": "Большая Пикча",
+    "location": {
+      "country": "Россия",
+      "city": "п. Выборг",
+      "street": "наб. Виноградная",
+      "house": "5",
+      "postal_code": "649137",
+      "coordinates": {
+        "latitude": -20.3813075,
+        "longitude": 69.885599
+      }
+    }
+  },
+  "items": [
+    {
+      "product_id": "prd-1015",
+      "name": "Войти Приходить",
+      "category": "🥛 Молочные продукты",
+      "quantity": 5,
+      "unit": "шт",
+      "price_per_unit": 92.89,
+      "total_price": 464.45,
+      "kbju": {
+        "calories": 297.1,
+        "protein": 17.3,
+        "fat": 7.9,
+        "carbohydrates": 24.3
+      },
+      "manufacturer": {
+        "name": "Гришина Лтд",
+        "country": "Россия",
+        "website": "https://ooo.net",
+        "inn": "5499321537"
+      }
+    },
+    {
+      "product_id": "prd-1002",
+      "name": "Разводить Школьный",
+      "category": "🥦 Овощи и зелень",
+      "quantity": 4,
+      "unit": "л",
+      "price_per_unit": 232.4,
+      "total_price": 929.6,
+      "kbju": {
+        "calories": 276.5,
+        "protein": 15.9,
+        "fat": 7.0,
+        "carbohydrates": 4.4
+      },
+      "manufacturer": {
+        "name": "ОАО «Туров, Горбунова и Галкина»",
+        "country": "Россия",
+        "website": "https://oao.com",
+        "inn": "7774237965"
+      }
+    },
+    {
+      "product_id": "prd-1011",
+      "name": "Собеседник Цель",
+      "category": "🍏 Фрукты и ягоды",
+      "quantity": 5,
+      "unit": "шт",
+      "price_per_unit": 109.38,
+      "total_price": 546.9,
+      "kbju": {
+        "calories": 140.7,
+        "protein": 19.6,
+        "fat": 11.8,
+        "carbohydrates": 11.5
+      },
+      "manufacturer": {
+        "name": "Сысоев Лтд",
+        "country": "Россия",
+        "website": "https://ip.org",
+        "inn": "3880754993"
+      }
+    }
+  ],
+  "total_amount": 1940.95,
+  "payment_method": "card",
+  "is_delivery": false,
+  "delivery_address": {
+    "country": "Россия",
+    "city": "ст. Богучар",
+    "street": "пер. Нефтяников",
+    "house": "9",
+    "apartment": "76",
+    "postal_code": "522549"
+  },
+  "purchase_datetime": "2025-08-16T19:57:11.035430"
+}

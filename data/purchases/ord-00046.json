@@ -1,0 +1,84 @@
+{
+  "purchase_id": "ord-00046",
+  "customer": {
+    "customer_id": "cus-1016",
+    "first_name": "Анна",
+    "last_name": "Самойлова",
+    "email": "shubinavksenti@example.net",
+    "phone": "8 (544) 774-4118",
+    "is_loyalty_member": true,
+    "loyalty_card_number": "LOYAL-65D213A3F5"
+  },
+  "store": {
+    "store_id": "store-016",
+    "store_name": "Большая Пикча — Магазин на пр. Сиреневый",
+    "store_network": "Большая Пикча",
+    "location": {
+      "country": "Россия",
+      "city": "д. Оренбург",
+      "street": "ул. Горная",
+      "house": "61",
+      "postal_code": "395799",
+      "coordinates": {
+        "latitude": -45.4646875,
+        "longitude": -11.515672
+      }
+    }
+  },
+  "items": [
+    {
+      "product_id": "prd-1002",
+      "name": "Разводить Школьный",
+      "category": "🥦 Овощи и зелень",
+      "quantity": 5,
+      "unit": "л",
+      "price_per_unit": 232.4,
+      "total_price": 1162.0,
+      "kbju": {
+        "calories": 276.5,
+        "protein": 15.9,
+        "fat": 7.0,
+        "carbohydrates": 4.4
+      },
+      "manufacturer": {
+        "name": "ОАО «Туров, Горбунова и Галкина»",
+        "country": "Россия",
+        "website": "https://oao.com",
+        "inn": "7774237965"
+      }
+    },
+    {
+      "product_id": "prd-1011",
+      "name": "Собеседник Цель",
+      "category": "🍏 Фрукты и ягоды",
+      "quantity": 2,
+      "unit": "шт",
+      "price_per_unit": 109.38,
+      "total_price": 218.76,
+      "kbju": {
+        "calories": 140.7,
+        "protein": 19.6,
+        "fat": 11.8,
+        "carbohydrates": 11.5
+      },
+      "manufacturer": {
+        "name": "Сысоев Лтд",
+        "country": "Россия",
+        "website": "https://ip.org",
+        "inn": "3880754993"
+      }
+    }
+  ],
+  "total_amount": 1380.76,
+  "payment_method": "card",
+  "is_delivery": true,
+  "delivery_address": {
+    "country": "Россия",
+    "city": "ст. Любань",
+    "street": "пер. Камский",
+    "house": "974",
+    "apartment": "2",
+    "postal_code": "965257"
+  },
+  "purchase_datetime": "2025-07-13T19:57:10.971965"
+}

@@ -1,0 +1,63 @@
+{
+  "purchase_id": "ord-00033",
+  "customer": {
+    "customer_id": "cus-1033",
+    "first_name": "Евграф",
+    "last_name": "Кулагин",
+    "email": "qsazonova@example.org",
+    "phone": "8 (664) 074-4446",
+    "is_loyalty_member": true,
+    "loyalty_card_number": "LOYAL-615D708F68"
+  },
+  "store": {
+    "store_id": "store-038",
+    "store_name": "Маленькая Пикча — Магазин на бул. Папанина",
+    "store_network": "Маленькая Пикча",
+    "location": {
+      "country": "Россия",
+      "city": "д. Терней",
+      "street": "наб. Флотская",
+      "house": "634",
+      "postal_code": "144849",
+      "coordinates": {
+        "latitude": -24.7418805,
+        "longitude": -175.888895
+      }
+    }
+  },
+  "items": [
+    {
+      "product_id": "prd-1000",
+      "name": "Заведение Задержать",
+      "category": "🥛 Молочные продукты",
+      "quantity": 1,
+      "unit": "л",
+      "price_per_unit": 174.16,
+      "total_price": 174.16,
+      "kbju": {
+        "calories": 261.8,
+        "protein": 2.3,
+        "fat": 2.9,
+        "carbohydrates": 19.7
+      },
+      "manufacturer": {
+        "name": "РАО «Бирюков, Лапина и Волков»",
+        "country": "Россия",
+        "website": "https://ao.net",
+        "inn": "0912614956"
+      }
+    }
+  ],
+  "total_amount": 174.16,
+  "payment_method": "cash",
+  "is_delivery": false,
+  "delivery_address": {
+    "country": "Россия",
+    "city": "с. Чусовой",
+    "street": "ул. Леваневского",
+    "house": "737",
+    "apartment": "67",
+    "postal_code": "413892"
+  },
+  "purchase_datetime": "2025-07-29T19:57:10.966314"
+}

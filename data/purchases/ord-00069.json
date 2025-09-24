@@ -1,0 +1,63 @@
+{
+  "purchase_id": "ord-00069",
+  "customer": {
+    "customer_id": "cus-1038",
+    "first_name": "Фотий",
+    "last_name": "Александров",
+    "email": "borisovstanimir@example.net",
+    "phone": "+7 (110) 633-4695",
+    "is_loyalty_member": true,
+    "loyalty_card_number": "LOYAL-51CB82EFA1"
+  },
+  "store": {
+    "store_id": "store-039",
+    "store_name": "Маленькая Пикча — Магазин на бул. Путейский",
+    "store_network": "Маленькая Пикча",
+    "location": {
+      "country": "Россия",
+      "city": "с. Жиганск",
+      "street": "наб. Советской Армии",
+      "house": "55",
+      "postal_code": "339713",
+      "coordinates": {
+        "latitude": -41.3992205,
+        "longitude": -101.881851
+      }
+    }
+  },
+  "items": [
+    {
+      "product_id": "prd-1007",
+      "name": "Штаб Приличный",
+      "category": "🍏 Фрукты и ягоды",
+      "quantity": 3,
+      "unit": "кг",
+      "price_per_unit": 196.88,
+      "total_price": 590.64,
+      "kbju": {
+        "calories": 164.9,
+        "protein": 16.7,
+        "fat": 3.6,
+        "carbohydrates": 31.4
+      },
+      "manufacturer": {
+        "name": "СДС-Уголь",
+        "country": "Россия",
+        "website": "https://npo.ru",
+        "inn": "9854590544"
+      }
+    }
+  ],
+  "total_amount": 590.64,
+  "payment_method": "card",
+  "is_delivery": false,
+  "delivery_address": {
+    "country": "Россия",
+    "city": "с. Жиганск",
+    "street": "наб. Ермака",
+    "house": "9/6",
+    "apartment": "39",
+    "postal_code": "762206"
+  },
+  "purchase_datetime": "2025-09-19T19:57:10.982240"
+}

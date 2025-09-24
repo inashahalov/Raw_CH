@@ -1,0 +1,63 @@
+{
+  "purchase_id": "ord-00107",
+  "customer": {
+    "customer_id": "cus-1035",
+    "first_name": "Кузьма",
+    "last_name": "Лыткин",
+    "email": "maksimtitov@example.com",
+    "phone": "+7 435 823 28 86",
+    "is_loyalty_member": true,
+    "loyalty_card_number": "LOYAL-54F52DC4FC"
+  },
+  "store": {
+    "store_id": "store-011",
+    "store_name": "Большая Пикча — Магазин на ул. Таежная",
+    "store_network": "Большая Пикча",
+    "location": {
+      "country": "Россия",
+      "city": "п. Снежинск",
+      "street": "алл. Клары Цеткин",
+      "house": "8",
+      "postal_code": "728596",
+      "coordinates": {
+        "latitude": 42.23201,
+        "longitude": 92.394681
+      }
+    }
+  },
+  "items": [
+    {
+      "product_id": "prd-1003",
+      "name": "Идея Вообще",
+      "category": "🍏 Фрукты и ягоды",
+      "quantity": 5,
+      "unit": "упаковка",
+      "price_per_unit": 270.56,
+      "total_price": 1352.8,
+      "kbju": {
+        "calories": 53.3,
+        "protein": 13.5,
+        "fat": 3.5,
+        "carbohydrates": 40.5
+      },
+      "manufacturer": {
+        "name": "АО «Назарова»",
+        "country": "Россия",
+        "website": "https://oao.ru",
+        "inn": "9069795571"
+      }
+    }
+  ],
+  "total_amount": 1352.8,
+  "payment_method": "card",
+  "is_delivery": true,
+  "delivery_address": {
+    "country": "Россия",
+    "city": "с. Катав-Ивановск",
+    "street": "бул. Молодежный",
+    "house": "7",
+    "apartment": "82",
+    "postal_code": "657961"
+  },
+  "purchase_datetime": "2025-09-10T19:57:11.004455"
+}

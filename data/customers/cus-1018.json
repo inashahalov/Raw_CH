@@ -1,0 +1,36 @@
+{
+  "customer_id": "cus-1018",
+  "first_name": "Венедикт",
+  "last_name": "Аксенов",
+  "email": "foka98@example.org",
+  "phone": "8 264 438 4743",
+  "birth_date": "1971-08-03",
+  "gender": "female",
+  "registration_date": "2025-09-23T19:57:10.935208",
+  "is_loyalty_member": true,
+  "loyalty_card_number": "LOYAL-5094ED7A2F",
+  "purchase_location": {
+    "store_id": "store-019",
+    "store_name": "Большая Пикча — Магазин на ул. Войкова",
+    "store_network": "Большая Пикча",
+    "store_type_description": "Супермаркет более 200 кв.м. Входит в сеть из 30 магазинов.",
+    "country": "Россия",
+    "city": "п. Балашиха",
+    "street": "пер. Тимирязева",
+    "house": "17",
+    "postal_code": "568590"
+  },
+  "delivery_address": {
+    "country": "Россия",
+    "city": "п. Балашиха",
+    "street": "пер. Макаренко",
+    "house": "9",
+    "apartment": "93",
+    "postal_code": "381002"
+  },
+  "preferences": {
+    "preferred_language": "ru",
+    "preferred_payment_method": "cash",
+    "receive_promotions": false
+  }
+}

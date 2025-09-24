@@ -1,0 +1,63 @@
+{
+  "purchase_id": "ord-00163",
+  "customer": {
+    "customer_id": "cus-1042",
+    "first_name": "Тимофей",
+    "last_name": "Кудряшов",
+    "email": "jaroslav_50@example.org",
+    "phone": "+7 (191) 932-42-71",
+    "is_loyalty_member": true,
+    "loyalty_card_number": "LOYAL-859FD77F84"
+  },
+  "store": {
+    "store_id": "store-009",
+    "store_name": "Большая Пикча — Магазин на пер. Пригородный",
+    "store_network": "Большая Пикча",
+    "location": {
+      "country": "Россия",
+      "city": "ст. Тосно",
+      "street": "бул. Снежный",
+      "house": "17",
+      "postal_code": "064592",
+      "coordinates": {
+        "latitude": -81.084922,
+        "longitude": -135.926762
+      }
+    }
+  },
+  "items": [
+    {
+      "product_id": "prd-1009",
+      "name": "Заложить Спасть",
+      "category": "🥩 Мясо, рыба, яйца и бобовые",
+      "quantity": 5,
+      "unit": "шт",
+      "price_per_unit": 101.66,
+      "total_price": 508.3,
+      "kbju": {
+        "calories": 246.3,
+        "protein": 19.8,
+        "fat": 4.3,
+        "carbohydrates": 48.1
+      },
+      "manufacturer": {
+        "name": "НПО «Наумова»",
+        "country": "Россия",
+        "website": "https://rao.biz",
+        "inn": "4508864986"
+      }
+    }
+  ],
+  "total_amount": 508.3,
+  "payment_method": "cash",
+  "is_delivery": true,
+  "delivery_address": {
+    "country": "Россия",
+    "city": "д. Сусуман",
+    "street": "наб. Торговая",
+    "house": "8/8",
+    "apartment": "65",
+    "postal_code": "695747"
+  },
+  "purchase_datetime": "2025-08-06T19:57:11.031167"
+}

@@ -1,0 +1,105 @@
+{
+  "purchase_id": "ord-00145",
+  "customer": {
+    "customer_id": "cus-1009",
+    "first_name": "Фаина",
+    "last_name": "Моисеев",
+    "email": "isidorlazarev@example.org",
+    "phone": "+7 365 622 67 69",
+    "is_loyalty_member": true,
+    "loyalty_card_number": "LOYAL-E59BA1E587"
+  },
+  "store": {
+    "store_id": "store-020",
+    "store_name": "Большая Пикча — Магазин на ш. Торговое",
+    "store_network": "Большая Пикча",
+    "location": {
+      "country": "Россия",
+      "city": "к. Апшеронск",
+      "street": "пр. Войкова",
+      "house": "6/9",
+      "postal_code": "046873",
+      "coordinates": {
+        "latitude": -44.909337,
+        "longitude": -111.402746
+      }
+    }
+  },
+  "items": [
+    {
+      "product_id": "prd-1019",
+      "name": "Адвокат Другой",
+      "category": "🥦 Овощи и зелень",
+      "quantity": 4,
+      "unit": "шт",
+      "price_per_unit": 43.3,
+      "total_price": 173.2,
+      "kbju": {
+        "calories": 77.7,
+        "protein": 13.9,
+        "fat": 10.1,
+        "carbohydrates": 22.7
+      },
+      "manufacturer": {
+        "name": "Чернова Групп",
+        "country": "Россия",
+        "website": "https://belozerova.com",
+        "inn": "4723890506"
+      }
+    },
+    {
+      "product_id": "prd-1013",
+      "name": "Роса Наткнуться",
+      "category": "🥛 Молочные продукты",
+      "quantity": 4,
+      "unit": "упаковка",
+      "price_per_unit": 39.74,
+      "total_price": 158.96,
+      "kbju": {
+        "calories": 283.8,
+        "protein": 19.2,
+        "fat": 7.6,
+        "carbohydrates": 35.6
+      },
+      "manufacturer": {
+        "name": "АО «Потапова, Смирнова и Сазонова»",
+        "country": "Россия",
+        "website": "https://magnit.info",
+        "inn": "3006321123"
+      }
+    },
+    {
+      "product_id": "prd-1010",
+      "name": "Вытаскивать Правый",
+      "category": "🥦 Овощи и зелень",
+      "quantity": 1,
+      "unit": "л",
+      "price_per_unit": 181.57,
+      "total_price": 181.57,
+      "kbju": {
+        "calories": 113.2,
+        "protein": 7.5,
+        "fat": 3.6,
+        "carbohydrates": 41.4
+      },
+      "manufacturer": {
+        "name": "Сергеев Инкорпорэйтед",
+        "country": "Россия",
+        "website": "https://zao.biz",
+        "inn": "0493815810"
+      }
+    }
+  ],
+  "total_amount": 513.73,
+  "payment_method": "cash",
+  "is_delivery": false,
+  "delivery_address": {
+    "country": "Россия",
+    "city": "клх Воткинск",
+    "street": "ш. 60 лет Октября",
+    "house": "4/9",
+    "apartment": "69",
+    "postal_code": "381729"
+  },
+  "purchase_datetime": "2025-07-19T19:57:11.022197"
+}

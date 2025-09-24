@@ -1,0 +1,105 @@
+{
+  "purchase_id": "ord-00131",
+  "customer": {
+    "customer_id": "cus-1015",
+    "first_name": "Фока",
+    "last_name": "Тетерина",
+    "email": "rjabovboleslav@example.com",
+    "phone": "+7 (465) 499-08-07",
+    "is_loyalty_member": true,
+    "loyalty_card_number": "LOYAL-0B04F4F2B7"
+  },
+  "store": {
+    "store_id": "store-024",
+    "store_name": "Большая Пикча — Магазин на алл. 60 лет СССР",
+    "store_network": "Большая Пикча",
+    "location": {
+      "country": "Россия",
+      "city": "д. Сковородино",
+      "street": "бул. Инженерный",
+      "house": "5/5",
+      "postal_code": "146939",
+      "coordinates": {
+        "latitude": 12.892401,
+        "longitude": 56.364252
+      }
+    }
+  },
+  "items": [
+    {
+      "product_id": "prd-1000",
+      "name": "Заведение Задержать",
+      "category": "🥛 Молочные продукты",
+      "quantity": 5,
+      "unit": "л",
+      "price_per_unit": 174.16,
+      "total_price": 870.8,
+      "kbju": {
+        "calories": 261.8,
+        "protein": 2.3,
+        "fat": 2.9,
+        "carbohydrates": 19.7
+      },
+      "manufacturer": {
+        "name": "РАО «Бирюков, Лапина и Волков»",
+        "country": "Россия",
+        "website": "https://ao.net",
+        "inn": "0912614956"
+      }
+    },
+    {
+      "product_id": "prd-1005",
+      "name": "Уничтожение Вздрагивать",
+      "category": "🍏 Фрукты и ягоды",
+      "quantity": 3,
+      "unit": "л",
+      "price_per_unit": 207.53,
+      "total_price": 622.59,
+      "kbju": {
+        "calories": 191.8,
+        "protein": 11.1,
+        "fat": 7.9,
+        "carbohydrates": 5.4
+      },
+      "manufacturer": {
+        "name": "ООО «Авдеев-Медведева»",
+        "country": "Россия",
+        "website": "https://zao.com",
+        "inn": "9782693224"
+      }
+    },
+    {
+      "product_id": "prd-1011",
+      "name": "Собеседник Цель",
+      "category": "🍏 Фрукты и ягоды",
+      "quantity": 3,
+      "unit": "шт",
+      "price_per_unit": 109.38,
+      "total_price": 328.14,
+      "kbju": {
+        "calories": 140.7,
+        "protein": 19.6,
+        "fat": 11.8,
+        "carbohydrates": 11.5
+      },
+      "manufacturer": {
+        "name": "Сысоев Лтд",
+        "country": "Россия",
+        "website": "https://ip.org",
+        "inn": "3880754993"
+      }
+    }
+  ],
+  "total_amount": 1821.53,
+  "payment_method": "card",
+  "is_delivery": false,
+  "delivery_address": {
+    "country": "Россия",
+    "city": "д. Оренбург",
+    "street": "алл. Портовая",
+    "house": "396",
+    "apartment": "100",
+    "postal_code": "150789"
+  },
+  "purchase_datetime": "2025-07-09T19:57:11.015776"
+}

@@ -1,0 +1,105 @@
+{
+  "purchase_id": "ord-00006",
+  "customer": {
+    "customer_id": "cus-1019",
+    "first_name": "Август",
+    "last_name": "Сергеева",
+    "email": "borisovmilan@example.com",
+    "phone": "+74992445151",
+    "is_loyalty_member": true,
+    "loyalty_card_number": "LOYAL-935B208ACD"
+  },
+  "store": {
+    "store_id": "store-028",
+    "store_name": "Большая Пикча — Магазин на пр. Крупской",
+    "store_network": "Большая Пикча",
+    "location": {
+      "country": "Россия",
+      "city": "ст. Карталы",
+      "street": "ул. Королева",
+      "house": "5",
+      "postal_code": "762232",
+      "coordinates": {
+        "latitude": -62.0370365,
+        "longitude": 85.309577
+      }
+    }
+  },
+  "items": [
+    {
+      "product_id": "prd-1019",
+      "name": "Адвокат Другой",
+      "category": "🥦 Овощи и зелень",
+      "quantity": 3,
+      "unit": "шт",
+      "price_per_unit": 43.3,
+      "total_price": 129.9,
+      "kbju": {
+        "calories": 77.7,
+        "protein": 13.9,
+        "fat": 10.1,
+        "carbohydrates": 22.7
+      },
+      "manufacturer": {
+        "name": "Чернова Групп",
+        "country": "Россия",
+        "website": "https://belozerova.com",
+        "inn": "4723890506"
+      }
+    },
+    {
+      "product_id": "prd-1010",
+      "name": "Вытаскивать Правый",
+      "category": "🥦 Овощи и зелень",
+      "quantity": 4,
+      "unit": "л",
+      "price_per_unit": 181.57,
+      "total_price": 726.28,
+      "kbju": {
+        "calories": 113.2,
+        "protein": 7.5,
+        "fat": 3.6,
+        "carbohydrates": 41.4
+      },
+      "manufacturer": {
+        "name": "Сергеев Инкорпорэйтед",
+        "country": "Россия",
+        "website": "https://zao.biz",
+        "inn": "0493815810"
+      }
+    },
+    {
+      "product_id": "prd-1011",
+      "name": "Собеседник Цель",
+      "category": "🍏 Фрукты и ягоды",
+      "quantity": 4,
+      "unit": "шт",
+      "price_per_unit": 109.38,
+      "total_price": 437.52,
+      "kbju": {
+        "calories": 140.7,
+        "protein": 19.6,
+        "fat": 11.8,
+        "carbohydrates": 11.5
+      },
+      "manufacturer": {
+        "name": "Сысоев Лтд",
+        "country": "Россия",
+        "website": "https://ip.org",
+        "inn": "3880754993"
+      }
+    }
+  ],
+  "total_amount": 1293.7,
+  "payment_method": "cash",
+  "is_delivery": true,
+  "delivery_address": {
+    "country": "Россия",
+    "city": "к. Апшеронск",
+    "street": "пр. 70 лет Октября",
+    "house": "79",
+    "apartment": "65",
+    "postal_code": "550824"
+  },
+  "purchase_datetime": "2025-08-13T19:57:10.953735"
+}

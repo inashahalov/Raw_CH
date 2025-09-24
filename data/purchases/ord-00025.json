@@ -1,0 +1,84 @@
+{
+  "purchase_id": "ord-00025",
+  "customer": {
+    "customer_id": "cus-1026",
+    "first_name": "Флорентин",
+    "last_name": "Большакова",
+    "email": "veselovnazar@example.net",
+    "phone": "8 (205) 889-0655",
+    "is_loyalty_member": true,
+    "loyalty_card_number": "LOYAL-9486E017A9"
+  },
+  "store": {
+    "store_id": "store-017",
+    "store_name": "Большая Пикча — Магазин на наб. Терешковой",
+    "store_network": "Большая Пикча",
+    "location": {
+      "country": "Россия",
+      "city": "ст. Любань",
+      "street": "пер. Есенина",
+      "house": "255",
+      "postal_code": "515675",
+      "coordinates": {
+        "latitude": -40.8579335,
+        "longitude": 15.399726
+      }
+    }
+  },
+  "items": [
+    {
+      "product_id": "prd-1002",
+      "name": "Разводить Школьный",
+      "category": "🥦 Овощи и зелень",
+      "quantity": 1,
+      "unit": "л",
+      "price_per_unit": 232.4,
+      "total_price": 232.4,
+      "kbju": {
+        "calories": 276.5,
+        "protein": 15.9,
+        "fat": 7.0,
+        "carbohydrates": 4.4
+      },
+      "manufacturer": {
+        "name": "ОАО «Туров, Горбунова и Галкина»",
+        "country": "Россия",
+        "website": "https://oao.com",
+        "inn": "7774237965"
+      }
+    },
+    {
+      "product_id": "prd-1000",
+      "name": "Заведение Задержать",
+      "category": "🥛 Молочные продукты",
+      "quantity": 2,
+      "unit": "л",
+      "price_per_unit": 174.16,
+      "total_price": 348.32,
+      "kbju": {
+        "calories": 261.8,
+        "protein": 2.3,
+        "fat": 2.9,
+        "carbohydrates": 19.7
+      },
+      "manufacturer": {
+        "name": "РАО «Бирюков, Лапина и Волков»",
+        "country": "Россия",
+        "website": "https://ao.net",
+        "inn": "0912614956"
+      }
+    }
+  ],
+  "total_amount": 580.72,
+  "payment_method": "card",
+  "is_delivery": true,
+  "delivery_address": {
+    "country": "Россия",
+    "city": "г. Енисейск",
+    "street": "бул. Советской Армии",
+    "house": "403",
+    "apartment": "86",
+    "postal_code": "074919"
+  },
+  "purchase_datetime": "2025-09-15T19:57:10.962399"
+}

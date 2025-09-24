@@ -1,0 +1,63 @@
+{
+  "purchase_id": "ord-00012",
+  "customer": {
+    "customer_id": "cus-1008",
+    "first_name": "Корнил",
+    "last_name": "Данилова",
+    "email": "ljubim28@example.net",
+    "phone": "84143737040",
+    "is_loyalty_member": true,
+    "loyalty_card_number": "LOYAL-0E9C233BA4"
+  },
+  "store": {
+    "store_id": "store-015",
+    "store_name": "Большая Пикча — Магазин на ул. Новосельская",
+    "store_network": "Большая Пикча",
+    "location": {
+      "country": "Россия",
+      "city": "г. Магнитогорск",
+      "street": "бул. Омский",
+      "house": "3",
+      "postal_code": "604955",
+      "coordinates": {
+        "latitude": 45.7538115,
+        "longitude": 57.343765
+      }
+    }
+  },
+  "items": [
+    {
+      "product_id": "prd-1012",
+      "name": "Премьера Висеть",
+      "category": "🥩 Мясо, рыба, яйца и бобовые",
+      "quantity": 5,
+      "unit": "л",
+      "price_per_unit": 193.21,
+      "total_price": 966.05,
+      "kbju": {
+        "calories": 254.5,
+        "protein": 0.8,
+        "fat": 5.6,
+        "carbohydrates": 3.1
+      },
+      "manufacturer": {
+        "name": "АО «Ларионова, Молчанов и Ефремова»",
+        "country": "Россия",
+        "website": "https://ao.edu",
+        "inn": "3317182161"
+      }
+    }
+  ],
+  "total_amount": 966.05,
+  "payment_method": "cash",
+  "is_delivery": false,
+  "delivery_address": {
+    "country": "Россия",
+    "city": "ст. Тосно",
+    "street": "ул. Маяковского",
+    "house": "515",
+    "apartment": "67",
+    "postal_code": "862981"
+  },
+  "purchase_datetime": "2025-07-03T19:57:10.956521"
+}

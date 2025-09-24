@@ -1,0 +1,36 @@
+{
+  "customer_id": "cus-1036",
+  "first_name": "Ия",
+  "last_name": "Князев",
+  "email": "fadeevaaleksandra@example.org",
+  "phone": "+71282879102",
+  "birth_date": "2000-03-14",
+  "gender": "male",
+  "registration_date": "2025-09-23T19:57:10.946175",
+  "is_loyalty_member": true,
+  "loyalty_card_number": "LOYAL-EBB77AE969",
+  "purchase_location": {
+    "store_id": "store-037",
+    "store_name": "Маленькая Пикча — Магазин на пер. Новоселов",
+    "store_network": "Маленькая Пикча",
+    "store_type_description": "Магазин у дома менее 100 кв.м. Входит в сеть из 15 магазинов.",
+    "country": "Россия",
+    "city": "клх Нягань",
+    "street": "бул. Покровский",
+    "house": "3/6",
+    "postal_code": "915377"
+  },
+  "delivery_address": {
+    "country": "Россия",
+    "city": "клх Нягань",
+    "street": "алл. Папанина",
+    "house": "334",
+    "apartment": "32",
+    "postal_code": "506664"
+  },
+  "preferences": {
+    "preferred_language": "ru",
+    "preferred_payment_method": "card",
+    "receive_promotions": false
+  }
+}

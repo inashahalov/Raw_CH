@@ -1,0 +1,84 @@
+{
+  "purchase_id": "ord-00024",
+  "customer": {
+    "customer_id": "cus-1026",
+    "first_name": "Флорентин",
+    "last_name": "Большакова",
+    "email": "veselovnazar@example.net",
+    "phone": "8 (205) 889-0655",
+    "is_loyalty_member": true,
+    "loyalty_card_number": "LOYAL-9486E017A9"
+  },
+  "store": {
+    "store_id": "store-038",
+    "store_name": "Маленькая Пикча — Магазин на бул. Папанина",
+    "store_network": "Маленькая Пикча",
+    "location": {
+      "country": "Россия",
+      "city": "д. Терней",
+      "street": "наб. Флотская",
+      "house": "634",
+      "postal_code": "144849",
+      "coordinates": {
+        "latitude": -24.7418805,
+        "longitude": -175.888895
+      }
+    }
+  },
+  "items": [
+    {
+      "product_id": "prd-1018",
+      "name": "Низкий Присесть",
+      "category": "🥩 Мясо, рыба, яйца и бобовые",
+      "quantity": 4,
+      "unit": "кг",
+      "price_per_unit": 240.2,
+      "total_price": 960.8,
+      "kbju": {
+        "calories": 272.9,
+        "protein": 7.8,
+        "fat": 2.3,
+        "carbohydrates": 5.3
+      },
+      "manufacturer": {
+        "name": "Ланит",
+        "country": "Россия",
+        "website": "https://rao.info",
+        "inn": "3763771194"
+      }
+    },
+    {
+      "product_id": "prd-1017",
+      "name": "Неожиданный Эпоха",
+      "category": "🥦 Овощи и зелень",
+      "quantity": 2,
+      "unit": "упаковка",
+      "price_per_unit": 187.0,
+      "total_price": 374.0,
+      "kbju": {
+        "calories": 291.5,
+        "protein": 6.8,
+        "fat": 3.0,
+        "carbohydrates": 7.4
+      },
+      "manufacturer": {
+        "name": "ЗАО «Сафонова Ларионова»",
+        "country": "Россия",
+        "website": "https://ao.org",
+        "inn": "0841571264"
+      }
+    }
+  ],
+  "total_amount": 1334.8,
+  "payment_method": "cash",
+  "is_delivery": false,
+  "delivery_address": {
+    "country": "Россия",
+    "city": "г. Енисейск",
+    "street": "бул. Советской Армии",
+    "house": "403",
+    "apartment": "86",
+    "postal_code": "074919"
+  },
+  "purchase_datetime": "2025-07-06T19:57:10.961950"
+}

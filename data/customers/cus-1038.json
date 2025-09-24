@@ -1,0 +1,36 @@
+{
+  "customer_id": "cus-1038",
+  "first_name": "Фотий",
+  "last_name": "Александров",
+  "email": "borisovstanimir@example.net",
+  "phone": "+7 (110) 633-4695",
+  "birth_date": "1998-06-12",
+  "gender": "female",
+  "registration_date": "2025-09-23T19:57:10.947345",
+  "is_loyalty_member": true,
+  "loyalty_card_number": "LOYAL-51CB82EFA1",
+  "purchase_location": {
+    "store_id": "store-039",
+    "store_name": "Маленькая Пикча — Магазин на бул. Путейский",
+    "store_network": "Маленькая Пикча",
+    "store_type_description": "Магазин у дома менее 100 кв.м. Входит в сеть из 15 магазинов.",
+    "country": "Россия",
+    "city": "с. Жиганск",
+    "street": "наб. Советской Армии",
+    "house": "55",
+    "postal_code": "339713"
+  },
+  "delivery_address": {
+    "country": "Россия",
+    "city": "с. Жиганск",
+    "street": "наб. Ермака",
+    "house": "9/6",
+    "apartment": "39",
+    "postal_code": "762206"
+  },
+  "preferences": {
+    "preferred_language": "ru",
+    "preferred_payment_method": "cash",
+    "receive_promotions": true
+  }
+}

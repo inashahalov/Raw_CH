@@ -1,0 +1,36 @@
+{
+  "customer_id": "cus-1015",
+  "first_name": "Фока",
+  "last_name": "Тетерина",
+  "email": "rjabovboleslav@example.com",
+  "phone": "+7 (465) 499-08-07",
+  "birth_date": "1987-11-29",
+  "gender": "male",
+  "registration_date": "2025-09-23T19:57:10.933393",
+  "is_loyalty_member": true,
+  "loyalty_card_number": "LOYAL-0B04F4F2B7",
+  "purchase_location": {
+    "store_id": "store-016",
+    "store_name": "Большая Пикча — Магазин на пр. Сиреневый",
+    "store_network": "Большая Пикча",
+    "store_type_description": "Супермаркет более 200 кв.м. Входит в сеть из 30 магазинов.",
+    "country": "Россия",
+    "city": "д. Оренбург",
+    "street": "ул. Горная",
+    "house": "61",
+    "postal_code": "395799"
+  },
+  "delivery_address": {
+    "country": "Россия",
+    "city": "д. Оренбург",
+    "street": "алл. Портовая",
+    "house": "396",
+    "apartment": "100",
+    "postal_code": "150789"
+  },
+  "preferences": {
+    "preferred_language": "ru",
+    "preferred_payment_method": "card",
+    "receive_promotions": true
+  }
+}

@@ -1,0 +1,84 @@
+{
+  "purchase_id": "ord-00181",
+  "customer": {
+    "customer_id": "cus-1031",
+    "first_name": "Леонид",
+    "last_name": "Назарова",
+    "email": "vorontsovefim@example.org",
+    "phone": "+7 858 879 74 37",
+    "is_loyalty_member": true,
+    "loyalty_card_number": "LOYAL-EF1CA2F6B3"
+  },
+  "store": {
+    "store_id": "store-025",
+    "store_name": "Большая Пикча — Магазин на ул. Максима Горького",
+    "store_network": "Большая Пикча",
+    "location": {
+      "country": "Россия",
+      "city": "п. Вязьма",
+      "street": "пр. Энергетиков",
+      "house": "3/8",
+      "postal_code": "499052",
+      "coordinates": {
+        "latitude": -21.8330225,
+        "longitude": 32.3017
+      }
+    }
+  },
+  "items": [
+    {
+      "product_id": "prd-1018",
+      "name": "Низкий Присесть",
+      "category": "🥩 Мясо, рыба, яйца и бобовые",
+      "quantity": 2,
+      "unit": "кг",
+      "price_per_unit": 240.2,
+      "total_price": 480.4,
+      "kbju": {
+        "calories": 272.9,
+        "protein": 7.8,
+        "fat": 2.3,
+        "carbohydrates": 5.3
+      },
+      "manufacturer": {
+        "name": "Ланит",
+        "country": "Россия",
+        "website": "https://rao.info",
+        "inn": "3763771194"
+      }
+    },
+    {
+      "product_id": "prd-1002",
+      "name": "Разводить Школьный",
+      "category": "🥦 Овощи и зелень",
+      "quantity": 1,
+      "unit": "л",
+      "price_per_unit": 232.4,
+      "total_price": 232.4,
+      "kbju": {
+        "calories": 276.5,
+        "protein": 15.9,
+        "fat": 7.0,
+        "carbohydrates": 4.4
+      },
+      "manufacturer": {
+        "name": "ОАО «Туров, Горбунова и Галкина»",
+        "country": "Россия",
+        "website": "https://oao.com",
+        "inn": "7774237965"
+      }
+    }
+  ],
+  "total_amount": 712.8,
+  "payment_method": "card",
+  "is_delivery": true,
+  "delivery_address": {
+    "country": "Россия",
+    "city": "г. Нефтеюганск",
+    "street": "ул. Кольцова",
+    "house": "58",
+    "apartment": "40",
+    "postal_code": "890025"
+  },
+  "purchase_datetime": "2025-06-25T19:57:11.040273"
+}

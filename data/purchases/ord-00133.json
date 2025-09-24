@@ -1,0 +1,84 @@
+{
+  "purchase_id": "ord-00133",
+  "customer": {
+    "customer_id": "cus-1037",
+    "first_name": "Ювеналий",
+    "last_name": "Хохлов",
+    "email": "djachkovapolina@example.net",
+    "phone": "82971596132",
+    "is_loyalty_member": true,
+    "loyalty_card_number": "LOYAL-733B019E68"
+  },
+  "store": {
+    "store_id": "store-025",
+    "store_name": "Большая Пикча — Магазин на ул. Максима Горького",
+    "store_network": "Большая Пикча",
+    "location": {
+      "country": "Россия",
+      "city": "п. Вязьма",
+      "street": "пр. Энергетиков",
+      "house": "3/8",
+      "postal_code": "499052",
+      "coordinates": {
+        "latitude": -21.8330225,
+        "longitude": 32.3017
+      }
+    }
+  },
+  "items": [
+    {
+      "product_id": "prd-1017",
+      "name": "Неожиданный Эпоха",
+      "category": "🥦 Овощи и зелень",
+      "quantity": 4,
+      "unit": "упаковка",
+      "price_per_unit": 187.0,
+      "total_price": 748.0,
+      "kbju": {
+        "calories": 291.5,
+        "protein": 6.8,
+        "fat": 3.0,
+        "carbohydrates": 7.4
+      },
+      "manufacturer": {
+        "name": "ЗАО «Сафонова Ларионова»",
+        "country": "Россия",
+        "website": "https://ao.org",
+        "inn": "0841571264"
+      }
+    },
+    {
+      "product_id": "prd-1002",
+      "name": "Разводить Школьный",
+      "category": "🥦 Овощи и зелень",
+      "quantity": 4,
+      "unit": "л",
+      "price_per_unit": 232.4,
+      "total_price": 929.6,
+      "kbju": {
+        "calories": 276.5,
+        "protein": 15.9,
+        "fat": 7.0,
+        "carbohydrates": 4.4
+      },
+      "manufacturer": {
+        "name": "ОАО «Туров, Горбунова и Галкина»",
+        "country": "Россия",
+        "website": "https://oao.com",
+        "inn": "7774237965"
+      }
+    }
+  ],
+  "total_amount": 1677.6,
+  "payment_method": "cash",
+  "is_delivery": true,
+  "delivery_address": {
+    "country": "Россия",
+    "city": "д. Терней",
+    "street": "алл. Крупской",
+    "house": "8",
+    "apartment": "97",
+    "postal_code": "943074"
+  },
+  "purchase_datetime": "2025-07-12T19:57:11.016699"
+}

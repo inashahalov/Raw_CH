@@ -1,0 +1,84 @@
+{
+  "purchase_id": "ord-00037",
+  "customer": {
+    "customer_id": "cus-1004",
+    "first_name": "Эрнст",
+    "last_name": "Чернова",
+    "email": "raisa_2008@example.org",
+    "phone": "8 107 081 6420",
+    "is_loyalty_member": true,
+    "loyalty_card_number": "LOYAL-CD5CCA41C2"
+  },
+  "store": {
+    "store_id": "store-011",
+    "store_name": "Большая Пикча — Магазин на ул. Таежная",
+    "store_network": "Большая Пикча",
+    "location": {
+      "country": "Россия",
+      "city": "п. Снежинск",
+      "street": "алл. Клары Цеткин",
+      "house": "8",
+      "postal_code": "728596",
+      "coordinates": {
+        "latitude": 42.23201,
+        "longitude": 92.394681
+      }
+    }
+  },
+  "items": [
+    {
+      "product_id": "prd-1013",
+      "name": "Роса Наткнуться",
+      "category": "🥛 Молочные продукты",
+      "quantity": 5,
+      "unit": "упаковка",
+      "price_per_unit": 39.74,
+      "total_price": 198.7,
+      "kbju": {
+        "calories": 283.8,
+        "protein": 19.2,
+        "fat": 7.6,
+        "carbohydrates": 35.6
+      },
+      "manufacturer": {
+        "name": "АО «Потапова, Смирнова и Сазонова»",
+        "country": "Россия",
+        "website": "https://magnit.info",
+        "inn": "3006321123"
+      }
+    },
+    {
+      "product_id": "prd-1008",
+      "name": "Фонарик Успокоиться",
+      "category": "🥖 Зерновые и хлебобулочные изделия",
+      "quantity": 4,
+      "unit": "упаковка",
+      "price_per_unit": 73.43,
+      "total_price": 293.72,
+      "kbju": {
+        "calories": 92.6,
+        "protein": 18.4,
+        "fat": 11.5,
+        "carbohydrates": 24.8
+      },
+      "manufacturer": {
+        "name": "ООО «Денисов, Щукина и Гришин»",
+        "country": "Россия",
+        "website": "https://kozlova.org",
+        "inn": "3531459365"
+      }
+    }
+  ],
+  "total_amount": 492.42,
+  "payment_method": "card",
+  "is_delivery": false,
+  "delivery_address": {
+    "country": "Россия",
+    "city": "п. Выборг",
+    "street": "наб. Высотная",
+    "house": "7",
+    "apartment": "66",
+    "postal_code": "973893"
+  },
+  "purchase_datetime": "2025-07-24T19:57:10.968217"
+}

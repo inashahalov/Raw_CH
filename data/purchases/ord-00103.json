@@ -1,0 +1,105 @@
+{
+  "purchase_id": "ord-00103",
+  "customer": {
+    "customer_id": "cus-1000",
+    "first_name": "Лора",
+    "last_name": "Тетерин",
+    "email": "eduardpopov@example.net",
+    "phone": "+7 360 725 52 37",
+    "is_loyalty_member": true,
+    "loyalty_card_number": "LOYAL-E7A3E28BE6"
+  },
+  "store": {
+    "store_id": "store-002",
+    "store_name": "Большая Пикча — Магазин на наб. Седова",
+    "store_network": "Большая Пикча",
+    "location": {
+      "country": "Россия",
+      "city": "с. Одинцово",
+      "street": "наб. Пионерская",
+      "house": "619",
+      "postal_code": "379040",
+      "coordinates": {
+        "latitude": -32.252973,
+        "longitude": 15.015005
+      }
+    }
+  },
+  "items": [
+    {
+      "product_id": "prd-1011",
+      "name": "Собеседник Цель",
+      "category": "🍏 Фрукты и ягоды",
+      "quantity": 1,
+      "unit": "шт",
+      "price_per_unit": 109.38,
+      "total_price": 109.38,
+      "kbju": {
+        "calories": 140.7,
+        "protein": 19.6,
+        "fat": 11.8,
+        "carbohydrates": 11.5
+      },
+      "manufacturer": {
+        "name": "Сысоев Лтд",
+        "country": "Россия",
+        "website": "https://ip.org",
+        "inn": "3880754993"
+      }
+    },
+    {
+      "product_id": "prd-1008",
+      "name": "Фонарик Успокоиться",
+      "category": "🥖 Зерновые и хлебобулочные изделия",
+      "quantity": 3,
+      "unit": "упаковка",
+      "price_per_unit": 73.43,
+      "total_price": 220.29,
+      "kbju": {
+        "calories": 92.6,
+        "protein": 18.4,
+        "fat": 11.5,
+        "carbohydrates": 24.8
+      },
+      "manufacturer": {
+        "name": "ООО «Денисов, Щукина и Гришин»",
+        "country": "Россия",
+        "website": "https://kozlova.org",
+        "inn": "3531459365"
+      }
+    },
+    {
+      "product_id": "prd-1001",
+      "name": "Тревога Появление",
+      "category": "🥖 Зерновые и хлебобулочные изделия",
+      "quantity": 1,
+      "unit": "шт",
+      "price_per_unit": 168.16,
+      "total_price": 168.16,
+      "kbju": {
+        "calories": 205.2,
+        "protein": 13.4,
+        "fat": 1.1,
+        "carbohydrates": 43.2
+      },
+      "manufacturer": {
+        "name": "ОАО «Селезнева Турова»",
+        "country": "Россия",
+        "website": "https://panfilov.net",
+        "inn": "5790638925"
+      }
+    }
+  ],
+  "total_amount": 497.83,
+  "payment_method": "cash",
+  "is_delivery": false,
+  "delivery_address": {
+    "country": "Россия",
+    "city": "п. Качканар",
+    "street": "пер. Абрикосовый",
+    "house": "41",
+    "apartment": "62",
+    "postal_code": "030086"
+  },
+  "purchase_datetime": "2025-06-26T19:57:10.999911"
+}

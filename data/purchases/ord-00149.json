@@ -1,0 +1,105 @@
+{
+  "purchase_id": "ord-00149",
+  "customer": {
+    "customer_id": "cus-1028",
+    "first_name": "Наталья",
+    "last_name": "Гришина",
+    "email": "nikolabeljaev@example.com",
+    "phone": "85864483021",
+    "is_loyalty_member": true,
+    "loyalty_card_number": "LOYAL-EF32AE8CAA"
+  },
+  "store": {
+    "store_id": "store-017",
+    "store_name": "Большая Пикча — Магазин на наб. Терешковой",
+    "store_network": "Большая Пикча",
+    "location": {
+      "country": "Россия",
+      "city": "ст. Любань",
+      "street": "пер. Есенина",
+      "house": "255",
+      "postal_code": "515675",
+      "coordinates": {
+        "latitude": -40.8579335,
+        "longitude": 15.399726
+      }
+    }
+  },
+  "items": [
+    {
+      "product_id": "prd-1014",
+      "name": "Сустав Совещание",
+      "category": "🥦 Овощи и зелень",
+      "quantity": 5,
+      "unit": "л",
+      "price_per_unit": 148.14,
+      "total_price": 740.7,
+      "kbju": {
+        "calories": 294.0,
+        "protein": 10.9,
+        "fat": 5.7,
+        "carbohydrates": 7.8
+      },
+      "manufacturer": {
+        "name": "ИП «Нестерова»",
+        "country": "Россия",
+        "website": "https://novikov.info",
+        "inn": "8559866409"
+      }
+    },
+    {
+      "product_id": "prd-1015",
+      "name": "Войти Приходить",
+      "category": "🥛 Молочные продукты",
+      "quantity": 3,
+      "unit": "шт",
+      "price_per_unit": 92.89,
+      "total_price": 278.67,
+      "kbju": {
+        "calories": 297.1,
+        "protein": 17.3,
+        "fat": 7.9,
+        "carbohydrates": 24.3
+      },
+      "manufacturer": {
+        "name": "Гришина Лтд",
+        "country": "Россия",
+        "website": "https://ooo.net",
+        "inn": "5499321537"
+      }
+    },
+    {
+      "product_id": "prd-1011",
+      "name": "Собеседник Цель",
+      "category": "🍏 Фрукты и ягоды",
+      "quantity": 2,
+      "unit": "шт",
+      "price_per_unit": 109.38,
+      "total_price": 218.76,
+      "kbju": {
+        "calories": 140.7,
+        "protein": 19.6,
+        "fat": 11.8,
+        "carbohydrates": 11.5
+      },
+      "manufacturer": {
+        "name": "Сысоев Лтд",
+        "country": "Россия",
+        "website": "https://ip.org",
+        "inn": "3880754993"
+      }
+    }
+  ],
+  "total_amount": 1238.13,
+  "payment_method": "cash",
+  "is_delivery": true,
+  "delivery_address": {
+    "country": "Россия",
+    "city": "клх Галич",
+    "street": "алл. Логовая",
+    "house": "95",
+    "apartment": "14",
+    "postal_code": "862953"
+  },
+  "purchase_datetime": "2025-09-18T19:57:11.024016"
+}

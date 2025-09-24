@@ -1,0 +1,105 @@
+{
+  "purchase_id": "ord-00050",
+  "customer": {
+    "customer_id": "cus-1044",
+    "first_name": "Ирина",
+    "last_name": "Горбунов",
+    "email": "bikovavde@example.org",
+    "phone": "+7 (467) 240-7744",
+    "is_loyalty_member": true,
+    "loyalty_card_number": "LOYAL-543187F95B"
+  },
+  "store": {
+    "store_id": "store-040",
+    "store_name": "Маленькая Пикча — Магазин на бул. Буденного",
+    "store_network": "Маленькая Пикча",
+    "location": {
+      "country": "Россия",
+      "city": "г. Курумкан",
+      "street": "алл. Чапаева",
+      "house": "8",
+      "postal_code": "242329",
+      "coordinates": {
+        "latitude": -50.914079,
+        "longitude": -2.513515
+      }
+    }
+  },
+  "items": [
+    {
+      "product_id": "prd-1006",
+      "name": "Мелькнуть Сбросить",
+      "category": "🍏 Фрукты и ягоды",
+      "quantity": 5,
+      "unit": "кг",
+      "price_per_unit": 251.59,
+      "total_price": 1257.95,
+      "kbju": {
+        "calories": 208.0,
+        "protein": 7.1,
+        "fat": 7.6,
+        "carbohydrates": 15.3
+      },
+      "manufacturer": {
+        "name": "ИП «Киселев Комарова»",
+        "country": "Россия",
+        "website": "https://turova.info",
+        "inn": "8487805184"
+      }
+    },
+    {
+      "product_id": "prd-1011",
+      "name": "Собеседник Цель",
+      "category": "🍏 Фрукты и ягоды",
+      "quantity": 5,
+      "unit": "шт",
+      "price_per_unit": 109.38,
+      "total_price": 546.9,
+      "kbju": {
+        "calories": 140.7,
+        "protein": 19.6,
+        "fat": 11.8,
+        "carbohydrates": 11.5
+      },
+      "manufacturer": {
+        "name": "Сысоев Лтд",
+        "country": "Россия",
+        "website": "https://ip.org",
+        "inn": "3880754993"
+      }
+    },
+    {
+      "product_id": "prd-1004",
+      "name": "Рассуждение Боец",
+      "category": "🥩 Мясо, рыба, яйца и бобовые",
+      "quantity": 1,
+      "unit": "кг",
+      "price_per_unit": 167.58,
+      "total_price": 167.58,
+      "kbju": {
+        "calories": 270.7,
+        "protein": 8.7,
+        "fat": 11.5,
+        "carbohydrates": 1.5
+      },
+      "manufacturer": {
+        "name": "РАО «Мухина Миронов»",
+        "country": "Россия",
+        "website": "https://rao.org",
+        "inn": "9262920859"
+      }
+    }
+  ],
+  "total_amount": 1972.43,
+  "payment_method": "card",
+  "is_delivery": true,
+  "delivery_address": {
+    "country": "Россия",
+    "city": "д. Нягань",
+    "street": "бул. Подгорный",
+    "house": "68",
+    "apartment": "62",
+    "postal_code": "634627"
+  },
+  "purchase_datetime": "2025-08-31T19:57:10.973689"
+}

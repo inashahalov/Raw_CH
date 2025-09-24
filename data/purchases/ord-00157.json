@@ -1,0 +1,105 @@
+{
+  "purchase_id": "ord-00157",
+  "customer": {
+    "customer_id": "cus-1000",
+    "first_name": "Лора",
+    "last_name": "Тетерин",
+    "email": "eduardpopov@example.net",
+    "phone": "+7 360 725 52 37",
+    "is_loyalty_member": true,
+    "loyalty_card_number": "LOYAL-E7A3E28BE6"
+  },
+  "store": {
+    "store_id": "store-034",
+    "store_name": "Маленькая Пикча — Магазин на наб. Уральская",
+    "store_network": "Маленькая Пикча",
+    "location": {
+      "country": "Россия",
+      "city": "с. Чусовой",
+      "street": "наб. Сплавная",
+      "house": "4/7",
+      "postal_code": "817955",
+      "coordinates": {
+        "latitude": -48.6863215,
+        "longitude": -176.05311
+      }
+    }
+  },
+  "items": [
+    {
+      "product_id": "prd-1019",
+      "name": "Адвокат Другой",
+      "category": "🥦 Овощи и зелень",
+      "quantity": 4,
+      "unit": "шт",
+      "price_per_unit": 43.3,
+      "total_price": 173.2,
+      "kbju": {
+        "calories": 77.7,
+        "protein": 13.9,
+        "fat": 10.1,
+        "carbohydrates": 22.7
+      },
+      "manufacturer": {
+        "name": "Чернова Групп",
+        "country": "Россия",
+        "website": "https://belozerova.com",
+        "inn": "4723890506"
+      }
+    },
+    {
+      "product_id": "prd-1004",
+      "name": "Рассуждение Боец",
+      "category": "🥩 Мясо, рыба, яйца и бобовые",
+      "quantity": 4,
+      "unit": "кг",
+      "price_per_unit": 167.58,
+      "total_price": 670.32,
+      "kbju": {
+        "calories": 270.7,
+        "protein": 8.7,
+        "fat": 11.5,
+        "carbohydrates": 1.5
+      },
+      "manufacturer": {
+        "name": "РАО «Мухина Миронов»",
+        "country": "Россия",
+        "website": "https://rao.org",
+        "inn": "9262920859"
+      }
+    },
+    {
+      "product_id": "prd-1010",
+      "name": "Вытаскивать Правый",
+      "category": "🥦 Овощи и зелень",
+      "quantity": 4,
+      "unit": "л",
+      "price_per_unit": 181.57,
+      "total_price": 726.28,
+      "kbju": {
+        "calories": 113.2,
+        "protein": 7.5,
+        "fat": 3.6,
+        "carbohydrates": 41.4
+      },
+      "manufacturer": {
+        "name": "Сергеев Инкорпорэйтед",
+        "country": "Россия",
+        "website": "https://zao.biz",
+        "inn": "0493815810"
+      }
+    }
+  ],
+  "total_amount": 1569.8,
+  "payment_method": "card",
+  "is_delivery": false,
+  "delivery_address": {
+    "country": "Россия",
+    "city": "п. Качканар",
+    "street": "пер. Абрикосовый",
+    "house": "41",
+    "apartment": "62",
+    "postal_code": "030086"
+  },
+  "purchase_datetime": "2025-07-11T19:57:11.028297"
+}

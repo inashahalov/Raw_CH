@@ -1,0 +1,24 @@
+{
+  "id": "prd-1019",
+  "name": "Адвокат Другой",
+  "group": "🥦 Овощи и зелень",
+  "description": "Казнь спичка палец медицина.",
+  "kbju": {
+    "calories": 77.7,
+    "protein": 13.9,
+    "fat": 10.1,
+    "carbohydrates": 22.7
+  },
+  "price": 43.3,
+  "unit": "шт",
+  "origin_country": "Россия",
+  "expiry_days": 24,
+  "is_organic": true,
+  "barcode": "0840290430480",
+  "manufacturer": {
+    "name": "Чернова Групп",
+    "country": "Россия",
+    "website": "https://belozerova.com",
+    "inn": "4723890506"
+  }
+}

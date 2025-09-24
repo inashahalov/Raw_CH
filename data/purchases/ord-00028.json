@@ -1,0 +1,63 @@
+{
+  "purchase_id": "ord-00028",
+  "customer": {
+    "customer_id": "cus-1007",
+    "first_name": "Константин",
+    "last_name": "Фадеев",
+    "email": "korolevefim@example.net",
+    "phone": "8 (270) 745-5698",
+    "is_loyalty_member": true,
+    "loyalty_card_number": "LOYAL-2DFE8E6C69"
+  },
+  "store": {
+    "store_id": "store-043",
+    "store_name": "Маленькая Пикча — Магазин на наб. Полярная",
+    "store_network": "Маленькая Пикча",
+    "location": {
+      "country": "Россия",
+      "city": "д. Сусуман",
+      "street": "ул. Клубная",
+      "house": "27",
+      "postal_code": "336566",
+      "coordinates": {
+        "latitude": -54.2720925,
+        "longitude": -115.044775
+      }
+    }
+  },
+  "items": [
+    {
+      "product_id": "prd-1009",
+      "name": "Заложить Спасть",
+      "category": "🥩 Мясо, рыба, яйца и бобовые",
+      "quantity": 5,
+      "unit": "шт",
+      "price_per_unit": 101.66,
+      "total_price": 508.3,
+      "kbju": {
+        "calories": 246.3,
+        "protein": 19.8,
+        "fat": 4.3,
+        "carbohydrates": 48.1
+      },
+      "manufacturer": {
+        "name": "НПО «Наумова»",
+        "country": "Россия",
+        "website": "https://rao.biz",
+        "inn": "4508864986"
+      }
+    }
+  ],
+  "total_amount": 508.3,
+  "payment_method": "cash",
+  "is_delivery": false,
+  "delivery_address": {
+    "country": "Россия",
+    "city": "клх Тихвин",
+    "street": "алл. Водопроводная",
+    "house": "309",
+    "apartment": "57",
+    "postal_code": "983642"
+  },
+  "purchase_datetime": "2025-06-26T19:57:10.963792"
+}

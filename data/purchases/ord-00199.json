@@ -1,0 +1,84 @@
+{
+  "purchase_id": "ord-00199",
+  "customer": {
+    "customer_id": "cus-1037",
+    "first_name": "Ювеналий",
+    "last_name": "Хохлов",
+    "email": "djachkovapolina@example.net",
+    "phone": "82971596132",
+    "is_loyalty_member": true,
+    "loyalty_card_number": "LOYAL-733B019E68"
+  },
+  "store": {
+    "store_id": "store-001",
+    "store_name": "Большая Пикча — Магазин на пер. 60 лет СССР",
+    "store_network": "Большая Пикча",
+    "location": {
+      "country": "Россия",
+      "city": "п. Качканар",
+      "street": "бул. Панфилова",
+      "house": "90",
+      "postal_code": "699299",
+      "coordinates": {
+        "latitude": 23.7573875,
+        "longitude": -54.155635
+      }
+    }
+  },
+  "items": [
+    {
+      "product_id": "prd-1018",
+      "name": "Низкий Присесть",
+      "category": "🥩 Мясо, рыба, яйца и бобовые",
+      "quantity": 2,
+      "unit": "кг",
+      "price_per_unit": 240.2,
+      "total_price": 480.4,
+      "kbju": {
+        "calories": 272.9,
+        "protein": 7.8,
+        "fat": 2.3,
+        "carbohydrates": 5.3
+      },
+      "manufacturer": {
+        "name": "Ланит",
+        "country": "Россия",
+        "website": "https://rao.info",
+        "inn": "3763771194"
+      }
+    },
+    {
+      "product_id": "prd-1000",
+      "name": "Заведение Задержать",
+      "category": "🥛 Молочные продукты",
+      "quantity": 1,
+      "unit": "л",
+      "price_per_unit": 174.16,
+      "total_price": 174.16,
+      "kbju": {
+        "calories": 261.8,
+        "protein": 2.3,
+        "fat": 2.9,
+        "carbohydrates": 19.7
+      },
+      "manufacturer": {
+        "name": "РАО «Бирюков, Лапина и Волков»",
+        "country": "Россия",
+        "website": "https://ao.net",
+        "inn": "0912614956"
+      }
+    }
+  ],
+  "total_amount": 654.56,
+  "payment_method": "card",
+  "is_delivery": false,
+  "delivery_address": {
+    "country": "Россия",
+    "city": "д. Терней",
+    "street": "алл. Крупской",
+    "house": "8",
+    "apartment": "97",
+    "postal_code": "943074"
+  },
+  "purchase_datetime": "2025-08-13T19:57:11.048647"
+}

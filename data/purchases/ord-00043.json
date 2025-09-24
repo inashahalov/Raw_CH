@@ -1,0 +1,105 @@
+{
+  "purchase_id": "ord-00043",
+  "customer": {
+    "customer_id": "cus-1003",
+    "first_name": "Федосий",
+    "last_name": "Кулагин",
+    "email": "efim_1985@example.net",
+    "phone": "+7 (506) 308-6005",
+    "is_loyalty_member": true,
+    "loyalty_card_number": "LOYAL-BABE7C0EB0"
+  },
+  "store": {
+    "store_id": "store-003",
+    "store_name": "Большая Пикча — Магазин на пер. Л.Толстого",
+    "store_network": "Большая Пикча",
+    "location": {
+      "country": "Россия",
+      "city": "г. Вилюйск",
+      "street": "ш. Моховое",
+      "house": "323",
+      "postal_code": "806043",
+      "coordinates": {
+        "latitude": 89.85812,
+        "longitude": -128.13909
+      }
+    }
+  },
+  "items": [
+    {
+      "product_id": "prd-1000",
+      "name": "Заведение Задержать",
+      "category": "🥛 Молочные продукты",
+      "quantity": 5,
+      "unit": "л",
+      "price_per_unit": 174.16,
+      "total_price": 870.8,
+      "kbju": {
+        "calories": 261.8,
+        "protein": 2.3,
+        "fat": 2.9,
+        "carbohydrates": 19.7
+      },
+      "manufacturer": {
+        "name": "РАО «Бирюков, Лапина и Волков»",
+        "country": "Россия",
+        "website": "https://ao.net",
+        "inn": "0912614956"
+      }
+    },
+    {
+      "product_id": "prd-1003",
+      "name": "Идея Вообще",
+      "category": "🍏 Фрукты и ягоды",
+      "quantity": 2,
+      "unit": "упаковка",
+      "price_per_unit": 270.56,
+      "total_price": 541.12,
+      "kbju": {
+        "calories": 53.3,
+        "protein": 13.5,
+        "fat": 3.5,
+        "carbohydrates": 40.5
+      },
+      "manufacturer": {
+        "name": "АО «Назарова»",
+        "country": "Россия",
+        "website": "https://oao.ru",
+        "inn": "9069795571"
+      }
+    },
+    {
+      "product_id": "prd-1013",
+      "name": "Роса Наткнуться",
+      "category": "🥛 Молочные продукты",
+      "quantity": 3,
+      "unit": "упаковка",
+      "price_per_unit": 39.74,
+      "total_price": 119.22,
+      "kbju": {
+        "calories": 283.8,
+        "protein": 19.2,
+        "fat": 7.6,
+        "carbohydrates": 35.6
+      },
+      "manufacturer": {
+        "name": "АО «Потапова, Смирнова и Сазонова»",
+        "country": "Россия",
+        "website": "https://magnit.info",
+        "inn": "3006321123"
+      }
+    }
+  ],
+  "total_amount": 1531.14,
+  "payment_method": "card",
+  "is_delivery": false,
+  "delivery_address": {
+    "country": "Россия",
+    "city": "к. Южноуральск",
+    "street": "пер. Орджоникидзе",
+    "house": "94",
+    "apartment": "3",
+    "postal_code": "037248"
+  },
+  "purchase_datetime": "2025-08-30T19:57:10.970743"
+}

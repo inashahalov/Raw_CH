@@ -1,0 +1,84 @@
+{
+  "purchase_id": "ord-00065",
+  "customer": {
+    "customer_id": "cus-1027",
+    "first_name": "Тамара",
+    "last_name": "Щукин",
+    "email": "ostromirbelov@example.net",
+    "phone": "+7 995 583 6738",
+    "is_loyalty_member": true,
+    "loyalty_card_number": "LOYAL-266038E03B"
+  },
+  "store": {
+    "store_id": "store-005",
+    "store_name": "Большая Пикча — Магазин на алл. Гагарина",
+    "store_network": "Большая Пикча",
+    "location": {
+      "country": "Россия",
+      "city": "п. Выборг",
+      "street": "наб. Виноградная",
+      "house": "5",
+      "postal_code": "649137",
+      "coordinates": {
+        "latitude": -20.3813075,
+        "longitude": 69.885599
+      }
+    }
+  },
+  "items": [
+    {
+      "product_id": "prd-1002",
+      "name": "Разводить Школьный",
+      "category": "🥦 Овощи и зелень",
+      "quantity": 5,
+      "unit": "л",
+      "price_per_unit": 232.4,
+      "total_price": 1162.0,
+      "kbju": {
+        "calories": 276.5,
+        "protein": 15.9,
+        "fat": 7.0,
+        "carbohydrates": 4.4
+      },
+      "manufacturer": {
+        "name": "ОАО «Туров, Горбунова и Галкина»",
+        "country": "Россия",
+        "website": "https://oao.com",
+        "inn": "7774237965"
+      }
+    },
+    {
+      "product_id": "prd-1000",
+      "name": "Заведение Задержать",
+      "category": "🥛 Молочные продукты",
+      "quantity": 4,
+      "unit": "л",
+      "price_per_unit": 174.16,
+      "total_price": 696.64,
+      "kbju": {
+        "calories": 261.8,
+        "protein": 2.3,
+        "fat": 2.9,
+        "carbohydrates": 19.7
+      },
+      "manufacturer": {
+        "name": "РАО «Бирюков, Лапина и Волков»",
+        "country": "Россия",
+        "website": "https://ao.net",
+        "inn": "0912614956"
+      }
+    }
+  ],
+  "total_amount": 1858.64,
+  "payment_method": "card",
+  "is_delivery": false,
+  "delivery_address": {
+    "country": "Россия",
+    "city": "ст. Карталы",
+    "street": "пр. Репина",
+    "house": "83",
+    "apartment": "19",
+    "postal_code": "029613"
+  },
+  "purchase_datetime": "2025-08-10T19:57:10.980431"
+}

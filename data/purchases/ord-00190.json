@@ -1,0 +1,84 @@
+{
+  "purchase_id": "ord-00190",
+  "customer": {
+    "customer_id": "cus-1030",
+    "first_name": "Мефодий",
+    "last_name": "Зимина",
+    "email": "bazhen2013@example.com",
+    "phone": "8 625 494 4334",
+    "is_loyalty_member": true,
+    "loyalty_card_number": "LOYAL-5D0BBBC12C"
+  },
+  "store": {
+    "store_id": "store-019",
+    "store_name": "Большая Пикча — Магазин на ул. Войкова",
+    "store_network": "Большая Пикча",
+    "location": {
+      "country": "Россия",
+      "city": "п. Балашиха",
+      "street": "пер. Тимирязева",
+      "house": "17",
+      "postal_code": "568590",
+      "coordinates": {
+        "latitude": 60.2486205,
+        "longitude": -16.230204
+      }
+    }
+  },
+  "items": [
+    {
+      "product_id": "prd-1018",
+      "name": "Низкий Присесть",
+      "category": "🥩 Мясо, рыба, яйца и бобовые",
+      "quantity": 2,
+      "unit": "кг",
+      "price_per_unit": 240.2,
+      "total_price": 480.4,
+      "kbju": {
+        "calories": 272.9,
+        "protein": 7.8,
+        "fat": 2.3,
+        "carbohydrates": 5.3
+      },
+      "manufacturer": {
+        "name": "Ланит",
+        "country": "Россия",
+        "website": "https://rao.info",
+        "inn": "3763771194"
+      }
+    },
+    {
+      "product_id": "prd-1013",
+      "name": "Роса Наткнуться",
+      "category": "🥛 Молочные продукты",
+      "quantity": 5,
+      "unit": "упаковка",
+      "price_per_unit": 39.74,
+      "total_price": 198.7,
+      "kbju": {
+        "calories": 283.8,
+        "protein": 19.2,
+        "fat": 7.6,
+        "carbohydrates": 35.6
+      },
+      "manufacturer": {
+        "name": "АО «Потапова, Смирнова и Сазонова»",
+        "country": "Россия",
+        "website": "https://magnit.info",
+        "inn": "3006321123"
+      }
+    }
+  ],
+  "total_amount": 679.1,
+  "payment_method": "card",
+  "is_delivery": false,
+  "delivery_address": {
+    "country": "Россия",
+    "city": "к. Шереметьево",
+    "street": "ул. Глинки",
+    "house": "71",
+    "apartment": "82",
+    "postal_code": "129105"
+  },
+  "purchase_datetime": "2025-07-11T19:57:11.044395"
+}

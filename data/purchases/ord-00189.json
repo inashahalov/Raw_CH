@@ -1,0 +1,63 @@
+{
+  "purchase_id": "ord-00189",
+  "customer": {
+    "customer_id": "cus-1038",
+    "first_name": "Фотий",
+    "last_name": "Александров",
+    "email": "borisovstanimir@example.net",
+    "phone": "+7 (110) 633-4695",
+    "is_loyalty_member": true,
+    "loyalty_card_number": "LOYAL-51CB82EFA1"
+  },
+  "store": {
+    "store_id": "store-016",
+    "store_name": "Большая Пикча — Магазин на пр. Сиреневый",
+    "store_network": "Большая Пикча",
+    "location": {
+      "country": "Россия",
+      "city": "д. Оренбург",
+      "street": "ул. Горная",
+      "house": "61",
+      "postal_code": "395799",
+      "coordinates": {
+        "latitude": -45.4646875,
+        "longitude": -11.515672
+      }
+    }
+  },
+  "items": [
+    {
+      "product_id": "prd-1000",
+      "name": "Заведение Задержать",
+      "category": "🥛 Молочные продукты",
+      "quantity": 5,
+      "unit": "л",
+      "price_per_unit": 174.16,
+      "total_price": 870.8,
+      "kbju": {
+        "calories": 261.8,
+        "protein": 2.3,
+        "fat": 2.9,
+        "carbohydrates": 19.7
+      },
+      "manufacturer": {
+        "name": "РАО «Бирюков, Лапина и Волков»",
+        "country": "Россия",
+        "website": "https://ao.net",
+        "inn": "0912614956"
+      }
+    }
+  ],
+  "total_amount": 870.8,
+  "payment_method": "card",
+  "is_delivery": true,
+  "delivery_address": {
+    "country": "Россия",
+    "city": "с. Жиганск",
+    "street": "наб. Ермака",
+    "house": "9/6",
+    "apartment": "39",
+    "postal_code": "762206"
+  },
+  "purchase_datetime": "2025-09-17T19:57:11.043998"
+}

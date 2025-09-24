@@ -1,0 +1,84 @@
+{
+  "purchase_id": "ord-00120",
+  "customer": {
+    "customer_id": "cus-1037",
+    "first_name": "Ювеналий",
+    "last_name": "Хохлов",
+    "email": "djachkovapolina@example.net",
+    "phone": "82971596132",
+    "is_loyalty_member": true,
+    "loyalty_card_number": "LOYAL-733B019E68"
+  },
+  "store": {
+    "store_id": "store-036",
+    "store_name": "Маленькая Пикча — Магазин на бул. Волочаевский",
+    "store_network": "Маленькая Пикча",
+    "location": {
+      "country": "Россия",
+      "city": "с. Катав-Ивановск",
+      "street": "ш. Тукая",
+      "house": "399",
+      "postal_code": "771697",
+      "coordinates": {
+        "latitude": 7.340127,
+        "longitude": 150.66847
+      }
+    }
+  },
+  "items": [
+    {
+      "product_id": "prd-1017",
+      "name": "Неожиданный Эпоха",
+      "category": "🥦 Овощи и зелень",
+      "quantity": 5,
+      "unit": "упаковка",
+      "price_per_unit": 187.0,
+      "total_price": 935.0,
+      "kbju": {
+        "calories": 291.5,
+        "protein": 6.8,
+        "fat": 3.0,
+        "carbohydrates": 7.4
+      },
+      "manufacturer": {
+        "name": "ЗАО «Сафонова Ларионова»",
+        "country": "Россия",
+        "website": "https://ao.org",
+        "inn": "0841571264"
+      }
+    },
+    {
+      "product_id": "prd-1013",
+      "name": "Роса Наткнуться",
+      "category": "🥛 Молочные продукты",
+      "quantity": 4,
+      "unit": "упаковка",
+      "price_per_unit": 39.74,
+      "total_price": 158.96,
+      "kbju": {
+        "calories": 283.8,
+        "protein": 19.2,
+        "fat": 7.6,
+        "carbohydrates": 35.6
+      },
+      "manufacturer": {
+        "name": "АО «Потапова, Смирнова и Сазонова»",
+        "country": "Россия",
+        "website": "https://magnit.info",
+        "inn": "3006321123"
+      }
+    }
+  ],
+  "total_amount": 1093.96,
+  "payment_method": "cash",
+  "is_delivery": true,
+  "delivery_address": {
+    "country": "Россия",
+    "city": "д. Терней",
+    "street": "алл. Крупской",
+    "house": "8",
+    "apartment": "97",
+    "postal_code": "943074"
+  },
+  "purchase_datetime": "2025-07-23T19:57:11.010426"
+}

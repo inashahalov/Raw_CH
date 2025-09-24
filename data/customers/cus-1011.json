@@ -1,0 +1,36 @@
+{
+  "customer_id": "cus-1011",
+  "first_name": "Аркадий",
+  "last_name": "Беляков",
+  "email": "mir_2021@example.net",
+  "phone": "8 (459) 651-56-98",
+  "birth_date": "1979-08-30",
+  "gender": "female",
+  "registration_date": "2025-09-23T19:57:10.931030",
+  "is_loyalty_member": true,
+  "loyalty_card_number": "LOYAL-7E0D508BB5",
+  "purchase_location": {
+    "store_id": "store-012",
+    "store_name": "Большая Пикча — Магазин на наб. Центральная",
+    "store_network": "Большая Пикча",
+    "store_type_description": "Супермаркет более 200 кв.м. Входит в сеть из 30 магазинов.",
+    "country": "Россия",
+    "city": "ст. Валдай",
+    "street": "алл. Станиславского",
+    "house": "8/1",
+    "postal_code": "481389"
+  },
+  "delivery_address": {
+    "country": "Россия",
+    "city": "ст. Валдай",
+    "street": "пер. Луговой",
+    "house": "322",
+    "apartment": "50",
+    "postal_code": "969455"
+  },
+  "preferences": {
+    "preferred_language": "ru",
+    "preferred_payment_method": "cash",
+    "receive_promotions": true
+  }
+}

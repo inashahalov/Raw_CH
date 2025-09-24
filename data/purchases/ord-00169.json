@@ -1,0 +1,84 @@
+{
+  "purchase_id": "ord-00169",
+  "customer": {
+    "customer_id": "cus-1044",
+    "first_name": "Ирина",
+    "last_name": "Горбунов",
+    "email": "bikovavde@example.org",
+    "phone": "+7 (467) 240-7744",
+    "is_loyalty_member": true,
+    "loyalty_card_number": "LOYAL-543187F95B"
+  },
+  "store": {
+    "store_id": "store-008",
+    "store_name": "Большая Пикча — Магазин на бул. Вавилова",
+    "store_network": "Большая Пикча",
+    "location": {
+      "country": "Россия",
+      "city": "клх Тихвин",
+      "street": "пр. Социалистический",
+      "house": "98",
+      "postal_code": "571353",
+      "coordinates": {
+        "latitude": -34.3116645,
+        "longitude": -14.210246
+      }
+    }
+  },
+  "items": [
+    {
+      "product_id": "prd-1007",
+      "name": "Штаб Приличный",
+      "category": "🍏 Фрукты и ягоды",
+      "quantity": 5,
+      "unit": "кг",
+      "price_per_unit": 196.88,
+      "total_price": 984.4,
+      "kbju": {
+        "calories": 164.9,
+        "protein": 16.7,
+        "fat": 3.6,
+        "carbohydrates": 31.4
+      },
+      "manufacturer": {
+        "name": "СДС-Уголь",
+        "country": "Россия",
+        "website": "https://npo.ru",
+        "inn": "9854590544"
+      }
+    },
+    {
+      "product_id": "prd-1008",
+      "name": "Фонарик Успокоиться",
+      "category": "🥖 Зерновые и хлебобулочные изделия",
+      "quantity": 1,
+      "unit": "упаковка",
+      "price_per_unit": 73.43,
+      "total_price": 73.43,
+      "kbju": {
+        "calories": 92.6,
+        "protein": 18.4,
+        "fat": 11.5,
+        "carbohydrates": 24.8
+      },
+      "manufacturer": {
+        "name": "ООО «Денисов, Щукина и Гришин»",
+        "country": "Россия",
+        "website": "https://kozlova.org",
+        "inn": "3531459365"
+      }
+    }
+  ],
+  "total_amount": 1057.83,
+  "payment_method": "cash",
+  "is_delivery": true,
+  "delivery_address": {
+    "country": "Россия",
+    "city": "д. Нягань",
+    "street": "бул. Подгорный",
+    "house": "68",
+    "apartment": "62",
+    "postal_code": "634627"
+  },
+  "purchase_datetime": "2025-07-07T19:57:11.034184"
+}

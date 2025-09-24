@@ -1,0 +1,36 @@
+{
+  "customer_id": "cus-1023",
+  "first_name": "Давыд",
+  "last_name": "Александров",
+  "email": "vissarion_1987@example.com",
+  "phone": "84881392433",
+  "birth_date": "1970-06-23",
+  "gender": "male",
+  "registration_date": "2025-09-23T19:57:10.938259",
+  "is_loyalty_member": true,
+  "loyalty_card_number": "LOYAL-91E5CDC861",
+  "purchase_location": {
+    "store_id": "store-024",
+    "store_name": "Большая Пикча — Магазин на алл. 60 лет СССР",
+    "store_network": "Большая Пикча",
+    "store_type_description": "Супермаркет более 200 кв.м. Входит в сеть из 30 магазинов.",
+    "country": "Россия",
+    "city": "д. Сковородино",
+    "street": "бул. Инженерный",
+    "house": "5/5",
+    "postal_code": "146939"
+  },
+  "delivery_address": {
+    "country": "Россия",
+    "city": "д. Сковородино",
+    "street": "бул. 50 лет ВЛКСМ",
+    "house": "17",
+    "apartment": "37",
+    "postal_code": "072988"
+  },
+  "preferences": {
+    "preferred_language": "ru",
+    "preferred_payment_method": "cash",
+    "receive_promotions": false
+  }
+}

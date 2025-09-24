@@ -1,0 +1,84 @@
+{
+  "purchase_id": "ord-00011",
+  "customer": {
+    "customer_id": "cus-1044",
+    "first_name": "Ирина",
+    "last_name": "Горбунов",
+    "email": "bikovavde@example.org",
+    "phone": "+7 (467) 240-7744",
+    "is_loyalty_member": true,
+    "loyalty_card_number": "LOYAL-543187F95B"
+  },
+  "store": {
+    "store_id": "store-033",
+    "store_name": "Маленькая Пикча — Магазин на бул. Высоцкого",
+    "store_network": "Маленькая Пикча",
+    "location": {
+      "country": "Россия",
+      "city": "к. Комсомольск-на-Амуре",
+      "street": "ш. Ленина",
+      "house": "5",
+      "postal_code": "979044",
+      "coordinates": {
+        "latitude": -82.2107835,
+        "longitude": 170.986594
+      }
+    }
+  },
+  "items": [
+    {
+      "product_id": "prd-1007",
+      "name": "Штаб Приличный",
+      "category": "🍏 Фрукты и ягоды",
+      "quantity": 4,
+      "unit": "кг",
+      "price_per_unit": 196.88,
+      "total_price": 787.52,
+      "kbju": {
+        "calories": 164.9,
+        "protein": 16.7,
+        "fat": 3.6,
+        "carbohydrates": 31.4
+      },
+      "manufacturer": {
+        "name": "СДС-Уголь",
+        "country": "Россия",
+        "website": "https://npo.ru",
+        "inn": "9854590544"
+      }
+    },
+    {
+      "product_id": "prd-1002",
+      "name": "Разводить Школьный",
+      "category": "🥦 Овощи и зелень",
+      "quantity": 1,
+      "unit": "л",
+      "price_per_unit": 232.4,
+      "total_price": 232.4,
+      "kbju": {
+        "calories": 276.5,
+        "protein": 15.9,
+        "fat": 7.0,
+        "carbohydrates": 4.4
+      },
+      "manufacturer": {
+        "name": "ОАО «Туров, Горбунова и Галкина»",
+        "country": "Россия",
+        "website": "https://oao.com",
+        "inn": "7774237965"
+      }
+    }
+  ],
+  "total_amount": 1019.92,
+  "payment_method": "cash",
+  "is_delivery": false,
+  "delivery_address": {
+    "country": "Россия",
+    "city": "д. Нягань",
+    "street": "бул. Подгорный",
+    "house": "68",
+    "apartment": "62",
+    "postal_code": "634627"
+  },
+  "purchase_datetime": "2025-07-29T19:57:10.956079"
+}

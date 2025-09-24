@@ -1,0 +1,84 @@
+{
+  "purchase_id": "ord-00076",
+  "customer": {
+    "customer_id": "cus-1038",
+    "first_name": "Фотий",
+    "last_name": "Александров",
+    "email": "borisovstanimir@example.net",
+    "phone": "+7 (110) 633-4695",
+    "is_loyalty_member": true,
+    "loyalty_card_number": "LOYAL-51CB82EFA1"
+  },
+  "store": {
+    "store_id": "store-038",
+    "store_name": "Маленькая Пикча — Магазин на бул. Папанина",
+    "store_network": "Маленькая Пикча",
+    "location": {
+      "country": "Россия",
+      "city": "д. Терней",
+      "street": "наб. Флотская",
+      "house": "634",
+      "postal_code": "144849",
+      "coordinates": {
+        "latitude": -24.7418805,
+        "longitude": -175.888895
+      }
+    }
+  },
+  "items": [
+    {
+      "product_id": "prd-1006",
+      "name": "Мелькнуть Сбросить",
+      "category": "🍏 Фрукты и ягоды",
+      "quantity": 2,
+      "unit": "кг",
+      "price_per_unit": 251.59,
+      "total_price": 503.18,
+      "kbju": {
+        "calories": 208.0,
+        "protein": 7.1,
+        "fat": 7.6,
+        "carbohydrates": 15.3
+      },
+      "manufacturer": {
+        "name": "ИП «Киселев Комарова»",
+        "country": "Россия",
+        "website": "https://turova.info",
+        "inn": "8487805184"
+      }
+    },
+    {
+      "product_id": "prd-1001",
+      "name": "Тревога Появление",
+      "category": "🥖 Зерновые и хлебобулочные изделия",
+      "quantity": 2,
+      "unit": "шт",
+      "price_per_unit": 168.16,
+      "total_price": 336.32,
+      "kbju": {
+        "calories": 205.2,
+        "protein": 13.4,
+        "fat": 1.1,
+        "carbohydrates": 43.2
+      },
+      "manufacturer": {
+        "name": "ОАО «Селезнева Турова»",
+        "country": "Россия",
+        "website": "https://panfilov.net",
+        "inn": "5790638925"
+      }
+    }
+  ],
+  "total_amount": 839.5,
+  "payment_method": "card",
+  "is_delivery": false,
+  "delivery_address": {
+    "country": "Россия",
+    "city": "с. Жиганск",
+    "street": "наб. Ермака",
+    "house": "9/6",
+    "apartment": "39",
+    "postal_code": "762206"
+  },
+  "purchase_datetime": "2025-08-24T19:57:10.985318"
+}

@@ -1,0 +1,84 @@
+{
+  "purchase_id": "ord-00073",
+  "customer": {
+    "customer_id": "cus-1008",
+    "first_name": "Корнил",
+    "last_name": "Данилова",
+    "email": "ljubim28@example.net",
+    "phone": "84143737040",
+    "is_loyalty_member": true,
+    "loyalty_card_number": "LOYAL-0E9C233BA4"
+  },
+  "store": {
+    "store_id": "store-038",
+    "store_name": "Маленькая Пикча — Магазин на бул. Папанина",
+    "store_network": "Маленькая Пикча",
+    "location": {
+      "country": "Россия",
+      "city": "д. Терней",
+      "street": "наб. Флотская",
+      "house": "634",
+      "postal_code": "144849",
+      "coordinates": {
+        "latitude": -24.7418805,
+        "longitude": -175.888895
+      }
+    }
+  },
+  "items": [
+    {
+      "product_id": "prd-1016",
+      "name": "Цвет Трубка",
+      "category": "🥖 Зерновые и хлебобулочные изделия",
+      "quantity": 2,
+      "unit": "упаковка",
+      "price_per_unit": 59.3,
+      "total_price": 118.6,
+      "kbju": {
+        "calories": 239.4,
+        "protein": 10.5,
+        "fat": 4.0,
+        "carbohydrates": 33.8
+      },
+      "manufacturer": {
+        "name": "ОАО «Давыдова-Калинин»",
+        "country": "Россия",
+        "website": "https://zao.org",
+        "inn": "7235646922"
+      }
+    },
+    {
+      "product_id": "prd-1007",
+      "name": "Штаб Приличный",
+      "category": "🍏 Фрукты и ягоды",
+      "quantity": 5,
+      "unit": "кг",
+      "price_per_unit": 196.88,
+      "total_price": 984.4,
+      "kbju": {
+        "calories": 164.9,
+        "protein": 16.7,
+        "fat": 3.6,
+        "carbohydrates": 31.4
+      },
+      "manufacturer": {
+        "name": "СДС-Уголь",
+        "country": "Россия",
+        "website": "https://npo.ru",
+        "inn": "9854590544"
+      }
+    }
+  ],
+  "total_amount": 1103.0,
+  "payment_method": "cash",
+  "is_delivery": true,
+  "delivery_address": {
+    "country": "Россия",
+    "city": "ст. Тосно",
+    "street": "ул. Маяковского",
+    "house": "515",
+    "apartment": "67",
+    "postal_code": "862981"
+  },
+  "purchase_datetime": "2025-08-12T19:57:10.984049"
+}

@@ -1,0 +1,63 @@
+{
+  "purchase_id": "ord-00080",
+  "customer": {
+    "customer_id": "cus-1012",
+    "first_name": "Тит",
+    "last_name": "Максимов",
+    "email": "tsvetkovkim@example.com",
+    "phone": "+7 307 933 6870",
+    "is_loyalty_member": true,
+    "loyalty_card_number": "LOYAL-F303593AAF"
+  },
+  "store": {
+    "store_id": "store-021",
+    "store_name": "Большая Пикча — Магазин на ш. Мусы Джалиля",
+    "store_network": "Большая Пикча",
+    "location": {
+      "country": "Россия",
+      "city": "п. Ноглики",
+      "street": "пер. Просвещения",
+      "house": "846",
+      "postal_code": "673348",
+      "coordinates": {
+        "latitude": 68.9485715,
+        "longitude": -158.508773
+      }
+    }
+  },
+  "items": [
+    {
+      "product_id": "prd-1015",
+      "name": "Войти Приходить",
+      "category": "🥛 Молочные продукты",
+      "quantity": 5,
+      "unit": "шт",
+      "price_per_unit": 92.89,
+      "total_price": 464.45,
+      "kbju": {
+        "calories": 297.1,
+        "protein": 17.3,
+        "fat": 7.9,
+        "carbohydrates": 24.3
+      },
+      "manufacturer": {
+        "name": "Гришина Лтд",
+        "country": "Россия",
+        "website": "https://ooo.net",
+        "inn": "5499321537"
+      }
+    }
+  ],
+  "total_amount": 464.45,
+  "payment_method": "card",
+  "is_delivery": false,
+  "delivery_address": {
+    "country": "Россия",
+    "city": "д. Махачкала",
+    "street": "ул. Ручейная",
+    "house": "65",
+    "apartment": "79",
+    "postal_code": "436303"
+  },
+  "purchase_datetime": "2025-08-23T19:57:10.988007"
+}

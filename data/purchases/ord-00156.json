@@ -1,0 +1,105 @@
+{
+  "purchase_id": "ord-00156",
+  "customer": {
+    "customer_id": "cus-1035",
+    "first_name": "Кузьма",
+    "last_name": "Лыткин",
+    "email": "maksimtitov@example.com",
+    "phone": "+7 435 823 28 86",
+    "is_loyalty_member": true,
+    "loyalty_card_number": "LOYAL-54F52DC4FC"
+  },
+  "store": {
+    "store_id": "store-022",
+    "store_name": "Большая Пикча — Магазин на пер. Дальневосточный",
+    "store_network": "Большая Пикча",
+    "location": {
+      "country": "Россия",
+      "city": "с. Сковородино",
+      "street": "пер. Лесозаводский",
+      "house": "4",
+      "postal_code": "799838",
+      "coordinates": {
+        "latitude": -32.786023,
+        "longitude": -128.704452
+      }
+    }
+  },
+  "items": [
+    {
+      "product_id": "prd-1017",
+      "name": "Неожиданный Эпоха",
+      "category": "🥦 Овощи и зелень",
+      "quantity": 2,
+      "unit": "упаковка",
+      "price_per_unit": 187.0,
+      "total_price": 374.0,
+      "kbju": {
+        "calories": 291.5,
+        "protein": 6.8,
+        "fat": 3.0,
+        "carbohydrates": 7.4
+      },
+      "manufacturer": {
+        "name": "ЗАО «Сафонова Ларионова»",
+        "country": "Россия",
+        "website": "https://ao.org",
+        "inn": "0841571264"
+      }
+    },
+    {
+      "product_id": "prd-1001",
+      "name": "Тревога Появление",
+      "category": "🥖 Зерновые и хлебобулочные изделия",
+      "quantity": 2,
+      "unit": "шт",
+      "price_per_unit": 168.16,
+      "total_price": 336.32,
+      "kbju": {
+        "calories": 205.2,
+        "protein": 13.4,
+        "fat": 1.1,
+        "carbohydrates": 43.2
+      },
+      "manufacturer": {
+        "name": "ОАО «Селезнева Турова»",
+        "country": "Россия",
+        "website": "https://panfilov.net",
+        "inn": "5790638925"
+      }
+    },
+    {
+      "product_id": "prd-1005",
+      "name": "Уничтожение Вздрагивать",
+      "category": "🍏 Фрукты и ягоды",
+      "quantity": 4,
+      "unit": "л",
+      "price_per_unit": 207.53,
+      "total_price": 830.12,
+      "kbju": {
+        "calories": 191.8,
+        "protein": 11.1,
+        "fat": 7.9,
+        "carbohydrates": 5.4
+      },
+      "manufacturer": {
+        "name": "ООО «Авдеев-Медведева»",
+        "country": "Россия",
+        "website": "https://zao.com",
+        "inn": "9782693224"
+      }
+    }
+  ],
+  "total_amount": 1540.44,
+  "payment_method": "cash",
+  "is_delivery": true,
+  "delivery_address": {
+    "country": "Россия",
+    "city": "с. Катав-Ивановск",
+    "street": "бул. Молодежный",
+    "house": "7",
+    "apartment": "82",
+    "postal_code": "657961"
+  },
+  "purchase_datetime": "2025-07-22T19:57:11.027753"
+}

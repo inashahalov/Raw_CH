@@ -1,0 +1,63 @@
+{
+  "purchase_id": "ord-00115",
+  "customer": {
+    "customer_id": "cus-1008",
+    "first_name": "Корнил",
+    "last_name": "Данилова",
+    "email": "ljubim28@example.net",
+    "phone": "84143737040",
+    "is_loyalty_member": true,
+    "loyalty_card_number": "LOYAL-0E9C233BA4"
+  },
+  "store": {
+    "store_id": "store-031",
+    "store_name": "Маленькая Пикча — Магазин на наб. Максима Горького",
+    "store_network": "Маленькая Пикча",
+    "location": {
+      "country": "Россия",
+      "city": "к. Шереметьево",
+      "street": "бул. 70 лет Октября",
+      "house": "974",
+      "postal_code": "658842",
+      "coordinates": {
+        "latitude": -54.276802,
+        "longitude": -95.137118
+      }
+    }
+  },
+  "items": [
+    {
+      "product_id": "prd-1005",
+      "name": "Уничтожение Вздрагивать",
+      "category": "🍏 Фрукты и ягоды",
+      "quantity": 1,
+      "unit": "л",
+      "price_per_unit": 207.53,
+      "total_price": 207.53,
+      "kbju": {
+        "calories": 191.8,
+        "protein": 11.1,
+        "fat": 7.9,
+        "carbohydrates": 5.4
+      },
+      "manufacturer": {
+        "name": "ООО «Авдеев-Медведева»",
+        "country": "Россия",
+        "website": "https://zao.com",
+        "inn": "9782693224"
+      }
+    }
+  ],
+  "total_amount": 207.53,
+  "payment_method": "card",
+  "is_delivery": false,
+  "delivery_address": {
+    "country": "Россия",
+    "city": "ст. Тосно",
+    "street": "ул. Маяковского",
+    "house": "515",
+    "apartment": "67",
+    "postal_code": "862981"
+  },
+  "purchase_datetime": "2025-06-27T19:57:11.008111"
+}

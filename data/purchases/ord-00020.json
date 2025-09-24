@@ -1,0 +1,105 @@
+{
+  "purchase_id": "ord-00020",
+  "customer": {
+    "customer_id": "cus-1039",
+    "first_name": "Никодим",
+    "last_name": "Белоусова",
+    "email": "varlaam1991@example.com",
+    "phone": "+7 148 865 5194",
+    "is_loyalty_member": true,
+    "loyalty_card_number": "LOYAL-345785EB3A"
+  },
+  "store": {
+    "store_id": "store-012",
+    "store_name": "Большая Пикча — Магазин на наб. Центральная",
+    "store_network": "Большая Пикча",
+    "location": {
+      "country": "Россия",
+      "city": "ст. Валдай",
+      "street": "алл. Станиславского",
+      "house": "8/1",
+      "postal_code": "481389",
+      "coordinates": {
+        "latitude": 33.4852585,
+        "longitude": 19.302012
+      }
+    }
+  },
+  "items": [
+    {
+      "product_id": "prd-1003",
+      "name": "Идея Вообще",
+      "category": "🍏 Фрукты и ягоды",
+      "quantity": 2,
+      "unit": "упаковка",
+      "price_per_unit": 270.56,
+      "total_price": 541.12,
+      "kbju": {
+        "calories": 53.3,
+        "protein": 13.5,
+        "fat": 3.5,
+        "carbohydrates": 40.5
+      },
+      "manufacturer": {
+        "name": "АО «Назарова»",
+        "country": "Россия",
+        "website": "https://oao.ru",
+        "inn": "9069795571"
+      }
+    },
+    {
+      "product_id": "prd-1018",
+      "name": "Низкий Присесть",
+      "category": "🥩 Мясо, рыба, яйца и бобовые",
+      "quantity": 1,
+      "unit": "кг",
+      "price_per_unit": 240.2,
+      "total_price": 240.2,
+      "kbju": {
+        "calories": 272.9,
+        "protein": 7.8,
+        "fat": 2.3,
+        "carbohydrates": 5.3
+      },
+      "manufacturer": {
+        "name": "Ланит",
+        "country": "Россия",
+        "website": "https://rao.info",
+        "inn": "3763771194"
+      }
+    },
+    {
+      "product_id": "prd-1019",
+      "name": "Адвокат Другой",
+      "category": "🥦 Овощи и зелень",
+      "quantity": 5,
+      "unit": "шт",
+      "price_per_unit": 43.3,
+      "total_price": 216.5,
+      "kbju": {
+        "calories": 77.7,
+        "protein": 13.9,
+        "fat": 10.1,
+        "carbohydrates": 22.7
+      },
+      "manufacturer": {
+        "name": "Чернова Групп",
+        "country": "Россия",
+        "website": "https://belozerova.com",
+        "inn": "4723890506"
+      }
+    }
+  ],
+  "total_amount": 997.82,
+  "payment_method": "cash",
+  "is_delivery": false,
+  "delivery_address": {
+    "country": "Россия",
+    "city": "г. Курумкан",
+    "street": "алл. Гаражная",
+    "house": "494",
+    "apartment": "64",
+    "postal_code": "544699"
+  },
+  "purchase_datetime": "2025-09-02T19:57:10.959943"
+}

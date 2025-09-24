@@ -1,0 +1,105 @@
+{
+  "purchase_id": "ord-00113",
+  "customer": {
+    "customer_id": "cus-1037",
+    "first_name": "Ювеналий",
+    "last_name": "Хохлов",
+    "email": "djachkovapolina@example.net",
+    "phone": "82971596132",
+    "is_loyalty_member": true,
+    "loyalty_card_number": "LOYAL-733B019E68"
+  },
+  "store": {
+    "store_id": "store-028",
+    "store_name": "Большая Пикча — Магазин на пр. Крупской",
+    "store_network": "Большая Пикча",
+    "location": {
+      "country": "Россия",
+      "city": "ст. Карталы",
+      "street": "ул. Королева",
+      "house": "5",
+      "postal_code": "762232",
+      "coordinates": {
+        "latitude": -62.0370365,
+        "longitude": 85.309577
+      }
+    }
+  },
+  "items": [
+    {
+      "product_id": "prd-1003",
+      "name": "Идея Вообще",
+      "category": "🍏 Фрукты и ягоды",
+      "quantity": 3,
+      "unit": "упаковка",
+      "price_per_unit": 270.56,
+      "total_price": 811.68,
+      "kbju": {
+        "calories": 53.3,
+        "protein": 13.5,
+        "fat": 3.5,
+        "carbohydrates": 40.5
+      },
+      "manufacturer": {
+        "name": "АО «Назарова»",
+        "country": "Россия",
+        "website": "https://oao.ru",
+        "inn": "9069795571"
+      }
+    },
+    {
+      "product_id": "prd-1010",
+      "name": "Вытаскивать Правый",
+      "category": "🥦 Овощи и зелень",
+      "quantity": 4,
+      "unit": "л",
+      "price_per_unit": 181.57,
+      "total_price": 726.28,
+      "kbju": {
+        "calories": 113.2,
+        "protein": 7.5,
+        "fat": 3.6,
+        "carbohydrates": 41.4
+      },
+      "manufacturer": {
+        "name": "Сергеев Инкорпорэйтед",
+        "country": "Россия",
+        "website": "https://zao.biz",
+        "inn": "0493815810"
+      }
+    },
+    {
+      "product_id": "prd-1013",
+      "name": "Роса Наткнуться",
+      "category": "🥛 Молочные продукты",
+      "quantity": 2,
+      "unit": "упаковка",
+      "price_per_unit": 39.74,
+      "total_price": 79.48,
+      "kbju": {
+        "calories": 283.8,
+        "protein": 19.2,
+        "fat": 7.6,
+        "carbohydrates": 35.6
+      },
+      "manufacturer": {
+        "name": "АО «Потапова, Смирнова и Сазонова»",
+        "country": "Россия",
+        "website": "https://magnit.info",
+        "inn": "3006321123"
+      }
+    }
+  ],
+  "total_amount": 1617.44,
+  "payment_method": "card",
+  "is_delivery": true,
+  "delivery_address": {
+    "country": "Россия",
+    "city": "д. Терней",
+    "street": "алл. Крупской",
+    "house": "8",
+    "apartment": "97",
+    "postal_code": "943074"
+  },
+  "purchase_datetime": "2025-08-15T19:57:11.007234"
+}

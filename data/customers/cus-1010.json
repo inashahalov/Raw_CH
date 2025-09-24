@@ -1,0 +1,36 @@
+{
+  "customer_id": "cus-1010",
+  "first_name": "Любовь",
+  "last_name": "Михайлова",
+  "email": "modest1978@example.net",
+  "phone": "8 118 437 7036",
+  "birth_date": "1974-05-30",
+  "gender": "female",
+  "registration_date": "2025-09-23T19:57:10.930416",
+  "is_loyalty_member": true,
+  "loyalty_card_number": "LOYAL-D73D37F221",
+  "purchase_location": {
+    "store_id": "store-011",
+    "store_name": "Большая Пикча — Магазин на ул. Таежная",
+    "store_network": "Большая Пикча",
+    "store_type_description": "Супермаркет более 200 кв.м. Входит в сеть из 30 магазинов.",
+    "country": "Россия",
+    "city": "п. Снежинск",
+    "street": "алл. Клары Цеткин",
+    "house": "8",
+    "postal_code": "728596"
+  },
+  "delivery_address": {
+    "country": "Россия",
+    "city": "п. Снежинск",
+    "street": "наб. Войкова",
+    "house": "24",
+    "apartment": "70",
+    "postal_code": "963857"
+  },
+  "preferences": {
+    "preferred_language": "ru",
+    "preferred_payment_method": "card",
+    "receive_promotions": true
+  }
+}

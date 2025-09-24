@@ -1,0 +1,63 @@
+{
+  "purchase_id": "ord-00138",
+  "customer": {
+    "customer_id": "cus-1008",
+    "first_name": "Корнил",
+    "last_name": "Данилова",
+    "email": "ljubim28@example.net",
+    "phone": "84143737040",
+    "is_loyalty_member": true,
+    "loyalty_card_number": "LOYAL-0E9C233BA4"
+  },
+  "store": {
+    "store_id": "store-010",
+    "store_name": "Большая Пикча — Магазин на наб. Энгельса",
+    "store_network": "Большая Пикча",
+    "location": {
+      "country": "Россия",
+      "city": "клх Воткинск",
+      "street": "пр. Шаумяна",
+      "house": "5/8",
+      "postal_code": "770514",
+      "coordinates": {
+        "latitude": -37.579403,
+        "longitude": 150.370954
+      }
+    }
+  },
+  "items": [
+    {
+      "product_id": "prd-1010",
+      "name": "Вытаскивать Правый",
+      "category": "🥦 Овощи и зелень",
+      "quantity": 2,
+      "unit": "л",
+      "price_per_unit": 181.57,
+      "total_price": 363.14,
+      "kbju": {
+        "calories": 113.2,
+        "protein": 7.5,
+        "fat": 3.6,
+        "carbohydrates": 41.4
+      },
+      "manufacturer": {
+        "name": "Сергеев Инкорпорэйтед",
+        "country": "Россия",
+        "website": "https://zao.biz",
+        "inn": "0493815810"
+      }
+    }
+  ],
+  "total_amount": 363.14,
+  "payment_method": "card",
+  "is_delivery": false,
+  "delivery_address": {
+    "country": "Россия",
+    "city": "ст. Тосно",
+    "street": "ул. Маяковского",
+    "house": "515",
+    "apartment": "67",
+    "postal_code": "862981"
+  },
+  "purchase_datetime": "2025-07-11T19:57:11.018993"
+}

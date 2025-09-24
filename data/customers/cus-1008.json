@@ -1,0 +1,36 @@
+{
+  "customer_id": "cus-1008",
+  "first_name": "Корнил",
+  "last_name": "Данилова",
+  "email": "ljubim28@example.net",
+  "phone": "84143737040",
+  "birth_date": "1978-09-03",
+  "gender": "male",
+  "registration_date": "2025-09-23T19:57:10.929003",
+  "is_loyalty_member": true,
+  "loyalty_card_number": "LOYAL-0E9C233BA4",
+  "purchase_location": {
+    "store_id": "store-009",
+    "store_name": "Большая Пикча — Магазин на пер. Пригородный",
+    "store_network": "Большая Пикча",
+    "store_type_description": "Супермаркет более 200 кв.м. Входит в сеть из 30 магазинов.",
+    "country": "Россия",
+    "city": "ст. Тосно",
+    "street": "бул. Снежный",
+    "house": "17",
+    "postal_code": "064592"
+  },
+  "delivery_address": {
+    "country": "Россия",
+    "city": "ст. Тосно",
+    "street": "ул. Маяковского",
+    "house": "515",
+    "apartment": "67",
+    "postal_code": "862981"
+  },
+  "preferences": {
+    "preferred_language": "ru",
+    "preferred_payment_method": "cash",
+    "receive_promotions": true
+  }
+}

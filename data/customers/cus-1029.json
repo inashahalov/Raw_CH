@@ -1,0 +1,36 @@
+{
+  "customer_id": "cus-1029",
+  "first_name": "Фаина",
+  "last_name": "Харитонов",
+  "email": "miroslav68@example.com",
+  "phone": "+7 (850) 338-79-16",
+  "birth_date": "1957-04-25",
+  "gender": "female",
+  "registration_date": "2025-09-23T19:57:10.941815",
+  "is_loyalty_member": true,
+  "loyalty_card_number": "LOYAL-E58C4F2854",
+  "purchase_location": {
+    "store_id": "store-030",
+    "store_name": "Большая Пикча — Магазин на пр. Вокзальный",
+    "store_network": "Большая Пикча",
+    "store_type_description": "Супермаркет более 200 кв.м. Входит в сеть из 30 магазинов.",
+    "country": "Россия",
+    "city": "к. Мытищи",
+    "street": "ул. Логовая",
+    "house": "16",
+    "postal_code": "893399"
+  },
+  "delivery_address": {
+    "country": "Россия",
+    "city": "к. Мытищи",
+    "street": "пер. Волкова",
+    "house": "7",
+    "apartment": "18",
+    "postal_code": "904836"
+  },
+  "preferences": {
+    "preferred_language": "ru",
+    "preferred_payment_method": "card",
+    "receive_promotions": true
+  }
+}

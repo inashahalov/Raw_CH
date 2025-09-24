@@ -1,0 +1,105 @@
+{
+  "purchase_id": "ord-00059",
+  "customer": {
+    "customer_id": "cus-1008",
+    "first_name": "Корнил",
+    "last_name": "Данилова",
+    "email": "ljubim28@example.net",
+    "phone": "84143737040",
+    "is_loyalty_member": true,
+    "loyalty_card_number": "LOYAL-0E9C233BA4"
+  },
+  "store": {
+    "store_id": "store-020",
+    "store_name": "Большая Пикча — Магазин на ш. Торговое",
+    "store_network": "Большая Пикча",
+    "location": {
+      "country": "Россия",
+      "city": "к. Апшеронск",
+      "street": "пр. Войкова",
+      "house": "6/9",
+      "postal_code": "046873",
+      "coordinates": {
+        "latitude": -44.909337,
+        "longitude": -111.402746
+      }
+    }
+  },
+  "items": [
+    {
+      "product_id": "prd-1009",
+      "name": "Заложить Спасть",
+      "category": "🥩 Мясо, рыба, яйца и бобовые",
+      "quantity": 3,
+      "unit": "шт",
+      "price_per_unit": 101.66,
+      "total_price": 304.98,
+      "kbju": {
+        "calories": 246.3,
+        "protein": 19.8,
+        "fat": 4.3,
+        "carbohydrates": 48.1
+      },
+      "manufacturer": {
+        "name": "НПО «Наумова»",
+        "country": "Россия",
+        "website": "https://rao.biz",
+        "inn": "4508864986"
+      }
+    },
+    {
+      "product_id": "prd-1005",
+      "name": "Уничтожение Вздрагивать",
+      "category": "🍏 Фрукты и ягоды",
+      "quantity": 2,
+      "unit": "л",
+      "price_per_unit": 207.53,
+      "total_price": 415.06,
+      "kbju": {
+        "calories": 191.8,
+        "protein": 11.1,
+        "fat": 7.9,
+        "carbohydrates": 5.4
+      },
+      "manufacturer": {
+        "name": "ООО «Авдеев-Медведева»",
+        "country": "Россия",
+        "website": "https://zao.com",
+        "inn": "9782693224"
+      }
+    },
+    {
+      "product_id": "prd-1019",
+      "name": "Адвокат Другой",
+      "category": "🥦 Овощи и зелень",
+      "quantity": 3,
+      "unit": "шт",
+      "price_per_unit": 43.3,
+      "total_price": 129.9,
+      "kbju": {
+        "calories": 77.7,
+        "protein": 13.9,
+        "fat": 10.1,
+        "carbohydrates": 22.7
+      },
+      "manufacturer": {
+        "name": "Чернова Групп",
+        "country": "Россия",
+        "website": "https://belozerova.com",
+        "inn": "4723890506"
+      }
+    }
+  ],
+  "total_amount": 849.94,
+  "payment_method": "card",
+  "is_delivery": false,
+  "delivery_address": {
+    "country": "Россия",
+    "city": "ст. Тосно",
+    "street": "ул. Маяковского",
+    "house": "515",
+    "apartment": "67",
+    "postal_code": "862981"
+  },
+  "purchase_datetime": "2025-09-21T19:57:10.977820"
+}

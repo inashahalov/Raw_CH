@@ -1,0 +1,63 @@
+{
+  "purchase_id": "ord-00075",
+  "customer": {
+    "customer_id": "cus-1011",
+    "first_name": "Аркадий",
+    "last_name": "Беляков",
+    "email": "mir_2021@example.net",
+    "phone": "8 (459) 651-56-98",
+    "is_loyalty_member": true,
+    "loyalty_card_number": "LOYAL-7E0D508BB5"
+  },
+  "store": {
+    "store_id": "store-032",
+    "store_name": "Маленькая Пикча — Магазин на бул. Подгорный",
+    "store_network": "Маленькая Пикча",
+    "location": {
+      "country": "Россия",
+      "city": "г. Нефтеюганск",
+      "street": "ш. Новоселов",
+      "house": "1",
+      "postal_code": "780917",
+      "coordinates": {
+        "latitude": -42.6968625,
+        "longitude": 4.808936
+      }
+    }
+  },
+  "items": [
+    {
+      "product_id": "prd-1008",
+      "name": "Фонарик Успокоиться",
+      "category": "🥖 Зерновые и хлебобулочные изделия",
+      "quantity": 4,
+      "unit": "упаковка",
+      "price_per_unit": 73.43,
+      "total_price": 293.72,
+      "kbju": {
+        "calories": 92.6,
+        "protein": 18.4,
+        "fat": 11.5,
+        "carbohydrates": 24.8
+      },
+      "manufacturer": {
+        "name": "ООО «Денисов, Щукина и Гришин»",
+        "country": "Россия",
+        "website": "https://kozlova.org",
+        "inn": "3531459365"
+      }
+    }
+  ],
+  "total_amount": 293.72,
+  "payment_method": "cash",
+  "is_delivery": false,
+  "delivery_address": {
+    "country": "Россия",
+    "city": "ст. Валдай",
+    "street": "пер. Луговой",
+    "house": "322",
+    "apartment": "50",
+    "postal_code": "969455"
+  },
+  "purchase_datetime": "2025-09-18T19:57:10.984946"
+}

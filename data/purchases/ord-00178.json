@@ -1,0 +1,63 @@
+{
+  "purchase_id": "ord-00178",
+  "customer": {
+    "customer_id": "cus-1004",
+    "first_name": "Эрнст",
+    "last_name": "Чернова",
+    "email": "raisa_2008@example.org",
+    "phone": "8 107 081 6420",
+    "is_loyalty_member": true,
+    "loyalty_card_number": "LOYAL-CD5CCA41C2"
+  },
+  "store": {
+    "store_id": "store-023",
+    "store_name": "Большая Пикча — Магазин на алл. Московская",
+    "store_network": "Большая Пикча",
+    "location": {
+      "country": "Россия",
+      "city": "к. Красногорск (Моск.)",
+      "street": "бул. Бабушкина",
+      "house": "74",
+      "postal_code": "103606",
+      "coordinates": {
+        "latitude": -72.0031925,
+        "longitude": -94.798688
+      }
+    }
+  },
+  "items": [
+    {
+      "product_id": "prd-1001",
+      "name": "Тревога Появление",
+      "category": "🥖 Зерновые и хлебобулочные изделия",
+      "quantity": 5,
+      "unit": "шт",
+      "price_per_unit": 168.16,
+      "total_price": 840.8,
+      "kbju": {
+        "calories": 205.2,
+        "protein": 13.4,
+        "fat": 1.1,
+        "carbohydrates": 43.2
+      },
+      "manufacturer": {
+        "name": "ОАО «Селезнева Турова»",
+        "country": "Россия",
+        "website": "https://panfilov.net",
+        "inn": "5790638925"
+      }
+    }
+  ],
+  "total_amount": 840.8,
+  "payment_method": "card",
+  "is_delivery": false,
+  "delivery_address": {
+    "country": "Россия",
+    "city": "п. Выборг",
+    "street": "наб. Высотная",
+    "house": "7",
+    "apartment": "66",
+    "postal_code": "973893"
+  },
+  "purchase_datetime": "2025-09-13T19:57:11.038805"
+}

@@ -1,0 +1,84 @@
+{
+  "purchase_id": "ord-00148",
+  "customer": {
+    "customer_id": "cus-1023",
+    "first_name": "Давыд",
+    "last_name": "Александров",
+    "email": "vissarion_1987@example.com",
+    "phone": "84881392433",
+    "is_loyalty_member": true,
+    "loyalty_card_number": "LOYAL-91E5CDC861"
+  },
+  "store": {
+    "store_id": "store-009",
+    "store_name": "Большая Пикча — Магазин на пер. Пригородный",
+    "store_network": "Большая Пикча",
+    "location": {
+      "country": "Россия",
+      "city": "ст. Тосно",
+      "street": "бул. Снежный",
+      "house": "17",
+      "postal_code": "064592",
+      "coordinates": {
+        "latitude": -81.084922,
+        "longitude": -135.926762
+      }
+    }
+  },
+  "items": [
+    {
+      "product_id": "prd-1017",
+      "name": "Неожиданный Эпоха",
+      "category": "🥦 Овощи и зелень",
+      "quantity": 2,
+      "unit": "упаковка",
+      "price_per_unit": 187.0,
+      "total_price": 374.0,
+      "kbju": {
+        "calories": 291.5,
+        "protein": 6.8,
+        "fat": 3.0,
+        "carbohydrates": 7.4
+      },
+      "manufacturer": {
+        "name": "ЗАО «Сафонова Ларионова»",
+        "country": "Россия",
+        "website": "https://ao.org",
+        "inn": "0841571264"
+      }
+    },
+    {
+      "product_id": "prd-1014",
+      "name": "Сустав Совещание",
+      "category": "🥦 Овощи и зелень",
+      "quantity": 2,
+      "unit": "л",
+      "price_per_unit": 148.14,
+      "total_price": 296.28,
+      "kbju": {
+        "calories": 294.0,
+        "protein": 10.9,
+        "fat": 5.7,
+        "carbohydrates": 7.8
+      },
+      "manufacturer": {
+        "name": "ИП «Нестерова»",
+        "country": "Россия",
+        "website": "https://novikov.info",
+        "inn": "8559866409"
+      }
+    }
+  ],
+  "total_amount": 670.28,
+  "payment_method": "card",
+  "is_delivery": false,
+  "delivery_address": {
+    "country": "Россия",
+    "city": "д. Сковородино",
+    "street": "бул. 50 лет ВЛКСМ",
+    "house": "17",
+    "apartment": "37",
+    "postal_code": "072988"
+  },
+  "purchase_datetime": "2025-08-11T19:57:11.023532"
+}

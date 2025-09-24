@@ -1,0 +1,105 @@
+{
+  "purchase_id": "ord-00140",
+  "customer": {
+    "customer_id": "cus-1029",
+    "first_name": "Фаина",
+    "last_name": "Харитонов",
+    "email": "miroslav68@example.com",
+    "phone": "+7 (850) 338-79-16",
+    "is_loyalty_member": true,
+    "loyalty_card_number": "LOYAL-E58C4F2854"
+  },
+  "store": {
+    "store_id": "store-031",
+    "store_name": "Маленькая Пикча — Магазин на наб. Максима Горького",
+    "store_network": "Маленькая Пикча",
+    "location": {
+      "country": "Россия",
+      "city": "к. Шереметьево",
+      "street": "бул. 70 лет Октября",
+      "house": "974",
+      "postal_code": "658842",
+      "coordinates": {
+        "latitude": -54.276802,
+        "longitude": -95.137118
+      }
+    }
+  },
+  "items": [
+    {
+      "product_id": "prd-1015",
+      "name": "Войти Приходить",
+      "category": "🥛 Молочные продукты",
+      "quantity": 1,
+      "unit": "шт",
+      "price_per_unit": 92.89,
+      "total_price": 92.89,
+      "kbju": {
+        "calories": 297.1,
+        "protein": 17.3,
+        "fat": 7.9,
+        "carbohydrates": 24.3
+      },
+      "manufacturer": {
+        "name": "Гришина Лтд",
+        "country": "Россия",
+        "website": "https://ooo.net",
+        "inn": "5499321537"
+      }
+    },
+    {
+      "product_id": "prd-1017",
+      "name": "Неожиданный Эпоха",
+      "category": "🥦 Овощи и зелень",
+      "quantity": 2,
+      "unit": "упаковка",
+      "price_per_unit": 187.0,
+      "total_price": 374.0,
+      "kbju": {
+        "calories": 291.5,
+        "protein": 6.8,
+        "fat": 3.0,
+        "carbohydrates": 7.4
+      },
+      "manufacturer": {
+        "name": "ЗАО «Сафонова Ларионова»",
+        "country": "Россия",
+        "website": "https://ao.org",
+        "inn": "0841571264"
+      }
+    },
+    {
+      "product_id": "prd-1004",
+      "name": "Рассуждение Боец",
+      "category": "🥩 Мясо, рыба, яйца и бобовые",
+      "quantity": 1,
+      "unit": "кг",
+      "price_per_unit": 167.58,
+      "total_price": 167.58,
+      "kbju": {
+        "calories": 270.7,
+        "protein": 8.7,
+        "fat": 11.5,
+        "carbohydrates": 1.5
+      },
+      "manufacturer": {
+        "name": "РАО «Мухина Миронов»",
+        "country": "Россия",
+        "website": "https://rao.org",
+        "inn": "9262920859"
+      }
+    }
+  ],
+  "total_amount": 634.47,
+  "payment_method": "card",
+  "is_delivery": true,
+  "delivery_address": {
+    "country": "Россия",
+    "city": "к. Мытищи",
+    "street": "пер. Волкова",
+    "house": "7",
+    "apartment": "18",
+    "postal_code": "904836"
+  },
+  "purchase_datetime": "2025-08-12T19:57:11.019810"
+}

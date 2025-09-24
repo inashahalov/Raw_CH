@@ -1,0 +1,36 @@
+{
+  "customer_id": "cus-1039",
+  "first_name": "Никодим",
+  "last_name": "Белоусова",
+  "email": "varlaam1991@example.com",
+  "phone": "+7 148 865 5194",
+  "birth_date": "1984-04-01",
+  "gender": "female",
+  "registration_date": "2025-09-23T19:57:10.947945",
+  "is_loyalty_member": true,
+  "loyalty_card_number": "LOYAL-345785EB3A",
+  "purchase_location": {
+    "store_id": "store-040",
+    "store_name": "Маленькая Пикча — Магазин на бул. Буденного",
+    "store_network": "Маленькая Пикча",
+    "store_type_description": "Магазин у дома менее 100 кв.м. Входит в сеть из 15 магазинов.",
+    "country": "Россия",
+    "city": "г. Курумкан",
+    "street": "алл. Чапаева",
+    "house": "8",
+    "postal_code": "242329"
+  },
+  "delivery_address": {
+    "country": "Россия",
+    "city": "г. Курумкан",
+    "street": "алл. Гаражная",
+    "house": "494",
+    "apartment": "64",
+    "postal_code": "544699"
+  },
+  "preferences": {
+    "preferred_language": "ru",
+    "preferred_payment_method": "card",
+    "receive_promotions": true
+  }
+}

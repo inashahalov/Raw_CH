@@ -1,0 +1,63 @@
+{
+  "purchase_id": "ord-00085",
+  "customer": {
+    "customer_id": "cus-1014",
+    "first_name": "Алла",
+    "last_name": "Дмитриева",
+    "email": "maksimiljanlobanov@example.net",
+    "phone": "8 993 112 5563",
+    "is_loyalty_member": true,
+    "loyalty_card_number": "LOYAL-4DECF4EFB7"
+  },
+  "store": {
+    "store_id": "store-041",
+    "store_name": "Маленькая Пикча — Магазин на наб. Буденного",
+    "store_network": "Маленькая Пикча",
+    "location": {
+      "country": "Россия",
+      "city": "клх Печенга",
+      "street": "ш. Раздольное",
+      "house": "7/9",
+      "postal_code": "426924",
+      "coordinates": {
+        "latitude": 31.407587,
+        "longitude": -5.558878
+      }
+    }
+  },
+  "items": [
+    {
+      "product_id": "prd-1011",
+      "name": "Собеседник Цель",
+      "category": "🍏 Фрукты и ягоды",
+      "quantity": 2,
+      "unit": "шт",
+      "price_per_unit": 109.38,
+      "total_price": 218.76,
+      "kbju": {
+        "calories": 140.7,
+        "protein": 19.6,
+        "fat": 11.8,
+        "carbohydrates": 11.5
+      },
+      "manufacturer": {
+        "name": "Сысоев Лтд",
+        "country": "Россия",
+        "website": "https://ip.org",
+        "inn": "3880754993"
+      }
+    }
+  ],
+  "total_amount": 218.76,
+  "payment_method": "cash",
+  "is_delivery": false,
+  "delivery_address": {
+    "country": "Россия",
+    "city": "г. Магнитогорск",
+    "street": "ш. Пушкина",
+    "house": "159",
+    "apartment": "22",
+    "postal_code": "129259"
+  },
+  "purchase_datetime": "2025-08-06T19:57:10.990320"
+}

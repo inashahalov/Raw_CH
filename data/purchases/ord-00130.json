@@ -1,0 +1,105 @@
+{
+  "purchase_id": "ord-00130",
+  "customer": {
+    "customer_id": "cus-1022",
+    "first_name": "Наина",
+    "last_name": "Игнатьева",
+    "email": "iturov@example.org",
+    "phone": "+7 083 533 4441",
+    "is_loyalty_member": true,
+    "loyalty_card_number": "LOYAL-577F54C26A"
+  },
+  "store": {
+    "store_id": "store-023",
+    "store_name": "Большая Пикча — Магазин на алл. Московская",
+    "store_network": "Большая Пикча",
+    "location": {
+      "country": "Россия",
+      "city": "к. Красногорск (Моск.)",
+      "street": "бул. Бабушкина",
+      "house": "74",
+      "postal_code": "103606",
+      "coordinates": {
+        "latitude": -72.0031925,
+        "longitude": -94.798688
+      }
+    }
+  },
+  "items": [
+    {
+      "product_id": "prd-1010",
+      "name": "Вытаскивать Правый",
+      "category": "🥦 Овощи и зелень",
+      "quantity": 4,
+      "unit": "л",
+      "price_per_unit": 181.57,
+      "total_price": 726.28,
+      "kbju": {
+        "calories": 113.2,
+        "protein": 7.5,
+        "fat": 3.6,
+        "carbohydrates": 41.4
+      },
+      "manufacturer": {
+        "name": "Сергеев Инкорпорэйтед",
+        "country": "Россия",
+        "website": "https://zao.biz",
+        "inn": "0493815810"
+      }
+    },
+    {
+      "product_id": "prd-1007",
+      "name": "Штаб Приличный",
+      "category": "🍏 Фрукты и ягоды",
+      "quantity": 2,
+      "unit": "кг",
+      "price_per_unit": 196.88,
+      "total_price": 393.76,
+      "kbju": {
+        "calories": 164.9,
+        "protein": 16.7,
+        "fat": 3.6,
+        "carbohydrates": 31.4
+      },
+      "manufacturer": {
+        "name": "СДС-Уголь",
+        "country": "Россия",
+        "website": "https://npo.ru",
+        "inn": "9854590544"
+      }
+    },
+    {
+      "product_id": "prd-1003",
+      "name": "Идея Вообще",
+      "category": "🍏 Фрукты и ягоды",
+      "quantity": 5,
+      "unit": "упаковка",
+      "price_per_unit": 270.56,
+      "total_price": 1352.8,
+      "kbju": {
+        "calories": 53.3,
+        "protein": 13.5,
+        "fat": 3.5,
+        "carbohydrates": 40.5
+      },
+      "manufacturer": {
+        "name": "АО «Назарова»",
+        "country": "Россия",
+        "website": "https://oao.ru",
+        "inn": "9069795571"
+      }
+    }
+  ],
+  "total_amount": 2472.84,
+  "payment_method": "cash",
+  "is_delivery": false,
+  "delivery_address": {
+    "country": "Россия",
+    "city": "к. Красногорск (Моск.)",
+    "street": "наб. Краснопартизанская",
+    "house": "38",
+    "apartment": "36",
+    "postal_code": "552549"
+  },
+  "purchase_datetime": "2025-08-10T19:57:11.015231"
+}

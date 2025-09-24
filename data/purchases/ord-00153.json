@@ -1,0 +1,63 @@
+{
+  "purchase_id": "ord-00153",
+  "customer": {
+    "customer_id": "cus-1026",
+    "first_name": "Флорентин",
+    "last_name": "Большакова",
+    "email": "veselovnazar@example.net",
+    "phone": "8 (205) 889-0655",
+    "is_loyalty_member": true,
+    "loyalty_card_number": "LOYAL-9486E017A9"
+  },
+  "store": {
+    "store_id": "store-020",
+    "store_name": "Большая Пикча — Магазин на ш. Торговое",
+    "store_network": "Большая Пикча",
+    "location": {
+      "country": "Россия",
+      "city": "к. Апшеронск",
+      "street": "пр. Войкова",
+      "house": "6/9",
+      "postal_code": "046873",
+      "coordinates": {
+        "latitude": -44.909337,
+        "longitude": -111.402746
+      }
+    }
+  },
+  "items": [
+    {
+      "product_id": "prd-1006",
+      "name": "Мелькнуть Сбросить",
+      "category": "🍏 Фрукты и ягоды",
+      "quantity": 3,
+      "unit": "кг",
+      "price_per_unit": 251.59,
+      "total_price": 754.77,
+      "kbju": {
+        "calories": 208.0,
+        "protein": 7.1,
+        "fat": 7.6,
+        "carbohydrates": 15.3
+      },
+      "manufacturer": {
+        "name": "ИП «Киселев Комарова»",
+        "country": "Россия",
+        "website": "https://turova.info",
+        "inn": "8487805184"
+      }
+    }
+  ],
+  "total_amount": 754.77,
+  "payment_method": "card",
+  "is_delivery": true,
+  "delivery_address": {
+    "country": "Россия",
+    "city": "г. Енисейск",
+    "street": "бул. Советской Армии",
+    "house": "403",
+    "apartment": "86",
+    "postal_code": "074919"
+  },
+  "purchase_datetime": "2025-09-07T19:57:11.026391"
+}

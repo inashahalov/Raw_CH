@@ -1,0 +1,105 @@
+{
+  "purchase_id": "ord-00029",
+  "customer": {
+    "customer_id": "cus-1027",
+    "first_name": "Тамара",
+    "last_name": "Щукин",
+    "email": "ostromirbelov@example.net",
+    "phone": "+7 995 583 6738",
+    "is_loyalty_member": true,
+    "loyalty_card_number": "LOYAL-266038E03B"
+  },
+  "store": {
+    "store_id": "store-035",
+    "store_name": "Маленькая Пикча — Магазин на пер. Некрасова",
+    "store_network": "Маленькая Пикча",
+    "location": {
+      "country": "Россия",
+      "city": "клх Александров",
+      "street": "пр. Чайковского",
+      "house": "4",
+      "postal_code": "124796",
+      "coordinates": {
+        "latitude": -70.6444295,
+        "longitude": -97.215615
+      }
+    }
+  },
+  "items": [
+    {
+      "product_id": "prd-1005",
+      "name": "Уничтожение Вздрагивать",
+      "category": "🍏 Фрукты и ягоды",
+      "quantity": 1,
+      "unit": "л",
+      "price_per_unit": 207.53,
+      "total_price": 207.53,
+      "kbju": {
+        "calories": 191.8,
+        "protein": 11.1,
+        "fat": 7.9,
+        "carbohydrates": 5.4
+      },
+      "manufacturer": {
+        "name": "ООО «Авдеев-Медведева»",
+        "country": "Россия",
+        "website": "https://zao.com",
+        "inn": "9782693224"
+      }
+    },
+    {
+      "product_id": "prd-1008",
+      "name": "Фонарик Успокоиться",
+      "category": "🥖 Зерновые и хлебобулочные изделия",
+      "quantity": 1,
+      "unit": "упаковка",
+      "price_per_unit": 73.43,
+      "total_price": 73.43,
+      "kbju": {
+        "calories": 92.6,
+        "protein": 18.4,
+        "fat": 11.5,
+        "carbohydrates": 24.8
+      },
+      "manufacturer": {
+        "name": "ООО «Денисов, Щукина и Гришин»",
+        "country": "Россия",
+        "website": "https://kozlova.org",
+        "inn": "3531459365"
+      }
+    },
+    {
+      "product_id": "prd-1002",
+      "name": "Разводить Школьный",
+      "category": "🥦 Овощи и зелень",
+      "quantity": 3,
+      "unit": "л",
+      "price_per_unit": 232.4,
+      "total_price": 697.2,
+      "kbju": {
+        "calories": 276.5,
+        "protein": 15.9,
+        "fat": 7.0,
+        "carbohydrates": 4.4
+      },
+      "manufacturer": {
+        "name": "ОАО «Туров, Горбунова и Галкина»",
+        "country": "Россия",
+        "website": "https://oao.com",
+        "inn": "7774237965"
+      }
+    }
+  ],
+  "total_amount": 978.16,
+  "payment_method": "cash",
+  "is_delivery": false,
+  "delivery_address": {
+    "country": "Россия",
+    "city": "ст. Карталы",
+    "street": "пр. Репина",
+    "house": "83",
+    "apartment": "19",
+    "postal_code": "029613"
+  },
+  "purchase_datetime": "2025-08-19T19:57:10.964173"
+}

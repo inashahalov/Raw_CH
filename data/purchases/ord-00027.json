@@ -1,0 +1,84 @@
+{
+  "purchase_id": "ord-00027",
+  "customer": {
+    "customer_id": "cus-1040",
+    "first_name": "Святополк",
+    "last_name": "Туров",
+    "email": "galina48@example.net",
+    "phone": "89206249774",
+    "is_loyalty_member": true,
+    "loyalty_card_number": "LOYAL-BDB77CCF0B"
+  },
+  "store": {
+    "store_id": "store-021",
+    "store_name": "Большая Пикча — Магазин на ш. Мусы Джалиля",
+    "store_network": "Большая Пикча",
+    "location": {
+      "country": "Россия",
+      "city": "п. Ноглики",
+      "street": "пер. Просвещения",
+      "house": "846",
+      "postal_code": "673348",
+      "coordinates": {
+        "latitude": 68.9485715,
+        "longitude": -158.508773
+      }
+    }
+  },
+  "items": [
+    {
+      "product_id": "prd-1002",
+      "name": "Разводить Школьный",
+      "category": "🥦 Овощи и зелень",
+      "quantity": 4,
+      "unit": "л",
+      "price_per_unit": 232.4,
+      "total_price": 929.6,
+      "kbju": {
+        "calories": 276.5,
+        "protein": 15.9,
+        "fat": 7.0,
+        "carbohydrates": 4.4
+      },
+      "manufacturer": {
+        "name": "ОАО «Туров, Горбунова и Галкина»",
+        "country": "Россия",
+        "website": "https://oao.com",
+        "inn": "7774237965"
+      }
+    },
+    {
+      "product_id": "prd-1019",
+      "name": "Адвокат Другой",
+      "category": "🥦 Овощи и зелень",
+      "quantity": 2,
+      "unit": "шт",
+      "price_per_unit": 43.3,
+      "total_price": 86.6,
+      "kbju": {
+        "calories": 77.7,
+        "protein": 13.9,
+        "fat": 10.1,
+        "carbohydrates": 22.7
+      },
+      "manufacturer": {
+        "name": "Чернова Групп",
+        "country": "Россия",
+        "website": "https://belozerova.com",
+        "inn": "4723890506"
+      }
+    }
+  ],
+  "total_amount": 1016.2,
+  "payment_method": "cash",
+  "is_delivery": true,
+  "delivery_address": {
+    "country": "Россия",
+    "city": "клх Печенга",
+    "street": "пр. Горняцкий",
+    "house": "771",
+    "apartment": "11",
+    "postal_code": "066690"
+  },
+  "purchase_datetime": "2025-07-17T19:57:10.963371"
+}

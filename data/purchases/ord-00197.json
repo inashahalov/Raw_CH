@@ -1,0 +1,105 @@
+{
+  "purchase_id": "ord-00197",
+  "customer": {
+    "customer_id": "cus-1030",
+    "first_name": "Мефодий",
+    "last_name": "Зимина",
+    "email": "bazhen2013@example.com",
+    "phone": "8 625 494 4334",
+    "is_loyalty_member": true,
+    "loyalty_card_number": "LOYAL-5D0BBBC12C"
+  },
+  "store": {
+    "store_id": "store-016",
+    "store_name": "Большая Пикча — Магазин на пр. Сиреневый",
+    "store_network": "Большая Пикча",
+    "location": {
+      "country": "Россия",
+      "city": "д. Оренбург",
+      "street": "ул. Горная",
+      "house": "61",
+      "postal_code": "395799",
+      "coordinates": {
+        "latitude": -45.4646875,
+        "longitude": -11.515672
+      }
+    }
+  },
+  "items": [
+    {
+      "product_id": "prd-1000",
+      "name": "Заведение Задержать",
+      "category": "🥛 Молочные продукты",
+      "quantity": 3,
+      "unit": "л",
+      "price_per_unit": 174.16,
+      "total_price": 522.48,
+      "kbju": {
+        "calories": 261.8,
+        "protein": 2.3,
+        "fat": 2.9,
+        "carbohydrates": 19.7
+      },
+      "manufacturer": {
+        "name": "РАО «Бирюков, Лапина и Волков»",
+        "country": "Россия",
+        "website": "https://ao.net",
+        "inn": "0912614956"
+      }
+    },
+    {
+      "product_id": "prd-1004",
+      "name": "Рассуждение Боец",
+      "category": "🥩 Мясо, рыба, яйца и бобовые",
+      "quantity": 2,
+      "unit": "кг",
+      "price_per_unit": 167.58,
+      "total_price": 335.16,
+      "kbju": {
+        "calories": 270.7,
+        "protein": 8.7,
+        "fat": 11.5,
+        "carbohydrates": 1.5
+      },
+      "manufacturer": {
+        "name": "РАО «Мухина Миронов»",
+        "country": "Россия",
+        "website": "https://rao.org",
+        "inn": "9262920859"
+      }
+    },
+    {
+      "product_id": "prd-1011",
+      "name": "Собеседник Цель",
+      "category": "🍏 Фрукты и ягоды",
+      "quantity": 4,
+      "unit": "шт",
+      "price_per_unit": 109.38,
+      "total_price": 437.52,
+      "kbju": {
+        "calories": 140.7,
+        "protein": 19.6,
+        "fat": 11.8,
+        "carbohydrates": 11.5
+      },
+      "manufacturer": {
+        "name": "Сысоев Лтд",
+        "country": "Россия",
+        "website": "https://ip.org",
+        "inn": "3880754993"
+      }
+    }
+  ],
+  "total_amount": 1295.16,
+  "payment_method": "card",
+  "is_delivery": false,
+  "delivery_address": {
+    "country": "Россия",
+    "city": "к. Шереметьево",
+    "street": "ул. Глинки",
+    "house": "71",
+    "apartment": "82",
+    "postal_code": "129105"
+  },
+  "purchase_datetime": "2025-07-30T19:57:11.047655"
+}

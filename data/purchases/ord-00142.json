@@ -1,0 +1,84 @@
+{
+  "purchase_id": "ord-00142",
+  "customer": {
+    "customer_id": "cus-1039",
+    "first_name": "Никодим",
+    "last_name": "Белоусова",
+    "email": "varlaam1991@example.com",
+    "phone": "+7 148 865 5194",
+    "is_loyalty_member": true,
+    "loyalty_card_number": "LOYAL-345785EB3A"
+  },
+  "store": {
+    "store_id": "store-018",
+    "store_name": "Большая Пикча — Магазин на пер. З.Космодемьянской",
+    "store_network": "Большая Пикча",
+    "location": {
+      "country": "Россия",
+      "city": "к. Минеральные Воды",
+      "street": "пер. Каштановый",
+      "house": "85",
+      "postal_code": "972733",
+      "coordinates": {
+        "latitude": 1.333662,
+        "longitude": -136.6214
+      }
+    }
+  },
+  "items": [
+    {
+      "product_id": "prd-1008",
+      "name": "Фонарик Успокоиться",
+      "category": "🥖 Зерновые и хлебобулочные изделия",
+      "quantity": 4,
+      "unit": "упаковка",
+      "price_per_unit": 73.43,
+      "total_price": 293.72,
+      "kbju": {
+        "calories": 92.6,
+        "protein": 18.4,
+        "fat": 11.5,
+        "carbohydrates": 24.8
+      },
+      "manufacturer": {
+        "name": "ООО «Денисов, Щукина и Гришин»",
+        "country": "Россия",
+        "website": "https://kozlova.org",
+        "inn": "3531459365"
+      }
+    },
+    {
+      "product_id": "prd-1018",
+      "name": "Низкий Присесть",
+      "category": "🥩 Мясо, рыба, яйца и бобовые",
+      "quantity": 5,
+      "unit": "кг",
+      "price_per_unit": 240.2,
+      "total_price": 1201.0,
+      "kbju": {
+        "calories": 272.9,
+        "protein": 7.8,
+        "fat": 2.3,
+        "carbohydrates": 5.3
+      },
+      "manufacturer": {
+        "name": "Ланит",
+        "country": "Россия",
+        "website": "https://rao.info",
+        "inn": "3763771194"
+      }
+    }
+  ],
+  "total_amount": 1494.72,
+  "payment_method": "card",
+  "is_delivery": true,
+  "delivery_address": {
+    "country": "Россия",
+    "city": "г. Курумкан",
+    "street": "алл. Гаражная",
+    "house": "494",
+    "apartment": "64",
+    "postal_code": "544699"
+  },
+  "purchase_datetime": "2025-09-12T19:57:11.020829"
+}

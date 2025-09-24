@@ -1,0 +1,63 @@
+{
+  "purchase_id": "ord-00064",
+  "customer": {
+    "customer_id": "cus-1040",
+    "first_name": "Святополк",
+    "last_name": "Туров",
+    "email": "galina48@example.net",
+    "phone": "89206249774",
+    "is_loyalty_member": true,
+    "loyalty_card_number": "LOYAL-BDB77CCF0B"
+  },
+  "store": {
+    "store_id": "store-024",
+    "store_name": "Большая Пикча — Магазин на алл. 60 лет СССР",
+    "store_network": "Большая Пикча",
+    "location": {
+      "country": "Россия",
+      "city": "д. Сковородино",
+      "street": "бул. Инженерный",
+      "house": "5/5",
+      "postal_code": "146939",
+      "coordinates": {
+        "latitude": 12.892401,
+        "longitude": 56.364252
+      }
+    }
+  },
+  "items": [
+    {
+      "product_id": "prd-1013",
+      "name": "Роса Наткнуться",
+      "category": "🥛 Молочные продукты",
+      "quantity": 3,
+      "unit": "упаковка",
+      "price_per_unit": 39.74,
+      "total_price": 119.22,
+      "kbju": {
+        "calories": 283.8,
+        "protein": 19.2,
+        "fat": 7.6,
+        "carbohydrates": 35.6
+      },
+      "manufacturer": {
+        "name": "АО «Потапова, Смирнова и Сазонова»",
+        "country": "Россия",
+        "website": "https://magnit.info",
+        "inn": "3006321123"
+      }
+    }
+  ],
+  "total_amount": 119.22,
+  "payment_method": "cash",
+  "is_delivery": false,
+  "delivery_address": {
+    "country": "Россия",
+    "city": "клх Печенга",
+    "street": "пр. Горняцкий",
+    "house": "771",
+    "apartment": "11",
+    "postal_code": "066690"
+  },
+  "purchase_datetime": "2025-08-13T19:57:10.980059"
+}

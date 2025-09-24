@@ -1,0 +1,84 @@
+{
+  "purchase_id": "ord-00198",
+  "customer": {
+    "customer_id": "cus-1036",
+    "first_name": "Ия",
+    "last_name": "Князев",
+    "email": "fadeevaaleksandra@example.org",
+    "phone": "+71282879102",
+    "is_loyalty_member": true,
+    "loyalty_card_number": "LOYAL-EBB77AE969"
+  },
+  "store": {
+    "store_id": "store-014",
+    "store_name": "Большая Пикча — Магазин на ул. Дзержинского",
+    "store_network": "Большая Пикча",
+    "location": {
+      "country": "Россия",
+      "city": "д. Энгельс",
+      "street": "пер. Лермонтова",
+      "house": "286",
+      "postal_code": "327777",
+      "coordinates": {
+        "latitude": -84.1876275,
+        "longitude": 111.109438
+      }
+    }
+  },
+  "items": [
+    {
+      "product_id": "prd-1011",
+      "name": "Собеседник Цель",
+      "category": "🍏 Фрукты и ягоды",
+      "quantity": 2,
+      "unit": "шт",
+      "price_per_unit": 109.38,
+      "total_price": 218.76,
+      "kbju": {
+        "calories": 140.7,
+        "protein": 19.6,
+        "fat": 11.8,
+        "carbohydrates": 11.5
+      },
+      "manufacturer": {
+        "name": "Сысоев Лтд",
+        "country": "Россия",
+        "website": "https://ip.org",
+        "inn": "3880754993"
+      }
+    },
+    {
+      "product_id": "prd-1003",
+      "name": "Идея Вообще",
+      "category": "🍏 Фрукты и ягоды",
+      "quantity": 3,
+      "unit": "упаковка",
+      "price_per_unit": 270.56,
+      "total_price": 811.68,
+      "kbju": {
+        "calories": 53.3,
+        "protein": 13.5,
+        "fat": 3.5,
+        "carbohydrates": 40.5
+      },
+      "manufacturer": {
+        "name": "АО «Назарова»",
+        "country": "Россия",
+        "website": "https://oao.ru",
+        "inn": "9069795571"
+      }
+    }
+  ],
+  "total_amount": 1030.44,
+  "payment_method": "card",
+  "is_delivery": false,
+  "delivery_address": {
+    "country": "Россия",
+    "city": "клх Нягань",
+    "street": "алл. Папанина",
+    "house": "334",
+    "apartment": "32",
+    "postal_code": "506664"
+  },
+  "purchase_datetime": "2025-06-25T19:57:11.048189"
+}

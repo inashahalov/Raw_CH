@@ -1,0 +1,84 @@
+{
+  "purchase_id": "ord-00152",
+  "customer": {
+    "customer_id": "cus-1028",
+    "first_name": "Наталья",
+    "last_name": "Гришина",
+    "email": "nikolabeljaev@example.com",
+    "phone": "85864483021",
+    "is_loyalty_member": true,
+    "loyalty_card_number": "LOYAL-EF32AE8CAA"
+  },
+  "store": {
+    "store_id": "store-023",
+    "store_name": "Большая Пикча — Магазин на алл. Московская",
+    "store_network": "Большая Пикча",
+    "location": {
+      "country": "Россия",
+      "city": "к. Красногорск (Моск.)",
+      "street": "бул. Бабушкина",
+      "house": "74",
+      "postal_code": "103606",
+      "coordinates": {
+        "latitude": -72.0031925,
+        "longitude": -94.798688
+      }
+    }
+  },
+  "items": [
+    {
+      "product_id": "prd-1008",
+      "name": "Фонарик Успокоиться",
+      "category": "🥖 Зерновые и хлебобулочные изделия",
+      "quantity": 5,
+      "unit": "упаковка",
+      "price_per_unit": 73.43,
+      "total_price": 367.15,
+      "kbju": {
+        "calories": 92.6,
+        "protein": 18.4,
+        "fat": 11.5,
+        "carbohydrates": 24.8
+      },
+      "manufacturer": {
+        "name": "ООО «Денисов, Щукина и Гришин»",
+        "country": "Россия",
+        "website": "https://kozlova.org",
+        "inn": "3531459365"
+      }
+    },
+    {
+      "product_id": "prd-1006",
+      "name": "Мелькнуть Сбросить",
+      "category": "🍏 Фрукты и ягоды",
+      "quantity": 1,
+      "unit": "кг",
+      "price_per_unit": 251.59,
+      "total_price": 251.59,
+      "kbju": {
+        "calories": 208.0,
+        "protein": 7.1,
+        "fat": 7.6,
+        "carbohydrates": 15.3
+      },
+      "manufacturer": {
+        "name": "ИП «Киселев Комарова»",
+        "country": "Россия",
+        "website": "https://turova.info",
+        "inn": "8487805184"
+      }
+    }
+  ],
+  "total_amount": 618.74,
+  "payment_method": "cash",
+  "is_delivery": true,
+  "delivery_address": {
+    "country": "Россия",
+    "city": "клх Галич",
+    "street": "алл. Логовая",
+    "house": "95",
+    "apartment": "14",
+    "postal_code": "862953"
+  },
+  "purchase_datetime": "2025-07-24T19:57:11.025910"
+}

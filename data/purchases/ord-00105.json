@@ -1,0 +1,63 @@
+{
+  "purchase_id": "ord-00105",
+  "customer": {
+    "customer_id": "cus-1012",
+    "first_name": "Тит",
+    "last_name": "Максимов",
+    "email": "tsvetkovkim@example.com",
+    "phone": "+7 307 933 6870",
+    "is_loyalty_member": true,
+    "loyalty_card_number": "LOYAL-F303593AAF"
+  },
+  "store": {
+    "store_id": "store-028",
+    "store_name": "Большая Пикча — Магазин на пр. Крупской",
+    "store_network": "Большая Пикча",
+    "location": {
+      "country": "Россия",
+      "city": "ст. Карталы",
+      "street": "ул. Королева",
+      "house": "5",
+      "postal_code": "762232",
+      "coordinates": {
+        "latitude": -62.0370365,
+        "longitude": 85.309577
+      }
+    }
+  },
+  "items": [
+    {
+      "product_id": "prd-1004",
+      "name": "Рассуждение Боец",
+      "category": "🥩 Мясо, рыба, яйца и бобовые",
+      "quantity": 1,
+      "unit": "кг",
+      "price_per_unit": 167.58,
+      "total_price": 167.58,
+      "kbju": {
+        "calories": 270.7,
+        "protein": 8.7,
+        "fat": 11.5,
+        "carbohydrates": 1.5
+      },
+      "manufacturer": {
+        "name": "РАО «Мухина Миронов»",
+        "country": "Россия",
+        "website": "https://rao.org",
+        "inn": "9262920859"
+      }
+    }
+  ],
+  "total_amount": 167.58,
+  "payment_method": "cash",
+  "is_delivery": false,
+  "delivery_address": {
+    "country": "Россия",
+    "city": "д. Махачкала",
+    "street": "ул. Ручейная",
+    "house": "65",
+    "apartment": "79",
+    "postal_code": "436303"
+  },
+  "purchase_datetime": "2025-08-14T19:57:11.003533"
+}

@@ -1,0 +1,63 @@
+{
+  "purchase_id": "ord-00172",
+  "customer": {
+    "customer_id": "cus-1000",
+    "first_name": "Лора",
+    "last_name": "Тетерин",
+    "email": "eduardpopov@example.net",
+    "phone": "+7 360 725 52 37",
+    "is_loyalty_member": true,
+    "loyalty_card_number": "LOYAL-E7A3E28BE6"
+  },
+  "store": {
+    "store_id": "store-005",
+    "store_name": "Большая Пикча — Магазин на алл. Гагарина",
+    "store_network": "Большая Пикча",
+    "location": {
+      "country": "Россия",
+      "city": "п. Выборг",
+      "street": "наб. Виноградная",
+      "house": "5",
+      "postal_code": "649137",
+      "coordinates": {
+        "latitude": -20.3813075,
+        "longitude": 69.885599
+      }
+    }
+  },
+  "items": [
+    {
+      "product_id": "prd-1017",
+      "name": "Неожиданный Эпоха",
+      "category": "🥦 Овощи и зелень",
+      "quantity": 3,
+      "unit": "упаковка",
+      "price_per_unit": 187.0,
+      "total_price": 561.0,
+      "kbju": {
+        "calories": 291.5,
+        "protein": 6.8,
+        "fat": 3.0,
+        "carbohydrates": 7.4
+      },
+      "manufacturer": {
+        "name": "ЗАО «Сафонова Ларионова»",
+        "country": "Россия",
+        "website": "https://ao.org",
+        "inn": "0841571264"
+      }
+    }
+  ],
+  "total_amount": 561.0,
+  "payment_method": "cash",
+  "is_delivery": true,
+  "delivery_address": {
+    "country": "Россия",
+    "city": "п. Качканар",
+    "street": "пер. Абрикосовый",
+    "house": "41",
+    "apartment": "62",
+    "postal_code": "030086"
+  },
+  "purchase_datetime": "2025-08-10T19:57:11.036029"
+}

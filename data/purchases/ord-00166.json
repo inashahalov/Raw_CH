@@ -1,0 +1,84 @@
+{
+  "purchase_id": "ord-00166",
+  "customer": {
+    "customer_id": "cus-1024",
+    "first_name": "Ульян",
+    "last_name": "Рожков",
+    "email": "lavrenti_1995@example.net",
+    "phone": "8 (716) 687-95-46",
+    "is_loyalty_member": true,
+    "loyalty_card_number": "LOYAL-091724D2F7"
+  },
+  "store": {
+    "store_id": "store-012",
+    "store_name": "Большая Пикча — Магазин на наб. Центральная",
+    "store_network": "Большая Пикча",
+    "location": {
+      "country": "Россия",
+      "city": "ст. Валдай",
+      "street": "алл. Станиславского",
+      "house": "8/1",
+      "postal_code": "481389",
+      "coordinates": {
+        "latitude": 33.4852585,
+        "longitude": 19.302012
+      }
+    }
+  },
+  "items": [
+    {
+      "product_id": "prd-1002",
+      "name": "Разводить Школьный",
+      "category": "🥦 Овощи и зелень",
+      "quantity": 2,
+      "unit": "л",
+      "price_per_unit": 232.4,
+      "total_price": 464.8,
+      "kbju": {
+        "calories": 276.5,
+        "protein": 15.9,
+        "fat": 7.0,
+        "carbohydrates": 4.4
+      },
+      "manufacturer": {
+        "name": "ОАО «Туров, Горбунова и Галкина»",
+        "country": "Россия",
+        "website": "https://oao.com",
+        "inn": "7774237965"
+      }
+    },
+    {
+      "product_id": "prd-1017",
+      "name": "Неожиданный Эпоха",
+      "category": "🥦 Овощи и зелень",
+      "quantity": 3,
+      "unit": "упаковка",
+      "price_per_unit": 187.0,
+      "total_price": 561.0,
+      "kbju": {
+        "calories": 291.5,
+        "protein": 6.8,
+        "fat": 3.0,
+        "carbohydrates": 7.4
+      },
+      "manufacturer": {
+        "name": "ЗАО «Сафонова Ларионова»",
+        "country": "Россия",
+        "website": "https://ao.org",
+        "inn": "0841571264"
+      }
+    }
+  ],
+  "total_amount": 1025.8,
+  "payment_method": "cash",
+  "is_delivery": false,
+  "delivery_address": {
+    "country": "Россия",
+    "city": "п. Вязьма",
+    "street": "наб. Радужная",
+    "house": "5",
+    "apartment": "73",
+    "postal_code": "710794"
+  },
+  "purchase_datetime": "2025-08-15T19:57:11.032716"
+}

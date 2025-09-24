@@ -1,0 +1,63 @@
+{
+  "purchase_id": "ord-00177",
+  "customer": {
+    "customer_id": "cus-1023",
+    "first_name": "Давыд",
+    "last_name": "Александров",
+    "email": "vissarion_1987@example.com",
+    "phone": "84881392433",
+    "is_loyalty_member": true,
+    "loyalty_card_number": "LOYAL-91E5CDC861"
+  },
+  "store": {
+    "store_id": "store-033",
+    "store_name": "Маленькая Пикча — Магазин на бул. Высоцкого",
+    "store_network": "Маленькая Пикча",
+    "location": {
+      "country": "Россия",
+      "city": "к. Комсомольск-на-Амуре",
+      "street": "ш. Ленина",
+      "house": "5",
+      "postal_code": "979044",
+      "coordinates": {
+        "latitude": -82.2107835,
+        "longitude": 170.986594
+      }
+    }
+  },
+  "items": [
+    {
+      "product_id": "prd-1015",
+      "name": "Войти Приходить",
+      "category": "🥛 Молочные продукты",
+      "quantity": 3,
+      "unit": "шт",
+      "price_per_unit": 92.89,
+      "total_price": 278.67,
+      "kbju": {
+        "calories": 297.1,
+        "protein": 17.3,
+        "fat": 7.9,
+        "carbohydrates": 24.3
+      },
+      "manufacturer": {
+        "name": "Гришина Лтд",
+        "country": "Россия",
+        "website": "https://ooo.net",
+        "inn": "5499321537"
+      }
+    }
+  ],
+  "total_amount": 278.67,
+  "payment_method": "card",
+  "is_delivery": true,
+  "delivery_address": {
+    "country": "Россия",
+    "city": "д. Сковородино",
+    "street": "бул. 50 лет ВЛКСМ",
+    "house": "17",
+    "apartment": "37",
+    "postal_code": "072988"
+  },
+  "purchase_datetime": "2025-09-04T19:57:11.038413"
+}

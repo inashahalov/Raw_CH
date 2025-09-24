@@ -1,0 +1,36 @@
+{
+  "customer_id": "cus-1016",
+  "first_name": "Анна",
+  "last_name": "Самойлова",
+  "email": "shubinavksenti@example.net",
+  "phone": "8 (544) 774-4118",
+  "birth_date": "2001-05-22",
+  "gender": "female",
+  "registration_date": "2025-09-23T19:57:10.934008",
+  "is_loyalty_member": true,
+  "loyalty_card_number": "LOYAL-65D213A3F5",
+  "purchase_location": {
+    "store_id": "store-017",
+    "store_name": "Большая Пикча — Магазин на наб. Терешковой",
+    "store_network": "Большая Пикча",
+    "store_type_description": "Супермаркет более 200 кв.м. Входит в сеть из 30 магазинов.",
+    "country": "Россия",
+    "city": "ст. Любань",
+    "street": "пер. Есенина",
+    "house": "255",
+    "postal_code": "515675"
+  },
+  "delivery_address": {
+    "country": "Россия",
+    "city": "ст. Любань",
+    "street": "пер. Камский",
+    "house": "974",
+    "apartment": "2",
+    "postal_code": "965257"
+  },
+  "preferences": {
+    "preferred_language": "ru",
+    "preferred_payment_method": "card",
+    "receive_promotions": false
+  }
+}

@@ -1,0 +1,36 @@
+{
+  "customer_id": "cus-1037",
+  "first_name": "Ювеналий",
+  "last_name": "Хохлов",
+  "email": "djachkovapolina@example.net",
+  "phone": "82971596132",
+  "birth_date": "1966-06-04",
+  "gender": "male",
+  "registration_date": "2025-09-23T19:57:10.946761",
+  "is_loyalty_member": true,
+  "loyalty_card_number": "LOYAL-733B019E68",
+  "purchase_location": {
+    "store_id": "store-038",
+    "store_name": "Маленькая Пикча — Магазин на бул. Папанина",
+    "store_network": "Маленькая Пикча",
+    "store_type_description": "Магазин у дома менее 100 кв.м. Входит в сеть из 15 магазинов.",
+    "country": "Россия",
+    "city": "д. Терней",
+    "street": "наб. Флотская",
+    "house": "634",
+    "postal_code": "144849"
+  },
+  "delivery_address": {
+    "country": "Россия",
+    "city": "д. Терней",
+    "street": "алл. Крупской",
+    "house": "8",
+    "apartment": "97",
+    "postal_code": "943074"
+  },
+  "preferences": {
+    "preferred_language": "ru",
+    "preferred_payment_method": "card",
+    "receive_promotions": true
+  }
+}

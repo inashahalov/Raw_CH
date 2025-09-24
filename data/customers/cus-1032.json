@@ -1,0 +1,36 @@
+{
+  "customer_id": "cus-1032",
+  "first_name": "Рубен",
+  "last_name": "Корнилов",
+  "email": "ynikolaeva@example.com",
+  "phone": "8 (658) 941-97-66",
+  "birth_date": "1972-11-10",
+  "gender": "male",
+  "registration_date": "2025-09-23T19:57:10.943800",
+  "is_loyalty_member": true,
+  "loyalty_card_number": "LOYAL-5A9D83D26F",
+  "purchase_location": {
+    "store_id": "store-033",
+    "store_name": "Маленькая Пикча — Магазин на бул. Высоцкого",
+    "store_network": "Маленькая Пикча",
+    "store_type_description": "Магазин у дома менее 100 кв.м. Входит в сеть из 15 магазинов.",
+    "country": "Россия",
+    "city": "к. Комсомольск-на-Амуре",
+    "street": "ш. Ленина",
+    "house": "5",
+    "postal_code": "979044"
+  },
+  "delivery_address": {
+    "country": "Россия",
+    "city": "к. Комсомольск-на-Амуре",
+    "street": "ул. Гафури",
+    "house": "18",
+    "apartment": "85",
+    "postal_code": "983043"
+  },
+  "preferences": {
+    "preferred_language": "ru",
+    "preferred_payment_method": "cash",
+    "receive_promotions": false
+  }
+}

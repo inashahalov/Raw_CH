@@ -1,0 +1,63 @@
+{
+  "purchase_id": "ord-00098",
+  "customer": {
+    "customer_id": "cus-1007",
+    "first_name": "Константин",
+    "last_name": "Фадеев",
+    "email": "korolevefim@example.net",
+    "phone": "8 (270) 745-5698",
+    "is_loyalty_member": true,
+    "loyalty_card_number": "LOYAL-2DFE8E6C69"
+  },
+  "store": {
+    "store_id": "store-041",
+    "store_name": "Маленькая Пикча — Магазин на наб. Буденного",
+    "store_network": "Маленькая Пикча",
+    "location": {
+      "country": "Россия",
+      "city": "клх Печенга",
+      "street": "ш. Раздольное",
+      "house": "7/9",
+      "postal_code": "426924",
+      "coordinates": {
+        "latitude": 31.407587,
+        "longitude": -5.558878
+      }
+    }
+  },
+  "items": [
+    {
+      "product_id": "prd-1017",
+      "name": "Неожиданный Эпоха",
+      "category": "🥦 Овощи и зелень",
+      "quantity": 5,
+      "unit": "упаковка",
+      "price_per_unit": 187.0,
+      "total_price": 935.0,
+      "kbju": {
+        "calories": 291.5,
+        "protein": 6.8,
+        "fat": 3.0,
+        "carbohydrates": 7.4
+      },
+      "manufacturer": {
+        "name": "ЗАО «Сафонова Ларионова»",
+        "country": "Россия",
+        "website": "https://ao.org",
+        "inn": "0841571264"
+      }
+    }
+  ],
+  "total_amount": 935.0,
+  "payment_method": "card",
+  "is_delivery": true,
+  "delivery_address": {
+    "country": "Россия",
+    "city": "клх Тихвин",
+    "street": "алл. Водопроводная",
+    "house": "309",
+    "apartment": "57",
+    "postal_code": "983642"
+  },
+  "purchase_datetime": "2025-08-20T19:57:10.997752"
+}

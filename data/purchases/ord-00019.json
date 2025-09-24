@@ -1,0 +1,63 @@
+{
+  "purchase_id": "ord-00019",
+  "customer": {
+    "customer_id": "cus-1043",
+    "first_name": "Жанна",
+    "last_name": "Сидорова",
+    "email": "ostapmoiseev@example.org",
+    "phone": "+78782851181",
+    "is_loyalty_member": true,
+    "loyalty_card_number": "LOYAL-21A26202A6"
+  },
+  "store": {
+    "store_id": "store-021",
+    "store_name": "Большая Пикча — Магазин на ш. Мусы Джалиля",
+    "store_network": "Большая Пикча",
+    "location": {
+      "country": "Россия",
+      "city": "п. Ноглики",
+      "street": "пер. Просвещения",
+      "house": "846",
+      "postal_code": "673348",
+      "coordinates": {
+        "latitude": 68.9485715,
+        "longitude": -158.508773
+      }
+    }
+  },
+  "items": [
+    {
+      "product_id": "prd-1009",
+      "name": "Заложить Спасть",
+      "category": "🥩 Мясо, рыба, яйца и бобовые",
+      "quantity": 2,
+      "unit": "шт",
+      "price_per_unit": 101.66,
+      "total_price": 203.32,
+      "kbju": {
+        "calories": 246.3,
+        "protein": 19.8,
+        "fat": 4.3,
+        "carbohydrates": 48.1
+      },
+      "manufacturer": {
+        "name": "НПО «Наумова»",
+        "country": "Россия",
+        "website": "https://rao.biz",
+        "inn": "4508864986"
+      }
+    }
+  ],
+  "total_amount": 203.32,
+  "payment_method": "cash",
+  "is_delivery": true,
+  "delivery_address": {
+    "country": "Россия",
+    "city": "ст. Богучар",
+    "street": "пер. Нефтяников",
+    "house": "9",
+    "apartment": "76",
+    "postal_code": "522549"
+  },
+  "purchase_datetime": "2025-09-05T19:57:10.959575"
+}

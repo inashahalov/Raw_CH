@@ -1,0 +1,36 @@
+{
+  "customer_id": "cus-1019",
+  "first_name": "Август",
+  "last_name": "Сергеева",
+  "email": "borisovmilan@example.com",
+  "phone": "+74992445151",
+  "birth_date": "1993-10-26",
+  "gender": "male",
+  "registration_date": "2025-09-23T19:57:10.935770",
+  "is_loyalty_member": true,
+  "loyalty_card_number": "LOYAL-935B208ACD",
+  "purchase_location": {
+    "store_id": "store-020",
+    "store_name": "Большая Пикча — Магазин на ш. Торговое",
+    "store_network": "Большая Пикча",
+    "store_type_description": "Супермаркет более 200 кв.м. Входит в сеть из 30 магазинов.",
+    "country": "Россия",
+    "city": "к. Апшеронск",
+    "street": "пр. Войкова",
+    "house": "6/9",
+    "postal_code": "046873"
+  },
+  "delivery_address": {
+    "country": "Россия",
+    "city": "к. Апшеронск",
+    "street": "пр. 70 лет Октября",
+    "house": "79",
+    "apartment": "65",
+    "postal_code": "550824"
+  },
+  "preferences": {
+    "preferred_language": "ru",
+    "preferred_payment_method": "cash",
+    "receive_promotions": false
+  }
+}
