@@ -1,0 +1,9 @@
+<?xml version="1.0"?>
+<yandex>
+    <!-- Разрешить подключения со всех интерфейсов -->
+    <listen_host>0.0.0.0</listen_host>
+    <listen_host>::</listen_host>
+
+    <!-- Явно включить HTTP-сервер на порту 8123 -->
+    <http_port>8123</http_port>
+</yandex>
