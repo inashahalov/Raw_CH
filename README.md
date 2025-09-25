@@ -609,6 +609,8 @@ ORDER BY purchase_id;
   - **Общее количество покупок**: `SELECT count(*) FROM raw_purchases`
   - **Общее количество магазинов**: `SELECT count(*) FROM raw_stores`
 
+<img width="629" height="519" alt="1 задание" src="https://github.com/user-attachments/assets/69912512-ed31-435e-b6ac-6788266e0342" />
+
 ---
 
 ## Проверка выполнения
