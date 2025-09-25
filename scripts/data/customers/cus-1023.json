@@ -1,0 +1,36 @@
+{
+  "customer_id": "cus-1023",
+  "first_name": "Глеб",
+  "last_name": "Лаврентьева",
+  "email": "nikola_91@example.net",
+  "phone": "8 395 248 0796",
+  "birth_date": "1959-12-20",
+  "gender": "male",
+  "registration_date": "2025-09-25T00:21:05.906458",
+  "is_loyalty_member": true,
+  "loyalty_card_number": "LOYAL-9CB7750EFB",
+  "purchase_location": {
+    "store_id": "store-024",
+    "store_name": "Большая Пикча — Магазин на наб. Детская",
+    "store_network": "Большая Пикча",
+    "store_type_description": "Супермаркет более 200 кв.м. Входит в сеть из 30 магазинов.",
+    "country": "Россия",
+    "city": "ст. Клин",
+    "street": "алл. Макарова",
+    "house": "5",
+    "postal_code": "420427"
+  },
+  "delivery_address": {
+    "country": "Россия",
+    "city": "ст. Клин",
+    "street": "наб. Маркса",
+    "house": "99",
+    "apartment": "96",
+    "postal_code": "828143"
+  },
+  "preferences": {
+    "preferred_language": "ru",
+    "preferred_payment_method": "cash",
+    "receive_promotions": true
+  }
+}

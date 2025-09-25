@@ -1,0 +1,105 @@
+{
+  "purchase_id": "ord-00156",
+  "customer": {
+    "customer_id": "cus-1028",
+    "first_name": "Зинаида",
+    "last_name": "Пономарев",
+    "email": "emmanuil04@example.net",
+    "phone": "8 (428) 186-9379",
+    "is_loyalty_member": true,
+    "loyalty_card_number": "LOYAL-D9355E6F5D"
+  },
+  "store": {
+    "store_id": "store-024",
+    "store_name": "Большая Пикча — Магазин на наб. Детская",
+    "store_network": "Большая Пикча",
+    "location": {
+      "country": "Россия",
+      "city": "ст. Клин",
+      "street": "алл. Макарова",
+      "house": "5",
+      "postal_code": "420427",
+      "coordinates": {
+        "latitude": 48.0666515,
+        "longitude": -10.945348
+      }
+    }
+  },
+  "items": [
+    {
+      "product_id": "prd-1005",
+      "name": "Направо Господь",
+      "category": "🥩 Мясо, рыба, яйца и бобовые",
+      "quantity": 2,
+      "unit": "л",
+      "price_per_unit": 126.73,
+      "total_price": 253.46,
+      "kbju": {
+        "calories": 93.0,
+        "protein": 13.6,
+        "fat": 2.1,
+        "carbohydrates": 20.3
+      },
+      "manufacturer": {
+        "name": "ЗАО «Титова»",
+        "country": "Россия",
+        "website": "https://npo.com",
+        "inn": "2777644639"
+      }
+    },
+    {
+      "product_id": "prd-1013",
+      "name": "Полюбить Руководитель",
+      "category": "🥦 Овощи и зелень",
+      "quantity": 4,
+      "unit": "шт",
+      "price_per_unit": 223.19,
+      "total_price": 892.76,
+      "kbju": {
+        "calories": 249.4,
+        "protein": 17.6,
+        "fat": 5.6,
+        "carbohydrates": 43.3
+      },
+      "manufacturer": {
+        "name": "Профитмед",
+        "country": "Россия",
+        "website": "https://npo.edu",
+        "inn": "4153799624"
+      }
+    },
+    {
+      "product_id": "prd-1015",
+      "name": "Советовать Горький",
+      "category": "🥖 Зерновые и хлебобулочные изделия",
+      "quantity": 4,
+      "unit": "л",
+      "price_per_unit": 74.06,
+      "total_price": 296.24,
+      "kbju": {
+        "calories": 265.6,
+        "protein": 14.1,
+        "fat": 13.9,
+        "carbohydrates": 4.2
+      },
+      "manufacturer": {
+        "name": "РАО «Пахомова-Голубев»",
+        "country": "Россия",
+        "website": "https://nlmk.biz",
+        "inn": "6002140966"
+      }
+    }
+  ],
+  "total_amount": 1442.46,
+  "payment_method": "card",
+  "is_delivery": false,
+  "delivery_address": {
+    "country": "Россия",
+    "city": "ст. Чебоксары",
+    "street": "ш. Песочное",
+    "house": "85",
+    "apartment": "6",
+    "postal_code": "044646"
+  },
+  "purchase_datetime": "2025-07-10T00:21:06.228045"
+}

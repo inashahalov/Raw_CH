@@ -1,0 +1,84 @@
+{
+  "purchase_id": "ord-00161",
+  "customer": {
+    "customer_id": "cus-1033",
+    "first_name": "Карп",
+    "last_name": "Корнилов",
+    "email": "dmitri07@example.org",
+    "phone": "83587069742",
+    "is_loyalty_member": true,
+    "loyalty_card_number": "LOYAL-389C1FF3BC"
+  },
+  "store": {
+    "store_id": "store-019",
+    "store_name": "Большая Пикча — Магазин на ул. Серова",
+    "store_network": "Большая Пикча",
+    "location": {
+      "country": "Россия",
+      "city": "г. Южно-Курильск",
+      "street": "пер. Коммунистический",
+      "house": "4",
+      "postal_code": "511510",
+      "coordinates": {
+        "latitude": -33.1503555,
+        "longitude": 22.862732
+      }
+    }
+  },
+  "items": [
+    {
+      "product_id": "prd-1004",
+      "name": "Написать Актриса",
+      "category": "🍏 Фрукты и ягоды",
+      "quantity": 5,
+      "unit": "кг",
+      "price_per_unit": 247.9,
+      "total_price": 1239.5,
+      "kbju": {
+        "calories": 90.5,
+        "protein": 3.5,
+        "fat": 0.2,
+        "carbohydrates": 19.9
+      },
+      "manufacturer": {
+        "name": "Ферронордик машины (Ferronordic)",
+        "country": "Россия",
+        "website": "https://kulikova.net",
+        "inn": "5999502719"
+      }
+    },
+    {
+      "product_id": "prd-1010",
+      "name": "Мгновение Вряд",
+      "category": "🥦 Овощи и зелень",
+      "quantity": 4,
+      "unit": "кг",
+      "price_per_unit": 149.03,
+      "total_price": 596.12,
+      "kbju": {
+        "calories": 186.1,
+        "protein": 15.0,
+        "fat": 10.1,
+        "carbohydrates": 27.3
+      },
+      "manufacturer": {
+        "name": "ИП «Блохина-Гаврилов»",
+        "country": "Россия",
+        "website": "https://oao.com",
+        "inn": "1245272063"
+      }
+    }
+  ],
+  "total_amount": 1835.62,
+  "payment_method": "card",
+  "is_delivery": false,
+  "delivery_address": {
+    "country": "Россия",
+    "city": "к. Яшалта",
+    "street": "ш. Орджоникидзе",
+    "house": "189",
+    "apartment": "41",
+    "postal_code": "555752"
+  },
+  "purchase_datetime": "2025-07-28T00:21:06.230263"
+}

@@ -1,0 +1,84 @@
+{
+  "purchase_id": "ord-00052",
+  "customer": {
+    "customer_id": "cus-1027",
+    "first_name": "Ананий",
+    "last_name": "Смирнов",
+    "email": "eremeartemev@example.org",
+    "phone": "+7 373 716 0061",
+    "is_loyalty_member": true,
+    "loyalty_card_number": "LOYAL-8563997E39"
+  },
+  "store": {
+    "store_id": "store-042",
+    "store_name": "Маленькая Пикча — Магазин на алл. 1 Мая",
+    "store_network": "Маленькая Пикча",
+    "location": {
+      "country": "Россия",
+      "city": "с. Хасан",
+      "street": "пр. Союзный",
+      "house": "30",
+      "postal_code": "343674",
+      "coordinates": {
+        "latitude": 84.753875,
+        "longitude": 159.690738
+      }
+    }
+  },
+  "items": [
+    {
+      "product_id": "prd-1005",
+      "name": "Направо Господь",
+      "category": "🥩 Мясо, рыба, яйца и бобовые",
+      "quantity": 2,
+      "unit": "л",
+      "price_per_unit": 126.73,
+      "total_price": 253.46,
+      "kbju": {
+        "calories": 93.0,
+        "protein": 13.6,
+        "fat": 2.1,
+        "carbohydrates": 20.3
+      },
+      "manufacturer": {
+        "name": "ЗАО «Титова»",
+        "country": "Россия",
+        "website": "https://npo.com",
+        "inn": "2777644639"
+      }
+    },
+    {
+      "product_id": "prd-1019",
+      "name": "Сынок Обида",
+      "category": "🍏 Фрукты и ягоды",
+      "quantity": 5,
+      "unit": "кг",
+      "price_per_unit": 86.19,
+      "total_price": 430.95,
+      "kbju": {
+        "calories": 224.4,
+        "protein": 5.9,
+        "fat": 13.9,
+        "carbohydrates": 7.6
+      },
+      "manufacturer": {
+        "name": "ООО «Шилов-Константинова»",
+        "country": "Россия",
+        "website": "https://ooo.org",
+        "inn": "6666152301"
+      }
+    }
+  ],
+  "total_amount": 684.41,
+  "payment_method": "card",
+  "is_delivery": false,
+  "delivery_address": {
+    "country": "Россия",
+    "city": "п. Великие Луки",
+    "street": "бул. Фестивальный",
+    "house": "937",
+    "apartment": "48",
+    "postal_code": "607745"
+  },
+  "purchase_datetime": "2025-09-01T00:21:05.939632"
+}

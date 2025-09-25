@@ -1,0 +1,84 @@
+{
+  "purchase_id": "ord-00168",
+  "customer": {
+    "customer_id": "cus-1020",
+    "first_name": "Эраст",
+    "last_name": "Куликова",
+    "email": "gremislavkondratev@example.net",
+    "phone": "8 672 125 64 83",
+    "is_loyalty_member": true,
+    "loyalty_card_number": "LOYAL-7883FC4DA4"
+  },
+  "store": {
+    "store_id": "store-033",
+    "store_name": "Маленькая Пикча — Магазин на пр. Дарвина",
+    "store_network": "Маленькая Пикча",
+    "location": {
+      "country": "Россия",
+      "city": "к. Анадырь",
+      "street": "ш. Володарского",
+      "house": "24",
+      "postal_code": "532143",
+      "coordinates": {
+        "latitude": 28.566183,
+        "longitude": 177.383941
+      }
+    }
+  },
+  "items": [
+    {
+      "product_id": "prd-1011",
+      "name": "Привлекать Пол",
+      "category": "🥩 Мясо, рыба, яйца и бобовые",
+      "quantity": 1,
+      "unit": "л",
+      "price_per_unit": 85.86,
+      "total_price": 85.86,
+      "kbju": {
+        "calories": 65.4,
+        "protein": 5.6,
+        "fat": 1.9,
+        "carbohydrates": 24.1
+      },
+      "manufacturer": {
+        "name": "ИП «Галкина-Терентьев»",
+        "country": "Россия",
+        "website": "https://rao.ru",
+        "inn": "5528391758"
+      }
+    },
+    {
+      "product_id": "prd-1012",
+      "name": "Школьный Анализ",
+      "category": "🥦 Овощи и зелень",
+      "quantity": 2,
+      "unit": "л",
+      "price_per_unit": 209.82,
+      "total_price": 419.64,
+      "kbju": {
+        "calories": 60.6,
+        "protein": 14.6,
+        "fat": 12.7,
+        "carbohydrates": 41.7
+      },
+      "manufacturer": {
+        "name": "ИП «Беспалов-Тимофеев»",
+        "country": "Россия",
+        "website": "https://npo.edu",
+        "inn": "6799042551"
+      }
+    }
+  ],
+  "total_amount": 505.5,
+  "payment_method": "cash",
+  "is_delivery": true,
+  "delivery_address": {
+    "country": "Россия",
+    "city": "п. Энгельс",
+    "street": "ул. Тепличная",
+    "house": "78",
+    "apartment": "45",
+    "postal_code": "770377"
+  },
+  "purchase_datetime": "2025-07-06T00:21:06.232979"
+}

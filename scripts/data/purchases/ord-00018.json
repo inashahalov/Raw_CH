@@ -1,0 +1,105 @@
+{
+  "purchase_id": "ord-00018",
+  "customer": {
+    "customer_id": "cus-1028",
+    "first_name": "Зинаида",
+    "last_name": "Пономарев",
+    "email": "emmanuil04@example.net",
+    "phone": "8 (428) 186-9379",
+    "is_loyalty_member": true,
+    "loyalty_card_number": "LOYAL-D9355E6F5D"
+  },
+  "store": {
+    "store_id": "store-042",
+    "store_name": "Маленькая Пикча — Магазин на алл. 1 Мая",
+    "store_network": "Маленькая Пикча",
+    "location": {
+      "country": "Россия",
+      "city": "с. Хасан",
+      "street": "пр. Союзный",
+      "house": "30",
+      "postal_code": "343674",
+      "coordinates": {
+        "latitude": 84.753875,
+        "longitude": 159.690738
+      }
+    }
+  },
+  "items": [
+    {
+      "product_id": "prd-1010",
+      "name": "Мгновение Вряд",
+      "category": "🥦 Овощи и зелень",
+      "quantity": 4,
+      "unit": "кг",
+      "price_per_unit": 149.03,
+      "total_price": 596.12,
+      "kbju": {
+        "calories": 186.1,
+        "protein": 15.0,
+        "fat": 10.1,
+        "carbohydrates": 27.3
+      },
+      "manufacturer": {
+        "name": "ИП «Блохина-Гаврилов»",
+        "country": "Россия",
+        "website": "https://oao.com",
+        "inn": "1245272063"
+      }
+    },
+    {
+      "product_id": "prd-1019",
+      "name": "Сынок Обида",
+      "category": "🍏 Фрукты и ягоды",
+      "quantity": 1,
+      "unit": "кг",
+      "price_per_unit": 86.19,
+      "total_price": 86.19,
+      "kbju": {
+        "calories": 224.4,
+        "protein": 5.9,
+        "fat": 13.9,
+        "carbohydrates": 7.6
+      },
+      "manufacturer": {
+        "name": "ООО «Шилов-Константинова»",
+        "country": "Россия",
+        "website": "https://ooo.org",
+        "inn": "6666152301"
+      }
+    },
+    {
+      "product_id": "prd-1001",
+      "name": "Домашний Жидкий",
+      "category": "🥛 Молочные продукты",
+      "quantity": 3,
+      "unit": "упаковка",
+      "price_per_unit": 74.5,
+      "total_price": 223.5,
+      "kbju": {
+        "calories": 173.9,
+        "protein": 3.6,
+        "fat": 11.0,
+        "carbohydrates": 7.4
+      },
+      "manufacturer": {
+        "name": "ОАО «Емельянова-Харитонов»",
+        "country": "Россия",
+        "website": "https://zao.edu",
+        "inn": "4413982995"
+      }
+    }
+  ],
+  "total_amount": 905.81,
+  "payment_method": "card",
+  "is_delivery": false,
+  "delivery_address": {
+    "country": "Россия",
+    "city": "ст. Чебоксары",
+    "street": "ш. Песочное",
+    "house": "85",
+    "apartment": "6",
+    "postal_code": "044646"
+  },
+  "purchase_datetime": "2025-08-23T00:21:05.926309"
+}

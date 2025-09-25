@@ -1,0 +1,63 @@
+{
+  "purchase_id": "ord-00039",
+  "customer": {
+    "customer_id": "cus-1037",
+    "first_name": "Ипатий",
+    "last_name": "Ларионова",
+    "email": "timurfadeev@example.org",
+    "phone": "+7 561 629 90 67",
+    "is_loyalty_member": true,
+    "loyalty_card_number": "LOYAL-FA021EE45A"
+  },
+  "store": {
+    "store_id": "store-045",
+    "store_name": "Маленькая Пикча — Магазин на пр. Дзержинского",
+    "store_network": "Маленькая Пикча",
+    "location": {
+      "country": "Россия",
+      "city": "клх Дагомыс",
+      "street": "алл. Гаражная",
+      "house": "5",
+      "postal_code": "904276",
+      "coordinates": {
+        "latitude": 67.761409,
+        "longitude": 34.841356
+      }
+    }
+  },
+  "items": [
+    {
+      "product_id": "prd-1016",
+      "name": "Школьный Очко",
+      "category": "🥖 Зерновые и хлебобулочные изделия",
+      "quantity": 5,
+      "unit": "шт",
+      "price_per_unit": 295.13,
+      "total_price": 1475.65,
+      "kbju": {
+        "calories": 156.7,
+        "protein": 8.3,
+        "fat": 6.7,
+        "carbohydrates": 49.1
+      },
+      "manufacturer": {
+        "name": "РАО «Марков»",
+        "country": "Россия",
+        "website": "https://argos.org",
+        "inn": "6328136246"
+      }
+    }
+  ],
+  "total_amount": 1475.65,
+  "payment_method": "card",
+  "is_delivery": false,
+  "delivery_address": {
+    "country": "Россия",
+    "city": "д. Сосновый Бор",
+    "street": "ул. Халтурина",
+    "house": "4/1",
+    "apartment": "98",
+    "postal_code": "590899"
+  },
+  "purchase_datetime": "2025-09-12T00:21:05.934850"
+}

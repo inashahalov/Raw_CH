@@ -1,0 +1,105 @@
+{
+  "purchase_id": "ord-00077",
+  "customer": {
+    "customer_id": "cus-1005",
+    "first_name": "Ираклий",
+    "last_name": "Брагина",
+    "email": "dmitri72@example.org",
+    "phone": "+7 584 851 63 37",
+    "is_loyalty_member": true,
+    "loyalty_card_number": "LOYAL-7FB5CD1150"
+  },
+  "store": {
+    "store_id": "store-045",
+    "store_name": "Маленькая Пикча — Магазин на пр. Дзержинского",
+    "store_network": "Маленькая Пикча",
+    "location": {
+      "country": "Россия",
+      "city": "клх Дагомыс",
+      "street": "алл. Гаражная",
+      "house": "5",
+      "postal_code": "904276",
+      "coordinates": {
+        "latitude": 67.761409,
+        "longitude": 34.841356
+      }
+    }
+  },
+  "items": [
+    {
+      "product_id": "prd-1014",
+      "name": "Опасность Следовательно",
+      "category": "🥛 Молочные продукты",
+      "quantity": 5,
+      "unit": "кг",
+      "price_per_unit": 213.21,
+      "total_price": 1066.05,
+      "kbju": {
+        "calories": 206.8,
+        "protein": 10.5,
+        "fat": 2.9,
+        "carbohydrates": 6.6
+      },
+      "manufacturer": {
+        "name": "ЗАО «Беляков, Большакова и Князева»",
+        "country": "Россия",
+        "website": "https://npo.com",
+        "inn": "0149036081"
+      }
+    },
+    {
+      "product_id": "prd-1000",
+      "name": "Привлекать Передо",
+      "category": "🥦 Овощи и зелень",
+      "quantity": 4,
+      "unit": "шт",
+      "price_per_unit": 261.89,
+      "total_price": 1047.56,
+      "kbju": {
+        "calories": 286.2,
+        "protein": 17.9,
+        "fat": 8.7,
+        "carbohydrates": 47.1
+      },
+      "manufacturer": {
+        "name": "ООО «Баранов-Пестова»",
+        "country": "Россия",
+        "website": "https://ooo.info",
+        "inn": "7520686716"
+      }
+    },
+    {
+      "product_id": "prd-1006",
+      "name": "Вытаскивать Плод",
+      "category": "🍏 Фрукты и ягоды",
+      "quantity": 1,
+      "unit": "упаковка",
+      "price_per_unit": 123.36,
+      "total_price": 123.36,
+      "kbju": {
+        "calories": 124.2,
+        "protein": 11.3,
+        "fat": 2.6,
+        "carbohydrates": 42.9
+      },
+      "manufacturer": {
+        "name": "ИП «Емельянов-Наумова»",
+        "country": "Россия",
+        "website": "https://npo.edu",
+        "inn": "9973742158"
+      }
+    }
+  ],
+  "total_amount": 2236.97,
+  "payment_method": "card",
+  "is_delivery": false,
+  "delivery_address": {
+    "country": "Россия",
+    "city": "г. Новомосковск",
+    "street": "ш. Фурманова",
+    "house": "723",
+    "apartment": "91",
+    "postal_code": "847239"
+  },
+  "purchase_datetime": "2025-07-12T00:21:05.950223"
+}

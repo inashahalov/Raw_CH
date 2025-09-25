@@ -1,0 +1,105 @@
+{
+  "purchase_id": "ord-00002",
+  "customer": {
+    "customer_id": "cus-1031",
+    "first_name": "Валентин",
+    "last_name": "Михайлова",
+    "email": "maksim2011@example.com",
+    "phone": "+70563049404",
+    "is_loyalty_member": true,
+    "loyalty_card_number": "LOYAL-BBFFDEC266"
+  },
+  "store": {
+    "store_id": "store-019",
+    "store_name": "Большая Пикча — Магазин на ул. Серова",
+    "store_network": "Большая Пикча",
+    "location": {
+      "country": "Россия",
+      "city": "г. Южно-Курильск",
+      "street": "пер. Коммунистический",
+      "house": "4",
+      "postal_code": "511510",
+      "coordinates": {
+        "latitude": -33.1503555,
+        "longitude": 22.862732
+      }
+    }
+  },
+  "items": [
+    {
+      "product_id": "prd-1008",
+      "name": "Освободить Призыв",
+      "category": "🥩 Мясо, рыба, яйца и бобовые",
+      "quantity": 1,
+      "unit": "л",
+      "price_per_unit": 265.49,
+      "total_price": 265.49,
+      "kbju": {
+        "calories": 130.4,
+        "protein": 5.2,
+        "fat": 10.6,
+        "carbohydrates": 22.8
+      },
+      "manufacturer": {
+        "name": "ИП «Маслова, Денисов и Фокина»",
+        "country": "Россия",
+        "website": "https://ignatev.com",
+        "inn": "7104068639"
+      }
+    },
+    {
+      "product_id": "prd-1014",
+      "name": "Опасность Следовательно",
+      "category": "🥛 Молочные продукты",
+      "quantity": 5,
+      "unit": "кг",
+      "price_per_unit": 213.21,
+      "total_price": 1066.05,
+      "kbju": {
+        "calories": 206.8,
+        "protein": 10.5,
+        "fat": 2.9,
+        "carbohydrates": 6.6
+      },
+      "manufacturer": {
+        "name": "ЗАО «Беляков, Большакова и Князева»",
+        "country": "Россия",
+        "website": "https://npo.com",
+        "inn": "0149036081"
+      }
+    },
+    {
+      "product_id": "prd-1019",
+      "name": "Сынок Обида",
+      "category": "🍏 Фрукты и ягоды",
+      "quantity": 3,
+      "unit": "кг",
+      "price_per_unit": 86.19,
+      "total_price": 258.57,
+      "kbju": {
+        "calories": 224.4,
+        "protein": 5.9,
+        "fat": 13.9,
+        "carbohydrates": 7.6
+      },
+      "manufacturer": {
+        "name": "ООО «Шилов-Константинова»",
+        "country": "Россия",
+        "website": "https://ooo.org",
+        "inn": "6666152301"
+      }
+    }
+  ],
+  "total_amount": 1590.11,
+  "payment_method": "card",
+  "is_delivery": false,
+  "delivery_address": {
+    "country": "Россия",
+    "city": "к. Сыктывкар",
+    "street": "ул. Путейская",
+    "house": "320",
+    "apartment": "35",
+    "postal_code": "558591"
+  },
+  "purchase_datetime": "2025-07-23T00:21:05.919696"
+}

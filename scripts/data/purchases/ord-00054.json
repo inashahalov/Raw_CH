@@ -1,0 +1,84 @@
+{
+  "purchase_id": "ord-00054",
+  "customer": {
+    "customer_id": "cus-1021",
+    "first_name": "Никанор",
+    "last_name": "Красильникова",
+    "email": "mihail1977@example.com",
+    "phone": "8 811 770 3445",
+    "is_loyalty_member": true,
+    "loyalty_card_number": "LOYAL-A495EF04B9"
+  },
+  "store": {
+    "store_id": "store-027",
+    "store_name": "Большая Пикча — Магазин на пер. Сибирский",
+    "store_network": "Большая Пикча",
+    "location": {
+      "country": "Россия",
+      "city": "г. Саранск",
+      "street": "бул. Парижской Коммуны",
+      "house": "5/1",
+      "postal_code": "320168",
+      "coordinates": {
+        "latitude": 72.4326485,
+        "longitude": 142.283966
+      }
+    }
+  },
+  "items": [
+    {
+      "product_id": "prd-1009",
+      "name": "Слать Бригада",
+      "category": "🥛 Молочные продукты",
+      "quantity": 2,
+      "unit": "л",
+      "price_per_unit": 240.9,
+      "total_price": 481.8,
+      "kbju": {
+        "calories": 156.2,
+        "protein": 15.7,
+        "fat": 13.4,
+        "carbohydrates": 7.6
+      },
+      "manufacturer": {
+        "name": "НПО «Ефимова»",
+        "country": "Россия",
+        "website": "https://ford.com",
+        "inn": "3687837951"
+      }
+    },
+    {
+      "product_id": "prd-1011",
+      "name": "Привлекать Пол",
+      "category": "🥩 Мясо, рыба, яйца и бобовые",
+      "quantity": 2,
+      "unit": "л",
+      "price_per_unit": 85.86,
+      "total_price": 171.72,
+      "kbju": {
+        "calories": 65.4,
+        "protein": 5.6,
+        "fat": 1.9,
+        "carbohydrates": 24.1
+      },
+      "manufacturer": {
+        "name": "ИП «Галкина-Терентьев»",
+        "country": "Россия",
+        "website": "https://rao.ru",
+        "inn": "5528391758"
+      }
+    }
+  ],
+  "total_amount": 653.52,
+  "payment_method": "cash",
+  "is_delivery": false,
+  "delivery_address": {
+    "country": "Россия",
+    "city": "г. Каменномостский",
+    "street": "пр. Средний",
+    "house": "80",
+    "apartment": "32",
+    "postal_code": "917327"
+  },
+  "purchase_datetime": "2025-08-02T00:21:05.940349"
+}

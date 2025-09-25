@@ -1,0 +1,84 @@
+{
+  "purchase_id": "ord-00166",
+  "customer": {
+    "customer_id": "cus-1012",
+    "first_name": "Модест",
+    "last_name": "Тетерина",
+    "email": "avdeevdobromisl@example.org",
+    "phone": "+7 (066) 573-4317",
+    "is_loyalty_member": true,
+    "loyalty_card_number": "LOYAL-C3EA95EB72"
+  },
+  "store": {
+    "store_id": "store-036",
+    "store_name": "Маленькая Пикча — Магазин на бул. Володарского",
+    "store_network": "Маленькая Пикча",
+    "location": {
+      "country": "Россия",
+      "city": "д. Екатеринбург",
+      "street": "бул. Стахановский",
+      "house": "6/2",
+      "postal_code": "399598",
+      "coordinates": {
+        "latitude": 30.924838,
+        "longitude": -116.081649
+      }
+    }
+  },
+  "items": [
+    {
+      "product_id": "prd-1014",
+      "name": "Опасность Следовательно",
+      "category": "🥛 Молочные продукты",
+      "quantity": 4,
+      "unit": "кг",
+      "price_per_unit": 213.21,
+      "total_price": 852.84,
+      "kbju": {
+        "calories": 206.8,
+        "protein": 10.5,
+        "fat": 2.9,
+        "carbohydrates": 6.6
+      },
+      "manufacturer": {
+        "name": "ЗАО «Беляков, Большакова и Князева»",
+        "country": "Россия",
+        "website": "https://npo.com",
+        "inn": "0149036081"
+      }
+    },
+    {
+      "product_id": "prd-1012",
+      "name": "Школьный Анализ",
+      "category": "🥦 Овощи и зелень",
+      "quantity": 1,
+      "unit": "л",
+      "price_per_unit": 209.82,
+      "total_price": 209.82,
+      "kbju": {
+        "calories": 60.6,
+        "protein": 14.6,
+        "fat": 12.7,
+        "carbohydrates": 41.7
+      },
+      "manufacturer": {
+        "name": "ИП «Беспалов-Тимофеев»",
+        "country": "Россия",
+        "website": "https://npo.edu",
+        "inn": "6799042551"
+      }
+    }
+  ],
+  "total_amount": 1062.66,
+  "payment_method": "card",
+  "is_delivery": false,
+  "delivery_address": {
+    "country": "Россия",
+    "city": "п. Лазаревское",
+    "street": "пр. Механический",
+    "house": "8/5",
+    "apartment": "62",
+    "postal_code": "257140"
+  },
+  "purchase_datetime": "2025-08-19T00:21:06.232291"
+}

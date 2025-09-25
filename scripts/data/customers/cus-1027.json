@@ -1,0 +1,36 @@
+{
+  "customer_id": "cus-1027",
+  "first_name": "Ананий",
+  "last_name": "Смирнов",
+  "email": "eremeartemev@example.org",
+  "phone": "+7 373 716 0061",
+  "birth_date": "2004-11-29",
+  "gender": "female",
+  "registration_date": "2025-09-25T00:21:05.908846",
+  "is_loyalty_member": true,
+  "loyalty_card_number": "LOYAL-8563997E39",
+  "purchase_location": {
+    "store_id": "store-028",
+    "store_name": "Большая Пикча — Магазин на пер. Придорожный",
+    "store_network": "Большая Пикча",
+    "store_type_description": "Супермаркет более 200 кв.м. Входит в сеть из 30 магазинов.",
+    "country": "Россия",
+    "city": "п. Великие Луки",
+    "street": "алл. Сельская",
+    "house": "9/1",
+    "postal_code": "131366"
+  },
+  "delivery_address": {
+    "country": "Россия",
+    "city": "п. Великие Луки",
+    "street": "бул. Фестивальный",
+    "house": "937",
+    "apartment": "48",
+    "postal_code": "607745"
+  },
+  "preferences": {
+    "preferred_language": "ru",
+    "preferred_payment_method": "card",
+    "receive_promotions": true
+  }
+}

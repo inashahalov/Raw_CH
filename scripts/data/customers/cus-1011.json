@@ -1,0 +1,36 @@
+{
+  "customer_id": "cus-1011",
+  "first_name": "Вячеслав",
+  "last_name": "Хохлова",
+  "email": "mamontovgorde@example.net",
+  "phone": "8 (997) 755-69-19",
+  "birth_date": "1965-12-14",
+  "gender": "male",
+  "registration_date": "2025-09-25T00:21:05.898656",
+  "is_loyalty_member": true,
+  "loyalty_card_number": "LOYAL-1E56E6FE3B",
+  "purchase_location": {
+    "store_id": "store-012",
+    "store_name": "Большая Пикча — Магазин на алл. Светлая",
+    "store_network": "Большая Пикча",
+    "store_type_description": "Супермаркет более 200 кв.м. Входит в сеть из 30 магазинов.",
+    "country": "Россия",
+    "city": "ст. Макушино",
+    "street": "пр. Российский",
+    "house": "6/9",
+    "postal_code": "793395"
+  },
+  "delivery_address": {
+    "country": "Россия",
+    "city": "ст. Макушино",
+    "street": "алл. Герцена",
+    "house": "57",
+    "apartment": "16",
+    "postal_code": "993268"
+  },
+  "preferences": {
+    "preferred_language": "ru",
+    "preferred_payment_method": "card",
+    "receive_promotions": false
+  }
+}

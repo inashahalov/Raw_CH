@@ -1,0 +1,105 @@
+{
+  "purchase_id": "ord-00081",
+  "customer": {
+    "customer_id": "cus-1004",
+    "first_name": "Мстислав",
+    "last_name": "Фомин",
+    "email": "adam_2017@example.net",
+    "phone": "+73490219511",
+    "is_loyalty_member": true,
+    "loyalty_card_number": "LOYAL-69A22C9F90"
+  },
+  "store": {
+    "store_id": "store-023",
+    "store_name": "Большая Пикча — Магазин на пер. Прудный",
+    "store_network": "Большая Пикча",
+    "location": {
+      "country": "Россия",
+      "city": "с. Владикавказ",
+      "street": "алл. Репина",
+      "house": "4",
+      "postal_code": "867024",
+      "coordinates": {
+        "latitude": -27.2311465,
+        "longitude": -151.9032
+      }
+    }
+  },
+  "items": [
+    {
+      "product_id": "prd-1003",
+      "name": "Поймать Изба",
+      "category": "🥖 Зерновые и хлебобулочные изделия",
+      "quantity": 3,
+      "unit": "шт",
+      "price_per_unit": 164.24,
+      "total_price": 492.72,
+      "kbju": {
+        "calories": 225.1,
+        "protein": 9.6,
+        "fat": 12.3,
+        "carbohydrates": 33.1
+      },
+      "manufacturer": {
+        "name": "ЗАО «Родионов»",
+        "country": "Россия",
+        "website": "https://ooo.com",
+        "inn": "2508560707"
+      }
+    },
+    {
+      "product_id": "prd-1011",
+      "name": "Привлекать Пол",
+      "category": "🥩 Мясо, рыба, яйца и бобовые",
+      "quantity": 4,
+      "unit": "л",
+      "price_per_unit": 85.86,
+      "total_price": 343.44,
+      "kbju": {
+        "calories": 65.4,
+        "protein": 5.6,
+        "fat": 1.9,
+        "carbohydrates": 24.1
+      },
+      "manufacturer": {
+        "name": "ИП «Галкина-Терентьев»",
+        "country": "Россия",
+        "website": "https://rao.ru",
+        "inn": "5528391758"
+      }
+    },
+    {
+      "product_id": "prd-1008",
+      "name": "Освободить Призыв",
+      "category": "🥩 Мясо, рыба, яйца и бобовые",
+      "quantity": 3,
+      "unit": "л",
+      "price_per_unit": 265.49,
+      "total_price": 796.47,
+      "kbju": {
+        "calories": 130.4,
+        "protein": 5.2,
+        "fat": 10.6,
+        "carbohydrates": 22.8
+      },
+      "manufacturer": {
+        "name": "ИП «Маслова, Денисов и Фокина»",
+        "country": "Россия",
+        "website": "https://ignatev.com",
+        "inn": "7104068639"
+      }
+    }
+  ],
+  "total_amount": 1632.63,
+  "payment_method": "cash",
+  "is_delivery": true,
+  "delivery_address": {
+    "country": "Россия",
+    "city": "к. Шелехов",
+    "street": "алл. Высотная",
+    "house": "4/6",
+    "apartment": "89",
+    "postal_code": "352737"
+  },
+  "purchase_datetime": "2025-07-31T00:21:05.952365"
+}

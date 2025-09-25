@@ -1,0 +1,63 @@
+{
+  "purchase_id": "ord-00013",
+  "customer": {
+    "customer_id": "cus-1036",
+    "first_name": "Ананий",
+    "last_name": "Шубин",
+    "email": "xvolkov@example.net",
+    "phone": "+7 938 461 4396",
+    "is_loyalty_member": true,
+    "loyalty_card_number": "LOYAL-E36C1302B0"
+  },
+  "store": {
+    "store_id": "store-008",
+    "store_name": "Большая Пикча — Магазин на алл. Приозерная",
+    "store_network": "Большая Пикча",
+    "location": {
+      "country": "Россия",
+      "city": "с. Ялуторовск",
+      "street": "ул. Ягодная",
+      "house": "26",
+      "postal_code": "872820",
+      "coordinates": {
+        "latitude": -64.557127,
+        "longitude": -134.286499
+      }
+    }
+  },
+  "items": [
+    {
+      "product_id": "prd-1010",
+      "name": "Мгновение Вряд",
+      "category": "🥦 Овощи и зелень",
+      "quantity": 2,
+      "unit": "кг",
+      "price_per_unit": 149.03,
+      "total_price": 298.06,
+      "kbju": {
+        "calories": 186.1,
+        "protein": 15.0,
+        "fat": 10.1,
+        "carbohydrates": 27.3
+      },
+      "manufacturer": {
+        "name": "ИП «Блохина-Гаврилов»",
+        "country": "Россия",
+        "website": "https://oao.com",
+        "inn": "1245272063"
+      }
+    }
+  ],
+  "total_amount": 298.06,
+  "payment_method": "card",
+  "is_delivery": false,
+  "delivery_address": {
+    "country": "Россия",
+    "city": "п. Курумкан",
+    "street": "пер. Лесный",
+    "house": "3/9",
+    "apartment": "46",
+    "postal_code": "741876"
+  },
+  "purchase_datetime": "2025-07-20T00:21:05.924124"
+}

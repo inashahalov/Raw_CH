@@ -1,0 +1,84 @@
+{
+  "purchase_id": "ord-00189",
+  "customer": {
+    "customer_id": "cus-1036",
+    "first_name": "Ананий",
+    "last_name": "Шубин",
+    "email": "xvolkov@example.net",
+    "phone": "+7 938 461 4396",
+    "is_loyalty_member": true,
+    "loyalty_card_number": "LOYAL-E36C1302B0"
+  },
+  "store": {
+    "store_id": "store-004",
+    "store_name": "Большая Пикча — Магазин на ул. Ломоносова",
+    "store_network": "Большая Пикча",
+    "location": {
+      "country": "Россия",
+      "city": "с. Кабанск",
+      "street": "бул. Торговый",
+      "house": "447",
+      "postal_code": "208629",
+      "coordinates": {
+        "latitude": 66.8270835,
+        "longitude": 20.541815
+      }
+    }
+  },
+  "items": [
+    {
+      "product_id": "prd-1006",
+      "name": "Вытаскивать Плод",
+      "category": "🍏 Фрукты и ягоды",
+      "quantity": 2,
+      "unit": "упаковка",
+      "price_per_unit": 123.36,
+      "total_price": 246.72,
+      "kbju": {
+        "calories": 124.2,
+        "protein": 11.3,
+        "fat": 2.6,
+        "carbohydrates": 42.9
+      },
+      "manufacturer": {
+        "name": "ИП «Емельянов-Наумова»",
+        "country": "Россия",
+        "website": "https://npo.edu",
+        "inn": "9973742158"
+      }
+    },
+    {
+      "product_id": "prd-1004",
+      "name": "Написать Актриса",
+      "category": "🍏 Фрукты и ягоды",
+      "quantity": 4,
+      "unit": "кг",
+      "price_per_unit": 247.9,
+      "total_price": 991.6,
+      "kbju": {
+        "calories": 90.5,
+        "protein": 3.5,
+        "fat": 0.2,
+        "carbohydrates": 19.9
+      },
+      "manufacturer": {
+        "name": "Ферронордик машины (Ferronordic)",
+        "country": "Россия",
+        "website": "https://kulikova.net",
+        "inn": "5999502719"
+      }
+    }
+  ],
+  "total_amount": 1238.32,
+  "payment_method": "cash",
+  "is_delivery": true,
+  "delivery_address": {
+    "country": "Россия",
+    "city": "п. Курумкан",
+    "street": "пер. Лесный",
+    "house": "3/9",
+    "apartment": "46",
+    "postal_code": "741876"
+  },
+  "purchase_datetime": "2025-07-29T00:21:06.240794"
+}

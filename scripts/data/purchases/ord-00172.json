@@ -1,0 +1,84 @@
+{
+  "purchase_id": "ord-00172",
+  "customer": {
+    "customer_id": "cus-1020",
+    "first_name": "Эраст",
+    "last_name": "Куликова",
+    "email": "gremislavkondratev@example.net",
+    "phone": "8 672 125 64 83",
+    "is_loyalty_member": true,
+    "loyalty_card_number": "LOYAL-7883FC4DA4"
+  },
+  "store": {
+    "store_id": "store-023",
+    "store_name": "Большая Пикча — Магазин на пер. Прудный",
+    "store_network": "Большая Пикча",
+    "location": {
+      "country": "Россия",
+      "city": "с. Владикавказ",
+      "street": "алл. Репина",
+      "house": "4",
+      "postal_code": "867024",
+      "coordinates": {
+        "latitude": -27.2311465,
+        "longitude": -151.9032
+      }
+    }
+  },
+  "items": [
+    {
+      "product_id": "prd-1013",
+      "name": "Полюбить Руководитель",
+      "category": "🥦 Овощи и зелень",
+      "quantity": 1,
+      "unit": "шт",
+      "price_per_unit": 223.19,
+      "total_price": 223.19,
+      "kbju": {
+        "calories": 249.4,
+        "protein": 17.6,
+        "fat": 5.6,
+        "carbohydrates": 43.3
+      },
+      "manufacturer": {
+        "name": "Профитмед",
+        "country": "Россия",
+        "website": "https://npo.edu",
+        "inn": "4153799624"
+      }
+    },
+    {
+      "product_id": "prd-1017",
+      "name": "Цель Единый",
+      "category": "🥖 Зерновые и хлебобулочные изделия",
+      "quantity": 5,
+      "unit": "упаковка",
+      "price_per_unit": 99.97,
+      "total_price": 499.85,
+      "kbju": {
+        "calories": 97.4,
+        "protein": 12.5,
+        "fat": 14.8,
+        "carbohydrates": 11.6
+      },
+      "manufacturer": {
+        "name": "АО «Белякова»",
+        "country": "Россия",
+        "website": "https://rao.com",
+        "inn": "0030371079"
+      }
+    }
+  ],
+  "total_amount": 723.04,
+  "payment_method": "cash",
+  "is_delivery": false,
+  "delivery_address": {
+    "country": "Россия",
+    "city": "п. Энгельс",
+    "street": "ул. Тепличная",
+    "house": "78",
+    "apartment": "45",
+    "postal_code": "770377"
+  },
+  "purchase_datetime": "2025-08-12T00:21:06.234385"
+}

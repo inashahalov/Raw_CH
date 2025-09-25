@@ -1,0 +1,24 @@
+{
+  "id": "prd-1004",
+  "name": "Написать Актриса",
+  "group": "🍏 Фрукты и ягоды",
+  "description": "Чувство горький миг спичка июнь оборот.",
+  "kbju": {
+    "calories": 90.5,
+    "protein": 3.5,
+    "fat": 0.2,
+    "carbohydrates": 19.9
+  },
+  "price": 247.9,
+  "unit": "кг",
+  "origin_country": "Россия",
+  "expiry_days": 21,
+  "is_organic": false,
+  "barcode": "9553657556853",
+  "manufacturer": {
+    "name": "Ферронордик машины (Ferronordic)",
+    "country": "Россия",
+    "website": "https://kulikova.net",
+    "inn": "5999502719"
+  }
+}

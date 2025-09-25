@@ -1,0 +1,84 @@
+{
+  "purchase_id": "ord-00181",
+  "customer": {
+    "customer_id": "cus-1001",
+    "first_name": "Святополк",
+    "last_name": "Рожкова",
+    "email": "galaktion_59@example.net",
+    "phone": "8 (979) 949-8623",
+    "is_loyalty_member": true,
+    "loyalty_card_number": "LOYAL-D61CBCD6EC"
+  },
+  "store": {
+    "store_id": "store-026",
+    "store_name": "Большая Пикча — Магазин на наб. Горная",
+    "store_network": "Большая Пикча",
+    "location": {
+      "country": "Россия",
+      "city": "с. Нижневартовск",
+      "street": "пер. Дарвина",
+      "house": "8",
+      "postal_code": "513083",
+      "coordinates": {
+        "latitude": -78.2781365,
+        "longitude": -138.552401
+      }
+    }
+  },
+  "items": [
+    {
+      "product_id": "prd-1008",
+      "name": "Освободить Призыв",
+      "category": "🥩 Мясо, рыба, яйца и бобовые",
+      "quantity": 2,
+      "unit": "л",
+      "price_per_unit": 265.49,
+      "total_price": 530.98,
+      "kbju": {
+        "calories": 130.4,
+        "protein": 5.2,
+        "fat": 10.6,
+        "carbohydrates": 22.8
+      },
+      "manufacturer": {
+        "name": "ИП «Маслова, Денисов и Фокина»",
+        "country": "Россия",
+        "website": "https://ignatev.com",
+        "inn": "7104068639"
+      }
+    },
+    {
+      "product_id": "prd-1004",
+      "name": "Написать Актриса",
+      "category": "🍏 Фрукты и ягоды",
+      "quantity": 1,
+      "unit": "кг",
+      "price_per_unit": 247.9,
+      "total_price": 247.9,
+      "kbju": {
+        "calories": 90.5,
+        "protein": 3.5,
+        "fat": 0.2,
+        "carbohydrates": 19.9
+      },
+      "manufacturer": {
+        "name": "Ферронордик машины (Ferronordic)",
+        "country": "Россия",
+        "website": "https://kulikova.net",
+        "inn": "5999502719"
+      }
+    }
+  ],
+  "total_amount": 778.88,
+  "payment_method": "cash",
+  "is_delivery": false,
+  "delivery_address": {
+    "country": "Россия",
+    "city": "клх Видное",
+    "street": "пр. Торговый",
+    "house": "5",
+    "apartment": "62",
+    "postal_code": "699953"
+  },
+  "purchase_datetime": "2025-09-03T00:21:06.237810"
+}

@@ -1,0 +1,105 @@
+{
+  "purchase_id": "ord-00129",
+  "customer": {
+    "customer_id": "cus-1012",
+    "first_name": "Модест",
+    "last_name": "Тетерина",
+    "email": "avdeevdobromisl@example.org",
+    "phone": "+7 (066) 573-4317",
+    "is_loyalty_member": true,
+    "loyalty_card_number": "LOYAL-C3EA95EB72"
+  },
+  "store": {
+    "store_id": "store-029",
+    "store_name": "Большая Пикча — Магазин на ш. Владимирское",
+    "store_network": "Большая Пикча",
+    "location": {
+      "country": "Россия",
+      "city": "ст. Чебоксары",
+      "street": "наб. Тюленина",
+      "house": "5",
+      "postal_code": "132041",
+      "coordinates": {
+        "latitude": 64.245416,
+        "longitude": -159.654898
+      }
+    }
+  },
+  "items": [
+    {
+      "product_id": "prd-1000",
+      "name": "Привлекать Передо",
+      "category": "🥦 Овощи и зелень",
+      "quantity": 1,
+      "unit": "шт",
+      "price_per_unit": 261.89,
+      "total_price": 261.89,
+      "kbju": {
+        "calories": 286.2,
+        "protein": 17.9,
+        "fat": 8.7,
+        "carbohydrates": 47.1
+      },
+      "manufacturer": {
+        "name": "ООО «Баранов-Пестова»",
+        "country": "Россия",
+        "website": "https://ooo.info",
+        "inn": "7520686716"
+      }
+    },
+    {
+      "product_id": "prd-1005",
+      "name": "Направо Господь",
+      "category": "🥩 Мясо, рыба, яйца и бобовые",
+      "quantity": 2,
+      "unit": "л",
+      "price_per_unit": 126.73,
+      "total_price": 253.46,
+      "kbju": {
+        "calories": 93.0,
+        "protein": 13.6,
+        "fat": 2.1,
+        "carbohydrates": 20.3
+      },
+      "manufacturer": {
+        "name": "ЗАО «Титова»",
+        "country": "Россия",
+        "website": "https://npo.com",
+        "inn": "2777644639"
+      }
+    },
+    {
+      "product_id": "prd-1019",
+      "name": "Сынок Обида",
+      "category": "🍏 Фрукты и ягоды",
+      "quantity": 3,
+      "unit": "кг",
+      "price_per_unit": 86.19,
+      "total_price": 258.57,
+      "kbju": {
+        "calories": 224.4,
+        "protein": 5.9,
+        "fat": 13.9,
+        "carbohydrates": 7.6
+      },
+      "manufacturer": {
+        "name": "ООО «Шилов-Константинова»",
+        "country": "Россия",
+        "website": "https://ooo.org",
+        "inn": "6666152301"
+      }
+    }
+  ],
+  "total_amount": 773.92,
+  "payment_method": "cash",
+  "is_delivery": false,
+  "delivery_address": {
+    "country": "Россия",
+    "city": "п. Лазаревское",
+    "street": "пр. Механический",
+    "house": "8/5",
+    "apartment": "62",
+    "postal_code": "257140"
+  },
+  "purchase_datetime": "2025-08-31T00:21:05.973764"
+}

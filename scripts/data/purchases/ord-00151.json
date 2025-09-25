@@ -1,0 +1,63 @@
+{
+  "purchase_id": "ord-00151",
+  "customer": {
+    "customer_id": "cus-1010",
+    "first_name": "Мартьян",
+    "last_name": "Ларионов",
+    "email": "kpestova@example.com",
+    "phone": "+7 229 169 07 41",
+    "is_loyalty_member": true,
+    "loyalty_card_number": "LOYAL-DB4F6E6E4D"
+  },
+  "store": {
+    "store_id": "store-013",
+    "store_name": "Большая Пикча — Магазин на алл. Мелиоративная",
+    "store_network": "Большая Пикча",
+    "location": {
+      "country": "Россия",
+      "city": "п. Лазаревское",
+      "street": "пер. Малый",
+      "house": "88",
+      "postal_code": "425601",
+      "coordinates": {
+        "latitude": -84.4676175,
+        "longitude": -90.154137
+      }
+    }
+  },
+  "items": [
+    {
+      "product_id": "prd-1017",
+      "name": "Цель Единый",
+      "category": "🥖 Зерновые и хлебобулочные изделия",
+      "quantity": 4,
+      "unit": "упаковка",
+      "price_per_unit": 99.97,
+      "total_price": 399.88,
+      "kbju": {
+        "calories": 97.4,
+        "protein": 12.5,
+        "fat": 14.8,
+        "carbohydrates": 11.6
+      },
+      "manufacturer": {
+        "name": "АО «Белякова»",
+        "country": "Россия",
+        "website": "https://rao.com",
+        "inn": "0030371079"
+      }
+    }
+  ],
+  "total_amount": 399.88,
+  "payment_method": "cash",
+  "is_delivery": false,
+  "delivery_address": {
+    "country": "Россия",
+    "city": "клх Шали",
+    "street": "наб. Курчатова",
+    "house": "26",
+    "apartment": "100",
+    "postal_code": "877623"
+  },
+  "purchase_datetime": "2025-09-12T00:21:06.225507"
+}

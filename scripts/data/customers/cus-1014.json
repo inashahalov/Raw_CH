@@ -1,0 +1,36 @@
+{
+  "customer_id": "cus-1014",
+  "first_name": "Вера",
+  "last_name": "Логинова",
+  "email": "sofron_04@example.com",
+  "phone": "8 (794) 601-51-70",
+  "birth_date": "1966-08-09",
+  "gender": "female",
+  "registration_date": "2025-09-25T00:21:05.900528",
+  "is_loyalty_member": true,
+  "loyalty_card_number": "LOYAL-85166218B3",
+  "purchase_location": {
+    "store_id": "store-015",
+    "store_name": "Большая Пикча — Магазин на алл. Пархоменко",
+    "store_network": "Большая Пикча",
+    "store_type_description": "Супермаркет более 200 кв.м. Входит в сеть из 30 магазинов.",
+    "country": "Россия",
+    "city": "с. Минусинск",
+    "street": "ул. Прудная",
+    "house": "2",
+    "postal_code": "166699"
+  },
+  "delivery_address": {
+    "country": "Россия",
+    "city": "с. Минусинск",
+    "street": "ул. Семашко",
+    "house": "308",
+    "apartment": "11",
+    "postal_code": "401472"
+  },
+  "preferences": {
+    "preferred_language": "ru",
+    "preferred_payment_method": "card",
+    "receive_promotions": false
+  }
+}

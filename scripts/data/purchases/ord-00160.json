@@ -1,0 +1,63 @@
+{
+  "purchase_id": "ord-00160",
+  "customer": {
+    "customer_id": "cus-1040",
+    "first_name": "Поликарп",
+    "last_name": "Ефимов",
+    "email": "ermilsavin@example.com",
+    "phone": "8 018 957 0132",
+    "is_loyalty_member": true,
+    "loyalty_card_number": "LOYAL-C977953C5A"
+  },
+  "store": {
+    "store_id": "store-031",
+    "store_name": "Маленькая Пикча — Магазин на ш. Декабристов",
+    "store_network": "Маленькая Пикча",
+    "location": {
+      "country": "Россия",
+      "city": "п. Каменск-Уральский",
+      "street": "пр. Первомайский",
+      "house": "80",
+      "postal_code": "030700",
+      "coordinates": {
+        "latitude": -55.303203,
+        "longitude": -34.195107
+      }
+    }
+  },
+  "items": [
+    {
+      "product_id": "prd-1018",
+      "name": "Зачем Пол",
+      "category": "🍏 Фрукты и ягоды",
+      "quantity": 2,
+      "unit": "кг",
+      "price_per_unit": 247.99,
+      "total_price": 495.98,
+      "kbju": {
+        "calories": 236.7,
+        "protein": 5.8,
+        "fat": 10.9,
+        "carbohydrates": 13.1
+      },
+      "manufacturer": {
+        "name": "ОАО «Панов-Воробьева»",
+        "country": "Россия",
+        "website": "https://rao.edu",
+        "inn": "5397679829"
+      }
+    }
+  ],
+  "total_amount": 495.98,
+  "payment_method": "card",
+  "is_delivery": false,
+  "delivery_address": {
+    "country": "Россия",
+    "city": "ст. Юрьевец (Иван.)",
+    "street": "наб. Социалистическая",
+    "house": "27",
+    "apartment": "24",
+    "postal_code": "060808"
+  },
+  "purchase_datetime": "2025-08-27T00:21:06.229881"
+}

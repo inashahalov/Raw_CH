@@ -1,0 +1,36 @@
+{
+  "customer_id": "cus-1003",
+  "first_name": "Полина",
+  "last_name": "Шарова",
+  "email": "valerija_1971@example.net",
+  "phone": "+74365505643",
+  "birth_date": "1991-11-01",
+  "gender": "male",
+  "registration_date": "2025-09-25T00:21:05.893157",
+  "is_loyalty_member": true,
+  "loyalty_card_number": "LOYAL-C222052A45",
+  "purchase_location": {
+    "store_id": "store-004",
+    "store_name": "Большая Пикча — Магазин на ул. Ломоносова",
+    "store_network": "Большая Пикча",
+    "store_type_description": "Супермаркет более 200 кв.м. Входит в сеть из 30 магазинов.",
+    "country": "Россия",
+    "city": "с. Кабанск",
+    "street": "бул. Торговый",
+    "house": "447",
+    "postal_code": "208629"
+  },
+  "delivery_address": {
+    "country": "Россия",
+    "city": "с. Кабанск",
+    "street": "наб. Саратовская",
+    "house": "5",
+    "apartment": "29",
+    "postal_code": "362727"
+  },
+  "preferences": {
+    "preferred_language": "ru",
+    "preferred_payment_method": "card",
+    "receive_promotions": true
+  }
+}

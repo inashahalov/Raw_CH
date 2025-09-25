@@ -1,0 +1,36 @@
+{
+  "customer_id": "cus-1031",
+  "first_name": "Валентин",
+  "last_name": "Михайлова",
+  "email": "maksim2011@example.com",
+  "phone": "+70563049404",
+  "birth_date": "2003-02-14",
+  "gender": "female",
+  "registration_date": "2025-09-25T00:21:05.911640",
+  "is_loyalty_member": true,
+  "loyalty_card_number": "LOYAL-BBFFDEC266",
+  "purchase_location": {
+    "store_id": "store-032",
+    "store_name": "Маленькая Пикча — Магазин на бул. Цветочный",
+    "store_network": "Маленькая Пикча",
+    "store_type_description": "Магазин у дома менее 100 кв.м. Входит в сеть из 15 магазинов.",
+    "country": "Россия",
+    "city": "к. Сыктывкар",
+    "street": "пр. Локомотивный",
+    "house": "891",
+    "postal_code": "063771"
+  },
+  "delivery_address": {
+    "country": "Россия",
+    "city": "к. Сыктывкар",
+    "street": "ул. Путейская",
+    "house": "320",
+    "apartment": "35",
+    "postal_code": "558591"
+  },
+  "preferences": {
+    "preferred_language": "ru",
+    "preferred_payment_method": "card",
+    "receive_promotions": false
+  }
+}

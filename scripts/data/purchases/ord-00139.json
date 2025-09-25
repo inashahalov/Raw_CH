@@ -1,0 +1,63 @@
+{
+  "purchase_id": "ord-00139",
+  "customer": {
+    "customer_id": "cus-1034",
+    "first_name": "Глеб",
+    "last_name": "Суханова",
+    "email": "frolovipat@example.org",
+    "phone": "+7 828 354 05 71",
+    "is_loyalty_member": true,
+    "loyalty_card_number": "LOYAL-4B3C52328F"
+  },
+  "store": {
+    "store_id": "store-030",
+    "store_name": "Большая Пикча — Магазин на алл. Кузнецкая",
+    "store_network": "Большая Пикча",
+    "location": {
+      "country": "Россия",
+      "city": "д. Учалы",
+      "street": "алл. Димитрова",
+      "house": "3",
+      "postal_code": "234970",
+      "coordinates": {
+        "latitude": 76.7471465,
+        "longitude": -99.722231
+      }
+    }
+  },
+  "items": [
+    {
+      "product_id": "prd-1002",
+      "name": "Еврейский Отражение",
+      "category": "🥩 Мясо, рыба, яйца и бобовые",
+      "quantity": 2,
+      "unit": "упаковка",
+      "price_per_unit": 268.07,
+      "total_price": 536.14,
+      "kbju": {
+        "calories": 264.5,
+        "protein": 5.4,
+        "fat": 13.4,
+        "carbohydrates": 29.2
+      },
+      "manufacturer": {
+        "name": "ОАО «Мишин-Виноградова»",
+        "country": "Россия",
+        "website": "https://ooo.edu",
+        "inn": "8371422850"
+      }
+    }
+  ],
+  "total_amount": 536.14,
+  "payment_method": "card",
+  "is_delivery": false,
+  "delivery_address": {
+    "country": "Россия",
+    "city": "п. Нерчинск",
+    "street": "пер. Красный",
+    "house": "4",
+    "apartment": "61",
+    "postal_code": "843709"
+  },
+  "purchase_datetime": "2025-08-23T00:21:06.216954"
+}

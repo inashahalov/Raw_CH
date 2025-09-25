@@ -1,0 +1,36 @@
+{
+  "customer_id": "cus-1043",
+  "first_name": "Кир",
+  "last_name": "Калашников",
+  "email": "bsamsonov@example.org",
+  "phone": "+7 (013) 078-6626",
+  "birth_date": "1966-10-02",
+  "gender": "male",
+  "registration_date": "2025-09-25T00:21:05.918052",
+  "is_loyalty_member": true,
+  "loyalty_card_number": "LOYAL-920D6D926B",
+  "purchase_location": {
+    "store_id": "store-044",
+    "store_name": "Маленькая Пикча — Магазин на ш. Урожайное",
+    "store_network": "Маленькая Пикча",
+    "store_type_description": "Магазин у дома менее 100 кв.м. Входит в сеть из 15 магазинов.",
+    "country": "Россия",
+    "city": "ст. Клин",
+    "street": "ул. Стадионная",
+    "house": "83",
+    "postal_code": "105750"
+  },
+  "delivery_address": {
+    "country": "Россия",
+    "city": "ст. Клин",
+    "street": "алл. Седова",
+    "house": "39",
+    "apartment": "77",
+    "postal_code": "957804"
+  },
+  "preferences": {
+    "preferred_language": "ru",
+    "preferred_payment_method": "cash",
+    "receive_promotions": false
+  }
+}

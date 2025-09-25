@@ -1,0 +1,84 @@
+{
+  "purchase_id": "ord-00006",
+  "customer": {
+    "customer_id": "cus-1040",
+    "first_name": "Поликарп",
+    "last_name": "Ефимов",
+    "email": "ermilsavin@example.com",
+    "phone": "8 018 957 0132",
+    "is_loyalty_member": true,
+    "loyalty_card_number": "LOYAL-C977953C5A"
+  },
+  "store": {
+    "store_id": "store-012",
+    "store_name": "Большая Пикча — Магазин на алл. Светлая",
+    "store_network": "Большая Пикча",
+    "location": {
+      "country": "Россия",
+      "city": "ст. Макушино",
+      "street": "пр. Российский",
+      "house": "6/9",
+      "postal_code": "793395",
+      "coordinates": {
+        "latitude": 53.1520475,
+        "longitude": 132.28453
+      }
+    }
+  },
+  "items": [
+    {
+      "product_id": "prd-1011",
+      "name": "Привлекать Пол",
+      "category": "🥩 Мясо, рыба, яйца и бобовые",
+      "quantity": 2,
+      "unit": "л",
+      "price_per_unit": 85.86,
+      "total_price": 171.72,
+      "kbju": {
+        "calories": 65.4,
+        "protein": 5.6,
+        "fat": 1.9,
+        "carbohydrates": 24.1
+      },
+      "manufacturer": {
+        "name": "ИП «Галкина-Терентьев»",
+        "country": "Россия",
+        "website": "https://rao.ru",
+        "inn": "5528391758"
+      }
+    },
+    {
+      "product_id": "prd-1005",
+      "name": "Направо Господь",
+      "category": "🥩 Мясо, рыба, яйца и бобовые",
+      "quantity": 2,
+      "unit": "л",
+      "price_per_unit": 126.73,
+      "total_price": 253.46,
+      "kbju": {
+        "calories": 93.0,
+        "protein": 13.6,
+        "fat": 2.1,
+        "carbohydrates": 20.3
+      },
+      "manufacturer": {
+        "name": "ЗАО «Титова»",
+        "country": "Россия",
+        "website": "https://npo.com",
+        "inn": "2777644639"
+      }
+    }
+  ],
+  "total_amount": 425.18,
+  "payment_method": "cash",
+  "is_delivery": true,
+  "delivery_address": {
+    "country": "Россия",
+    "city": "ст. Юрьевец (Иван.)",
+    "street": "наб. Социалистическая",
+    "house": "27",
+    "apartment": "24",
+    "postal_code": "060808"
+  },
+  "purchase_datetime": "2025-09-25T00:21:05.921425"
+}

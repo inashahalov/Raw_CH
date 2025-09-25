@@ -1,0 +1,84 @@
+{
+  "purchase_id": "ord-00115",
+  "customer": {
+    "customer_id": "cus-1030",
+    "first_name": "Творимир",
+    "last_name": "Шарапова",
+    "email": "adam93@example.org",
+    "phone": "8 626 115 05 00",
+    "is_loyalty_member": true,
+    "loyalty_card_number": "LOYAL-2C56B514D9"
+  },
+  "store": {
+    "store_id": "store-038",
+    "store_name": "Маленькая Пикча — Магазин на ш. Шахтерское",
+    "store_network": "Маленькая Пикча",
+    "location": {
+      "country": "Россия",
+      "city": "д. Сосновый Бор",
+      "street": "пр. Новый",
+      "house": "8",
+      "postal_code": "442480",
+      "coordinates": {
+        "latitude": -48.355729,
+        "longitude": -128.321237
+      }
+    }
+  },
+  "items": [
+    {
+      "product_id": "prd-1004",
+      "name": "Написать Актриса",
+      "category": "🍏 Фрукты и ягоды",
+      "quantity": 2,
+      "unit": "кг",
+      "price_per_unit": 247.9,
+      "total_price": 495.8,
+      "kbju": {
+        "calories": 90.5,
+        "protein": 3.5,
+        "fat": 0.2,
+        "carbohydrates": 19.9
+      },
+      "manufacturer": {
+        "name": "Ферронордик машины (Ferronordic)",
+        "country": "Россия",
+        "website": "https://kulikova.net",
+        "inn": "5999502719"
+      }
+    },
+    {
+      "product_id": "prd-1007",
+      "name": "Пища Беспомощный",
+      "category": "🥦 Овощи и зелень",
+      "quantity": 4,
+      "unit": "л",
+      "price_per_unit": 61.58,
+      "total_price": 246.32,
+      "kbju": {
+        "calories": 155.9,
+        "protein": 7.5,
+        "fat": 9.2,
+        "carbohydrates": 7.7
+      },
+      "manufacturer": {
+        "name": "АО «Гущин-Карпов»",
+        "country": "Россия",
+        "website": "https://ip.net",
+        "inn": "7668416058"
+      }
+    }
+  ],
+  "total_amount": 742.12,
+  "payment_method": "card",
+  "is_delivery": true,
+  "delivery_address": {
+    "country": "Россия",
+    "city": "п. Каменск-Уральский",
+    "street": "пр. Карьерный",
+    "house": "4",
+    "apartment": "6",
+    "postal_code": "185882"
+  },
+  "purchase_datetime": "2025-06-29T00:21:05.967063"
+}

@@ -1,0 +1,105 @@
+{
+  "purchase_id": "ord-00098",
+  "customer": {
+    "customer_id": "cus-1040",
+    "first_name": "Поликарп",
+    "last_name": "Ефимов",
+    "email": "ermilsavin@example.com",
+    "phone": "8 018 957 0132",
+    "is_loyalty_member": true,
+    "loyalty_card_number": "LOYAL-C977953C5A"
+  },
+  "store": {
+    "store_id": "store-018",
+    "store_name": "Большая Пикча — Магазин на ш. Колхозное",
+    "store_network": "Большая Пикча",
+    "location": {
+      "country": "Россия",
+      "city": "п. Урюпинск",
+      "street": "ул. Королева",
+      "house": "5",
+      "postal_code": "809286",
+      "coordinates": {
+        "latitude": 9.686733,
+        "longitude": 33.027261
+      }
+    }
+  },
+  "items": [
+    {
+      "product_id": "prd-1013",
+      "name": "Полюбить Руководитель",
+      "category": "🥦 Овощи и зелень",
+      "quantity": 5,
+      "unit": "шт",
+      "price_per_unit": 223.19,
+      "total_price": 1115.95,
+      "kbju": {
+        "calories": 249.4,
+        "protein": 17.6,
+        "fat": 5.6,
+        "carbohydrates": 43.3
+      },
+      "manufacturer": {
+        "name": "Профитмед",
+        "country": "Россия",
+        "website": "https://npo.edu",
+        "inn": "4153799624"
+      }
+    },
+    {
+      "product_id": "prd-1017",
+      "name": "Цель Единый",
+      "category": "🥖 Зерновые и хлебобулочные изделия",
+      "quantity": 3,
+      "unit": "упаковка",
+      "price_per_unit": 99.97,
+      "total_price": 299.91,
+      "kbju": {
+        "calories": 97.4,
+        "protein": 12.5,
+        "fat": 14.8,
+        "carbohydrates": 11.6
+      },
+      "manufacturer": {
+        "name": "АО «Белякова»",
+        "country": "Россия",
+        "website": "https://rao.com",
+        "inn": "0030371079"
+      }
+    },
+    {
+      "product_id": "prd-1002",
+      "name": "Еврейский Отражение",
+      "category": "🥩 Мясо, рыба, яйца и бобовые",
+      "quantity": 4,
+      "unit": "упаковка",
+      "price_per_unit": 268.07,
+      "total_price": 1072.28,
+      "kbju": {
+        "calories": 264.5,
+        "protein": 5.4,
+        "fat": 13.4,
+        "carbohydrates": 29.2
+      },
+      "manufacturer": {
+        "name": "ОАО «Мишин-Виноградова»",
+        "country": "Россия",
+        "website": "https://ooo.edu",
+        "inn": "8371422850"
+      }
+    }
+  ],
+  "total_amount": 2488.14,
+  "payment_method": "cash",
+  "is_delivery": false,
+  "delivery_address": {
+    "country": "Россия",
+    "city": "ст. Юрьевец (Иван.)",
+    "street": "наб. Социалистическая",
+    "house": "27",
+    "apartment": "24",
+    "postal_code": "060808"
+  },
+  "purchase_datetime": "2025-08-30T00:21:05.958813"
+}

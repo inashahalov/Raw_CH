@@ -1,0 +1,105 @@
+{
+  "purchase_id": "ord-00030",
+  "customer": {
+    "customer_id": "cus-1013",
+    "first_name": "Селиван",
+    "last_name": "Савельев",
+    "email": "vissarion_40@example.com",
+    "phone": "+71178778499",
+    "is_loyalty_member": true,
+    "loyalty_card_number": "LOYAL-CA2847D92B"
+  },
+  "store": {
+    "store_id": "store-018",
+    "store_name": "Большая Пикча — Магазин на ш. Колхозное",
+    "store_network": "Большая Пикча",
+    "location": {
+      "country": "Россия",
+      "city": "п. Урюпинск",
+      "street": "ул. Королева",
+      "house": "5",
+      "postal_code": "809286",
+      "coordinates": {
+        "latitude": 9.686733,
+        "longitude": 33.027261
+      }
+    }
+  },
+  "items": [
+    {
+      "product_id": "prd-1000",
+      "name": "Привлекать Передо",
+      "category": "🥦 Овощи и зелень",
+      "quantity": 1,
+      "unit": "шт",
+      "price_per_unit": 261.89,
+      "total_price": 261.89,
+      "kbju": {
+        "calories": 286.2,
+        "protein": 17.9,
+        "fat": 8.7,
+        "carbohydrates": 47.1
+      },
+      "manufacturer": {
+        "name": "ООО «Баранов-Пестова»",
+        "country": "Россия",
+        "website": "https://ooo.info",
+        "inn": "7520686716"
+      }
+    },
+    {
+      "product_id": "prd-1014",
+      "name": "Опасность Следовательно",
+      "category": "🥛 Молочные продукты",
+      "quantity": 2,
+      "unit": "кг",
+      "price_per_unit": 213.21,
+      "total_price": 426.42,
+      "kbju": {
+        "calories": 206.8,
+        "protein": 10.5,
+        "fat": 2.9,
+        "carbohydrates": 6.6
+      },
+      "manufacturer": {
+        "name": "ЗАО «Беляков, Большакова и Князева»",
+        "country": "Россия",
+        "website": "https://npo.com",
+        "inn": "0149036081"
+      }
+    },
+    {
+      "product_id": "prd-1008",
+      "name": "Освободить Призыв",
+      "category": "🥩 Мясо, рыба, яйца и бобовые",
+      "quantity": 4,
+      "unit": "л",
+      "price_per_unit": 265.49,
+      "total_price": 1061.96,
+      "kbju": {
+        "calories": 130.4,
+        "protein": 5.2,
+        "fat": 10.6,
+        "carbohydrates": 22.8
+      },
+      "manufacturer": {
+        "name": "ИП «Маслова, Денисов и Фокина»",
+        "country": "Россия",
+        "website": "https://ignatev.com",
+        "inn": "7104068639"
+      }
+    }
+  ],
+  "total_amount": 1750.27,
+  "payment_method": "cash",
+  "is_delivery": false,
+  "delivery_address": {
+    "country": "Россия",
+    "city": "п. Качканар",
+    "street": "пр. Геологов",
+    "house": "882",
+    "apartment": "57",
+    "postal_code": "363767"
+  },
+  "purchase_datetime": "2025-07-26T00:21:05.931447"
+}

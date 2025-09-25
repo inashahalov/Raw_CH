@@ -1,0 +1,36 @@
+{
+  "customer_id": "cus-1004",
+  "first_name": "Мстислав",
+  "last_name": "Фомин",
+  "email": "adam_2017@example.net",
+  "phone": "+73490219511",
+  "birth_date": "1972-05-27",
+  "gender": "male",
+  "registration_date": "2025-09-25T00:21:05.893696",
+  "is_loyalty_member": true,
+  "loyalty_card_number": "LOYAL-69A22C9F90",
+  "purchase_location": {
+    "store_id": "store-005",
+    "store_name": "Большая Пикча — Магазин на наб. Павлика Морозова",
+    "store_network": "Большая Пикча",
+    "store_type_description": "Супермаркет более 200 кв.м. Входит в сеть из 30 магазинов.",
+    "country": "Россия",
+    "city": "к. Шелехов",
+    "street": "ул. Челюскинцев",
+    "house": "4",
+    "postal_code": "513570"
+  },
+  "delivery_address": {
+    "country": "Россия",
+    "city": "к. Шелехов",
+    "street": "алл. Высотная",
+    "house": "4/6",
+    "apartment": "89",
+    "postal_code": "352737"
+  },
+  "preferences": {
+    "preferred_language": "ru",
+    "preferred_payment_method": "cash",
+    "receive_promotions": true
+  }
+}

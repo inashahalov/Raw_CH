@@ -1,0 +1,36 @@
+{
+  "customer_id": "cus-1033",
+  "first_name": "Карп",
+  "last_name": "Корнилов",
+  "email": "dmitri07@example.org",
+  "phone": "83587069742",
+  "birth_date": "2005-03-22",
+  "gender": "female",
+  "registration_date": "2025-09-25T00:21:05.913010",
+  "is_loyalty_member": true,
+  "loyalty_card_number": "LOYAL-389C1FF3BC",
+  "purchase_location": {
+    "store_id": "store-034",
+    "store_name": "Маленькая Пикча — Магазин на пер. Большевистский",
+    "store_network": "Маленькая Пикча",
+    "store_type_description": "Магазин у дома менее 100 кв.м. Входит в сеть из 15 магазинов.",
+    "country": "Россия",
+    "city": "к. Яшалта",
+    "street": "алл. Лунная",
+    "house": "3",
+    "postal_code": "125791"
+  },
+  "delivery_address": {
+    "country": "Россия",
+    "city": "к. Яшалта",
+    "street": "ш. Орджоникидзе",
+    "house": "189",
+    "apartment": "41",
+    "postal_code": "555752"
+  },
+  "preferences": {
+    "preferred_language": "ru",
+    "preferred_payment_method": "card",
+    "receive_promotions": true
+  }
+}

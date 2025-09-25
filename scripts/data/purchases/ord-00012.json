@@ -1,0 +1,105 @@
+{
+  "purchase_id": "ord-00012",
+  "customer": {
+    "customer_id": "cus-1041",
+    "first_name": "Наум",
+    "last_name": "Симонов",
+    "email": "valentinsharov@example.com",
+    "phone": "89031911463",
+    "is_loyalty_member": true,
+    "loyalty_card_number": "LOYAL-19C84B142A"
+  },
+  "store": {
+    "store_id": "store-007",
+    "store_name": "Большая Пикча — Магазин на пр. Механический",
+    "store_network": "Большая Пикча",
+    "location": {
+      "country": "Россия",
+      "city": "клх Шумиха",
+      "street": "бул. Невского",
+      "house": "64",
+      "postal_code": "269152",
+      "coordinates": {
+        "latitude": 39.768381,
+        "longitude": 87.782488
+      }
+    }
+  },
+  "items": [
+    {
+      "product_id": "prd-1006",
+      "name": "Вытаскивать Плод",
+      "category": "🍏 Фрукты и ягоды",
+      "quantity": 2,
+      "unit": "упаковка",
+      "price_per_unit": 123.36,
+      "total_price": 246.72,
+      "kbju": {
+        "calories": 124.2,
+        "protein": 11.3,
+        "fat": 2.6,
+        "carbohydrates": 42.9
+      },
+      "manufacturer": {
+        "name": "ИП «Емельянов-Наумова»",
+        "country": "Россия",
+        "website": "https://npo.edu",
+        "inn": "9973742158"
+      }
+    },
+    {
+      "product_id": "prd-1014",
+      "name": "Опасность Следовательно",
+      "category": "🥛 Молочные продукты",
+      "quantity": 1,
+      "unit": "кг",
+      "price_per_unit": 213.21,
+      "total_price": 213.21,
+      "kbju": {
+        "calories": 206.8,
+        "protein": 10.5,
+        "fat": 2.9,
+        "carbohydrates": 6.6
+      },
+      "manufacturer": {
+        "name": "ЗАО «Беляков, Большакова и Князева»",
+        "country": "Россия",
+        "website": "https://npo.com",
+        "inn": "0149036081"
+      }
+    },
+    {
+      "product_id": "prd-1013",
+      "name": "Полюбить Руководитель",
+      "category": "🥦 Овощи и зелень",
+      "quantity": 5,
+      "unit": "шт",
+      "price_per_unit": 223.19,
+      "total_price": 1115.95,
+      "kbju": {
+        "calories": 249.4,
+        "protein": 17.6,
+        "fat": 5.6,
+        "carbohydrates": 43.3
+      },
+      "manufacturer": {
+        "name": "Профитмед",
+        "country": "Россия",
+        "website": "https://npo.edu",
+        "inn": "4153799624"
+      }
+    }
+  ],
+  "total_amount": 1575.88,
+  "payment_method": "cash",
+  "is_delivery": true,
+  "delivery_address": {
+    "country": "Россия",
+    "city": "с. Хасан",
+    "street": "ш. Виноградное",
+    "house": "764",
+    "apartment": "39",
+    "postal_code": "845061"
+  },
+  "purchase_datetime": "2025-09-24T00:21:05.923726"
+}

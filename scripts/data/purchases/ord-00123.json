@@ -1,0 +1,63 @@
+{
+  "purchase_id": "ord-00123",
+  "customer": {
+    "customer_id": "cus-1015",
+    "first_name": "Аникей",
+    "last_name": "Новиков",
+    "email": "oisakova@example.org",
+    "phone": "8 (510) 536-4882",
+    "is_loyalty_member": true,
+    "loyalty_card_number": "LOYAL-E87EA9AED1"
+  },
+  "store": {
+    "store_id": "store-021",
+    "store_name": "Большая Пикча — Магазин на алл. Огородная",
+    "store_network": "Большая Пикча",
+    "location": {
+      "country": "Россия",
+      "city": "п. Энгельс",
+      "street": "ш. Партизанское",
+      "house": "9/6",
+      "postal_code": "123462",
+      "coordinates": {
+        "latitude": -19.580885,
+        "longitude": 86.177992
+      }
+    }
+  },
+  "items": [
+    {
+      "product_id": "prd-1009",
+      "name": "Слать Бригада",
+      "category": "🥛 Молочные продукты",
+      "quantity": 5,
+      "unit": "л",
+      "price_per_unit": 240.9,
+      "total_price": 1204.5,
+      "kbju": {
+        "calories": 156.2,
+        "protein": 15.7,
+        "fat": 13.4,
+        "carbohydrates": 7.6
+      },
+      "manufacturer": {
+        "name": "НПО «Ефимова»",
+        "country": "Россия",
+        "website": "https://ford.com",
+        "inn": "3687837951"
+      }
+    }
+  ],
+  "total_amount": 1204.5,
+  "payment_method": "cash",
+  "is_delivery": false,
+  "delivery_address": {
+    "country": "Россия",
+    "city": "клх Новомичуринск",
+    "street": "алл. Космонавтов",
+    "house": "8/4",
+    "apartment": "96",
+    "postal_code": "158931"
+  },
+  "purchase_datetime": "2025-09-09T00:21:05.970862"
+}

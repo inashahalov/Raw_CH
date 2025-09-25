@@ -1,0 +1,84 @@
+{
+  "purchase_id": "ord-00067",
+  "customer": {
+    "customer_id": "cus-1007",
+    "first_name": "Милий",
+    "last_name": "Королев",
+    "email": "tihon2017@example.org",
+    "phone": "8 184 246 8606",
+    "is_loyalty_member": true,
+    "loyalty_card_number": "LOYAL-A8F2C64542"
+  },
+  "store": {
+    "store_id": "store-004",
+    "store_name": "Большая Пикча — Магазин на ул. Ломоносова",
+    "store_network": "Большая Пикча",
+    "location": {
+      "country": "Россия",
+      "city": "с. Кабанск",
+      "street": "бул. Торговый",
+      "house": "447",
+      "postal_code": "208629",
+      "coordinates": {
+        "latitude": 66.8270835,
+        "longitude": 20.541815
+      }
+    }
+  },
+  "items": [
+    {
+      "product_id": "prd-1007",
+      "name": "Пища Беспомощный",
+      "category": "🥦 Овощи и зелень",
+      "quantity": 5,
+      "unit": "л",
+      "price_per_unit": 61.58,
+      "total_price": 307.9,
+      "kbju": {
+        "calories": 155.9,
+        "protein": 7.5,
+        "fat": 9.2,
+        "carbohydrates": 7.7
+      },
+      "manufacturer": {
+        "name": "АО «Гущин-Карпов»",
+        "country": "Россия",
+        "website": "https://ip.net",
+        "inn": "7668416058"
+      }
+    },
+    {
+      "product_id": "prd-1017",
+      "name": "Цель Единый",
+      "category": "🥖 Зерновые и хлебобулочные изделия",
+      "quantity": 5,
+      "unit": "упаковка",
+      "price_per_unit": 99.97,
+      "total_price": 499.85,
+      "kbju": {
+        "calories": 97.4,
+        "protein": 12.5,
+        "fat": 14.8,
+        "carbohydrates": 11.6
+      },
+      "manufacturer": {
+        "name": "АО «Белякова»",
+        "country": "Россия",
+        "website": "https://rao.com",
+        "inn": "0030371079"
+      }
+    }
+  ],
+  "total_amount": 807.75,
+  "payment_method": "cash",
+  "is_delivery": false,
+  "delivery_address": {
+    "country": "Россия",
+    "city": "с. Ялуторовск",
+    "street": "алл. Лесхозная",
+    "house": "49",
+    "apartment": "72",
+    "postal_code": "070486"
+  },
+  "purchase_datetime": "2025-07-13T00:21:05.946215"
+}

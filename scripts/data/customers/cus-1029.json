@@ -1,0 +1,36 @@
+{
+  "customer_id": "cus-1029",
+  "first_name": "Галактион",
+  "last_name": "Якушев",
+  "email": "suvorovatamara@example.org",
+  "phone": "8 205 376 53 36",
+  "birth_date": "1989-12-16",
+  "gender": "male",
+  "registration_date": "2025-09-25T00:21:05.910045",
+  "is_loyalty_member": true,
+  "loyalty_card_number": "LOYAL-F751FCD478",
+  "purchase_location": {
+    "store_id": "store-030",
+    "store_name": "Большая Пикча — Магазин на алл. Кузнецкая",
+    "store_network": "Большая Пикча",
+    "store_type_description": "Супермаркет более 200 кв.м. Входит в сеть из 30 магазинов.",
+    "country": "Россия",
+    "city": "д. Учалы",
+    "street": "алл. Димитрова",
+    "house": "3",
+    "postal_code": "234970"
+  },
+  "delivery_address": {
+    "country": "Россия",
+    "city": "д. Учалы",
+    "street": "бул. Луначарского",
+    "house": "429",
+    "apartment": "41",
+    "postal_code": "355652"
+  },
+  "preferences": {
+    "preferred_language": "ru",
+    "preferred_payment_method": "cash",
+    "receive_promotions": true
+  }
+}

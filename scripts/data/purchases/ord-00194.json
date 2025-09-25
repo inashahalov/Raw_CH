@@ -1,0 +1,84 @@
+{
+  "purchase_id": "ord-00194",
+  "customer": {
+    "customer_id": "cus-1014",
+    "first_name": "Вера",
+    "last_name": "Логинова",
+    "email": "sofron_04@example.com",
+    "phone": "8 (794) 601-51-70",
+    "is_loyalty_member": true,
+    "loyalty_card_number": "LOYAL-85166218B3"
+  },
+  "store": {
+    "store_id": "store-012",
+    "store_name": "Большая Пикча — Магазин на алл. Светлая",
+    "store_network": "Большая Пикча",
+    "location": {
+      "country": "Россия",
+      "city": "ст. Макушино",
+      "street": "пр. Российский",
+      "house": "6/9",
+      "postal_code": "793395",
+      "coordinates": {
+        "latitude": 53.1520475,
+        "longitude": 132.28453
+      }
+    }
+  },
+  "items": [
+    {
+      "product_id": "prd-1019",
+      "name": "Сынок Обида",
+      "category": "🍏 Фрукты и ягоды",
+      "quantity": 5,
+      "unit": "кг",
+      "price_per_unit": 86.19,
+      "total_price": 430.95,
+      "kbju": {
+        "calories": 224.4,
+        "protein": 5.9,
+        "fat": 13.9,
+        "carbohydrates": 7.6
+      },
+      "manufacturer": {
+        "name": "ООО «Шилов-Константинова»",
+        "country": "Россия",
+        "website": "https://ooo.org",
+        "inn": "6666152301"
+      }
+    },
+    {
+      "product_id": "prd-1001",
+      "name": "Домашний Жидкий",
+      "category": "🥛 Молочные продукты",
+      "quantity": 2,
+      "unit": "упаковка",
+      "price_per_unit": 74.5,
+      "total_price": 149.0,
+      "kbju": {
+        "calories": 173.9,
+        "protein": 3.6,
+        "fat": 11.0,
+        "carbohydrates": 7.4
+      },
+      "manufacturer": {
+        "name": "ОАО «Емельянова-Харитонов»",
+        "country": "Россия",
+        "website": "https://zao.edu",
+        "inn": "4413982995"
+      }
+    }
+  ],
+  "total_amount": 579.95,
+  "payment_method": "cash",
+  "is_delivery": true,
+  "delivery_address": {
+    "country": "Россия",
+    "city": "с. Минусинск",
+    "street": "ул. Семашко",
+    "house": "308",
+    "apartment": "11",
+    "postal_code": "401472"
+  },
+  "purchase_datetime": "2025-08-11T00:21:06.242612"
+}

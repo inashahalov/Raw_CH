@@ -1,0 +1,105 @@
+{
+  "purchase_id": "ord-00097",
+  "customer": {
+    "customer_id": "cus-1003",
+    "first_name": "Полина",
+    "last_name": "Шарова",
+    "email": "valerija_1971@example.net",
+    "phone": "+74365505643",
+    "is_loyalty_member": true,
+    "loyalty_card_number": "LOYAL-C222052A45"
+  },
+  "store": {
+    "store_id": "store-023",
+    "store_name": "Большая Пикча — Магазин на пер. Прудный",
+    "store_network": "Большая Пикча",
+    "location": {
+      "country": "Россия",
+      "city": "с. Владикавказ",
+      "street": "алл. Репина",
+      "house": "4",
+      "postal_code": "867024",
+      "coordinates": {
+        "latitude": -27.2311465,
+        "longitude": -151.9032
+      }
+    }
+  },
+  "items": [
+    {
+      "product_id": "prd-1011",
+      "name": "Привлекать Пол",
+      "category": "🥩 Мясо, рыба, яйца и бобовые",
+      "quantity": 5,
+      "unit": "л",
+      "price_per_unit": 85.86,
+      "total_price": 429.3,
+      "kbju": {
+        "calories": 65.4,
+        "protein": 5.6,
+        "fat": 1.9,
+        "carbohydrates": 24.1
+      },
+      "manufacturer": {
+        "name": "ИП «Галкина-Терентьев»",
+        "country": "Россия",
+        "website": "https://rao.ru",
+        "inn": "5528391758"
+      }
+    },
+    {
+      "product_id": "prd-1005",
+      "name": "Направо Господь",
+      "category": "🥩 Мясо, рыба, яйца и бобовые",
+      "quantity": 4,
+      "unit": "л",
+      "price_per_unit": 126.73,
+      "total_price": 506.92,
+      "kbju": {
+        "calories": 93.0,
+        "protein": 13.6,
+        "fat": 2.1,
+        "carbohydrates": 20.3
+      },
+      "manufacturer": {
+        "name": "ЗАО «Титова»",
+        "country": "Россия",
+        "website": "https://npo.com",
+        "inn": "2777644639"
+      }
+    },
+    {
+      "product_id": "prd-1018",
+      "name": "Зачем Пол",
+      "category": "🍏 Фрукты и ягоды",
+      "quantity": 4,
+      "unit": "кг",
+      "price_per_unit": 247.99,
+      "total_price": 991.96,
+      "kbju": {
+        "calories": 236.7,
+        "protein": 5.8,
+        "fat": 10.9,
+        "carbohydrates": 13.1
+      },
+      "manufacturer": {
+        "name": "ОАО «Панов-Воробьева»",
+        "country": "Россия",
+        "website": "https://rao.edu",
+        "inn": "5397679829"
+      }
+    }
+  ],
+  "total_amount": 1928.18,
+  "payment_method": "card",
+  "is_delivery": false,
+  "delivery_address": {
+    "country": "Россия",
+    "city": "с. Кабанск",
+    "street": "наб. Саратовская",
+    "house": "5",
+    "apartment": "29",
+    "postal_code": "362727"
+  },
+  "purchase_datetime": "2025-08-14T00:21:05.958363"
+}

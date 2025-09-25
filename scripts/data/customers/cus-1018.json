@@ -1,0 +1,36 @@
+{
+  "customer_id": "cus-1018",
+  "first_name": "Евпраксия",
+  "last_name": "Турова",
+  "email": "tblinova@example.org",
+  "phone": "+7 693 449 35 22",
+  "birth_date": "1995-05-27",
+  "gender": "female",
+  "registration_date": "2025-09-25T00:21:05.903085",
+  "is_loyalty_member": true,
+  "loyalty_card_number": "LOYAL-AD084D2DCF",
+  "purchase_location": {
+    "store_id": "store-019",
+    "store_name": "Большая Пикча — Магазин на ул. Серова",
+    "store_network": "Большая Пикча",
+    "store_type_description": "Супермаркет более 200 кв.м. Входит в сеть из 30 магазинов.",
+    "country": "Россия",
+    "city": "г. Южно-Курильск",
+    "street": "пер. Коммунистический",
+    "house": "4",
+    "postal_code": "511510"
+  },
+  "delivery_address": {
+    "country": "Россия",
+    "city": "г. Южно-Курильск",
+    "street": "бул. Выгонный",
+    "house": "75",
+    "apartment": "28",
+    "postal_code": "947970"
+  },
+  "preferences": {
+    "preferred_language": "ru",
+    "preferred_payment_method": "card",
+    "receive_promotions": true
+  }
+}

@@ -1,0 +1,84 @@
+{
+  "purchase_id": "ord-00162",
+  "customer": {
+    "customer_id": "cus-1018",
+    "first_name": "Евпраксия",
+    "last_name": "Турова",
+    "email": "tblinova@example.org",
+    "phone": "+7 693 449 35 22",
+    "is_loyalty_member": true,
+    "loyalty_card_number": "LOYAL-AD084D2DCF"
+  },
+  "store": {
+    "store_id": "store-026",
+    "store_name": "Большая Пикча — Магазин на наб. Горная",
+    "store_network": "Большая Пикча",
+    "location": {
+      "country": "Россия",
+      "city": "с. Нижневартовск",
+      "street": "пер. Дарвина",
+      "house": "8",
+      "postal_code": "513083",
+      "coordinates": {
+        "latitude": -78.2781365,
+        "longitude": -138.552401
+      }
+    }
+  },
+  "items": [
+    {
+      "product_id": "prd-1014",
+      "name": "Опасность Следовательно",
+      "category": "🥛 Молочные продукты",
+      "quantity": 5,
+      "unit": "кг",
+      "price_per_unit": 213.21,
+      "total_price": 1066.05,
+      "kbju": {
+        "calories": 206.8,
+        "protein": 10.5,
+        "fat": 2.9,
+        "carbohydrates": 6.6
+      },
+      "manufacturer": {
+        "name": "ЗАО «Беляков, Большакова и Князева»",
+        "country": "Россия",
+        "website": "https://npo.com",
+        "inn": "0149036081"
+      }
+    },
+    {
+      "product_id": "prd-1011",
+      "name": "Привлекать Пол",
+      "category": "🥩 Мясо, рыба, яйца и бобовые",
+      "quantity": 1,
+      "unit": "л",
+      "price_per_unit": 85.86,
+      "total_price": 85.86,
+      "kbju": {
+        "calories": 65.4,
+        "protein": 5.6,
+        "fat": 1.9,
+        "carbohydrates": 24.1
+      },
+      "manufacturer": {
+        "name": "ИП «Галкина-Терентьев»",
+        "country": "Россия",
+        "website": "https://rao.ru",
+        "inn": "5528391758"
+      }
+    }
+  ],
+  "total_amount": 1151.91,
+  "payment_method": "cash",
+  "is_delivery": true,
+  "delivery_address": {
+    "country": "Россия",
+    "city": "г. Южно-Курильск",
+    "street": "бул. Выгонный",
+    "house": "75",
+    "apartment": "28",
+    "postal_code": "947970"
+  },
+  "purchase_datetime": "2025-08-11T00:21:06.230721"
+}

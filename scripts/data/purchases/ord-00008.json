@@ -1,0 +1,84 @@
+{
+  "purchase_id": "ord-00008",
+  "customer": {
+    "customer_id": "cus-1008",
+    "first_name": "Гордей",
+    "last_name": "Абрамов",
+    "email": "georgi_2000@example.com",
+    "phone": "+7 307 508 0235",
+    "is_loyalty_member": true,
+    "loyalty_card_number": "LOYAL-2C2BC04842"
+  },
+  "store": {
+    "store_id": "store-014",
+    "store_name": "Большая Пикча — Магазин на ш. Школьное",
+    "store_network": "Большая Пикча",
+    "location": {
+      "country": "Россия",
+      "city": "п. Качканар",
+      "street": "пр. Щетинкина",
+      "house": "45",
+      "postal_code": "380111",
+      "coordinates": {
+        "latitude": -48.1943695,
+        "longitude": -77.577854
+      }
+    }
+  },
+  "items": [
+    {
+      "product_id": "prd-1012",
+      "name": "Школьный Анализ",
+      "category": "🥦 Овощи и зелень",
+      "quantity": 1,
+      "unit": "л",
+      "price_per_unit": 209.82,
+      "total_price": 209.82,
+      "kbju": {
+        "calories": 60.6,
+        "protein": 14.6,
+        "fat": 12.7,
+        "carbohydrates": 41.7
+      },
+      "manufacturer": {
+        "name": "ИП «Беспалов-Тимофеев»",
+        "country": "Россия",
+        "website": "https://npo.edu",
+        "inn": "6799042551"
+      }
+    },
+    {
+      "product_id": "prd-1013",
+      "name": "Полюбить Руководитель",
+      "category": "🥦 Овощи и зелень",
+      "quantity": 3,
+      "unit": "шт",
+      "price_per_unit": 223.19,
+      "total_price": 669.57,
+      "kbju": {
+        "calories": 249.4,
+        "protein": 17.6,
+        "fat": 5.6,
+        "carbohydrates": 43.3
+      },
+      "manufacturer": {
+        "name": "Профитмед",
+        "country": "Россия",
+        "website": "https://npo.edu",
+        "inn": "4153799624"
+      }
+    }
+  ],
+  "total_amount": 879.39,
+  "payment_method": "card",
+  "is_delivery": true,
+  "delivery_address": {
+    "country": "Россия",
+    "city": "с. Лысьва",
+    "street": "ш. Поперечное",
+    "house": "136",
+    "apartment": "17",
+    "postal_code": "230937"
+  },
+  "purchase_datetime": "2025-08-05T00:21:05.922260"
+}

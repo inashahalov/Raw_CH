@@ -1,0 +1,105 @@
+{
+  "purchase_id": "ord-00057",
+  "customer": {
+    "customer_id": "cus-1001",
+    "first_name": "Святополк",
+    "last_name": "Рожкова",
+    "email": "galaktion_59@example.net",
+    "phone": "8 (979) 949-8623",
+    "is_loyalty_member": true,
+    "loyalty_card_number": "LOYAL-D61CBCD6EC"
+  },
+  "store": {
+    "store_id": "store-016",
+    "store_name": "Большая Пикча — Магазин на пр. Горького",
+    "store_network": "Большая Пикча",
+    "location": {
+      "country": "Россия",
+      "city": "клх Новомичуринск",
+      "street": "пер. З.Космодемьянской",
+      "house": "8",
+      "postal_code": "646457",
+      "coordinates": {
+        "latitude": -13.8879685,
+        "longitude": -88.240324
+      }
+    }
+  },
+  "items": [
+    {
+      "product_id": "prd-1005",
+      "name": "Направо Господь",
+      "category": "🥩 Мясо, рыба, яйца и бобовые",
+      "quantity": 1,
+      "unit": "л",
+      "price_per_unit": 126.73,
+      "total_price": 126.73,
+      "kbju": {
+        "calories": 93.0,
+        "protein": 13.6,
+        "fat": 2.1,
+        "carbohydrates": 20.3
+      },
+      "manufacturer": {
+        "name": "ЗАО «Титова»",
+        "country": "Россия",
+        "website": "https://npo.com",
+        "inn": "2777644639"
+      }
+    },
+    {
+      "product_id": "prd-1012",
+      "name": "Школьный Анализ",
+      "category": "🥦 Овощи и зелень",
+      "quantity": 1,
+      "unit": "л",
+      "price_per_unit": 209.82,
+      "total_price": 209.82,
+      "kbju": {
+        "calories": 60.6,
+        "protein": 14.6,
+        "fat": 12.7,
+        "carbohydrates": 41.7
+      },
+      "manufacturer": {
+        "name": "ИП «Беспалов-Тимофеев»",
+        "country": "Россия",
+        "website": "https://npo.edu",
+        "inn": "6799042551"
+      }
+    },
+    {
+      "product_id": "prd-1018",
+      "name": "Зачем Пол",
+      "category": "🍏 Фрукты и ягоды",
+      "quantity": 2,
+      "unit": "кг",
+      "price_per_unit": 247.99,
+      "total_price": 495.98,
+      "kbju": {
+        "calories": 236.7,
+        "protein": 5.8,
+        "fat": 10.9,
+        "carbohydrates": 13.1
+      },
+      "manufacturer": {
+        "name": "ОАО «Панов-Воробьева»",
+        "country": "Россия",
+        "website": "https://rao.edu",
+        "inn": "5397679829"
+      }
+    }
+  ],
+  "total_amount": 832.53,
+  "payment_method": "cash",
+  "is_delivery": true,
+  "delivery_address": {
+    "country": "Россия",
+    "city": "клх Видное",
+    "street": "пр. Торговый",
+    "house": "5",
+    "apartment": "62",
+    "postal_code": "699953"
+  },
+  "purchase_datetime": "2025-07-05T00:21:05.941805"
+}

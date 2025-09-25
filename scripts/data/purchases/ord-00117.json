@@ -1,0 +1,105 @@
+{
+  "purchase_id": "ord-00117",
+  "customer": {
+    "customer_id": "cus-1034",
+    "first_name": "Глеб",
+    "last_name": "Суханова",
+    "email": "frolovipat@example.org",
+    "phone": "+7 828 354 05 71",
+    "is_loyalty_member": true,
+    "loyalty_card_number": "LOYAL-4B3C52328F"
+  },
+  "store": {
+    "store_id": "store-037",
+    "store_name": "Маленькая Пикча — Магазин на пр. Северный",
+    "store_network": "Маленькая Пикча",
+    "location": {
+      "country": "Россия",
+      "city": "п. Курумкан",
+      "street": "бул. Волгоградский",
+      "house": "3",
+      "postal_code": "799219",
+      "coordinates": {
+        "latitude": -61.9254315,
+        "longitude": -55.410536
+      }
+    }
+  },
+  "items": [
+    {
+      "product_id": "prd-1001",
+      "name": "Домашний Жидкий",
+      "category": "🥛 Молочные продукты",
+      "quantity": 5,
+      "unit": "упаковка",
+      "price_per_unit": 74.5,
+      "total_price": 372.5,
+      "kbju": {
+        "calories": 173.9,
+        "protein": 3.6,
+        "fat": 11.0,
+        "carbohydrates": 7.4
+      },
+      "manufacturer": {
+        "name": "ОАО «Емельянова-Харитонов»",
+        "country": "Россия",
+        "website": "https://zao.edu",
+        "inn": "4413982995"
+      }
+    },
+    {
+      "product_id": "prd-1014",
+      "name": "Опасность Следовательно",
+      "category": "🥛 Молочные продукты",
+      "quantity": 3,
+      "unit": "кг",
+      "price_per_unit": 213.21,
+      "total_price": 639.63,
+      "kbju": {
+        "calories": 206.8,
+        "protein": 10.5,
+        "fat": 2.9,
+        "carbohydrates": 6.6
+      },
+      "manufacturer": {
+        "name": "ЗАО «Беляков, Большакова и Князева»",
+        "country": "Россия",
+        "website": "https://npo.com",
+        "inn": "0149036081"
+      }
+    },
+    {
+      "product_id": "prd-1019",
+      "name": "Сынок Обида",
+      "category": "🍏 Фрукты и ягоды",
+      "quantity": 4,
+      "unit": "кг",
+      "price_per_unit": 86.19,
+      "total_price": 344.76,
+      "kbju": {
+        "calories": 224.4,
+        "protein": 5.9,
+        "fat": 13.9,
+        "carbohydrates": 7.6
+      },
+      "manufacturer": {
+        "name": "ООО «Шилов-Константинова»",
+        "country": "Россия",
+        "website": "https://ooo.org",
+        "inn": "6666152301"
+      }
+    }
+  ],
+  "total_amount": 1356.89,
+  "payment_method": "cash",
+  "is_delivery": true,
+  "delivery_address": {
+    "country": "Россия",
+    "city": "п. Нерчинск",
+    "street": "пер. Красный",
+    "house": "4",
+    "apartment": "61",
+    "postal_code": "843709"
+  },
+  "purchase_datetime": "2025-08-11T00:21:05.967960"
+}

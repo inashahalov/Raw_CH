@@ -1,0 +1,84 @@
+{
+  "purchase_id": "ord-00199",
+  "customer": {
+    "customer_id": "cus-1027",
+    "first_name": "Ананий",
+    "last_name": "Смирнов",
+    "email": "eremeartemev@example.org",
+    "phone": "+7 373 716 0061",
+    "is_loyalty_member": true,
+    "loyalty_card_number": "LOYAL-8563997E39"
+  },
+  "store": {
+    "store_id": "store-009",
+    "store_name": "Большая Пикча — Магазин на пр. Угольный",
+    "store_network": "Большая Пикча",
+    "location": {
+      "country": "Россия",
+      "city": "с. Лысьва",
+      "street": "пр. Енисейский",
+      "house": "8/1",
+      "postal_code": "512530",
+      "coordinates": {
+        "latitude": 48.498737,
+        "longitude": -86.543856
+      }
+    }
+  },
+  "items": [
+    {
+      "product_id": "prd-1016",
+      "name": "Школьный Очко",
+      "category": "🥖 Зерновые и хлебобулочные изделия",
+      "quantity": 4,
+      "unit": "шт",
+      "price_per_unit": 295.13,
+      "total_price": 1180.52,
+      "kbju": {
+        "calories": 156.7,
+        "protein": 8.3,
+        "fat": 6.7,
+        "carbohydrates": 49.1
+      },
+      "manufacturer": {
+        "name": "РАО «Марков»",
+        "country": "Россия",
+        "website": "https://argos.org",
+        "inn": "6328136246"
+      }
+    },
+    {
+      "product_id": "prd-1009",
+      "name": "Слать Бригада",
+      "category": "🥛 Молочные продукты",
+      "quantity": 3,
+      "unit": "л",
+      "price_per_unit": 240.9,
+      "total_price": 722.7,
+      "kbju": {
+        "calories": 156.2,
+        "protein": 15.7,
+        "fat": 13.4,
+        "carbohydrates": 7.6
+      },
+      "manufacturer": {
+        "name": "НПО «Ефимова»",
+        "country": "Россия",
+        "website": "https://ford.com",
+        "inn": "3687837951"
+      }
+    }
+  ],
+  "total_amount": 1903.22,
+  "payment_method": "card",
+  "is_delivery": true,
+  "delivery_address": {
+    "country": "Россия",
+    "city": "п. Великие Луки",
+    "street": "бул. Фестивальный",
+    "house": "937",
+    "apartment": "48",
+    "postal_code": "607745"
+  },
+  "purchase_datetime": "2025-09-02T00:21:06.244432"
+}

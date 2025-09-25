@@ -1,0 +1,84 @@
+{
+  "purchase_id": "ord-00045",
+  "customer": {
+    "customer_id": "cus-1031",
+    "first_name": "Валентин",
+    "last_name": "Михайлова",
+    "email": "maksim2011@example.com",
+    "phone": "+70563049404",
+    "is_loyalty_member": true,
+    "loyalty_card_number": "LOYAL-BBFFDEC266"
+  },
+  "store": {
+    "store_id": "store-029",
+    "store_name": "Большая Пикча — Магазин на ш. Владимирское",
+    "store_network": "Большая Пикча",
+    "location": {
+      "country": "Россия",
+      "city": "ст. Чебоксары",
+      "street": "наб. Тюленина",
+      "house": "5",
+      "postal_code": "132041",
+      "coordinates": {
+        "latitude": 64.245416,
+        "longitude": -159.654898
+      }
+    }
+  },
+  "items": [
+    {
+      "product_id": "prd-1014",
+      "name": "Опасность Следовательно",
+      "category": "🥛 Молочные продукты",
+      "quantity": 2,
+      "unit": "кг",
+      "price_per_unit": 213.21,
+      "total_price": 426.42,
+      "kbju": {
+        "calories": 206.8,
+        "protein": 10.5,
+        "fat": 2.9,
+        "carbohydrates": 6.6
+      },
+      "manufacturer": {
+        "name": "ЗАО «Беляков, Большакова и Князева»",
+        "country": "Россия",
+        "website": "https://npo.com",
+        "inn": "0149036081"
+      }
+    },
+    {
+      "product_id": "prd-1006",
+      "name": "Вытаскивать Плод",
+      "category": "🍏 Фрукты и ягоды",
+      "quantity": 4,
+      "unit": "упаковка",
+      "price_per_unit": 123.36,
+      "total_price": 493.44,
+      "kbju": {
+        "calories": 124.2,
+        "protein": 11.3,
+        "fat": 2.6,
+        "carbohydrates": 42.9
+      },
+      "manufacturer": {
+        "name": "ИП «Емельянов-Наумова»",
+        "country": "Россия",
+        "website": "https://npo.edu",
+        "inn": "9973742158"
+      }
+    }
+  ],
+  "total_amount": 919.86,
+  "payment_method": "cash",
+  "is_delivery": false,
+  "delivery_address": {
+    "country": "Россия",
+    "city": "к. Сыктывкар",
+    "street": "ул. Путейская",
+    "house": "320",
+    "apartment": "35",
+    "postal_code": "558591"
+  },
+  "purchase_datetime": "2025-07-09T00:21:05.936943"
+}

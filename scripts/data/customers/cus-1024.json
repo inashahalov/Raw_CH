@@ -1,0 +1,36 @@
+{
+  "customer_id": "cus-1024",
+  "first_name": "Зосима",
+  "last_name": "Шубин",
+  "email": "klavdija_07@example.org",
+  "phone": "+7 782 950 7836",
+  "birth_date": "2001-06-19",
+  "gender": "male",
+  "registration_date": "2025-09-25T00:21:05.907160",
+  "is_loyalty_member": true,
+  "loyalty_card_number": "LOYAL-99D9345C53",
+  "purchase_location": {
+    "store_id": "store-025",
+    "store_name": "Большая Пикча — Магазин на ш. Гончарова",
+    "store_network": "Большая Пикча",
+    "store_type_description": "Супермаркет более 200 кв.м. Входит в сеть из 30 магазинов.",
+    "country": "Россия",
+    "city": "ст. Малоярославец",
+    "street": "алл. Калужская",
+    "house": "201",
+    "postal_code": "574860"
+  },
+  "delivery_address": {
+    "country": "Россия",
+    "city": "ст. Малоярославец",
+    "street": "ул. Черемуховая",
+    "house": "352",
+    "apartment": "5",
+    "postal_code": "738654"
+  },
+  "preferences": {
+    "preferred_language": "ru",
+    "preferred_payment_method": "cash",
+    "receive_promotions": false
+  }
+}

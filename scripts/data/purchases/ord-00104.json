@@ -1,0 +1,105 @@
+{
+  "purchase_id": "ord-00104",
+  "customer": {
+    "customer_id": "cus-1020",
+    "first_name": "Эраст",
+    "last_name": "Куликова",
+    "email": "gremislavkondratev@example.net",
+    "phone": "8 672 125 64 83",
+    "is_loyalty_member": true,
+    "loyalty_card_number": "LOYAL-7883FC4DA4"
+  },
+  "store": {
+    "store_id": "store-041",
+    "store_name": "Маленькая Пикча — Магазин на пер. Крайний",
+    "store_network": "Маленькая Пикча",
+    "location": {
+      "country": "Россия",
+      "city": "ст. Юрьевец (Иван.)",
+      "street": "алл. Ульяновская",
+      "house": "5/1",
+      "postal_code": "942139",
+      "coordinates": {
+        "latitude": 61.712771,
+        "longitude": -11.16547
+      }
+    }
+  },
+  "items": [
+    {
+      "product_id": "prd-1008",
+      "name": "Освободить Призыв",
+      "category": "🥩 Мясо, рыба, яйца и бобовые",
+      "quantity": 5,
+      "unit": "л",
+      "price_per_unit": 265.49,
+      "total_price": 1327.45,
+      "kbju": {
+        "calories": 130.4,
+        "protein": 5.2,
+        "fat": 10.6,
+        "carbohydrates": 22.8
+      },
+      "manufacturer": {
+        "name": "ИП «Маслова, Денисов и Фокина»",
+        "country": "Россия",
+        "website": "https://ignatev.com",
+        "inn": "7104068639"
+      }
+    },
+    {
+      "product_id": "prd-1009",
+      "name": "Слать Бригада",
+      "category": "🥛 Молочные продукты",
+      "quantity": 2,
+      "unit": "л",
+      "price_per_unit": 240.9,
+      "total_price": 481.8,
+      "kbju": {
+        "calories": 156.2,
+        "protein": 15.7,
+        "fat": 13.4,
+        "carbohydrates": 7.6
+      },
+      "manufacturer": {
+        "name": "НПО «Ефимова»",
+        "country": "Россия",
+        "website": "https://ford.com",
+        "inn": "3687837951"
+      }
+    },
+    {
+      "product_id": "prd-1001",
+      "name": "Домашний Жидкий",
+      "category": "🥛 Молочные продукты",
+      "quantity": 1,
+      "unit": "упаковка",
+      "price_per_unit": 74.5,
+      "total_price": 74.5,
+      "kbju": {
+        "calories": 173.9,
+        "protein": 3.6,
+        "fat": 11.0,
+        "carbohydrates": 7.4
+      },
+      "manufacturer": {
+        "name": "ОАО «Емельянова-Харитонов»",
+        "country": "Россия",
+        "website": "https://zao.edu",
+        "inn": "4413982995"
+      }
+    }
+  ],
+  "total_amount": 1883.75,
+  "payment_method": "cash",
+  "is_delivery": true,
+  "delivery_address": {
+    "country": "Россия",
+    "city": "п. Энгельс",
+    "street": "ул. Тепличная",
+    "house": "78",
+    "apartment": "45",
+    "postal_code": "770377"
+  },
+  "purchase_datetime": "2025-07-19T00:21:05.961814"
+}

@@ -1,0 +1,84 @@
+{
+  "purchase_id": "ord-00078",
+  "customer": {
+    "customer_id": "cus-1015",
+    "first_name": "Аникей",
+    "last_name": "Новиков",
+    "email": "oisakova@example.org",
+    "phone": "8 (510) 536-4882",
+    "is_loyalty_member": true,
+    "loyalty_card_number": "LOYAL-E87EA9AED1"
+  },
+  "store": {
+    "store_id": "store-045",
+    "store_name": "Маленькая Пикча — Магазин на пр. Дзержинского",
+    "store_network": "Маленькая Пикча",
+    "location": {
+      "country": "Россия",
+      "city": "клх Дагомыс",
+      "street": "алл. Гаражная",
+      "house": "5",
+      "postal_code": "904276",
+      "coordinates": {
+        "latitude": 67.761409,
+        "longitude": 34.841356
+      }
+    }
+  },
+  "items": [
+    {
+      "product_id": "prd-1006",
+      "name": "Вытаскивать Плод",
+      "category": "🍏 Фрукты и ягоды",
+      "quantity": 2,
+      "unit": "упаковка",
+      "price_per_unit": 123.36,
+      "total_price": 246.72,
+      "kbju": {
+        "calories": 124.2,
+        "protein": 11.3,
+        "fat": 2.6,
+        "carbohydrates": 42.9
+      },
+      "manufacturer": {
+        "name": "ИП «Емельянов-Наумова»",
+        "country": "Россия",
+        "website": "https://npo.edu",
+        "inn": "9973742158"
+      }
+    },
+    {
+      "product_id": "prd-1011",
+      "name": "Привлекать Пол",
+      "category": "🥩 Мясо, рыба, яйца и бобовые",
+      "quantity": 3,
+      "unit": "л",
+      "price_per_unit": 85.86,
+      "total_price": 257.58,
+      "kbju": {
+        "calories": 65.4,
+        "protein": 5.6,
+        "fat": 1.9,
+        "carbohydrates": 24.1
+      },
+      "manufacturer": {
+        "name": "ИП «Галкина-Терентьев»",
+        "country": "Россия",
+        "website": "https://rao.ru",
+        "inn": "5528391758"
+      }
+    }
+  ],
+  "total_amount": 504.3,
+  "payment_method": "cash",
+  "is_delivery": false,
+  "delivery_address": {
+    "country": "Россия",
+    "city": "клх Новомичуринск",
+    "street": "алл. Космонавтов",
+    "house": "8/4",
+    "apartment": "96",
+    "postal_code": "158931"
+  },
+  "purchase_datetime": "2025-09-22T00:21:05.950631"
+}

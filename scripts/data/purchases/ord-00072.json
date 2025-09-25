@@ -1,0 +1,63 @@
+{
+  "purchase_id": "ord-00072",
+  "customer": {
+    "customer_id": "cus-1039",
+    "first_name": "Елизавета",
+    "last_name": "Колесникова",
+    "email": "wdementev@example.com",
+    "phone": "+71929955281",
+    "is_loyalty_member": true,
+    "loyalty_card_number": "LOYAL-6607096E44"
+  },
+  "store": {
+    "store_id": "store-040",
+    "store_name": "Маленькая Пикча — Магазин на алл. Ушакова",
+    "store_network": "Маленькая Пикча",
+    "location": {
+      "country": "Россия",
+      "city": "д. Гатчина",
+      "street": "бул. Широкий",
+      "house": "64",
+      "postal_code": "922449",
+      "coordinates": {
+        "latitude": -0.667882,
+        "longitude": 129.214545
+      }
+    }
+  },
+  "items": [
+    {
+      "product_id": "prd-1014",
+      "name": "Опасность Следовательно",
+      "category": "🥛 Молочные продукты",
+      "quantity": 5,
+      "unit": "кг",
+      "price_per_unit": 213.21,
+      "total_price": 1066.05,
+      "kbju": {
+        "calories": 206.8,
+        "protein": 10.5,
+        "fat": 2.9,
+        "carbohydrates": 6.6
+      },
+      "manufacturer": {
+        "name": "ЗАО «Беляков, Большакова и Князева»",
+        "country": "Россия",
+        "website": "https://npo.com",
+        "inn": "0149036081"
+      }
+    }
+  ],
+  "total_amount": 1066.05,
+  "payment_method": "cash",
+  "is_delivery": true,
+  "delivery_address": {
+    "country": "Россия",
+    "city": "д. Гатчина",
+    "street": "наб. Сенная",
+    "house": "25",
+    "apartment": "58",
+    "postal_code": "343297"
+  },
+  "purchase_datetime": "2025-06-27T00:21:05.948094"
+}

@@ -1,0 +1,84 @@
+{
+  "purchase_id": "ord-00157",
+  "customer": {
+    "customer_id": "cus-1013",
+    "first_name": "Селиван",
+    "last_name": "Савельев",
+    "email": "vissarion_40@example.com",
+    "phone": "+71178778499",
+    "is_loyalty_member": true,
+    "loyalty_card_number": "LOYAL-CA2847D92B"
+  },
+  "store": {
+    "store_id": "store-005",
+    "store_name": "Большая Пикча — Магазин на наб. Павлика Морозова",
+    "store_network": "Большая Пикча",
+    "location": {
+      "country": "Россия",
+      "city": "к. Шелехов",
+      "street": "ул. Челюскинцев",
+      "house": "4",
+      "postal_code": "513570",
+      "coordinates": {
+        "latitude": 55.763913,
+        "longitude": -58.333025
+      }
+    }
+  },
+  "items": [
+    {
+      "product_id": "prd-1007",
+      "name": "Пища Беспомощный",
+      "category": "🥦 Овощи и зелень",
+      "quantity": 3,
+      "unit": "л",
+      "price_per_unit": 61.58,
+      "total_price": 184.74,
+      "kbju": {
+        "calories": 155.9,
+        "protein": 7.5,
+        "fat": 9.2,
+        "carbohydrates": 7.7
+      },
+      "manufacturer": {
+        "name": "АО «Гущин-Карпов»",
+        "country": "Россия",
+        "website": "https://ip.net",
+        "inn": "7668416058"
+      }
+    },
+    {
+      "product_id": "prd-1018",
+      "name": "Зачем Пол",
+      "category": "🍏 Фрукты и ягоды",
+      "quantity": 5,
+      "unit": "кг",
+      "price_per_unit": 247.99,
+      "total_price": 1239.95,
+      "kbju": {
+        "calories": 236.7,
+        "protein": 5.8,
+        "fat": 10.9,
+        "carbohydrates": 13.1
+      },
+      "manufacturer": {
+        "name": "ОАО «Панов-Воробьева»",
+        "country": "Россия",
+        "website": "https://rao.edu",
+        "inn": "5397679829"
+      }
+    }
+  ],
+  "total_amount": 1424.69,
+  "payment_method": "card",
+  "is_delivery": false,
+  "delivery_address": {
+    "country": "Россия",
+    "city": "п. Качканар",
+    "street": "пр. Геологов",
+    "house": "882",
+    "apartment": "57",
+    "postal_code": "363767"
+  },
+  "purchase_datetime": "2025-09-11T00:21:06.228534"
+}

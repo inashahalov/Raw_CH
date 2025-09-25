@@ -1,0 +1,105 @@
+{
+  "purchase_id": "ord-00103",
+  "customer": {
+    "customer_id": "cus-1005",
+    "first_name": "Ираклий",
+    "last_name": "Брагина",
+    "email": "dmitri72@example.org",
+    "phone": "+7 584 851 63 37",
+    "is_loyalty_member": true,
+    "loyalty_card_number": "LOYAL-7FB5CD1150"
+  },
+  "store": {
+    "store_id": "store-036",
+    "store_name": "Маленькая Пикча — Магазин на бул. Володарского",
+    "store_network": "Маленькая Пикча",
+    "location": {
+      "country": "Россия",
+      "city": "д. Екатеринбург",
+      "street": "бул. Стахановский",
+      "house": "6/2",
+      "postal_code": "399598",
+      "coordinates": {
+        "latitude": 30.924838,
+        "longitude": -116.081649
+      }
+    }
+  },
+  "items": [
+    {
+      "product_id": "prd-1018",
+      "name": "Зачем Пол",
+      "category": "🍏 Фрукты и ягоды",
+      "quantity": 2,
+      "unit": "кг",
+      "price_per_unit": 247.99,
+      "total_price": 495.98,
+      "kbju": {
+        "calories": 236.7,
+        "protein": 5.8,
+        "fat": 10.9,
+        "carbohydrates": 13.1
+      },
+      "manufacturer": {
+        "name": "ОАО «Панов-Воробьева»",
+        "country": "Россия",
+        "website": "https://rao.edu",
+        "inn": "5397679829"
+      }
+    },
+    {
+      "product_id": "prd-1008",
+      "name": "Освободить Призыв",
+      "category": "🥩 Мясо, рыба, яйца и бобовые",
+      "quantity": 4,
+      "unit": "л",
+      "price_per_unit": 265.49,
+      "total_price": 1061.96,
+      "kbju": {
+        "calories": 130.4,
+        "protein": 5.2,
+        "fat": 10.6,
+        "carbohydrates": 22.8
+      },
+      "manufacturer": {
+        "name": "ИП «Маслова, Денисов и Фокина»",
+        "country": "Россия",
+        "website": "https://ignatev.com",
+        "inn": "7104068639"
+      }
+    },
+    {
+      "product_id": "prd-1011",
+      "name": "Привлекать Пол",
+      "category": "🥩 Мясо, рыба, яйца и бобовые",
+      "quantity": 5,
+      "unit": "л",
+      "price_per_unit": 85.86,
+      "total_price": 429.3,
+      "kbju": {
+        "calories": 65.4,
+        "protein": 5.6,
+        "fat": 1.9,
+        "carbohydrates": 24.1
+      },
+      "manufacturer": {
+        "name": "ИП «Галкина-Терентьев»",
+        "country": "Россия",
+        "website": "https://rao.ru",
+        "inn": "5528391758"
+      }
+    }
+  ],
+  "total_amount": 1987.24,
+  "payment_method": "cash",
+  "is_delivery": false,
+  "delivery_address": {
+    "country": "Россия",
+    "city": "г. Новомосковск",
+    "street": "ш. Фурманова",
+    "house": "723",
+    "apartment": "91",
+    "postal_code": "847239"
+  },
+  "purchase_datetime": "2025-08-07T00:21:05.961138"
+}

@@ -1,0 +1,84 @@
+{
+  "purchase_id": "ord-00093",
+  "customer": {
+    "customer_id": "cus-1006",
+    "first_name": "Регина",
+    "last_name": "Кудряшов",
+    "email": "seliverst_17@example.net",
+    "phone": "+7 153 863 80 58",
+    "is_loyalty_member": true,
+    "loyalty_card_number": "LOYAL-12243F909F"
+  },
+  "store": {
+    "store_id": "store-024",
+    "store_name": "Большая Пикча — Магазин на наб. Детская",
+    "store_network": "Большая Пикча",
+    "location": {
+      "country": "Россия",
+      "city": "ст. Клин",
+      "street": "алл. Макарова",
+      "house": "5",
+      "postal_code": "420427",
+      "coordinates": {
+        "latitude": 48.0666515,
+        "longitude": -10.945348
+      }
+    }
+  },
+  "items": [
+    {
+      "product_id": "prd-1013",
+      "name": "Полюбить Руководитель",
+      "category": "🥦 Овощи и зелень",
+      "quantity": 5,
+      "unit": "шт",
+      "price_per_unit": 223.19,
+      "total_price": 1115.95,
+      "kbju": {
+        "calories": 249.4,
+        "protein": 17.6,
+        "fat": 5.6,
+        "carbohydrates": 43.3
+      },
+      "manufacturer": {
+        "name": "Профитмед",
+        "country": "Россия",
+        "website": "https://npo.edu",
+        "inn": "4153799624"
+      }
+    },
+    {
+      "product_id": "prd-1004",
+      "name": "Написать Актриса",
+      "category": "🍏 Фрукты и ягоды",
+      "quantity": 3,
+      "unit": "кг",
+      "price_per_unit": 247.9,
+      "total_price": 743.7,
+      "kbju": {
+        "calories": 90.5,
+        "protein": 3.5,
+        "fat": 0.2,
+        "carbohydrates": 19.9
+      },
+      "manufacturer": {
+        "name": "Ферронордик машины (Ferronordic)",
+        "country": "Россия",
+        "website": "https://kulikova.net",
+        "inn": "5999502719"
+      }
+    }
+  ],
+  "total_amount": 1859.65,
+  "payment_method": "cash",
+  "is_delivery": false,
+  "delivery_address": {
+    "country": "Россия",
+    "city": "клх Шумиха",
+    "street": "бул. Сурикова",
+    "house": "824",
+    "apartment": "2",
+    "postal_code": "530049"
+  },
+  "purchase_datetime": "2025-09-25T00:21:05.956716"
+}

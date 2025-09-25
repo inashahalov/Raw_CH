@@ -1,0 +1,105 @@
+{
+  "purchase_id": "ord-00121",
+  "customer": {
+    "customer_id": "cus-1011",
+    "first_name": "Вячеслав",
+    "last_name": "Хохлова",
+    "email": "mamontovgorde@example.net",
+    "phone": "8 (997) 755-69-19",
+    "is_loyalty_member": true,
+    "loyalty_card_number": "LOYAL-1E56E6FE3B"
+  },
+  "store": {
+    "store_id": "store-030",
+    "store_name": "Большая Пикча — Магазин на алл. Кузнецкая",
+    "store_network": "Большая Пикча",
+    "location": {
+      "country": "Россия",
+      "city": "д. Учалы",
+      "street": "алл. Димитрова",
+      "house": "3",
+      "postal_code": "234970",
+      "coordinates": {
+        "latitude": 76.7471465,
+        "longitude": -99.722231
+      }
+    }
+  },
+  "items": [
+    {
+      "product_id": "prd-1004",
+      "name": "Написать Актриса",
+      "category": "🍏 Фрукты и ягоды",
+      "quantity": 3,
+      "unit": "кг",
+      "price_per_unit": 247.9,
+      "total_price": 743.7,
+      "kbju": {
+        "calories": 90.5,
+        "protein": 3.5,
+        "fat": 0.2,
+        "carbohydrates": 19.9
+      },
+      "manufacturer": {
+        "name": "Ферронордик машины (Ferronordic)",
+        "country": "Россия",
+        "website": "https://kulikova.net",
+        "inn": "5999502719"
+      }
+    },
+    {
+      "product_id": "prd-1010",
+      "name": "Мгновение Вряд",
+      "category": "🥦 Овощи и зелень",
+      "quantity": 3,
+      "unit": "кг",
+      "price_per_unit": 149.03,
+      "total_price": 447.09,
+      "kbju": {
+        "calories": 186.1,
+        "protein": 15.0,
+        "fat": 10.1,
+        "carbohydrates": 27.3
+      },
+      "manufacturer": {
+        "name": "ИП «Блохина-Гаврилов»",
+        "country": "Россия",
+        "website": "https://oao.com",
+        "inn": "1245272063"
+      }
+    },
+    {
+      "product_id": "prd-1002",
+      "name": "Еврейский Отражение",
+      "category": "🥩 Мясо, рыба, яйца и бобовые",
+      "quantity": 1,
+      "unit": "упаковка",
+      "price_per_unit": 268.07,
+      "total_price": 268.07,
+      "kbju": {
+        "calories": 264.5,
+        "protein": 5.4,
+        "fat": 13.4,
+        "carbohydrates": 29.2
+      },
+      "manufacturer": {
+        "name": "ОАО «Мишин-Виноградова»",
+        "country": "Россия",
+        "website": "https://ooo.edu",
+        "inn": "8371422850"
+      }
+    }
+  ],
+  "total_amount": 1458.86,
+  "payment_method": "card",
+  "is_delivery": true,
+  "delivery_address": {
+    "country": "Россия",
+    "city": "ст. Макушино",
+    "street": "алл. Герцена",
+    "house": "57",
+    "apartment": "16",
+    "postal_code": "993268"
+  },
+  "purchase_datetime": "2025-08-08T00:21:05.969895"
+}

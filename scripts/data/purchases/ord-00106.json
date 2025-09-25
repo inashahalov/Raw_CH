@@ -1,0 +1,63 @@
+{
+  "purchase_id": "ord-00106",
+  "customer": {
+    "customer_id": "cus-1038",
+    "first_name": "Евдоким",
+    "last_name": "Матвеев",
+    "email": "haritonovaantonina@example.org",
+    "phone": "+7 (031) 771-83-80",
+    "is_loyalty_member": true,
+    "loyalty_card_number": "LOYAL-0BA56BC180"
+  },
+  "store": {
+    "store_id": "store-030",
+    "store_name": "Большая Пикча — Магазин на алл. Кузнецкая",
+    "store_network": "Большая Пикча",
+    "location": {
+      "country": "Россия",
+      "city": "д. Учалы",
+      "street": "алл. Димитрова",
+      "house": "3",
+      "postal_code": "234970",
+      "coordinates": {
+        "latitude": 76.7471465,
+        "longitude": -99.722231
+      }
+    }
+  },
+  "items": [
+    {
+      "product_id": "prd-1018",
+      "name": "Зачем Пол",
+      "category": "🍏 Фрукты и ягоды",
+      "quantity": 4,
+      "unit": "кг",
+      "price_per_unit": 247.99,
+      "total_price": 991.96,
+      "kbju": {
+        "calories": 236.7,
+        "protein": 5.8,
+        "fat": 10.9,
+        "carbohydrates": 13.1
+      },
+      "manufacturer": {
+        "name": "ОАО «Панов-Воробьева»",
+        "country": "Россия",
+        "website": "https://rao.edu",
+        "inn": "5397679829"
+      }
+    }
+  ],
+  "total_amount": 991.96,
+  "payment_method": "cash",
+  "is_delivery": true,
+  "delivery_address": {
+    "country": "Россия",
+    "city": "д. Минеральные Воды",
+    "street": "пер. Железнодорожный",
+    "house": "9",
+    "apartment": "53",
+    "postal_code": "879693"
+  },
+  "purchase_datetime": "2025-07-23T00:21:05.962821"
+}

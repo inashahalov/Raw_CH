@@ -1,0 +1,36 @@
+{
+  "customer_id": "cus-1022",
+  "first_name": "Селиверст",
+  "last_name": "Мельникова",
+  "email": "zinovevaivanna@example.org",
+  "phone": "83922236291",
+  "birth_date": "1987-06-04",
+  "gender": "female",
+  "registration_date": "2025-09-25T00:21:05.905735",
+  "is_loyalty_member": true,
+  "loyalty_card_number": "LOYAL-4245591696",
+  "purchase_location": {
+    "store_id": "store-023",
+    "store_name": "Большая Пикча — Магазин на пер. Прудный",
+    "store_network": "Большая Пикча",
+    "store_type_description": "Супермаркет более 200 кв.м. Входит в сеть из 30 магазинов.",
+    "country": "Россия",
+    "city": "с. Владикавказ",
+    "street": "алл. Репина",
+    "house": "4",
+    "postal_code": "867024"
+  },
+  "delivery_address": {
+    "country": "Россия",
+    "city": "с. Владикавказ",
+    "street": "пр. Ключевой",
+    "house": "860",
+    "apartment": "15",
+    "postal_code": "332731"
+  },
+  "preferences": {
+    "preferred_language": "ru",
+    "preferred_payment_method": "card",
+    "receive_promotions": true
+  }
+}

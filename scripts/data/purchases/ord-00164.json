@@ -1,0 +1,63 @@
+{
+  "purchase_id": "ord-00164",
+  "customer": {
+    "customer_id": "cus-1003",
+    "first_name": "Полина",
+    "last_name": "Шарова",
+    "email": "valerija_1971@example.net",
+    "phone": "+74365505643",
+    "is_loyalty_member": true,
+    "loyalty_card_number": "LOYAL-C222052A45"
+  },
+  "store": {
+    "store_id": "store-016",
+    "store_name": "Большая Пикча — Магазин на пр. Горького",
+    "store_network": "Большая Пикча",
+    "location": {
+      "country": "Россия",
+      "city": "клх Новомичуринск",
+      "street": "пер. З.Космодемьянской",
+      "house": "8",
+      "postal_code": "646457",
+      "coordinates": {
+        "latitude": -13.8879685,
+        "longitude": -88.240324
+      }
+    }
+  },
+  "items": [
+    {
+      "product_id": "prd-1006",
+      "name": "Вытаскивать Плод",
+      "category": "🍏 Фрукты и ягоды",
+      "quantity": 1,
+      "unit": "упаковка",
+      "price_per_unit": 123.36,
+      "total_price": 123.36,
+      "kbju": {
+        "calories": 124.2,
+        "protein": 11.3,
+        "fat": 2.6,
+        "carbohydrates": 42.9
+      },
+      "manufacturer": {
+        "name": "ИП «Емельянов-Наумова»",
+        "country": "Россия",
+        "website": "https://npo.edu",
+        "inn": "9973742158"
+      }
+    }
+  ],
+  "total_amount": 123.36,
+  "payment_method": "card",
+  "is_delivery": false,
+  "delivery_address": {
+    "country": "Россия",
+    "city": "с. Кабанск",
+    "street": "наб. Саратовская",
+    "house": "5",
+    "apartment": "29",
+    "postal_code": "362727"
+  },
+  "purchase_datetime": "2025-08-25T00:21:06.231503"
+}

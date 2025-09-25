@@ -1,0 +1,36 @@
+{
+  "customer_id": "cus-1042",
+  "first_name": "Савва",
+  "last_name": "Чернов",
+  "email": "pkrilov@example.net",
+  "phone": "+7 (265) 699-5095",
+  "birth_date": "2001-11-13",
+  "gender": "female",
+  "registration_date": "2025-09-25T00:21:05.917560",
+  "is_loyalty_member": true,
+  "loyalty_card_number": "LOYAL-2A49CFA7A7",
+  "purchase_location": {
+    "store_id": "store-043",
+    "store_name": "Маленькая Пикча — Магазин на алл. Сенная",
+    "store_network": "Маленькая Пикча",
+    "store_type_description": "Магазин у дома менее 100 кв.м. Входит в сеть из 15 магазинов.",
+    "country": "Россия",
+    "city": "г. Кириши",
+    "street": "бул. Карла Либкнехта",
+    "house": "309",
+    "postal_code": "690237"
+  },
+  "delivery_address": {
+    "country": "Россия",
+    "city": "г. Кириши",
+    "street": "ш. Халтурина",
+    "house": "189",
+    "apartment": "10",
+    "postal_code": "579995"
+  },
+  "preferences": {
+    "preferred_language": "ru",
+    "preferred_payment_method": "cash",
+    "receive_promotions": true
+  }
+}

@@ -1,0 +1,84 @@
+{
+  "purchase_id": "ord-00101",
+  "customer": {
+    "customer_id": "cus-1044",
+    "first_name": "Ферапонт",
+    "last_name": "Дьячков",
+    "email": "svjatopolk_2014@example.net",
+    "phone": "8 004 991 21 34",
+    "is_loyalty_member": true,
+    "loyalty_card_number": "LOYAL-0DB0905641"
+  },
+  "store": {
+    "store_id": "store-045",
+    "store_name": "Маленькая Пикча — Магазин на пр. Дзержинского",
+    "store_network": "Маленькая Пикча",
+    "location": {
+      "country": "Россия",
+      "city": "клх Дагомыс",
+      "street": "алл. Гаражная",
+      "house": "5",
+      "postal_code": "904276",
+      "coordinates": {
+        "latitude": 67.761409,
+        "longitude": 34.841356
+      }
+    }
+  },
+  "items": [
+    {
+      "product_id": "prd-1009",
+      "name": "Слать Бригада",
+      "category": "🥛 Молочные продукты",
+      "quantity": 5,
+      "unit": "л",
+      "price_per_unit": 240.9,
+      "total_price": 1204.5,
+      "kbju": {
+        "calories": 156.2,
+        "protein": 15.7,
+        "fat": 13.4,
+        "carbohydrates": 7.6
+      },
+      "manufacturer": {
+        "name": "НПО «Ефимова»",
+        "country": "Россия",
+        "website": "https://ford.com",
+        "inn": "3687837951"
+      }
+    },
+    {
+      "product_id": "prd-1006",
+      "name": "Вытаскивать Плод",
+      "category": "🍏 Фрукты и ягоды",
+      "quantity": 3,
+      "unit": "упаковка",
+      "price_per_unit": 123.36,
+      "total_price": 370.08,
+      "kbju": {
+        "calories": 124.2,
+        "protein": 11.3,
+        "fat": 2.6,
+        "carbohydrates": 42.9
+      },
+      "manufacturer": {
+        "name": "ИП «Емельянов-Наумова»",
+        "country": "Россия",
+        "website": "https://npo.edu",
+        "inn": "9973742158"
+      }
+    }
+  ],
+  "total_amount": 1574.58,
+  "payment_method": "card",
+  "is_delivery": false,
+  "delivery_address": {
+    "country": "Россия",
+    "city": "клх Дагомыс",
+    "street": "ул. Поселковая",
+    "house": "76",
+    "apartment": "62",
+    "postal_code": "232956"
+  },
+  "purchase_datetime": "2025-09-10T00:21:05.960254"
+}

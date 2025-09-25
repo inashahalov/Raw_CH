@@ -1,0 +1,63 @@
+{
+  "purchase_id": "ord-00083",
+  "customer": {
+    "customer_id": "cus-1039",
+    "first_name": "Елизавета",
+    "last_name": "Колесникова",
+    "email": "wdementev@example.com",
+    "phone": "+71929955281",
+    "is_loyalty_member": true,
+    "loyalty_card_number": "LOYAL-6607096E44"
+  },
+  "store": {
+    "store_id": "store-034",
+    "store_name": "Маленькая Пикча — Магазин на пер. Большевистский",
+    "store_network": "Маленькая Пикча",
+    "location": {
+      "country": "Россия",
+      "city": "к. Яшалта",
+      "street": "алл. Лунная",
+      "house": "3",
+      "postal_code": "125791",
+      "coordinates": {
+        "latitude": 35.452102,
+        "longitude": 117.041786
+      }
+    }
+  },
+  "items": [
+    {
+      "product_id": "prd-1007",
+      "name": "Пища Беспомощный",
+      "category": "🥦 Овощи и зелень",
+      "quantity": 5,
+      "unit": "л",
+      "price_per_unit": 61.58,
+      "total_price": 307.9,
+      "kbju": {
+        "calories": 155.9,
+        "protein": 7.5,
+        "fat": 9.2,
+        "carbohydrates": 7.7
+      },
+      "manufacturer": {
+        "name": "АО «Гущин-Карпов»",
+        "country": "Россия",
+        "website": "https://ip.net",
+        "inn": "7668416058"
+      }
+    }
+  ],
+  "total_amount": 307.9,
+  "payment_method": "card",
+  "is_delivery": true,
+  "delivery_address": {
+    "country": "Россия",
+    "city": "д. Гатчина",
+    "street": "наб. Сенная",
+    "house": "25",
+    "apartment": "58",
+    "postal_code": "343297"
+  },
+  "purchase_datetime": "2025-07-30T00:21:05.953202"
+}

@@ -1,0 +1,105 @@
+{
+  "purchase_id": "ord-00025",
+  "customer": {
+    "customer_id": "cus-1020",
+    "first_name": "Эраст",
+    "last_name": "Куликова",
+    "email": "gremislavkondratev@example.net",
+    "phone": "8 672 125 64 83",
+    "is_loyalty_member": true,
+    "loyalty_card_number": "LOYAL-7883FC4DA4"
+  },
+  "store": {
+    "store_id": "store-020",
+    "store_name": "Большая Пикча — Магазин на алл. Парковая",
+    "store_network": "Большая Пикча",
+    "location": {
+      "country": "Россия",
+      "city": "п. Витим",
+      "street": "ш. Проточное",
+      "house": "6/9",
+      "postal_code": "926506",
+      "coordinates": {
+        "latitude": -88.588761,
+        "longitude": -151.51246
+      }
+    }
+  },
+  "items": [
+    {
+      "product_id": "prd-1017",
+      "name": "Цель Единый",
+      "category": "🥖 Зерновые и хлебобулочные изделия",
+      "quantity": 3,
+      "unit": "упаковка",
+      "price_per_unit": 99.97,
+      "total_price": 299.91,
+      "kbju": {
+        "calories": 97.4,
+        "protein": 12.5,
+        "fat": 14.8,
+        "carbohydrates": 11.6
+      },
+      "manufacturer": {
+        "name": "АО «Белякова»",
+        "country": "Россия",
+        "website": "https://rao.com",
+        "inn": "0030371079"
+      }
+    },
+    {
+      "product_id": "prd-1015",
+      "name": "Советовать Горький",
+      "category": "🥖 Зерновые и хлебобулочные изделия",
+      "quantity": 1,
+      "unit": "л",
+      "price_per_unit": 74.06,
+      "total_price": 74.06,
+      "kbju": {
+        "calories": 265.6,
+        "protein": 14.1,
+        "fat": 13.9,
+        "carbohydrates": 4.2
+      },
+      "manufacturer": {
+        "name": "РАО «Пахомова-Голубев»",
+        "country": "Россия",
+        "website": "https://nlmk.biz",
+        "inn": "6002140966"
+      }
+    },
+    {
+      "product_id": "prd-1005",
+      "name": "Направо Господь",
+      "category": "🥩 Мясо, рыба, яйца и бобовые",
+      "quantity": 3,
+      "unit": "л",
+      "price_per_unit": 126.73,
+      "total_price": 380.19,
+      "kbju": {
+        "calories": 93.0,
+        "protein": 13.6,
+        "fat": 2.1,
+        "carbohydrates": 20.3
+      },
+      "manufacturer": {
+        "name": "ЗАО «Титова»",
+        "country": "Россия",
+        "website": "https://npo.com",
+        "inn": "2777644639"
+      }
+    }
+  ],
+  "total_amount": 754.16,
+  "payment_method": "card",
+  "is_delivery": false,
+  "delivery_address": {
+    "country": "Россия",
+    "city": "п. Энгельс",
+    "street": "ул. Тепличная",
+    "house": "78",
+    "apartment": "45",
+    "postal_code": "770377"
+  },
+  "purchase_datetime": "2025-08-09T00:21:05.929155"
+}

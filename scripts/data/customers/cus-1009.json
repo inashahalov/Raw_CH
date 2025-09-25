@@ -1,0 +1,36 @@
+{
+  "customer_id": "cus-1009",
+  "first_name": "Любомир",
+  "last_name": "Зайцева",
+  "email": "mironovdementi@example.net",
+  "phone": "8 083 438 03 36",
+  "birth_date": "1959-01-23",
+  "gender": "male",
+  "registration_date": "2025-09-25T00:21:05.897359",
+  "is_loyalty_member": true,
+  "loyalty_card_number": "LOYAL-B97665AA7B",
+  "purchase_location": {
+    "store_id": "store-010",
+    "store_name": "Большая Пикча — Магазин на пр. Клубный",
+    "store_network": "Большая Пикча",
+    "store_type_description": "Супермаркет более 200 кв.м. Входит в сеть из 30 магазинов.",
+    "country": "Россия",
+    "city": "к. Тулун",
+    "street": "алл. Герцена",
+    "house": "89",
+    "postal_code": "705717"
+  },
+  "delivery_address": {
+    "country": "Россия",
+    "city": "к. Тулун",
+    "street": "бул. Зеленый",
+    "house": "5",
+    "apartment": "42",
+    "postal_code": "594984"
+  },
+  "preferences": {
+    "preferred_language": "ru",
+    "preferred_payment_method": "cash",
+    "receive_promotions": true
+  }
+}

@@ -1,0 +1,84 @@
+{
+  "purchase_id": "ord-00146",
+  "customer": {
+    "customer_id": "cus-1023",
+    "first_name": "Глеб",
+    "last_name": "Лаврентьева",
+    "email": "nikola_91@example.net",
+    "phone": "8 395 248 0796",
+    "is_loyalty_member": true,
+    "loyalty_card_number": "LOYAL-9CB7750EFB"
+  },
+  "store": {
+    "store_id": "store-037",
+    "store_name": "Маленькая Пикча — Магазин на пр. Северный",
+    "store_network": "Маленькая Пикча",
+    "location": {
+      "country": "Россия",
+      "city": "п. Курумкан",
+      "street": "бул. Волгоградский",
+      "house": "3",
+      "postal_code": "799219",
+      "coordinates": {
+        "latitude": -61.9254315,
+        "longitude": -55.410536
+      }
+    }
+  },
+  "items": [
+    {
+      "product_id": "prd-1000",
+      "name": "Привлекать Передо",
+      "category": "🥦 Овощи и зелень",
+      "quantity": 4,
+      "unit": "шт",
+      "price_per_unit": 261.89,
+      "total_price": 1047.56,
+      "kbju": {
+        "calories": 286.2,
+        "protein": 17.9,
+        "fat": 8.7,
+        "carbohydrates": 47.1
+      },
+      "manufacturer": {
+        "name": "ООО «Баранов-Пестова»",
+        "country": "Россия",
+        "website": "https://ooo.info",
+        "inn": "7520686716"
+      }
+    },
+    {
+      "product_id": "prd-1009",
+      "name": "Слать Бригада",
+      "category": "🥛 Молочные продукты",
+      "quantity": 2,
+      "unit": "л",
+      "price_per_unit": 240.9,
+      "total_price": 481.8,
+      "kbju": {
+        "calories": 156.2,
+        "protein": 15.7,
+        "fat": 13.4,
+        "carbohydrates": 7.6
+      },
+      "manufacturer": {
+        "name": "НПО «Ефимова»",
+        "country": "Россия",
+        "website": "https://ford.com",
+        "inn": "3687837951"
+      }
+    }
+  ],
+  "total_amount": 1529.36,
+  "payment_method": "cash",
+  "is_delivery": true,
+  "delivery_address": {
+    "country": "Россия",
+    "city": "ст. Клин",
+    "street": "наб. Маркса",
+    "house": "99",
+    "apartment": "96",
+    "postal_code": "828143"
+  },
+  "purchase_datetime": "2025-09-11T00:21:06.222336"
+}

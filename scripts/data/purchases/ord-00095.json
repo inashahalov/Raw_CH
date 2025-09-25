@@ -1,0 +1,84 @@
+{
+  "purchase_id": "ord-00095",
+  "customer": {
+    "customer_id": "cus-1035",
+    "first_name": "Станимир",
+    "last_name": "Семенов",
+    "email": "lukija2011@example.com",
+    "phone": "+7 (312) 285-31-25",
+    "is_loyalty_member": true,
+    "loyalty_card_number": "LOYAL-E7C27EFAE9"
+  },
+  "store": {
+    "store_id": "store-040",
+    "store_name": "Маленькая Пикча — Магазин на алл. Ушакова",
+    "store_network": "Маленькая Пикча",
+    "location": {
+      "country": "Россия",
+      "city": "д. Гатчина",
+      "street": "бул. Широкий",
+      "house": "64",
+      "postal_code": "922449",
+      "coordinates": {
+        "latitude": -0.667882,
+        "longitude": 129.214545
+      }
+    }
+  },
+  "items": [
+    {
+      "product_id": "prd-1008",
+      "name": "Освободить Призыв",
+      "category": "🥩 Мясо, рыба, яйца и бобовые",
+      "quantity": 1,
+      "unit": "л",
+      "price_per_unit": 265.49,
+      "total_price": 265.49,
+      "kbju": {
+        "calories": 130.4,
+        "protein": 5.2,
+        "fat": 10.6,
+        "carbohydrates": 22.8
+      },
+      "manufacturer": {
+        "name": "ИП «Маслова, Денисов и Фокина»",
+        "country": "Россия",
+        "website": "https://ignatev.com",
+        "inn": "7104068639"
+      }
+    },
+    {
+      "product_id": "prd-1006",
+      "name": "Вытаскивать Плод",
+      "category": "🍏 Фрукты и ягоды",
+      "quantity": 2,
+      "unit": "упаковка",
+      "price_per_unit": 123.36,
+      "total_price": 246.72,
+      "kbju": {
+        "calories": 124.2,
+        "protein": 11.3,
+        "fat": 2.6,
+        "carbohydrates": 42.9
+      },
+      "manufacturer": {
+        "name": "ИП «Емельянов-Наумова»",
+        "country": "Россия",
+        "website": "https://npo.edu",
+        "inn": "9973742158"
+      }
+    }
+  ],
+  "total_amount": 512.21,
+  "payment_method": "cash",
+  "is_delivery": true,
+  "delivery_address": {
+    "country": "Россия",
+    "city": "д. Екатеринбург",
+    "street": "ш. Макарова",
+    "house": "31",
+    "apartment": "92",
+    "postal_code": "809342"
+  },
+  "purchase_datetime": "2025-09-23T00:21:05.957436"
+}

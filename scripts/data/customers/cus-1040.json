@@ -1,0 +1,36 @@
+{
+  "customer_id": "cus-1040",
+  "first_name": "Поликарп",
+  "last_name": "Ефимов",
+  "email": "ermilsavin@example.com",
+  "phone": "8 018 957 0132",
+  "birth_date": "1986-07-21",
+  "gender": "female",
+  "registration_date": "2025-09-25T00:21:05.916619",
+  "is_loyalty_member": true,
+  "loyalty_card_number": "LOYAL-C977953C5A",
+  "purchase_location": {
+    "store_id": "store-041",
+    "store_name": "Маленькая Пикча — Магазин на пер. Крайний",
+    "store_network": "Маленькая Пикча",
+    "store_type_description": "Магазин у дома менее 100 кв.м. Входит в сеть из 15 магазинов.",
+    "country": "Россия",
+    "city": "ст. Юрьевец (Иван.)",
+    "street": "алл. Ульяновская",
+    "house": "5/1",
+    "postal_code": "942139"
+  },
+  "delivery_address": {
+    "country": "Россия",
+    "city": "ст. Юрьевец (Иван.)",
+    "street": "наб. Социалистическая",
+    "house": "27",
+    "apartment": "24",
+    "postal_code": "060808"
+  },
+  "preferences": {
+    "preferred_language": "ru",
+    "preferred_payment_method": "cash",
+    "receive_promotions": false
+  }
+}

@@ -1,0 +1,63 @@
+{
+  "purchase_id": "ord-00159",
+  "customer": {
+    "customer_id": "cus-1043",
+    "first_name": "Кир",
+    "last_name": "Калашников",
+    "email": "bsamsonov@example.org",
+    "phone": "+7 (013) 078-6626",
+    "is_loyalty_member": true,
+    "loyalty_card_number": "LOYAL-920D6D926B"
+  },
+  "store": {
+    "store_id": "store-041",
+    "store_name": "Маленькая Пикча — Магазин на пер. Крайний",
+    "store_network": "Маленькая Пикча",
+    "location": {
+      "country": "Россия",
+      "city": "ст. Юрьевец (Иван.)",
+      "street": "алл. Ульяновская",
+      "house": "5/1",
+      "postal_code": "942139",
+      "coordinates": {
+        "latitude": 61.712771,
+        "longitude": -11.16547
+      }
+    }
+  },
+  "items": [
+    {
+      "product_id": "prd-1003",
+      "name": "Поймать Изба",
+      "category": "🥖 Зерновые и хлебобулочные изделия",
+      "quantity": 1,
+      "unit": "шт",
+      "price_per_unit": 164.24,
+      "total_price": 164.24,
+      "kbju": {
+        "calories": 225.1,
+        "protein": 9.6,
+        "fat": 12.3,
+        "carbohydrates": 33.1
+      },
+      "manufacturer": {
+        "name": "ЗАО «Родионов»",
+        "country": "Россия",
+        "website": "https://ooo.com",
+        "inn": "2508560707"
+      }
+    }
+  ],
+  "total_amount": 164.24,
+  "payment_method": "cash",
+  "is_delivery": true,
+  "delivery_address": {
+    "country": "Россия",
+    "city": "ст. Клин",
+    "street": "алл. Седова",
+    "house": "39",
+    "apartment": "77",
+    "postal_code": "957804"
+  },
+  "purchase_datetime": "2025-07-22T00:21:06.229477"
+}

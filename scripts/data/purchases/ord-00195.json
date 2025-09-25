@@ -1,0 +1,63 @@
+{
+  "purchase_id": "ord-00195",
+  "customer": {
+    "customer_id": "cus-1004",
+    "first_name": "Мстислав",
+    "last_name": "Фомин",
+    "email": "adam_2017@example.net",
+    "phone": "+73490219511",
+    "is_loyalty_member": true,
+    "loyalty_card_number": "LOYAL-69A22C9F90"
+  },
+  "store": {
+    "store_id": "store-025",
+    "store_name": "Большая Пикча — Магазин на ш. Гончарова",
+    "store_network": "Большая Пикча",
+    "location": {
+      "country": "Россия",
+      "city": "ст. Малоярославец",
+      "street": "алл. Калужская",
+      "house": "201",
+      "postal_code": "574860",
+      "coordinates": {
+        "latitude": -56.801937,
+        "longitude": 157.630796
+      }
+    }
+  },
+  "items": [
+    {
+      "product_id": "prd-1013",
+      "name": "Полюбить Руководитель",
+      "category": "🥦 Овощи и зелень",
+      "quantity": 4,
+      "unit": "шт",
+      "price_per_unit": 223.19,
+      "total_price": 892.76,
+      "kbju": {
+        "calories": 249.4,
+        "protein": 17.6,
+        "fat": 5.6,
+        "carbohydrates": 43.3
+      },
+      "manufacturer": {
+        "name": "Профитмед",
+        "country": "Россия",
+        "website": "https://npo.edu",
+        "inn": "4153799624"
+      }
+    }
+  ],
+  "total_amount": 892.76,
+  "payment_method": "card",
+  "is_delivery": false,
+  "delivery_address": {
+    "country": "Россия",
+    "city": "к. Шелехов",
+    "street": "алл. Высотная",
+    "house": "4/6",
+    "apartment": "89",
+    "postal_code": "352737"
+  },
+  "purchase_datetime": "2025-09-02T00:21:06.242971"
+}

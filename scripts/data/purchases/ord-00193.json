@@ -1,0 +1,84 @@
+{
+  "purchase_id": "ord-00193",
+  "customer": {
+    "customer_id": "cus-1000",
+    "first_name": "Исай",
+    "last_name": "Соколов",
+    "email": "terenti_1993@example.org",
+    "phone": "+7 (568) 591-57-15",
+    "is_loyalty_member": true,
+    "loyalty_card_number": "LOYAL-BED7CD98FB"
+  },
+  "store": {
+    "store_id": "store-005",
+    "store_name": "Большая Пикча — Магазин на наб. Павлика Морозова",
+    "store_network": "Большая Пикча",
+    "location": {
+      "country": "Россия",
+      "city": "к. Шелехов",
+      "street": "ул. Челюскинцев",
+      "house": "4",
+      "postal_code": "513570",
+      "coordinates": {
+        "latitude": 55.763913,
+        "longitude": -58.333025
+      }
+    }
+  },
+  "items": [
+    {
+      "product_id": "prd-1011",
+      "name": "Привлекать Пол",
+      "category": "🥩 Мясо, рыба, яйца и бобовые",
+      "quantity": 3,
+      "unit": "л",
+      "price_per_unit": 85.86,
+      "total_price": 257.58,
+      "kbju": {
+        "calories": 65.4,
+        "protein": 5.6,
+        "fat": 1.9,
+        "carbohydrates": 24.1
+      },
+      "manufacturer": {
+        "name": "ИП «Галкина-Терентьев»",
+        "country": "Россия",
+        "website": "https://rao.ru",
+        "inn": "5528391758"
+      }
+    },
+    {
+      "product_id": "prd-1003",
+      "name": "Поймать Изба",
+      "category": "🥖 Зерновые и хлебобулочные изделия",
+      "quantity": 2,
+      "unit": "шт",
+      "price_per_unit": 164.24,
+      "total_price": 328.48,
+      "kbju": {
+        "calories": 225.1,
+        "protein": 9.6,
+        "fat": 12.3,
+        "carbohydrates": 33.1
+      },
+      "manufacturer": {
+        "name": "ЗАО «Родионов»",
+        "country": "Россия",
+        "website": "https://ooo.com",
+        "inn": "2508560707"
+      }
+    }
+  ],
+  "total_amount": 586.06,
+  "payment_method": "cash",
+  "is_delivery": false,
+  "delivery_address": {
+    "country": "Россия",
+    "city": "с. Апрелевка",
+    "street": "бул. Хуторской",
+    "house": "508",
+    "apartment": "23",
+    "postal_code": "685023"
+  },
+  "purchase_datetime": "2025-08-31T00:21:06.242234"
+}

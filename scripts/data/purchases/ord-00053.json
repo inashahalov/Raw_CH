@@ -1,0 +1,84 @@
+{
+  "purchase_id": "ord-00053",
+  "customer": {
+    "customer_id": "cus-1012",
+    "first_name": "Модест",
+    "last_name": "Тетерина",
+    "email": "avdeevdobromisl@example.org",
+    "phone": "+7 (066) 573-4317",
+    "is_loyalty_member": true,
+    "loyalty_card_number": "LOYAL-C3EA95EB72"
+  },
+  "store": {
+    "store_id": "store-017",
+    "store_name": "Большая Пикча — Магазин на алл. Тамбовская",
+    "store_network": "Большая Пикча",
+    "location": {
+      "country": "Россия",
+      "city": "к. Воркута",
+      "street": "наб. Байкальская",
+      "house": "38",
+      "postal_code": "038139",
+      "coordinates": {
+        "latitude": -35.4698385,
+        "longitude": 107.698
+      }
+    }
+  },
+  "items": [
+    {
+      "product_id": "prd-1016",
+      "name": "Школьный Очко",
+      "category": "🥖 Зерновые и хлебобулочные изделия",
+      "quantity": 5,
+      "unit": "шт",
+      "price_per_unit": 295.13,
+      "total_price": 1475.65,
+      "kbju": {
+        "calories": 156.7,
+        "protein": 8.3,
+        "fat": 6.7,
+        "carbohydrates": 49.1
+      },
+      "manufacturer": {
+        "name": "РАО «Марков»",
+        "country": "Россия",
+        "website": "https://argos.org",
+        "inn": "6328136246"
+      }
+    },
+    {
+      "product_id": "prd-1011",
+      "name": "Привлекать Пол",
+      "category": "🥩 Мясо, рыба, яйца и бобовые",
+      "quantity": 4,
+      "unit": "л",
+      "price_per_unit": 85.86,
+      "total_price": 343.44,
+      "kbju": {
+        "calories": 65.4,
+        "protein": 5.6,
+        "fat": 1.9,
+        "carbohydrates": 24.1
+      },
+      "manufacturer": {
+        "name": "ИП «Галкина-Терентьев»",
+        "country": "Россия",
+        "website": "https://rao.ru",
+        "inn": "5528391758"
+      }
+    }
+  ],
+  "total_amount": 1819.09,
+  "payment_method": "cash",
+  "is_delivery": false,
+  "delivery_address": {
+    "country": "Россия",
+    "city": "п. Лазаревское",
+    "street": "пр. Механический",
+    "house": "8/5",
+    "apartment": "62",
+    "postal_code": "257140"
+  },
+  "purchase_datetime": "2025-09-15T00:21:05.939981"
+}

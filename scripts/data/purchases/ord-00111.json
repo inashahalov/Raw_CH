@@ -1,0 +1,84 @@
+{
+  "purchase_id": "ord-00111",
+  "customer": {
+    "customer_id": "cus-1036",
+    "first_name": "Ананий",
+    "last_name": "Шубин",
+    "email": "xvolkov@example.net",
+    "phone": "+7 938 461 4396",
+    "is_loyalty_member": true,
+    "loyalty_card_number": "LOYAL-E36C1302B0"
+  },
+  "store": {
+    "store_id": "store-002",
+    "store_name": "Большая Пикча — Магазин на пр. Мирный",
+    "store_network": "Большая Пикча",
+    "location": {
+      "country": "Россия",
+      "city": "клх Видное",
+      "street": "пр. Толбухина",
+      "house": "9/6",
+      "postal_code": "511141",
+      "coordinates": {
+        "latitude": 13.224143,
+        "longitude": -111.857686
+      }
+    }
+  },
+  "items": [
+    {
+      "product_id": "prd-1000",
+      "name": "Привлекать Передо",
+      "category": "🥦 Овощи и зелень",
+      "quantity": 2,
+      "unit": "шт",
+      "price_per_unit": 261.89,
+      "total_price": 523.78,
+      "kbju": {
+        "calories": 286.2,
+        "protein": 17.9,
+        "fat": 8.7,
+        "carbohydrates": 47.1
+      },
+      "manufacturer": {
+        "name": "ООО «Баранов-Пестова»",
+        "country": "Россия",
+        "website": "https://ooo.info",
+        "inn": "7520686716"
+      }
+    },
+    {
+      "product_id": "prd-1010",
+      "name": "Мгновение Вряд",
+      "category": "🥦 Овощи и зелень",
+      "quantity": 3,
+      "unit": "кг",
+      "price_per_unit": 149.03,
+      "total_price": 447.09,
+      "kbju": {
+        "calories": 186.1,
+        "protein": 15.0,
+        "fat": 10.1,
+        "carbohydrates": 27.3
+      },
+      "manufacturer": {
+        "name": "ИП «Блохина-Гаврилов»",
+        "country": "Россия",
+        "website": "https://oao.com",
+        "inn": "1245272063"
+      }
+    }
+  ],
+  "total_amount": 970.87,
+  "payment_method": "cash",
+  "is_delivery": false,
+  "delivery_address": {
+    "country": "Россия",
+    "city": "п. Курумкан",
+    "street": "пер. Лесный",
+    "house": "3/9",
+    "apartment": "46",
+    "postal_code": "741876"
+  },
+  "purchase_datetime": "2025-07-16T00:21:05.965108"
+}

@@ -1,0 +1,36 @@
+{
+  "customer_id": "cus-1035",
+  "first_name": "Станимир",
+  "last_name": "Семенов",
+  "email": "lukija2011@example.com",
+  "phone": "+7 (312) 285-31-25",
+  "birth_date": "1968-08-31",
+  "gender": "female",
+  "registration_date": "2025-09-25T00:21:05.914289",
+  "is_loyalty_member": true,
+  "loyalty_card_number": "LOYAL-E7C27EFAE9",
+  "purchase_location": {
+    "store_id": "store-036",
+    "store_name": "Маленькая Пикча — Магазин на бул. Володарского",
+    "store_network": "Маленькая Пикча",
+    "store_type_description": "Магазин у дома менее 100 кв.м. Входит в сеть из 15 магазинов.",
+    "country": "Россия",
+    "city": "д. Екатеринбург",
+    "street": "бул. Стахановский",
+    "house": "6/2",
+    "postal_code": "399598"
+  },
+  "delivery_address": {
+    "country": "Россия",
+    "city": "д. Екатеринбург",
+    "street": "ш. Макарова",
+    "house": "31",
+    "apartment": "92",
+    "postal_code": "809342"
+  },
+  "preferences": {
+    "preferred_language": "ru",
+    "preferred_payment_method": "card",
+    "receive_promotions": false
+  }
+}

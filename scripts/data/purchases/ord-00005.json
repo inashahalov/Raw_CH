@@ -1,0 +1,105 @@
+{
+  "purchase_id": "ord-00005",
+  "customer": {
+    "customer_id": "cus-1027",
+    "first_name": "Ананий",
+    "last_name": "Смирнов",
+    "email": "eremeartemev@example.org",
+    "phone": "+7 373 716 0061",
+    "is_loyalty_member": true,
+    "loyalty_card_number": "LOYAL-8563997E39"
+  },
+  "store": {
+    "store_id": "store-001",
+    "store_name": "Большая Пикча — Магазин на алл. Бажова",
+    "store_network": "Большая Пикча",
+    "location": {
+      "country": "Россия",
+      "city": "с. Апрелевка",
+      "street": "ш. Солнечное",
+      "house": "3",
+      "postal_code": "956691",
+      "coordinates": {
+        "latitude": 50.3479975,
+        "longitude": -167.674641
+      }
+    }
+  },
+  "items": [
+    {
+      "product_id": "prd-1000",
+      "name": "Привлекать Передо",
+      "category": "🥦 Овощи и зелень",
+      "quantity": 5,
+      "unit": "шт",
+      "price_per_unit": 261.89,
+      "total_price": 1309.45,
+      "kbju": {
+        "calories": 286.2,
+        "protein": 17.9,
+        "fat": 8.7,
+        "carbohydrates": 47.1
+      },
+      "manufacturer": {
+        "name": "ООО «Баранов-Пестова»",
+        "country": "Россия",
+        "website": "https://ooo.info",
+        "inn": "7520686716"
+      }
+    },
+    {
+      "product_id": "prd-1006",
+      "name": "Вытаскивать Плод",
+      "category": "🍏 Фрукты и ягоды",
+      "quantity": 3,
+      "unit": "упаковка",
+      "price_per_unit": 123.36,
+      "total_price": 370.08,
+      "kbju": {
+        "calories": 124.2,
+        "protein": 11.3,
+        "fat": 2.6,
+        "carbohydrates": 42.9
+      },
+      "manufacturer": {
+        "name": "ИП «Емельянов-Наумова»",
+        "country": "Россия",
+        "website": "https://npo.edu",
+        "inn": "9973742158"
+      }
+    },
+    {
+      "product_id": "prd-1011",
+      "name": "Привлекать Пол",
+      "category": "🥩 Мясо, рыба, яйца и бобовые",
+      "quantity": 4,
+      "unit": "л",
+      "price_per_unit": 85.86,
+      "total_price": 343.44,
+      "kbju": {
+        "calories": 65.4,
+        "protein": 5.6,
+        "fat": 1.9,
+        "carbohydrates": 24.1
+      },
+      "manufacturer": {
+        "name": "ИП «Галкина-Терентьев»",
+        "country": "Россия",
+        "website": "https://rao.ru",
+        "inn": "5528391758"
+      }
+    }
+  ],
+  "total_amount": 2022.97,
+  "payment_method": "card",
+  "is_delivery": false,
+  "delivery_address": {
+    "country": "Россия",
+    "city": "п. Великие Луки",
+    "street": "бул. Фестивальный",
+    "house": "937",
+    "apartment": "48",
+    "postal_code": "607745"
+  },
+  "purchase_datetime": "2025-07-28T00:21:05.921024"
+}

@@ -1,0 +1,36 @@
+{
+  "customer_id": "cus-1008",
+  "first_name": "Гордей",
+  "last_name": "Абрамов",
+  "email": "georgi_2000@example.com",
+  "phone": "+7 307 508 0235",
+  "birth_date": "1968-03-25",
+  "gender": "female",
+  "registration_date": "2025-09-25T00:21:05.896416",
+  "is_loyalty_member": true,
+  "loyalty_card_number": "LOYAL-2C2BC04842",
+  "purchase_location": {
+    "store_id": "store-009",
+    "store_name": "Большая Пикча — Магазин на пр. Угольный",
+    "store_network": "Большая Пикча",
+    "store_type_description": "Супермаркет более 200 кв.м. Входит в сеть из 30 магазинов.",
+    "country": "Россия",
+    "city": "с. Лысьва",
+    "street": "пр. Енисейский",
+    "house": "8/1",
+    "postal_code": "512530"
+  },
+  "delivery_address": {
+    "country": "Россия",
+    "city": "с. Лысьва",
+    "street": "ш. Поперечное",
+    "house": "136",
+    "apartment": "17",
+    "postal_code": "230937"
+  },
+  "preferences": {
+    "preferred_language": "ru",
+    "preferred_payment_method": "card",
+    "receive_promotions": true
+  }
+}

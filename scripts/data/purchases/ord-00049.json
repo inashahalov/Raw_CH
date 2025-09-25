@@ -1,0 +1,105 @@
+{
+  "purchase_id": "ord-00049",
+  "customer": {
+    "customer_id": "cus-1010",
+    "first_name": "Мартьян",
+    "last_name": "Ларионов",
+    "email": "kpestova@example.com",
+    "phone": "+7 229 169 07 41",
+    "is_loyalty_member": true,
+    "loyalty_card_number": "LOYAL-DB4F6E6E4D"
+  },
+  "store": {
+    "store_id": "store-042",
+    "store_name": "Маленькая Пикча — Магазин на алл. 1 Мая",
+    "store_network": "Маленькая Пикча",
+    "location": {
+      "country": "Россия",
+      "city": "с. Хасан",
+      "street": "пр. Союзный",
+      "house": "30",
+      "postal_code": "343674",
+      "coordinates": {
+        "latitude": 84.753875,
+        "longitude": 159.690738
+      }
+    }
+  },
+  "items": [
+    {
+      "product_id": "prd-1006",
+      "name": "Вытаскивать Плод",
+      "category": "🍏 Фрукты и ягоды",
+      "quantity": 2,
+      "unit": "упаковка",
+      "price_per_unit": 123.36,
+      "total_price": 246.72,
+      "kbju": {
+        "calories": 124.2,
+        "protein": 11.3,
+        "fat": 2.6,
+        "carbohydrates": 42.9
+      },
+      "manufacturer": {
+        "name": "ИП «Емельянов-Наумова»",
+        "country": "Россия",
+        "website": "https://npo.edu",
+        "inn": "9973742158"
+      }
+    },
+    {
+      "product_id": "prd-1003",
+      "name": "Поймать Изба",
+      "category": "🥖 Зерновые и хлебобулочные изделия",
+      "quantity": 2,
+      "unit": "шт",
+      "price_per_unit": 164.24,
+      "total_price": 328.48,
+      "kbju": {
+        "calories": 225.1,
+        "protein": 9.6,
+        "fat": 12.3,
+        "carbohydrates": 33.1
+      },
+      "manufacturer": {
+        "name": "ЗАО «Родионов»",
+        "country": "Россия",
+        "website": "https://ooo.com",
+        "inn": "2508560707"
+      }
+    },
+    {
+      "product_id": "prd-1009",
+      "name": "Слать Бригада",
+      "category": "🥛 Молочные продукты",
+      "quantity": 5,
+      "unit": "л",
+      "price_per_unit": 240.9,
+      "total_price": 1204.5,
+      "kbju": {
+        "calories": 156.2,
+        "protein": 15.7,
+        "fat": 13.4,
+        "carbohydrates": 7.6
+      },
+      "manufacturer": {
+        "name": "НПО «Ефимова»",
+        "country": "Россия",
+        "website": "https://ford.com",
+        "inn": "3687837951"
+      }
+    }
+  ],
+  "total_amount": 1779.7,
+  "payment_method": "card",
+  "is_delivery": false,
+  "delivery_address": {
+    "country": "Россия",
+    "city": "клх Шали",
+    "street": "наб. Курчатова",
+    "house": "26",
+    "apartment": "100",
+    "postal_code": "877623"
+  },
+  "purchase_datetime": "2025-08-04T00:21:05.938490"
+}

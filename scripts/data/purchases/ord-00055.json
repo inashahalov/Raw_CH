@@ -1,0 +1,84 @@
+{
+  "purchase_id": "ord-00055",
+  "customer": {
+    "customer_id": "cus-1034",
+    "first_name": "Глеб",
+    "last_name": "Суханова",
+    "email": "frolovipat@example.org",
+    "phone": "+7 828 354 05 71",
+    "is_loyalty_member": true,
+    "loyalty_card_number": "LOYAL-4B3C52328F"
+  },
+  "store": {
+    "store_id": "store-028",
+    "store_name": "Большая Пикча — Магазин на пер. Придорожный",
+    "store_network": "Большая Пикча",
+    "location": {
+      "country": "Россия",
+      "city": "п. Великие Луки",
+      "street": "алл. Сельская",
+      "house": "9/1",
+      "postal_code": "131366",
+      "coordinates": {
+        "latitude": 89.2025215,
+        "longitude": 9.359875
+      }
+    }
+  },
+  "items": [
+    {
+      "product_id": "prd-1015",
+      "name": "Советовать Горький",
+      "category": "🥖 Зерновые и хлебобулочные изделия",
+      "quantity": 4,
+      "unit": "л",
+      "price_per_unit": 74.06,
+      "total_price": 296.24,
+      "kbju": {
+        "calories": 265.6,
+        "protein": 14.1,
+        "fat": 13.9,
+        "carbohydrates": 4.2
+      },
+      "manufacturer": {
+        "name": "РАО «Пахомова-Голубев»",
+        "country": "Россия",
+        "website": "https://nlmk.biz",
+        "inn": "6002140966"
+      }
+    },
+    {
+      "product_id": "prd-1007",
+      "name": "Пища Беспомощный",
+      "category": "🥦 Овощи и зелень",
+      "quantity": 4,
+      "unit": "л",
+      "price_per_unit": 61.58,
+      "total_price": 246.32,
+      "kbju": {
+        "calories": 155.9,
+        "protein": 7.5,
+        "fat": 9.2,
+        "carbohydrates": 7.7
+      },
+      "manufacturer": {
+        "name": "АО «Гущин-Карпов»",
+        "country": "Россия",
+        "website": "https://ip.net",
+        "inn": "7668416058"
+      }
+    }
+  ],
+  "total_amount": 542.56,
+  "payment_method": "cash",
+  "is_delivery": true,
+  "delivery_address": {
+    "country": "Россия",
+    "city": "п. Нерчинск",
+    "street": "пер. Красный",
+    "house": "4",
+    "apartment": "61",
+    "postal_code": "843709"
+  },
+  "purchase_datetime": "2025-09-02T00:21:05.940735"
+}

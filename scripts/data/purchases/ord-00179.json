@@ -1,0 +1,63 @@
+{
+  "purchase_id": "ord-00179",
+  "customer": {
+    "customer_id": "cus-1040",
+    "first_name": "Поликарп",
+    "last_name": "Ефимов",
+    "email": "ermilsavin@example.com",
+    "phone": "8 018 957 0132",
+    "is_loyalty_member": true,
+    "loyalty_card_number": "LOYAL-C977953C5A"
+  },
+  "store": {
+    "store_id": "store-016",
+    "store_name": "Большая Пикча — Магазин на пр. Горького",
+    "store_network": "Большая Пикча",
+    "location": {
+      "country": "Россия",
+      "city": "клх Новомичуринск",
+      "street": "пер. З.Космодемьянской",
+      "house": "8",
+      "postal_code": "646457",
+      "coordinates": {
+        "latitude": -13.8879685,
+        "longitude": -88.240324
+      }
+    }
+  },
+  "items": [
+    {
+      "product_id": "prd-1001",
+      "name": "Домашний Жидкий",
+      "category": "🥛 Молочные продукты",
+      "quantity": 4,
+      "unit": "упаковка",
+      "price_per_unit": 74.5,
+      "total_price": 298.0,
+      "kbju": {
+        "calories": 173.9,
+        "protein": 3.6,
+        "fat": 11.0,
+        "carbohydrates": 7.4
+      },
+      "manufacturer": {
+        "name": "ОАО «Емельянова-Харитонов»",
+        "country": "Россия",
+        "website": "https://zao.edu",
+        "inn": "4413982995"
+      }
+    }
+  ],
+  "total_amount": 298.0,
+  "payment_method": "card",
+  "is_delivery": true,
+  "delivery_address": {
+    "country": "Россия",
+    "city": "ст. Юрьевец (Иван.)",
+    "street": "наб. Социалистическая",
+    "house": "27",
+    "apartment": "24",
+    "postal_code": "060808"
+  },
+  "purchase_datetime": "2025-08-21T00:21:06.237144"
+}

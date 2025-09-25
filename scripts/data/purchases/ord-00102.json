@@ -1,0 +1,63 @@
+{
+  "purchase_id": "ord-00102",
+  "customer": {
+    "customer_id": "cus-1016",
+    "first_name": "Светлана",
+    "last_name": "Комиссаров",
+    "email": "feofanshirjaev@example.net",
+    "phone": "89366068187",
+    "is_loyalty_member": true,
+    "loyalty_card_number": "LOYAL-E2F0AEB6F9"
+  },
+  "store": {
+    "store_id": "store-001",
+    "store_name": "Большая Пикча — Магазин на алл. Бажова",
+    "store_network": "Большая Пикча",
+    "location": {
+      "country": "Россия",
+      "city": "с. Апрелевка",
+      "street": "ш. Солнечное",
+      "house": "3",
+      "postal_code": "956691",
+      "coordinates": {
+        "latitude": 50.3479975,
+        "longitude": -167.674641
+      }
+    }
+  },
+  "items": [
+    {
+      "product_id": "prd-1019",
+      "name": "Сынок Обида",
+      "category": "🍏 Фрукты и ягоды",
+      "quantity": 1,
+      "unit": "кг",
+      "price_per_unit": 86.19,
+      "total_price": 86.19,
+      "kbju": {
+        "calories": 224.4,
+        "protein": 5.9,
+        "fat": 13.9,
+        "carbohydrates": 7.6
+      },
+      "manufacturer": {
+        "name": "ООО «Шилов-Константинова»",
+        "country": "Россия",
+        "website": "https://ooo.org",
+        "inn": "6666152301"
+      }
+    }
+  ],
+  "total_amount": 86.19,
+  "payment_method": "cash",
+  "is_delivery": true,
+  "delivery_address": {
+    "country": "Россия",
+    "city": "к. Воркута",
+    "street": "бул. Каштановый",
+    "house": "1/3",
+    "apartment": "12",
+    "postal_code": "926424"
+  },
+  "purchase_datetime": "2025-07-11T00:21:05.960664"
+}

@@ -1,0 +1,84 @@
+{
+  "purchase_id": "ord-00063",
+  "customer": {
+    "customer_id": "cus-1041",
+    "first_name": "Наум",
+    "last_name": "Симонов",
+    "email": "valentinsharov@example.com",
+    "phone": "89031911463",
+    "is_loyalty_member": true,
+    "loyalty_card_number": "LOYAL-19C84B142A"
+  },
+  "store": {
+    "store_id": "store-019",
+    "store_name": "Большая Пикча — Магазин на ул. Серова",
+    "store_network": "Большая Пикча",
+    "location": {
+      "country": "Россия",
+      "city": "г. Южно-Курильск",
+      "street": "пер. Коммунистический",
+      "house": "4",
+      "postal_code": "511510",
+      "coordinates": {
+        "latitude": -33.1503555,
+        "longitude": 22.862732
+      }
+    }
+  },
+  "items": [
+    {
+      "product_id": "prd-1014",
+      "name": "Опасность Следовательно",
+      "category": "🥛 Молочные продукты",
+      "quantity": 5,
+      "unit": "кг",
+      "price_per_unit": 213.21,
+      "total_price": 1066.05,
+      "kbju": {
+        "calories": 206.8,
+        "protein": 10.5,
+        "fat": 2.9,
+        "carbohydrates": 6.6
+      },
+      "manufacturer": {
+        "name": "ЗАО «Беляков, Большакова и Князева»",
+        "country": "Россия",
+        "website": "https://npo.com",
+        "inn": "0149036081"
+      }
+    },
+    {
+      "product_id": "prd-1000",
+      "name": "Привлекать Передо",
+      "category": "🥦 Овощи и зелень",
+      "quantity": 4,
+      "unit": "шт",
+      "price_per_unit": 261.89,
+      "total_price": 1047.56,
+      "kbju": {
+        "calories": 286.2,
+        "protein": 17.9,
+        "fat": 8.7,
+        "carbohydrates": 47.1
+      },
+      "manufacturer": {
+        "name": "ООО «Баранов-Пестова»",
+        "country": "Россия",
+        "website": "https://ooo.info",
+        "inn": "7520686716"
+      }
+    }
+  ],
+  "total_amount": 2113.61,
+  "payment_method": "card",
+  "is_delivery": true,
+  "delivery_address": {
+    "country": "Россия",
+    "city": "с. Хасан",
+    "street": "ш. Виноградное",
+    "house": "764",
+    "apartment": "39",
+    "postal_code": "845061"
+  },
+  "purchase_datetime": "2025-09-16T00:21:05.944666"
+}

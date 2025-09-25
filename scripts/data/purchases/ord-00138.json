@@ -1,0 +1,63 @@
+{
+  "purchase_id": "ord-00138",
+  "customer": {
+    "customer_id": "cus-1043",
+    "first_name": "Кир",
+    "last_name": "Калашников",
+    "email": "bsamsonov@example.org",
+    "phone": "+7 (013) 078-6626",
+    "is_loyalty_member": true,
+    "loyalty_card_number": "LOYAL-920D6D926B"
+  },
+  "store": {
+    "store_id": "store-012",
+    "store_name": "Большая Пикча — Магазин на алл. Светлая",
+    "store_network": "Большая Пикча",
+    "location": {
+      "country": "Россия",
+      "city": "ст. Макушино",
+      "street": "пр. Российский",
+      "house": "6/9",
+      "postal_code": "793395",
+      "coordinates": {
+        "latitude": 53.1520475,
+        "longitude": 132.28453
+      }
+    }
+  },
+  "items": [
+    {
+      "product_id": "prd-1011",
+      "name": "Привлекать Пол",
+      "category": "🥩 Мясо, рыба, яйца и бобовые",
+      "quantity": 5,
+      "unit": "л",
+      "price_per_unit": 85.86,
+      "total_price": 429.3,
+      "kbju": {
+        "calories": 65.4,
+        "protein": 5.6,
+        "fat": 1.9,
+        "carbohydrates": 24.1
+      },
+      "manufacturer": {
+        "name": "ИП «Галкина-Терентьев»",
+        "country": "Россия",
+        "website": "https://rao.ru",
+        "inn": "5528391758"
+      }
+    }
+  ],
+  "total_amount": 429.3,
+  "payment_method": "cash",
+  "is_delivery": true,
+  "delivery_address": {
+    "country": "Россия",
+    "city": "ст. Клин",
+    "street": "алл. Седова",
+    "house": "39",
+    "apartment": "77",
+    "postal_code": "957804"
+  },
+  "purchase_datetime": "2025-08-12T00:21:06.216398"
+}

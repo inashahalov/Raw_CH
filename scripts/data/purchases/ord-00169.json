@@ -1,0 +1,105 @@
+{
+  "purchase_id": "ord-00169",
+  "customer": {
+    "customer_id": "cus-1033",
+    "first_name": "Карп",
+    "last_name": "Корнилов",
+    "email": "dmitri07@example.org",
+    "phone": "83587069742",
+    "is_loyalty_member": true,
+    "loyalty_card_number": "LOYAL-389C1FF3BC"
+  },
+  "store": {
+    "store_id": "store-031",
+    "store_name": "Маленькая Пикча — Магазин на ш. Декабристов",
+    "store_network": "Маленькая Пикча",
+    "location": {
+      "country": "Россия",
+      "city": "п. Каменск-Уральский",
+      "street": "пр. Первомайский",
+      "house": "80",
+      "postal_code": "030700",
+      "coordinates": {
+        "latitude": -55.303203,
+        "longitude": -34.195107
+      }
+    }
+  },
+  "items": [
+    {
+      "product_id": "prd-1016",
+      "name": "Школьный Очко",
+      "category": "🥖 Зерновые и хлебобулочные изделия",
+      "quantity": 3,
+      "unit": "шт",
+      "price_per_unit": 295.13,
+      "total_price": 885.39,
+      "kbju": {
+        "calories": 156.7,
+        "protein": 8.3,
+        "fat": 6.7,
+        "carbohydrates": 49.1
+      },
+      "manufacturer": {
+        "name": "РАО «Марков»",
+        "country": "Россия",
+        "website": "https://argos.org",
+        "inn": "6328136246"
+      }
+    },
+    {
+      "product_id": "prd-1000",
+      "name": "Привлекать Передо",
+      "category": "🥦 Овощи и зелень",
+      "quantity": 3,
+      "unit": "шт",
+      "price_per_unit": 261.89,
+      "total_price": 785.67,
+      "kbju": {
+        "calories": 286.2,
+        "protein": 17.9,
+        "fat": 8.7,
+        "carbohydrates": 47.1
+      },
+      "manufacturer": {
+        "name": "ООО «Баранов-Пестова»",
+        "country": "Россия",
+        "website": "https://ooo.info",
+        "inn": "7520686716"
+      }
+    },
+    {
+      "product_id": "prd-1013",
+      "name": "Полюбить Руководитель",
+      "category": "🥦 Овощи и зелень",
+      "quantity": 2,
+      "unit": "шт",
+      "price_per_unit": 223.19,
+      "total_price": 446.38,
+      "kbju": {
+        "calories": 249.4,
+        "protein": 17.6,
+        "fat": 5.6,
+        "carbohydrates": 43.3
+      },
+      "manufacturer": {
+        "name": "Профитмед",
+        "country": "Россия",
+        "website": "https://npo.edu",
+        "inn": "4153799624"
+      }
+    }
+  ],
+  "total_amount": 2117.44,
+  "payment_method": "cash",
+  "is_delivery": false,
+  "delivery_address": {
+    "country": "Россия",
+    "city": "к. Яшалта",
+    "street": "ш. Орджоникидзе",
+    "house": "189",
+    "apartment": "41",
+    "postal_code": "555752"
+  },
+  "purchase_datetime": "2025-09-19T00:21:06.233351"
+}

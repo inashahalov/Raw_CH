@@ -1,0 +1,63 @@
+{
+  "purchase_id": "ord-00016",
+  "customer": {
+    "customer_id": "cus-1022",
+    "first_name": "Селиверст",
+    "last_name": "Мельникова",
+    "email": "zinovevaivanna@example.org",
+    "phone": "83922236291",
+    "is_loyalty_member": true,
+    "loyalty_card_number": "LOYAL-4245591696"
+  },
+  "store": {
+    "store_id": "store-038",
+    "store_name": "Маленькая Пикча — Магазин на ш. Шахтерское",
+    "store_network": "Маленькая Пикча",
+    "location": {
+      "country": "Россия",
+      "city": "д. Сосновый Бор",
+      "street": "пр. Новый",
+      "house": "8",
+      "postal_code": "442480",
+      "coordinates": {
+        "latitude": -48.355729,
+        "longitude": -128.321237
+      }
+    }
+  },
+  "items": [
+    {
+      "product_id": "prd-1013",
+      "name": "Полюбить Руководитель",
+      "category": "🥦 Овощи и зелень",
+      "quantity": 3,
+      "unit": "шт",
+      "price_per_unit": 223.19,
+      "total_price": 669.57,
+      "kbju": {
+        "calories": 249.4,
+        "protein": 17.6,
+        "fat": 5.6,
+        "carbohydrates": 43.3
+      },
+      "manufacturer": {
+        "name": "Профитмед",
+        "country": "Россия",
+        "website": "https://npo.edu",
+        "inn": "4153799624"
+      }
+    }
+  ],
+  "total_amount": 669.57,
+  "payment_method": "cash",
+  "is_delivery": false,
+  "delivery_address": {
+    "country": "Россия",
+    "city": "с. Владикавказ",
+    "street": "пр. Ключевой",
+    "house": "860",
+    "apartment": "15",
+    "postal_code": "332731"
+  },
+  "purchase_datetime": "2025-09-10T00:21:05.925346"
+}

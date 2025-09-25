@@ -1,0 +1,84 @@
+{
+  "purchase_id": "ord-00114",
+  "customer": {
+    "customer_id": "cus-1022",
+    "first_name": "Селиверст",
+    "last_name": "Мельникова",
+    "email": "zinovevaivanna@example.org",
+    "phone": "83922236291",
+    "is_loyalty_member": true,
+    "loyalty_card_number": "LOYAL-4245591696"
+  },
+  "store": {
+    "store_id": "store-001",
+    "store_name": "Большая Пикча — Магазин на алл. Бажова",
+    "store_network": "Большая Пикча",
+    "location": {
+      "country": "Россия",
+      "city": "с. Апрелевка",
+      "street": "ш. Солнечное",
+      "house": "3",
+      "postal_code": "956691",
+      "coordinates": {
+        "latitude": 50.3479975,
+        "longitude": -167.674641
+      }
+    }
+  },
+  "items": [
+    {
+      "product_id": "prd-1010",
+      "name": "Мгновение Вряд",
+      "category": "🥦 Овощи и зелень",
+      "quantity": 2,
+      "unit": "кг",
+      "price_per_unit": 149.03,
+      "total_price": 298.06,
+      "kbju": {
+        "calories": 186.1,
+        "protein": 15.0,
+        "fat": 10.1,
+        "carbohydrates": 27.3
+      },
+      "manufacturer": {
+        "name": "ИП «Блохина-Гаврилов»",
+        "country": "Россия",
+        "website": "https://oao.com",
+        "inn": "1245272063"
+      }
+    },
+    {
+      "product_id": "prd-1002",
+      "name": "Еврейский Отражение",
+      "category": "🥩 Мясо, рыба, яйца и бобовые",
+      "quantity": 4,
+      "unit": "упаковка",
+      "price_per_unit": 268.07,
+      "total_price": 1072.28,
+      "kbju": {
+        "calories": 264.5,
+        "protein": 5.4,
+        "fat": 13.4,
+        "carbohydrates": 29.2
+      },
+      "manufacturer": {
+        "name": "ОАО «Мишин-Виноградова»",
+        "country": "Россия",
+        "website": "https://ooo.edu",
+        "inn": "8371422850"
+      }
+    }
+  ],
+  "total_amount": 1370.34,
+  "payment_method": "cash",
+  "is_delivery": false,
+  "delivery_address": {
+    "country": "Россия",
+    "city": "с. Владикавказ",
+    "street": "пр. Ключевой",
+    "house": "860",
+    "apartment": "15",
+    "postal_code": "332731"
+  },
+  "purchase_datetime": "2025-08-25T00:21:05.966574"
+}

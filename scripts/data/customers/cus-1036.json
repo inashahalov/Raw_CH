@@ -1,0 +1,36 @@
+{
+  "customer_id": "cus-1036",
+  "first_name": "Ананий",
+  "last_name": "Шубин",
+  "email": "xvolkov@example.net",
+  "phone": "+7 938 461 4396",
+  "birth_date": "1981-03-01",
+  "gender": "female",
+  "registration_date": "2025-09-25T00:21:05.914752",
+  "is_loyalty_member": true,
+  "loyalty_card_number": "LOYAL-E36C1302B0",
+  "purchase_location": {
+    "store_id": "store-037",
+    "store_name": "Маленькая Пикча — Магазин на пр. Северный",
+    "store_network": "Маленькая Пикча",
+    "store_type_description": "Магазин у дома менее 100 кв.м. Входит в сеть из 15 магазинов.",
+    "country": "Россия",
+    "city": "п. Курумкан",
+    "street": "бул. Волгоградский",
+    "house": "3",
+    "postal_code": "799219"
+  },
+  "delivery_address": {
+    "country": "Россия",
+    "city": "п. Курумкан",
+    "street": "пер. Лесный",
+    "house": "3/9",
+    "apartment": "46",
+    "postal_code": "741876"
+  },
+  "preferences": {
+    "preferred_language": "ru",
+    "preferred_payment_method": "card",
+    "receive_promotions": false
+  }
+}

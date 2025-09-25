@@ -1,0 +1,105 @@
+{
+  "purchase_id": "ord-00009",
+  "customer": {
+    "customer_id": "cus-1006",
+    "first_name": "Регина",
+    "last_name": "Кудряшов",
+    "email": "seliverst_17@example.net",
+    "phone": "+7 153 863 80 58",
+    "is_loyalty_member": true,
+    "loyalty_card_number": "LOYAL-12243F909F"
+  },
+  "store": {
+    "store_id": "store-017",
+    "store_name": "Большая Пикча — Магазин на алл. Тамбовская",
+    "store_network": "Большая Пикча",
+    "location": {
+      "country": "Россия",
+      "city": "к. Воркута",
+      "street": "наб. Байкальская",
+      "house": "38",
+      "postal_code": "038139",
+      "coordinates": {
+        "latitude": -35.4698385,
+        "longitude": 107.698
+      }
+    }
+  },
+  "items": [
+    {
+      "product_id": "prd-1015",
+      "name": "Советовать Горький",
+      "category": "🥖 Зерновые и хлебобулочные изделия",
+      "quantity": 4,
+      "unit": "л",
+      "price_per_unit": 74.06,
+      "total_price": 296.24,
+      "kbju": {
+        "calories": 265.6,
+        "protein": 14.1,
+        "fat": 13.9,
+        "carbohydrates": 4.2
+      },
+      "manufacturer": {
+        "name": "РАО «Пахомова-Голубев»",
+        "country": "Россия",
+        "website": "https://nlmk.biz",
+        "inn": "6002140966"
+      }
+    },
+    {
+      "product_id": "prd-1017",
+      "name": "Цель Единый",
+      "category": "🥖 Зерновые и хлебобулочные изделия",
+      "quantity": 1,
+      "unit": "упаковка",
+      "price_per_unit": 99.97,
+      "total_price": 99.97,
+      "kbju": {
+        "calories": 97.4,
+        "protein": 12.5,
+        "fat": 14.8,
+        "carbohydrates": 11.6
+      },
+      "manufacturer": {
+        "name": "АО «Белякова»",
+        "country": "Россия",
+        "website": "https://rao.com",
+        "inn": "0030371079"
+      }
+    },
+    {
+      "product_id": "prd-1002",
+      "name": "Еврейский Отражение",
+      "category": "🥩 Мясо, рыба, яйца и бобовые",
+      "quantity": 2,
+      "unit": "упаковка",
+      "price_per_unit": 268.07,
+      "total_price": 536.14,
+      "kbju": {
+        "calories": 264.5,
+        "protein": 5.4,
+        "fat": 13.4,
+        "carbohydrates": 29.2
+      },
+      "manufacturer": {
+        "name": "ОАО «Мишин-Виноградова»",
+        "country": "Россия",
+        "website": "https://ooo.edu",
+        "inn": "8371422850"
+      }
+    }
+  ],
+  "total_amount": 932.35,
+  "payment_method": "cash",
+  "is_delivery": false,
+  "delivery_address": {
+    "country": "Россия",
+    "city": "клх Шумиха",
+    "street": "бул. Сурикова",
+    "house": "824",
+    "apartment": "2",
+    "postal_code": "530049"
+  },
+  "purchase_datetime": "2025-08-03T00:21:05.922647"
+}

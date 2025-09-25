@@ -1,0 +1,36 @@
+{
+  "customer_id": "cus-1015",
+  "first_name": "Аникей",
+  "last_name": "Новиков",
+  "email": "oisakova@example.org",
+  "phone": "8 (510) 536-4882",
+  "birth_date": "1971-03-14",
+  "gender": "female",
+  "registration_date": "2025-09-25T00:21:05.901091",
+  "is_loyalty_member": true,
+  "loyalty_card_number": "LOYAL-E87EA9AED1",
+  "purchase_location": {
+    "store_id": "store-016",
+    "store_name": "Большая Пикча — Магазин на пр. Горького",
+    "store_network": "Большая Пикча",
+    "store_type_description": "Супермаркет более 200 кв.м. Входит в сеть из 30 магазинов.",
+    "country": "Россия",
+    "city": "клх Новомичуринск",
+    "street": "пер. З.Космодемьянской",
+    "house": "8",
+    "postal_code": "646457"
+  },
+  "delivery_address": {
+    "country": "Россия",
+    "city": "клх Новомичуринск",
+    "street": "алл. Космонавтов",
+    "house": "8/4",
+    "apartment": "96",
+    "postal_code": "158931"
+  },
+  "preferences": {
+    "preferred_language": "ru",
+    "preferred_payment_method": "card",
+    "receive_promotions": true
+  }
+}

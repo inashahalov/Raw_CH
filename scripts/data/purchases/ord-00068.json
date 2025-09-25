@@ -1,0 +1,84 @@
+{
+  "purchase_id": "ord-00068",
+  "customer": {
+    "customer_id": "cus-1018",
+    "first_name": "Евпраксия",
+    "last_name": "Турова",
+    "email": "tblinova@example.org",
+    "phone": "+7 693 449 35 22",
+    "is_loyalty_member": true,
+    "loyalty_card_number": "LOYAL-AD084D2DCF"
+  },
+  "store": {
+    "store_id": "store-023",
+    "store_name": "Большая Пикча — Магазин на пер. Прудный",
+    "store_network": "Большая Пикча",
+    "location": {
+      "country": "Россия",
+      "city": "с. Владикавказ",
+      "street": "алл. Репина",
+      "house": "4",
+      "postal_code": "867024",
+      "coordinates": {
+        "latitude": -27.2311465,
+        "longitude": -151.9032
+      }
+    }
+  },
+  "items": [
+    {
+      "product_id": "prd-1018",
+      "name": "Зачем Пол",
+      "category": "🍏 Фрукты и ягоды",
+      "quantity": 5,
+      "unit": "кг",
+      "price_per_unit": 247.99,
+      "total_price": 1239.95,
+      "kbju": {
+        "calories": 236.7,
+        "protein": 5.8,
+        "fat": 10.9,
+        "carbohydrates": 13.1
+      },
+      "manufacturer": {
+        "name": "ОАО «Панов-Воробьева»",
+        "country": "Россия",
+        "website": "https://rao.edu",
+        "inn": "5397679829"
+      }
+    },
+    {
+      "product_id": "prd-1005",
+      "name": "Направо Господь",
+      "category": "🥩 Мясо, рыба, яйца и бобовые",
+      "quantity": 5,
+      "unit": "л",
+      "price_per_unit": 126.73,
+      "total_price": 633.65,
+      "kbju": {
+        "calories": 93.0,
+        "protein": 13.6,
+        "fat": 2.1,
+        "carbohydrates": 20.3
+      },
+      "manufacturer": {
+        "name": "ЗАО «Титова»",
+        "country": "Россия",
+        "website": "https://npo.com",
+        "inn": "2777644639"
+      }
+    }
+  ],
+  "total_amount": 1873.6,
+  "payment_method": "cash",
+  "is_delivery": false,
+  "delivery_address": {
+    "country": "Россия",
+    "city": "г. Южно-Курильск",
+    "street": "бул. Выгонный",
+    "house": "75",
+    "apartment": "28",
+    "postal_code": "947970"
+  },
+  "purchase_datetime": "2025-07-31T00:21:05.946569"
+}

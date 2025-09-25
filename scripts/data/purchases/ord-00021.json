@@ -1,0 +1,84 @@
+{
+  "purchase_id": "ord-00021",
+  "customer": {
+    "customer_id": "cus-1025",
+    "first_name": "Спиридон",
+    "last_name": "Чернова",
+    "email": "matverusakov@example.com",
+    "phone": "8 (952) 467-03-44",
+    "is_loyalty_member": true,
+    "loyalty_card_number": "LOYAL-4B48A341FD"
+  },
+  "store": {
+    "store_id": "store-019",
+    "store_name": "Большая Пикча — Магазин на ул. Серова",
+    "store_network": "Большая Пикча",
+    "location": {
+      "country": "Россия",
+      "city": "г. Южно-Курильск",
+      "street": "пер. Коммунистический",
+      "house": "4",
+      "postal_code": "511510",
+      "coordinates": {
+        "latitude": -33.1503555,
+        "longitude": 22.862732
+      }
+    }
+  },
+  "items": [
+    {
+      "product_id": "prd-1014",
+      "name": "Опасность Следовательно",
+      "category": "🥛 Молочные продукты",
+      "quantity": 1,
+      "unit": "кг",
+      "price_per_unit": 213.21,
+      "total_price": 213.21,
+      "kbju": {
+        "calories": 206.8,
+        "protein": 10.5,
+        "fat": 2.9,
+        "carbohydrates": 6.6
+      },
+      "manufacturer": {
+        "name": "ЗАО «Беляков, Большакова и Князева»",
+        "country": "Россия",
+        "website": "https://npo.com",
+        "inn": "0149036081"
+      }
+    },
+    {
+      "product_id": "prd-1006",
+      "name": "Вытаскивать Плод",
+      "category": "🍏 Фрукты и ягоды",
+      "quantity": 5,
+      "unit": "упаковка",
+      "price_per_unit": 123.36,
+      "total_price": 616.8,
+      "kbju": {
+        "calories": 124.2,
+        "protein": 11.3,
+        "fat": 2.6,
+        "carbohydrates": 42.9
+      },
+      "manufacturer": {
+        "name": "ИП «Емельянов-Наумова»",
+        "country": "Россия",
+        "website": "https://npo.edu",
+        "inn": "9973742158"
+      }
+    }
+  ],
+  "total_amount": 830.01,
+  "payment_method": "cash",
+  "is_delivery": false,
+  "delivery_address": {
+    "country": "Россия",
+    "city": "с. Нижневартовск",
+    "street": "бул. Дальневосточный",
+    "house": "4/6",
+    "apartment": "18",
+    "postal_code": "016225"
+  },
+  "purchase_datetime": "2025-09-03T00:21:05.927458"
+}

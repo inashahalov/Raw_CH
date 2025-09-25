@@ -1,0 +1,63 @@
+{
+  "purchase_id": "ord-00145",
+  "customer": {
+    "customer_id": "cus-1009",
+    "first_name": "Любомир",
+    "last_name": "Зайцева",
+    "email": "mironovdementi@example.net",
+    "phone": "8 083 438 03 36",
+    "is_loyalty_member": true,
+    "loyalty_card_number": "LOYAL-B97665AA7B"
+  },
+  "store": {
+    "store_id": "store-017",
+    "store_name": "Большая Пикча — Магазин на алл. Тамбовская",
+    "store_network": "Большая Пикча",
+    "location": {
+      "country": "Россия",
+      "city": "к. Воркута",
+      "street": "наб. Байкальская",
+      "house": "38",
+      "postal_code": "038139",
+      "coordinates": {
+        "latitude": -35.4698385,
+        "longitude": 107.698
+      }
+    }
+  },
+  "items": [
+    {
+      "product_id": "prd-1008",
+      "name": "Освободить Призыв",
+      "category": "🥩 Мясо, рыба, яйца и бобовые",
+      "quantity": 1,
+      "unit": "л",
+      "price_per_unit": 265.49,
+      "total_price": 265.49,
+      "kbju": {
+        "calories": 130.4,
+        "protein": 5.2,
+        "fat": 10.6,
+        "carbohydrates": 22.8
+      },
+      "manufacturer": {
+        "name": "ИП «Маслова, Денисов и Фокина»",
+        "country": "Россия",
+        "website": "https://ignatev.com",
+        "inn": "7104068639"
+      }
+    }
+  ],
+  "total_amount": 265.49,
+  "payment_method": "card",
+  "is_delivery": false,
+  "delivery_address": {
+    "country": "Россия",
+    "city": "к. Тулун",
+    "street": "бул. Зеленый",
+    "house": "5",
+    "apartment": "42",
+    "postal_code": "594984"
+  },
+  "purchase_datetime": "2025-07-29T00:21:06.221525"
+}

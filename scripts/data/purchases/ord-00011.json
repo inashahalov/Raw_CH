@@ -1,0 +1,63 @@
+{
+  "purchase_id": "ord-00011",
+  "customer": {
+    "customer_id": "cus-1023",
+    "first_name": "Глеб",
+    "last_name": "Лаврентьева",
+    "email": "nikola_91@example.net",
+    "phone": "8 395 248 0796",
+    "is_loyalty_member": true,
+    "loyalty_card_number": "LOYAL-9CB7750EFB"
+  },
+  "store": {
+    "store_id": "store-043",
+    "store_name": "Маленькая Пикча — Магазин на алл. Сенная",
+    "store_network": "Маленькая Пикча",
+    "location": {
+      "country": "Россия",
+      "city": "г. Кириши",
+      "street": "бул. Карла Либкнехта",
+      "house": "309",
+      "postal_code": "690237",
+      "coordinates": {
+        "latitude": 82.5789505,
+        "longitude": 15.979647
+      }
+    }
+  },
+  "items": [
+    {
+      "product_id": "prd-1005",
+      "name": "Направо Господь",
+      "category": "🥩 Мясо, рыба, яйца и бобовые",
+      "quantity": 1,
+      "unit": "л",
+      "price_per_unit": 126.73,
+      "total_price": 126.73,
+      "kbju": {
+        "calories": 93.0,
+        "protein": 13.6,
+        "fat": 2.1,
+        "carbohydrates": 20.3
+      },
+      "manufacturer": {
+        "name": "ЗАО «Титова»",
+        "country": "Россия",
+        "website": "https://npo.com",
+        "inn": "2777644639"
+      }
+    }
+  ],
+  "total_amount": 126.73,
+  "payment_method": "cash",
+  "is_delivery": true,
+  "delivery_address": {
+    "country": "Россия",
+    "city": "ст. Клин",
+    "street": "наб. Маркса",
+    "house": "99",
+    "apartment": "96",
+    "postal_code": "828143"
+  },
+  "purchase_datetime": "2025-09-17T00:21:05.923387"
+}

@@ -1,0 +1,105 @@
+{
+  "purchase_id": "ord-00017",
+  "customer": {
+    "customer_id": "cus-1014",
+    "first_name": "Вера",
+    "last_name": "Логинова",
+    "email": "sofron_04@example.com",
+    "phone": "8 (794) 601-51-70",
+    "is_loyalty_member": true,
+    "loyalty_card_number": "LOYAL-85166218B3"
+  },
+  "store": {
+    "store_id": "store-003",
+    "store_name": "Большая Пикча — Магазин на ул. Тульская",
+    "store_network": "Большая Пикча",
+    "location": {
+      "country": "Россия",
+      "city": "ст. Игарка",
+      "street": "наб. Смирнова",
+      "house": "31",
+      "postal_code": "004171",
+      "coordinates": {
+        "latitude": -4.03426,
+        "longitude": 25.806164
+      }
+    }
+  },
+  "items": [
+    {
+      "product_id": "prd-1002",
+      "name": "Еврейский Отражение",
+      "category": "🥩 Мясо, рыба, яйца и бобовые",
+      "quantity": 5,
+      "unit": "упаковка",
+      "price_per_unit": 268.07,
+      "total_price": 1340.35,
+      "kbju": {
+        "calories": 264.5,
+        "protein": 5.4,
+        "fat": 13.4,
+        "carbohydrates": 29.2
+      },
+      "manufacturer": {
+        "name": "ОАО «Мишин-Виноградова»",
+        "country": "Россия",
+        "website": "https://ooo.edu",
+        "inn": "8371422850"
+      }
+    },
+    {
+      "product_id": "prd-1012",
+      "name": "Школьный Анализ",
+      "category": "🥦 Овощи и зелень",
+      "quantity": 3,
+      "unit": "л",
+      "price_per_unit": 209.82,
+      "total_price": 629.46,
+      "kbju": {
+        "calories": 60.6,
+        "protein": 14.6,
+        "fat": 12.7,
+        "carbohydrates": 41.7
+      },
+      "manufacturer": {
+        "name": "ИП «Беспалов-Тимофеев»",
+        "country": "Россия",
+        "website": "https://npo.edu",
+        "inn": "6799042551"
+      }
+    },
+    {
+      "product_id": "prd-1017",
+      "name": "Цель Единый",
+      "category": "🥖 Зерновые и хлебобулочные изделия",
+      "quantity": 2,
+      "unit": "упаковка",
+      "price_per_unit": 99.97,
+      "total_price": 199.94,
+      "kbju": {
+        "calories": 97.4,
+        "protein": 12.5,
+        "fat": 14.8,
+        "carbohydrates": 11.6
+      },
+      "manufacturer": {
+        "name": "АО «Белякова»",
+        "country": "Россия",
+        "website": "https://rao.com",
+        "inn": "0030371079"
+      }
+    }
+  ],
+  "total_amount": 2169.75,
+  "payment_method": "card",
+  "is_delivery": false,
+  "delivery_address": {
+    "country": "Россия",
+    "city": "с. Минусинск",
+    "street": "ул. Семашко",
+    "house": "308",
+    "apartment": "11",
+    "postal_code": "401472"
+  },
+  "purchase_datetime": "2025-07-16T00:21:05.925781"
+}

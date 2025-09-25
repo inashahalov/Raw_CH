@@ -1,0 +1,63 @@
+{
+  "purchase_id": "ord-00107",
+  "customer": {
+    "customer_id": "cus-1006",
+    "first_name": "Регина",
+    "last_name": "Кудряшов",
+    "email": "seliverst_17@example.net",
+    "phone": "+7 153 863 80 58",
+    "is_loyalty_member": true,
+    "loyalty_card_number": "LOYAL-12243F909F"
+  },
+  "store": {
+    "store_id": "store-032",
+    "store_name": "Маленькая Пикча — Магазин на бул. Цветочный",
+    "store_network": "Маленькая Пикча",
+    "location": {
+      "country": "Россия",
+      "city": "к. Сыктывкар",
+      "street": "пр. Локомотивный",
+      "house": "891",
+      "postal_code": "063771",
+      "coordinates": {
+        "latitude": 82.944341,
+        "longitude": 165.988591
+      }
+    }
+  },
+  "items": [
+    {
+      "product_id": "prd-1004",
+      "name": "Написать Актриса",
+      "category": "🍏 Фрукты и ягоды",
+      "quantity": 5,
+      "unit": "кг",
+      "price_per_unit": 247.9,
+      "total_price": 1239.5,
+      "kbju": {
+        "calories": 90.5,
+        "protein": 3.5,
+        "fat": 0.2,
+        "carbohydrates": 19.9
+      },
+      "manufacturer": {
+        "name": "Ферронордик машины (Ferronordic)",
+        "country": "Россия",
+        "website": "https://kulikova.net",
+        "inn": "5999502719"
+      }
+    }
+  ],
+  "total_amount": 1239.5,
+  "payment_method": "cash",
+  "is_delivery": true,
+  "delivery_address": {
+    "country": "Россия",
+    "city": "клх Шумиха",
+    "street": "бул. Сурикова",
+    "house": "824",
+    "apartment": "2",
+    "postal_code": "530049"
+  },
+  "purchase_datetime": "2025-09-14T00:21:05.963279"
+}

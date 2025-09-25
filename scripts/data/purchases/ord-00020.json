@@ -1,0 +1,84 @@
+{
+  "purchase_id": "ord-00020",
+  "customer": {
+    "customer_id": "cus-1003",
+    "first_name": "Полина",
+    "last_name": "Шарова",
+    "email": "valerija_1971@example.net",
+    "phone": "+74365505643",
+    "is_loyalty_member": true,
+    "loyalty_card_number": "LOYAL-C222052A45"
+  },
+  "store": {
+    "store_id": "store-034",
+    "store_name": "Маленькая Пикча — Магазин на пер. Большевистский",
+    "store_network": "Маленькая Пикча",
+    "location": {
+      "country": "Россия",
+      "city": "к. Яшалта",
+      "street": "алл. Лунная",
+      "house": "3",
+      "postal_code": "125791",
+      "coordinates": {
+        "latitude": 35.452102,
+        "longitude": 117.041786
+      }
+    }
+  },
+  "items": [
+    {
+      "product_id": "prd-1007",
+      "name": "Пища Беспомощный",
+      "category": "🥦 Овощи и зелень",
+      "quantity": 3,
+      "unit": "л",
+      "price_per_unit": 61.58,
+      "total_price": 184.74,
+      "kbju": {
+        "calories": 155.9,
+        "protein": 7.5,
+        "fat": 9.2,
+        "carbohydrates": 7.7
+      },
+      "manufacturer": {
+        "name": "АО «Гущин-Карпов»",
+        "country": "Россия",
+        "website": "https://ip.net",
+        "inn": "7668416058"
+      }
+    },
+    {
+      "product_id": "prd-1016",
+      "name": "Школьный Очко",
+      "category": "🥖 Зерновые и хлебобулочные изделия",
+      "quantity": 2,
+      "unit": "шт",
+      "price_per_unit": 295.13,
+      "total_price": 590.26,
+      "kbju": {
+        "calories": 156.7,
+        "protein": 8.3,
+        "fat": 6.7,
+        "carbohydrates": 49.1
+      },
+      "manufacturer": {
+        "name": "РАО «Марков»",
+        "country": "Россия",
+        "website": "https://argos.org",
+        "inn": "6328136246"
+      }
+    }
+  ],
+  "total_amount": 775.0,
+  "payment_method": "cash",
+  "is_delivery": true,
+  "delivery_address": {
+    "country": "Россия",
+    "city": "с. Кабанск",
+    "street": "наб. Саратовская",
+    "house": "5",
+    "apartment": "29",
+    "postal_code": "362727"
+  },
+  "purchase_datetime": "2025-08-19T00:21:05.927074"
+}

@@ -1,0 +1,105 @@
+{
+  "purchase_id": "ord-00056",
+  "customer": {
+    "customer_id": "cus-1016",
+    "first_name": "Светлана",
+    "last_name": "Комиссаров",
+    "email": "feofanshirjaev@example.net",
+    "phone": "89366068187",
+    "is_loyalty_member": true,
+    "loyalty_card_number": "LOYAL-E2F0AEB6F9"
+  },
+  "store": {
+    "store_id": "store-030",
+    "store_name": "Большая Пикча — Магазин на алл. Кузнецкая",
+    "store_network": "Большая Пикча",
+    "location": {
+      "country": "Россия",
+      "city": "д. Учалы",
+      "street": "алл. Димитрова",
+      "house": "3",
+      "postal_code": "234970",
+      "coordinates": {
+        "latitude": 76.7471465,
+        "longitude": -99.722231
+      }
+    }
+  },
+  "items": [
+    {
+      "product_id": "prd-1011",
+      "name": "Привлекать Пол",
+      "category": "🥩 Мясо, рыба, яйца и бобовые",
+      "quantity": 3,
+      "unit": "л",
+      "price_per_unit": 85.86,
+      "total_price": 257.58,
+      "kbju": {
+        "calories": 65.4,
+        "protein": 5.6,
+        "fat": 1.9,
+        "carbohydrates": 24.1
+      },
+      "manufacturer": {
+        "name": "ИП «Галкина-Терентьев»",
+        "country": "Россия",
+        "website": "https://rao.ru",
+        "inn": "5528391758"
+      }
+    },
+    {
+      "product_id": "prd-1003",
+      "name": "Поймать Изба",
+      "category": "🥖 Зерновые и хлебобулочные изделия",
+      "quantity": 3,
+      "unit": "шт",
+      "price_per_unit": 164.24,
+      "total_price": 492.72,
+      "kbju": {
+        "calories": 225.1,
+        "protein": 9.6,
+        "fat": 12.3,
+        "carbohydrates": 33.1
+      },
+      "manufacturer": {
+        "name": "ЗАО «Родионов»",
+        "country": "Россия",
+        "website": "https://ooo.com",
+        "inn": "2508560707"
+      }
+    },
+    {
+      "product_id": "prd-1018",
+      "name": "Зачем Пол",
+      "category": "🍏 Фрукты и ягоды",
+      "quantity": 3,
+      "unit": "кг",
+      "price_per_unit": 247.99,
+      "total_price": 743.97,
+      "kbju": {
+        "calories": 236.7,
+        "protein": 5.8,
+        "fat": 10.9,
+        "carbohydrates": 13.1
+      },
+      "manufacturer": {
+        "name": "ОАО «Панов-Воробьева»",
+        "country": "Россия",
+        "website": "https://rao.edu",
+        "inn": "5397679829"
+      }
+    }
+  ],
+  "total_amount": 1494.27,
+  "payment_method": "card",
+  "is_delivery": false,
+  "delivery_address": {
+    "country": "Россия",
+    "city": "к. Воркута",
+    "street": "бул. Каштановый",
+    "house": "1/3",
+    "apartment": "12",
+    "postal_code": "926424"
+  },
+  "purchase_datetime": "2025-07-12T00:21:05.941285"
+}

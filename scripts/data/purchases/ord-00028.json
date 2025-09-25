@@ -1,0 +1,84 @@
+{
+  "purchase_id": "ord-00028",
+  "customer": {
+    "customer_id": "cus-1037",
+    "first_name": "Ипатий",
+    "last_name": "Ларионова",
+    "email": "timurfadeev@example.org",
+    "phone": "+7 561 629 90 67",
+    "is_loyalty_member": true,
+    "loyalty_card_number": "LOYAL-FA021EE45A"
+  },
+  "store": {
+    "store_id": "store-021",
+    "store_name": "Большая Пикча — Магазин на алл. Огородная",
+    "store_network": "Большая Пикча",
+    "location": {
+      "country": "Россия",
+      "city": "п. Энгельс",
+      "street": "ш. Партизанское",
+      "house": "9/6",
+      "postal_code": "123462",
+      "coordinates": {
+        "latitude": -19.580885,
+        "longitude": 86.177992
+      }
+    }
+  },
+  "items": [
+    {
+      "product_id": "prd-1012",
+      "name": "Школьный Анализ",
+      "category": "🥦 Овощи и зелень",
+      "quantity": 2,
+      "unit": "л",
+      "price_per_unit": 209.82,
+      "total_price": 419.64,
+      "kbju": {
+        "calories": 60.6,
+        "protein": 14.6,
+        "fat": 12.7,
+        "carbohydrates": 41.7
+      },
+      "manufacturer": {
+        "name": "ИП «Беспалов-Тимофеев»",
+        "country": "Россия",
+        "website": "https://npo.edu",
+        "inn": "6799042551"
+      }
+    },
+    {
+      "product_id": "prd-1014",
+      "name": "Опасность Следовательно",
+      "category": "🥛 Молочные продукты",
+      "quantity": 1,
+      "unit": "кг",
+      "price_per_unit": 213.21,
+      "total_price": 213.21,
+      "kbju": {
+        "calories": 206.8,
+        "protein": 10.5,
+        "fat": 2.9,
+        "carbohydrates": 6.6
+      },
+      "manufacturer": {
+        "name": "ЗАО «Беляков, Большакова и Князева»",
+        "country": "Россия",
+        "website": "https://npo.com",
+        "inn": "0149036081"
+      }
+    }
+  ],
+  "total_amount": 632.85,
+  "payment_method": "card",
+  "is_delivery": false,
+  "delivery_address": {
+    "country": "Россия",
+    "city": "д. Сосновый Бор",
+    "street": "ул. Халтурина",
+    "house": "4/1",
+    "apartment": "98",
+    "postal_code": "590899"
+  },
+  "purchase_datetime": "2025-06-29T00:21:05.930618"
+}

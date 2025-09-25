@@ -1,0 +1,36 @@
+{
+  "customer_id": "cus-1025",
+  "first_name": "Спиридон",
+  "last_name": "Чернова",
+  "email": "matverusakov@example.com",
+  "phone": "8 (952) 467-03-44",
+  "birth_date": "1965-10-29",
+  "gender": "female",
+  "registration_date": "2025-09-25T00:21:05.907655",
+  "is_loyalty_member": true,
+  "loyalty_card_number": "LOYAL-4B48A341FD",
+  "purchase_location": {
+    "store_id": "store-026",
+    "store_name": "Большая Пикча — Магазин на наб. Горная",
+    "store_network": "Большая Пикча",
+    "store_type_description": "Супермаркет более 200 кв.м. Входит в сеть из 30 магазинов.",
+    "country": "Россия",
+    "city": "с. Нижневартовск",
+    "street": "пер. Дарвина",
+    "house": "8",
+    "postal_code": "513083"
+  },
+  "delivery_address": {
+    "country": "Россия",
+    "city": "с. Нижневартовск",
+    "street": "бул. Дальневосточный",
+    "house": "4/6",
+    "apartment": "18",
+    "postal_code": "016225"
+  },
+  "preferences": {
+    "preferred_language": "ru",
+    "preferred_payment_method": "card",
+    "receive_promotions": true
+  }
+}

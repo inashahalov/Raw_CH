@@ -1,0 +1,36 @@
+{
+  "customer_id": "cus-1016",
+  "first_name": "Светлана",
+  "last_name": "Комиссаров",
+  "email": "feofanshirjaev@example.net",
+  "phone": "89366068187",
+  "birth_date": "1978-04-13",
+  "gender": "male",
+  "registration_date": "2025-09-25T00:21:05.901734",
+  "is_loyalty_member": true,
+  "loyalty_card_number": "LOYAL-E2F0AEB6F9",
+  "purchase_location": {
+    "store_id": "store-017",
+    "store_name": "Большая Пикча — Магазин на алл. Тамбовская",
+    "store_network": "Большая Пикча",
+    "store_type_description": "Супермаркет более 200 кв.м. Входит в сеть из 30 магазинов.",
+    "country": "Россия",
+    "city": "к. Воркута",
+    "street": "наб. Байкальская",
+    "house": "38",
+    "postal_code": "038139"
+  },
+  "delivery_address": {
+    "country": "Россия",
+    "city": "к. Воркута",
+    "street": "бул. Каштановый",
+    "house": "1/3",
+    "apartment": "12",
+    "postal_code": "926424"
+  },
+  "preferences": {
+    "preferred_language": "ru",
+    "preferred_payment_method": "cash",
+    "receive_promotions": false
+  }
+}

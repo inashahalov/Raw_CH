@@ -1,0 +1,36 @@
+{
+  "customer_id": "cus-1034",
+  "first_name": "Глеб",
+  "last_name": "Суханова",
+  "email": "frolovipat@example.org",
+  "phone": "+7 828 354 05 71",
+  "birth_date": "1959-08-06",
+  "gender": "male",
+  "registration_date": "2025-09-25T00:21:05.913577",
+  "is_loyalty_member": true,
+  "loyalty_card_number": "LOYAL-4B3C52328F",
+  "purchase_location": {
+    "store_id": "store-035",
+    "store_name": "Маленькая Пикча — Магазин на наб. Ворошилова",
+    "store_network": "Маленькая Пикча",
+    "store_type_description": "Магазин у дома менее 100 кв.м. Входит в сеть из 15 магазинов.",
+    "country": "Россия",
+    "city": "п. Нерчинск",
+    "street": "алл. Кольцевая",
+    "house": "4/5",
+    "postal_code": "684320"
+  },
+  "delivery_address": {
+    "country": "Россия",
+    "city": "п. Нерчинск",
+    "street": "пер. Красный",
+    "house": "4",
+    "apartment": "61",
+    "postal_code": "843709"
+  },
+  "preferences": {
+    "preferred_language": "ru",
+    "preferred_payment_method": "card",
+    "receive_promotions": true
+  }
+}

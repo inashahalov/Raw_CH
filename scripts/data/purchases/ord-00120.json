@@ -1,0 +1,84 @@
+{
+  "purchase_id": "ord-00120",
+  "customer": {
+    "customer_id": "cus-1013",
+    "first_name": "Селиван",
+    "last_name": "Савельев",
+    "email": "vissarion_40@example.com",
+    "phone": "+71178778499",
+    "is_loyalty_member": true,
+    "loyalty_card_number": "LOYAL-CA2847D92B"
+  },
+  "store": {
+    "store_id": "store-016",
+    "store_name": "Большая Пикча — Магазин на пр. Горького",
+    "store_network": "Большая Пикча",
+    "location": {
+      "country": "Россия",
+      "city": "клх Новомичуринск",
+      "street": "пер. З.Космодемьянской",
+      "house": "8",
+      "postal_code": "646457",
+      "coordinates": {
+        "latitude": -13.8879685,
+        "longitude": -88.240324
+      }
+    }
+  },
+  "items": [
+    {
+      "product_id": "prd-1007",
+      "name": "Пища Беспомощный",
+      "category": "🥦 Овощи и зелень",
+      "quantity": 4,
+      "unit": "л",
+      "price_per_unit": 61.58,
+      "total_price": 246.32,
+      "kbju": {
+        "calories": 155.9,
+        "protein": 7.5,
+        "fat": 9.2,
+        "carbohydrates": 7.7
+      },
+      "manufacturer": {
+        "name": "АО «Гущин-Карпов»",
+        "country": "Россия",
+        "website": "https://ip.net",
+        "inn": "7668416058"
+      }
+    },
+    {
+      "product_id": "prd-1016",
+      "name": "Школьный Очко",
+      "category": "🥖 Зерновые и хлебобулочные изделия",
+      "quantity": 5,
+      "unit": "шт",
+      "price_per_unit": 295.13,
+      "total_price": 1475.65,
+      "kbju": {
+        "calories": 156.7,
+        "protein": 8.3,
+        "fat": 6.7,
+        "carbohydrates": 49.1
+      },
+      "manufacturer": {
+        "name": "РАО «Марков»",
+        "country": "Россия",
+        "website": "https://argos.org",
+        "inn": "6328136246"
+      }
+    }
+  ],
+  "total_amount": 1721.97,
+  "payment_method": "card",
+  "is_delivery": true,
+  "delivery_address": {
+    "country": "Россия",
+    "city": "п. Качканар",
+    "street": "пр. Геологов",
+    "house": "882",
+    "apartment": "57",
+    "postal_code": "363767"
+  },
+  "purchase_datetime": "2025-06-29T00:21:05.969417"
+}

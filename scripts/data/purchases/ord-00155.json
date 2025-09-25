@@ -1,0 +1,63 @@
+{
+  "purchase_id": "ord-00155",
+  "customer": {
+    "customer_id": "cus-1035",
+    "first_name": "Станимир",
+    "last_name": "Семенов",
+    "email": "lukija2011@example.com",
+    "phone": "+7 (312) 285-31-25",
+    "is_loyalty_member": true,
+    "loyalty_card_number": "LOYAL-E7C27EFAE9"
+  },
+  "store": {
+    "store_id": "store-016",
+    "store_name": "Большая Пикча — Магазин на пр. Горького",
+    "store_network": "Большая Пикча",
+    "location": {
+      "country": "Россия",
+      "city": "клх Новомичуринск",
+      "street": "пер. З.Космодемьянской",
+      "house": "8",
+      "postal_code": "646457",
+      "coordinates": {
+        "latitude": -13.8879685,
+        "longitude": -88.240324
+      }
+    }
+  },
+  "items": [
+    {
+      "product_id": "prd-1012",
+      "name": "Школьный Анализ",
+      "category": "🥦 Овощи и зелень",
+      "quantity": 4,
+      "unit": "л",
+      "price_per_unit": 209.82,
+      "total_price": 839.28,
+      "kbju": {
+        "calories": 60.6,
+        "protein": 14.6,
+        "fat": 12.7,
+        "carbohydrates": 41.7
+      },
+      "manufacturer": {
+        "name": "ИП «Беспалов-Тимофеев»",
+        "country": "Россия",
+        "website": "https://npo.edu",
+        "inn": "6799042551"
+      }
+    }
+  ],
+  "total_amount": 839.28,
+  "payment_method": "cash",
+  "is_delivery": false,
+  "delivery_address": {
+    "country": "Россия",
+    "city": "д. Екатеринбург",
+    "street": "ш. Макарова",
+    "house": "31",
+    "apartment": "92",
+    "postal_code": "809342"
+  },
+  "purchase_datetime": "2025-09-19T00:21:06.227564"
+}

@@ -1,0 +1,36 @@
+{
+  "customer_id": "cus-1032",
+  "first_name": "Лора",
+  "last_name": "Быков",
+  "email": "miroslav_00@example.com",
+  "phone": "+7 505 315 33 58",
+  "birth_date": "1968-02-19",
+  "gender": "female",
+  "registration_date": "2025-09-25T00:21:05.912340",
+  "is_loyalty_member": true,
+  "loyalty_card_number": "LOYAL-8CCE31EB22",
+  "purchase_location": {
+    "store_id": "store-033",
+    "store_name": "Маленькая Пикча — Магазин на пр. Дарвина",
+    "store_network": "Маленькая Пикча",
+    "store_type_description": "Магазин у дома менее 100 кв.м. Входит в сеть из 15 магазинов.",
+    "country": "Россия",
+    "city": "к. Анадырь",
+    "street": "ш. Володарского",
+    "house": "24",
+    "postal_code": "532143"
+  },
+  "delivery_address": {
+    "country": "Россия",
+    "city": "к. Анадырь",
+    "street": "ш. Заовражное",
+    "house": "3",
+    "apartment": "69",
+    "postal_code": "143303"
+  },
+  "preferences": {
+    "preferred_language": "ru",
+    "preferred_payment_method": "cash",
+    "receive_promotions": true
+  }
+}

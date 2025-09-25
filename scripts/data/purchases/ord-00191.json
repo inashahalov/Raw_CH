@@ -1,0 +1,63 @@
+{
+  "purchase_id": "ord-00191",
+  "customer": {
+    "customer_id": "cus-1000",
+    "first_name": "Исай",
+    "last_name": "Соколов",
+    "email": "terenti_1993@example.org",
+    "phone": "+7 (568) 591-57-15",
+    "is_loyalty_member": true,
+    "loyalty_card_number": "LOYAL-BED7CD98FB"
+  },
+  "store": {
+    "store_id": "store-023",
+    "store_name": "Большая Пикча — Магазин на пер. Прудный",
+    "store_network": "Большая Пикча",
+    "location": {
+      "country": "Россия",
+      "city": "с. Владикавказ",
+      "street": "алл. Репина",
+      "house": "4",
+      "postal_code": "867024",
+      "coordinates": {
+        "latitude": -27.2311465,
+        "longitude": -151.9032
+      }
+    }
+  },
+  "items": [
+    {
+      "product_id": "prd-1001",
+      "name": "Домашний Жидкий",
+      "category": "🥛 Молочные продукты",
+      "quantity": 3,
+      "unit": "упаковка",
+      "price_per_unit": 74.5,
+      "total_price": 223.5,
+      "kbju": {
+        "calories": 173.9,
+        "protein": 3.6,
+        "fat": 11.0,
+        "carbohydrates": 7.4
+      },
+      "manufacturer": {
+        "name": "ОАО «Емельянова-Харитонов»",
+        "country": "Россия",
+        "website": "https://zao.edu",
+        "inn": "4413982995"
+      }
+    }
+  ],
+  "total_amount": 223.5,
+  "payment_method": "card",
+  "is_delivery": true,
+  "delivery_address": {
+    "country": "Россия",
+    "city": "с. Апрелевка",
+    "street": "бул. Хуторской",
+    "house": "508",
+    "apartment": "23",
+    "postal_code": "685023"
+  },
+  "purchase_datetime": "2025-07-13T00:21:06.241488"
+}

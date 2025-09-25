@@ -1,0 +1,84 @@
+{
+  "purchase_id": "ord-00127",
+  "customer": {
+    "customer_id": "cus-1017",
+    "first_name": "Селиверст",
+    "last_name": "Кузьмин",
+    "email": "muhinaeleonora@example.org",
+    "phone": "+7 (710) 046-15-36",
+    "is_loyalty_member": true,
+    "loyalty_card_number": "LOYAL-99AE3AEB37"
+  },
+  "store": {
+    "store_id": "store-013",
+    "store_name": "Большая Пикча — Магазин на алл. Мелиоративная",
+    "store_network": "Большая Пикча",
+    "location": {
+      "country": "Россия",
+      "city": "п. Лазаревское",
+      "street": "пер. Малый",
+      "house": "88",
+      "postal_code": "425601",
+      "coordinates": {
+        "latitude": -84.4676175,
+        "longitude": -90.154137
+      }
+    }
+  },
+  "items": [
+    {
+      "product_id": "prd-1010",
+      "name": "Мгновение Вряд",
+      "category": "🥦 Овощи и зелень",
+      "quantity": 2,
+      "unit": "кг",
+      "price_per_unit": 149.03,
+      "total_price": 298.06,
+      "kbju": {
+        "calories": 186.1,
+        "protein": 15.0,
+        "fat": 10.1,
+        "carbohydrates": 27.3
+      },
+      "manufacturer": {
+        "name": "ИП «Блохина-Гаврилов»",
+        "country": "Россия",
+        "website": "https://oao.com",
+        "inn": "1245272063"
+      }
+    },
+    {
+      "product_id": "prd-1012",
+      "name": "Школьный Анализ",
+      "category": "🥦 Овощи и зелень",
+      "quantity": 3,
+      "unit": "л",
+      "price_per_unit": 209.82,
+      "total_price": 629.46,
+      "kbju": {
+        "calories": 60.6,
+        "protein": 14.6,
+        "fat": 12.7,
+        "carbohydrates": 41.7
+      },
+      "manufacturer": {
+        "name": "ИП «Беспалов-Тимофеев»",
+        "country": "Россия",
+        "website": "https://npo.edu",
+        "inn": "6799042551"
+      }
+    }
+  ],
+  "total_amount": 927.52,
+  "payment_method": "cash",
+  "is_delivery": true,
+  "delivery_address": {
+    "country": "Россия",
+    "city": "п. Урюпинск",
+    "street": "пер. Березовый",
+    "house": "782",
+    "apartment": "12",
+    "postal_code": "541803"
+  },
+  "purchase_datetime": "2025-08-17T00:21:05.972890"
+}

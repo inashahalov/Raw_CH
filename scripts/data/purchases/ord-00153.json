@@ -1,0 +1,63 @@
+{
+  "purchase_id": "ord-00153",
+  "customer": {
+    "customer_id": "cus-1033",
+    "first_name": "Карп",
+    "last_name": "Корнилов",
+    "email": "dmitri07@example.org",
+    "phone": "83587069742",
+    "is_loyalty_member": true,
+    "loyalty_card_number": "LOYAL-389C1FF3BC"
+  },
+  "store": {
+    "store_id": "store-035",
+    "store_name": "Маленькая Пикча — Магазин на наб. Ворошилова",
+    "store_network": "Маленькая Пикча",
+    "location": {
+      "country": "Россия",
+      "city": "п. Нерчинск",
+      "street": "алл. Кольцевая",
+      "house": "4/5",
+      "postal_code": "684320",
+      "coordinates": {
+        "latitude": -40.406792,
+        "longitude": -57.258998
+      }
+    }
+  },
+  "items": [
+    {
+      "product_id": "prd-1019",
+      "name": "Сынок Обида",
+      "category": "🍏 Фрукты и ягоды",
+      "quantity": 3,
+      "unit": "кг",
+      "price_per_unit": 86.19,
+      "total_price": 258.57,
+      "kbju": {
+        "calories": 224.4,
+        "protein": 5.9,
+        "fat": 13.9,
+        "carbohydrates": 7.6
+      },
+      "manufacturer": {
+        "name": "ООО «Шилов-Константинова»",
+        "country": "Россия",
+        "website": "https://ooo.org",
+        "inn": "6666152301"
+      }
+    }
+  ],
+  "total_amount": 258.57,
+  "payment_method": "cash",
+  "is_delivery": true,
+  "delivery_address": {
+    "country": "Россия",
+    "city": "к. Яшалта",
+    "street": "ш. Орджоникидзе",
+    "house": "189",
+    "apartment": "41",
+    "postal_code": "555752"
+  },
+  "purchase_datetime": "2025-08-03T00:21:06.226710"
+}

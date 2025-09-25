@@ -1,0 +1,36 @@
+{
+  "customer_id": "cus-1044",
+  "first_name": "Ферапонт",
+  "last_name": "Дьячков",
+  "email": "svjatopolk_2014@example.net",
+  "phone": "8 004 991 21 34",
+  "birth_date": "1971-08-07",
+  "gender": "female",
+  "registration_date": "2025-09-25T00:21:05.918647",
+  "is_loyalty_member": true,
+  "loyalty_card_number": "LOYAL-0DB0905641",
+  "purchase_location": {
+    "store_id": "store-045",
+    "store_name": "Маленькая Пикча — Магазин на пр. Дзержинского",
+    "store_network": "Маленькая Пикча",
+    "store_type_description": "Магазин у дома менее 100 кв.м. Входит в сеть из 15 магазинов.",
+    "country": "Россия",
+    "city": "клх Дагомыс",
+    "street": "алл. Гаражная",
+    "house": "5",
+    "postal_code": "904276"
+  },
+  "delivery_address": {
+    "country": "Россия",
+    "city": "клх Дагомыс",
+    "street": "ул. Поселковая",
+    "house": "76",
+    "apartment": "62",
+    "postal_code": "232956"
+  },
+  "preferences": {
+    "preferred_language": "ru",
+    "preferred_payment_method": "card",
+    "receive_promotions": true
+  }
+}

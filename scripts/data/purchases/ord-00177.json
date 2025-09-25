@@ -1,0 +1,63 @@
+{
+  "purchase_id": "ord-00177",
+  "customer": {
+    "customer_id": "cus-1022",
+    "first_name": "Селиверст",
+    "last_name": "Мельникова",
+    "email": "zinovevaivanna@example.org",
+    "phone": "83922236291",
+    "is_loyalty_member": true,
+    "loyalty_card_number": "LOYAL-4245591696"
+  },
+  "store": {
+    "store_id": "store-018",
+    "store_name": "Большая Пикча — Магазин на ш. Колхозное",
+    "store_network": "Большая Пикча",
+    "location": {
+      "country": "Россия",
+      "city": "п. Урюпинск",
+      "street": "ул. Королева",
+      "house": "5",
+      "postal_code": "809286",
+      "coordinates": {
+        "latitude": 9.686733,
+        "longitude": 33.027261
+      }
+    }
+  },
+  "items": [
+    {
+      "product_id": "prd-1016",
+      "name": "Школьный Очко",
+      "category": "🥖 Зерновые и хлебобулочные изделия",
+      "quantity": 1,
+      "unit": "шт",
+      "price_per_unit": 295.13,
+      "total_price": 295.13,
+      "kbju": {
+        "calories": 156.7,
+        "protein": 8.3,
+        "fat": 6.7,
+        "carbohydrates": 49.1
+      },
+      "manufacturer": {
+        "name": "РАО «Марков»",
+        "country": "Россия",
+        "website": "https://argos.org",
+        "inn": "6328136246"
+      }
+    }
+  ],
+  "total_amount": 295.13,
+  "payment_method": "cash",
+  "is_delivery": true,
+  "delivery_address": {
+    "country": "Россия",
+    "city": "с. Владикавказ",
+    "street": "пр. Ключевой",
+    "house": "860",
+    "apartment": "15",
+    "postal_code": "332731"
+  },
+  "purchase_datetime": "2025-08-27T00:21:06.236425"
+}

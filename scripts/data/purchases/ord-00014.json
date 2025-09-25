@@ -1,0 +1,63 @@
+{
+  "purchase_id": "ord-00014",
+  "customer": {
+    "customer_id": "cus-1013",
+    "first_name": "Селиван",
+    "last_name": "Савельев",
+    "email": "vissarion_40@example.com",
+    "phone": "+71178778499",
+    "is_loyalty_member": true,
+    "loyalty_card_number": "LOYAL-CA2847D92B"
+  },
+  "store": {
+    "store_id": "store-043",
+    "store_name": "Маленькая Пикча — Магазин на алл. Сенная",
+    "store_network": "Маленькая Пикча",
+    "location": {
+      "country": "Россия",
+      "city": "г. Кириши",
+      "street": "бул. Карла Либкнехта",
+      "house": "309",
+      "postal_code": "690237",
+      "coordinates": {
+        "latitude": 82.5789505,
+        "longitude": 15.979647
+      }
+    }
+  },
+  "items": [
+    {
+      "product_id": "prd-1008",
+      "name": "Освободить Призыв",
+      "category": "🥩 Мясо, рыба, яйца и бобовые",
+      "quantity": 5,
+      "unit": "л",
+      "price_per_unit": 265.49,
+      "total_price": 1327.45,
+      "kbju": {
+        "calories": 130.4,
+        "protein": 5.2,
+        "fat": 10.6,
+        "carbohydrates": 22.8
+      },
+      "manufacturer": {
+        "name": "ИП «Маслова, Денисов и Фокина»",
+        "country": "Россия",
+        "website": "https://ignatev.com",
+        "inn": "7104068639"
+      }
+    }
+  ],
+  "total_amount": 1327.45,
+  "payment_method": "card",
+  "is_delivery": false,
+  "delivery_address": {
+    "country": "Россия",
+    "city": "п. Качканар",
+    "street": "пр. Геологов",
+    "house": "882",
+    "apartment": "57",
+    "postal_code": "363767"
+  },
+  "purchase_datetime": "2025-07-13T00:21:05.924487"
+}

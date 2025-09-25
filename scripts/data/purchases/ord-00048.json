@@ -1,0 +1,105 @@
+{
+  "purchase_id": "ord-00048",
+  "customer": {
+    "customer_id": "cus-1036",
+    "first_name": "Ананий",
+    "last_name": "Шубин",
+    "email": "xvolkov@example.net",
+    "phone": "+7 938 461 4396",
+    "is_loyalty_member": true,
+    "loyalty_card_number": "LOYAL-E36C1302B0"
+  },
+  "store": {
+    "store_id": "store-008",
+    "store_name": "Большая Пикча — Магазин на алл. Приозерная",
+    "store_network": "Большая Пикча",
+    "location": {
+      "country": "Россия",
+      "city": "с. Ялуторовск",
+      "street": "ул. Ягодная",
+      "house": "26",
+      "postal_code": "872820",
+      "coordinates": {
+        "latitude": -64.557127,
+        "longitude": -134.286499
+      }
+    }
+  },
+  "items": [
+    {
+      "product_id": "prd-1016",
+      "name": "Школьный Очко",
+      "category": "🥖 Зерновые и хлебобулочные изделия",
+      "quantity": 4,
+      "unit": "шт",
+      "price_per_unit": 295.13,
+      "total_price": 1180.52,
+      "kbju": {
+        "calories": 156.7,
+        "protein": 8.3,
+        "fat": 6.7,
+        "carbohydrates": 49.1
+      },
+      "manufacturer": {
+        "name": "РАО «Марков»",
+        "country": "Россия",
+        "website": "https://argos.org",
+        "inn": "6328136246"
+      }
+    },
+    {
+      "product_id": "prd-1008",
+      "name": "Освободить Призыв",
+      "category": "🥩 Мясо, рыба, яйца и бобовые",
+      "quantity": 2,
+      "unit": "л",
+      "price_per_unit": 265.49,
+      "total_price": 530.98,
+      "kbju": {
+        "calories": 130.4,
+        "protein": 5.2,
+        "fat": 10.6,
+        "carbohydrates": 22.8
+      },
+      "manufacturer": {
+        "name": "ИП «Маслова, Денисов и Фокина»",
+        "country": "Россия",
+        "website": "https://ignatev.com",
+        "inn": "7104068639"
+      }
+    },
+    {
+      "product_id": "prd-1007",
+      "name": "Пища Беспомощный",
+      "category": "🥦 Овощи и зелень",
+      "quantity": 4,
+      "unit": "л",
+      "price_per_unit": 61.58,
+      "total_price": 246.32,
+      "kbju": {
+        "calories": 155.9,
+        "protein": 7.5,
+        "fat": 9.2,
+        "carbohydrates": 7.7
+      },
+      "manufacturer": {
+        "name": "АО «Гущин-Карпов»",
+        "country": "Россия",
+        "website": "https://ip.net",
+        "inn": "7668416058"
+      }
+    }
+  ],
+  "total_amount": 1957.82,
+  "payment_method": "card",
+  "is_delivery": true,
+  "delivery_address": {
+    "country": "Россия",
+    "city": "п. Курумкан",
+    "street": "пер. Лесный",
+    "house": "3/9",
+    "apartment": "46",
+    "postal_code": "741876"
+  },
+  "purchase_datetime": "2025-09-02T00:21:05.938099"
+}

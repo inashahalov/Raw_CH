@@ -1,0 +1,84 @@
+{
+  "purchase_id": "ord-00070",
+  "customer": {
+    "customer_id": "cus-1009",
+    "first_name": "Любомир",
+    "last_name": "Зайцева",
+    "email": "mironovdementi@example.net",
+    "phone": "8 083 438 03 36",
+    "is_loyalty_member": true,
+    "loyalty_card_number": "LOYAL-B97665AA7B"
+  },
+  "store": {
+    "store_id": "store-020",
+    "store_name": "Большая Пикча — Магазин на алл. Парковая",
+    "store_network": "Большая Пикча",
+    "location": {
+      "country": "Россия",
+      "city": "п. Витим",
+      "street": "ш. Проточное",
+      "house": "6/9",
+      "postal_code": "926506",
+      "coordinates": {
+        "latitude": -88.588761,
+        "longitude": -151.51246
+      }
+    }
+  },
+  "items": [
+    {
+      "product_id": "prd-1011",
+      "name": "Привлекать Пол",
+      "category": "🥩 Мясо, рыба, яйца и бобовые",
+      "quantity": 5,
+      "unit": "л",
+      "price_per_unit": 85.86,
+      "total_price": 429.3,
+      "kbju": {
+        "calories": 65.4,
+        "protein": 5.6,
+        "fat": 1.9,
+        "carbohydrates": 24.1
+      },
+      "manufacturer": {
+        "name": "ИП «Галкина-Терентьев»",
+        "country": "Россия",
+        "website": "https://rao.ru",
+        "inn": "5528391758"
+      }
+    },
+    {
+      "product_id": "prd-1008",
+      "name": "Освободить Призыв",
+      "category": "🥩 Мясо, рыба, яйца и бобовые",
+      "quantity": 5,
+      "unit": "л",
+      "price_per_unit": 265.49,
+      "total_price": 1327.45,
+      "kbju": {
+        "calories": 130.4,
+        "protein": 5.2,
+        "fat": 10.6,
+        "carbohydrates": 22.8
+      },
+      "manufacturer": {
+        "name": "ИП «Маслова, Денисов и Фокина»",
+        "country": "Россия",
+        "website": "https://ignatev.com",
+        "inn": "7104068639"
+      }
+    }
+  ],
+  "total_amount": 1756.75,
+  "payment_method": "cash",
+  "is_delivery": false,
+  "delivery_address": {
+    "country": "Россия",
+    "city": "к. Тулун",
+    "street": "бул. Зеленый",
+    "house": "5",
+    "apartment": "42",
+    "postal_code": "594984"
+  },
+  "purchase_datetime": "2025-07-17T00:21:05.947412"
+}

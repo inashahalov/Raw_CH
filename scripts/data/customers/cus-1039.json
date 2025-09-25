@@ -1,0 +1,36 @@
+{
+  "customer_id": "cus-1039",
+  "first_name": "Елизавета",
+  "last_name": "Колесникова",
+  "email": "wdementev@example.com",
+  "phone": "+71929955281",
+  "birth_date": "1965-10-15",
+  "gender": "female",
+  "registration_date": "2025-09-25T00:21:05.916124",
+  "is_loyalty_member": true,
+  "loyalty_card_number": "LOYAL-6607096E44",
+  "purchase_location": {
+    "store_id": "store-040",
+    "store_name": "Маленькая Пикча — Магазин на алл. Ушакова",
+    "store_network": "Маленькая Пикча",
+    "store_type_description": "Магазин у дома менее 100 кв.м. Входит в сеть из 15 магазинов.",
+    "country": "Россия",
+    "city": "д. Гатчина",
+    "street": "бул. Широкий",
+    "house": "64",
+    "postal_code": "922449"
+  },
+  "delivery_address": {
+    "country": "Россия",
+    "city": "д. Гатчина",
+    "street": "наб. Сенная",
+    "house": "25",
+    "apartment": "58",
+    "postal_code": "343297"
+  },
+  "preferences": {
+    "preferred_language": "ru",
+    "preferred_payment_method": "cash",
+    "receive_promotions": false
+  }
+}

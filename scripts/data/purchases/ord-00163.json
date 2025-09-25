@@ -1,0 +1,84 @@
+{
+  "purchase_id": "ord-00163",
+  "customer": {
+    "customer_id": "cus-1041",
+    "first_name": "Наум",
+    "last_name": "Симонов",
+    "email": "valentinsharov@example.com",
+    "phone": "89031911463",
+    "is_loyalty_member": true,
+    "loyalty_card_number": "LOYAL-19C84B142A"
+  },
+  "store": {
+    "store_id": "store-013",
+    "store_name": "Большая Пикча — Магазин на алл. Мелиоративная",
+    "store_network": "Большая Пикча",
+    "location": {
+      "country": "Россия",
+      "city": "п. Лазаревское",
+      "street": "пер. Малый",
+      "house": "88",
+      "postal_code": "425601",
+      "coordinates": {
+        "latitude": -84.4676175,
+        "longitude": -90.154137
+      }
+    }
+  },
+  "items": [
+    {
+      "product_id": "prd-1004",
+      "name": "Написать Актриса",
+      "category": "🍏 Фрукты и ягоды",
+      "quantity": 4,
+      "unit": "кг",
+      "price_per_unit": 247.9,
+      "total_price": 991.6,
+      "kbju": {
+        "calories": 90.5,
+        "protein": 3.5,
+        "fat": 0.2,
+        "carbohydrates": 19.9
+      },
+      "manufacturer": {
+        "name": "Ферронордик машины (Ferronordic)",
+        "country": "Россия",
+        "website": "https://kulikova.net",
+        "inn": "5999502719"
+      }
+    },
+    {
+      "product_id": "prd-1007",
+      "name": "Пища Беспомощный",
+      "category": "🥦 Овощи и зелень",
+      "quantity": 3,
+      "unit": "л",
+      "price_per_unit": 61.58,
+      "total_price": 184.74,
+      "kbju": {
+        "calories": 155.9,
+        "protein": 7.5,
+        "fat": 9.2,
+        "carbohydrates": 7.7
+      },
+      "manufacturer": {
+        "name": "АО «Гущин-Карпов»",
+        "country": "Россия",
+        "website": "https://ip.net",
+        "inn": "7668416058"
+      }
+    }
+  ],
+  "total_amount": 1176.34,
+  "payment_method": "card",
+  "is_delivery": true,
+  "delivery_address": {
+    "country": "Россия",
+    "city": "с. Хасан",
+    "street": "ш. Виноградное",
+    "house": "764",
+    "apartment": "39",
+    "postal_code": "845061"
+  },
+  "purchase_datetime": "2025-07-25T00:21:06.231130"
+}

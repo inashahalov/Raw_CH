@@ -1,0 +1,36 @@
+{
+  "customer_id": "cus-1017",
+  "first_name": "Селиверст",
+  "last_name": "Кузьмин",
+  "email": "muhinaeleonora@example.org",
+  "phone": "+7 (710) 046-15-36",
+  "birth_date": "2000-02-01",
+  "gender": "male",
+  "registration_date": "2025-09-25T00:21:05.902414",
+  "is_loyalty_member": true,
+  "loyalty_card_number": "LOYAL-99AE3AEB37",
+  "purchase_location": {
+    "store_id": "store-018",
+    "store_name": "Большая Пикча — Магазин на ш. Колхозное",
+    "store_network": "Большая Пикча",
+    "store_type_description": "Супермаркет более 200 кв.м. Входит в сеть из 30 магазинов.",
+    "country": "Россия",
+    "city": "п. Урюпинск",
+    "street": "ул. Королева",
+    "house": "5",
+    "postal_code": "809286"
+  },
+  "delivery_address": {
+    "country": "Россия",
+    "city": "п. Урюпинск",
+    "street": "пер. Березовый",
+    "house": "782",
+    "apartment": "12",
+    "postal_code": "541803"
+  },
+  "preferences": {
+    "preferred_language": "ru",
+    "preferred_payment_method": "card",
+    "receive_promotions": true
+  }
+}
