@@ -626,5 +626,5 @@ ORDER BY purchase_id;
 
 ## Контакты
 
-**Автор:** Ina Shahalov  
-**Репозиторий:** [github.com/inashahalov/Raw_CH](https://github.com/inashahalov/Raw_CH)
+**Автор:** Илья Нашахалов
+**Telegram** NSilya
