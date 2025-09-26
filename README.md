@@ -671,6 +671,11 @@ ORDER BY purchase_id;
 <img width="629" height="519" alt="1 задание" src="https://github.com/user-attachments/assets/69912512-ed31-435e-b6ac-6788266e0342" />
 
 
+ https://t.me/AllertBotAllertbot
+ https://t.me/nashahalovbot
+ token to access the HTTP API:
+8381535019:AAFs0WV-MQDA0J_gWdaRH39GSvOQRqftIHQ
+8331363313:AAF5hKXqyc1MTIxY86mw4kfm0RyVAwNJUXw
 ---
 
 ## Контакты
