@@ -14,7 +14,7 @@ logging.basicConfig(level=logging.INFO, format='%(asctime)s - %(levelname)s - %(
 logger = logging.getLogger(__name__)
 
 # === Ключ шифрования (вставьте сюда ключ из kafka_producer.py) ===
-ENCRYPTION_KEY = b'e4KmweyhLv3_eS6eLelzF7X1Y3WjXi2lsmnC5laGpJg='  # ⚠️ ЗАМЕНИТЕ НА ВАШ КЛЮЧ ИЗ kafka_producer.py
+ENCRYPTION_KEY = b'S_kG1-1EwjfkFUfukpPaHGZ92KlWKkdlpLLVeskPeEM='
 cipher = Fernet(ENCRYPTION_KEY)
 
 logger.info("🔑 Используем ключ шифрования.")
@@ -40,102 +40,6 @@ def normalize_email(email: str | None) -> str:
     """Нормализует email: приводит к нижнему регистру и удаляет пробелы."""
     return email.strip().lower() if email else ""
 
-# === Типы для валидации структуры данных из Kafka ===
-class ManagerDict(TypedDict):
-    name: str
-    phone: str
-    email: str
-
-class CoordinatesDict(TypedDict):
-    latitude: float
-    longitude: float
-
-class LocationDict(TypedDict):
-    country: str
-    city: str
-    street: str
-    house: str
-    postal_code: str
-    coordinates: CoordinatesDict
-
-class OpeningHoursDict(TypedDict):
-    mon_fri: str
-    sat: str
-    sun: str
-
-class StoreDocument(TypedDict):
-    store_id: str
-    store_name: str
-    store_network: str
-    store_type_description: str
-    type: str
-    categories: List[str]
-    manager: ManagerDict
-    location: LocationDict
-    opening_hours: OpeningHoursDict
-    accepts_online_orders: bool
-    delivery_available: bool
-    warehouse_connected: bool
-    last_inventory_date: str  # ISO format
-
-class ProductDocument(TypedDict):
-    id: str
-    name: str
-    group: str
-    description: str
-    kbju: Dict[str, float]
-    price: float
-    unit: str
-    origin_country: str
-    expiry_days: int
-    is_organic: bool
-    barcode: str
-    manufacturer: Dict[str, Any]
-
-class CustomerRefDict(TypedDict):
-    customer_id: str
-    first_name: str
-    last_name: str
-    email: str
-    phone: str
-    is_loyalty_member: bool
-    loyalty_card_number: str
-
-class StoreRefDict(TypedDict):
-    store_id: str
-    store_name: str
-    store_network: str
-    location: LocationDict
-
-class PurchaseItemDict(TypedDict):
-    product_id: str
-    name: str
-    category: str
-    quantity: int
-    unit: str
-    price_per_unit: float
-    total_price: float
-    kbju: Dict[str, float]
-    manufacturer: Dict[str, str]
-
-class DeliveryAddressDict(TypedDict):
-    city: str
-    street: str
-    house: str
-    apartment: str
-    postal_code: str
-
-class PurchaseDocument(TypedDict):
-    purchase_id: str
-    customer: CustomerRefDict
-    store: StoreRefDict
-    items: List[PurchaseItemDict]
-    total_amount: float
-    payment_method: str
-    is_delivery: bool
-    delivery_address: DeliveryAddressDict
-    purchase_datetime: str  # ISO format
-
 # === Подключение к ClickHouse ===
 client = Client(host='localhost', port=9000)  # Используем порт 9000, как настроено в docker-compose.yml
 
@@ -143,6 +47,7 @@ client = Client(host='localhost', port=9000)  # Используем порт 90
 def create_tables() -> None:
     client.execute("CREATE DATABASE IF NOT EXISTS piccha_raw")
 
+    # === Таблица stores ===
     client.execute("""
     CREATE TABLE IF NOT EXISTS piccha_raw.stores (
         store_id String,
@@ -171,6 +76,7 @@ def create_tables() -> None:
     ) ENGINE = MergeTree() ORDER BY store_id
     """)
 
+    # === Таблица products ===
     client.execute("""
     CREATE TABLE IF NOT EXISTS piccha_raw.products (
         id String,
@@ -194,6 +100,7 @@ def create_tables() -> None:
     ) ENGINE = MergeTree() ORDER BY id
     """)
 
+    # === Таблица customers ===
     client.execute("""
     CREATE TABLE IF NOT EXISTS piccha_raw.customers (
         customer_id String,
@@ -219,6 +126,7 @@ def create_tables() -> None:
     ) ENGINE = MergeTree() ORDER BY customer_id
     """)
 
+    # === Таблица purchases ===
     client.execute("""
     CREATE TABLE IF NOT EXISTS piccha_raw.purchases (
         purchase_id String,
@@ -236,6 +144,7 @@ def create_tables() -> None:
     ) ENGINE = MergeTree() ORDER BY purchase_id
     """)
 
+    # === Таблица purchase_items ===
     client.execute("""
     CREATE TABLE IF NOT EXISTS piccha_raw.purchase_items (
         purchase_id String,
@@ -275,7 +184,7 @@ def main() -> None:
             coll: str = raw_doc.pop('_collection', 'unknown')
 
             if coll == 'stores':
-                doc = cast(StoreDocument, raw_doc)
+                doc = raw_doc
 
                 # Конвертация last_inventory_date из строки в дату
                 last_inventory_date_str = doc.get('last_inventory_date', '')
@@ -310,7 +219,7 @@ def main() -> None:
                 )])
 
             elif coll == 'products':
-                doc = cast(ProductDocument, raw_doc)
+                doc = raw_doc
 
                 client.execute("""
                 INSERT INTO piccha_raw.products VALUES
@@ -336,7 +245,7 @@ def main() -> None:
                 )])
 
             elif coll == 'customers':
-                doc = cast(CustomerRefDict, raw_doc)
+                doc = raw_doc
 
                 # Конвертация дат
                 birth_date_str = doc.get('birth_date', '')
@@ -371,7 +280,7 @@ def main() -> None:
                 )])
 
             elif coll == 'purchases':
-                doc = cast(PurchaseDocument, raw_doc)
+                doc = raw_doc
 
                 # Конвертация даты покупки
                 purchase_datetime_str = doc.get('purchase_datetime', '')
