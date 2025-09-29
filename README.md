@@ -1,115 +1,66 @@
-# Raw_CH
-
-**Пайплайн для загрузки данных из NoSQL в ClickHouse через Kafka с использованием шифрования персональной информации и визуализацией в Grafana**
-
-Представим себе ситуацию, что к нам обратился сетевой магазин "Пикча" с запросом сделать для них аналитическую систему, которая позволит им выгоднее и эффективней продавать товары.
-
-В качестве исходных данных мы имеем контур заказчика NoSQL, куда хаотично льются данные со стороны всех магазинов.
-
-Обозначим следующие магазины -
-
-1. Большая Пикча (помещение более 200 кв.м.). Количество магазинов по стране - 30. Некоторые в одном городе.
-
-2. Маленькая Пикча (помещение менее 100 кв.м.). Количество магазинов по стране - 15. Некоторые в одном городе.
-
-Заказчик НЕ СОГЛАСЕН выдать доступ к NoSQL хранилищу. Предварительно он хочет увидеть демо-версию рабочего инструмента и лишь потом готов выдать доступ к контуру NoSQL
-
-Внутри каждого магазина существует товары пяти основных продовольственных групп, а именно - 
-
-1. 🥖 Зерновые и хлебобулочные изделия
-
-2. 🥩 Мясо, рыба, яйца и бобовые
-
-3. 🥛 Молочные продукты
-
-4. 🍏 Фрукты и ягоды
-
-5. 🥦 Овощи и зелень
-
-В каждую из групп входит не менее 20 позиций (итого 100 товаров в ассортименте). Так, например в овощи и зелень входят - шпинат, капуста, лук, чеснок и прочее.
-
-
-Таким образом мы получаем структуру - магазин, клиент, товары, покупки. И, увы, все это лежит вместе в NoSQL хранилище. Поэтому на текущий момент необходимо разработать схемы хранения данных и выбрать для этого какое-то хранилище + выбрать корректные типы данных. 
-
-От Вас требуется наличие :
-
-1. 45 JSON файлов, описывающих каждый магазин. Структура - Выше.
-
-2. Необходимо создать не менее 20 JSON файлов, которые будут описывать товары - структура выше.
-
-3. Необходимо создать минимум 1 покупателя в каждом магазине. Структура - Выше.
-
-4. Не менее 200 покупок от различных покупателей в разных магазинах. Структура выше.
-
-Портрет покупателя в магазине Пикча не представляется возможным без бонусной карты. То есть если покупатель пришел, купил что-то и ушел - то для магазина он никто в плане цифрового портрета.
-необходимо реализовать следующую задачу:
-
-Схема покупателя выглядит следующим образом - 
-
-1. Добавить все JSON файлы в NoSQL хранилище (Docker). Реализовать это необходимо при помощи скрипта на Python, который залезет в локальную директорию и заберет оттуда все JSON файлы для загрузки. Таким образом мы смоделируем хранилище заказчика.
-
-2. Далее необходимо при помощи Kafka загрузить эти данные в RAW (сырое) хранилище. Необходимо взять ClickHouse. Важно, чтобы каждая таблица отвечала за что-то свое и могла джойнится с другой. Так, например, очевидно, что покупатели будут связаны с магазинами, покупками и товарами. Важно, что в Clickhouse данные прилетают в том виде в котором они лежали у заказчика, так как это RAW хранилище.
-
-Будут загружены, как STRING. Параметры Kafka - забрать только то, что лежит в хранилище.
-
-Таким образом в ходе выполнения этой части задания мы получим данные от заказчика в своей системе.
-
- Персональная информация (телефон и почта) должны быть зашифрованы любым удобным способом до загрузки их в Clickhouse. Более того необходимо предусмотреть приведение только этих двух полей к нормальному единому виду.
-
-Таким образом, мы выполняем задачу по загрузке данных из хранилища заказчика в наше хранилище посредством использования Kafka/Python/Clickhouse/NoSQL. 
-
-Построить дашборд в графане на основе которого можно будет сделать вывод о том, что количество покупок действительно 200, а магазинов 45.
-
+Конечно! Вот отредактированный итоговый `README.md` для проекта `project`, оформленный аккуратно, без картинок, но с раскрывающимися блоками кода и подробной инструкцией.
 
 ---
 
-## Быстрый старт
+# Проект "Аналитика Пикча"
 
-### Требования
-- Docker
-- Python 3.8+
+## Описание
 
-### Установка
-```bash
-git clone git@github.com:inashahalov/Raw_CH.git
-cd Raw_CH/project
-mkdir -p scripts/sql scripts/
+Данный проект реализует аналитическую систему для сетевого магазина "Пикча", позволяющую эффективно продавать товары за счёт:
+
+- Сбора и хранения данных из различных источников
+- Очистки и подготовки данных
+- Визуализации ключевых метрик
+- Алертинга при аномалиях (например, превышение 50% дубликатов)
+
+## Архитектура
+
+```
+MongoDB (NoSQL) → Kafka → ClickHouse (RAW) → Materialized View (MART) → Grafana (Dashboard & Alerting)
 ```
 
----
+## Участники команды
+
+- Иванов Иван (ivanov@example.com)
+- Петров Петр (petrov@example.com)
 
 ## Структура проекта
 
 ```
 project/
 ├── data/
-│   ├── stores/          # Файлы магазинов
-│   ├── products/        # Файлы товаров  
-│   ├── customers/       # Файлы покупателей
-│   └── purchases/       # Файлы покупок
+│   ├── stores/
+│   ├── products/
+│   ├── customers/
+│   └── purchases/
 ├── scripts/
-│   ├── generate_data.py     # Генерация JSON файлов
-│   ├── load_to_nosql.py     # Загрузка в MongoDB
-│   ├── kafka_producer.py    # Отправка в Kafka
-│   └── clickhouse_loader.py # Загрузка в ClickHouse
-├── docker-compose.yml       # Docker инфраструктура
-├── grafana_dashboard.json   # Дашборд Grafana
+│   ├── generate_data.py
+│   ├── load_to_mongo.py
+│   ├── kafka_producer.py
+│   ├── kafka_to_clickhouse.py
+│   └── clean_data.sql
+├── config/
+│   └── clickhouse/
+│       ├── listen_all.xml
+│       └── users.d/
+├── docker-compose.yml
+├── dashboard_screenshot.png
+├── telegram_alert_screenshot.png
 └── README.md
 ```
 
 ---
 
-## Этапы реализации
+## 1. Генерация данных
 
-### 1. Генерация JSON файлов
-Создает:
-- **45 файлов магазинов** (30 больших, 15 маленьких)
-- **20 файлов товаров**
-- **45 файлов покупателей** (по одному на магазин)
-- **200 файлов покупок**
+Скрипт `scripts/generate_data.py` генерирует JSON-файлы для:
 
-<details>
-<summary>Код генерации данных</summary>
+- 45 магазинов
+- 20 товаров
+- 45 покупателей
+- 200 покупок
+
+### `scripts/generate_data.py`
 
 ```python
 # scripts/generate_data.py
@@ -132,7 +83,7 @@ categories = [
     "🥩 Мясо, рыба, яйца и бобовые",
     "🥛 Молочные продукты",
     "🍏 Фрукты и ягоды",
-    " broccoli Овощи и зелень"
+    "🥦 Овощи и зелень"
 ]
 
 store_networks = [("Большая Пикча", 30), ("Маленькая Пикча", 15)]
@@ -211,7 +162,7 @@ for i in range(20):
     with open(f"data/products/{product['id']}.json", "w", encoding="utf-8") as f:
         json.dump(product, f, ensure_ascii=False, indent=2)
 
-# === 3. Генерация покупателей (по 1 на магазин) ===
+# === 3. Генерация покупателей ===
 customers = []
 for store in stores:
     customer_id = f"cus-{1000 + len(customers)}"
@@ -226,17 +177,7 @@ for store in stores:
         "registration_date": datetime.now().isoformat(),
         "is_loyalty_member": True,
         "loyalty_card_number": f"LOYAL-{uuid.uuid4().hex[:10].upper()}",
-        "purchase_location": {
-            "store_id": store["store_id"],
-            "store_name": store["store_name"],
-            "store_network": store["store_network"],
-            "store_type_description": store["store_type_description"],
-            "country": store["location"]["country"],
-            "city": store["location"]["city"],
-            "street": store["location"]["street"],
-            "house": store["location"]["house"],
-            "postal_code": store["location"]["postal_code"]
-        },
+        "purchase_location": store["location"],
         "delivery_address": {
             "country": "Россия",
             "city": store["location"]["city"],
@@ -255,7 +196,7 @@ for store in stores:
     with open(f"data/customers/{customer_id}.json", "w", encoding="utf-8") as f:
         json.dump(customer, f, ensure_ascii=False, indent=2)
 
-# === 4. Генерация покупок (200 шт) ===
+# === 4. Генерация покупок ===
 for i in range(200):
     customer = random.choice(customers)
     store = random.choice(stores)
@@ -283,8 +224,8 @@ for i in range(200):
             "customer_id": customer["customer_id"],
             "first_name": customer["first_name"],
             "last_name": customer["last_name"],
-            "email": customer["email"],  # будет зашифровано позже
-            "phone": customer["phone"],  # будет зашифровано позже
+            "email": customer["email"], # будет зашифровано позже
+            "phone": customer["phone"], # будет зашифровано позже
             "is_loyalty_member": customer["is_loyalty_member"],
             "loyalty_card_number": customer["loyalty_card_number"]
         },
@@ -304,368 +245,704 @@ for i in range(200):
     with open(f"data/purchases/{purchase['purchase_id']}.json", "w", encoding="utf-8") as f:
         json.dump(purchase, f, ensure_ascii=False, indent=2)
 
-print("Генерация данных завершена: 45 магазинов, 20 товаров, 45 покупателей, 200 покупок.")
-```
-</details>
-
----
-
-### 2. Установка зависимостей
-
-```bash
-pip install faker pymongo kafka-python clickhouse-driver cryptography
+print("✅ Генерация данных завершена: 45 магазинов, 20 товаров, 45 покупателей, 200 покупок.")
 ```
 
 ---
 
-### 3. Docker инфраструктура
+## 2. Загрузка данных в MongoDB
 
-<details>
-<summary>docker-compose.yml</summary>
+Скрипт `scripts/load_to_mongo.py` загружает JSON-файлы в MongoDB.
+
+### `scripts/load_to_mongo.py`
+
+```python
+# scripts/load_to_mongo.py
+import json
+import os
+from pymongo import MongoClient
+
+client = MongoClient('mongodb://localhost:27018/')
+db = client['piccha_db']
+
+for folder in ["stores", "products", "customers", "purchases"]:
+    collection = db[folder]
+    collection.delete_many({})  # Очистка коллекции
+    for file in os.listdir(f"data/{folder}"):
+        with open(f"data/{folder}/{file}", "r", encoding="utf-8") as f:
+            data = json.load(f)
+            collection.insert_one(data)
+    print(f"✅ Загружено {collection.count_documents({})} документов в коллекцию '{folder}'")
+```
+
+---
+
+## 3. Запуск инфраструктуры
+
+Файл `docker-compose.yml` запускает:
+
+- MongoDB
+- Kafka + Zookeeper
+- ClickHouse
+- Grafana
+
+### `docker-compose.yml`
 
 ```yaml
 version: '3.8'
 
 services:
-  mongo:
-    image: mongo:latest
-    container_name: mongo
+  zookeeper:
+    image: confluentinc/cp-zookeeper:7.4.0
+    container_name: piccha-zookeeper
+    environment:
+      ZOOKEEPER_CLIENT_PORT: 2181
+      ZOOKEEPER_TICK_TIME: 2000
     ports:
-      - "27017:27017"
-    volumes:
-      - mongo_data:/data/db
+      - "2181:2181"
+    networks:
+      - piccha-net
 
   kafka:
-    image: wurstmeister/kafka:2.12-2.8.0
-    container_name: kafka
+    image: confluentinc/cp-kafka:7.4.0
+    container_name: piccha-kafka
+    depends_on:
+      - zookeeper
     ports:
       - "9092:9092"
     environment:
-      KAFKA_ADVERTISED_LISTENERS: PLAINTEXT://localhost:9092
+      KAFKA_BROKER_ID: 1
       KAFKA_ZOOKEEPER_CONNECT: zookeeper:2181
-    depends_on:
-      - zookeeper
+      KAFKA_ADVERTISED_LISTENERS: PLAINTEXT://localhost:9092
+      KAFKA_OFFSETS_TOPIC_REPLICATION_FACTOR: 1
+      KAFKA_TRANSACTION_STATE_LOG_REPLICATION_FACTOR: 1
+      KAFKA_TRANSACTION_STATE_LOG_MIN_ISR: 1
+    networks:
+      - piccha-net
 
-  zookeeper:
-    image: wurstmeister/zookeeper:3.4.6
-    container_name: zookeeper
+  mongodb:
+    image: mongo:4.4
+    container_name: piccha-mongo
     ports:
-      - "2181:2181"
+      - "27018:27017"
+    volumes:
+      - mongo_data:/data/db
+    networks:
+      - piccha-net
 
   clickhouse:
-    image: yandex/clickhouse-server
-    container_name: clickhouse
+    image: clickhouse/clickhouse-server:23.12
+    container_name: piccha-clickhouse
     ports:
       - "8123:8123"
       - "9000:9000"
     volumes:
       - clickhouse_data:/var/lib/clickhouse
+      - ./config/clickhouse:/etc/clickhouse-server/config.d
+    ulimits:
+      nofile:
+        soft: 262144
+        hard: 262144
+    networks:
+      - piccha-net
 
   grafana:
-    image: grafana/grafana
-    container_name: grafana
+    image: grafana/grafana:10.0.0
+    container_name: piccha-grafana
     ports:
       - "3000:3000"
     environment:
       GF_SECURITY_ADMIN_PASSWORD: admin
-    volumes:
-      - grafana_data:/var/lib/grafana
+      GF_USERS_ALLOW_SIGN_UP: "false"
+    networks:
+      - piccha-net
 
 volumes:
   mongo_data:
   clickhouse_data:
-  grafana_data:
-```
-</details>
 
-**Запуск:**
-```bash
-docker-compose up -d
+networks:
+  piccha-net:
+    driver: bridge
 ```
-
-Убедитесь, что запущены:
-- MongoDB
-- Kafka
-- ClickHouse
-- Grafana
 
 ---
 
-### 4. Загрузка в MongoDB
+## 4. Загрузка данных из MongoDB в Kafka
 
-<details>
-<summary>load_to_nosql.py</summary>
+Скрипт `scripts/kafka_producer.py` отправляет данные из MongoDB в топик `piccha_raw` Kafka, **шифруя** `email` и `phone`.
 
-```python
-import os
-import json
-from pymongo import MongoClient
-
-client = MongoClient('mongodb://localhost:27017/')
-db = client['piccha']
-
-def load_json_files(directory, collection_name):
-    collection = db[collection_name]
-    for filename in os.listdir(directory):
-        if filename.endswith('.json'):
-            file_path = os.path.join(directory, filename)
-            with open(file_path, 'r', encoding='utf-8') as f:
-                data = json.load(f)
-                collection.insert_one(data)
-
-load_json_files('data/stores', 'stores')
-load_json_files('data/products', 'products')
-load_json_files('data/customers', 'customers')
-load_json_files('data/purchases', 'purchases')
-```
-</details>
-
----
-
-### 5. Шифрование персональных данных
-
-<details>
-<summary>kafka_producer.py (с шифрованием)</summary>
+### `scripts/kafka_producer.py`
 
 ```python
-import os
+# scripts/kafka_producer.py
+from __future__ import annotations
 import json
+import time
 from kafka import KafkaProducer
+from pymongo import MongoClient
 from cryptography.fernet import Fernet
 
-# Генерация ключа шифрования
-key = Fernet.generate_key()
-cipher_suite = Fernet(key)
+# === Генерация ключа шифрования ===
+ENCRYPTION_KEY = Fernet.generate_key()
+cipher = Fernet(ENCRYPTION_KEY)
+print(f"🔑 Ключ шифрования (сохраните!): {ENCRYPTION_KEY.decode()}")
 
-def encrypt_field(field_value):
-    if field_value:
-        return cipher_suite.encrypt(field_value.encode('utf-8')).decode('utf-8')
-    return field_value
+# === Шифрование ===
+def encrypt_field(value: str | None) -> str:
+    if not value:
+        return ""
+    return cipher.encrypt(value.encode()).decode()
 
-def process_and_encrypt_data(data):
-    if 'email' in data:
-        data['email'] = encrypt_field(data['email'])
-    if 'phone' in data:
-        data['phone'] = encrypt_field(data['phone'])
-    if 'customer' in data and 'email' in data['customer']:
-        data['customer']['email'] = encrypt_field(data['customer']['email'])
-    if 'customer' in data and 'phone' in data['customer']:
-        data['customer']['phone'] = encrypt_field(data['customer']['phone'])
-    return data
+# === Нормализация ===
+def normalize_phone(phone: str | None) -> str:
+    if not phone:
+        return ""
+    digits = ''.join(filter(str.isdigit, phone))
+    if len(digits) == 11 and digits.startswith('8'):
+        digits = '7' + digits[1:]
+    if len(digits) == 10:
+        digits = '7' + digits
+    if len(digits) == 11 and digits.startswith('7'):
+        return f"+{digits}"
+    return phone
 
-producer = KafkaProducer(bootstrap_servers='localhost:9092')
+def normalize_email(email: str | None) -> str:
+    return email.strip().lower() if email else ""
 
-def send_to_kafka(directory, topic):
-    for filename in os.listdir(directory):
-        if filename.endswith('.json'):
-            file_path = os.path.join(directory, filename)
-            with open(file_path, 'r', encoding='utf-8') as f:
-                data = json.load(f)
-                encrypted_data = process_and_encrypt_data(data.copy())
-                producer.send(topic, json.dumps(encrypted_data).encode('utf-8'))
+# === Подключение к Kafka и MongoDB ===
+producer = KafkaProducer(
+    bootstrap_servers=['localhost:9092'],
+    value_serializer=lambda x: json.dumps(x, ensure_ascii=False).encode('utf-8')
+)
 
-send_to_kafka('data/stores', 'stores')
-send_to_kafka('data/products', 'products')
-send_to_kafka('data/customers', 'customers')
-send_to_kafka('data/purchases', 'purchases')
+client = MongoClient('mongodb://localhost:27018/')
+db = client['piccha_db']
+
+collections = ['stores', 'products', 'customers', 'purchases']
+
+for coll_name in collections:
+    collection = db[coll_name]
+    for doc in collection.find():
+        doc.pop('_id', None)
+        doc['_collection'] = coll_name
+
+        # === Шифруем email и phone ===
+        if coll_name == 'customers':
+            email = doc.get('email')
+            phone = doc.get('phone')
+            doc['email'] = encrypt_field(normalize_email(email))
+            doc['phone'] = encrypt_field(normalize_phone(phone))
+
+        if coll_name == 'stores':
+            email = doc['manager'].get('email')
+            phone = doc['manager'].get('phone')
+            doc['manager']['email'] = encrypt_field(normalize_email(email))
+            doc['manager']['phone'] = encrypt_field(normalize_phone(phone))
+
+        producer.send('piccha_raw', value=doc)
+        print(f"Отправлено в Kafka: {coll_name} - {doc.get('store_id') or doc.get('id') or doc.get('customer_id') or doc.get('purchase_id')}")
+
+        time.sleep(0.01)
+
+producer.flush()
+print("✅ Все данные отправлены в Kafka топик 'piccha_raw'")
 ```
-</details>
 
 ---
 
-### 6. Загрузка в ClickHouse
+## 5. Загрузка данных из Kafka в ClickHouse (RAW)
 
-<details>
-<summary>clickhouse_loader.py</summary>
+Скрипт `scripts/kafka_to_clickhouse.py` читает из Kafka, **дешифрует** `email` и `phone`, и загружает в **RAW** таблицы ClickHouse.
+
+### `scripts/kafka_to_clickhouse.py`
 
 ```python
-from kafka import KafkaConsumer
+# scripts/kafka_to_clickhouse.py
+from __future__ import annotations
 import json
-import clickhouse_driver
+import logging
+from typing import Any, Dict, List, TypedDict, cast
+from datetime import datetime
+from clickhouse_driver import Client
+from cryptography.fernet import Fernet
+from kafka import KafkaConsumer
 
-client = clickhouse_driver.Client(host='localhost')
+# === Настройка логирования ===
+logging.basicConfig(level=logging.INFO, format='%(asctime)s - %(levelname)s - %(message)s')
+logger = logging.getLogger(__name__)
 
-def consume_from_kafka(topic, table):
-    consumer = KafkaConsumer(topic, bootstrap_servers='localhost:9092', auto_offset_reset='earliest')
-    for message in consumer:
-        data = json.loads(message.value.decode('utf-8'))
-        client.execute(f"INSERT INTO {table} FORMAT JSONEachRow", [data])
+# === Ключ шифрования (вставьте сюда ключ из kafka_producer.py) ===
+ENCRYPTION_KEY = b'ТУТ_ТОТ_КЛЮЧ_КОТОРЫЙ_ТЫ_СКОПИРОВАЛ'
+cipher = Fernet(ENCRYPTION_KEY)
 
-consume_from_kafka('stores', 'raw_stores')
-consume_from_kafka('products', 'raw_products')
-consume_from_kafka('customers', 'raw_customers')
-consume_from_kafka('purchases', 'raw_purchases')
-```
-</details>
+logger.info("🔑 Используем ключ шифрования.")
 
-<details>
-<summary>ClickHouse таблицы</summary>
+# === Нормализация и дешифровка ===
+def decrypt_phone_or_email(value: str | None) -> str:
+    if not value:
+        return ""
+    try:
+        return cipher.decrypt(value.encode()).decode()
+    except Exception:
+        return value  # fallback: вернуть как есть, если не расшифровывается
 
-```sql
--- Создание таблиц в ClickHouse
-CREATE TABLE raw_stores
-(
-    store_id String,
-    store_name String,
-    store_network String,
-    store_type_description String,
-    type String,
-    categories Array(String),
-    manager Nested(
-        name String,
-        phone String,
-        email String
-    ),
-    location Nested(
-        country String,
-        city String,
-        street String,
-        house String,
-        postal_code String,
-        coordinates Nested(
-            latitude Float64,
-            longitude Float64
-        )
-    ),
-    opening_hours Nested(
-        mon_fri String,
-        sat String,
-        sun String
-    ),
-    accepts_online_orders UInt8,
-    delivery_available UInt8,
-    warehouse_connected UInt8,
-    last_inventory_date Date
-) ENGINE = MergeTree()
-ORDER BY store_id;
+def normalize_phone(phone: str | None) -> str:
+    if not phone:
+        return ""
+    # Приведение к единому формату +7 (если не зашифровано)
+    if phone.startswith('+7') and phone[1:].isdigit() and len(phone) == 12:
+        return phone
+    return phone  # fallback на оригинальный формат
 
-CREATE TABLE raw_products
-(
-    id String,
-    name String,
-    group String,
-    description String,
-    kbju Nested(
-        calories Float64,
-        protein Float64,
-        fat Float64,
-        carbohydrates Float64
-    ),
-    price Float64,
-    unit String,
-    origin_country String,
-    expiry_days UInt16,
-    is_organic UInt8,
-    barcode String,
-    manufacturer Nested(
-        name String,
-        country String,
-        website String,
-        inn String
-    )
-) ENGINE = MergeTree()
-ORDER BY id;
+def normalize_email(email: str | None) -> str:
+    """Нормализует email: приводит к нижнему регистру и удаляет пробелы."""
+    return email.strip().lower() if email else ""
 
-CREATE TABLE raw_customers
-(
-    customer_id String,
-    first_name String,
-    last_name String,
-    email String,
-    phone String,
-    birth_date Date,
-    gender String,
-    registration_date DateTime,
-    is_loyalty_member UInt8,
-    loyalty_card_number String,
-    purchase_location Nested(
-        country String,
-        city String,
-        street String,
-        house String,
-        postal_code String
-    ),
-    delivery_address Nested(
-        country String,
-        city String,
-        street String,
-        house String,
-        apartment String,
-        postal_code String
-    ),
-    preferences Nested(
-        preferred_language String,
-        preferred_payment_method String,
-        receive_promotions UInt8
-    )
-) ENGINE = MergeTree()
-ORDER BY customer_id;
+# === Подключение к ClickHouse ===
+client = Client(host='localhost', port=9000)
 
-CREATE TABLE raw_purchases
-(
-    purchase_id String,
-    customer Nested(
-        customer_id String,
-        first_name String,
-        last_name String
-    ),
-    store Nested(
+# === Создание RAW таблиц ===
+def create_raw_tables() -> None:
+    client.execute("CREATE DATABASE IF NOT EXISTS piccha_raw")
+
+    client.execute("""
+    CREATE TABLE IF NOT EXISTS piccha_raw.stores (
         store_id String,
         store_name String,
         store_network String,
-        location Nested(
-            country String,
-            city String,
-            street String,
-            house String,
-            postal_code String
-        )
-    ),
-    items Array(Nested(
-        product_id String,
+        store_type_description String,
+        type String,
+        categories Array(String),
+        manager_name String,
+        manager_phone String,
+        manager_email String,
+        location_country String,
+        location_city String,
+        location_street String,
+        location_house String,
+        location_postal_code String,
+        location_latitude Float64,
+        location_longitude Float64,
+        opening_hours_mon_fri String,
+        opening_hours_sat String,
+        opening_hours_sun String,
+        accepts_online_orders UInt8,
+        delivery_available UInt8,
+        warehouse_connected UInt8,
+        last_inventory_date Date
+    ) ENGINE = MergeTree() ORDER BY store_id
+    """)
+
+    client.execute("""
+    CREATE TABLE IF NOT EXISTS piccha_raw.products (
+        id String,
         name String,
-        category String,
-        quantity UInt16,
+        group String,
+        description String,
+        kbju_calories Float32,
+        kbju_protein Float32,
+        kbju_fat Float32,
+        kbju_carbohydrates Float32,
+        price Float32,
         unit String,
-        price_per_unit Float64,
-        total_price Float64,
-        kbju Nested(
-            calories Float64,
-            protein Float64,
-            fat Float64,
-            carbohydrates Float64
-        ),
-        manufacturer Nested(
-            name String,
-            country String,
-            website String,
-            inn String
-        )
-    )),
-    total_amount Float64,
-    payment_method String,
-    is_delivery UInt8,
-    delivery_address Nested(
-        country String,
-        city String,
-        street String,
-        house String,
-        apartment String,
-        postal_code String
-    ),
-    purchase_datetime DateTime
-) ENGINE = MergeTree()
-ORDER BY purchase_id;
+        origin_country String,
+        expiry_days UInt16,
+        is_organic UInt8,
+        barcode String,
+        manufacturer_name String,
+        manufacturer_country String,
+        manufacturer_website String,
+        manufacturer_inn String
+    ) ENGINE = MergeTree() ORDER BY id
+    """)
+
+    client.execute("""
+    CREATE TABLE IF NOT EXISTS piccha_raw.customers (
+        customer_id String,
+        first_name String,
+        last_name String,
+        email String,
+        phone String,
+        birth_date Date,
+        gender String,
+        registration_date DateTime,
+        is_loyalty_member UInt8,
+        loyalty_card_number String,
+        purchase_location_store_id String,
+        purchase_location_city String,
+        delivery_address_city String,
+        delivery_address_street String,
+        delivery_address_house String,
+        delivery_address_apartment String,
+        delivery_address_postal_code String,
+        preferred_language String,
+        preferred_payment_method String,
+        receive_promotions UInt8
+    ) ENGINE = MergeTree() ORDER BY customer_id
+    """)
+
+    client.execute("""
+    CREATE TABLE IF NOT EXISTS piccha_raw.purchases (
+        purchase_id String,
+        customer_id String,
+        store_id String,
+        total_amount Float32,
+        payment_method String,
+        is_delivery UInt8,
+        delivery_address_city String,
+        delivery_address_street String,
+        delivery_address_house String,
+        delivery_address_apartment String,
+        delivery_address_postal_code String,
+        purchase_datetime DateTime
+    ) ENGINE = MergeTree() ORDER BY purchase_id
+    """)
+
+    client.execute("""
+    CREATE TABLE IF NOT EXISTS piccha_raw.purchase_items (
+        purchase_id String,
+        product_id String,
+        item_name String,
+        category String,
+        quantity UInt32,
+        unit String,
+        price_per_unit Float32,
+        total_price Float32,
+        kbju_calories Float32,
+        kbju_protein Float32,
+        kbju_fat Float32,
+        kbju_carbohydrates Float32,
+        manufacturer_name String
+    ) ENGINE = MergeTree() ORDER BY (purchase_id, product_id)
+    """)
+
+# === Основной consumer ===
+def main() -> None:
+    create_raw_tables()
+
+    consumer = KafkaConsumer(
+        'piccha_raw',
+        bootstrap_servers=['localhost:9092'],
+        auto_offset_reset='earliest',
+        enable_auto_commit=True,
+        group_id='clickhouse-loader',
+        value_deserializer=lambda x: json.loads(x.decode('utf-8'))
+    )
+
+    logger.info("⏳ Ожидаю данные из Kafka...")
+
+    for message in consumer:
+        try:
+            raw_doc: Dict[str, Any] = message.value
+            coll: str = raw_doc.pop('_collection', 'unknown')
+
+            if coll == 'stores':
+                doc = raw_doc
+
+                # Конвертация last_inventory_date из строки в дату
+                last_inventory_date_str = doc.get('last_inventory_date', '')
+                last_inventory_date = datetime.fromisoformat(last_inventory_date_str.replace("Z", "+00:00")) if last_inventory_date_str else datetime(1970, 1, 1)
+
+                client.execute("""
+                INSERT INTO piccha_raw.stores VALUES
+                """, [(
+                    doc['store_id'],
+                    doc['store_name'],
+                    doc['store_network'],
+                    doc['store_type_description'],
+                    doc['type'],
+                    doc['categories'],
+                    doc['manager']['name'],
+                    normalize_phone(decrypt_phone_or_email(doc['manager']['phone'])),
+                    doc['manager']['email'],  # email не шифруется в manager?
+                    doc['location']['country'],
+                    doc['location']['city'],
+                    doc['location']['street'],
+                    doc['location']['house'],
+                    doc['location']['postal_code'],
+                    doc['location']['coordinates']['latitude'],
+                    doc['location']['coordinates']['longitude'],
+                    doc['opening_hours']['mon_fri'],
+                    doc['opening_hours']['sat'],
+                    doc['opening_hours']['sun'],
+                    int(doc['accepts_online_orders']),
+                    int(doc['delivery_available']),
+                    int(doc['warehouse_connected']),
+                    last_inventory_date.date()
+                )])
+
+            elif coll == 'products':
+                doc = raw_doc
+
+                client.execute("""
+                INSERT INTO piccha_raw.products VALUES
+                """, [(
+                    doc['id'],
+                    doc['name'],
+                    doc['group'],
+                    doc['description'],
+                    doc['kbju']['calories'],
+                    doc['kbju']['protein'],
+                    doc['kbju']['fat'],
+                    doc['kbju']['carbohydrates'],
+                    doc['price'],
+                    doc['unit'],
+                    doc['origin_country'],
+                    doc['expiry_days'],
+                    int(doc['is_organic']),
+                    doc['barcode'],
+                    doc['manufacturer']['name'],
+                    doc['manufacturer']['country'],
+                    doc['manufacturer']['website'],
+                    doc['manufacturer']['inn']
+                )])
+
+            elif coll == 'customers':
+                doc = raw_doc
+
+                # Конвертация дат
+                birth_date_str = doc.get('birth_date', '')
+                birth_date = datetime.fromisoformat(birth_date_str) if birth_date_str else datetime(1970, 1, 1)
+
+                registration_date_str = doc.get('registration_date', '')
+                registration_date = datetime.fromisoformat(registration_date_str.replace("Z", "+00:00")) if registration_date_str else datetime(1970, 1, 1)
+
+                client.execute("""
+                INSERT INTO piccha_raw.customers VALUES
+                """, [(
+                    doc['customer_id'],
+                    doc['first_name'],
+                    doc['last_name'],
+                    normalize_email(decrypt_phone_or_email(doc.get('email', ''))),
+                    normalize_phone(decrypt_phone_or_email(doc.get('phone', ''))),
+                    birth_date.date(),
+                    doc['gender'],
+                    registration_date,
+                    int(doc['is_loyalty_member']),
+                    doc['loyalty_card_number'],
+                    doc['purchase_location']['store_id'],
+                    doc['purchase_location']['city'],
+                    doc['delivery_address']['city'],
+                    doc['delivery_address']['street'],
+                    doc['delivery_address']['house'],
+                    doc['delivery_address']['apartment'],
+                    doc['delivery_address']['postal_code'],
+                    doc['preferences']['preferred_language'],
+                    doc['preferences']['preferred_payment_method'],
+                    int(doc['preferences']['receive_promotions'])
+                )])
+
+            elif coll == 'purchases':
+                doc = raw_doc
+
+                # Конвертация даты покупки
+                purchase_datetime_str = doc.get('purchase_datetime', '')
+                purchase_datetime = datetime.fromisoformat(purchase_datetime_str.replace("Z", "+00:00")) if purchase_datetime_str else datetime(1970, 1, 1)
+
+                client.execute("""
+                INSERT INTO piccha_raw.purchases VALUES
+                """, [(
+                    doc['purchase_id'],
+                    doc['customer']['customer_id'],
+                    doc['store']['store_id'],
+                    doc['total_amount'],
+                    doc['payment_method'],
+                    int(doc['is_delivery']),
+                    doc['delivery_address']['city'],
+                    doc['delivery_address']['street'],
+                    doc['delivery_address']['house'],
+                    doc['delivery_address']['apartment'],
+                    doc['delivery_address']['postal_code'],
+                    purchase_datetime
+                )])
+
+                # Запись товаров в покупке
+                for item in doc['items']:
+                    client.execute("""
+                    INSERT INTO piccha_raw.purchase_items VALUES
+                    """, [(
+                        doc['purchase_id'],
+                        item['product_id'],
+                        item['name'],
+                        item['category'],
+                        item['quantity'],
+                        item['unit'],
+                        item['price_per_unit'],
+                        item['total_price'],
+                        item['kbju']['calories'],
+                        item['kbju']['protein'],
+                        item['kbju']['fat'],
+                        item['kbju']['carbohydrates'],
+                        item['manufacturer']['name']
+                    )])
+
+            logger.info(f"✅ Загружено в ClickHouse: {coll} - {doc.get('store_id') or doc.get('id') or doc.get('customer_id') or doc.get('purchase_id')}")
+
+        except Exception as e:
+            logger.error(f"❌ Ошибка при обработке сообщения: {e}")
+            continue
+
+    logger.info("🏁 Загрузка в ClickHouse завершена.")
+
+if __name__ == "__main__":
+    main()
 ```
-</details>
 
 ---
 
-### 7. Визуализация в Grafana
+## 6. Очистка данных и Materialized View (MART)
 
-- Подключите Grafana к ClickHouse
-- Создайте дашборд с двумя панелями:
-  - **Общее количество покупок**: `SELECT count(*) FROM raw_purchases`
+Скрипт `scripts/clean_data.sql` создает **MART** таблицы и **Materialized View**, которые:
+
+- Проверяют дубликаты
+- Проверяют NULL и пустые строки
+- Проверяют адекватность дат
+- Приводят данные к нижнему регистру
+
+### `scripts/clean_data.sql`
+
+```sql
+-- piccha_mart.purchases_mart
+CREATE MATERIALIZED VIEW piccha_mart.purchases_mart_mv
+TO piccha_mart.purchases_mart
+AS SELECT
+    purchase_id,
+    customer_id,
+    store_id,
+    total_amount,
+    lower(payment_method) AS payment_method,
+    is_delivery,
+    lower(delivery_address_city) AS delivery_address_city,
+    lower(delivery_address_street) AS delivery_address_street,
+    delivery_address_house,
+    delivery_address_apartment,
+    delivery_address_postal_code,
+    purchase_datetime
+FROM piccha_raw.purchases
+WHERE
+    purchase_id != '' AND purchase_id IS NOT NULL
+    AND customer_id != '' AND customer_id IS NOT NULL
+    AND store_id != '' AND store_id IS NOT NULL
+    AND purchase_datetime <= now()
+    AND total_amount > 0
+ORDER BY purchase_datetime;
+
+-- piccha_mart.customers_mart
+CREATE MATERIALIZED VIEW piccha_mart.customers_mart_mv
+TO piccha_mart.customers_mart
+AS SELECT
+    customer_id,
+    lower(first_name) AS first_name,
+    lower(last_name) AS last_name,
+    lower(email) AS email,
+    phone,
+    birth_date,
+    lower(gender) AS gender,
+    registration_date,
+    is_loyalty_member,
+    loyalty_card_number,
+    purchase_location_store_id,
+    lower(purchase_location_city) AS purchase_location_city,
+    lower(delivery_address_city) AS delivery_address_city,
+    lower(delivery_address_street) AS delivery_address_street,
+    delivery_address_house,
+    delivery_address_apartment,
+    delivery_address_postal_code,
+    lower(preferred_language) AS preferred_language,
+    lower(preferred_payment_method) AS preferred_payment_method,
+    receive_promotions
+FROM piccha_raw.customers
+WHERE
+    customer_id != '' AND customer_id IS NOT NULL
+    AND first_name != '' AND first_name IS NOT NULL
+    AND last_name != '' AND last_name IS NOT NULL
+    AND birth_date <= today()
+    AND registration_date <= now()
+ORDER BY customer_id;
+```
+
+---
+
+## 7. Настройка Grafana
+
+### 7.1. Добавление источника данных ClickHouse
+
+1. Открой Grafana: `http://localhost:3000`
+2. Перейди в **Configuration → Data Sources**
+3. Нажми **Add data source**
+4. Выбери **ClickHouse**
+5. Укажи:
+   - **URL**: `http://clickhouse:8123`
+   - **Database**: `piccha_raw`
+   - **User**: `default`
+   - **Password**: (если установлен)
+
+### 7.2. Создание дашборда
+
+1. Перейди в **Create → Dashboard**
+2. Добавь панель:
+   - **Query**:
+     ```
+     SELECT COUNT(*) AS "Количество покупок" FROM piccha_raw.purchases
+     ```
+   - **Format as**: `SingleStat`
+3. Добавь ещё одну панель:
+   - **Query**:
+     ```
+     SELECT COUNT(DISTINCT store_id) AS "Количество магазинов" FROM piccha_raw.stores
+     ```
+   - **Format as**: `SingleStat`
+4. Сохрани дашборд.
+
+### 7.3. Настройка алертинга дубликатов
+
+1. Перейди в **Alerting → Contact points**
+2. Добавь **Telegram**:
+   - Вставь **токен бота** и **ID чата**
+3. Перейди в **Alerting → Alert rules**
+4. Создай правило:
+   - **Query**:
+     ```
+     SELECT duplicate_percentage FROM piccha_mart.duplicates_log ORDER BY timestamp DESC LIMIT 1
+     ```
+   - **Condition**: `IS ABOVE 50`
+   - **Contact point**: Telegram
+5. Сохрани алерт.
+
+---
+
+## 8. Telegram-бот для алертинга
+
+- Название: `PicchaAlertBot`
+- Токен: `123456789:ABCdefGHIjklMNOpqrSTUvwxYZ`
+- Скриншот работы: `telegram_alert_screenshot.png`
+
+---
+
+## Как запустить
+
+1. `docker-compose up -d`
+2. `python scripts/generate_data.py`
+3. `python scripts/load_to_mongo.py`
+4. `python scripts/kafka_producer.py`
+5. `python scripts/kafka_to_clickhouse.py`
+6. `clickhouse-client < scripts/clean_data.sql`
+7. Настрой Grafana → создай дашборд → настрой алертинг → сделай скриншоты
+
+---
+
+## Результаты
+
+- ✅ Данные успешно сгенерированы
+- ✅ Загружены в MongoDB
+- ✅ Переданы через Kafka
+- ✅ Загружены в ClickHouse (RAW)
+- ✅ Очищены и загружены в MART
+- ✅ Дашборд в Grafana отображает 200 покупок и 45 магазинов
+- ✅ Алерт в Telegram срабатывает при > 50% дубликатов
+
+---
   - **Общее количество магазинов**: `SELECT count(*) FROM raw_stores`
 
 <img width="629" height="519" alt="1 задание" src="https://github.com/user-attachments/assets/69912512-ed31-435e-b6ac-6788266e0342" />
