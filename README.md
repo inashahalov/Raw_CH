@@ -940,7 +940,7 @@ ORDER BY customer_id;
 
 ### 7.3. Настройка алертинга дубликатов
 
-1. Перейди в **Alerting → Contact points**
+1. Перейди в **Alerting → Contact points** 
 2. Добавь **Telegram**:
    - Вставь **токен бота** и **ID чата**
 3. Перейди в **Alerting → Alert rules**
