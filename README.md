@@ -937,7 +937,7 @@ ORDER BY customer_id;
      ```
    - **Format as**: `SingleStat`
 4. Сохрани дашборд.
-
+ 
 ### 7.3. Настройка алертинга дубликатов
 
 1. Перейди в **Alerting → Contact points** 
