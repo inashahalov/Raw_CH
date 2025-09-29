@@ -3,51 +3,130 @@
 from __future__ import annotations
 import json
 import logging
-from typing import Any, Dict, List, TypedDict, cast
+from typing import Any, Dict, List
 from datetime import datetime
+from decimal import Decimal
 from clickhouse_driver import Client
 from cryptography.fernet import Fernet
 from kafka import KafkaConsumer
 
 # === Настройка логирования ===
-logging.basicConfig(level=logging.INFO, format='%(asctime)s - %(levelname)s - %(message)s')
+logging.basicConfig(
+    level=logging.INFO,
+    format='%(asctime)s - %(levelname)s - %(message)s',
+    handlers=[
+        logging.StreamHandler()  # Вывод в консоль
+        # logging.FileHandler('kafka_to_clickhouse.log') # Опционально: вывод в файл
+    ]
+)
 logger = logging.getLogger(__name__)
 
-# === Ключ шифрования (вставьте сюда ключ из kafka_producer.py) ===
-ENCRYPTION_KEY = b'S_kG1-1EwjfkFUfukpPaHGZ92KlWKkdlpLLVeskPeEM='
+# =============================================================================
+# === ВАЖНО: ВСТАВЬТЕ СЮДА КЛЮЧ ИЗ ВЫВОДА kafka_producer.py ====================
+# === ПРИМЕР: b'DpY1VLwmMeRO18y5BTLIibyzd-BheI5N1NpxCoHdMBo=' =================
+# === !!! УБЕДИТЕСЬ, ЧТО КЛЮЧ СОВПАДАЕТ С ТЕМ, ЧТО В kafka_producer.py !!! ====
+# =============================================================================
+ENCRYPTION_KEY = b'dI6S2mer6xD6JpDcATx5r_wFE78Rf1TQC6bVg29ZjKE='
 cipher = Fernet(ENCRYPTION_KEY)
 
 logger.info("🔑 Используем ключ шифрования.")
 
+
 # === Нормализация и дешифровка ===
 def decrypt_phone_or_email(value: str | None) -> str:
+    """
+    Пытается расшифровать значение. Если не удается, возвращает как есть.
+    """
     if not value:
         return ""
     try:
-        return cipher.decrypt(value.encode()).decode()
-    except Exception:
-        return value  # fallback: вернуть как есть, если не расшифровывается
+        decrypted_value = cipher.decrypt(value.encode()).decode()
+        logger.debug(f"Успешно расшифровано значение.")
+        return decrypted_value
+    except Exception as e:
+        logger.debug(f"Не удалось расшифровать значение: {e}. Возвращено как есть.")
+        return value  # fallback: вернуть как есть
+
 
 def normalize_phone(phone: str | None) -> str:
+    """
+    Нормализует телефонный номер: приводит к формату +7XXXXXXXXXX.
+    """
     if not phone:
         return ""
-    # Приведение к единому формату +7 (если не зашифровано)
-    if phone.startswith('+7') and phone[1:].isdigit() and len(phone) == 12:
-        return phone
-    return phone  # fallback на оригинальный формат
+    # Простая нормализация: убираем все, кроме цифр
+    digits = ''.join(filter(str.isdigit, phone))
+    if len(digits) == 11 and digits.startswith('8'):
+        digits = '7' + digits[1:]
+    if len(digits) == 10:
+        digits = '7' + digits
+    if len(digits) == 11 and digits.startswith('7'):
+        return f"+{digits}"
+    # Если формат не стандартный, возвращаем оригинал
+    logger.debug(f"Телефон '{phone}' не соответствует стандартному формату.")
+    return phone
+
 
 def normalize_email(email: str | None) -> str:
-    """Нормализует email: приводит к нижнему регистру и удаляет пробелы."""
-    return email.strip().lower() if email else ""
+    """
+    Нормализует email: приводит к нижнему регистру и удаляет пробелы.
+    """
+    if not email:
+        return ""
+    return email.strip().lower()
+
+
+# === Обработка дат ===
+def safe_parse_datetime(datetime_str: str | None) -> datetime:
+    """
+    Безопасно парсит строку даты-времени в формате ISO. Возвращает datetime или epoch.
+    """
+    if not datetime_str:
+        logger.warning("Получена пустая строка даты-времени. Используется 1970-01-01T00:00:00.")
+        return datetime(1970, 1, 1)
+    try:
+        # fromisoformat может справиться с 'Z' в конце, заменим на +00:00 для надежности
+        if datetime_str.endswith('Z'):
+            parsed_dt = datetime.fromisoformat(datetime_str[:-1] + '+00:00')
+        else:
+            parsed_dt = datetime.fromisoformat(datetime_str)
+        return parsed_dt
+    except ValueError as e:
+        logger.error(f"Ошибка парсинга даты-времени '{datetime_str}': {e}. Используется 1970-01-01T00:00:00.")
+        return datetime(1970, 1, 1)
+
+
+def safe_parse_date(
+        date_str: str | None) -> datetime:  # Возвращаем datetime для совместимости, используем .date() при вставке
+    """
+    Безопасно парсит строку даты (YYYY-MM-DD). Возвращает datetime или epoch.
+    """
+    if not date_str:
+        logger.warning("Получена пустая строка даты. Используется 1970-01-01.")
+        return datetime(1970, 1, 1)
+    try:
+        # Предполагаем, что формат YYYY-MM-DD
+        parsed_dt = datetime.strptime(date_str, "%Y-%m-%d")
+        return parsed_dt
+    except ValueError as e:
+        logger.error(f"Ошибка парсинга даты '{date_str}': {e}. Используется 1970-01-01.")
+        return datetime(1970, 1, 1)
+
 
 # === Подключение к ClickHouse ===
-client = Client(host='localhost', port=9000)  # Используем порт 9000, как настроено в docker-compose.yml
+# Используем порт 9000, как настроено в docker-compose.yml
+client = Client(host='localhost', port=9000)
 
-# === Создание таблиц ===
-def create_tables() -> None:
+
+# === Создание таблиц RAW ===
+def create_raw_tables() -> None:
+    """
+    Создает базу данных piccha_raw и все необходимые таблицы, если они еще не существуют.
+    Типы ID изменены на String.
+    """
     client.execute("CREATE DATABASE IF NOT EXISTS piccha_raw")
 
-    # === Таблица stores ===
+    # Таблица магазинов
     client.execute("""
     CREATE TABLE IF NOT EXISTS piccha_raw.stores (
         store_id String,
@@ -76,7 +155,7 @@ def create_tables() -> None:
     ) ENGINE = MergeTree() ORDER BY store_id
     """)
 
-    # === Таблица products ===
+    # Таблица продуктов
     client.execute("""
     CREATE TABLE IF NOT EXISTS piccha_raw.products (
         id String,
@@ -100,7 +179,7 @@ def create_tables() -> None:
     ) ENGINE = MergeTree() ORDER BY id
     """)
 
-    # === Таблица customers ===
+    # Таблица покупателей
     client.execute("""
     CREATE TABLE IF NOT EXISTS piccha_raw.customers (
         customer_id String,
@@ -126,25 +205,19 @@ def create_tables() -> None:
     ) ENGINE = MergeTree() ORDER BY customer_id
     """)
 
-    # === Таблица purchases ===
+    # Таблица покупок (плоская, по одной строке на товар в чеке)
     client.execute("""
     CREATE TABLE IF NOT EXISTS piccha_raw.purchases (
         purchase_id String,
         customer_id String,
-        store_id String,
-        total_amount Float32,
-        payment_method String,
-        is_delivery UInt8,
-        delivery_address_city String,
-        delivery_address_street String,
-        delivery_address_house String,
-        delivery_address_apartment String,
-        delivery_address_postal_code String,
-        purchase_datetime DateTime
-    ) ENGINE = MergeTree() ORDER BY purchase_id
+        product_id String,
+        quantity Int32,
+        price Decimal(10, 2),
+        purchase_date DateTime
+    ) ENGINE = MergeTree() ORDER BY (purchase_id, product_id)
     """)
 
-    # === Таблица purchase_items ===
+    # Таблица элементов покупки (опционально, если нужна детализация)
     client.execute("""
     CREATE TABLE IF NOT EXISTS piccha_raw.purchase_items (
         purchase_id String,
@@ -163,33 +236,58 @@ def create_tables() -> None:
     ) ENGINE = MergeTree() ORDER BY (purchase_id, product_id)
     """)
 
+
 # === Основной consumer ===
 def main() -> None:
-    create_tables()
+    """
+    Основная функция: создает таблицы, подключается к Kafka, читает сообщения и вставляет данные в ClickHouse.
+    """
+    logger.info("🚀 Запуск kafka_to_clickhouse consumer...")
 
-    consumer = KafkaConsumer(
-        'piccha_raw',
-        bootstrap_servers=['localhost:9092'],
-        auto_offset_reset='earliest',
-        enable_auto_commit=True,
-        group_id='clickhouse-loader',
-        value_deserializer=lambda x: json.loads(x.decode('utf-8'))
-    )
+    # Создаем таблицы
+    try:
+        create_raw_tables()
+        logger.info("✅ Таблицы piccha_raw созданы или уже существуют.")
+    except Exception as e:
+        logger.error(f"❌ Ошибка при создании таблиц: {e}")
+        return  # Останавливаем выполнение, если таблицы не созданы
 
-    logger.info("⏳ Ожидаю данные из Kafka...")
+    # Подключаемся к Kafka
+    try:
+        consumer = KafkaConsumer(
+            'piccha_raw',
+            bootstrap_servers=['localhost:9092'],
+            auto_offset_reset='earliest',  # Читаем с начала, если новых сообщений нет
+            enable_auto_commit=True,
+            group_id='clickhouse-loader-v2',  # Изменен group_id для избежания проблем с предыдущими состояниями
+            value_deserializer=lambda x: json.loads(x.decode('utf-8')),
+            # session_timeout_ms=45000, # Увеличение таймаута сессии, если потребитель медленный
+            # heartbeat_interval_ms=3000 # Интервал heartbeat
+        )
+        logger.info("✅ Подключение к Kafka установлено.")
+    except Exception as e:
+        logger.error(f"❌ Ошибка подключения к Kafka: {e}")
+        return
 
+    logger.info("⏳ Ожидаю данные из Kafka топика 'piccha_raw'...")
+
+    # Основной цикл обработки сообщений
     for message in consumer:
         try:
+            # Получаем JSON-документ из сообщения
             raw_doc: Dict[str, Any] = message.value
-            coll: str = raw_doc.pop('_collection', 'unknown')
+            collection_type: str = raw_doc.pop('_collection', 'unknown')
 
-            if coll == 'stores':
+            logger.debug(f"📥 Получено сообщение для коллекции: {collection_type}")
+
+            # Обработка в зависимости от типа коллекции
+            if collection_type == 'stores':
                 doc = raw_doc
 
-                # Конвертация last_inventory_date из строки в дату
-                last_inventory_date_str = doc.get('last_inventory_date', '')
-                last_inventory_date = datetime.fromisoformat(last_inventory_date_str.replace("Z", "+00:00")) if last_inventory_date_str else datetime(1970, 1, 1)
+                # Обработка last_inventory_date
+                last_inventory_date_dt = safe_parse_date(doc.get('last_inventory_date'))
 
+                # Вставка в таблицу stores
                 client.execute("""
                 INSERT INTO piccha_raw.stores VALUES
                 """, [(
@@ -200,27 +298,29 @@ def main() -> None:
                     doc['type'],
                     doc['categories'],
                     doc['manager']['name'],
-                    normalize_phone(decrypt_phone_or_email(doc['manager']['phone'])),
-                    doc['manager']['email'],  # email не шифруется в manager?
+                    normalize_phone(decrypt_phone_or_email(doc['manager'].get('phone'))),
+                    doc['manager']['email'],  # Предполагаем, что email менеджера не шифруется
                     doc['location']['country'],
                     doc['location']['city'],
                     doc['location']['street'],
                     doc['location']['house'],
                     doc['location']['postal_code'],
-                    doc['location']['coordinates']['latitude'],
-                    doc['location']['coordinates']['longitude'],
+                    float(doc['location']['coordinates']['latitude']),
+                    float(doc['location']['coordinates']['longitude']),
                     doc['opening_hours']['mon_fri'],
                     doc['opening_hours']['sat'],
                     doc['opening_hours']['sun'],
                     int(doc['accepts_online_orders']),
                     int(doc['delivery_available']),
                     int(doc['warehouse_connected']),
-                    last_inventory_date.date()
+                    last_inventory_date_dt.date()  # Вставка Date
                 )])
+                logger.info(f"✅ Загружено в ClickHouse: stores - {doc['store_id']}")
 
-            elif coll == 'products':
+            elif collection_type == 'products':
                 doc = raw_doc
 
+                # Вставка в таблицу products
                 client.execute("""
                 INSERT INTO piccha_raw.products VALUES
                 """, [(
@@ -228,43 +328,42 @@ def main() -> None:
                     doc['name'],
                     doc['group'],
                     doc['description'],
-                    doc['kbju']['calories'],
-                    doc['kbju']['protein'],
-                    doc['kbju']['fat'],
-                    doc['kbju']['carbohydrates'],
-                    doc['price'],
+                    float(doc['kbju']['calories']),
+                    float(doc['kbju']['protein']),
+                    float(doc['kbju']['fat']),
+                    float(doc['kbju']['carbohydrates']),
+                    float(doc['price']),
                     doc['unit'],
                     doc['origin_country'],
-                    doc['expiry_days'],
+                    int(doc['expiry_days']),
                     int(doc['is_organic']),
                     doc['barcode'],
                     doc['manufacturer']['name'],
                     doc['manufacturer']['country'],
-                    doc['manufacturer']['website'],
+                    doc['manufacturer']['website'].strip(),
                     doc['manufacturer']['inn']
                 )])
+                logger.info(f"✅ Загружено в ClickHouse: products - {doc['id']}")
 
-            elif coll == 'customers':
+            elif collection_type == 'customers':
                 doc = raw_doc
 
-                # Конвертация дат
-                birth_date_str = doc.get('birth_date', '')
-                birth_date = datetime.fromisoformat(birth_date_str) if birth_date_str else datetime(1970, 1, 1)
+                # Обработка дат
+                birth_date_dt = safe_parse_date(doc.get('birth_date'))
+                registration_date_dt = safe_parse_datetime(doc.get('registration_date'))
 
-                registration_date_str = doc.get('registration_date', '')
-                registration_date = datetime.fromisoformat(registration_date_str.replace("Z", "+00:00")) if registration_date_str else datetime(1970, 1, 1)
-
+                # Вставка в таблицу customers
                 client.execute("""
                 INSERT INTO piccha_raw.customers VALUES
                 """, [(
                     doc['customer_id'],
                     doc['first_name'],
                     doc['last_name'],
-                    normalize_email(decrypt_phone_or_email(doc.get('email', ''))),
-                    normalize_phone(decrypt_phone_or_email(doc.get('phone', ''))),
-                    birth_date.date(),
+                    normalize_email(decrypt_phone_or_email(doc.get('email'))),
+                    normalize_phone(decrypt_phone_or_email(doc.get('phone'))),
+                    birth_date_dt.date(),  # Вставка Date
                     doc['gender'],
-                    registration_date,
+                    registration_date_dt,  # Вставка DateTime
                     int(doc['is_loyalty_member']),
                     doc['loyalty_card_number'],
                     doc['purchase_location']['store_id'],
@@ -272,64 +371,80 @@ def main() -> None:
                     doc['delivery_address']['city'],
                     doc['delivery_address']['street'],
                     doc['delivery_address']['house'],
-                    doc['delivery_address']['apartment'],
+                    doc['delivery_address'].get('apartment', ''),  # Может отсутствовать
                     doc['delivery_address']['postal_code'],
                     doc['preferences']['preferred_language'],
                     doc['preferences']['preferred_payment_method'],
                     int(doc['preferences']['receive_promotions'])
                 )])
+                logger.info(f"✅ Загружено в ClickHouse: customers - {doc['customer_id']}")
 
-            elif coll == 'purchases':
+            elif collection_type == 'purchases':
                 doc = raw_doc
 
-                # Конвертация даты покупки
-                purchase_datetime_str = doc.get('purchase_datetime', '')
-                purchase_datetime = datetime.fromisoformat(purchase_datetime_str.replace("Z", "+00:00")) if purchase_datetime_str else datetime(1970, 1, 1)
+                # Обработка общей даты покупки
+                purchase_datetime_dt = safe_parse_datetime(doc.get('purchase_datetime'))
 
-                client.execute("""
-                INSERT INTO piccha_raw.purchases VALUES
-                """, [(
-                    doc['purchase_id'],
-                    doc['customer']['customer_id'],
-                    doc['store']['store_id'],
-                    doc['total_amount'],
-                    doc['payment_method'],
-                    int(doc['is_delivery']),
-                    doc['delivery_address']['city'],
-                    doc['delivery_address']['street'],
-                    doc['delivery_address']['house'],
-                    doc['delivery_address']['apartment'],
-                    doc['delivery_address']['postal_code'],
-                    purchase_datetime
-                )])
+                # Предполагаем, что таблица piccha_raw.purchases ожидает плоские записи
+                # по одной на каждый товар (item) в заказе.
+                items_list = doc.get('items', [])
+                inserted_items_count = 0
+                for item in items_list:
+                    try:
+                        # --- Вставка в основную таблицу покупок (по одной строке на товар) ---
+                        client.execute("""
+                        INSERT INTO piccha_raw.purchases VALUES
+                        """, [(
+                            doc['purchase_id'],
+                            doc['customer']['customer_id'],
+                            item['product_id'],  # product_id из item
+                            int(item['quantity']),  # quantity из item
+                            Decimal(str(item['price_per_unit'])),  # price_per_unit из item -> Decimal(10,2)
+                            purchase_datetime_dt  # purchase_date из общей даты покупки
+                        )])
 
-                # Запись товаров в покупке
-                for item in doc['items']:
-                    client.execute("""
-                    INSERT INTO piccha_raw.purchase_items VALUES
-                    """, [(
-                        doc['purchase_id'],
-                        item['product_id'],
-                        item['name'],
-                        item['category'],
-                        item['quantity'],
-                        item['unit'],
-                        item['price_per_unit'],
-                        item['total_price'],
-                        item['kbju']['calories'],
-                        item['kbju']['protein'],
-                        item['kbju']['fat'],
-                        item['kbju']['carbohydrates'],
-                        item['manufacturer']['name']
-                    )])
+                        # --- Вставка в детальную таблицу элементов покупки ---
+                        client.execute("""
+                        INSERT INTO piccha_raw.purchase_items VALUES
+                        """, [(
+                            doc['purchase_id'],
+                            item['product_id'],
+                            item['name'],
+                            item['category'],
+                            int(item['quantity']),
+                            item['unit'],
+                            float(item['price_per_unit']),
+                            float(item['total_price']),
+                            float(item['kbju']['calories']),
+                            float(item['kbju']['protein']),
+                            float(item['kbju']['fat']),
+                            float(item['kbju']['carbohydrates']),
+                            item['manufacturer']['name']
+                        )])
+                        inserted_items_count += 1
 
-            logger.info(f"✅ Загружено в ClickHouse: {coll} - {doc.get('store_id') or doc.get('id') or doc.get('customer_id') or doc.get('purchase_id')}")
+                    except KeyError as ke:
+                        logger.error(
+                            f"❌ Отсутствует обязательное поле в item '{item.get('product_id', 'UNKNOWN')}': {ke}")
+                        # Пропускаем этот item, но продолжаем обработку других
+                        continue
+                    except Exception as ie:
+                        logger.error(f"❌ Ошибка при обработке item '{item.get('product_id', 'UNKNOWN')}': {ie}")
+                        continue
+
+                logger.info(
+                    f"✅ Загружено в ClickHouse: purchases - {doc['purchase_id']} ({inserted_items_count} items)")
+
+            else:
+                logger.warning(f"⚠️  Неизвестная коллекция: {collection_type}")
 
         except Exception as e:
-            logger.error(f"❌ Ошибка при обработке сообщения: {e}")
+            logger.error(f"❌ Критическая ошибка при обработке сообщения: {e}", exc_info=True)
+            # Продолжаем обработку следующих сообщений, не останавливаемся на ошибке
             continue
 
-    logger.info("🏁 Загрузка в ClickHouse завершена.")
+    logger.info("🏁 Consumer остановлен.")
+
 
 if __name__ == "__main__":
     main()
