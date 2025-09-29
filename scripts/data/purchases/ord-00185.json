@@ -1,63 +1,105 @@
 {
   "purchase_id": "ord-00185",
   "customer": {
-    "customer_id": "cus-1037",
-    "first_name": "Ипатий",
-    "last_name": "Ларионова",
-    "email": "timurfadeev@example.org",
-    "phone": "+7 561 629 90 67",
+    "customer_id": "cus-1002",
+    "first_name": "Евгения",
+    "last_name": "Якушев",
+    "email": "martinovairina@example.net",
+    "phone": "+7 824 721 2309",
     "is_loyalty_member": true,
-    "loyalty_card_number": "LOYAL-FA021EE45A"
+    "loyalty_card_number": "LOYAL-13FF9996C5"
   },
   "store": {
-    "store_id": "store-023",
-    "store_name": "Большая Пикча — Магазин на пер. Прудный",
-    "store_network": "Большая Пикча",
+    "store_id": "store-033",
+    "store_name": "Маленькая Пикча — Магазин на пр. Ставропольский",
+    "store_network": "Маленькая Пикча",
     "location": {
       "country": "Россия",
-      "city": "с. Владикавказ",
-      "street": "алл. Репина",
-      "house": "4",
-      "postal_code": "867024",
+      "city": "к. Арзамас",
+      "street": "алл. Совхозная",
+      "house": "64",
+      "postal_code": "975984",
       "coordinates": {
-        "latitude": -27.2311465,
-        "longitude": -151.9032
+        "latitude": 72.4718475,
+        "longitude": -164.998246
       }
     }
   },
   "items": [
     {
-      "product_id": "prd-1003",
-      "name": "Поймать Изба",
-      "category": "🥖 Зерновые и хлебобулочные изделия",
-      "quantity": 5,
-      "unit": "шт",
-      "price_per_unit": 164.24,
-      "total_price": 821.2,
+      "product_id": "prd-1004",
+      "name": "Заявление Шлем",
+      "category": "🥩 Мясо, рыба, яйца и бобовые",
+      "quantity": 1,
+      "unit": "упаковка",
+      "price_per_unit": 261.08,
+      "total_price": 261.08,
       "kbju": {
-        "calories": 225.1,
-        "protein": 9.6,
-        "fat": 12.3,
-        "carbohydrates": 33.1
+        "calories": 178.3,
+        "protein": 8.6,
+        "fat": 9.2,
+        "carbohydrates": 12.8
       },
       "manufacturer": {
-        "name": "ЗАО «Родионов»",
+        "name": "ОАО «Орлов Попова»",
         "country": "Россия",
-        "website": "https://ooo.com",
-        "inn": "2508560707"
+        "website": "https://metallservis.ru",
+        "inn": "4728731918"
+      }
+    },
+    {
+      "product_id": "prd-1005",
+      "name": "Правильный Факультет",
+      "category": "🥦 Овощи и зелень",
+      "quantity": 5,
+      "unit": "л",
+      "price_per_unit": 246.16,
+      "total_price": 1230.8,
+      "kbju": {
+        "calories": 238.0,
+        "protein": 1.6,
+        "fat": 0.4,
+        "carbohydrates": 17.1
+      },
+      "manufacturer": {
+        "name": "Михеев и партнеры",
+        "country": "Россия",
+        "website": "https://yakovleva.biz",
+        "inn": "6371685483"
+      }
+    },
+    {
+      "product_id": "prd-1015",
+      "name": "Табак Госпожа",
+      "category": "🥛 Молочные продукты",
+      "quantity": 4,
+      "unit": "л",
+      "price_per_unit": 235.2,
+      "total_price": 940.8,
+      "kbju": {
+        "calories": 99.6,
+        "protein": 9.1,
+        "fat": 4.4,
+        "carbohydrates": 37.7
+      },
+      "manufacturer": {
+        "name": "ИП «Куликов, Степанов и Соболева»",
+        "country": "Россия",
+        "website": "https://rjabov.info",
+        "inn": "9167946809"
       }
     }
   ],
-  "total_amount": 821.2,
+  "total_amount": 2432.68,
   "payment_method": "cash",
   "is_delivery": false,
   "delivery_address": {
     "country": "Россия",
-    "city": "д. Сосновый Бор",
-    "street": "ул. Халтурина",
-    "house": "4/1",
-    "apartment": "98",
-    "postal_code": "590899"
+    "city": "к. Куртамыш",
+    "street": "ул. Беляева",
+    "house": "27",
+    "apartment": "45",
+    "postal_code": "141618"
   },
-  "purchase_datetime": "2025-08-20T00:21:06.239360"
+  "purchase_datetime": "2025-07-09T11:36:53.697611"
 }

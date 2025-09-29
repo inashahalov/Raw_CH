@@ -1,105 +1,105 @@
 {
   "purchase_id": "ord-00129",
   "customer": {
-    "customer_id": "cus-1012",
-    "first_name": "Модест",
-    "last_name": "Тетерина",
-    "email": "avdeevdobromisl@example.org",
-    "phone": "+7 (066) 573-4317",
+    "customer_id": "cus-1013",
+    "first_name": "Август",
+    "last_name": "Бобылева",
+    "email": "denis_1972@example.net",
+    "phone": "+7 (675) 164-65-63",
     "is_loyalty_member": true,
-    "loyalty_card_number": "LOYAL-C3EA95EB72"
+    "loyalty_card_number": "LOYAL-2AC87952E6"
   },
   "store": {
-    "store_id": "store-029",
-    "store_name": "Большая Пикча — Магазин на ш. Владимирское",
+    "store_id": "store-005",
+    "store_name": "Большая Пикча — Магазин на алл. Зои Космодемьянской",
     "store_network": "Большая Пикча",
     "location": {
       "country": "Россия",
-      "city": "ст. Чебоксары",
-      "street": "наб. Тюленина",
-      "house": "5",
-      "postal_code": "132041",
+      "city": "к. Ульяновск",
+      "street": "ш. Лермонтова",
+      "house": "8/1",
+      "postal_code": "330401",
       "coordinates": {
-        "latitude": 64.245416,
-        "longitude": -159.654898
+        "latitude": -57.1240975,
+        "longitude": -5.759473
       }
     }
   },
   "items": [
     {
-      "product_id": "prd-1000",
-      "name": "Привлекать Передо",
+      "product_id": "prd-1010",
+      "name": "Что Кидать",
       "category": "🥦 Овощи и зелень",
       "quantity": 1,
-      "unit": "шт",
-      "price_per_unit": 261.89,
-      "total_price": 261.89,
+      "unit": "упаковка",
+      "price_per_unit": 47.43,
+      "total_price": 47.43,
       "kbju": {
-        "calories": 286.2,
-        "protein": 17.9,
-        "fat": 8.7,
-        "carbohydrates": 47.1
+        "calories": 192.3,
+        "protein": 18.7,
+        "fat": 5.8,
+        "carbohydrates": 28.5
       },
       "manufacturer": {
-        "name": "ООО «Баранов-Пестова»",
+        "name": "ИП «Лихачев Наумова»",
         "country": "Россия",
-        "website": "https://ooo.info",
-        "inn": "7520686716"
+        "website": "https://protek.info",
+        "inn": "8715941222"
       }
     },
     {
-      "product_id": "prd-1005",
-      "name": "Направо Господь",
+      "product_id": "prd-1006",
+      "name": "Очередной Развернуться",
       "category": "🥩 Мясо, рыба, яйца и бобовые",
-      "quantity": 2,
-      "unit": "л",
-      "price_per_unit": 126.73,
-      "total_price": 253.46,
+      "quantity": 5,
+      "unit": "упаковка",
+      "price_per_unit": 40.94,
+      "total_price": 204.7,
       "kbju": {
-        "calories": 93.0,
-        "protein": 13.6,
-        "fat": 2.1,
-        "carbohydrates": 20.3
+        "calories": 207.0,
+        "protein": 10.7,
+        "fat": 10.6,
+        "carbohydrates": 30.5
       },
       "manufacturer": {
-        "name": "ЗАО «Титова»",
+        "name": "Ямал СПГ",
         "country": "Россия",
-        "website": "https://npo.com",
-        "inn": "2777644639"
+        "website": "https://ip.com",
+        "inn": "1426832497"
       }
     },
     {
-      "product_id": "prd-1019",
-      "name": "Сынок Обида",
-      "category": "🍏 Фрукты и ягоды",
-      "quantity": 3,
+      "product_id": "prd-1009",
+      "name": "Выдержать Карман",
+      "category": "🥛 Молочные продукты",
+      "quantity": 4,
       "unit": "кг",
-      "price_per_unit": 86.19,
-      "total_price": 258.57,
+      "price_per_unit": 193.21,
+      "total_price": 772.84,
       "kbju": {
-        "calories": 224.4,
-        "protein": 5.9,
-        "fat": 13.9,
-        "carbohydrates": 7.6
+        "calories": 234.5,
+        "protein": 3.6,
+        "fat": 14.6,
+        "carbohydrates": 4.9
       },
       "manufacturer": {
-        "name": "ООО «Шилов-Константинова»",
+        "name": "Романова и партнеры",
         "country": "Россия",
-        "website": "https://ooo.org",
-        "inn": "6666152301"
+        "website": "https://npo.biz",
+        "inn": "4877305481"
       }
     }
   ],
-  "total_amount": 773.92,
+  "total_amount": 1024.97,
   "payment_method": "cash",
-  "is_delivery": false,
+  "is_delivery": true,
   "delivery_address": {
     "country": "Россия",
-    "city": "п. Лазаревское",
-    "street": "пр. Механический",
-    "house": "8/5",
-    "apartment": "62",
-    "postal_code": "257140"
+    "city": "с. Моршанск",
+    "street": "ш. Куйбышева",
+    "house": "398",
+    "apartment": "42",
+    "postal_code": "981166"
   },
-  "purchase_datetime": "2025-08-31T00:21:05.973764"
+  "purchase_datetime": "2025-09-09T11:36:53.677286"
 }

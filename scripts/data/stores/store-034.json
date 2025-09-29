@@ -1,6 +1,6 @@
 {
   "store_id": "store-034",
-  "store_name": "Маленькая Пикча — Магазин на пер. Большевистский",
+  "store_name": "Маленькая Пикча — Магазин на пер. Просвещения",
   "store_network": "Маленькая Пикча",
   "store_type_description": "Магазин у дома менее 100 кв.м. Входит в сеть из 15 магазинов.",
   "type": "offline",
@@ -12,19 +12,19 @@
     "🥦 Овощи и зелень"
   ],
   "manager": {
-    "name": "Костин Всеслав Всеволодович",
-    "phone": "+7 964 723 4109",
-    "email": "bobrovaelizaveta@example.com"
+    "name": "Виноградов Измаил Демидович",
+    "phone": "8 (599) 019-33-29",
+    "email": "vatslav32@example.net"
   },
   "location": {
     "country": "Россия",
-    "city": "к. Яшалта",
-    "street": "алл. Лунная",
-    "house": "3",
-    "postal_code": "125791",
+    "city": "д. Глазов",
+    "street": "наб. Садовая",
+    "house": "5",
+    "postal_code": "749298",
     "coordinates": {
-      "latitude": 35.452102,
-      "longitude": 117.041786
+      "latitude": 28.905297,
+      "longitude": 129.909873
     }
   },
   "opening_hours": {
@@ -35,5 +35,5 @@
   "accepts_online_orders": true,
   "delivery_available": true,
   "warehouse_connected": true,
-  "last_inventory_date": "2025-09-25"
+  "last_inventory_date": "2025-09-29"
 }

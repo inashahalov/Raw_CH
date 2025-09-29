@@ -1,63 +1,63 @@
 {
   "purchase_id": "ord-00190",
   "customer": {
-    "customer_id": "cus-1004",
-    "first_name": "Мстислав",
-    "last_name": "Фомин",
-    "email": "adam_2017@example.net",
-    "phone": "+73490219511",
+    "customer_id": "cus-1007",
+    "first_name": "Максимильян",
+    "last_name": "Лебедев",
+    "email": "pankratsharapov@example.net",
+    "phone": "+7 (225) 168-03-89",
     "is_loyalty_member": true,
-    "loyalty_card_number": "LOYAL-69A22C9F90"
+    "loyalty_card_number": "LOYAL-A44F359300"
   },
   "store": {
-    "store_id": "store-026",
-    "store_name": "Большая Пикча — Магазин на наб. Горная",
-    "store_network": "Большая Пикча",
+    "store_id": "store-040",
+    "store_name": "Маленькая Пикча — Магазин на наб. Кирова",
+    "store_network": "Маленькая Пикча",
     "location": {
       "country": "Россия",
-      "city": "с. Нижневартовск",
-      "street": "пер. Дарвина",
-      "house": "8",
-      "postal_code": "513083",
+      "city": "ст. Малая Вишера",
+      "street": "пр. Енисейский",
+      "house": "4",
+      "postal_code": "496524",
       "coordinates": {
-        "latitude": -78.2781365,
-        "longitude": -138.552401
+        "latitude": -40.5576365,
+        "longitude": 135.346412
       }
     }
   },
   "items": [
     {
-      "product_id": "prd-1017",
-      "name": "Цель Единый",
-      "category": "🥖 Зерновые и хлебобулочные изделия",
-      "quantity": 3,
-      "unit": "упаковка",
-      "price_per_unit": 99.97,
-      "total_price": 299.91,
+      "product_id": "prd-1009",
+      "name": "Выдержать Карман",
+      "category": "🥛 Молочные продукты",
+      "quantity": 5,
+      "unit": "кг",
+      "price_per_unit": 193.21,
+      "total_price": 966.05,
       "kbju": {
-        "calories": 97.4,
-        "protein": 12.5,
-        "fat": 14.8,
-        "carbohydrates": 11.6
+        "calories": 234.5,
+        "protein": 3.6,
+        "fat": 14.6,
+        "carbohydrates": 4.9
       },
       "manufacturer": {
-        "name": "АО «Белякова»",
+        "name": "Романова и партнеры",
         "country": "Россия",
-        "website": "https://rao.com",
-        "inn": "0030371079"
+        "website": "https://npo.biz",
+        "inn": "4877305481"
       }
     }
   ],
-  "total_amount": 299.91,
-  "payment_method": "card",
+  "total_amount": 966.05,
+  "payment_method": "cash",
   "is_delivery": false,
   "delivery_address": {
     "country": "Россия",
-    "city": "к. Шелехов",
-    "street": "алл. Высотная",
-    "house": "4/6",
-    "apartment": "89",
-    "postal_code": "352737"
+    "city": "ст. Луховицы",
+    "street": "бул. Светлый",
+    "house": "4/5",
+    "apartment": "70",
+    "postal_code": "230633"
   },
-  "purchase_datetime": "2025-08-10T00:21:06.241163"
+  "purchase_datetime": "2025-09-25T11:36:53.699103"
 }

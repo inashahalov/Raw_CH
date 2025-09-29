@@ -1,6 +1,6 @@
 {
   "store_id": "store-042",
-  "store_name": "Маленькая Пикча — Магазин на алл. 1 Мая",
+  "store_name": "Маленькая Пикча — Магазин на пр. Льва Толстого",
   "store_network": "Маленькая Пикча",
   "store_type_description": "Магазин у дома менее 100 кв.м. Входит в сеть из 15 магазинов.",
   "type": "offline",
@@ -12,19 +12,19 @@
     "🥦 Овощи и зелень"
   ],
   "manager": {
-    "name": "София Евгеньевна Попова",
-    "phone": "8 (305) 647-7316",
-    "email": "stojan_00@example.com"
+    "name": "Полина Максимовна Костина",
+    "phone": "+7 (936) 997-1416",
+    "email": "grigori_2020@example.com"
   },
   "location": {
     "country": "Россия",
-    "city": "с. Хасан",
-    "street": "пр. Союзный",
-    "house": "30",
-    "postal_code": "343674",
+    "city": "с. Любань",
+    "street": "ш. М.Горького",
+    "house": "45",
+    "postal_code": "169119",
     "coordinates": {
-      "latitude": 84.753875,
-      "longitude": 159.690738
+      "latitude": 73.7860975,
+      "longitude": 53.061392
     }
   },
   "opening_hours": {
@@ -35,5 +35,5 @@
   "accepts_online_orders": true,
   "delivery_available": true,
   "warehouse_connected": true,
-  "last_inventory_date": "2025-09-25"
+  "last_inventory_date": "2025-09-29"
 }

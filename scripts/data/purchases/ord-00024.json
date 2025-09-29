@@ -1,84 +1,84 @@
 {
   "purchase_id": "ord-00024",
   "customer": {
-    "customer_id": "cus-1023",
-    "first_name": "Глеб",
-    "last_name": "Лаврентьева",
-    "email": "nikola_91@example.net",
-    "phone": "8 395 248 0796",
+    "customer_id": "cus-1011",
+    "first_name": "Октябрина",
+    "last_name": "Тихонова",
+    "email": "silvestrkudrjavtsev@example.net",
+    "phone": "8 (694) 286-0435",
     "is_loyalty_member": true,
-    "loyalty_card_number": "LOYAL-9CB7750EFB"
+    "loyalty_card_number": "LOYAL-25A3B93BDE"
   },
   "store": {
-    "store_id": "store-021",
-    "store_name": "Большая Пикча — Магазин на алл. Огородная",
+    "store_id": "store-011",
+    "store_name": "Большая Пикча — Магазин на ул. Юности",
     "store_network": "Большая Пикча",
     "location": {
       "country": "Россия",
-      "city": "п. Энгельс",
-      "street": "ш. Партизанское",
-      "house": "9/6",
-      "postal_code": "123462",
+      "city": "ст. Гаврилов-Ям",
+      "street": "пер. Гафури",
+      "house": "858",
+      "postal_code": "012405",
       "coordinates": {
-        "latitude": -19.580885,
-        "longitude": 86.177992
+        "latitude": 24.9422205,
+        "longitude": -79.557732
       }
     }
   },
   "items": [
     {
-      "product_id": "prd-1018",
-      "name": "Зачем Пол",
+      "product_id": "prd-1014",
+      "name": "Спичка Носок",
       "category": "🍏 Фрукты и ягоды",
-      "quantity": 1,
-      "unit": "кг",
-      "price_per_unit": 247.99,
-      "total_price": 247.99,
+      "quantity": 5,
+      "unit": "шт",
+      "price_per_unit": 180.19,
+      "total_price": 900.95,
       "kbju": {
-        "calories": 236.7,
-        "protein": 5.8,
-        "fat": 10.9,
-        "carbohydrates": 13.1
+        "calories": 248.0,
+        "protein": 12.3,
+        "fat": 6.8,
+        "carbohydrates": 5.2
       },
       "manufacturer": {
-        "name": "ОАО «Панов-Воробьева»",
+        "name": "КДВ Групп",
         "country": "Россия",
-        "website": "https://rao.edu",
-        "inn": "5397679829"
+        "website": "https://nizhfarm.com",
+        "inn": "8186530463"
       }
     },
     {
-      "product_id": "prd-1010",
-      "name": "Мгновение Вряд",
-      "category": "🥦 Овощи и зелень",
+      "product_id": "prd-1007",
+      "name": "Интеллектуальный Около",
+      "category": "🥛 Молочные продукты",
       "quantity": 5,
-      "unit": "кг",
-      "price_per_unit": 149.03,
-      "total_price": 745.15,
+      "unit": "шт",
+      "price_per_unit": 147.81,
+      "total_price": 739.05,
       "kbju": {
-        "calories": 186.1,
-        "protein": 15.0,
-        "fat": 10.1,
-        "carbohydrates": 27.3
+        "calories": 87.6,
+        "protein": 12.8,
+        "fat": 14.2,
+        "carbohydrates": 17.0
       },
       "manufacturer": {
-        "name": "ИП «Блохина-Гаврилов»",
+        "name": "ОАО «Владимирова Богданова»",
         "country": "Россия",
-        "website": "https://oao.com",
-        "inn": "1245272063"
+        "website": "https://ip.info",
+        "inn": "3430882539"
       }
     }
   ],
-  "total_amount": 993.14,
+  "total_amount": 1640.0,
   "payment_method": "card",
-  "is_delivery": true,
+  "is_delivery": false,
   "delivery_address": {
     "country": "Россия",
-    "city": "ст. Клин",
-    "street": "наб. Маркса",
-    "house": "99",
-    "apartment": "96",
-    "postal_code": "828143"
+    "city": "клх Белый Яр (Томск.)",
+    "street": "бул. Космический",
+    "house": "169",
+    "apartment": "25",
+    "postal_code": "507633"
   },
-  "purchase_datetime": "2025-08-22T00:21:05.928626"
+  "purchase_datetime": "2025-08-13T11:36:53.639093"
 }

@@ -1,105 +1,105 @@
 {
   "purchase_id": "ord-00109",
   "customer": {
-    "customer_id": "cus-1025",
-    "first_name": "Спиридон",
-    "last_name": "Чернова",
-    "email": "matverusakov@example.com",
-    "phone": "8 (952) 467-03-44",
+    "customer_id": "cus-1037",
+    "first_name": "Адриан",
+    "last_name": "Коновалов",
+    "email": "karl_1978@example.net",
+    "phone": "+78107088603",
     "is_loyalty_member": true,
-    "loyalty_card_number": "LOYAL-4B48A341FD"
+    "loyalty_card_number": "LOYAL-D0EF0742EC"
   },
   "store": {
-    "store_id": "store-041",
-    "store_name": "Маленькая Пикча — Магазин на пер. Крайний",
-    "store_network": "Маленькая Пикча",
+    "store_id": "store-005",
+    "store_name": "Большая Пикча — Магазин на алл. Зои Космодемьянской",
+    "store_network": "Большая Пикча",
     "location": {
       "country": "Россия",
-      "city": "ст. Юрьевец (Иван.)",
-      "street": "алл. Ульяновская",
-      "house": "5/1",
-      "postal_code": "942139",
+      "city": "к. Ульяновск",
+      "street": "ш. Лермонтова",
+      "house": "8/1",
+      "postal_code": "330401",
       "coordinates": {
-        "latitude": 61.712771,
-        "longitude": -11.16547
+        "latitude": -57.1240975,
+        "longitude": -5.759473
       }
     }
   },
   "items": [
     {
-      "product_id": "prd-1014",
-      "name": "Опасность Следовательно",
-      "category": "🥛 Молочные продукты",
-      "quantity": 5,
-      "unit": "кг",
-      "price_per_unit": 213.21,
-      "total_price": 1066.05,
+      "product_id": "prd-1005",
+      "name": "Правильный Факультет",
+      "category": "🥦 Овощи и зелень",
+      "quantity": 3,
+      "unit": "л",
+      "price_per_unit": 246.16,
+      "total_price": 738.48,
       "kbju": {
-        "calories": 206.8,
-        "protein": 10.5,
-        "fat": 2.9,
-        "carbohydrates": 6.6
+        "calories": 238.0,
+        "protein": 1.6,
+        "fat": 0.4,
+        "carbohydrates": 17.1
       },
       "manufacturer": {
-        "name": "ЗАО «Беляков, Большакова и Князева»",
+        "name": "Михеев и партнеры",
         "country": "Россия",
-        "website": "https://npo.com",
-        "inn": "0149036081"
+        "website": "https://yakovleva.biz",
+        "inn": "6371685483"
       }
     },
     {
-      "product_id": "prd-1010",
-      "name": "Мгновение Вряд",
-      "category": "🥦 Овощи и зелень",
-      "quantity": 3,
-      "unit": "кг",
-      "price_per_unit": 149.03,
-      "total_price": 447.09,
+      "product_id": "prd-1001",
+      "name": "Лиловый Бок",
+      "category": "🥛 Молочные продукты",
+      "quantity": 2,
+      "unit": "упаковка",
+      "price_per_unit": 242.46,
+      "total_price": 484.92,
       "kbju": {
-        "calories": 186.1,
-        "protein": 15.0,
-        "fat": 10.1,
-        "carbohydrates": 27.3
+        "calories": 274.4,
+        "protein": 6.4,
+        "fat": 6.0,
+        "carbohydrates": 13.5
       },
       "manufacturer": {
-        "name": "ИП «Блохина-Гаврилов»",
+        "name": "Куликов и партнеры",
         "country": "Россия",
-        "website": "https://oao.com",
-        "inn": "1245272063"
+        "website": "https://sharapov.net",
+        "inn": "9920890846"
       }
     },
     {
       "product_id": "prd-1011",
-      "name": "Привлекать Пол",
-      "category": "🥩 Мясо, рыба, яйца и бобовые",
-      "quantity": 5,
-      "unit": "л",
-      "price_per_unit": 85.86,
-      "total_price": 429.3,
+      "name": "Зачем Вскакивать",
+      "category": "🥛 Молочные продукты",
+      "quantity": 1,
+      "unit": "шт",
+      "price_per_unit": 105.34,
+      "total_price": 105.34,
       "kbju": {
-        "calories": 65.4,
-        "protein": 5.6,
-        "fat": 1.9,
-        "carbohydrates": 24.1
+        "calories": 207.5,
+        "protein": 16.9,
+        "fat": 5.3,
+        "carbohydrates": 19.0
       },
       "manufacturer": {
-        "name": "ИП «Галкина-Терентьев»",
+        "name": "ИП «Нестеров, Лыткин и Евсеев»",
         "country": "Россия",
-        "website": "https://rao.ru",
-        "inn": "5528391758"
+        "website": "https://ip.ru",
+        "inn": "1814255141"
       }
     }
   ],
-  "total_amount": 1942.44,
-  "payment_method": "cash",
+  "total_amount": 1328.74,
+  "payment_method": "card",
   "is_delivery": true,
   "delivery_address": {
     "country": "Россия",
-    "city": "с. Нижневартовск",
-    "street": "бул. Дальневосточный",
-    "house": "4/6",
-    "apartment": "18",
-    "postal_code": "016225"
+    "city": "клх Красноуфимск",
+    "street": "наб. Карбышева",
+    "house": "66",
+    "apartment": "41",
+    "postal_code": "678239"
   },
-  "purchase_datetime": "2025-09-15T00:21:05.964206"
+  "purchase_datetime": "2025-07-30T11:36:53.670308"
 }

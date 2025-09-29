@@ -1,6 +1,6 @@
 {
   "store_id": "store-029",
-  "store_name": "Большая Пикча — Магазин на ш. Владимирское",
+  "store_name": "Большая Пикча — Магазин на бул. Казанский",
   "store_network": "Большая Пикча",
   "store_type_description": "Супермаркет более 200 кв.м. Входит в сеть из 30 магазинов.",
   "type": "offline",
@@ -12,19 +12,19 @@
     "🥦 Овощи и зелень"
   ],
   "manager": {
-    "name": "Захаров Арсений Теймуразович",
-    "phone": "8 921 619 3358",
-    "email": "egorovhristofor@example.org"
+    "name": "Беляков Валерьян Адрианович",
+    "phone": "8 998 139 2757",
+    "email": "stanislav58@example.net"
   },
   "location": {
     "country": "Россия",
-    "city": "ст. Чебоксары",
-    "street": "наб. Тюленина",
-    "house": "5",
-    "postal_code": "132041",
+    "city": "клх Углегорск",
+    "street": "бул. Бригадный",
+    "house": "1/9",
+    "postal_code": "536870",
     "coordinates": {
-      "latitude": 64.245416,
-      "longitude": -159.654898
+      "latitude": 86.35557,
+      "longitude": 60.62358
     }
   },
   "opening_hours": {
@@ -35,5 +35,5 @@
   "accepts_online_orders": true,
   "delivery_available": true,
   "warehouse_connected": false,
-  "last_inventory_date": "2025-09-25"
+  "last_inventory_date": "2025-09-29"
 }

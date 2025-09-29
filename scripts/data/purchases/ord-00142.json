@@ -1,105 +1,63 @@
 {
   "purchase_id": "ord-00142",
   "customer": {
-    "customer_id": "cus-1034",
-    "first_name": "Глеб",
-    "last_name": "Суханова",
-    "email": "frolovipat@example.org",
-    "phone": "+7 828 354 05 71",
+    "customer_id": "cus-1044",
+    "first_name": "Евфросиния",
+    "last_name": "Капустин",
+    "email": "svetlana2023@example.net",
+    "phone": "+7 (418) 339-9436",
     "is_loyalty_member": true,
-    "loyalty_card_number": "LOYAL-4B3C52328F"
+    "loyalty_card_number": "LOYAL-8308EE78DE"
   },
   "store": {
-    "store_id": "store-028",
-    "store_name": "Большая Пикча — Магазин на пер. Придорожный",
+    "store_id": "store-023",
+    "store_name": "Большая Пикча — Магазин на наб. Дружбы",
     "store_network": "Большая Пикча",
     "location": {
       "country": "Россия",
-      "city": "п. Великие Луки",
-      "street": "алл. Сельская",
-      "house": "9/1",
-      "postal_code": "131366",
+      "city": "д. Кострома",
+      "street": "наб. Ленина",
+      "house": "872",
+      "postal_code": "369528",
       "coordinates": {
-        "latitude": 89.2025215,
-        "longitude": 9.359875
+        "latitude": 58.081764,
+        "longitude": 13.123443
       }
     }
   },
   "items": [
     {
-      "product_id": "prd-1012",
-      "name": "Школьный Анализ",
-      "category": "🥦 Овощи и зелень",
-      "quantity": 2,
-      "unit": "л",
-      "price_per_unit": 209.82,
-      "total_price": 419.64,
+      "product_id": "prd-1006",
+      "name": "Очередной Развернуться",
+      "category": "🥩 Мясо, рыба, яйца и бобовые",
+      "quantity": 3,
+      "unit": "упаковка",
+      "price_per_unit": 40.94,
+      "total_price": 122.82,
       "kbju": {
-        "calories": 60.6,
-        "protein": 14.6,
-        "fat": 12.7,
-        "carbohydrates": 41.7
+        "calories": 207.0,
+        "protein": 10.7,
+        "fat": 10.6,
+        "carbohydrates": 30.5
       },
       "manufacturer": {
-        "name": "ИП «Беспалов-Тимофеев»",
+        "name": "Ямал СПГ",
         "country": "Россия",
-        "website": "https://npo.edu",
-        "inn": "6799042551"
-      }
-    },
-    {
-      "product_id": "prd-1007",
-      "name": "Пища Беспомощный",
-      "category": "🥦 Овощи и зелень",
-      "quantity": 4,
-      "unit": "л",
-      "price_per_unit": 61.58,
-      "total_price": 246.32,
-      "kbju": {
-        "calories": 155.9,
-        "protein": 7.5,
-        "fat": 9.2,
-        "carbohydrates": 7.7
-      },
-      "manufacturer": {
-        "name": "АО «Гущин-Карпов»",
-        "country": "Россия",
-        "website": "https://ip.net",
-        "inn": "7668416058"
-      }
-    },
-    {
-      "product_id": "prd-1010",
-      "name": "Мгновение Вряд",
-      "category": "🥦 Овощи и зелень",
-      "quantity": 2,
-      "unit": "кг",
-      "price_per_unit": 149.03,
-      "total_price": 298.06,
-      "kbju": {
-        "calories": 186.1,
-        "protein": 15.0,
-        "fat": 10.1,
-        "carbohydrates": 27.3
-      },
-      "manufacturer": {
-        "name": "ИП «Блохина-Гаврилов»",
-        "country": "Россия",
-        "website": "https://oao.com",
-        "inn": "1245272063"
+        "website": "https://ip.com",
+        "inn": "1426832497"
       }
     }
   ],
-  "total_amount": 964.02,
+  "total_amount": 122.82,
   "payment_method": "card",
-  "is_delivery": true,
+  "is_delivery": false,
   "delivery_address": {
     "country": "Россия",
-    "city": "п. Нерчинск",
-    "street": "пер. Красный",
-    "house": "4",
-    "apartment": "61",
-    "postal_code": "843709"
+    "city": "к. Усть-Калманка",
+    "street": "алл. Рыбацкая",
+    "house": "9",
+    "apartment": "10",
+    "postal_code": "261333"
   },
-  "purchase_datetime": "2025-08-06T00:21:06.218869"
+  "purchase_datetime": "2025-09-28T11:36:53.682351"
 }

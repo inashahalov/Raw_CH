@@ -1,105 +1,63 @@
 {
   "purchase_id": "ord-00113",
   "customer": {
-    "customer_id": "cus-1014",
-    "first_name": "Вера",
-    "last_name": "Логинова",
-    "email": "sofron_04@example.com",
-    "phone": "8 (794) 601-51-70",
+    "customer_id": "cus-1005",
+    "first_name": "Алексей",
+    "last_name": "Борисов",
+    "email": "averjantsvetkov@example.org",
+    "phone": "+7 (215) 091-68-81",
     "is_loyalty_member": true,
-    "loyalty_card_number": "LOYAL-85166218B3"
+    "loyalty_card_number": "LOYAL-85FE53CDBB"
   },
   "store": {
-    "store_id": "store-034",
-    "store_name": "Маленькая Пикча — Магазин на пер. Большевистский",
-    "store_network": "Маленькая Пикча",
+    "store_id": "store-018",
+    "store_name": "Большая Пикча — Магазин на алл. Механизаторов",
+    "store_network": "Большая Пикча",
     "location": {
       "country": "Россия",
-      "city": "к. Яшалта",
-      "street": "алл. Лунная",
-      "house": "3",
-      "postal_code": "125791",
+      "city": "с. Прохладный",
+      "street": "наб. Механическая",
+      "house": "7/3",
+      "postal_code": "727677",
       "coordinates": {
-        "latitude": 35.452102,
-        "longitude": 117.041786
+        "latitude": -88.8383715,
+        "longitude": 157.883586
       }
     }
   },
   "items": [
     {
-      "product_id": "prd-1008",
-      "name": "Освободить Призыв",
-      "category": "🥩 Мясо, рыба, яйца и бобовые",
-      "quantity": 5,
-      "unit": "л",
-      "price_per_unit": 265.49,
-      "total_price": 1327.45,
-      "kbju": {
-        "calories": 130.4,
-        "protein": 5.2,
-        "fat": 10.6,
-        "carbohydrates": 22.8
-      },
-      "manufacturer": {
-        "name": "ИП «Маслова, Денисов и Фокина»",
-        "country": "Россия",
-        "website": "https://ignatev.com",
-        "inn": "7104068639"
-      }
-    },
-    {
-      "product_id": "prd-1015",
-      "name": "Советовать Горький",
-      "category": "🥖 Зерновые и хлебобулочные изделия",
-      "quantity": 3,
-      "unit": "л",
-      "price_per_unit": 74.06,
-      "total_price": 222.18,
-      "kbju": {
-        "calories": 265.6,
-        "protein": 14.1,
-        "fat": 13.9,
-        "carbohydrates": 4.2
-      },
-      "manufacturer": {
-        "name": "РАО «Пахомова-Голубев»",
-        "country": "Россия",
-        "website": "https://nlmk.biz",
-        "inn": "6002140966"
-      }
-    },
-    {
-      "product_id": "prd-1004",
-      "name": "Написать Актриса",
-      "category": "🍏 Фрукты и ягоды",
+      "product_id": "prd-1000",
+      "name": "Грустный Дружно",
+      "category": "🥦 Овощи и зелень",
       "quantity": 2,
       "unit": "кг",
-      "price_per_unit": 247.9,
-      "total_price": 495.8,
+      "price_per_unit": 234.69,
+      "total_price": 469.38,
       "kbju": {
-        "calories": 90.5,
-        "protein": 3.5,
-        "fat": 0.2,
-        "carbohydrates": 19.9
+        "calories": 142.2,
+        "protein": 13.1,
+        "fat": 11.7,
+        "carbohydrates": 10.2
       },
       "manufacturer": {
-        "name": "Ферронордик машины (Ferronordic)",
+        "name": "АО «Чернов Сафонова»",
         "country": "Россия",
-        "website": "https://kulikova.net",
-        "inn": "5999502719"
+        "website": "https://kolobov.info",
+        "inn": "5863746288"
       }
     }
   ],
-  "total_amount": 2045.43,
+  "total_amount": 469.38,
   "payment_method": "card",
   "is_delivery": true,
   "delivery_address": {
     "country": "Россия",
-    "city": "с. Минусинск",
-    "street": "ул. Семашко",
-    "house": "308",
-    "apartment": "11",
-    "postal_code": "401472"
+    "city": "ст. Губкин",
+    "street": "ул. Леонова",
+    "house": "1",
+    "apartment": "76",
+    "postal_code": "591260"
   },
-  "purchase_datetime": "2025-09-10T00:21:05.966035"
+  "purchase_datetime": "2025-08-25T11:36:53.671857"
 }

@@ -1,63 +1,105 @@
 {
   "purchase_id": "ord-00107",
   "customer": {
-    "customer_id": "cus-1006",
+    "customer_id": "cus-1033",
     "first_name": "Регина",
-    "last_name": "Кудряшов",
-    "email": "seliverst_17@example.net",
-    "phone": "+7 153 863 80 58",
+    "last_name": "Мясникова",
+    "email": "merkushevvasili@example.net",
+    "phone": "+7 108 060 5193",
     "is_loyalty_member": true,
-    "loyalty_card_number": "LOYAL-12243F909F"
+    "loyalty_card_number": "LOYAL-CB6483D0D7"
   },
   "store": {
-    "store_id": "store-032",
-    "store_name": "Маленькая Пикча — Магазин на бул. Цветочный",
-    "store_network": "Маленькая Пикча",
+    "store_id": "store-027",
+    "store_name": "Большая Пикча — Магазин на пер. Крестьянский",
+    "store_network": "Большая Пикча",
     "location": {
       "country": "Россия",
-      "city": "к. Сыктывкар",
-      "street": "пр. Локомотивный",
-      "house": "891",
-      "postal_code": "063771",
+      "city": "ст. Нальчик",
+      "street": "ш. Химиков",
+      "house": "34",
+      "postal_code": "699126",
       "coordinates": {
-        "latitude": 82.944341,
-        "longitude": 165.988591
+        "latitude": 17.3697085,
+        "longitude": -102.433166
       }
     }
   },
   "items": [
     {
-      "product_id": "prd-1004",
-      "name": "Написать Актриса",
-      "category": "🍏 Фрукты и ягоды",
-      "quantity": 5,
+      "product_id": "prd-1009",
+      "name": "Выдержать Карман",
+      "category": "🥛 Молочные продукты",
+      "quantity": 2,
       "unit": "кг",
-      "price_per_unit": 247.9,
-      "total_price": 1239.5,
+      "price_per_unit": 193.21,
+      "total_price": 386.42,
       "kbju": {
-        "calories": 90.5,
-        "protein": 3.5,
-        "fat": 0.2,
-        "carbohydrates": 19.9
+        "calories": 234.5,
+        "protein": 3.6,
+        "fat": 14.6,
+        "carbohydrates": 4.9
       },
       "manufacturer": {
-        "name": "Ферронордик машины (Ferronordic)",
+        "name": "Романова и партнеры",
         "country": "Россия",
-        "website": "https://kulikova.net",
-        "inn": "5999502719"
+        "website": "https://npo.biz",
+        "inn": "4877305481"
+      }
+    },
+    {
+      "product_id": "prd-1008",
+      "name": "Упор Кузнец",
+      "category": "🍏 Фрукты и ягоды",
+      "quantity": 5,
+      "unit": "л",
+      "price_per_unit": 255.98,
+      "total_price": 1279.9,
+      "kbju": {
+        "calories": 143.1,
+        "protein": 6.1,
+        "fat": 3.5,
+        "carbohydrates": 47.3
+      },
+      "manufacturer": {
+        "name": "МТС-банк",
+        "country": "Россия",
+        "website": "https://shcherbakova.com",
+        "inn": "1911616255"
+      }
+    },
+    {
+      "product_id": "prd-1019",
+      "name": "Разводить Подробность",
+      "category": "🥖 Зерновые и хлебобулочные изделия",
+      "quantity": 3,
+      "unit": "шт",
+      "price_per_unit": 202.14,
+      "total_price": 606.42,
+      "kbju": {
+        "calories": 104.0,
+        "protein": 4.5,
+        "fat": 1.3,
+        "carbohydrates": 30.3
+      },
+      "manufacturer": {
+        "name": "АО «Филатов, Гусев и Рябов»",
+        "country": "Россия",
+        "website": "https://oao.com",
+        "inn": "8155112705"
       }
     }
   ],
-  "total_amount": 1239.5,
-  "payment_method": "cash",
-  "is_delivery": true,
+  "total_amount": 2272.74,
+  "payment_method": "card",
+  "is_delivery": false,
   "delivery_address": {
     "country": "Россия",
-    "city": "клх Шумиха",
-    "street": "бул. Сурикова",
-    "house": "824",
-    "apartment": "2",
-    "postal_code": "530049"
+    "city": "д. Глазов",
+    "street": "алл. Толбухина",
+    "house": "3",
+    "apartment": "16",
+    "postal_code": "729028"
   },
-  "purchase_datetime": "2025-09-14T00:21:05.963279"
+  "purchase_datetime": "2025-07-18T11:36:53.669585"
 }

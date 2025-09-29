@@ -14,7 +14,7 @@ logging.basicConfig(level=logging.INFO, format='%(asctime)s - %(levelname)s - %(
 logger = logging.getLogger(__name__)
 
 # === Ключ шифрования (вставьте сюда ключ из kafka_producer.py) ===
-ENCRYPTION_KEY = b'xw0PVIua1VW4Z4zb5oaT9LBwOGSPLlRyA9MwdK0e5q4='  # ⚠️ ЗАМЕНИТЕ НА ВАШ КЛЮЧ ИЗ kafka_producer.py
+ENCRYPTION_KEY = b'e4KmweyhLv3_eS6eLelzF7X1Y3WjXi2lsmnC5laGpJg='  # ⚠️ ЗАМЕНИТЕ НА ВАШ КЛЮЧ ИЗ kafka_producer.py
 cipher = Fernet(ENCRYPTION_KEY)
 
 logger.info("🔑 Используем ключ шифрования.")

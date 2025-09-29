@@ -1,84 +1,84 @@
 {
   "purchase_id": "ord-00092",
   "customer": {
-    "customer_id": "cus-1030",
-    "first_name": "Творимир",
-    "last_name": "Шарапова",
-    "email": "adam93@example.org",
-    "phone": "8 626 115 05 00",
+    "customer_id": "cus-1036",
+    "first_name": "Екатерина",
+    "last_name": "Бирюков",
+    "email": "baranovakim@example.net",
+    "phone": "8 031 251 3344",
     "is_loyalty_member": true,
-    "loyalty_card_number": "LOYAL-2C56B514D9"
+    "loyalty_card_number": "LOYAL-CE7F3C0632"
   },
   "store": {
-    "store_id": "store-009",
-    "store_name": "Большая Пикча — Магазин на пр. Угольный",
+    "store_id": "store-006",
+    "store_name": "Большая Пикча — Магазин на пр. Леваневского",
     "store_network": "Большая Пикча",
     "location": {
       "country": "Россия",
-      "city": "с. Лысьва",
-      "street": "пр. Енисейский",
-      "house": "8/1",
-      "postal_code": "512530",
+      "city": "ст. Губкин",
+      "street": "ш. Луговое",
+      "house": "952",
+      "postal_code": "282523",
       "coordinates": {
-        "latitude": 48.498737,
-        "longitude": -86.543856
+        "latitude": 5.8483085,
+        "longitude": 17.738948
       }
     }
   },
   "items": [
     {
-      "product_id": "prd-1017",
-      "name": "Цель Единый",
-      "category": "🥖 Зерновые и хлебобулочные изделия",
-      "quantity": 4,
-      "unit": "упаковка",
-      "price_per_unit": 99.97,
-      "total_price": 399.88,
+      "product_id": "prd-1005",
+      "name": "Правильный Факультет",
+      "category": "🥦 Овощи и зелень",
+      "quantity": 3,
+      "unit": "л",
+      "price_per_unit": 246.16,
+      "total_price": 738.48,
       "kbju": {
-        "calories": 97.4,
-        "protein": 12.5,
-        "fat": 14.8,
-        "carbohydrates": 11.6
+        "calories": 238.0,
+        "protein": 1.6,
+        "fat": 0.4,
+        "carbohydrates": 17.1
       },
       "manufacturer": {
-        "name": "АО «Белякова»",
+        "name": "Михеев и партнеры",
         "country": "Россия",
-        "website": "https://rao.com",
-        "inn": "0030371079"
+        "website": "https://yakovleva.biz",
+        "inn": "6371685483"
       }
     },
     {
-      "product_id": "prd-1008",
-      "name": "Освободить Призыв",
-      "category": "🥩 Мясо, рыба, яйца и бобовые",
+      "product_id": "prd-1007",
+      "name": "Интеллектуальный Около",
+      "category": "🥛 Молочные продукты",
       "quantity": 2,
-      "unit": "л",
-      "price_per_unit": 265.49,
-      "total_price": 530.98,
+      "unit": "шт",
+      "price_per_unit": 147.81,
+      "total_price": 295.62,
       "kbju": {
-        "calories": 130.4,
-        "protein": 5.2,
-        "fat": 10.6,
-        "carbohydrates": 22.8
+        "calories": 87.6,
+        "protein": 12.8,
+        "fat": 14.2,
+        "carbohydrates": 17.0
       },
       "manufacturer": {
-        "name": "ИП «Маслова, Денисов и Фокина»",
+        "name": "ОАО «Владимирова Богданова»",
         "country": "Россия",
-        "website": "https://ignatev.com",
-        "inn": "7104068639"
+        "website": "https://ip.info",
+        "inn": "3430882539"
       }
     }
   ],
-  "total_amount": 930.86,
+  "total_amount": 1034.1,
   "payment_method": "cash",
   "is_delivery": true,
   "delivery_address": {
     "country": "Россия",
-    "city": "п. Каменск-Уральский",
-    "street": "пр. Карьерный",
-    "house": "4",
-    "apartment": "6",
-    "postal_code": "185882"
+    "city": "к. Шенкурск",
+    "street": "алл. Орловская",
+    "house": "88",
+    "apartment": "31",
+    "postal_code": "234043"
   },
-  "purchase_datetime": "2025-08-26T00:21:05.956330"
+  "purchase_datetime": "2025-08-29T11:36:53.664338"
 }

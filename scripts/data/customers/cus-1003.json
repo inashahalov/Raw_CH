@@ -1,36 +1,36 @@
 {
   "customer_id": "cus-1003",
-  "first_name": "Полина",
-  "last_name": "Шарова",
-  "email": "valerija_1971@example.net",
-  "phone": "+74365505643",
-  "birth_date": "1991-11-01",
-  "gender": "male",
-  "registration_date": "2025-09-25T00:21:05.893157",
+  "first_name": "Олимпий",
+  "last_name": "Зыкова",
+  "email": "epifanponomarev@example.org",
+  "phone": "+78556186083",
+  "birth_date": "1998-07-24",
+  "gender": "female",
+  "registration_date": "2025-09-29T11:36:53.611229",
   "is_loyalty_member": true,
-  "loyalty_card_number": "LOYAL-C222052A45",
+  "loyalty_card_number": "LOYAL-C210E4E9CB",
   "purchase_location": {
     "store_id": "store-004",
-    "store_name": "Большая Пикча — Магазин на ул. Ломоносова",
+    "store_name": "Большая Пикча — Магазин на бул. Декабристов",
     "store_network": "Большая Пикча",
     "store_type_description": "Супермаркет более 200 кв.м. Входит в сеть из 30 магазинов.",
     "country": "Россия",
-    "city": "с. Кабанск",
-    "street": "бул. Торговый",
-    "house": "447",
-    "postal_code": "208629"
+    "city": "г. Саров (Морд.)",
+    "street": "бул. Гоголя",
+    "house": "6/3",
+    "postal_code": "651927"
   },
   "delivery_address": {
     "country": "Россия",
-    "city": "с. Кабанск",
-    "street": "наб. Саратовская",
-    "house": "5",
-    "apartment": "29",
-    "postal_code": "362727"
+    "city": "г. Саров (Морд.)",
+    "street": "наб. Толбухина",
+    "house": "251",
+    "apartment": "66",
+    "postal_code": "000900"
   },
   "preferences": {
     "preferred_language": "ru",
-    "preferred_payment_method": "card",
-    "receive_promotions": true
+    "preferred_payment_method": "cash",
+    "receive_promotions": false
   }
 }

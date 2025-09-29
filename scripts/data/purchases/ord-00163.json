@@ -1,84 +1,63 @@
 {
   "purchase_id": "ord-00163",
   "customer": {
-    "customer_id": "cus-1041",
-    "first_name": "Наум",
-    "last_name": "Симонов",
-    "email": "valentinsharov@example.com",
-    "phone": "89031911463",
+    "customer_id": "cus-1023",
+    "first_name": "Панкрат",
+    "last_name": "Евдокимов",
+    "email": "lavrenti_48@example.org",
+    "phone": "8 (089) 348-13-39",
     "is_loyalty_member": true,
-    "loyalty_card_number": "LOYAL-19C84B142A"
+    "loyalty_card_number": "LOYAL-DF9EB001FC"
   },
   "store": {
-    "store_id": "store-013",
-    "store_name": "Большая Пикча — Магазин на алл. Мелиоративная",
+    "store_id": "store-007",
+    "store_name": "Большая Пикча — Магазин на ш. Медицинское",
     "store_network": "Большая Пикча",
     "location": {
       "country": "Россия",
-      "city": "п. Лазаревское",
-      "street": "пер. Малый",
-      "house": "88",
-      "postal_code": "425601",
+      "city": "п. Воронеж",
+      "street": "алл. Инженерная",
+      "house": "288",
+      "postal_code": "258116",
       "coordinates": {
-        "latitude": -84.4676175,
-        "longitude": -90.154137
+        "latitude": -45.824131,
+        "longitude": -4.141949
       }
     }
   },
   "items": [
     {
-      "product_id": "prd-1004",
-      "name": "Написать Актриса",
-      "category": "🍏 Фрукты и ягоды",
-      "quantity": 4,
+      "product_id": "prd-1002",
+      "name": "Манера Остановить",
+      "category": "🥛 Молочные продукты",
+      "quantity": 5,
       "unit": "кг",
-      "price_per_unit": 247.9,
-      "total_price": 991.6,
+      "price_per_unit": 49.56,
+      "total_price": 247.8,
       "kbju": {
-        "calories": 90.5,
-        "protein": 3.5,
-        "fat": 0.2,
-        "carbohydrates": 19.9
+        "calories": 233.3,
+        "protein": 5.6,
+        "fat": 13.1,
+        "carbohydrates": 34.2
       },
       "manufacturer": {
-        "name": "Ферронордик машины (Ferronordic)",
+        "name": "АО «Вишнякова-Устинова»",
         "country": "Россия",
-        "website": "https://kulikova.net",
-        "inn": "5999502719"
-      }
-    },
-    {
-      "product_id": "prd-1007",
-      "name": "Пища Беспомощный",
-      "category": "🥦 Овощи и зелень",
-      "quantity": 3,
-      "unit": "л",
-      "price_per_unit": 61.58,
-      "total_price": 184.74,
-      "kbju": {
-        "calories": 155.9,
-        "protein": 7.5,
-        "fat": 9.2,
-        "carbohydrates": 7.7
-      },
-      "manufacturer": {
-        "name": "АО «Гущин-Карпов»",
-        "country": "Россия",
-        "website": "https://ip.net",
-        "inn": "7668416058"
+        "website": "https://efimov.ru",
+        "inn": "0302933009"
       }
     }
   ],
-  "total_amount": 1176.34,
-  "payment_method": "card",
-  "is_delivery": true,
+  "total_amount": 247.8,
+  "payment_method": "cash",
+  "is_delivery": false,
   "delivery_address": {
     "country": "Россия",
-    "city": "с. Хасан",
-    "street": "ш. Виноградное",
-    "house": "764",
-    "apartment": "39",
-    "postal_code": "845061"
+    "city": "г. Нягань",
+    "street": "наб. Ушакова",
+    "house": "24",
+    "apartment": "76",
+    "postal_code": "051733"
   },
-  "purchase_datetime": "2025-07-25T00:21:06.231130"
+  "purchase_datetime": "2025-09-27T11:36:53.690309"
 }

@@ -1,84 +1,84 @@
 {
   "purchase_id": "ord-00053",
   "customer": {
-    "customer_id": "cus-1012",
-    "first_name": "Модест",
-    "last_name": "Тетерина",
-    "email": "avdeevdobromisl@example.org",
-    "phone": "+7 (066) 573-4317",
+    "customer_id": "cus-1013",
+    "first_name": "Август",
+    "last_name": "Бобылева",
+    "email": "denis_1972@example.net",
+    "phone": "+7 (675) 164-65-63",
     "is_loyalty_member": true,
-    "loyalty_card_number": "LOYAL-C3EA95EB72"
+    "loyalty_card_number": "LOYAL-2AC87952E6"
   },
   "store": {
-    "store_id": "store-017",
-    "store_name": "Большая Пикча — Магазин на алл. Тамбовская",
-    "store_network": "Большая Пикча",
+    "store_id": "store-032",
+    "store_name": "Маленькая Пикча — Магазин на пер. Большой",
+    "store_network": "Маленькая Пикча",
     "location": {
       "country": "Россия",
-      "city": "к. Воркута",
-      "street": "наб. Байкальская",
-      "house": "38",
-      "postal_code": "038139",
+      "city": "с. Кизилюрт",
+      "street": "ул. Крылова",
+      "house": "34",
+      "postal_code": "448931",
       "coordinates": {
-        "latitude": -35.4698385,
-        "longitude": 107.698
+        "latitude": -34.754942,
+        "longitude": 17.064394
       }
     }
   },
   "items": [
     {
-      "product_id": "prd-1016",
-      "name": "Школьный Очко",
+      "product_id": "prd-1012",
+      "name": "Торговля Счастье",
       "category": "🥖 Зерновые и хлебобулочные изделия",
-      "quantity": 5,
-      "unit": "шт",
-      "price_per_unit": 295.13,
-      "total_price": 1475.65,
+      "quantity": 1,
+      "unit": "л",
+      "price_per_unit": 70.91,
+      "total_price": 70.91,
       "kbju": {
-        "calories": 156.7,
-        "protein": 8.3,
-        "fat": 6.7,
-        "carbohydrates": 49.1
+        "calories": 149.8,
+        "protein": 5.8,
+        "fat": 6.3,
+        "carbohydrates": 24.8
       },
       "manufacturer": {
-        "name": "РАО «Марков»",
+        "name": "НПО «Некрасова»",
         "country": "Россия",
-        "website": "https://argos.org",
-        "inn": "6328136246"
+        "website": "https://ao.org",
+        "inn": "8419489062"
       }
     },
     {
-      "product_id": "prd-1011",
-      "name": "Привлекать Пол",
-      "category": "🥩 Мясо, рыба, яйца и бобовые",
-      "quantity": 4,
-      "unit": "л",
-      "price_per_unit": 85.86,
-      "total_price": 343.44,
+      "product_id": "prd-1001",
+      "name": "Лиловый Бок",
+      "category": "🥛 Молочные продукты",
+      "quantity": 3,
+      "unit": "упаковка",
+      "price_per_unit": 242.46,
+      "total_price": 727.38,
       "kbju": {
-        "calories": 65.4,
-        "protein": 5.6,
-        "fat": 1.9,
-        "carbohydrates": 24.1
+        "calories": 274.4,
+        "protein": 6.4,
+        "fat": 6.0,
+        "carbohydrates": 13.5
       },
       "manufacturer": {
-        "name": "ИП «Галкина-Терентьев»",
+        "name": "Куликов и партнеры",
         "country": "Россия",
-        "website": "https://rao.ru",
-        "inn": "5528391758"
+        "website": "https://sharapov.net",
+        "inn": "9920890846"
       }
     }
   ],
-  "total_amount": 1819.09,
-  "payment_method": "cash",
-  "is_delivery": false,
+  "total_amount": 798.29,
+  "payment_method": "card",
+  "is_delivery": true,
   "delivery_address": {
     "country": "Россия",
-    "city": "п. Лазаревское",
-    "street": "пр. Механический",
-    "house": "8/5",
-    "apartment": "62",
-    "postal_code": "257140"
+    "city": "с. Моршанск",
+    "street": "ш. Куйбышева",
+    "house": "398",
+    "apartment": "42",
+    "postal_code": "981166"
   },
-  "purchase_datetime": "2025-09-15T00:21:05.939981"
+  "purchase_datetime": "2025-07-24T11:36:53.650203"
 }

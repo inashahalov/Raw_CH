@@ -1,63 +1,63 @@
 {
   "purchase_id": "ord-00177",
   "customer": {
-    "customer_id": "cus-1022",
-    "first_name": "Селиверст",
-    "last_name": "Мельникова",
-    "email": "zinovevaivanna@example.org",
-    "phone": "83922236291",
+    "customer_id": "cus-1007",
+    "first_name": "Максимильян",
+    "last_name": "Лебедев",
+    "email": "pankratsharapov@example.net",
+    "phone": "+7 (225) 168-03-89",
     "is_loyalty_member": true,
-    "loyalty_card_number": "LOYAL-4245591696"
+    "loyalty_card_number": "LOYAL-A44F359300"
   },
   "store": {
-    "store_id": "store-018",
-    "store_name": "Большая Пикча — Магазин на ш. Колхозное",
-    "store_network": "Большая Пикча",
+    "store_id": "store-035",
+    "store_name": "Маленькая Пикча — Магазин на пр. Макарова",
+    "store_network": "Маленькая Пикча",
     "location": {
       "country": "Россия",
-      "city": "п. Урюпинск",
-      "street": "ул. Королева",
-      "house": "5",
-      "postal_code": "809286",
+      "city": "п. Благовещенск (Амур.)",
+      "street": "ул. Станционная",
+      "house": "23",
+      "postal_code": "496119",
       "coordinates": {
-        "latitude": 9.686733,
-        "longitude": 33.027261
+        "latitude": 23.703187,
+        "longitude": -137.223537
       }
     }
   },
   "items": [
     {
-      "product_id": "prd-1016",
-      "name": "Школьный Очко",
-      "category": "🥖 Зерновые и хлебобулочные изделия",
-      "quantity": 1,
-      "unit": "шт",
-      "price_per_unit": 295.13,
-      "total_price": 295.13,
+      "product_id": "prd-1010",
+      "name": "Что Кидать",
+      "category": "🥦 Овощи и зелень",
+      "quantity": 3,
+      "unit": "упаковка",
+      "price_per_unit": 47.43,
+      "total_price": 142.29,
       "kbju": {
-        "calories": 156.7,
-        "protein": 8.3,
-        "fat": 6.7,
-        "carbohydrates": 49.1
+        "calories": 192.3,
+        "protein": 18.7,
+        "fat": 5.8,
+        "carbohydrates": 28.5
       },
       "manufacturer": {
-        "name": "РАО «Марков»",
+        "name": "ИП «Лихачев Наумова»",
         "country": "Россия",
-        "website": "https://argos.org",
-        "inn": "6328136246"
+        "website": "https://protek.info",
+        "inn": "8715941222"
       }
     }
   ],
-  "total_amount": 295.13,
-  "payment_method": "cash",
+  "total_amount": 142.29,
+  "payment_method": "card",
   "is_delivery": true,
   "delivery_address": {
     "country": "Россия",
-    "city": "с. Владикавказ",
-    "street": "пр. Ключевой",
-    "house": "860",
-    "apartment": "15",
-    "postal_code": "332731"
+    "city": "ст. Луховицы",
+    "street": "бул. Светлый",
+    "house": "4/5",
+    "apartment": "70",
+    "postal_code": "230633"
   },
-  "purchase_datetime": "2025-08-27T00:21:06.236425"
+  "purchase_datetime": "2025-09-15T11:36:53.694888"
 }

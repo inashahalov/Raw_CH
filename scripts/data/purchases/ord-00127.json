@@ -1,84 +1,105 @@
 {
   "purchase_id": "ord-00127",
   "customer": {
-    "customer_id": "cus-1017",
-    "first_name": "Селиверст",
-    "last_name": "Кузьмин",
-    "email": "muhinaeleonora@example.org",
-    "phone": "+7 (710) 046-15-36",
+    "customer_id": "cus-1033",
+    "first_name": "Регина",
+    "last_name": "Мясникова",
+    "email": "merkushevvasili@example.net",
+    "phone": "+7 108 060 5193",
     "is_loyalty_member": true,
-    "loyalty_card_number": "LOYAL-99AE3AEB37"
+    "loyalty_card_number": "LOYAL-CB6483D0D7"
   },
   "store": {
-    "store_id": "store-013",
-    "store_name": "Большая Пикча — Магазин на алл. Мелиоративная",
-    "store_network": "Большая Пикча",
+    "store_id": "store-035",
+    "store_name": "Маленькая Пикча — Магазин на пр. Макарова",
+    "store_network": "Маленькая Пикча",
     "location": {
       "country": "Россия",
-      "city": "п. Лазаревское",
-      "street": "пер. Малый",
-      "house": "88",
-      "postal_code": "425601",
+      "city": "п. Благовещенск (Амур.)",
+      "street": "ул. Станционная",
+      "house": "23",
+      "postal_code": "496119",
       "coordinates": {
-        "latitude": -84.4676175,
-        "longitude": -90.154137
+        "latitude": 23.703187,
+        "longitude": -137.223537
       }
     }
   },
   "items": [
     {
       "product_id": "prd-1010",
-      "name": "Мгновение Вряд",
+      "name": "Что Кидать",
       "category": "🥦 Овощи и зелень",
-      "quantity": 2,
-      "unit": "кг",
-      "price_per_unit": 149.03,
-      "total_price": 298.06,
+      "quantity": 1,
+      "unit": "упаковка",
+      "price_per_unit": 47.43,
+      "total_price": 47.43,
       "kbju": {
-        "calories": 186.1,
-        "protein": 15.0,
-        "fat": 10.1,
-        "carbohydrates": 27.3
+        "calories": 192.3,
+        "protein": 18.7,
+        "fat": 5.8,
+        "carbohydrates": 28.5
       },
       "manufacturer": {
-        "name": "ИП «Блохина-Гаврилов»",
+        "name": "ИП «Лихачев Наумова»",
         "country": "Россия",
-        "website": "https://oao.com",
-        "inn": "1245272063"
+        "website": "https://protek.info",
+        "inn": "8715941222"
       }
     },
     {
-      "product_id": "prd-1012",
-      "name": "Школьный Анализ",
-      "category": "🥦 Овощи и зелень",
-      "quantity": 3,
-      "unit": "л",
-      "price_per_unit": 209.82,
-      "total_price": 629.46,
+      "product_id": "prd-1006",
+      "name": "Очередной Развернуться",
+      "category": "🥩 Мясо, рыба, яйца и бобовые",
+      "quantity": 4,
+      "unit": "упаковка",
+      "price_per_unit": 40.94,
+      "total_price": 163.76,
       "kbju": {
-        "calories": 60.6,
-        "protein": 14.6,
-        "fat": 12.7,
-        "carbohydrates": 41.7
+        "calories": 207.0,
+        "protein": 10.7,
+        "fat": 10.6,
+        "carbohydrates": 30.5
       },
       "manufacturer": {
-        "name": "ИП «Беспалов-Тимофеев»",
+        "name": "Ямал СПГ",
         "country": "Россия",
-        "website": "https://npo.edu",
-        "inn": "6799042551"
+        "website": "https://ip.com",
+        "inn": "1426832497"
+      }
+    },
+    {
+      "product_id": "prd-1008",
+      "name": "Упор Кузнец",
+      "category": "🍏 Фрукты и ягоды",
+      "quantity": 2,
+      "unit": "л",
+      "price_per_unit": 255.98,
+      "total_price": 511.96,
+      "kbju": {
+        "calories": 143.1,
+        "protein": 6.1,
+        "fat": 3.5,
+        "carbohydrates": 47.3
+      },
+      "manufacturer": {
+        "name": "МТС-банк",
+        "country": "Россия",
+        "website": "https://shcherbakova.com",
+        "inn": "1911616255"
       }
     }
   ],
-  "total_amount": 927.52,
+  "total_amount": 723.15,
   "payment_method": "cash",
-  "is_delivery": true,
+  "is_delivery": false,
   "delivery_address": {
     "country": "Россия",
-    "city": "п. Урюпинск",
-    "street": "пер. Березовый",
-    "house": "782",
-    "apartment": "12",
-    "postal_code": "541803"
+    "city": "д. Глазов",
+    "street": "алл. Толбухина",
+    "house": "3",
+    "apartment": "16",
+    "postal_code": "729028"
   },
-  "purchase_datetime": "2025-08-17T00:21:05.972890"
+  "purchase_datetime": "2025-08-15T11:36:53.676422"
 }

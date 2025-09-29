@@ -1,6 +1,6 @@
 {
   "store_id": "store-041",
-  "store_name": "Маленькая Пикча — Магазин на пер. Крайний",
+  "store_name": "Маленькая Пикча — Магазин на наб. Пушкинская",
   "store_network": "Маленькая Пикча",
   "store_type_description": "Магазин у дома менее 100 кв.м. Входит в сеть из 15 магазинов.",
   "type": "offline",
@@ -12,19 +12,19 @@
     "🥦 Овощи и зелень"
   ],
   "manager": {
-    "name": "Лев Тихонович Григорьев",
-    "phone": "8 749 771 56 00",
-    "email": "krilovjuvenali@example.net"
+    "name": "Анжела Филипповна Никифорова",
+    "phone": "+7 (880) 798-6982",
+    "email": "tsvetkovfrol@example.com"
   },
   "location": {
     "country": "Россия",
-    "city": "ст. Юрьевец (Иван.)",
-    "street": "алл. Ульяновская",
-    "house": "5/1",
-    "postal_code": "942139",
+    "city": "п. Кетченеры",
+    "street": "ш. Урицкого",
+    "house": "3",
+    "postal_code": "224391",
     "coordinates": {
-      "latitude": 61.712771,
-      "longitude": -11.16547
+      "latitude": 30.850891,
+      "longitude": -30.962086
     }
   },
   "opening_hours": {
@@ -35,5 +35,5 @@
   "accepts_online_orders": true,
   "delivery_available": true,
   "warehouse_connected": false,
-  "last_inventory_date": "2025-09-25"
+  "last_inventory_date": "2025-09-29"
 }

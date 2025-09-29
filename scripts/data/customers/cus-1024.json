@@ -1,36 +1,36 @@
 {
   "customer_id": "cus-1024",
-  "first_name": "Зосима",
-  "last_name": "Шубин",
-  "email": "klavdija_07@example.org",
-  "phone": "+7 782 950 7836",
-  "birth_date": "2001-06-19",
-  "gender": "male",
-  "registration_date": "2025-09-25T00:21:05.907160",
+  "first_name": "Макар",
+  "last_name": "Медведева",
+  "email": "gerasim1992@example.net",
+  "phone": "+75793560855",
+  "birth_date": "1964-02-24",
+  "gender": "female",
+  "registration_date": "2025-09-29T11:36:53.621028",
   "is_loyalty_member": true,
-  "loyalty_card_number": "LOYAL-99D9345C53",
+  "loyalty_card_number": "LOYAL-95143C8F8C",
   "purchase_location": {
     "store_id": "store-025",
-    "store_name": "Большая Пикча — Магазин на ш. Гончарова",
+    "store_name": "Большая Пикча — Магазин на ш. Гагарина",
     "store_network": "Большая Пикча",
     "store_type_description": "Супермаркет более 200 кв.м. Входит в сеть из 30 магазинов.",
     "country": "Россия",
-    "city": "ст. Малоярославец",
-    "street": "алл. Калужская",
-    "house": "201",
-    "postal_code": "574860"
+    "city": "ст. Мичуринск",
+    "street": "наб. Гоголя",
+    "house": "78",
+    "postal_code": "729137"
   },
   "delivery_address": {
     "country": "Россия",
-    "city": "ст. Малоярославец",
-    "street": "ул. Черемуховая",
-    "house": "352",
-    "apartment": "5",
-    "postal_code": "738654"
+    "city": "ст. Мичуринск",
+    "street": "ш. Семашко",
+    "house": "422",
+    "apartment": "48",
+    "postal_code": "354044"
   },
   "preferences": {
     "preferred_language": "ru",
-    "preferred_payment_method": "cash",
+    "preferred_payment_method": "card",
     "receive_promotions": false
   }
 }

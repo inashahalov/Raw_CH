@@ -1,84 +1,105 @@
 {
   "purchase_id": "ord-00058",
   "customer": {
-    "customer_id": "cus-1018",
-    "first_name": "Евпраксия",
-    "last_name": "Турова",
-    "email": "tblinova@example.org",
-    "phone": "+7 693 449 35 22",
+    "customer_id": "cus-1002",
+    "first_name": "Евгения",
+    "last_name": "Якушев",
+    "email": "martinovairina@example.net",
+    "phone": "+7 824 721 2309",
     "is_loyalty_member": true,
-    "loyalty_card_number": "LOYAL-AD084D2DCF"
+    "loyalty_card_number": "LOYAL-13FF9996C5"
   },
   "store": {
-    "store_id": "store-014",
-    "store_name": "Большая Пикча — Магазин на ш. Школьное",
+    "store_id": "store-013",
+    "store_name": "Большая Пикча — Магазин на бул. Солнечный",
     "store_network": "Большая Пикча",
     "location": {
       "country": "Россия",
-      "city": "п. Качканар",
-      "street": "пр. Щетинкина",
-      "house": "45",
-      "postal_code": "380111",
+      "city": "ст. Ачинск",
+      "street": "бул. Сосновый",
+      "house": "927",
+      "postal_code": "091959",
       "coordinates": {
-        "latitude": -48.1943695,
-        "longitude": -77.577854
+        "latitude": -3.544509,
+        "longitude": 125.206608
       }
     }
   },
   "items": [
     {
-      "product_id": "prd-1000",
-      "name": "Привлекать Передо",
-      "category": "🥦 Овощи и зелень",
-      "quantity": 3,
-      "unit": "шт",
-      "price_per_unit": 261.89,
-      "total_price": 785.67,
+      "product_id": "prd-1004",
+      "name": "Заявление Шлем",
+      "category": "🥩 Мясо, рыба, яйца и бобовые",
+      "quantity": 1,
+      "unit": "упаковка",
+      "price_per_unit": 261.08,
+      "total_price": 261.08,
       "kbju": {
-        "calories": 286.2,
-        "protein": 17.9,
-        "fat": 8.7,
-        "carbohydrates": 47.1
+        "calories": 178.3,
+        "protein": 8.6,
+        "fat": 9.2,
+        "carbohydrates": 12.8
       },
       "manufacturer": {
-        "name": "ООО «Баранов-Пестова»",
+        "name": "ОАО «Орлов Попова»",
         "country": "Россия",
-        "website": "https://ooo.info",
-        "inn": "7520686716"
+        "website": "https://metallservis.ru",
+        "inn": "4728731918"
       }
     },
     {
-      "product_id": "prd-1005",
-      "name": "Направо Господь",
-      "category": "🥩 Мясо, рыба, яйца и бобовые",
-      "quantity": 1,
+      "product_id": "prd-1015",
+      "name": "Табак Госпожа",
+      "category": "🥛 Молочные продукты",
+      "quantity": 3,
       "unit": "л",
-      "price_per_unit": 126.73,
-      "total_price": 126.73,
+      "price_per_unit": 235.2,
+      "total_price": 705.6,
       "kbju": {
-        "calories": 93.0,
-        "protein": 13.6,
-        "fat": 2.1,
-        "carbohydrates": 20.3
+        "calories": 99.6,
+        "protein": 9.1,
+        "fat": 4.4,
+        "carbohydrates": 37.7
       },
       "manufacturer": {
-        "name": "ЗАО «Титова»",
+        "name": "ИП «Куликов, Степанов и Соболева»",
         "country": "Россия",
-        "website": "https://npo.com",
-        "inn": "2777644639"
+        "website": "https://rjabov.info",
+        "inn": "9167946809"
+      }
+    },
+    {
+      "product_id": "prd-1016",
+      "name": "Ребятишки Лететь",
+      "category": "🥦 Овощи и зелень",
+      "quantity": 2,
+      "unit": "шт",
+      "price_per_unit": 266.18,
+      "total_price": 532.36,
+      "kbju": {
+        "calories": 249.2,
+        "protein": 2.2,
+        "fat": 4.1,
+        "carbohydrates": 29.2
+      },
+      "manufacturer": {
+        "name": "АО «Быкова, Наумов и Фадеев»",
+        "country": "Россия",
+        "website": "https://rao.ru",
+        "inn": "1171341012"
       }
     }
   ],
-  "total_amount": 912.4,
+  "total_amount": 1499.04,
   "payment_method": "card",
   "is_delivery": true,
   "delivery_address": {
     "country": "Россия",
-    "city": "г. Южно-Курильск",
-    "street": "бул. Выгонный",
-    "house": "75",
-    "apartment": "28",
-    "postal_code": "947970"
+    "city": "к. Куртамыш",
+    "street": "ул. Беляева",
+    "house": "27",
+    "apartment": "45",
+    "postal_code": "141618"
   },
-  "purchase_datetime": "2025-09-13T00:21:05.942347"
+  "purchase_datetime": "2025-09-24T11:36:53.652056"
 }

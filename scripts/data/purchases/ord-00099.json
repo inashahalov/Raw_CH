@@ -1,105 +1,63 @@
 {
   "purchase_id": "ord-00099",
   "customer": {
-    "customer_id": "cus-1027",
-    "first_name": "Ананий",
-    "last_name": "Смирнов",
-    "email": "eremeartemev@example.org",
-    "phone": "+7 373 716 0061",
+    "customer_id": "cus-1011",
+    "first_name": "Октябрина",
+    "last_name": "Тихонова",
+    "email": "silvestrkudrjavtsev@example.net",
+    "phone": "8 (694) 286-0435",
     "is_loyalty_member": true,
-    "loyalty_card_number": "LOYAL-8563997E39"
+    "loyalty_card_number": "LOYAL-25A3B93BDE"
   },
   "store": {
-    "store_id": "store-033",
-    "store_name": "Маленькая Пикча — Магазин на пр. Дарвина",
+    "store_id": "store-045",
+    "store_name": "Маленькая Пикча — Магазин на ш. Ермака",
     "store_network": "Маленькая Пикча",
     "location": {
       "country": "Россия",
-      "city": "к. Анадырь",
-      "street": "ш. Володарского",
-      "house": "24",
-      "postal_code": "532143",
+      "city": "к. Усть-Калманка",
+      "street": "алл. Сельская",
+      "house": "6/9",
+      "postal_code": "464287",
       "coordinates": {
-        "latitude": 28.566183,
-        "longitude": 177.383941
+        "latitude": -19.4331665,
+        "longitude": -49.686675
       }
     }
   },
   "items": [
     {
-      "product_id": "prd-1008",
-      "name": "Освободить Призыв",
-      "category": "🥩 Мясо, рыба, яйца и бобовые",
-      "quantity": 1,
-      "unit": "л",
-      "price_per_unit": 265.49,
-      "total_price": 265.49,
-      "kbju": {
-        "calories": 130.4,
-        "protein": 5.2,
-        "fat": 10.6,
-        "carbohydrates": 22.8
-      },
-      "manufacturer": {
-        "name": "ИП «Маслова, Денисов и Фокина»",
-        "country": "Россия",
-        "website": "https://ignatev.com",
-        "inn": "7104068639"
-      }
-    },
-    {
-      "product_id": "prd-1015",
-      "name": "Советовать Горький",
-      "category": "🥖 Зерновые и хлебобулочные изделия",
-      "quantity": 2,
-      "unit": "л",
-      "price_per_unit": 74.06,
-      "total_price": 148.12,
-      "kbju": {
-        "calories": 265.6,
-        "protein": 14.1,
-        "fat": 13.9,
-        "carbohydrates": 4.2
-      },
-      "manufacturer": {
-        "name": "РАО «Пахомова-Голубев»",
-        "country": "Россия",
-        "website": "https://nlmk.biz",
-        "inn": "6002140966"
-      }
-    },
-    {
-      "product_id": "prd-1000",
-      "name": "Привлекать Передо",
+      "product_id": "prd-1010",
+      "name": "Что Кидать",
       "category": "🥦 Овощи и зелень",
-      "quantity": 2,
-      "unit": "шт",
-      "price_per_unit": 261.89,
-      "total_price": 523.78,
+      "quantity": 3,
+      "unit": "упаковка",
+      "price_per_unit": 47.43,
+      "total_price": 142.29,
       "kbju": {
-        "calories": 286.2,
-        "protein": 17.9,
-        "fat": 8.7,
-        "carbohydrates": 47.1
+        "calories": 192.3,
+        "protein": 18.7,
+        "fat": 5.8,
+        "carbohydrates": 28.5
       },
       "manufacturer": {
-        "name": "ООО «Баранов-Пестова»",
+        "name": "ИП «Лихачев Наумова»",
         "country": "Россия",
-        "website": "https://ooo.info",
-        "inn": "7520686716"
+        "website": "https://protek.info",
+        "inn": "8715941222"
       }
     }
   ],
-  "total_amount": 937.39,
-  "payment_method": "card",
-  "is_delivery": true,
+  "total_amount": 142.29,
+  "payment_method": "cash",
+  "is_delivery": false,
   "delivery_address": {
     "country": "Россия",
-    "city": "п. Великие Луки",
-    "street": "бул. Фестивальный",
-    "house": "937",
-    "apartment": "48",
-    "postal_code": "607745"
+    "city": "клх Белый Яр (Томск.)",
+    "street": "бул. Космический",
+    "house": "169",
+    "apartment": "25",
+    "postal_code": "507633"
   },
-  "purchase_datetime": "2025-09-20T00:21:05.959277"
+  "purchase_datetime": "2025-09-03T11:36:53.666774"
 }

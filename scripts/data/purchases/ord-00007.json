@@ -1,84 +1,63 @@
 {
   "purchase_id": "ord-00007",
   "customer": {
-    "customer_id": "cus-1024",
-    "first_name": "Зосима",
-    "last_name": "Шубин",
-    "email": "klavdija_07@example.org",
-    "phone": "+7 782 950 7836",
+    "customer_id": "cus-1013",
+    "first_name": "Август",
+    "last_name": "Бобылева",
+    "email": "denis_1972@example.net",
+    "phone": "+7 (675) 164-65-63",
     "is_loyalty_member": true,
-    "loyalty_card_number": "LOYAL-99D9345C53"
+    "loyalty_card_number": "LOYAL-2AC87952E6"
   },
   "store": {
-    "store_id": "store-028",
-    "store_name": "Большая Пикча — Магазин на пер. Придорожный",
+    "store_id": "store-013",
+    "store_name": "Большая Пикча — Магазин на бул. Солнечный",
     "store_network": "Большая Пикча",
     "location": {
       "country": "Россия",
-      "city": "п. Великие Луки",
-      "street": "алл. Сельская",
-      "house": "9/1",
-      "postal_code": "131366",
+      "city": "ст. Ачинск",
+      "street": "бул. Сосновый",
+      "house": "927",
+      "postal_code": "091959",
       "coordinates": {
-        "latitude": 89.2025215,
-        "longitude": 9.359875
+        "latitude": -3.544509,
+        "longitude": 125.206608
       }
     }
   },
   "items": [
     {
-      "product_id": "prd-1006",
-      "name": "Вытаскивать Плод",
-      "category": "🍏 Фрукты и ягоды",
+      "product_id": "prd-1015",
+      "name": "Табак Госпожа",
+      "category": "🥛 Молочные продукты",
       "quantity": 2,
-      "unit": "упаковка",
-      "price_per_unit": 123.36,
-      "total_price": 246.72,
+      "unit": "л",
+      "price_per_unit": 235.2,
+      "total_price": 470.4,
       "kbju": {
-        "calories": 124.2,
-        "protein": 11.3,
-        "fat": 2.6,
-        "carbohydrates": 42.9
+        "calories": 99.6,
+        "protein": 9.1,
+        "fat": 4.4,
+        "carbohydrates": 37.7
       },
       "manufacturer": {
-        "name": "ИП «Емельянов-Наумова»",
+        "name": "ИП «Куликов, Степанов и Соболева»",
         "country": "Россия",
-        "website": "https://npo.edu",
-        "inn": "9973742158"
-      }
-    },
-    {
-      "product_id": "prd-1019",
-      "name": "Сынок Обида",
-      "category": "🍏 Фрукты и ягоды",
-      "quantity": 5,
-      "unit": "кг",
-      "price_per_unit": 86.19,
-      "total_price": 430.95,
-      "kbju": {
-        "calories": 224.4,
-        "protein": 5.9,
-        "fat": 13.9,
-        "carbohydrates": 7.6
-      },
-      "manufacturer": {
-        "name": "ООО «Шилов-Константинова»",
-        "country": "Россия",
-        "website": "https://ooo.org",
-        "inn": "6666152301"
+        "website": "https://rjabov.info",
+        "inn": "9167946809"
       }
     }
   ],
-  "total_amount": 677.67,
-  "payment_method": "card",
+  "total_amount": 470.4,
+  "payment_method": "cash",
   "is_delivery": false,
   "delivery_address": {
     "country": "Россия",
-    "city": "ст. Малоярославец",
-    "street": "ул. Черемуховая",
-    "house": "352",
-    "apartment": "5",
-    "postal_code": "738654"
+    "city": "с. Моршанск",
+    "street": "ш. Куйбышева",
+    "house": "398",
+    "apartment": "42",
+    "postal_code": "981166"
   },
-  "purchase_datetime": "2025-08-08T00:21:05.921779"
+  "purchase_datetime": "2025-09-03T11:36:53.632534"
 }

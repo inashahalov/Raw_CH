@@ -1,6 +1,6 @@
 {
   "store_id": "store-021",
-  "store_name": "Большая Пикча — Магазин на алл. Огородная",
+  "store_name": "Большая Пикча — Магазин на пр. Производственный",
   "store_network": "Большая Пикча",
   "store_type_description": "Супермаркет более 200 кв.м. Входит в сеть из 30 магазинов.",
   "type": "offline",
@@ -12,19 +12,19 @@
     "🥦 Овощи и зелень"
   ],
   "manager": {
-    "name": "Субботин Мечислав Ааронович",
-    "phone": "+7 034 640 98 72",
-    "email": "sokolovamos@example.net"
+    "name": "Клавдия Эдуардовна Селиверстова",
+    "phone": "8 547 781 49 64",
+    "email": "adam_2022@example.com"
   },
   "location": {
     "country": "Россия",
-    "city": "п. Энгельс",
-    "street": "ш. Партизанское",
-    "house": "9/6",
-    "postal_code": "123462",
+    "city": "г. Ступино",
+    "street": "наб. 50 лет ВЛКСМ",
+    "house": "79",
+    "postal_code": "971583",
     "coordinates": {
-      "latitude": -19.580885,
-      "longitude": 86.177992
+      "latitude": 45.52981,
+      "longitude": 165.75171
     }
   },
   "opening_hours": {
@@ -34,6 +34,6 @@
   },
   "accepts_online_orders": true,
   "delivery_available": true,
-  "warehouse_connected": true,
-  "last_inventory_date": "2025-09-25"
+  "warehouse_connected": false,
+  "last_inventory_date": "2025-09-29"
 }

@@ -1,63 +1,105 @@
 {
   "purchase_id": "ord-00019",
   "customer": {
-    "customer_id": "cus-1021",
-    "first_name": "Никанор",
-    "last_name": "Красильникова",
-    "email": "mihail1977@example.com",
-    "phone": "8 811 770 3445",
+    "customer_id": "cus-1030",
+    "first_name": "Данила",
+    "last_name": "Кабанов",
+    "email": "eduard_84@example.com",
+    "phone": "8 (961) 688-18-31",
     "is_loyalty_member": true,
-    "loyalty_card_number": "LOYAL-A495EF04B9"
+    "loyalty_card_number": "LOYAL-8CCC7CF000"
   },
   "store": {
-    "store_id": "store-029",
-    "store_name": "Большая Пикча — Магазин на ш. Владимирское",
-    "store_network": "Большая Пикча",
+    "store_id": "store-042",
+    "store_name": "Маленькая Пикча — Магазин на пр. Льва Толстого",
+    "store_network": "Маленькая Пикча",
     "location": {
       "country": "Россия",
-      "city": "ст. Чебоксары",
-      "street": "наб. Тюленина",
-      "house": "5",
-      "postal_code": "132041",
+      "city": "с. Любань",
+      "street": "ш. М.Горького",
+      "house": "45",
+      "postal_code": "169119",
       "coordinates": {
-        "latitude": 64.245416,
-        "longitude": -159.654898
+        "latitude": 73.7860975,
+        "longitude": 53.061392
       }
     }
   },
   "items": [
     {
-      "product_id": "prd-1002",
-      "name": "Еврейский Отражение",
-      "category": "🥩 Мясо, рыба, яйца и бобовые",
-      "quantity": 1,
-      "unit": "упаковка",
-      "price_per_unit": 268.07,
-      "total_price": 268.07,
+      "product_id": "prd-1015",
+      "name": "Табак Госпожа",
+      "category": "🥛 Молочные продукты",
+      "quantity": 4,
+      "unit": "л",
+      "price_per_unit": 235.2,
+      "total_price": 940.8,
       "kbju": {
-        "calories": 264.5,
-        "protein": 5.4,
-        "fat": 13.4,
-        "carbohydrates": 29.2
+        "calories": 99.6,
+        "protein": 9.1,
+        "fat": 4.4,
+        "carbohydrates": 37.7
       },
       "manufacturer": {
-        "name": "ОАО «Мишин-Виноградова»",
+        "name": "ИП «Куликов, Степанов и Соболева»",
         "country": "Россия",
-        "website": "https://ooo.edu",
-        "inn": "8371422850"
+        "website": "https://rjabov.info",
+        "inn": "9167946809"
+      }
+    },
+    {
+      "product_id": "prd-1014",
+      "name": "Спичка Носок",
+      "category": "🍏 Фрукты и ягоды",
+      "quantity": 3,
+      "unit": "шт",
+      "price_per_unit": 180.19,
+      "total_price": 540.57,
+      "kbju": {
+        "calories": 248.0,
+        "protein": 12.3,
+        "fat": 6.8,
+        "carbohydrates": 5.2
+      },
+      "manufacturer": {
+        "name": "КДВ Групп",
+        "country": "Россия",
+        "website": "https://nizhfarm.com",
+        "inn": "8186530463"
+      }
+    },
+    {
+      "product_id": "prd-1001",
+      "name": "Лиловый Бок",
+      "category": "🥛 Молочные продукты",
+      "quantity": 3,
+      "unit": "упаковка",
+      "price_per_unit": 242.46,
+      "total_price": 727.38,
+      "kbju": {
+        "calories": 274.4,
+        "protein": 6.4,
+        "fat": 6.0,
+        "carbohydrates": 13.5
+      },
+      "manufacturer": {
+        "name": "Куликов и партнеры",
+        "country": "Россия",
+        "website": "https://sharapov.net",
+        "inn": "9920890846"
       }
     }
   ],
-  "total_amount": 268.07,
-  "payment_method": "cash",
+  "total_amount": 2208.75,
+  "payment_method": "card",
   "is_delivery": false,
   "delivery_address": {
     "country": "Россия",
-    "city": "г. Каменномостский",
-    "street": "пр. Средний",
-    "house": "80",
-    "apartment": "32",
-    "postal_code": "917327"
+    "city": "с. Аргаяш",
+    "street": "пер. Карла Либкнехта",
+    "house": "5/2",
+    "apartment": "87",
+    "postal_code": "539126"
   },
-  "purchase_datetime": "2025-06-29T00:21:05.926744"
+  "purchase_datetime": "2025-08-14T11:36:53.637098"
 }

@@ -1,84 +1,84 @@
 {
   "purchase_id": "ord-00168",
   "customer": {
-    "customer_id": "cus-1020",
-    "first_name": "Эраст",
-    "last_name": "Куликова",
-    "email": "gremislavkondratev@example.net",
-    "phone": "8 672 125 64 83",
+    "customer_id": "cus-1040",
+    "first_name": "Захар",
+    "last_name": "Сергеева",
+    "email": "markovaristarh@example.org",
+    "phone": "8 (514) 104-3564",
     "is_loyalty_member": true,
-    "loyalty_card_number": "LOYAL-7883FC4DA4"
+    "loyalty_card_number": "LOYAL-32912B1ECD"
   },
   "store": {
-    "store_id": "store-033",
-    "store_name": "Маленькая Пикча — Магазин на пр. Дарвина",
+    "store_id": "store-038",
+    "store_name": "Маленькая Пикча — Магазин на пр. Ломоносова",
     "store_network": "Маленькая Пикча",
     "location": {
       "country": "Россия",
-      "city": "к. Анадырь",
-      "street": "ш. Володарского",
-      "house": "24",
-      "postal_code": "532143",
+      "city": "клх Красноуфимск",
+      "street": "пр. Садовый",
+      "house": "164",
+      "postal_code": "185385",
       "coordinates": {
-        "latitude": 28.566183,
-        "longitude": 177.383941
+        "latitude": -40.3102185,
+        "longitude": 38.964954
       }
     }
   },
   "items": [
     {
-      "product_id": "prd-1011",
-      "name": "Привлекать Пол",
-      "category": "🥩 Мясо, рыба, яйца и бобовые",
+      "product_id": "prd-1003",
+      "name": "Спалить Лететь",
+      "category": "🍏 Фрукты и ягоды",
       "quantity": 1,
-      "unit": "л",
-      "price_per_unit": 85.86,
-      "total_price": 85.86,
+      "unit": "кг",
+      "price_per_unit": 68.82,
+      "total_price": 68.82,
       "kbju": {
-        "calories": 65.4,
-        "protein": 5.6,
-        "fat": 1.9,
-        "carbohydrates": 24.1
+        "calories": 203.9,
+        "protein": 5.3,
+        "fat": 0.6,
+        "carbohydrates": 11.5
       },
       "manufacturer": {
-        "name": "ИП «Галкина-Терентьев»",
+        "name": "ООО «Беляков Капустина»",
         "country": "Россия",
-        "website": "https://rao.ru",
-        "inn": "5528391758"
+        "website": "https://mostransavto.org",
+        "inn": "0958619414"
       }
     },
     {
-      "product_id": "prd-1012",
-      "name": "Школьный Анализ",
+      "product_id": "prd-1016",
+      "name": "Ребятишки Лететь",
       "category": "🥦 Овощи и зелень",
-      "quantity": 2,
-      "unit": "л",
-      "price_per_unit": 209.82,
-      "total_price": 419.64,
+      "quantity": 3,
+      "unit": "шт",
+      "price_per_unit": 266.18,
+      "total_price": 798.54,
       "kbju": {
-        "calories": 60.6,
-        "protein": 14.6,
-        "fat": 12.7,
-        "carbohydrates": 41.7
+        "calories": 249.2,
+        "protein": 2.2,
+        "fat": 4.1,
+        "carbohydrates": 29.2
       },
       "manufacturer": {
-        "name": "ИП «Беспалов-Тимофеев»",
+        "name": "АО «Быкова, Наумов и Фадеев»",
         "country": "Россия",
-        "website": "https://npo.edu",
-        "inn": "6799042551"
+        "website": "https://rao.ru",
+        "inn": "1171341012"
       }
     }
   ],
-  "total_amount": 505.5,
-  "payment_method": "cash",
+  "total_amount": 867.36,
+  "payment_method": "card",
   "is_delivery": true,
   "delivery_address": {
     "country": "Россия",
-    "city": "п. Энгельс",
-    "street": "ул. Тепличная",
-    "house": "78",
-    "apartment": "45",
-    "postal_code": "770377"
+    "city": "п. Кетченеры",
+    "street": "ул. Ульяновская",
+    "house": "77",
+    "apartment": "63",
+    "postal_code": "395117"
   },
-  "purchase_datetime": "2025-07-06T00:21:06.232979"
+  "purchase_datetime": "2025-08-23T11:36:53.691835"
 }

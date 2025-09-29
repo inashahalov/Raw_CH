@@ -1,63 +1,105 @@
 {
   "purchase_id": "ord-00171",
   "customer": {
-    "customer_id": "cus-1004",
-    "first_name": "Мстислав",
-    "last_name": "Фомин",
-    "email": "adam_2017@example.net",
-    "phone": "+73490219511",
+    "customer_id": "cus-1023",
+    "first_name": "Панкрат",
+    "last_name": "Евдокимов",
+    "email": "lavrenti_48@example.org",
+    "phone": "8 (089) 348-13-39",
     "is_loyalty_member": true,
-    "loyalty_card_number": "LOYAL-69A22C9F90"
+    "loyalty_card_number": "LOYAL-DF9EB001FC"
   },
   "store": {
-    "store_id": "store-002",
-    "store_name": "Большая Пикча — Магазин на пр. Мирный",
+    "store_id": "store-015",
+    "store_name": "Большая Пикча — Магазин на алл. Ломоносова",
     "store_network": "Большая Пикча",
     "location": {
       "country": "Россия",
-      "city": "клх Видное",
-      "street": "пр. Толбухина",
-      "house": "9/6",
-      "postal_code": "511141",
+      "city": "ст. Двинской",
+      "street": "наб. Спортивная",
+      "house": "528",
+      "postal_code": "734819",
       "coordinates": {
-        "latitude": 13.224143,
-        "longitude": -111.857686
+        "latitude": -80.7995515,
+        "longitude": -113.912093
       }
     }
   },
   "items": [
     {
-      "product_id": "prd-1016",
-      "name": "Школьный Очко",
-      "category": "🥖 Зерновые и хлебобулочные изделия",
-      "quantity": 4,
-      "unit": "шт",
-      "price_per_unit": 295.13,
-      "total_price": 1180.52,
+      "product_id": "prd-1006",
+      "name": "Очередной Развернуться",
+      "category": "🥩 Мясо, рыба, яйца и бобовые",
+      "quantity": 2,
+      "unit": "упаковка",
+      "price_per_unit": 40.94,
+      "total_price": 81.88,
       "kbju": {
-        "calories": 156.7,
-        "protein": 8.3,
-        "fat": 6.7,
-        "carbohydrates": 49.1
+        "calories": 207.0,
+        "protein": 10.7,
+        "fat": 10.6,
+        "carbohydrates": 30.5
       },
       "manufacturer": {
-        "name": "РАО «Марков»",
+        "name": "Ямал СПГ",
         "country": "Россия",
-        "website": "https://argos.org",
-        "inn": "6328136246"
+        "website": "https://ip.com",
+        "inn": "1426832497"
+      }
+    },
+    {
+      "product_id": "prd-1011",
+      "name": "Зачем Вскакивать",
+      "category": "🥛 Молочные продукты",
+      "quantity": 1,
+      "unit": "шт",
+      "price_per_unit": 105.34,
+      "total_price": 105.34,
+      "kbju": {
+        "calories": 207.5,
+        "protein": 16.9,
+        "fat": 5.3,
+        "carbohydrates": 19.0
+      },
+      "manufacturer": {
+        "name": "ИП «Нестеров, Лыткин и Евсеев»",
+        "country": "Россия",
+        "website": "https://ip.ru",
+        "inn": "1814255141"
+      }
+    },
+    {
+      "product_id": "prd-1017",
+      "name": "Народ Построить",
+      "category": "🍏 Фрукты и ягоды",
+      "quantity": 4,
+      "unit": "шт",
+      "price_per_unit": 178.6,
+      "total_price": 714.4,
+      "kbju": {
+        "calories": 256.8,
+        "protein": 17.5,
+        "fat": 12.2,
+        "carbohydrates": 17.7
+      },
+      "manufacturer": {
+        "name": "Корнилов и партнеры",
+        "country": "Россия",
+        "website": "https://rao.org",
+        "inn": "2545527642"
       }
     }
   ],
-  "total_amount": 1180.52,
+  "total_amount": 901.62,
   "payment_method": "card",
   "is_delivery": false,
   "delivery_address": {
     "country": "Россия",
-    "city": "к. Шелехов",
-    "street": "алл. Высотная",
-    "house": "4/6",
-    "apartment": "89",
-    "postal_code": "352737"
+    "city": "г. Нягань",
+    "street": "наб. Ушакова",
+    "house": "24",
+    "apartment": "76",
+    "postal_code": "051733"
   },
-  "purchase_datetime": "2025-07-16T00:21:06.234064"
+  "purchase_datetime": "2025-08-18T11:36:53.692817"
 }

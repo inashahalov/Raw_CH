@@ -1,63 +1,84 @@
 {
   "purchase_id": "ord-00136",
   "customer": {
-    "customer_id": "cus-1014",
-    "first_name": "Вера",
-    "last_name": "Логинова",
-    "email": "sofron_04@example.com",
-    "phone": "8 (794) 601-51-70",
+    "customer_id": "cus-1031",
+    "first_name": "Клавдий",
+    "last_name": "Алексеева",
+    "email": "muravevmilan@example.net",
+    "phone": "8 (327) 414-7989",
     "is_loyalty_member": true,
-    "loyalty_card_number": "LOYAL-85166218B3"
+    "loyalty_card_number": "LOYAL-67B5980854"
   },
   "store": {
-    "store_id": "store-034",
-    "store_name": "Маленькая Пикча — Магазин на пер. Большевистский",
-    "store_network": "Маленькая Пикча",
+    "store_id": "store-024",
+    "store_name": "Большая Пикча — Магазин на алл. Правды",
+    "store_network": "Большая Пикча",
     "location": {
       "country": "Россия",
-      "city": "к. Яшалта",
-      "street": "алл. Лунная",
-      "house": "3",
-      "postal_code": "125791",
+      "city": "г. Нягань",
+      "street": "наб. Тепличная",
+      "house": "7",
+      "postal_code": "010829",
       "coordinates": {
-        "latitude": 35.452102,
-        "longitude": 117.041786
+        "latitude": -40.134826,
+        "longitude": -72.151024
       }
     }
   },
   "items": [
     {
-      "product_id": "prd-1012",
-      "name": "Школьный Анализ",
-      "category": "🥦 Овощи и зелень",
-      "quantity": 3,
-      "unit": "л",
-      "price_per_unit": 209.82,
-      "total_price": 629.46,
+      "product_id": "prd-1009",
+      "name": "Выдержать Карман",
+      "category": "🥛 Молочные продукты",
+      "quantity": 4,
+      "unit": "кг",
+      "price_per_unit": 193.21,
+      "total_price": 772.84,
       "kbju": {
-        "calories": 60.6,
-        "protein": 14.6,
-        "fat": 12.7,
-        "carbohydrates": 41.7
+        "calories": 234.5,
+        "protein": 3.6,
+        "fat": 14.6,
+        "carbohydrates": 4.9
       },
       "manufacturer": {
-        "name": "ИП «Беспалов-Тимофеев»",
+        "name": "Романова и партнеры",
         "country": "Россия",
-        "website": "https://npo.edu",
-        "inn": "6799042551"
+        "website": "https://npo.biz",
+        "inn": "4877305481"
+      }
+    },
+    {
+      "product_id": "prd-1001",
+      "name": "Лиловый Бок",
+      "category": "🥛 Молочные продукты",
+      "quantity": 1,
+      "unit": "упаковка",
+      "price_per_unit": 242.46,
+      "total_price": 242.46,
+      "kbju": {
+        "calories": 274.4,
+        "protein": 6.4,
+        "fat": 6.0,
+        "carbohydrates": 13.5
+      },
+      "manufacturer": {
+        "name": "Куликов и партнеры",
+        "country": "Россия",
+        "website": "https://sharapov.net",
+        "inn": "9920890846"
       }
     }
   ],
-  "total_amount": 629.46,
+  "total_amount": 1015.3,
   "payment_method": "cash",
-  "is_delivery": true,
+  "is_delivery": false,
   "delivery_address": {
     "country": "Россия",
-    "city": "с. Минусинск",
-    "street": "ул. Семашко",
-    "house": "308",
-    "apartment": "11",
-    "postal_code": "401472"
+    "city": "с. Кизилюрт",
+    "street": "пр. Труда",
+    "house": "479",
+    "apartment": "84",
+    "postal_code": "734800"
   },
-  "purchase_datetime": "2025-07-30T00:21:06.215532"
+  "purchase_datetime": "2025-07-26T11:36:53.679697"
 }

@@ -1,6 +1,6 @@
 {
   "store_id": "store-019",
-  "store_name": "Большая Пикча — Магазин на ул. Серова",
+  "store_name": "Большая Пикча — Магазин на пер. Цветочный",
   "store_network": "Большая Пикча",
   "store_type_description": "Супермаркет более 200 кв.м. Входит в сеть из 30 магазинов.",
   "type": "offline",
@@ -12,19 +12,19 @@
     "🥦 Овощи и зелень"
   ],
   "manager": {
-    "name": "Дементьева Полина Филипповна",
-    "phone": "+7 (557) 109-96-75",
-    "email": "serafim63@example.com"
+    "name": "Гурьева Тамара Аскольдовна",
+    "phone": "8 (501) 821-32-21",
+    "email": "averki_2007@example.com"
   },
   "location": {
     "country": "Россия",
-    "city": "г. Южно-Курильск",
-    "street": "пер. Коммунистический",
-    "house": "4",
-    "postal_code": "511510",
+    "city": "г. Сорочинск",
+    "street": "пр. Таежный",
+    "house": "3",
+    "postal_code": "737970",
     "coordinates": {
-      "latitude": -33.1503555,
-      "longitude": 22.862732
+      "latitude": 82.6657625,
+      "longitude": -135.46292
     }
   },
   "opening_hours": {
@@ -34,6 +34,6 @@
   },
   "accepts_online_orders": true,
   "delivery_available": true,
-  "warehouse_connected": true,
-  "last_inventory_date": "2025-09-25"
+  "warehouse_connected": false,
+  "last_inventory_date": "2025-09-29"
 }

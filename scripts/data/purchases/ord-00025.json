@@ -1,105 +1,105 @@
 {
   "purchase_id": "ord-00025",
   "customer": {
-    "customer_id": "cus-1020",
-    "first_name": "Эраст",
-    "last_name": "Куликова",
-    "email": "gremislavkondratev@example.net",
-    "phone": "8 672 125 64 83",
+    "customer_id": "cus-1022",
+    "first_name": "Парамон",
+    "last_name": "Шестаков",
+    "email": "emmanuil80@example.net",
+    "phone": "+7 787 031 23 21",
     "is_loyalty_member": true,
-    "loyalty_card_number": "LOYAL-7883FC4DA4"
+    "loyalty_card_number": "LOYAL-A111D48E9C"
   },
   "store": {
-    "store_id": "store-020",
-    "store_name": "Большая Пикча — Магазин на алл. Парковая",
+    "store_id": "store-024",
+    "store_name": "Большая Пикча — Магазин на алл. Правды",
     "store_network": "Большая Пикча",
     "location": {
       "country": "Россия",
-      "city": "п. Витим",
-      "street": "ш. Проточное",
-      "house": "6/9",
-      "postal_code": "926506",
+      "city": "г. Нягань",
+      "street": "наб. Тепличная",
+      "house": "7",
+      "postal_code": "010829",
       "coordinates": {
-        "latitude": -88.588761,
-        "longitude": -151.51246
+        "latitude": -40.134826,
+        "longitude": -72.151024
       }
     }
   },
   "items": [
     {
-      "product_id": "prd-1017",
-      "name": "Цель Единый",
+      "product_id": "prd-1012",
+      "name": "Торговля Счастье",
       "category": "🥖 Зерновые и хлебобулочные изделия",
-      "quantity": 3,
-      "unit": "упаковка",
-      "price_per_unit": 99.97,
-      "total_price": 299.91,
-      "kbju": {
-        "calories": 97.4,
-        "protein": 12.5,
-        "fat": 14.8,
-        "carbohydrates": 11.6
-      },
-      "manufacturer": {
-        "name": "АО «Белякова»",
-        "country": "Россия",
-        "website": "https://rao.com",
-        "inn": "0030371079"
-      }
-    },
-    {
-      "product_id": "prd-1015",
-      "name": "Советовать Горький",
-      "category": "🥖 Зерновые и хлебобулочные изделия",
-      "quantity": 1,
+      "quantity": 5,
       "unit": "л",
-      "price_per_unit": 74.06,
-      "total_price": 74.06,
+      "price_per_unit": 70.91,
+      "total_price": 354.55,
       "kbju": {
-        "calories": 265.6,
-        "protein": 14.1,
-        "fat": 13.9,
-        "carbohydrates": 4.2
+        "calories": 149.8,
+        "protein": 5.8,
+        "fat": 6.3,
+        "carbohydrates": 24.8
       },
       "manufacturer": {
-        "name": "РАО «Пахомова-Голубев»",
+        "name": "НПО «Некрасова»",
         "country": "Россия",
-        "website": "https://nlmk.biz",
-        "inn": "6002140966"
+        "website": "https://ao.org",
+        "inn": "8419489062"
       }
     },
     {
-      "product_id": "prd-1005",
-      "name": "Направо Господь",
+      "product_id": "prd-1003",
+      "name": "Спалить Лететь",
+      "category": "🍏 Фрукты и ягоды",
+      "quantity": 4,
+      "unit": "кг",
+      "price_per_unit": 68.82,
+      "total_price": 275.28,
+      "kbju": {
+        "calories": 203.9,
+        "protein": 5.3,
+        "fat": 0.6,
+        "carbohydrates": 11.5
+      },
+      "manufacturer": {
+        "name": "ООО «Беляков Капустина»",
+        "country": "Россия",
+        "website": "https://mostransavto.org",
+        "inn": "0958619414"
+      }
+    },
+    {
+      "product_id": "prd-1018",
+      "name": "Отметить Парень",
       "category": "🥩 Мясо, рыба, яйца и бобовые",
-      "quantity": 3,
-      "unit": "л",
-      "price_per_unit": 126.73,
-      "total_price": 380.19,
+      "quantity": 4,
+      "unit": "шт",
+      "price_per_unit": 241.62,
+      "total_price": 966.48,
       "kbju": {
-        "calories": 93.0,
-        "protein": 13.6,
-        "fat": 2.1,
-        "carbohydrates": 20.3
+        "calories": 295.0,
+        "protein": 3.5,
+        "fat": 6.0,
+        "carbohydrates": 2.6
       },
       "manufacturer": {
-        "name": "ЗАО «Титова»",
+        "name": "Петухов Лтд",
         "country": "Россия",
-        "website": "https://npo.com",
-        "inn": "2777644639"
+        "website": "https://rao.ru",
+        "inn": "4394791537"
       }
     }
   ],
-  "total_amount": 754.16,
-  "payment_method": "card",
+  "total_amount": 1596.31,
+  "payment_method": "cash",
   "is_delivery": false,
   "delivery_address": {
     "country": "Россия",
-    "city": "п. Энгельс",
-    "street": "ул. Тепличная",
-    "house": "78",
-    "apartment": "45",
-    "postal_code": "770377"
+    "city": "д. Кострома",
+    "street": "бул. Подлесный",
+    "house": "1",
+    "apartment": "27",
+    "postal_code": "091819"
   },
-  "purchase_datetime": "2025-08-09T00:21:05.929155"
+  "purchase_datetime": "2025-08-19T11:36:53.639430"
 }

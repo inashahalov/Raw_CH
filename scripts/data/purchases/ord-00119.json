@@ -1,63 +1,105 @@
 {
   "purchase_id": "ord-00119",
   "customer": {
-    "customer_id": "cus-1026",
-    "first_name": "Эраст",
-    "last_name": "Кузьмин",
-    "email": "melnikovmefodi@example.net",
-    "phone": "8 775 616 5831",
+    "customer_id": "cus-1027",
+    "first_name": "Аникита",
+    "last_name": "Дьячков",
+    "email": "savvatisuvorov@example.org",
+    "phone": "+7 325 954 4048",
     "is_loyalty_member": true,
-    "loyalty_card_number": "LOYAL-255ED1E23D"
+    "loyalty_card_number": "LOYAL-ED07FB2A7C"
   },
   "store": {
-    "store_id": "store-037",
-    "store_name": "Маленькая Пикча — Магазин на пр. Северный",
+    "store_id": "store-038",
+    "store_name": "Маленькая Пикча — Магазин на пр. Ломоносова",
     "store_network": "Маленькая Пикча",
     "location": {
       "country": "Россия",
-      "city": "п. Курумкан",
-      "street": "бул. Волгоградский",
-      "house": "3",
-      "postal_code": "799219",
+      "city": "клх Красноуфимск",
+      "street": "пр. Садовый",
+      "house": "164",
+      "postal_code": "185385",
       "coordinates": {
-        "latitude": -61.9254315,
-        "longitude": -55.410536
+        "latitude": -40.3102185,
+        "longitude": 38.964954
       }
     }
   },
   "items": [
     {
-      "product_id": "prd-1017",
-      "name": "Цель Единый",
-      "category": "🥖 Зерновые и хлебобулочные изделия",
-      "quantity": 1,
-      "unit": "упаковка",
-      "price_per_unit": 99.97,
-      "total_price": 99.97,
+      "product_id": "prd-1013",
+      "name": "Правление Банк",
+      "category": "🥛 Молочные продукты",
+      "quantity": 3,
+      "unit": "кг",
+      "price_per_unit": 210.76,
+      "total_price": 632.28,
       "kbju": {
-        "calories": 97.4,
-        "protein": 12.5,
-        "fat": 14.8,
-        "carbohydrates": 11.6
+        "calories": 279.5,
+        "protein": 12.1,
+        "fat": 5.8,
+        "carbohydrates": 44.9
       },
       "manufacturer": {
-        "name": "АО «Белякова»",
+        "name": "ИП «Королев, Кулагина и Медведева»",
         "country": "Россия",
-        "website": "https://rao.com",
-        "inn": "0030371079"
+        "website": "https://ooo.net",
+        "inn": "2561502092"
+      }
+    },
+    {
+      "product_id": "prd-1016",
+      "name": "Ребятишки Лететь",
+      "category": "🥦 Овощи и зелень",
+      "quantity": 4,
+      "unit": "шт",
+      "price_per_unit": 266.18,
+      "total_price": 1064.72,
+      "kbju": {
+        "calories": 249.2,
+        "protein": 2.2,
+        "fat": 4.1,
+        "carbohydrates": 29.2
+      },
+      "manufacturer": {
+        "name": "АО «Быкова, Наумов и Фадеев»",
+        "country": "Россия",
+        "website": "https://rao.ru",
+        "inn": "1171341012"
+      }
+    },
+    {
+      "product_id": "prd-1011",
+      "name": "Зачем Вскакивать",
+      "category": "🥛 Молочные продукты",
+      "quantity": 4,
+      "unit": "шт",
+      "price_per_unit": 105.34,
+      "total_price": 421.36,
+      "kbju": {
+        "calories": 207.5,
+        "protein": 16.9,
+        "fat": 5.3,
+        "carbohydrates": 19.0
+      },
+      "manufacturer": {
+        "name": "ИП «Нестеров, Лыткин и Евсеев»",
+        "country": "Россия",
+        "website": "https://ip.ru",
+        "inn": "1814255141"
       }
     }
   ],
-  "total_amount": 99.97,
+  "total_amount": 2118.36,
   "payment_method": "cash",
-  "is_delivery": true,
+  "is_delivery": false,
   "delivery_address": {
     "country": "Россия",
-    "city": "г. Саранск",
-    "street": "пр. Чапаева",
-    "house": "5",
-    "apartment": "46",
-    "postal_code": "863546"
+    "city": "д. Котлас",
+    "street": "ш. Приозерное",
+    "house": "4/2",
+    "apartment": "100",
+    "postal_code": "604457"
   },
-  "purchase_datetime": "2025-07-16T00:21:05.968985"
+  "purchase_datetime": "2025-07-13T11:36:53.674015"
 }

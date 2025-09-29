@@ -1,84 +1,63 @@
 {
   "purchase_id": "ord-00189",
   "customer": {
-    "customer_id": "cus-1036",
-    "first_name": "Ананий",
-    "last_name": "Шубин",
-    "email": "xvolkov@example.net",
-    "phone": "+7 938 461 4396",
+    "customer_id": "cus-1043",
+    "first_name": "Артемий",
+    "last_name": "Гурьев",
+    "email": "ilinfeoktist@example.org",
+    "phone": "+7 (521) 181-86-39",
     "is_loyalty_member": true,
-    "loyalty_card_number": "LOYAL-E36C1302B0"
+    "loyalty_card_number": "LOYAL-E6A14270B7"
   },
   "store": {
-    "store_id": "store-004",
-    "store_name": "Большая Пикча — Магазин на ул. Ломоносова",
+    "store_id": "store-012",
+    "store_name": "Большая Пикча — Магазин на наб. Красногвардейская",
     "store_network": "Большая Пикча",
     "location": {
       "country": "Россия",
-      "city": "с. Кабанск",
-      "street": "бул. Торговый",
-      "house": "447",
-      "postal_code": "208629",
+      "city": "клх Белый Яр (Томск.)",
+      "street": "наб. Целинная",
+      "house": "5",
+      "postal_code": "163512",
       "coordinates": {
-        "latitude": 66.8270835,
-        "longitude": 20.541815
+        "latitude": -24.8638755,
+        "longitude": -52.430567
       }
     }
   },
   "items": [
     {
-      "product_id": "prd-1006",
-      "name": "Вытаскивать Плод",
+      "product_id": "prd-1017",
+      "name": "Народ Построить",
       "category": "🍏 Фрукты и ягоды",
       "quantity": 2,
-      "unit": "упаковка",
-      "price_per_unit": 123.36,
-      "total_price": 246.72,
+      "unit": "шт",
+      "price_per_unit": 178.6,
+      "total_price": 357.2,
       "kbju": {
-        "calories": 124.2,
-        "protein": 11.3,
-        "fat": 2.6,
-        "carbohydrates": 42.9
+        "calories": 256.8,
+        "protein": 17.5,
+        "fat": 12.2,
+        "carbohydrates": 17.7
       },
       "manufacturer": {
-        "name": "ИП «Емельянов-Наумова»",
+        "name": "Корнилов и партнеры",
         "country": "Россия",
-        "website": "https://npo.edu",
-        "inn": "9973742158"
-      }
-    },
-    {
-      "product_id": "prd-1004",
-      "name": "Написать Актриса",
-      "category": "🍏 Фрукты и ягоды",
-      "quantity": 4,
-      "unit": "кг",
-      "price_per_unit": 247.9,
-      "total_price": 991.6,
-      "kbju": {
-        "calories": 90.5,
-        "protein": 3.5,
-        "fat": 0.2,
-        "carbohydrates": 19.9
-      },
-      "manufacturer": {
-        "name": "Ферронордик машины (Ferronordic)",
-        "country": "Россия",
-        "website": "https://kulikova.net",
-        "inn": "5999502719"
+        "website": "https://rao.org",
+        "inn": "2545527642"
       }
     }
   ],
-  "total_amount": 1238.32,
+  "total_amount": 357.2,
   "payment_method": "cash",
   "is_delivery": true,
   "delivery_address": {
     "country": "Россия",
-    "city": "п. Курумкан",
-    "street": "пер. Лесный",
-    "house": "3/9",
-    "apartment": "46",
-    "postal_code": "741876"
+    "city": "д. Нерчинск",
+    "street": "наб. Щорса",
+    "house": "829",
+    "apartment": "56",
+    "postal_code": "543297"
   },
-  "purchase_datetime": "2025-07-29T00:21:06.240794"
+  "purchase_datetime": "2025-07-06T11:36:53.698827"
 }

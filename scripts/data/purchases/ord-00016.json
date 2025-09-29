@@ -1,63 +1,84 @@
 {
   "purchase_id": "ord-00016",
   "customer": {
-    "customer_id": "cus-1022",
-    "first_name": "Селиверст",
-    "last_name": "Мельникова",
-    "email": "zinovevaivanna@example.org",
-    "phone": "83922236291",
+    "customer_id": "cus-1043",
+    "first_name": "Артемий",
+    "last_name": "Гурьев",
+    "email": "ilinfeoktist@example.org",
+    "phone": "+7 (521) 181-86-39",
     "is_loyalty_member": true,
-    "loyalty_card_number": "LOYAL-4245591696"
+    "loyalty_card_number": "LOYAL-E6A14270B7"
   },
   "store": {
-    "store_id": "store-038",
-    "store_name": "Маленькая Пикча — Магазин на ш. Шахтерское",
-    "store_network": "Маленькая Пикча",
+    "store_id": "store-026",
+    "store_name": "Большая Пикча — Магазин на пер. Подлесный",
+    "store_network": "Большая Пикча",
     "location": {
       "country": "Россия",
-      "city": "д. Сосновый Бор",
-      "street": "пр. Новый",
-      "house": "8",
-      "postal_code": "442480",
+      "city": "г. Малоярославец",
+      "street": "ул. Гастелло",
+      "house": "551",
+      "postal_code": "122174",
       "coordinates": {
-        "latitude": -48.355729,
-        "longitude": -128.321237
+        "latitude": -36.7906745,
+        "longitude": -156.169191
       }
     }
   },
   "items": [
     {
-      "product_id": "prd-1013",
-      "name": "Полюбить Руководитель",
-      "category": "🥦 Овощи и зелень",
-      "quantity": 3,
-      "unit": "шт",
-      "price_per_unit": 223.19,
-      "total_price": 669.57,
+      "product_id": "prd-1015",
+      "name": "Табак Госпожа",
+      "category": "🥛 Молочные продукты",
+      "quantity": 2,
+      "unit": "л",
+      "price_per_unit": 235.2,
+      "total_price": 470.4,
       "kbju": {
-        "calories": 249.4,
-        "protein": 17.6,
-        "fat": 5.6,
-        "carbohydrates": 43.3
+        "calories": 99.6,
+        "protein": 9.1,
+        "fat": 4.4,
+        "carbohydrates": 37.7
       },
       "manufacturer": {
-        "name": "Профитмед",
+        "name": "ИП «Куликов, Степанов и Соболева»",
         "country": "Россия",
-        "website": "https://npo.edu",
-        "inn": "4153799624"
+        "website": "https://rjabov.info",
+        "inn": "9167946809"
+      }
+    },
+    {
+      "product_id": "prd-1007",
+      "name": "Интеллектуальный Около",
+      "category": "🥛 Молочные продукты",
+      "quantity": 2,
+      "unit": "шт",
+      "price_per_unit": 147.81,
+      "total_price": 295.62,
+      "kbju": {
+        "calories": 87.6,
+        "protein": 12.8,
+        "fat": 14.2,
+        "carbohydrates": 17.0
+      },
+      "manufacturer": {
+        "name": "ОАО «Владимирова Богданова»",
+        "country": "Россия",
+        "website": "https://ip.info",
+        "inn": "3430882539"
       }
     }
   ],
-  "total_amount": 669.57,
-  "payment_method": "cash",
-  "is_delivery": false,
+  "total_amount": 766.02,
+  "payment_method": "card",
+  "is_delivery": true,
   "delivery_address": {
     "country": "Россия",
-    "city": "с. Владикавказ",
-    "street": "пр. Ключевой",
-    "house": "860",
-    "apartment": "15",
-    "postal_code": "332731"
+    "city": "д. Нерчинск",
+    "street": "наб. Щорса",
+    "house": "829",
+    "apartment": "56",
+    "postal_code": "543297"
   },
-  "purchase_datetime": "2025-09-10T00:21:05.925346"
+  "purchase_datetime": "2025-08-06T11:36:53.635997"
 }

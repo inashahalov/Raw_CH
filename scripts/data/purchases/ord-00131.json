@@ -1,63 +1,84 @@
 {
   "purchase_id": "ord-00131",
   "customer": {
-    "customer_id": "cus-1031",
-    "first_name": "Валентин",
-    "last_name": "Михайлова",
-    "email": "maksim2011@example.com",
-    "phone": "+70563049404",
+    "customer_id": "cus-1027",
+    "first_name": "Аникита",
+    "last_name": "Дьячков",
+    "email": "savvatisuvorov@example.org",
+    "phone": "+7 325 954 4048",
     "is_loyalty_member": true,
-    "loyalty_card_number": "LOYAL-BBFFDEC266"
+    "loyalty_card_number": "LOYAL-ED07FB2A7C"
   },
   "store": {
-    "store_id": "store-035",
-    "store_name": "Маленькая Пикча — Магазин на наб. Ворошилова",
-    "store_network": "Маленькая Пикча",
+    "store_id": "store-014",
+    "store_name": "Большая Пикча — Магазин на пер. Чернышевского",
+    "store_network": "Большая Пикча",
     "location": {
       "country": "Россия",
-      "city": "п. Нерчинск",
-      "street": "алл. Кольцевая",
-      "house": "4/5",
-      "postal_code": "684320",
+      "city": "с. Моршанск",
+      "street": "ул. Слободская",
+      "house": "79",
+      "postal_code": "754375",
       "coordinates": {
-        "latitude": -40.406792,
-        "longitude": -57.258998
+        "latitude": 86.0330465,
+        "longitude": -5.847204
       }
     }
   },
   "items": [
     {
-      "product_id": "prd-1010",
-      "name": "Мгновение Вряд",
-      "category": "🥦 Овощи и зелень",
-      "quantity": 3,
-      "unit": "кг",
-      "price_per_unit": 149.03,
-      "total_price": 447.09,
+      "product_id": "prd-1014",
+      "name": "Спичка Носок",
+      "category": "🍏 Фрукты и ягоды",
+      "quantity": 5,
+      "unit": "шт",
+      "price_per_unit": 180.19,
+      "total_price": 900.95,
       "kbju": {
-        "calories": 186.1,
-        "protein": 15.0,
-        "fat": 10.1,
-        "carbohydrates": 27.3
+        "calories": 248.0,
+        "protein": 12.3,
+        "fat": 6.8,
+        "carbohydrates": 5.2
       },
       "manufacturer": {
-        "name": "ИП «Блохина-Гаврилов»",
+        "name": "КДВ Групп",
         "country": "Россия",
-        "website": "https://oao.com",
-        "inn": "1245272063"
+        "website": "https://nizhfarm.com",
+        "inn": "8186530463"
+      }
+    },
+    {
+      "product_id": "prd-1016",
+      "name": "Ребятишки Лететь",
+      "category": "🥦 Овощи и зелень",
+      "quantity": 2,
+      "unit": "шт",
+      "price_per_unit": 266.18,
+      "total_price": 532.36,
+      "kbju": {
+        "calories": 249.2,
+        "protein": 2.2,
+        "fat": 4.1,
+        "carbohydrates": 29.2
+      },
+      "manufacturer": {
+        "name": "АО «Быкова, Наумов и Фадеев»",
+        "country": "Россия",
+        "website": "https://rao.ru",
+        "inn": "1171341012"
       }
     }
   ],
-  "total_amount": 447.09,
+  "total_amount": 1433.31,
   "payment_method": "card",
   "is_delivery": true,
   "delivery_address": {
     "country": "Россия",
-    "city": "к. Сыктывкар",
-    "street": "ул. Путейская",
-    "house": "320",
-    "apartment": "35",
-    "postal_code": "558591"
+    "city": "д. Котлас",
+    "street": "ш. Приозерное",
+    "house": "4/2",
+    "apartment": "100",
+    "postal_code": "604457"
   },
-  "purchase_datetime": "2025-08-10T00:21:05.974774"
+  "purchase_datetime": "2025-08-02T11:36:53.678020"
 }

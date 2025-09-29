@@ -1,6 +1,6 @@
 {
   "store_id": "store-006",
-  "store_name": "Большая Пикча — Магазин на ш. Базарное",
+  "store_name": "Большая Пикча — Магазин на пр. Леваневского",
   "store_network": "Большая Пикча",
   "store_type_description": "Супермаркет более 200 кв.м. Входит в сеть из 30 магазинов.",
   "type": "offline",
@@ -12,19 +12,19 @@
     "🥦 Овощи и зелень"
   ],
   "manager": {
-    "name": "Наина Рубеновна Копылова",
-    "phone": "8 (286) 495-1299",
-    "email": "luka_97@example.com"
+    "name": "Горшкова Пелагея Валериевна",
+    "phone": "+72971837153",
+    "email": "evseevfilaret@example.com"
   },
   "location": {
     "country": "Россия",
-    "city": "г. Новомосковск",
-    "street": "бул. Волкова",
-    "house": "6",
-    "postal_code": "811518",
+    "city": "ст. Губкин",
+    "street": "ш. Луговое",
+    "house": "952",
+    "postal_code": "282523",
     "coordinates": {
-      "latitude": -73.791002,
-      "longitude": -108.701609
+      "latitude": 5.8483085,
+      "longitude": 17.738948
     }
   },
   "opening_hours": {
@@ -35,5 +35,5 @@
   "accepts_online_orders": true,
   "delivery_available": true,
   "warehouse_connected": true,
-  "last_inventory_date": "2025-09-25"
+  "last_inventory_date": "2025-09-29"
 }

@@ -1,105 +1,105 @@
 {
   "purchase_id": "ord-00076",
   "customer": {
-    "customer_id": "cus-1032",
-    "first_name": "Лора",
-    "last_name": "Быков",
-    "email": "miroslav_00@example.com",
-    "phone": "+7 505 315 33 58",
+    "customer_id": "cus-1008",
+    "first_name": "Митофан",
+    "last_name": "Воронцов",
+    "email": "feofan20@example.org",
+    "phone": "87682311561",
     "is_loyalty_member": true,
-    "loyalty_card_number": "LOYAL-8CCE31EB22"
+    "loyalty_card_number": "LOYAL-7C918DCCDB"
   },
   "store": {
-    "store_id": "store-006",
-    "store_name": "Большая Пикча — Магазин на ш. Базарное",
-    "store_network": "Большая Пикча",
+    "store_id": "store-042",
+    "store_name": "Маленькая Пикча — Магазин на пр. Льва Толстого",
+    "store_network": "Маленькая Пикча",
     "location": {
       "country": "Россия",
-      "city": "г. Новомосковск",
-      "street": "бул. Волкова",
-      "house": "6",
-      "postal_code": "811518",
+      "city": "с. Любань",
+      "street": "ш. М.Горького",
+      "house": "45",
+      "postal_code": "169119",
       "coordinates": {
-        "latitude": -73.791002,
-        "longitude": -108.701609
+        "latitude": 73.7860975,
+        "longitude": 53.061392
       }
     }
   },
   "items": [
     {
-      "product_id": "prd-1010",
-      "name": "Мгновение Вряд",
-      "category": "🥦 Овощи и зелень",
-      "quantity": 1,
-      "unit": "кг",
-      "price_per_unit": 149.03,
-      "total_price": 149.03,
-      "kbju": {
-        "calories": 186.1,
-        "protein": 15.0,
-        "fat": 10.1,
-        "carbohydrates": 27.3
-      },
-      "manufacturer": {
-        "name": "ИП «Блохина-Гаврилов»",
-        "country": "Россия",
-        "website": "https://oao.com",
-        "inn": "1245272063"
-      }
-    },
-    {
-      "product_id": "prd-1019",
-      "name": "Сынок Обида",
+      "product_id": "prd-1017",
+      "name": "Народ Построить",
       "category": "🍏 Фрукты и ягоды",
-      "quantity": 1,
-      "unit": "кг",
-      "price_per_unit": 86.19,
-      "total_price": 86.19,
-      "kbju": {
-        "calories": 224.4,
-        "protein": 5.9,
-        "fat": 13.9,
-        "carbohydrates": 7.6
-      },
-      "manufacturer": {
-        "name": "ООО «Шилов-Константинова»",
-        "country": "Россия",
-        "website": "https://ooo.org",
-        "inn": "6666152301"
-      }
-    },
-    {
-      "product_id": "prd-1016",
-      "name": "Школьный Очко",
-      "category": "🥖 Зерновые и хлебобулочные изделия",
       "quantity": 5,
       "unit": "шт",
-      "price_per_unit": 295.13,
-      "total_price": 1475.65,
+      "price_per_unit": 178.6,
+      "total_price": 893.0,
       "kbju": {
-        "calories": 156.7,
-        "protein": 8.3,
-        "fat": 6.7,
-        "carbohydrates": 49.1
+        "calories": 256.8,
+        "protein": 17.5,
+        "fat": 12.2,
+        "carbohydrates": 17.7
       },
       "manufacturer": {
-        "name": "РАО «Марков»",
+        "name": "Корнилов и партнеры",
         "country": "Россия",
-        "website": "https://argos.org",
-        "inn": "6328136246"
+        "website": "https://rao.org",
+        "inn": "2545527642"
+      }
+    },
+    {
+      "product_id": "prd-1004",
+      "name": "Заявление Шлем",
+      "category": "🥩 Мясо, рыба, яйца и бобовые",
+      "quantity": 2,
+      "unit": "упаковка",
+      "price_per_unit": 261.08,
+      "total_price": 522.16,
+      "kbju": {
+        "calories": 178.3,
+        "protein": 8.6,
+        "fat": 9.2,
+        "carbohydrates": 12.8
+      },
+      "manufacturer": {
+        "name": "ОАО «Орлов Попова»",
+        "country": "Россия",
+        "website": "https://metallservis.ru",
+        "inn": "4728731918"
+      }
+    },
+    {
+      "product_id": "prd-1014",
+      "name": "Спичка Носок",
+      "category": "🍏 Фрукты и ягоды",
+      "quantity": 2,
+      "unit": "шт",
+      "price_per_unit": 180.19,
+      "total_price": 360.38,
+      "kbju": {
+        "calories": 248.0,
+        "protein": 12.3,
+        "fat": 6.8,
+        "carbohydrates": 5.2
+      },
+      "manufacturer": {
+        "name": "КДВ Групп",
+        "country": "Россия",
+        "website": "https://nizhfarm.com",
+        "inn": "8186530463"
       }
     }
   ],
-  "total_amount": 1710.87,
-  "payment_method": "card",
+  "total_amount": 1775.54,
+  "payment_method": "cash",
   "is_delivery": true,
   "delivery_address": {
     "country": "Россия",
-    "city": "к. Анадырь",
-    "street": "ш. Заовражное",
-    "house": "3",
-    "apartment": "69",
-    "postal_code": "143303"
+    "city": "с. Ростов-на-Дону",
+    "street": "ул. Окружная",
+    "house": "658",
+    "apartment": "46",
+    "postal_code": "091436"
   },
-  "purchase_datetime": "2025-08-16T00:21:05.949810"
+  "purchase_datetime": "2025-07-25T11:36:53.658271"
 }

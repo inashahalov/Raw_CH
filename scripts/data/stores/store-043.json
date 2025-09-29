@@ -1,6 +1,6 @@
 {
   "store_id": "store-043",
-  "store_name": "Маленькая Пикча — Магазин на алл. Сенная",
+  "store_name": "Маленькая Пикча — Магазин на наб. Пограничная",
   "store_network": "Маленькая Пикча",
   "store_type_description": "Магазин у дома менее 100 кв.м. Входит в сеть из 15 магазинов.",
   "type": "offline",
@@ -12,19 +12,19 @@
     "🥦 Овощи и зелень"
   ],
   "manager": {
-    "name": "Афиноген Валерианович Виноградов",
-    "phone": "+7 986 529 36 28",
-    "email": "sidor_99@example.org"
+    "name": "Никон Ааронович Громов",
+    "phone": "+7 (494) 208-36-69",
+    "email": "kudrjashovsila@example.net"
   },
   "location": {
     "country": "Россия",
-    "city": "г. Кириши",
-    "street": "бул. Карла Либкнехта",
-    "house": "309",
-    "postal_code": "690237",
+    "city": "клх Ясный (Оренб.)",
+    "street": "пер. Ленинский",
+    "house": "8/6",
+    "postal_code": "274845",
     "coordinates": {
-      "latitude": 82.5789505,
-      "longitude": 15.979647
+      "latitude": -0.776416,
+      "longitude": -67.21301
     }
   },
   "opening_hours": {
@@ -34,6 +34,6 @@
   },
   "accepts_online_orders": true,
   "delivery_available": true,
-  "warehouse_connected": true,
-  "last_inventory_date": "2025-09-25"
+  "warehouse_connected": false,
+  "last_inventory_date": "2025-09-29"
 }

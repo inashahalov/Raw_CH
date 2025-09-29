@@ -1,6 +1,6 @@
 {
   "store_id": "store-035",
-  "store_name": "Маленькая Пикча — Магазин на наб. Ворошилова",
+  "store_name": "Маленькая Пикча — Магазин на пр. Макарова",
   "store_network": "Маленькая Пикча",
   "store_type_description": "Магазин у дома менее 100 кв.м. Входит в сеть из 15 магазинов.",
   "type": "offline",
@@ -12,19 +12,19 @@
     "🥦 Овощи и зелень"
   ],
   "manager": {
-    "name": "Прасковья Тарасовна Куликова",
-    "phone": "8 240 875 9080",
-    "email": "prohoregorov@example.com"
+    "name": "Викторин Анисимович Филатов",
+    "phone": "+7 866 004 6646",
+    "email": "kazakovkonstantin@example.org"
   },
   "location": {
     "country": "Россия",
-    "city": "п. Нерчинск",
-    "street": "алл. Кольцевая",
-    "house": "4/5",
-    "postal_code": "684320",
+    "city": "п. Благовещенск (Амур.)",
+    "street": "ул. Станционная",
+    "house": "23",
+    "postal_code": "496119",
     "coordinates": {
-      "latitude": -40.406792,
-      "longitude": -57.258998
+      "latitude": 23.703187,
+      "longitude": -137.223537
     }
   },
   "opening_hours": {
@@ -34,6 +34,6 @@
   },
   "accepts_online_orders": true,
   "delivery_available": true,
-  "warehouse_connected": true,
-  "last_inventory_date": "2025-09-25"
+  "warehouse_connected": false,
+  "last_inventory_date": "2025-09-29"
 }

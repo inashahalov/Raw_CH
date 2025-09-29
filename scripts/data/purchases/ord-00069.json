@@ -2,104 +2,104 @@
   "purchase_id": "ord-00069",
   "customer": {
     "customer_id": "cus-1029",
-    "first_name": "Галактион",
-    "last_name": "Якушев",
-    "email": "suvorovatamara@example.org",
-    "phone": "8 205 376 53 36",
+    "first_name": "Фёкла",
+    "last_name": "Павлова",
+    "email": "korolevmatve@example.net",
+    "phone": "8 (039) 553-75-72",
     "is_loyalty_member": true,
-    "loyalty_card_number": "LOYAL-F751FCD478"
+    "loyalty_card_number": "LOYAL-0B03221276"
   },
   "store": {
-    "store_id": "store-043",
-    "store_name": "Маленькая Пикча — Магазин на алл. Сенная",
+    "store_id": "store-039",
+    "store_name": "Маленькая Пикча — Магазин на пер. Каштановый",
     "store_network": "Маленькая Пикча",
     "location": {
       "country": "Россия",
-      "city": "г. Кириши",
-      "street": "бул. Карла Либкнехта",
-      "house": "309",
-      "postal_code": "690237",
+      "city": "ст. Новый Уренгой",
+      "street": "наб. Радищева",
+      "house": "1/1",
+      "postal_code": "295294",
       "coordinates": {
-        "latitude": 82.5789505,
-        "longitude": 15.979647
+        "latitude": 88.779798,
+        "longitude": 56.564926
       }
     }
   },
   "items": [
     {
-      "product_id": "prd-1018",
-      "name": "Зачем Пол",
-      "category": "🍏 Фрукты и ягоды",
-      "quantity": 3,
-      "unit": "кг",
-      "price_per_unit": 247.99,
-      "total_price": 743.97,
-      "kbju": {
-        "calories": 236.7,
-        "protein": 5.8,
-        "fat": 10.9,
-        "carbohydrates": 13.1
-      },
-      "manufacturer": {
-        "name": "ОАО «Панов-Воробьева»",
-        "country": "Россия",
-        "website": "https://rao.edu",
-        "inn": "5397679829"
-      }
-    },
-    {
-      "product_id": "prd-1006",
-      "name": "Вытаскивать Плод",
+      "product_id": "prd-1014",
+      "name": "Спичка Носок",
       "category": "🍏 Фрукты и ягоды",
       "quantity": 1,
-      "unit": "упаковка",
-      "price_per_unit": 123.36,
-      "total_price": 123.36,
+      "unit": "шт",
+      "price_per_unit": 180.19,
+      "total_price": 180.19,
       "kbju": {
-        "calories": 124.2,
-        "protein": 11.3,
-        "fat": 2.6,
-        "carbohydrates": 42.9
+        "calories": 248.0,
+        "protein": 12.3,
+        "fat": 6.8,
+        "carbohydrates": 5.2
       },
       "manufacturer": {
-        "name": "ИП «Емельянов-Наумова»",
+        "name": "КДВ Групп",
         "country": "Россия",
-        "website": "https://npo.edu",
-        "inn": "9973742158"
+        "website": "https://nizhfarm.com",
+        "inn": "8186530463"
       }
     },
     {
-      "product_id": "prd-1010",
-      "name": "Мгновение Вряд",
-      "category": "🥦 Овощи и зелень",
-      "quantity": 2,
-      "unit": "кг",
-      "price_per_unit": 149.03,
-      "total_price": 298.06,
+      "product_id": "prd-1019",
+      "name": "Разводить Подробность",
+      "category": "🥖 Зерновые и хлебобулочные изделия",
+      "quantity": 3,
+      "unit": "шт",
+      "price_per_unit": 202.14,
+      "total_price": 606.42,
       "kbju": {
-        "calories": 186.1,
-        "protein": 15.0,
-        "fat": 10.1,
-        "carbohydrates": 27.3
+        "calories": 104.0,
+        "protein": 4.5,
+        "fat": 1.3,
+        "carbohydrates": 30.3
       },
       "manufacturer": {
-        "name": "ИП «Блохина-Гаврилов»",
+        "name": "АО «Филатов, Гусев и Рябов»",
         "country": "Россия",
         "website": "https://oao.com",
-        "inn": "1245272063"
+        "inn": "8155112705"
+      }
+    },
+    {
+      "product_id": "prd-1009",
+      "name": "Выдержать Карман",
+      "category": "🥛 Молочные продукты",
+      "quantity": 2,
+      "unit": "кг",
+      "price_per_unit": 193.21,
+      "total_price": 386.42,
+      "kbju": {
+        "calories": 234.5,
+        "protein": 3.6,
+        "fat": 14.6,
+        "carbohydrates": 4.9
+      },
+      "manufacturer": {
+        "name": "Романова и партнеры",
+        "country": "Россия",
+        "website": "https://npo.biz",
+        "inn": "4877305481"
       }
     }
   ],
-  "total_amount": 1165.39,
-  "payment_method": "card",
-  "is_delivery": true,
+  "total_amount": 1173.03,
+  "payment_method": "cash",
+  "is_delivery": false,
   "delivery_address": {
     "country": "Россия",
-    "city": "д. Учалы",
-    "street": "бул. Луначарского",
-    "house": "429",
-    "apartment": "41",
-    "postal_code": "355652"
+    "city": "п. Калининград",
+    "street": "наб. Коминтерна",
+    "house": "4/2",
+    "apartment": "74",
+    "postal_code": "481707"
   },
-  "purchase_datetime": "2025-08-11T00:21:05.946932"
+  "purchase_datetime": "2025-09-07T11:36:53.655861"
 }

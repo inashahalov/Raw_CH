@@ -1,84 +1,105 @@
 {
   "purchase_id": "ord-00095",
   "customer": {
-    "customer_id": "cus-1035",
-    "first_name": "Станимир",
-    "last_name": "Семенов",
-    "email": "lukija2011@example.com",
-    "phone": "+7 (312) 285-31-25",
+    "customer_id": "cus-1027",
+    "first_name": "Аникита",
+    "last_name": "Дьячков",
+    "email": "savvatisuvorov@example.org",
+    "phone": "+7 325 954 4048",
     "is_loyalty_member": true,
-    "loyalty_card_number": "LOYAL-E7C27EFAE9"
+    "loyalty_card_number": "LOYAL-ED07FB2A7C"
   },
   "store": {
-    "store_id": "store-040",
-    "store_name": "Маленькая Пикча — Магазин на алл. Ушакова",
+    "store_id": "store-039",
+    "store_name": "Маленькая Пикча — Магазин на пер. Каштановый",
     "store_network": "Маленькая Пикча",
     "location": {
       "country": "Россия",
-      "city": "д. Гатчина",
-      "street": "бул. Широкий",
-      "house": "64",
-      "postal_code": "922449",
+      "city": "ст. Новый Уренгой",
+      "street": "наб. Радищева",
+      "house": "1/1",
+      "postal_code": "295294",
       "coordinates": {
-        "latitude": -0.667882,
-        "longitude": 129.214545
+        "latitude": 88.779798,
+        "longitude": 56.564926
       }
     }
   },
   "items": [
     {
-      "product_id": "prd-1008",
-      "name": "Освободить Призыв",
-      "category": "🥩 Мясо, рыба, яйца и бобовые",
-      "quantity": 1,
-      "unit": "л",
-      "price_per_unit": 265.49,
-      "total_price": 265.49,
+      "product_id": "prd-1017",
+      "name": "Народ Построить",
+      "category": "🍏 Фрукты и ягоды",
+      "quantity": 5,
+      "unit": "шт",
+      "price_per_unit": 178.6,
+      "total_price": 893.0,
       "kbju": {
-        "calories": 130.4,
-        "protein": 5.2,
-        "fat": 10.6,
-        "carbohydrates": 22.8
+        "calories": 256.8,
+        "protein": 17.5,
+        "fat": 12.2,
+        "carbohydrates": 17.7
       },
       "manufacturer": {
-        "name": "ИП «Маслова, Денисов и Фокина»",
+        "name": "Корнилов и партнеры",
         "country": "Россия",
-        "website": "https://ignatev.com",
-        "inn": "7104068639"
+        "website": "https://rao.org",
+        "inn": "2545527642"
       }
     },
     {
-      "product_id": "prd-1006",
-      "name": "Вытаскивать Плод",
-      "category": "🍏 Фрукты и ягоды",
-      "quantity": 2,
-      "unit": "упаковка",
-      "price_per_unit": 123.36,
-      "total_price": 246.72,
+      "product_id": "prd-1009",
+      "name": "Выдержать Карман",
+      "category": "🥛 Молочные продукты",
+      "quantity": 1,
+      "unit": "кг",
+      "price_per_unit": 193.21,
+      "total_price": 193.21,
       "kbju": {
-        "calories": 124.2,
-        "protein": 11.3,
-        "fat": 2.6,
-        "carbohydrates": 42.9
+        "calories": 234.5,
+        "protein": 3.6,
+        "fat": 14.6,
+        "carbohydrates": 4.9
       },
       "manufacturer": {
-        "name": "ИП «Емельянов-Наумова»",
+        "name": "Романова и партнеры",
         "country": "Россия",
-        "website": "https://npo.edu",
-        "inn": "9973742158"
+        "website": "https://npo.biz",
+        "inn": "4877305481"
+      }
+    },
+    {
+      "product_id": "prd-1004",
+      "name": "Заявление Шлем",
+      "category": "🥩 Мясо, рыба, яйца и бобовые",
+      "quantity": 2,
+      "unit": "упаковка",
+      "price_per_unit": 261.08,
+      "total_price": 522.16,
+      "kbju": {
+        "calories": 178.3,
+        "protein": 8.6,
+        "fat": 9.2,
+        "carbohydrates": 12.8
+      },
+      "manufacturer": {
+        "name": "ОАО «Орлов Попова»",
+        "country": "Россия",
+        "website": "https://metallservis.ru",
+        "inn": "4728731918"
       }
     }
   ],
-  "total_amount": 512.21,
-  "payment_method": "cash",
+  "total_amount": 1608.37,
+  "payment_method": "card",
   "is_delivery": true,
   "delivery_address": {
     "country": "Россия",
-    "city": "д. Екатеринбург",
-    "street": "ш. Макарова",
-    "house": "31",
-    "apartment": "92",
-    "postal_code": "809342"
+    "city": "д. Котлас",
+    "street": "ш. Приозерное",
+    "house": "4/2",
+    "apartment": "100",
+    "postal_code": "604457"
   },
-  "purchase_datetime": "2025-09-23T00:21:05.957436"
+  "purchase_datetime": "2025-08-18T11:36:53.665428"
 }

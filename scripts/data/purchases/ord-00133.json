@@ -1,84 +1,84 @@
 {
   "purchase_id": "ord-00133",
   "customer": {
-    "customer_id": "cus-1029",
-    "first_name": "Галактион",
-    "last_name": "Якушев",
-    "email": "suvorovatamara@example.org",
-    "phone": "8 205 376 53 36",
+    "customer_id": "cus-1032",
+    "first_name": "Мариан",
+    "last_name": "Вишняков",
+    "email": "jakov80@example.com",
+    "phone": "8 675 870 6492",
     "is_loyalty_member": true,
-    "loyalty_card_number": "LOYAL-F751FCD478"
+    "loyalty_card_number": "LOYAL-3EB29158E4"
   },
   "store": {
-    "store_id": "store-026",
-    "store_name": "Большая Пикча — Магазин на наб. Горная",
+    "store_id": "store-027",
+    "store_name": "Большая Пикча — Магазин на пер. Крестьянский",
     "store_network": "Большая Пикча",
     "location": {
       "country": "Россия",
-      "city": "с. Нижневартовск",
-      "street": "пер. Дарвина",
-      "house": "8",
-      "postal_code": "513083",
+      "city": "ст. Нальчик",
+      "street": "ш. Химиков",
+      "house": "34",
+      "postal_code": "699126",
       "coordinates": {
-        "latitude": -78.2781365,
-        "longitude": -138.552401
+        "latitude": 17.3697085,
+        "longitude": -102.433166
       }
     }
   },
   "items": [
     {
-      "product_id": "prd-1011",
-      "name": "Привлекать Пол",
-      "category": "🥩 Мясо, рыба, яйца и бобовые",
+      "product_id": "prd-1002",
+      "name": "Манера Остановить",
+      "category": "🥛 Молочные продукты",
       "quantity": 5,
-      "unit": "л",
-      "price_per_unit": 85.86,
-      "total_price": 429.3,
+      "unit": "кг",
+      "price_per_unit": 49.56,
+      "total_price": 247.8,
       "kbju": {
-        "calories": 65.4,
+        "calories": 233.3,
         "protein": 5.6,
-        "fat": 1.9,
-        "carbohydrates": 24.1
+        "fat": 13.1,
+        "carbohydrates": 34.2
       },
       "manufacturer": {
-        "name": "ИП «Галкина-Терентьев»",
+        "name": "АО «Вишнякова-Устинова»",
         "country": "Россия",
-        "website": "https://rao.ru",
-        "inn": "5528391758"
+        "website": "https://efimov.ru",
+        "inn": "0302933009"
       }
     },
     {
-      "product_id": "prd-1019",
-      "name": "Сынок Обида",
-      "category": "🍏 Фрукты и ягоды",
-      "quantity": 1,
-      "unit": "кг",
-      "price_per_unit": 86.19,
-      "total_price": 86.19,
+      "product_id": "prd-1012",
+      "name": "Торговля Счастье",
+      "category": "🥖 Зерновые и хлебобулочные изделия",
+      "quantity": 5,
+      "unit": "л",
+      "price_per_unit": 70.91,
+      "total_price": 354.55,
       "kbju": {
-        "calories": 224.4,
-        "protein": 5.9,
-        "fat": 13.9,
-        "carbohydrates": 7.6
+        "calories": 149.8,
+        "protein": 5.8,
+        "fat": 6.3,
+        "carbohydrates": 24.8
       },
       "manufacturer": {
-        "name": "ООО «Шилов-Константинова»",
+        "name": "НПО «Некрасова»",
         "country": "Россия",
-        "website": "https://ooo.org",
-        "inn": "6666152301"
+        "website": "https://ao.org",
+        "inn": "8419489062"
       }
     }
   ],
-  "total_amount": 515.49,
-  "payment_method": "card",
+  "total_amount": 602.35,
+  "payment_method": "cash",
   "is_delivery": true,
   "delivery_address": {
     "country": "Россия",
-    "city": "д. Учалы",
-    "street": "бул. Луначарского",
-    "house": "429",
-    "apartment": "41",
-    "postal_code": "355652"
+    "city": "к. Арзамас",
+    "street": "бул. Степана Разина",
+    "house": "174",
+    "apartment": "19",
+    "postal_code": "658013"
   },
-  "purchase_datetime": "2025-07-04T00:21:05.982019"
+  "purchase_datetime": "2025-09-17T11:36:53.678679"
 }

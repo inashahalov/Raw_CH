@@ -1,36 +1,36 @@
 {
   "customer_id": "cus-1029",
-  "first_name": "Галактион",
-  "last_name": "Якушев",
-  "email": "suvorovatamara@example.org",
-  "phone": "8 205 376 53 36",
-  "birth_date": "1989-12-16",
-  "gender": "male",
-  "registration_date": "2025-09-25T00:21:05.910045",
+  "first_name": "Фёкла",
+  "last_name": "Павлова",
+  "email": "korolevmatve@example.net",
+  "phone": "8 (039) 553-75-72",
+  "birth_date": "1959-01-15",
+  "gender": "female",
+  "registration_date": "2025-09-29T11:36:53.623299",
   "is_loyalty_member": true,
-  "loyalty_card_number": "LOYAL-F751FCD478",
+  "loyalty_card_number": "LOYAL-0B03221276",
   "purchase_location": {
     "store_id": "store-030",
-    "store_name": "Большая Пикча — Магазин на алл. Кузнецкая",
+    "store_name": "Большая Пикча — Магазин на ш. Веселое",
     "store_network": "Большая Пикча",
     "store_type_description": "Супермаркет более 200 кв.м. Входит в сеть из 30 магазинов.",
     "country": "Россия",
-    "city": "д. Учалы",
-    "street": "алл. Димитрова",
-    "house": "3",
-    "postal_code": "234970"
+    "city": "п. Калининград",
+    "street": "ш. Сибирское",
+    "house": "81",
+    "postal_code": "675168"
   },
   "delivery_address": {
     "country": "Россия",
-    "city": "д. Учалы",
-    "street": "бул. Луначарского",
-    "house": "429",
-    "apartment": "41",
-    "postal_code": "355652"
+    "city": "п. Калининград",
+    "street": "наб. Коминтерна",
+    "house": "4/2",
+    "apartment": "74",
+    "postal_code": "481707"
   },
   "preferences": {
     "preferred_language": "ru",
-    "preferred_payment_method": "cash",
-    "receive_promotions": true
+    "preferred_payment_method": "card",
+    "receive_promotions": false
   }
 }

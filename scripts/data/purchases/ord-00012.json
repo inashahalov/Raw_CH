@@ -1,105 +1,84 @@
 {
   "purchase_id": "ord-00012",
   "customer": {
-    "customer_id": "cus-1041",
-    "first_name": "Наум",
-    "last_name": "Симонов",
-    "email": "valentinsharov@example.com",
-    "phone": "89031911463",
+    "customer_id": "cus-1031",
+    "first_name": "Клавдий",
+    "last_name": "Алексеева",
+    "email": "muravevmilan@example.net",
+    "phone": "8 (327) 414-7989",
     "is_loyalty_member": true,
-    "loyalty_card_number": "LOYAL-19C84B142A"
+    "loyalty_card_number": "LOYAL-67B5980854"
   },
   "store": {
-    "store_id": "store-007",
-    "store_name": "Большая Пикча — Магазин на пр. Механический",
+    "store_id": "store-029",
+    "store_name": "Большая Пикча — Магазин на бул. Казанский",
     "store_network": "Большая Пикча",
     "location": {
       "country": "Россия",
-      "city": "клх Шумиха",
-      "street": "бул. Невского",
-      "house": "64",
-      "postal_code": "269152",
+      "city": "клх Углегорск",
+      "street": "бул. Бригадный",
+      "house": "1/9",
+      "postal_code": "536870",
       "coordinates": {
-        "latitude": 39.768381,
-        "longitude": 87.782488
+        "latitude": 86.35557,
+        "longitude": 60.62358
       }
     }
   },
   "items": [
     {
-      "product_id": "prd-1006",
-      "name": "Вытаскивать Плод",
+      "product_id": "prd-1017",
+      "name": "Народ Построить",
       "category": "🍏 Фрукты и ягоды",
-      "quantity": 2,
-      "unit": "упаковка",
-      "price_per_unit": 123.36,
-      "total_price": 246.72,
-      "kbju": {
-        "calories": 124.2,
-        "protein": 11.3,
-        "fat": 2.6,
-        "carbohydrates": 42.9
-      },
-      "manufacturer": {
-        "name": "ИП «Емельянов-Наумова»",
-        "country": "Россия",
-        "website": "https://npo.edu",
-        "inn": "9973742158"
-      }
-    },
-    {
-      "product_id": "prd-1014",
-      "name": "Опасность Следовательно",
-      "category": "🥛 Молочные продукты",
-      "quantity": 1,
-      "unit": "кг",
-      "price_per_unit": 213.21,
-      "total_price": 213.21,
-      "kbju": {
-        "calories": 206.8,
-        "protein": 10.5,
-        "fat": 2.9,
-        "carbohydrates": 6.6
-      },
-      "manufacturer": {
-        "name": "ЗАО «Беляков, Большакова и Князева»",
-        "country": "Россия",
-        "website": "https://npo.com",
-        "inn": "0149036081"
-      }
-    },
-    {
-      "product_id": "prd-1013",
-      "name": "Полюбить Руководитель",
-      "category": "🥦 Овощи и зелень",
       "quantity": 5,
       "unit": "шт",
-      "price_per_unit": 223.19,
-      "total_price": 1115.95,
+      "price_per_unit": 178.6,
+      "total_price": 893.0,
       "kbju": {
-        "calories": 249.4,
-        "protein": 17.6,
-        "fat": 5.6,
-        "carbohydrates": 43.3
+        "calories": 256.8,
+        "protein": 17.5,
+        "fat": 12.2,
+        "carbohydrates": 17.7
       },
       "manufacturer": {
-        "name": "Профитмед",
+        "name": "Корнилов и партнеры",
         "country": "Россия",
-        "website": "https://npo.edu",
-        "inn": "4153799624"
+        "website": "https://rao.org",
+        "inn": "2545527642"
+      }
+    },
+    {
+      "product_id": "prd-1000",
+      "name": "Грустный Дружно",
+      "category": "🥦 Овощи и зелень",
+      "quantity": 2,
+      "unit": "кг",
+      "price_per_unit": 234.69,
+      "total_price": 469.38,
+      "kbju": {
+        "calories": 142.2,
+        "protein": 13.1,
+        "fat": 11.7,
+        "carbohydrates": 10.2
+      },
+      "manufacturer": {
+        "name": "АО «Чернов Сафонова»",
+        "country": "Россия",
+        "website": "https://kolobov.info",
+        "inn": "5863746288"
       }
     }
   ],
-  "total_amount": 1575.88,
-  "payment_method": "cash",
+  "total_amount": 1362.38,
+  "payment_method": "card",
   "is_delivery": true,
   "delivery_address": {
     "country": "Россия",
-    "city": "с. Хасан",
-    "street": "ш. Виноградное",
-    "house": "764",
-    "apartment": "39",
-    "postal_code": "845061"
+    "city": "с. Кизилюрт",
+    "street": "пр. Труда",
+    "house": "479",
+    "apartment": "84",
+    "postal_code": "734800"
   },
-  "purchase_datetime": "2025-09-24T00:21:05.923726"
+  "purchase_datetime": "2025-08-09T11:36:53.634364"
 }

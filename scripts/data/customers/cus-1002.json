@@ -1,36 +1,36 @@
 {
   "customer_id": "cus-1002",
-  "first_name": "Мокей",
-  "last_name": "Ильина",
-  "email": "nikola_2019@example.com",
-  "phone": "8 (913) 273-0912",
-  "birth_date": "2001-03-04",
-  "gender": "female",
-  "registration_date": "2025-09-25T00:21:05.892440",
+  "first_name": "Евгения",
+  "last_name": "Якушев",
+  "email": "martinovairina@example.net",
+  "phone": "+7 824 721 2309",
+  "birth_date": "1970-05-18",
+  "gender": "male",
+  "registration_date": "2025-09-29T11:36:53.610786",
   "is_loyalty_member": true,
-  "loyalty_card_number": "LOYAL-D5B5ADD3DC",
+  "loyalty_card_number": "LOYAL-13FF9996C5",
   "purchase_location": {
     "store_id": "store-003",
-    "store_name": "Большая Пикча — Магазин на ул. Тульская",
+    "store_name": "Большая Пикча — Магазин на алл. Новая",
     "store_network": "Большая Пикча",
     "store_type_description": "Супермаркет более 200 кв.м. Входит в сеть из 30 магазинов.",
     "country": "Россия",
-    "city": "ст. Игарка",
-    "street": "наб. Смирнова",
-    "house": "31",
-    "postal_code": "004171"
+    "city": "к. Куртамыш",
+    "street": "ул. Минская",
+    "house": "2/8",
+    "postal_code": "417861"
   },
   "delivery_address": {
     "country": "Россия",
-    "city": "ст. Игарка",
-    "street": "наб. Воровского",
-    "house": "49",
-    "apartment": "92",
-    "postal_code": "313023"
+    "city": "к. Куртамыш",
+    "street": "ул. Беляева",
+    "house": "27",
+    "apartment": "45",
+    "postal_code": "141618"
   },
   "preferences": {
     "preferred_language": "ru",
-    "preferred_payment_method": "card",
+    "preferred_payment_method": "cash",
     "receive_promotions": true
   }
 }

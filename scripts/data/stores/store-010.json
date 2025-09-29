@@ -1,6 +1,6 @@
 {
   "store_id": "store-010",
-  "store_name": "Большая Пикча — Магазин на пр. Клубный",
+  "store_name": "Большая Пикча — Магазин на пер. Ставропольский",
   "store_network": "Большая Пикча",
   "store_type_description": "Супермаркет более 200 кв.м. Входит в сеть из 30 магазинов.",
   "type": "offline",
@@ -12,19 +12,19 @@
     "🥦 Овощи и зелень"
   ],
   "manager": {
-    "name": "Парамон Фадеевич Мамонтов",
-    "phone": "8 (313) 539-93-40",
-    "email": "valeri92@example.com"
+    "name": "Дарья Робертовна Евсеева",
+    "phone": "+7 (895) 286-89-35",
+    "email": "feoktistgordeev@example.org"
   },
   "location": {
     "country": "Россия",
-    "city": "к. Тулун",
-    "street": "алл. Герцена",
-    "house": "89",
-    "postal_code": "705717",
+    "city": "г. Белорецк",
+    "street": "ул. Громова",
+    "house": "16",
+    "postal_code": "153247",
     "coordinates": {
-      "latitude": -74.940498,
-      "longitude": 164.21654
+      "latitude": 38.5265505,
+      "longitude": -6.13565
     }
   },
   "opening_hours": {
@@ -35,5 +35,5 @@
   "accepts_online_orders": true,
   "delivery_available": true,
   "warehouse_connected": false,
-  "last_inventory_date": "2025-09-25"
+  "last_inventory_date": "2025-09-29"
 }

@@ -1,63 +1,63 @@
 {
   "purchase_id": "ord-00038",
   "customer": {
-    "customer_id": "cus-1043",
-    "first_name": "Кир",
-    "last_name": "Калашников",
-    "email": "bsamsonov@example.org",
-    "phone": "+7 (013) 078-6626",
+    "customer_id": "cus-1018",
+    "first_name": "Валерия",
+    "last_name": "Федоров",
+    "email": "pshirjaev@example.com",
+    "phone": "+7 456 931 66 72",
     "is_loyalty_member": true,
-    "loyalty_card_number": "LOYAL-920D6D926B"
+    "loyalty_card_number": "LOYAL-862DAC759A"
   },
   "store": {
-    "store_id": "store-044",
-    "store_name": "Маленькая Пикча — Магазин на ш. Урожайное",
-    "store_network": "Маленькая Пикча",
+    "store_id": "store-007",
+    "store_name": "Большая Пикча — Магазин на ш. Медицинское",
+    "store_network": "Большая Пикча",
     "location": {
       "country": "Россия",
-      "city": "ст. Клин",
-      "street": "ул. Стадионная",
-      "house": "83",
-      "postal_code": "105750",
+      "city": "п. Воронеж",
+      "street": "алл. Инженерная",
+      "house": "288",
+      "postal_code": "258116",
       "coordinates": {
-        "latitude": -45.9919625,
-        "longitude": -177.086861
+        "latitude": -45.824131,
+        "longitude": -4.141949
       }
     }
   },
   "items": [
     {
-      "product_id": "prd-1015",
-      "name": "Советовать Горький",
-      "category": "🥖 Зерновые и хлебобулочные изделия",
-      "quantity": 2,
-      "unit": "л",
-      "price_per_unit": 74.06,
-      "total_price": 148.12,
+      "product_id": "prd-1004",
+      "name": "Заявление Шлем",
+      "category": "🥩 Мясо, рыба, яйца и бобовые",
+      "quantity": 4,
+      "unit": "упаковка",
+      "price_per_unit": 261.08,
+      "total_price": 1044.32,
       "kbju": {
-        "calories": 265.6,
-        "protein": 14.1,
-        "fat": 13.9,
-        "carbohydrates": 4.2
+        "calories": 178.3,
+        "protein": 8.6,
+        "fat": 9.2,
+        "carbohydrates": 12.8
       },
       "manufacturer": {
-        "name": "РАО «Пахомова-Голубев»",
+        "name": "ОАО «Орлов Попова»",
         "country": "Россия",
-        "website": "https://nlmk.biz",
-        "inn": "6002140966"
+        "website": "https://metallservis.ru",
+        "inn": "4728731918"
       }
     }
   ],
-  "total_amount": 148.12,
-  "payment_method": "cash",
-  "is_delivery": false,
+  "total_amount": 1044.32,
+  "payment_method": "card",
+  "is_delivery": true,
   "delivery_address": {
     "country": "Россия",
-    "city": "ст. Клин",
-    "street": "алл. Седова",
-    "house": "39",
-    "apartment": "77",
-    "postal_code": "957804"
+    "city": "г. Сорочинск",
+    "street": "ул. Менделеева",
+    "house": "83",
+    "apartment": "31",
+    "postal_code": "371369"
   },
-  "purchase_datetime": "2025-07-19T00:21:05.934500"
+  "purchase_datetime": "2025-09-13T11:36:53.644452"
 }

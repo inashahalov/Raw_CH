@@ -1,63 +1,105 @@
 {
   "purchase_id": "ord-00180",
   "customer": {
-    "customer_id": "cus-1033",
-    "first_name": "Карп",
-    "last_name": "Корнилов",
-    "email": "dmitri07@example.org",
-    "phone": "83587069742",
+    "customer_id": "cus-1025",
+    "first_name": "Адам",
+    "last_name": "Белоусов",
+    "email": "milan54@example.org",
+    "phone": "8 760 444 8443",
     "is_loyalty_member": true,
-    "loyalty_card_number": "LOYAL-389C1FF3BC"
+    "loyalty_card_number": "LOYAL-1734699199"
   },
   "store": {
-    "store_id": "store-035",
-    "store_name": "Маленькая Пикча — Магазин на наб. Ворошилова",
-    "store_network": "Маленькая Пикча",
+    "store_id": "store-029",
+    "store_name": "Большая Пикча — Магазин на бул. Казанский",
+    "store_network": "Большая Пикча",
     "location": {
       "country": "Россия",
-      "city": "п. Нерчинск",
-      "street": "алл. Кольцевая",
-      "house": "4/5",
-      "postal_code": "684320",
+      "city": "клх Углегорск",
+      "street": "бул. Бригадный",
+      "house": "1/9",
+      "postal_code": "536870",
       "coordinates": {
-        "latitude": -40.406792,
-        "longitude": -57.258998
+        "latitude": 86.35557,
+        "longitude": 60.62358
       }
     }
   },
   "items": [
     {
-      "product_id": "prd-1007",
-      "name": "Пища Беспомощный",
-      "category": "🥦 Овощи и зелень",
-      "quantity": 1,
-      "unit": "л",
-      "price_per_unit": 61.58,
-      "total_price": 61.58,
+      "product_id": "prd-1009",
+      "name": "Выдержать Карман",
+      "category": "🥛 Молочные продукты",
+      "quantity": 4,
+      "unit": "кг",
+      "price_per_unit": 193.21,
+      "total_price": 772.84,
       "kbju": {
-        "calories": 155.9,
-        "protein": 7.5,
-        "fat": 9.2,
-        "carbohydrates": 7.7
+        "calories": 234.5,
+        "protein": 3.6,
+        "fat": 14.6,
+        "carbohydrates": 4.9
       },
       "manufacturer": {
-        "name": "АО «Гущин-Карпов»",
+        "name": "Романова и партнеры",
         "country": "Россия",
-        "website": "https://ip.net",
-        "inn": "7668416058"
+        "website": "https://npo.biz",
+        "inn": "4877305481"
+      }
+    },
+    {
+      "product_id": "prd-1002",
+      "name": "Манера Остановить",
+      "category": "🥛 Молочные продукты",
+      "quantity": 3,
+      "unit": "кг",
+      "price_per_unit": 49.56,
+      "total_price": 148.68,
+      "kbju": {
+        "calories": 233.3,
+        "protein": 5.6,
+        "fat": 13.1,
+        "carbohydrates": 34.2
+      },
+      "manufacturer": {
+        "name": "АО «Вишнякова-Устинова»",
+        "country": "Россия",
+        "website": "https://efimov.ru",
+        "inn": "0302933009"
+      }
+    },
+    {
+      "product_id": "prd-1010",
+      "name": "Что Кидать",
+      "category": "🥦 Овощи и зелень",
+      "quantity": 3,
+      "unit": "упаковка",
+      "price_per_unit": 47.43,
+      "total_price": 142.29,
+      "kbju": {
+        "calories": 192.3,
+        "protein": 18.7,
+        "fat": 5.8,
+        "carbohydrates": 28.5
+      },
+      "manufacturer": {
+        "name": "ИП «Лихачев Наумова»",
+        "country": "Россия",
+        "website": "https://protek.info",
+        "inn": "8715941222"
       }
     }
   ],
-  "total_amount": 61.58,
+  "total_amount": 1063.81,
   "payment_method": "card",
-  "is_delivery": false,
+  "is_delivery": true,
   "delivery_address": {
     "country": "Россия",
-    "city": "к. Яшалта",
-    "street": "ш. Орджоникидзе",
-    "house": "189",
-    "apartment": "41",
-    "postal_code": "555752"
+    "city": "г. Малоярославец",
+    "street": "бул. Ясный",
+    "house": "621",
+    "apartment": "4",
+    "postal_code": "911622"
   },
-  "purchase_datetime": "2025-07-19T00:21:06.237464"
+  "purchase_datetime": "2025-08-17T11:36:53.695831"
 }

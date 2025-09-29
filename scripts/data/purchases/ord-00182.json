@@ -1,84 +1,63 @@
 {
   "purchase_id": "ord-00182",
   "customer": {
-    "customer_id": "cus-1043",
-    "first_name": "Кир",
-    "last_name": "Калашников",
-    "email": "bsamsonov@example.org",
-    "phone": "+7 (013) 078-6626",
+    "customer_id": "cus-1013",
+    "first_name": "Август",
+    "last_name": "Бобылева",
+    "email": "denis_1972@example.net",
+    "phone": "+7 (675) 164-65-63",
     "is_loyalty_member": true,
-    "loyalty_card_number": "LOYAL-920D6D926B"
+    "loyalty_card_number": "LOYAL-2AC87952E6"
   },
   "store": {
-    "store_id": "store-038",
-    "store_name": "Маленькая Пикча — Магазин на ш. Шахтерское",
+    "store_id": "store-031",
+    "store_name": "Маленькая Пикча — Магазин на алл. Озерная",
     "store_network": "Маленькая Пикча",
     "location": {
       "country": "Россия",
-      "city": "д. Сосновый Бор",
-      "street": "пр. Новый",
-      "house": "8",
-      "postal_code": "442480",
+      "city": "с. Аргаяш",
+      "street": "наб. Дальняя",
+      "house": "10",
+      "postal_code": "465584",
       "coordinates": {
-        "latitude": -48.355729,
-        "longitude": -128.321237
+        "latitude": 21.7768635,
+        "longitude": 107.910087
       }
     }
   },
   "items": [
     {
-      "product_id": "prd-1001",
-      "name": "Домашний Жидкий",
-      "category": "🥛 Молочные продукты",
+      "product_id": "prd-1004",
+      "name": "Заявление Шлем",
+      "category": "🥩 Мясо, рыба, яйца и бобовые",
       "quantity": 3,
       "unit": "упаковка",
-      "price_per_unit": 74.5,
-      "total_price": 223.5,
+      "price_per_unit": 261.08,
+      "total_price": 783.24,
       "kbju": {
-        "calories": 173.9,
-        "protein": 3.6,
-        "fat": 11.0,
-        "carbohydrates": 7.4
+        "calories": 178.3,
+        "protein": 8.6,
+        "fat": 9.2,
+        "carbohydrates": 12.8
       },
       "manufacturer": {
-        "name": "ОАО «Емельянова-Харитонов»",
+        "name": "ОАО «Орлов Попова»",
         "country": "Россия",
-        "website": "https://zao.edu",
-        "inn": "4413982995"
-      }
-    },
-    {
-      "product_id": "prd-1003",
-      "name": "Поймать Изба",
-      "category": "🥖 Зерновые и хлебобулочные изделия",
-      "quantity": 1,
-      "unit": "шт",
-      "price_per_unit": 164.24,
-      "total_price": 164.24,
-      "kbju": {
-        "calories": 225.1,
-        "protein": 9.6,
-        "fat": 12.3,
-        "carbohydrates": 33.1
-      },
-      "manufacturer": {
-        "name": "ЗАО «Родионов»",
-        "country": "Россия",
-        "website": "https://ooo.com",
-        "inn": "2508560707"
+        "website": "https://metallservis.ru",
+        "inn": "4728731918"
       }
     }
   ],
-  "total_amount": 387.74,
+  "total_amount": 783.24,
   "payment_method": "card",
   "is_delivery": true,
   "delivery_address": {
     "country": "Россия",
-    "city": "ст. Клин",
-    "street": "алл. Седова",
-    "house": "39",
-    "apartment": "77",
-    "postal_code": "957804"
+    "city": "с. Моршанск",
+    "street": "ш. Куйбышева",
+    "house": "398",
+    "apartment": "42",
+    "postal_code": "981166"
   },
-  "purchase_datetime": "2025-07-16T00:21:06.238197"
+  "purchase_datetime": "2025-09-18T11:36:53.696598"
 }

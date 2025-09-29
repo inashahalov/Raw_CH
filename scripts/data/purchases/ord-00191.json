@@ -1,63 +1,84 @@
 {
   "purchase_id": "ord-00191",
   "customer": {
-    "customer_id": "cus-1000",
-    "first_name": "Исай",
-    "last_name": "Соколов",
-    "email": "terenti_1993@example.org",
-    "phone": "+7 (568) 591-57-15",
+    "customer_id": "cus-1001",
+    "first_name": "Юрий",
+    "last_name": "Симонова",
+    "email": "semenovaljudmila@example.net",
+    "phone": "+7 301 909 6362",
     "is_loyalty_member": true,
-    "loyalty_card_number": "LOYAL-BED7CD98FB"
+    "loyalty_card_number": "LOYAL-8E1F7B0096"
   },
   "store": {
-    "store_id": "store-023",
-    "store_name": "Большая Пикча — Магазин на пер. Прудный",
+    "store_id": "store-006",
+    "store_name": "Большая Пикча — Магазин на пр. Леваневского",
     "store_network": "Большая Пикча",
     "location": {
       "country": "Россия",
-      "city": "с. Владикавказ",
-      "street": "алл. Репина",
-      "house": "4",
-      "postal_code": "867024",
+      "city": "ст. Губкин",
+      "street": "ш. Луговое",
+      "house": "952",
+      "postal_code": "282523",
       "coordinates": {
-        "latitude": -27.2311465,
-        "longitude": -151.9032
+        "latitude": 5.8483085,
+        "longitude": 17.738948
       }
     }
   },
   "items": [
     {
-      "product_id": "prd-1001",
-      "name": "Домашний Жидкий",
+      "product_id": "prd-1002",
+      "name": "Манера Остановить",
       "category": "🥛 Молочные продукты",
-      "quantity": 3,
-      "unit": "упаковка",
-      "price_per_unit": 74.5,
-      "total_price": 223.5,
+      "quantity": 1,
+      "unit": "кг",
+      "price_per_unit": 49.56,
+      "total_price": 49.56,
       "kbju": {
-        "calories": 173.9,
-        "protein": 3.6,
-        "fat": 11.0,
-        "carbohydrates": 7.4
+        "calories": 233.3,
+        "protein": 5.6,
+        "fat": 13.1,
+        "carbohydrates": 34.2
       },
       "manufacturer": {
-        "name": "ОАО «Емельянова-Харитонов»",
+        "name": "АО «Вишнякова-Устинова»",
         "country": "Россия",
-        "website": "https://zao.edu",
-        "inn": "4413982995"
+        "website": "https://efimov.ru",
+        "inn": "0302933009"
+      }
+    },
+    {
+      "product_id": "prd-1003",
+      "name": "Спалить Лететь",
+      "category": "🍏 Фрукты и ягоды",
+      "quantity": 2,
+      "unit": "кг",
+      "price_per_unit": 68.82,
+      "total_price": 137.64,
+      "kbju": {
+        "calories": 203.9,
+        "protein": 5.3,
+        "fat": 0.6,
+        "carbohydrates": 11.5
+      },
+      "manufacturer": {
+        "name": "ООО «Беляков Капустина»",
+        "country": "Россия",
+        "website": "https://mostransavto.org",
+        "inn": "0958619414"
       }
     }
   ],
-  "total_amount": 223.5,
-  "payment_method": "card",
+  "total_amount": 187.2,
+  "payment_method": "cash",
   "is_delivery": true,
   "delivery_address": {
     "country": "Россия",
-    "city": "с. Апрелевка",
-    "street": "бул. Хуторской",
-    "house": "508",
-    "apartment": "23",
-    "postal_code": "685023"
+    "city": "г. Внуково (метеост.)",
+    "street": "ул. Стахановская",
+    "house": "561",
+    "apartment": "100",
+    "postal_code": "012285"
   },
-  "purchase_datetime": "2025-07-13T00:21:06.241488"
+  "purchase_datetime": "2025-07-30T11:36:53.699343"
 }

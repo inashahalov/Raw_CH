@@ -1,63 +1,63 @@
 {
   "purchase_id": "ord-00135",
   "customer": {
-    "customer_id": "cus-1044",
-    "first_name": "Ферапонт",
-    "last_name": "Дьячков",
-    "email": "svjatopolk_2014@example.net",
-    "phone": "8 004 991 21 34",
+    "customer_id": "cus-1011",
+    "first_name": "Октябрина",
+    "last_name": "Тихонова",
+    "email": "silvestrkudrjavtsev@example.net",
+    "phone": "8 (694) 286-0435",
     "is_loyalty_member": true,
-    "loyalty_card_number": "LOYAL-0DB0905641"
+    "loyalty_card_number": "LOYAL-25A3B93BDE"
   },
   "store": {
-    "store_id": "store-014",
-    "store_name": "Большая Пикча — Магазин на ш. Школьное",
+    "store_id": "store-030",
+    "store_name": "Большая Пикча — Магазин на ш. Веселое",
     "store_network": "Большая Пикча",
     "location": {
       "country": "Россия",
-      "city": "п. Качканар",
-      "street": "пр. Щетинкина",
-      "house": "45",
-      "postal_code": "380111",
+      "city": "п. Калининград",
+      "street": "ш. Сибирское",
+      "house": "81",
+      "postal_code": "675168",
       "coordinates": {
-        "latitude": -48.1943695,
-        "longitude": -77.577854
+        "latitude": -39.0920925,
+        "longitude": 133.662951
       }
     }
   },
   "items": [
     {
-      "product_id": "prd-1013",
-      "name": "Полюбить Руководитель",
-      "category": "🥦 Овощи и зелень",
+      "product_id": "prd-1001",
+      "name": "Лиловый Бок",
+      "category": "🥛 Молочные продукты",
       "quantity": 5,
-      "unit": "шт",
-      "price_per_unit": 223.19,
-      "total_price": 1115.95,
+      "unit": "упаковка",
+      "price_per_unit": 242.46,
+      "total_price": 1212.3,
       "kbju": {
-        "calories": 249.4,
-        "protein": 17.6,
-        "fat": 5.6,
-        "carbohydrates": 43.3
+        "calories": 274.4,
+        "protein": 6.4,
+        "fat": 6.0,
+        "carbohydrates": 13.5
       },
       "manufacturer": {
-        "name": "Профитмед",
+        "name": "Куликов и партнеры",
         "country": "Россия",
-        "website": "https://npo.edu",
-        "inn": "4153799624"
+        "website": "https://sharapov.net",
+        "inn": "9920890846"
       }
     }
   ],
-  "total_amount": 1115.95,
+  "total_amount": 1212.3,
   "payment_method": "cash",
-  "is_delivery": false,
+  "is_delivery": true,
   "delivery_address": {
     "country": "Россия",
-    "city": "клх Дагомыс",
-    "street": "ул. Поселковая",
-    "house": "76",
-    "apartment": "62",
-    "postal_code": "232956"
+    "city": "клх Белый Яр (Томск.)",
+    "street": "бул. Космический",
+    "house": "169",
+    "apartment": "25",
+    "postal_code": "507633"
   },
-  "purchase_datetime": "2025-07-14T00:21:06.102938"
+  "purchase_datetime": "2025-07-07T11:36:53.679342"
 }

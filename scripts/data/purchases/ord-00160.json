@@ -1,63 +1,63 @@
 {
   "purchase_id": "ord-00160",
   "customer": {
-    "customer_id": "cus-1040",
-    "first_name": "Поликарп",
-    "last_name": "Ефимов",
-    "email": "ermilsavin@example.com",
-    "phone": "8 018 957 0132",
+    "customer_id": "cus-1005",
+    "first_name": "Алексей",
+    "last_name": "Борисов",
+    "email": "averjantsvetkov@example.org",
+    "phone": "+7 (215) 091-68-81",
     "is_loyalty_member": true,
-    "loyalty_card_number": "LOYAL-C977953C5A"
+    "loyalty_card_number": "LOYAL-85FE53CDBB"
   },
   "store": {
-    "store_id": "store-031",
-    "store_name": "Маленькая Пикча — Магазин на ш. Декабристов",
+    "store_id": "store-038",
+    "store_name": "Маленькая Пикча — Магазин на пр. Ломоносова",
     "store_network": "Маленькая Пикча",
     "location": {
       "country": "Россия",
-      "city": "п. Каменск-Уральский",
-      "street": "пр. Первомайский",
-      "house": "80",
-      "postal_code": "030700",
+      "city": "клх Красноуфимск",
+      "street": "пр. Садовый",
+      "house": "164",
+      "postal_code": "185385",
       "coordinates": {
-        "latitude": -55.303203,
-        "longitude": -34.195107
+        "latitude": -40.3102185,
+        "longitude": 38.964954
       }
     }
   },
   "items": [
     {
-      "product_id": "prd-1018",
-      "name": "Зачем Пол",
+      "product_id": "prd-1008",
+      "name": "Упор Кузнец",
       "category": "🍏 Фрукты и ягоды",
       "quantity": 2,
-      "unit": "кг",
-      "price_per_unit": 247.99,
-      "total_price": 495.98,
+      "unit": "л",
+      "price_per_unit": 255.98,
+      "total_price": 511.96,
       "kbju": {
-        "calories": 236.7,
-        "protein": 5.8,
-        "fat": 10.9,
-        "carbohydrates": 13.1
+        "calories": 143.1,
+        "protein": 6.1,
+        "fat": 3.5,
+        "carbohydrates": 47.3
       },
       "manufacturer": {
-        "name": "ОАО «Панов-Воробьева»",
+        "name": "МТС-банк",
         "country": "Россия",
-        "website": "https://rao.edu",
-        "inn": "5397679829"
+        "website": "https://shcherbakova.com",
+        "inn": "1911616255"
       }
     }
   ],
-  "total_amount": 495.98,
-  "payment_method": "card",
+  "total_amount": 511.96,
+  "payment_method": "cash",
   "is_delivery": false,
   "delivery_address": {
     "country": "Россия",
-    "city": "ст. Юрьевец (Иван.)",
-    "street": "наб. Социалистическая",
-    "house": "27",
-    "apartment": "24",
-    "postal_code": "060808"
+    "city": "ст. Губкин",
+    "street": "ул. Леонова",
+    "house": "1",
+    "apartment": "76",
+    "postal_code": "591260"
   },
-  "purchase_datetime": "2025-08-27T00:21:06.229881"
+  "purchase_datetime": "2025-07-06T11:36:53.689446"
 }

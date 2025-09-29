@@ -1,36 +1,36 @@
 {
   "customer_id": "cus-1027",
-  "first_name": "Ананий",
-  "last_name": "Смирнов",
-  "email": "eremeartemev@example.org",
-  "phone": "+7 373 716 0061",
-  "birth_date": "2004-11-29",
+  "first_name": "Аникита",
+  "last_name": "Дьячков",
+  "email": "savvatisuvorov@example.org",
+  "phone": "+7 325 954 4048",
+  "birth_date": "1962-10-19",
   "gender": "female",
-  "registration_date": "2025-09-25T00:21:05.908846",
+  "registration_date": "2025-09-29T11:36:53.622425",
   "is_loyalty_member": true,
-  "loyalty_card_number": "LOYAL-8563997E39",
+  "loyalty_card_number": "LOYAL-ED07FB2A7C",
   "purchase_location": {
     "store_id": "store-028",
-    "store_name": "Большая Пикча — Магазин на пер. Придорожный",
+    "store_name": "Большая Пикча — Магазин на бул. Сибирский",
     "store_network": "Большая Пикча",
     "store_type_description": "Супермаркет более 200 кв.м. Входит в сеть из 30 магазинов.",
     "country": "Россия",
-    "city": "п. Великие Луки",
-    "street": "алл. Сельская",
-    "house": "9/1",
-    "postal_code": "131366"
+    "city": "д. Котлас",
+    "street": "бул. Ключевой",
+    "house": "355",
+    "postal_code": "779751"
   },
   "delivery_address": {
     "country": "Россия",
-    "city": "п. Великие Луки",
-    "street": "бул. Фестивальный",
-    "house": "937",
-    "apartment": "48",
-    "postal_code": "607745"
+    "city": "д. Котлас",
+    "street": "ш. Приозерное",
+    "house": "4/2",
+    "apartment": "100",
+    "postal_code": "604457"
   },
   "preferences": {
     "preferred_language": "ru",
     "preferred_payment_method": "card",
-    "receive_promotions": true
+    "receive_promotions": false
   }
 }

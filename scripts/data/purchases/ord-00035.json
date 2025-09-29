@@ -1,63 +1,84 @@
 {
   "purchase_id": "ord-00035",
   "customer": {
-    "customer_id": "cus-1007",
-    "first_name": "Милий",
-    "last_name": "Королев",
-    "email": "tihon2017@example.org",
-    "phone": "8 184 246 8606",
+    "customer_id": "cus-1019",
+    "first_name": "Ювеналий",
+    "last_name": "Доронина",
+    "email": "beljakovanike@example.net",
+    "phone": "8 (105) 231-4521",
     "is_loyalty_member": true,
-    "loyalty_card_number": "LOYAL-A8F2C64542"
+    "loyalty_card_number": "LOYAL-BD1D0D3053"
   },
   "store": {
-    "store_id": "store-039",
-    "store_name": "Маленькая Пикча — Магазин на наб. Гагарина",
-    "store_network": "Маленькая Пикча",
+    "store_id": "store-017",
+    "store_name": "Большая Пикча — Магазин на пер. Вольный",
+    "store_network": "Большая Пикча",
     "location": {
       "country": "Россия",
-      "city": "д. Минеральные Воды",
-      "street": "пр. Восточный",
-      "house": "48",
-      "postal_code": "169327",
+      "city": "с. Апшеронск",
+      "street": "ул. Литейная",
+      "house": "8",
+      "postal_code": "203874",
       "coordinates": {
-        "latitude": 53.4992145,
-        "longitude": 133.659473
+        "latitude": 81.6722735,
+        "longitude": 110.482576
       }
     }
   },
   "items": [
     {
-      "product_id": "prd-1004",
-      "name": "Написать Актриса",
-      "category": "🍏 Фрукты и ягоды",
+      "product_id": "prd-1007",
+      "name": "Интеллектуальный Около",
+      "category": "🥛 Молочные продукты",
       "quantity": 5,
-      "unit": "кг",
-      "price_per_unit": 247.9,
-      "total_price": 1239.5,
+      "unit": "шт",
+      "price_per_unit": 147.81,
+      "total_price": 739.05,
       "kbju": {
-        "calories": 90.5,
-        "protein": 3.5,
-        "fat": 0.2,
-        "carbohydrates": 19.9
+        "calories": 87.6,
+        "protein": 12.8,
+        "fat": 14.2,
+        "carbohydrates": 17.0
       },
       "manufacturer": {
-        "name": "Ферронордик машины (Ferronordic)",
+        "name": "ОАО «Владимирова Богданова»",
         "country": "Россия",
-        "website": "https://kulikova.net",
-        "inn": "5999502719"
+        "website": "https://ip.info",
+        "inn": "3430882539"
+      }
+    },
+    {
+      "product_id": "prd-1003",
+      "name": "Спалить Лететь",
+      "category": "🍏 Фрукты и ягоды",
+      "quantity": 1,
+      "unit": "кг",
+      "price_per_unit": 68.82,
+      "total_price": 68.82,
+      "kbju": {
+        "calories": 203.9,
+        "protein": 5.3,
+        "fat": 0.6,
+        "carbohydrates": 11.5
+      },
+      "manufacturer": {
+        "name": "ООО «Беляков Капустина»",
+        "country": "Россия",
+        "website": "https://mostransavto.org",
+        "inn": "0958619414"
       }
     }
   ],
-  "total_amount": 1239.5,
+  "total_amount": 807.87,
   "payment_method": "card",
-  "is_delivery": true,
+  "is_delivery": false,
   "delivery_address": {
     "country": "Россия",
-    "city": "с. Ялуторовск",
-    "street": "алл. Лесхозная",
-    "house": "49",
-    "apartment": "72",
-    "postal_code": "070486"
+    "city": "к. Павловская",
+    "street": "бул. Достоевского",
+    "house": "10",
+    "apartment": "61",
+    "postal_code": "978961"
   },
-  "purchase_datetime": "2025-09-16T00:21:05.933415"
+  "purchase_datetime": "2025-09-28T11:36:53.643450"
 }

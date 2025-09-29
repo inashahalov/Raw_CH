@@ -1,63 +1,63 @@
 {
   "purchase_id": "ord-00105",
   "customer": {
-    "customer_id": "cus-1014",
-    "first_name": "Вера",
-    "last_name": "Логинова",
-    "email": "sofron_04@example.com",
-    "phone": "8 (794) 601-51-70",
+    "customer_id": "cus-1008",
+    "first_name": "Митофан",
+    "last_name": "Воронцов",
+    "email": "feofan20@example.org",
+    "phone": "87682311561",
     "is_loyalty_member": true,
-    "loyalty_card_number": "LOYAL-85166218B3"
+    "loyalty_card_number": "LOYAL-7C918DCCDB"
   },
   "store": {
-    "store_id": "store-031",
-    "store_name": "Маленькая Пикча — Магазин на ш. Декабристов",
-    "store_network": "Маленькая Пикча",
+    "store_id": "store-003",
+    "store_name": "Большая Пикча — Магазин на алл. Новая",
+    "store_network": "Большая Пикча",
     "location": {
       "country": "Россия",
-      "city": "п. Каменск-Уральский",
-      "street": "пр. Первомайский",
-      "house": "80",
-      "postal_code": "030700",
+      "city": "к. Куртамыш",
+      "street": "ул. Минская",
+      "house": "2/8",
+      "postal_code": "417861",
       "coordinates": {
-        "latitude": -55.303203,
-        "longitude": -34.195107
+        "latitude": 52.1093415,
+        "longitude": -46.683943
       }
     }
   },
   "items": [
     {
-      "product_id": "prd-1009",
-      "name": "Слать Бригада",
+      "product_id": "prd-1013",
+      "name": "Правление Банк",
       "category": "🥛 Молочные продукты",
       "quantity": 4,
-      "unit": "л",
-      "price_per_unit": 240.9,
-      "total_price": 963.6,
+      "unit": "кг",
+      "price_per_unit": 210.76,
+      "total_price": 843.04,
       "kbju": {
-        "calories": 156.2,
-        "protein": 15.7,
-        "fat": 13.4,
-        "carbohydrates": 7.6
+        "calories": 279.5,
+        "protein": 12.1,
+        "fat": 5.8,
+        "carbohydrates": 44.9
       },
       "manufacturer": {
-        "name": "НПО «Ефимова»",
+        "name": "ИП «Королев, Кулагина и Медведева»",
         "country": "Россия",
-        "website": "https://ford.com",
-        "inn": "3687837951"
+        "website": "https://ooo.net",
+        "inn": "2561502092"
       }
     }
   ],
-  "total_amount": 963.6,
+  "total_amount": 843.04,
   "payment_method": "card",
-  "is_delivery": false,
+  "is_delivery": true,
   "delivery_address": {
     "country": "Россия",
-    "city": "с. Минусинск",
-    "street": "ул. Семашко",
-    "house": "308",
-    "apartment": "11",
-    "postal_code": "401472"
+    "city": "с. Ростов-на-Дону",
+    "street": "ул. Окружная",
+    "house": "658",
+    "apartment": "46",
+    "postal_code": "091436"
   },
-  "purchase_datetime": "2025-08-24T00:21:05.962326"
+  "purchase_datetime": "2025-07-05T11:36:53.668990"
 }

@@ -1,105 +1,63 @@
 {
   "purchase_id": "ord-00044",
   "customer": {
-    "customer_id": "cus-1006",
-    "first_name": "Регина",
-    "last_name": "Кудряшов",
-    "email": "seliverst_17@example.net",
-    "phone": "+7 153 863 80 58",
+    "customer_id": "cus-1020",
+    "first_name": "Назар",
+    "last_name": "Андреева",
+    "email": "sbogdanova@example.com",
+    "phone": "8 897 525 1983",
     "is_loyalty_member": true,
-    "loyalty_card_number": "LOYAL-12243F909F"
+    "loyalty_card_number": "LOYAL-DB9ED9AC67"
   },
   "store": {
-    "store_id": "store-009",
-    "store_name": "Большая Пикча — Магазин на пр. Угольный",
-    "store_network": "Большая Пикча",
+    "store_id": "store-033",
+    "store_name": "Маленькая Пикча — Магазин на пр. Ставропольский",
+    "store_network": "Маленькая Пикча",
     "location": {
       "country": "Россия",
-      "city": "с. Лысьва",
-      "street": "пр. Енисейский",
-      "house": "8/1",
-      "postal_code": "512530",
+      "city": "к. Арзамас",
+      "street": "алл. Совхозная",
+      "house": "64",
+      "postal_code": "975984",
       "coordinates": {
-        "latitude": 48.498737,
-        "longitude": -86.543856
+        "latitude": 72.4718475,
+        "longitude": -164.998246
       }
     }
   },
   "items": [
     {
-      "product_id": "prd-1018",
-      "name": "Зачем Пол",
-      "category": "🍏 Фрукты и ягоды",
-      "quantity": 5,
-      "unit": "кг",
-      "price_per_unit": 247.99,
-      "total_price": 1239.95,
-      "kbju": {
-        "calories": 236.7,
-        "protein": 5.8,
-        "fat": 10.9,
-        "carbohydrates": 13.1
-      },
-      "manufacturer": {
-        "name": "ОАО «Панов-Воробьева»",
-        "country": "Россия",
-        "website": "https://rao.edu",
-        "inn": "5397679829"
-      }
-    },
-    {
-      "product_id": "prd-1006",
-      "name": "Вытаскивать Плод",
-      "category": "🍏 Фрукты и ягоды",
-      "quantity": 5,
-      "unit": "упаковка",
-      "price_per_unit": 123.36,
-      "total_price": 616.8,
-      "kbju": {
-        "calories": 124.2,
-        "protein": 11.3,
-        "fat": 2.6,
-        "carbohydrates": 42.9
-      },
-      "manufacturer": {
-        "name": "ИП «Емельянов-Наумова»",
-        "country": "Россия",
-        "website": "https://npo.edu",
-        "inn": "9973742158"
-      }
-    },
-    {
-      "product_id": "prd-1011",
-      "name": "Привлекать Пол",
-      "category": "🥩 Мясо, рыба, яйца и бобовые",
+      "product_id": "prd-1010",
+      "name": "Что Кидать",
+      "category": "🥦 Овощи и зелень",
       "quantity": 1,
-      "unit": "л",
-      "price_per_unit": 85.86,
-      "total_price": 85.86,
+      "unit": "упаковка",
+      "price_per_unit": 47.43,
+      "total_price": 47.43,
       "kbju": {
-        "calories": 65.4,
-        "protein": 5.6,
-        "fat": 1.9,
-        "carbohydrates": 24.1
+        "calories": 192.3,
+        "protein": 18.7,
+        "fat": 5.8,
+        "carbohydrates": 28.5
       },
       "manufacturer": {
-        "name": "ИП «Галкина-Терентьев»",
+        "name": "ИП «Лихачев Наумова»",
         "country": "Россия",
-        "website": "https://rao.ru",
-        "inn": "5528391758"
+        "website": "https://protek.info",
+        "inn": "8715941222"
       }
     }
   ],
-  "total_amount": 1942.61,
-  "payment_method": "card",
+  "total_amount": 47.43,
+  "payment_method": "cash",
   "is_delivery": false,
   "delivery_address": {
     "country": "Россия",
-    "city": "клх Шумиха",
-    "street": "бул. Сурикова",
-    "house": "824",
-    "apartment": "2",
-    "postal_code": "530049"
+    "city": "г. Ступино",
+    "street": "пер. Транспортный",
+    "house": "12",
+    "apartment": "10",
+    "postal_code": "389125"
   },
-  "purchase_datetime": "2025-07-31T00:21:05.936530"
+  "purchase_datetime": "2025-07-28T11:36:53.646836"
 }

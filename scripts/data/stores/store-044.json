@@ -1,6 +1,6 @@
 {
   "store_id": "store-044",
-  "store_name": "Маленькая Пикча — Магазин на ш. Урожайное",
+  "store_name": "Маленькая Пикча — Магазин на алл. Дорожная",
   "store_network": "Маленькая Пикча",
   "store_type_description": "Магазин у дома менее 100 кв.м. Входит в сеть из 15 магазинов.",
   "type": "offline",
@@ -12,19 +12,19 @@
     "🥦 Овощи и зелень"
   ],
   "manager": {
-    "name": "Сидор Якубович Кошелев",
-    "phone": "+7 509 453 3955",
-    "email": "gustinov@example.com"
+    "name": "Ширяева Ия Харитоновна",
+    "phone": "8 (381) 642-94-41",
+    "email": "sevastjan_34@example.net"
   },
   "location": {
     "country": "Россия",
-    "city": "ст. Клин",
-    "street": "ул. Стадионная",
-    "house": "83",
-    "postal_code": "105750",
+    "city": "д. Нерчинск",
+    "street": "пер. Крымский",
+    "house": "1",
+    "postal_code": "830795",
     "coordinates": {
-      "latitude": -45.9919625,
-      "longitude": -177.086861
+      "latitude": 44.647401,
+      "longitude": -138.20477
     }
   },
   "opening_hours": {
@@ -35,5 +35,5 @@
   "accepts_online_orders": true,
   "delivery_available": true,
   "warehouse_connected": true,
-  "last_inventory_date": "2025-09-25"
+  "last_inventory_date": "2025-09-29"
 }

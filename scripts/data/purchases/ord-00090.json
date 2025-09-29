@@ -1,84 +1,105 @@
 {
   "purchase_id": "ord-00090",
   "customer": {
-    "customer_id": "cus-1015",
-    "first_name": "Аникей",
-    "last_name": "Новиков",
-    "email": "oisakova@example.org",
-    "phone": "8 (510) 536-4882",
+    "customer_id": "cus-1005",
+    "first_name": "Алексей",
+    "last_name": "Борисов",
+    "email": "averjantsvetkov@example.org",
+    "phone": "+7 (215) 091-68-81",
     "is_loyalty_member": true,
-    "loyalty_card_number": "LOYAL-E87EA9AED1"
+    "loyalty_card_number": "LOYAL-85FE53CDBB"
   },
   "store": {
-    "store_id": "store-036",
-    "store_name": "Маленькая Пикча — Магазин на бул. Володарского",
-    "store_network": "Маленькая Пикча",
+    "store_id": "store-021",
+    "store_name": "Большая Пикча — Магазин на пр. Производственный",
+    "store_network": "Большая Пикча",
     "location": {
       "country": "Россия",
-      "city": "д. Екатеринбург",
-      "street": "бул. Стахановский",
-      "house": "6/2",
-      "postal_code": "399598",
+      "city": "г. Ступино",
+      "street": "наб. 50 лет ВЛКСМ",
+      "house": "79",
+      "postal_code": "971583",
       "coordinates": {
-        "latitude": 30.924838,
-        "longitude": -116.081649
+        "latitude": 45.52981,
+        "longitude": 165.75171
       }
     }
   },
   "items": [
     {
-      "product_id": "prd-1014",
-      "name": "Опасность Следовательно",
-      "category": "🥛 Молочные продукты",
-      "quantity": 3,
-      "unit": "кг",
-      "price_per_unit": 213.21,
-      "total_price": 639.63,
+      "product_id": "prd-1008",
+      "name": "Упор Кузнец",
+      "category": "🍏 Фрукты и ягоды",
+      "quantity": 1,
+      "unit": "л",
+      "price_per_unit": 255.98,
+      "total_price": 255.98,
       "kbju": {
-        "calories": 206.8,
-        "protein": 10.5,
-        "fat": 2.9,
-        "carbohydrates": 6.6
+        "calories": 143.1,
+        "protein": 6.1,
+        "fat": 3.5,
+        "carbohydrates": 47.3
       },
       "manufacturer": {
-        "name": "ЗАО «Беляков, Большакова и Князева»",
+        "name": "МТС-банк",
         "country": "Россия",
-        "website": "https://npo.com",
-        "inn": "0149036081"
+        "website": "https://shcherbakova.com",
+        "inn": "1911616255"
       }
     },
     {
-      "product_id": "prd-1001",
-      "name": "Домашний Жидкий",
+      "product_id": "prd-1009",
+      "name": "Выдержать Карман",
       "category": "🥛 Молочные продукты",
-      "quantity": 2,
-      "unit": "упаковка",
-      "price_per_unit": 74.5,
-      "total_price": 149.0,
+      "quantity": 5,
+      "unit": "кг",
+      "price_per_unit": 193.21,
+      "total_price": 966.05,
       "kbju": {
-        "calories": 173.9,
+        "calories": 234.5,
         "protein": 3.6,
-        "fat": 11.0,
-        "carbohydrates": 7.4
+        "fat": 14.6,
+        "carbohydrates": 4.9
       },
       "manufacturer": {
-        "name": "ОАО «Емельянова-Харитонов»",
+        "name": "Романова и партнеры",
         "country": "Россия",
-        "website": "https://zao.edu",
-        "inn": "4413982995"
+        "website": "https://npo.biz",
+        "inn": "4877305481"
+      }
+    },
+    {
+      "product_id": "prd-1000",
+      "name": "Грустный Дружно",
+      "category": "🥦 Овощи и зелень",
+      "quantity": 2,
+      "unit": "кг",
+      "price_per_unit": 234.69,
+      "total_price": 469.38,
+      "kbju": {
+        "calories": 142.2,
+        "protein": 13.1,
+        "fat": 11.7,
+        "carbohydrates": 10.2
+      },
+      "manufacturer": {
+        "name": "АО «Чернов Сафонова»",
+        "country": "Россия",
+        "website": "https://kolobov.info",
+        "inn": "5863746288"
       }
     }
   ],
-  "total_amount": 788.63,
+  "total_amount": 1691.41,
   "payment_method": "card",
   "is_delivery": true,
   "delivery_address": {
     "country": "Россия",
-    "city": "клх Новомичуринск",
-    "street": "алл. Космонавтов",
-    "house": "8/4",
-    "apartment": "96",
-    "postal_code": "158931"
+    "city": "ст. Губкин",
+    "street": "ул. Леонова",
+    "house": "1",
+    "apartment": "76",
+    "postal_code": "591260"
   },
-  "purchase_datetime": "2025-08-19T00:21:05.955632"
+  "purchase_datetime": "2025-07-11T11:36:53.663571"
 }

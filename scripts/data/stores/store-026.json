@@ -1,6 +1,6 @@
 {
   "store_id": "store-026",
-  "store_name": "Большая Пикча — Магазин на наб. Горная",
+  "store_name": "Большая Пикча — Магазин на пер. Подлесный",
   "store_network": "Большая Пикча",
   "store_type_description": "Супермаркет более 200 кв.м. Входит в сеть из 30 магазинов.",
   "type": "offline",
@@ -12,19 +12,19 @@
     "🥦 Овощи и зелень"
   ],
   "manager": {
-    "name": "Филимон Жоресович Котов",
-    "phone": "8 435 785 0610",
-    "email": "tsharapov@example.com"
+    "name": "Самсонов Мечислав Аверьянович",
+    "phone": "+79709085855",
+    "email": "igor1978@example.net"
   },
   "location": {
     "country": "Россия",
-    "city": "с. Нижневартовск",
-    "street": "пер. Дарвина",
-    "house": "8",
-    "postal_code": "513083",
+    "city": "г. Малоярославец",
+    "street": "ул. Гастелло",
+    "house": "551",
+    "postal_code": "122174",
     "coordinates": {
-      "latitude": -78.2781365,
-      "longitude": -138.552401
+      "latitude": -36.7906745,
+      "longitude": -156.169191
     }
   },
   "opening_hours": {
@@ -34,6 +34,6 @@
   },
   "accepts_online_orders": true,
   "delivery_available": true,
-  "warehouse_connected": true,
-  "last_inventory_date": "2025-09-25"
+  "warehouse_connected": false,
+  "last_inventory_date": "2025-09-29"
 }

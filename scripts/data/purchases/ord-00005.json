@@ -1,105 +1,63 @@
 {
   "purchase_id": "ord-00005",
   "customer": {
-    "customer_id": "cus-1027",
-    "first_name": "Ананий",
-    "last_name": "Смирнов",
-    "email": "eremeartemev@example.org",
-    "phone": "+7 373 716 0061",
+    "customer_id": "cus-1011",
+    "first_name": "Октябрина",
+    "last_name": "Тихонова",
+    "email": "silvestrkudrjavtsev@example.net",
+    "phone": "8 (694) 286-0435",
     "is_loyalty_member": true,
-    "loyalty_card_number": "LOYAL-8563997E39"
+    "loyalty_card_number": "LOYAL-25A3B93BDE"
   },
   "store": {
-    "store_id": "store-001",
-    "store_name": "Большая Пикча — Магазин на алл. Бажова",
+    "store_id": "store-028",
+    "store_name": "Большая Пикча — Магазин на бул. Сибирский",
     "store_network": "Большая Пикча",
     "location": {
       "country": "Россия",
-      "city": "с. Апрелевка",
-      "street": "ш. Солнечное",
-      "house": "3",
-      "postal_code": "956691",
+      "city": "д. Котлас",
+      "street": "бул. Ключевой",
+      "house": "355",
+      "postal_code": "779751",
       "coordinates": {
-        "latitude": 50.3479975,
-        "longitude": -167.674641
+        "latitude": -12.011539,
+        "longitude": -70.170751
       }
     }
   },
   "items": [
     {
-      "product_id": "prd-1000",
-      "name": "Привлекать Передо",
-      "category": "🥦 Овощи и зелень",
-      "quantity": 5,
-      "unit": "шт",
-      "price_per_unit": 261.89,
-      "total_price": 1309.45,
-      "kbju": {
-        "calories": 286.2,
-        "protein": 17.9,
-        "fat": 8.7,
-        "carbohydrates": 47.1
-      },
-      "manufacturer": {
-        "name": "ООО «Баранов-Пестова»",
-        "country": "Россия",
-        "website": "https://ooo.info",
-        "inn": "7520686716"
-      }
-    },
-    {
-      "product_id": "prd-1006",
-      "name": "Вытаскивать Плод",
-      "category": "🍏 Фрукты и ягоды",
-      "quantity": 3,
-      "unit": "упаковка",
-      "price_per_unit": 123.36,
-      "total_price": 370.08,
-      "kbju": {
-        "calories": 124.2,
-        "protein": 11.3,
-        "fat": 2.6,
-        "carbohydrates": 42.9
-      },
-      "manufacturer": {
-        "name": "ИП «Емельянов-Наумова»",
-        "country": "Россия",
-        "website": "https://npo.edu",
-        "inn": "9973742158"
-      }
-    },
-    {
-      "product_id": "prd-1011",
-      "name": "Привлекать Пол",
+      "product_id": "prd-1004",
+      "name": "Заявление Шлем",
       "category": "🥩 Мясо, рыба, яйца и бобовые",
       "quantity": 4,
-      "unit": "л",
-      "price_per_unit": 85.86,
-      "total_price": 343.44,
+      "unit": "упаковка",
+      "price_per_unit": 261.08,
+      "total_price": 1044.32,
       "kbju": {
-        "calories": 65.4,
-        "protein": 5.6,
-        "fat": 1.9,
-        "carbohydrates": 24.1
+        "calories": 178.3,
+        "protein": 8.6,
+        "fat": 9.2,
+        "carbohydrates": 12.8
       },
       "manufacturer": {
-        "name": "ИП «Галкина-Терентьев»",
+        "name": "ОАО «Орлов Попова»",
         "country": "Россия",
-        "website": "https://rao.ru",
-        "inn": "5528391758"
+        "website": "https://metallservis.ru",
+        "inn": "4728731918"
       }
     }
   ],
-  "total_amount": 2022.97,
-  "payment_method": "card",
+  "total_amount": 1044.32,
+  "payment_method": "cash",
   "is_delivery": false,
   "delivery_address": {
     "country": "Россия",
-    "city": "п. Великие Луки",
-    "street": "бул. Фестивальный",
-    "house": "937",
-    "apartment": "48",
-    "postal_code": "607745"
+    "city": "клх Белый Яр (Томск.)",
+    "street": "бул. Космический",
+    "house": "169",
+    "apartment": "25",
+    "postal_code": "507633"
   },
-  "purchase_datetime": "2025-07-28T00:21:05.921024"
+  "purchase_datetime": "2025-07-13T11:36:53.631871"
 }

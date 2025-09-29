@@ -1,6 +1,6 @@
 {
   "store_id": "store-039",
-  "store_name": "Маленькая Пикча — Магазин на наб. Гагарина",
+  "store_name": "Маленькая Пикча — Магазин на пер. Каштановый",
   "store_network": "Маленькая Пикча",
   "store_type_description": "Магазин у дома менее 100 кв.м. Входит в сеть из 15 магазинов.",
   "type": "offline",
@@ -12,19 +12,19 @@
     "🥦 Овощи и зелень"
   ],
   "manager": {
-    "name": "Измаил Федотович Федосеев",
-    "phone": "8 623 008 0660",
-    "email": "eliseevaevpraksija@example.net"
+    "name": "Сергеев Владилен Филиппович",
+    "phone": "+7 (095) 788-70-60",
+    "email": "xmakarova@example.com"
   },
   "location": {
     "country": "Россия",
-    "city": "д. Минеральные Воды",
-    "street": "пр. Восточный",
-    "house": "48",
-    "postal_code": "169327",
+    "city": "ст. Новый Уренгой",
+    "street": "наб. Радищева",
+    "house": "1/1",
+    "postal_code": "295294",
     "coordinates": {
-      "latitude": 53.4992145,
-      "longitude": 133.659473
+      "latitude": 88.779798,
+      "longitude": 56.564926
     }
   },
   "opening_hours": {
@@ -34,6 +34,6 @@
   },
   "accepts_online_orders": true,
   "delivery_available": true,
-  "warehouse_connected": true,
-  "last_inventory_date": "2025-09-25"
+  "warehouse_connected": false,
+  "last_inventory_date": "2025-09-29"
 }

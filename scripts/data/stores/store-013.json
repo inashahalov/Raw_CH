@@ -1,6 +1,6 @@
 {
   "store_id": "store-013",
-  "store_name": "Большая Пикча — Магазин на алл. Мелиоративная",
+  "store_name": "Большая Пикча — Магазин на бул. Солнечный",
   "store_network": "Большая Пикча",
   "store_type_description": "Супермаркет более 200 кв.м. Входит в сеть из 30 магазинов.",
   "type": "offline",
@@ -12,19 +12,19 @@
     "🥦 Овощи и зелень"
   ],
   "manager": {
-    "name": "Ксения Викторовна Архипова",
-    "phone": "+7 301 473 96 54",
-    "email": "ljubosmisl_1980@example.com"
+    "name": "Бобылева Алина Владиславовна",
+    "phone": "8 (148) 422-3317",
+    "email": "danila_2001@example.com"
   },
   "location": {
     "country": "Россия",
-    "city": "п. Лазаревское",
-    "street": "пер. Малый",
-    "house": "88",
-    "postal_code": "425601",
+    "city": "ст. Ачинск",
+    "street": "бул. Сосновый",
+    "house": "927",
+    "postal_code": "091959",
     "coordinates": {
-      "latitude": -84.4676175,
-      "longitude": -90.154137
+      "latitude": -3.544509,
+      "longitude": 125.206608
     }
   },
   "opening_hours": {
@@ -34,6 +34,6 @@
   },
   "accepts_online_orders": true,
   "delivery_available": true,
-  "warehouse_connected": false,
-  "last_inventory_date": "2025-09-25"
+  "warehouse_connected": true,
+  "last_inventory_date": "2025-09-29"
 }

@@ -1,84 +1,84 @@
 {
   "purchase_id": "ord-00172",
   "customer": {
-    "customer_id": "cus-1020",
-    "first_name": "Эраст",
-    "last_name": "Куликова",
-    "email": "gremislavkondratev@example.net",
-    "phone": "8 672 125 64 83",
+    "customer_id": "cus-1035",
+    "first_name": "Серафим",
+    "last_name": "Исаев",
+    "email": "avde_57@example.net",
+    "phone": "+7 (877) 809-4149",
     "is_loyalty_member": true,
-    "loyalty_card_number": "LOYAL-7883FC4DA4"
+    "loyalty_card_number": "LOYAL-7BFFD38238"
   },
   "store": {
-    "store_id": "store-023",
-    "store_name": "Большая Пикча — Магазин на пер. Прудный",
+    "store_id": "store-001",
+    "store_name": "Большая Пикча — Магазин на бул. Урицкого",
     "store_network": "Большая Пикча",
     "location": {
       "country": "Россия",
-      "city": "с. Владикавказ",
-      "street": "алл. Репина",
-      "house": "4",
-      "postal_code": "867024",
+      "city": "д. Горячий Ключ",
+      "street": "ш. Громова",
+      "house": "1/3",
+      "postal_code": "610910",
       "coordinates": {
-        "latitude": -27.2311465,
-        "longitude": -151.9032
+        "latitude": 83.181936,
+        "longitude": 25.518363
       }
     }
   },
   "items": [
     {
       "product_id": "prd-1013",
-      "name": "Полюбить Руководитель",
-      "category": "🥦 Овощи и зелень",
-      "quantity": 1,
-      "unit": "шт",
-      "price_per_unit": 223.19,
-      "total_price": 223.19,
+      "name": "Правление Банк",
+      "category": "🥛 Молочные продукты",
+      "quantity": 4,
+      "unit": "кг",
+      "price_per_unit": 210.76,
+      "total_price": 843.04,
       "kbju": {
-        "calories": 249.4,
-        "protein": 17.6,
-        "fat": 5.6,
-        "carbohydrates": 43.3
+        "calories": 279.5,
+        "protein": 12.1,
+        "fat": 5.8,
+        "carbohydrates": 44.9
       },
       "manufacturer": {
-        "name": "Профитмед",
+        "name": "ИП «Королев, Кулагина и Медведева»",
         "country": "Россия",
-        "website": "https://npo.edu",
-        "inn": "4153799624"
+        "website": "https://ooo.net",
+        "inn": "2561502092"
       }
     },
     {
-      "product_id": "prd-1017",
-      "name": "Цель Единый",
-      "category": "🥖 Зерновые и хлебобулочные изделия",
+      "product_id": "prd-1018",
+      "name": "Отметить Парень",
+      "category": "🥩 Мясо, рыба, яйца и бобовые",
       "quantity": 5,
-      "unit": "упаковка",
-      "price_per_unit": 99.97,
-      "total_price": 499.85,
+      "unit": "шт",
+      "price_per_unit": 241.62,
+      "total_price": 1208.1,
       "kbju": {
-        "calories": 97.4,
-        "protein": 12.5,
-        "fat": 14.8,
-        "carbohydrates": 11.6
+        "calories": 295.0,
+        "protein": 3.5,
+        "fat": 6.0,
+        "carbohydrates": 2.6
       },
       "manufacturer": {
-        "name": "АО «Белякова»",
+        "name": "Петухов Лтд",
         "country": "Россия",
-        "website": "https://rao.com",
-        "inn": "0030371079"
+        "website": "https://rao.ru",
+        "inn": "4394791537"
       }
     }
   ],
-  "total_amount": 723.04,
-  "payment_method": "cash",
-  "is_delivery": false,
+  "total_amount": 2051.14,
+  "payment_method": "card",
+  "is_delivery": true,
   "delivery_address": {
     "country": "Россия",
-    "city": "п. Энгельс",
-    "street": "ул. Тепличная",
-    "house": "78",
-    "apartment": "45",
-    "postal_code": "770377"
+    "city": "д. Каспийск",
+    "street": "пр. Сенной",
+    "house": "212",
+    "apartment": "14",
+    "postal_code": "643706"
   },
-  "purchase_datetime": "2025-08-12T00:21:06.234385"
+  "purchase_datetime": "2025-07-31T11:36:53.693139"
 }

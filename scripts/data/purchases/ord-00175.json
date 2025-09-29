@@ -1,63 +1,63 @@
 {
   "purchase_id": "ord-00175",
   "customer": {
-    "customer_id": "cus-1006",
-    "first_name": "Регина",
-    "last_name": "Кудряшов",
-    "email": "seliverst_17@example.net",
-    "phone": "+7 153 863 80 58",
+    "customer_id": "cus-1027",
+    "first_name": "Аникита",
+    "last_name": "Дьячков",
+    "email": "savvatisuvorov@example.org",
+    "phone": "+7 325 954 4048",
     "is_loyalty_member": true,
-    "loyalty_card_number": "LOYAL-12243F909F"
+    "loyalty_card_number": "LOYAL-ED07FB2A7C"
   },
   "store": {
-    "store_id": "store-018",
-    "store_name": "Большая Пикча — Магазин на ш. Колхозное",
+    "store_id": "store-017",
+    "store_name": "Большая Пикча — Магазин на пер. Вольный",
     "store_network": "Большая Пикча",
     "location": {
       "country": "Россия",
-      "city": "п. Урюпинск",
-      "street": "ул. Королева",
-      "house": "5",
-      "postal_code": "809286",
+      "city": "с. Апшеронск",
+      "street": "ул. Литейная",
+      "house": "8",
+      "postal_code": "203874",
       "coordinates": {
-        "latitude": 9.686733,
-        "longitude": 33.027261
+        "latitude": 81.6722735,
+        "longitude": 110.482576
       }
     }
   },
   "items": [
     {
-      "product_id": "prd-1011",
-      "name": "Привлекать Пол",
-      "category": "🥩 Мясо, рыба, яйца и бобовые",
-      "quantity": 3,
+      "product_id": "prd-1008",
+      "name": "Упор Кузнец",
+      "category": "🍏 Фрукты и ягоды",
+      "quantity": 5,
       "unit": "л",
-      "price_per_unit": 85.86,
-      "total_price": 257.58,
+      "price_per_unit": 255.98,
+      "total_price": 1279.9,
       "kbju": {
-        "calories": 65.4,
-        "protein": 5.6,
-        "fat": 1.9,
-        "carbohydrates": 24.1
+        "calories": 143.1,
+        "protein": 6.1,
+        "fat": 3.5,
+        "carbohydrates": 47.3
       },
       "manufacturer": {
-        "name": "ИП «Галкина-Терентьев»",
+        "name": "МТС-банк",
         "country": "Россия",
-        "website": "https://rao.ru",
-        "inn": "5528391758"
+        "website": "https://shcherbakova.com",
+        "inn": "1911616255"
       }
     }
   ],
-  "total_amount": 257.58,
-  "payment_method": "cash",
-  "is_delivery": false,
+  "total_amount": 1279.9,
+  "payment_method": "card",
+  "is_delivery": true,
   "delivery_address": {
     "country": "Россия",
-    "city": "клх Шумиха",
-    "street": "бул. Сурикова",
-    "house": "824",
-    "apartment": "2",
-    "postal_code": "530049"
+    "city": "д. Котлас",
+    "street": "ш. Приозерное",
+    "house": "4/2",
+    "apartment": "100",
+    "postal_code": "604457"
   },
-  "purchase_datetime": "2025-08-26T00:21:06.235551"
+  "purchase_datetime": "2025-09-23T11:36:53.694137"
 }

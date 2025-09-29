@@ -1,84 +1,63 @@
 {
   "purchase_id": "ord-00150",
   "customer": {
-    "customer_id": "cus-1005",
-    "first_name": "Ираклий",
-    "last_name": "Брагина",
-    "email": "dmitri72@example.org",
-    "phone": "+7 584 851 63 37",
+    "customer_id": "cus-1043",
+    "first_name": "Артемий",
+    "last_name": "Гурьев",
+    "email": "ilinfeoktist@example.org",
+    "phone": "+7 (521) 181-86-39",
     "is_loyalty_member": true,
-    "loyalty_card_number": "LOYAL-7FB5CD1150"
+    "loyalty_card_number": "LOYAL-E6A14270B7"
   },
   "store": {
-    "store_id": "store-003",
-    "store_name": "Большая Пикча — Магазин на ул. Тульская",
-    "store_network": "Большая Пикча",
+    "store_id": "store-033",
+    "store_name": "Маленькая Пикча — Магазин на пр. Ставропольский",
+    "store_network": "Маленькая Пикча",
     "location": {
       "country": "Россия",
-      "city": "ст. Игарка",
-      "street": "наб. Смирнова",
-      "house": "31",
-      "postal_code": "004171",
+      "city": "к. Арзамас",
+      "street": "алл. Совхозная",
+      "house": "64",
+      "postal_code": "975984",
       "coordinates": {
-        "latitude": -4.03426,
-        "longitude": 25.806164
+        "latitude": 72.4718475,
+        "longitude": -164.998246
       }
     }
   },
   "items": [
     {
-      "product_id": "prd-1012",
-      "name": "Школьный Анализ",
-      "category": "🥦 Овощи и зелень",
-      "quantity": 2,
-      "unit": "л",
-      "price_per_unit": 209.82,
-      "total_price": 419.64,
+      "product_id": "prd-1003",
+      "name": "Спалить Лететь",
+      "category": "🍏 Фрукты и ягоды",
+      "quantity": 4,
+      "unit": "кг",
+      "price_per_unit": 68.82,
+      "total_price": 275.28,
       "kbju": {
-        "calories": 60.6,
-        "protein": 14.6,
-        "fat": 12.7,
-        "carbohydrates": 41.7
+        "calories": 203.9,
+        "protein": 5.3,
+        "fat": 0.6,
+        "carbohydrates": 11.5
       },
       "manufacturer": {
-        "name": "ИП «Беспалов-Тимофеев»",
+        "name": "ООО «Беляков Капустина»",
         "country": "Россия",
-        "website": "https://npo.edu",
-        "inn": "6799042551"
-      }
-    },
-    {
-      "product_id": "prd-1009",
-      "name": "Слать Бригада",
-      "category": "🥛 Молочные продукты",
-      "quantity": 3,
-      "unit": "л",
-      "price_per_unit": 240.9,
-      "total_price": 722.7,
-      "kbju": {
-        "calories": 156.2,
-        "protein": 15.7,
-        "fat": 13.4,
-        "carbohydrates": 7.6
-      },
-      "manufacturer": {
-        "name": "НПО «Ефимова»",
-        "country": "Россия",
-        "website": "https://ford.com",
-        "inn": "3687837951"
+        "website": "https://mostransavto.org",
+        "inn": "0958619414"
       }
     }
   ],
-  "total_amount": 1142.34,
+  "total_amount": 275.28,
   "payment_method": "cash",
-  "is_delivery": true,
+  "is_delivery": false,
   "delivery_address": {
     "country": "Россия",
-    "city": "г. Новомосковск",
-    "street": "ш. Фурманова",
-    "house": "723",
-    "apartment": "91",
-    "postal_code": "847239"
+    "city": "д. Нерчинск",
+    "street": "наб. Щорса",
+    "house": "829",
+    "apartment": "56",
+    "postal_code": "543297"
   },
-  "purchase_datetime": "2025-07-03T00:21:06.224957"
+  "purchase_datetime": "2025-08-18T11:36:53.685862"
 }

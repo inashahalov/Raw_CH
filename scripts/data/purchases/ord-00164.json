@@ -1,63 +1,63 @@
 {
   "purchase_id": "ord-00164",
   "customer": {
-    "customer_id": "cus-1003",
-    "first_name": "Полина",
-    "last_name": "Шарова",
-    "email": "valerija_1971@example.net",
-    "phone": "+74365505643",
+    "customer_id": "cus-1016",
+    "first_name": "Валерий",
+    "last_name": "Мясникова",
+    "email": "visheslav2010@example.org",
+    "phone": "+7 348 113 4344",
     "is_loyalty_member": true,
-    "loyalty_card_number": "LOYAL-C222052A45"
+    "loyalty_card_number": "LOYAL-EDAFBAB1B8"
   },
   "store": {
-    "store_id": "store-016",
-    "store_name": "Большая Пикча — Магазин на пр. Горького",
+    "store_id": "store-029",
+    "store_name": "Большая Пикча — Магазин на бул. Казанский",
     "store_network": "Большая Пикча",
     "location": {
       "country": "Россия",
-      "city": "клх Новомичуринск",
-      "street": "пер. З.Космодемьянской",
-      "house": "8",
-      "postal_code": "646457",
+      "city": "клх Углегорск",
+      "street": "бул. Бригадный",
+      "house": "1/9",
+      "postal_code": "536870",
       "coordinates": {
-        "latitude": -13.8879685,
-        "longitude": -88.240324
+        "latitude": 86.35557,
+        "longitude": 60.62358
       }
     }
   },
   "items": [
     {
-      "product_id": "prd-1006",
-      "name": "Вытаскивать Плод",
-      "category": "🍏 Фрукты и ягоды",
-      "quantity": 1,
+      "product_id": "prd-1001",
+      "name": "Лиловый Бок",
+      "category": "🥛 Молочные продукты",
+      "quantity": 5,
       "unit": "упаковка",
-      "price_per_unit": 123.36,
-      "total_price": 123.36,
+      "price_per_unit": 242.46,
+      "total_price": 1212.3,
       "kbju": {
-        "calories": 124.2,
-        "protein": 11.3,
-        "fat": 2.6,
-        "carbohydrates": 42.9
+        "calories": 274.4,
+        "protein": 6.4,
+        "fat": 6.0,
+        "carbohydrates": 13.5
       },
       "manufacturer": {
-        "name": "ИП «Емельянов-Наумова»",
+        "name": "Куликов и партнеры",
         "country": "Россия",
-        "website": "https://npo.edu",
-        "inn": "9973742158"
+        "website": "https://sharapov.net",
+        "inn": "9920890846"
       }
     }
   ],
-  "total_amount": 123.36,
+  "total_amount": 1212.3,
   "payment_method": "card",
-  "is_delivery": false,
+  "is_delivery": true,
   "delivery_address": {
     "country": "Россия",
-    "city": "с. Кабанск",
-    "street": "наб. Саратовская",
-    "house": "5",
-    "apartment": "29",
-    "postal_code": "362727"
+    "city": "с. Апшеронск",
+    "street": "пр. Космический",
+    "house": "6",
+    "apartment": "88",
+    "postal_code": "959491"
   },
-  "purchase_datetime": "2025-08-25T00:21:06.231503"
+  "purchase_datetime": "2025-07-31T11:36:53.690546"
 }

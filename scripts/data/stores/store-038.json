@@ -1,6 +1,6 @@
 {
   "store_id": "store-038",
-  "store_name": "Маленькая Пикча — Магазин на ш. Шахтерское",
+  "store_name": "Маленькая Пикча — Магазин на пр. Ломоносова",
   "store_network": "Маленькая Пикча",
   "store_type_description": "Магазин у дома менее 100 кв.м. Входит в сеть из 15 магазинов.",
   "type": "offline",
@@ -12,19 +12,19 @@
     "🥦 Овощи и зелень"
   ],
   "manager": {
-    "name": "Федор Богданович Виноградов",
-    "phone": "8 (404) 489-65-45",
-    "email": "sofon_1982@example.com"
+    "name": "Смирнов Демид Владленович",
+    "phone": "8 953 743 2340",
+    "email": "boris01@example.org"
   },
   "location": {
     "country": "Россия",
-    "city": "д. Сосновый Бор",
-    "street": "пр. Новый",
-    "house": "8",
-    "postal_code": "442480",
+    "city": "клх Красноуфимск",
+    "street": "пр. Садовый",
+    "house": "164",
+    "postal_code": "185385",
     "coordinates": {
-      "latitude": -48.355729,
-      "longitude": -128.321237
+      "latitude": -40.3102185,
+      "longitude": 38.964954
     }
   },
   "opening_hours": {
@@ -34,6 +34,6 @@
   },
   "accepts_online_orders": true,
   "delivery_available": true,
-  "warehouse_connected": false,
-  "last_inventory_date": "2025-09-25"
+  "warehouse_connected": true,
+  "last_inventory_date": "2025-09-29"
 }

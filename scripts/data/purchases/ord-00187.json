@@ -1,63 +1,63 @@
 {
   "purchase_id": "ord-00187",
   "customer": {
-    "customer_id": "cus-1044",
-    "first_name": "Ферапонт",
-    "last_name": "Дьячков",
-    "email": "svjatopolk_2014@example.net",
-    "phone": "8 004 991 21 34",
+    "customer_id": "cus-1001",
+    "first_name": "Юрий",
+    "last_name": "Симонова",
+    "email": "semenovaljudmila@example.net",
+    "phone": "+7 301 909 6362",
     "is_loyalty_member": true,
-    "loyalty_card_number": "LOYAL-0DB0905641"
+    "loyalty_card_number": "LOYAL-8E1F7B0096"
   },
   "store": {
-    "store_id": "store-020",
-    "store_name": "Большая Пикча — Магазин на алл. Парковая",
+    "store_id": "store-004",
+    "store_name": "Большая Пикча — Магазин на бул. Декабристов",
     "store_network": "Большая Пикча",
     "location": {
       "country": "Россия",
-      "city": "п. Витим",
-      "street": "ш. Проточное",
-      "house": "6/9",
-      "postal_code": "926506",
+      "city": "г. Саров (Морд.)",
+      "street": "бул. Гоголя",
+      "house": "6/3",
+      "postal_code": "651927",
       "coordinates": {
-        "latitude": -88.588761,
-        "longitude": -151.51246
+        "latitude": 12.2983715,
+        "longitude": 45.641857
       }
     }
   },
   "items": [
     {
-      "product_id": "prd-1019",
-      "name": "Сынок Обида",
-      "category": "🍏 Фрукты и ягоды",
+      "product_id": "prd-1007",
+      "name": "Интеллектуальный Около",
+      "category": "🥛 Молочные продукты",
       "quantity": 4,
-      "unit": "кг",
-      "price_per_unit": 86.19,
-      "total_price": 344.76,
+      "unit": "шт",
+      "price_per_unit": 147.81,
+      "total_price": 591.24,
       "kbju": {
-        "calories": 224.4,
-        "protein": 5.9,
-        "fat": 13.9,
-        "carbohydrates": 7.6
+        "calories": 87.6,
+        "protein": 12.8,
+        "fat": 14.2,
+        "carbohydrates": 17.0
       },
       "manufacturer": {
-        "name": "ООО «Шилов-Константинова»",
+        "name": "ОАО «Владимирова Богданова»",
         "country": "Россия",
-        "website": "https://ooo.org",
-        "inn": "6666152301"
+        "website": "https://ip.info",
+        "inn": "3430882539"
       }
     }
   ],
-  "total_amount": 344.76,
-  "payment_method": "card",
+  "total_amount": 591.24,
+  "payment_method": "cash",
   "is_delivery": true,
   "delivery_address": {
     "country": "Россия",
-    "city": "клх Дагомыс",
-    "street": "ул. Поселковая",
-    "house": "76",
-    "apartment": "62",
-    "postal_code": "232956"
+    "city": "г. Внуково (метеост.)",
+    "street": "ул. Стахановская",
+    "house": "561",
+    "apartment": "100",
+    "postal_code": "012285"
   },
-  "purchase_datetime": "2025-06-27T00:21:06.240035"
+  "purchase_datetime": "2025-08-23T11:36:53.698269"
 }

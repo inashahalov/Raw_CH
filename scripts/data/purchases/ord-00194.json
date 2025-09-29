@@ -1,84 +1,105 @@
 {
   "purchase_id": "ord-00194",
   "customer": {
-    "customer_id": "cus-1014",
-    "first_name": "Вера",
-    "last_name": "Логинова",
-    "email": "sofron_04@example.com",
-    "phone": "8 (794) 601-51-70",
+    "customer_id": "cus-1006",
+    "first_name": "Кондрат",
+    "last_name": "Матвеева",
+    "email": "kuzminilarion@example.net",
+    "phone": "+7 (811) 265-95-44",
     "is_loyalty_member": true,
-    "loyalty_card_number": "LOYAL-85166218B3"
+    "loyalty_card_number": "LOYAL-816B977AA0"
   },
   "store": {
-    "store_id": "store-012",
-    "store_name": "Большая Пикча — Магазин на алл. Светлая",
+    "store_id": "store-024",
+    "store_name": "Большая Пикча — Магазин на алл. Правды",
     "store_network": "Большая Пикча",
     "location": {
       "country": "Россия",
-      "city": "ст. Макушино",
-      "street": "пр. Российский",
-      "house": "6/9",
-      "postal_code": "793395",
+      "city": "г. Нягань",
+      "street": "наб. Тепличная",
+      "house": "7",
+      "postal_code": "010829",
       "coordinates": {
-        "latitude": 53.1520475,
-        "longitude": 132.28453
+        "latitude": -40.134826,
+        "longitude": -72.151024
       }
     }
   },
   "items": [
     {
-      "product_id": "prd-1019",
-      "name": "Сынок Обида",
-      "category": "🍏 Фрукты и ягоды",
-      "quantity": 5,
+      "product_id": "prd-1013",
+      "name": "Правление Банк",
+      "category": "🥛 Молочные продукты",
+      "quantity": 4,
       "unit": "кг",
-      "price_per_unit": 86.19,
-      "total_price": 430.95,
+      "price_per_unit": 210.76,
+      "total_price": 843.04,
       "kbju": {
-        "calories": 224.4,
-        "protein": 5.9,
-        "fat": 13.9,
-        "carbohydrates": 7.6
+        "calories": 279.5,
+        "protein": 12.1,
+        "fat": 5.8,
+        "carbohydrates": 44.9
       },
       "manufacturer": {
-        "name": "ООО «Шилов-Константинова»",
+        "name": "ИП «Королев, Кулагина и Медведева»",
         "country": "Россия",
-        "website": "https://ooo.org",
-        "inn": "6666152301"
+        "website": "https://ooo.net",
+        "inn": "2561502092"
       }
     },
     {
-      "product_id": "prd-1001",
-      "name": "Домашний Жидкий",
+      "product_id": "prd-1007",
+      "name": "Интеллектуальный Около",
       "category": "🥛 Молочные продукты",
-      "quantity": 2,
-      "unit": "упаковка",
-      "price_per_unit": 74.5,
-      "total_price": 149.0,
+      "quantity": 1,
+      "unit": "шт",
+      "price_per_unit": 147.81,
+      "total_price": 147.81,
       "kbju": {
-        "calories": 173.9,
-        "protein": 3.6,
-        "fat": 11.0,
-        "carbohydrates": 7.4
+        "calories": 87.6,
+        "protein": 12.8,
+        "fat": 14.2,
+        "carbohydrates": 17.0
       },
       "manufacturer": {
-        "name": "ОАО «Емельянова-Харитонов»",
+        "name": "ОАО «Владимирова Богданова»",
         "country": "Россия",
-        "website": "https://zao.edu",
-        "inn": "4413982995"
+        "website": "https://ip.info",
+        "inn": "3430882539"
+      }
+    },
+    {
+      "product_id": "prd-1018",
+      "name": "Отметить Парень",
+      "category": "🥩 Мясо, рыба, яйца и бобовые",
+      "quantity": 1,
+      "unit": "шт",
+      "price_per_unit": 241.62,
+      "total_price": 241.62,
+      "kbju": {
+        "calories": 295.0,
+        "protein": 3.5,
+        "fat": 6.0,
+        "carbohydrates": 2.6
+      },
+      "manufacturer": {
+        "name": "Петухов Лтд",
+        "country": "Россия",
+        "website": "https://rao.ru",
+        "inn": "4394791537"
       }
     }
   ],
-  "total_amount": 579.95,
+  "total_amount": 1232.47,
   "payment_method": "cash",
-  "is_delivery": true,
+  "is_delivery": false,
   "delivery_address": {
     "country": "Россия",
-    "city": "с. Минусинск",
-    "street": "ул. Семашко",
-    "house": "308",
-    "apartment": "11",
-    "postal_code": "401472"
+    "city": "п. Воронеж",
+    "street": "бул. Тепличный",
+    "house": "699",
+    "apartment": "47",
+    "postal_code": "552286"
   },
-  "purchase_datetime": "2025-08-11T00:21:06.242612"
+  "purchase_datetime": "2025-09-18T11:36:53.700341"
 }

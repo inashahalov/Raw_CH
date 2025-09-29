@@ -1,84 +1,63 @@
 {
   "purchase_id": "ord-00089",
   "customer": {
-    "customer_id": "cus-1019",
-    "first_name": "Всеслав",
-    "last_name": "Ершова",
-    "email": "efimovazhanna@example.org",
-    "phone": "+73636279369",
+    "customer_id": "cus-1004",
+    "first_name": "Ферапонт",
+    "last_name": "Ковалева",
+    "email": "konstantin66@example.net",
+    "phone": "8 505 062 0823",
     "is_loyalty_member": true,
-    "loyalty_card_number": "LOYAL-70F5EFD034"
+    "loyalty_card_number": "LOYAL-9768BFC8A4"
   },
   "store": {
     "store_id": "store-022",
-    "store_name": "Большая Пикча — Магазин на пер. Геологов",
+    "store_name": "Большая Пикча — Магазин на ул. Кузнецова",
     "store_network": "Большая Пикча",
     "location": {
       "country": "Россия",
-      "city": "г. Каменномостский",
-      "street": "наб. Балтийская",
-      "house": "3",
-      "postal_code": "206608",
+      "city": "п. Яхрома",
+      "street": "бул. Угловой",
+      "house": "4",
+      "postal_code": "292777",
       "coordinates": {
-        "latitude": 70.41788,
-        "longitude": 35.145444
+        "latitude": 71.4229395,
+        "longitude": 80.067446
       }
     }
   },
   "items": [
     {
-      "product_id": "prd-1012",
-      "name": "Школьный Анализ",
-      "category": "🥦 Овощи и зелень",
-      "quantity": 1,
-      "unit": "л",
-      "price_per_unit": 209.82,
-      "total_price": 209.82,
-      "kbju": {
-        "calories": 60.6,
-        "protein": 14.6,
-        "fat": 12.7,
-        "carbohydrates": 41.7
-      },
-      "manufacturer": {
-        "name": "ИП «Беспалов-Тимофеев»",
-        "country": "Россия",
-        "website": "https://npo.edu",
-        "inn": "6799042551"
-      }
-    },
-    {
-      "product_id": "prd-1015",
-      "name": "Советовать Горький",
-      "category": "🥖 Зерновые и хлебобулочные изделия",
+      "product_id": "prd-1007",
+      "name": "Интеллектуальный Около",
+      "category": "🥛 Молочные продукты",
       "quantity": 3,
-      "unit": "л",
-      "price_per_unit": 74.06,
-      "total_price": 222.18,
+      "unit": "шт",
+      "price_per_unit": 147.81,
+      "total_price": 443.43,
       "kbju": {
-        "calories": 265.6,
-        "protein": 14.1,
-        "fat": 13.9,
-        "carbohydrates": 4.2
+        "calories": 87.6,
+        "protein": 12.8,
+        "fat": 14.2,
+        "carbohydrates": 17.0
       },
       "manufacturer": {
-        "name": "РАО «Пахомова-Голубев»",
+        "name": "ОАО «Владимирова Богданова»",
         "country": "Россия",
-        "website": "https://nlmk.biz",
-        "inn": "6002140966"
+        "website": "https://ip.info",
+        "inn": "3430882539"
       }
     }
   ],
-  "total_amount": 432.0,
+  "total_amount": 443.43,
   "payment_method": "card",
-  "is_delivery": false,
+  "is_delivery": true,
   "delivery_address": {
     "country": "Россия",
-    "city": "п. Витим",
-    "street": "пр. Гафури",
-    "house": "921",
-    "apartment": "67",
-    "postal_code": "232578"
+    "city": "к. Ульяновск",
+    "street": "пр. Песочный",
+    "house": "93",
+    "apartment": "95",
+    "postal_code": "053380"
   },
-  "purchase_datetime": "2025-09-10T00:21:05.955240"
+  "purchase_datetime": "2025-07-14T11:36:53.663228"
 }

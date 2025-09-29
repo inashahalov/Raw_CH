@@ -1,105 +1,84 @@
 {
   "purchase_id": "ord-00030",
   "customer": {
-    "customer_id": "cus-1013",
-    "first_name": "Селиван",
-    "last_name": "Савельев",
-    "email": "vissarion_40@example.com",
-    "phone": "+71178778499",
+    "customer_id": "cus-1025",
+    "first_name": "Адам",
+    "last_name": "Белоусов",
+    "email": "milan54@example.org",
+    "phone": "8 760 444 8443",
     "is_loyalty_member": true,
-    "loyalty_card_number": "LOYAL-CA2847D92B"
+    "loyalty_card_number": "LOYAL-1734699199"
   },
   "store": {
-    "store_id": "store-018",
-    "store_name": "Большая Пикча — Магазин на ш. Колхозное",
+    "store_id": "store-016",
+    "store_name": "Большая Пикча — Магазин на бул. Придорожный",
     "store_network": "Большая Пикча",
     "location": {
       "country": "Россия",
-      "city": "п. Урюпинск",
-      "street": "ул. Королева",
-      "house": "5",
-      "postal_code": "809286",
+      "city": "к. Певек",
+      "street": "пр. Мичурина",
+      "house": "44",
+      "postal_code": "053365",
       "coordinates": {
-        "latitude": 9.686733,
-        "longitude": 33.027261
+        "latitude": -76.450329,
+        "longitude": 102.445723
       }
     }
   },
   "items": [
     {
-      "product_id": "prd-1000",
-      "name": "Привлекать Передо",
-      "category": "🥦 Овощи и зелень",
-      "quantity": 1,
-      "unit": "шт",
-      "price_per_unit": 261.89,
-      "total_price": 261.89,
-      "kbju": {
-        "calories": 286.2,
-        "protein": 17.9,
-        "fat": 8.7,
-        "carbohydrates": 47.1
-      },
-      "manufacturer": {
-        "name": "ООО «Баранов-Пестова»",
-        "country": "Россия",
-        "website": "https://ooo.info",
-        "inn": "7520686716"
-      }
-    },
-    {
-      "product_id": "prd-1014",
-      "name": "Опасность Следовательно",
-      "category": "🥛 Молочные продукты",
+      "product_id": "prd-1012",
+      "name": "Торговля Счастье",
+      "category": "🥖 Зерновые и хлебобулочные изделия",
       "quantity": 2,
-      "unit": "кг",
-      "price_per_unit": 213.21,
-      "total_price": 426.42,
+      "unit": "л",
+      "price_per_unit": 70.91,
+      "total_price": 141.82,
       "kbju": {
-        "calories": 206.8,
-        "protein": 10.5,
-        "fat": 2.9,
-        "carbohydrates": 6.6
+        "calories": 149.8,
+        "protein": 5.8,
+        "fat": 6.3,
+        "carbohydrates": 24.8
       },
       "manufacturer": {
-        "name": "ЗАО «Беляков, Большакова и Князева»",
+        "name": "НПО «Некрасова»",
         "country": "Россия",
-        "website": "https://npo.com",
-        "inn": "0149036081"
+        "website": "https://ao.org",
+        "inn": "8419489062"
       }
     },
     {
       "product_id": "prd-1008",
-      "name": "Освободить Призыв",
-      "category": "🥩 Мясо, рыба, яйца и бобовые",
+      "name": "Упор Кузнец",
+      "category": "🍏 Фрукты и ягоды",
       "quantity": 4,
       "unit": "л",
-      "price_per_unit": 265.49,
-      "total_price": 1061.96,
+      "price_per_unit": 255.98,
+      "total_price": 1023.92,
       "kbju": {
-        "calories": 130.4,
-        "protein": 5.2,
-        "fat": 10.6,
-        "carbohydrates": 22.8
+        "calories": 143.1,
+        "protein": 6.1,
+        "fat": 3.5,
+        "carbohydrates": 47.3
       },
       "manufacturer": {
-        "name": "ИП «Маслова, Денисов и Фокина»",
+        "name": "МТС-банк",
         "country": "Россия",
-        "website": "https://ignatev.com",
-        "inn": "7104068639"
+        "website": "https://shcherbakova.com",
+        "inn": "1911616255"
       }
     }
   ],
-  "total_amount": 1750.27,
+  "total_amount": 1165.74,
   "payment_method": "cash",
-  "is_delivery": false,
+  "is_delivery": true,
   "delivery_address": {
     "country": "Россия",
-    "city": "п. Качканар",
-    "street": "пр. Геологов",
-    "house": "882",
-    "apartment": "57",
-    "postal_code": "363767"
+    "city": "г. Малоярославец",
+    "street": "бул. Ясный",
+    "house": "621",
+    "apartment": "4",
+    "postal_code": "911622"
   },
-  "purchase_datetime": "2025-07-26T00:21:05.931447"
+  "purchase_datetime": "2025-07-27T11:36:53.641439"
 }

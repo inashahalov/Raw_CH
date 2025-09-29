@@ -1,63 +1,105 @@
 {
   "purchase_id": "ord-00196",
   "customer": {
-    "customer_id": "cus-1007",
-    "first_name": "Милий",
-    "last_name": "Королев",
-    "email": "tihon2017@example.org",
-    "phone": "8 184 246 8606",
+    "customer_id": "cus-1003",
+    "first_name": "Олимпий",
+    "last_name": "Зыкова",
+    "email": "epifanponomarev@example.org",
+    "phone": "+78556186083",
     "is_loyalty_member": true,
-    "loyalty_card_number": "LOYAL-A8F2C64542"
+    "loyalty_card_number": "LOYAL-C210E4E9CB"
   },
   "store": {
-    "store_id": "store-007",
-    "store_name": "Большая Пикча — Магазин на пр. Механический",
+    "store_id": "store-010",
+    "store_name": "Большая Пикча — Магазин на пер. Ставропольский",
     "store_network": "Большая Пикча",
     "location": {
       "country": "Россия",
-      "city": "клх Шумиха",
-      "street": "бул. Невского",
-      "house": "64",
-      "postal_code": "269152",
+      "city": "г. Белорецк",
+      "street": "ул. Громова",
+      "house": "16",
+      "postal_code": "153247",
       "coordinates": {
-        "latitude": 39.768381,
-        "longitude": 87.782488
+        "latitude": 38.5265505,
+        "longitude": -6.13565
       }
     }
   },
   "items": [
     {
-      "product_id": "prd-1004",
-      "name": "Написать Актриса",
+      "product_id": "prd-1017",
+      "name": "Народ Построить",
       "category": "🍏 Фрукты и ягоды",
-      "quantity": 2,
-      "unit": "кг",
-      "price_per_unit": 247.9,
-      "total_price": 495.8,
+      "quantity": 4,
+      "unit": "шт",
+      "price_per_unit": 178.6,
+      "total_price": 714.4,
       "kbju": {
-        "calories": 90.5,
-        "protein": 3.5,
-        "fat": 0.2,
-        "carbohydrates": 19.9
+        "calories": 256.8,
+        "protein": 17.5,
+        "fat": 12.2,
+        "carbohydrates": 17.7
       },
       "manufacturer": {
-        "name": "Ферронордик машины (Ferronordic)",
+        "name": "Корнилов и партнеры",
         "country": "Россия",
-        "website": "https://kulikova.net",
-        "inn": "5999502719"
+        "website": "https://rao.org",
+        "inn": "2545527642"
+      }
+    },
+    {
+      "product_id": "prd-1011",
+      "name": "Зачем Вскакивать",
+      "category": "🥛 Молочные продукты",
+      "quantity": 3,
+      "unit": "шт",
+      "price_per_unit": 105.34,
+      "total_price": 316.02,
+      "kbju": {
+        "calories": 207.5,
+        "protein": 16.9,
+        "fat": 5.3,
+        "carbohydrates": 19.0
+      },
+      "manufacturer": {
+        "name": "ИП «Нестеров, Лыткин и Евсеев»",
+        "country": "Россия",
+        "website": "https://ip.ru",
+        "inn": "1814255141"
+      }
+    },
+    {
+      "product_id": "prd-1000",
+      "name": "Грустный Дружно",
+      "category": "🥦 Овощи и зелень",
+      "quantity": 4,
+      "unit": "кг",
+      "price_per_unit": 234.69,
+      "total_price": 938.76,
+      "kbju": {
+        "calories": 142.2,
+        "protein": 13.1,
+        "fat": 11.7,
+        "carbohydrates": 10.2
+      },
+      "manufacturer": {
+        "name": "АО «Чернов Сафонова»",
+        "country": "Россия",
+        "website": "https://kolobov.info",
+        "inn": "5863746288"
       }
     }
   ],
-  "total_amount": 495.8,
-  "payment_method": "cash",
-  "is_delivery": false,
+  "total_amount": 1969.18,
+  "payment_method": "card",
+  "is_delivery": true,
   "delivery_address": {
     "country": "Россия",
-    "city": "с. Ялуторовск",
-    "street": "алл. Лесхозная",
-    "house": "49",
-    "apartment": "72",
-    "postal_code": "070486"
+    "city": "г. Саров (Морд.)",
+    "street": "наб. Толбухина",
+    "house": "251",
+    "apartment": "66",
+    "postal_code": "000900"
   },
-  "purchase_datetime": "2025-09-16T00:21:06.243300"
+  "purchase_datetime": "2025-09-22T11:36:53.700973"
 }

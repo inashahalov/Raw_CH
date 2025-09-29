@@ -2,62 +2,83 @@
   "purchase_id": "ord-00026",
   "customer": {
     "customer_id": "cus-1002",
-    "first_name": "Мокей",
-    "last_name": "Ильина",
-    "email": "nikola_2019@example.com",
-    "phone": "8 (913) 273-0912",
+    "first_name": "Евгения",
+    "last_name": "Якушев",
+    "email": "martinovairina@example.net",
+    "phone": "+7 824 721 2309",
     "is_loyalty_member": true,
-    "loyalty_card_number": "LOYAL-D5B5ADD3DC"
+    "loyalty_card_number": "LOYAL-13FF9996C5"
   },
   "store": {
-    "store_id": "store-033",
-    "store_name": "Маленькая Пикча — Магазин на пр. Дарвина",
+    "store_id": "store-038",
+    "store_name": "Маленькая Пикча — Магазин на пр. Ломоносова",
     "store_network": "Маленькая Пикча",
     "location": {
       "country": "Россия",
-      "city": "к. Анадырь",
-      "street": "ш. Володарского",
-      "house": "24",
-      "postal_code": "532143",
+      "city": "клх Красноуфимск",
+      "street": "пр. Садовый",
+      "house": "164",
+      "postal_code": "185385",
       "coordinates": {
-        "latitude": 28.566183,
-        "longitude": 177.383941
+        "latitude": -40.3102185,
+        "longitude": 38.964954
       }
     }
   },
   "items": [
     {
-      "product_id": "prd-1005",
-      "name": "Направо Господь",
-      "category": "🥩 Мясо, рыба, яйца и бобовые",
-      "quantity": 5,
-      "unit": "л",
-      "price_per_unit": 126.73,
-      "total_price": 633.65,
+      "product_id": "prd-1002",
+      "name": "Манера Остановить",
+      "category": "🥛 Молочные продукты",
+      "quantity": 1,
+      "unit": "кг",
+      "price_per_unit": 49.56,
+      "total_price": 49.56,
       "kbju": {
-        "calories": 93.0,
-        "protein": 13.6,
-        "fat": 2.1,
-        "carbohydrates": 20.3
+        "calories": 233.3,
+        "protein": 5.6,
+        "fat": 13.1,
+        "carbohydrates": 34.2
       },
       "manufacturer": {
-        "name": "ЗАО «Титова»",
+        "name": "АО «Вишнякова-Устинова»",
         "country": "Россия",
-        "website": "https://npo.com",
-        "inn": "2777644639"
+        "website": "https://efimov.ru",
+        "inn": "0302933009"
+      }
+    },
+    {
+      "product_id": "prd-1012",
+      "name": "Торговля Счастье",
+      "category": "🥖 Зерновые и хлебобулочные изделия",
+      "quantity": 3,
+      "unit": "л",
+      "price_per_unit": 70.91,
+      "total_price": 212.73,
+      "kbju": {
+        "calories": 149.8,
+        "protein": 5.8,
+        "fat": 6.3,
+        "carbohydrates": 24.8
+      },
+      "manufacturer": {
+        "name": "НПО «Некрасова»",
+        "country": "Россия",
+        "website": "https://ao.org",
+        "inn": "8419489062"
       }
     }
   ],
-  "total_amount": 633.65,
-  "payment_method": "card",
+  "total_amount": 262.29,
+  "payment_method": "cash",
   "is_delivery": true,
   "delivery_address": {
     "country": "Россия",
-    "city": "ст. Игарка",
-    "street": "наб. Воровского",
-    "house": "49",
-    "apartment": "92",
-    "postal_code": "313023"
+    "city": "к. Куртамыш",
+    "street": "ул. Беляева",
+    "house": "27",
+    "apartment": "45",
+    "postal_code": "141618"
   },
-  "purchase_datetime": "2025-08-05T00:21:05.929708"
+  "purchase_datetime": "2025-08-04T11:36:53.639944"
 }

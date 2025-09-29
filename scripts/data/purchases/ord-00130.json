@@ -1,105 +1,84 @@
 {
   "purchase_id": "ord-00130",
   "customer": {
-    "customer_id": "cus-1034",
-    "first_name": "Глеб",
-    "last_name": "Суханова",
-    "email": "frolovipat@example.org",
-    "phone": "+7 828 354 05 71",
+    "customer_id": "cus-1012",
+    "first_name": "Ипполит",
+    "last_name": "Юдина",
+    "email": "tverdislav1982@example.net",
+    "phone": "8 (058) 698-1657",
     "is_loyalty_member": true,
-    "loyalty_card_number": "LOYAL-4B3C52328F"
+    "loyalty_card_number": "LOYAL-5DE9D47D7A"
   },
   "store": {
-    "store_id": "store-028",
-    "store_name": "Большая Пикча — Магазин на пер. Придорожный",
+    "store_id": "store-015",
+    "store_name": "Большая Пикча — Магазин на алл. Ломоносова",
     "store_network": "Большая Пикча",
     "location": {
       "country": "Россия",
-      "city": "п. Великие Луки",
-      "street": "алл. Сельская",
-      "house": "9/1",
-      "postal_code": "131366",
+      "city": "ст. Двинской",
+      "street": "наб. Спортивная",
+      "house": "528",
+      "postal_code": "734819",
       "coordinates": {
-        "latitude": 89.2025215,
-        "longitude": 9.359875
+        "latitude": -80.7995515,
+        "longitude": -113.912093
       }
     }
   },
   "items": [
     {
-      "product_id": "prd-1006",
-      "name": "Вытаскивать Плод",
-      "category": "🍏 Фрукты и ягоды",
-      "quantity": 1,
-      "unit": "упаковка",
-      "price_per_unit": 123.36,
-      "total_price": 123.36,
+      "product_id": "prd-1018",
+      "name": "Отметить Парень",
+      "category": "🥩 Мясо, рыба, яйца и бобовые",
+      "quantity": 4,
+      "unit": "шт",
+      "price_per_unit": 241.62,
+      "total_price": 966.48,
       "kbju": {
-        "calories": 124.2,
-        "protein": 11.3,
-        "fat": 2.6,
-        "carbohydrates": 42.9
+        "calories": 295.0,
+        "protein": 3.5,
+        "fat": 6.0,
+        "carbohydrates": 2.6
       },
       "manufacturer": {
-        "name": "ИП «Емельянов-Наумова»",
+        "name": "Петухов Лтд",
         "country": "Россия",
-        "website": "https://npo.edu",
-        "inn": "9973742158"
+        "website": "https://rao.ru",
+        "inn": "4394791537"
       }
     },
     {
-      "product_id": "prd-1019",
-      "name": "Сынок Обида",
+      "product_id": "prd-1014",
+      "name": "Спичка Носок",
       "category": "🍏 Фрукты и ягоды",
-      "quantity": 5,
-      "unit": "кг",
-      "price_per_unit": 86.19,
-      "total_price": 430.95,
+      "quantity": 4,
+      "unit": "шт",
+      "price_per_unit": 180.19,
+      "total_price": 720.76,
       "kbju": {
-        "calories": 224.4,
-        "protein": 5.9,
-        "fat": 13.9,
-        "carbohydrates": 7.6
+        "calories": 248.0,
+        "protein": 12.3,
+        "fat": 6.8,
+        "carbohydrates": 5.2
       },
       "manufacturer": {
-        "name": "ООО «Шилов-Константинова»",
+        "name": "КДВ Групп",
         "country": "Россия",
-        "website": "https://ooo.org",
-        "inn": "6666152301"
-      }
-    },
-    {
-      "product_id": "prd-1017",
-      "name": "Цель Единый",
-      "category": "🥖 Зерновые и хлебобулочные изделия",
-      "quantity": 5,
-      "unit": "упаковка",
-      "price_per_unit": 99.97,
-      "total_price": 499.85,
-      "kbju": {
-        "calories": 97.4,
-        "protein": 12.5,
-        "fat": 14.8,
-        "carbohydrates": 11.6
-      },
-      "manufacturer": {
-        "name": "АО «Белякова»",
-        "country": "Россия",
-        "website": "https://rao.com",
-        "inn": "0030371079"
+        "website": "https://nizhfarm.com",
+        "inn": "8186530463"
       }
     }
   ],
-  "total_amount": 1054.16,
-  "payment_method": "card",
-  "is_delivery": true,
+  "total_amount": 1687.24,
+  "payment_method": "cash",
+  "is_delivery": false,
   "delivery_address": {
     "country": "Россия",
-    "city": "п. Нерчинск",
-    "street": "пер. Красный",
-    "house": "4",
-    "apartment": "61",
-    "postal_code": "843709"
+    "city": "ст. Ачинск",
+    "street": "алл. Ставропольская",
+    "house": "95",
+    "apartment": "15",
+    "postal_code": "959483"
   },
-  "purchase_datetime": "2025-08-20T00:21:05.974211"
+  "purchase_datetime": "2025-09-10T11:36:53.677647"
 }

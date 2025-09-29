@@ -1,84 +1,105 @@
 {
   "purchase_id": "ord-00178",
   "customer": {
-    "customer_id": "cus-1013",
-    "first_name": "Селиван",
-    "last_name": "Савельев",
-    "email": "vissarion_40@example.com",
-    "phone": "+71178778499",
+    "customer_id": "cus-1023",
+    "first_name": "Панкрат",
+    "last_name": "Евдокимов",
+    "email": "lavrenti_48@example.org",
+    "phone": "8 (089) 348-13-39",
     "is_loyalty_member": true,
-    "loyalty_card_number": "LOYAL-CA2847D92B"
+    "loyalty_card_number": "LOYAL-DF9EB001FC"
   },
   "store": {
-    "store_id": "store-015",
-    "store_name": "Большая Пикча — Магазин на алл. Пархоменко",
-    "store_network": "Большая Пикча",
+    "store_id": "store-032",
+    "store_name": "Маленькая Пикча — Магазин на пер. Большой",
+    "store_network": "Маленькая Пикча",
     "location": {
       "country": "Россия",
-      "city": "с. Минусинск",
-      "street": "ул. Прудная",
-      "house": "2",
-      "postal_code": "166699",
+      "city": "с. Кизилюрт",
+      "street": "ул. Крылова",
+      "house": "34",
+      "postal_code": "448931",
       "coordinates": {
-        "latitude": -58.9745715,
-        "longitude": -18.750765
+        "latitude": -34.754942,
+        "longitude": 17.064394
       }
     }
   },
   "items": [
     {
-      "product_id": "prd-1009",
-      "name": "Слать Бригада",
-      "category": "🥛 Молочные продукты",
-      "quantity": 1,
-      "unit": "л",
-      "price_per_unit": 240.9,
-      "total_price": 240.9,
+      "product_id": "prd-1014",
+      "name": "Спичка Носок",
+      "category": "🍏 Фрукты и ягоды",
+      "quantity": 3,
+      "unit": "шт",
+      "price_per_unit": 180.19,
+      "total_price": 540.57,
       "kbju": {
-        "calories": 156.2,
-        "protein": 15.7,
-        "fat": 13.4,
-        "carbohydrates": 7.6
+        "calories": 248.0,
+        "protein": 12.3,
+        "fat": 6.8,
+        "carbohydrates": 5.2
       },
       "manufacturer": {
-        "name": "НПО «Ефимова»",
+        "name": "КДВ Групп",
         "country": "Россия",
-        "website": "https://ford.com",
-        "inn": "3687837951"
+        "website": "https://nizhfarm.com",
+        "inn": "8186530463"
       }
     },
     {
-      "product_id": "prd-1018",
-      "name": "Зачем Пол",
-      "category": "🍏 Фрукты и ягоды",
+      "product_id": "prd-1000",
+      "name": "Грустный Дружно",
+      "category": "🥦 Овощи и зелень",
       "quantity": 4,
       "unit": "кг",
-      "price_per_unit": 247.99,
-      "total_price": 991.96,
+      "price_per_unit": 234.69,
+      "total_price": 938.76,
       "kbju": {
-        "calories": 236.7,
-        "protein": 5.8,
-        "fat": 10.9,
-        "carbohydrates": 13.1
+        "calories": 142.2,
+        "protein": 13.1,
+        "fat": 11.7,
+        "carbohydrates": 10.2
       },
       "manufacturer": {
-        "name": "ОАО «Панов-Воробьева»",
+        "name": "АО «Чернов Сафонова»",
         "country": "Россия",
-        "website": "https://rao.edu",
-        "inn": "5397679829"
+        "website": "https://kolobov.info",
+        "inn": "5863746288"
+      }
+    },
+    {
+      "product_id": "prd-1001",
+      "name": "Лиловый Бок",
+      "category": "🥛 Молочные продукты",
+      "quantity": 3,
+      "unit": "упаковка",
+      "price_per_unit": 242.46,
+      "total_price": 727.38,
+      "kbju": {
+        "calories": 274.4,
+        "protein": 6.4,
+        "fat": 6.0,
+        "carbohydrates": 13.5
+      },
+      "manufacturer": {
+        "name": "Куликов и партнеры",
+        "country": "Россия",
+        "website": "https://sharapov.net",
+        "inn": "9920890846"
       }
     }
   ],
-  "total_amount": 1232.86,
-  "payment_method": "cash",
+  "total_amount": 2206.71,
+  "payment_method": "card",
   "is_delivery": true,
   "delivery_address": {
     "country": "Россия",
-    "city": "п. Качканар",
-    "street": "пр. Геологов",
-    "house": "882",
-    "apartment": "57",
-    "postal_code": "363767"
+    "city": "г. Нягань",
+    "street": "наб. Ушакова",
+    "house": "24",
+    "apartment": "76",
+    "postal_code": "051733"
   },
-  "purchase_datetime": "2025-07-31T00:21:06.236772"
+  "purchase_datetime": "2025-07-07T11:36:53.695165"
 }

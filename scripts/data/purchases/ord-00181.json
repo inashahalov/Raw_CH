@@ -1,84 +1,84 @@
 {
   "purchase_id": "ord-00181",
   "customer": {
-    "customer_id": "cus-1001",
-    "first_name": "Святополк",
-    "last_name": "Рожкова",
-    "email": "galaktion_59@example.net",
-    "phone": "8 (979) 949-8623",
+    "customer_id": "cus-1042",
+    "first_name": "Феоктист",
+    "last_name": "Котова",
+    "email": "danilovmaksimiljan@example.com",
+    "phone": "+7 102 205 0348",
     "is_loyalty_member": true,
-    "loyalty_card_number": "LOYAL-D61CBCD6EC"
+    "loyalty_card_number": "LOYAL-42A13245D1"
   },
   "store": {
-    "store_id": "store-026",
-    "store_name": "Большая Пикча — Магазин на наб. Горная",
-    "store_network": "Большая Пикча",
+    "store_id": "store-042",
+    "store_name": "Маленькая Пикча — Магазин на пр. Льва Толстого",
+    "store_network": "Маленькая Пикча",
     "location": {
       "country": "Россия",
-      "city": "с. Нижневартовск",
-      "street": "пер. Дарвина",
-      "house": "8",
-      "postal_code": "513083",
+      "city": "с. Любань",
+      "street": "ш. М.Горького",
+      "house": "45",
+      "postal_code": "169119",
       "coordinates": {
-        "latitude": -78.2781365,
-        "longitude": -138.552401
+        "latitude": 73.7860975,
+        "longitude": 53.061392
       }
     }
   },
   "items": [
     {
-      "product_id": "prd-1008",
-      "name": "Освободить Призыв",
-      "category": "🥩 Мясо, рыба, яйца и бобовые",
-      "quantity": 2,
-      "unit": "л",
-      "price_per_unit": 265.49,
-      "total_price": 530.98,
+      "product_id": "prd-1000",
+      "name": "Грустный Дружно",
+      "category": "🥦 Овощи и зелень",
+      "quantity": 1,
+      "unit": "кг",
+      "price_per_unit": 234.69,
+      "total_price": 234.69,
       "kbju": {
-        "calories": 130.4,
-        "protein": 5.2,
-        "fat": 10.6,
-        "carbohydrates": 22.8
+        "calories": 142.2,
+        "protein": 13.1,
+        "fat": 11.7,
+        "carbohydrates": 10.2
       },
       "manufacturer": {
-        "name": "ИП «Маслова, Денисов и Фокина»",
+        "name": "АО «Чернов Сафонова»",
         "country": "Россия",
-        "website": "https://ignatev.com",
-        "inn": "7104068639"
+        "website": "https://kolobov.info",
+        "inn": "5863746288"
       }
     },
     {
-      "product_id": "prd-1004",
-      "name": "Написать Актриса",
-      "category": "🍏 Фрукты и ягоды",
-      "quantity": 1,
-      "unit": "кг",
-      "price_per_unit": 247.9,
-      "total_price": 247.9,
+      "product_id": "prd-1006",
+      "name": "Очередной Развернуться",
+      "category": "🥩 Мясо, рыба, яйца и бобовые",
+      "quantity": 2,
+      "unit": "упаковка",
+      "price_per_unit": 40.94,
+      "total_price": 81.88,
       "kbju": {
-        "calories": 90.5,
-        "protein": 3.5,
-        "fat": 0.2,
-        "carbohydrates": 19.9
+        "calories": 207.0,
+        "protein": 10.7,
+        "fat": 10.6,
+        "carbohydrates": 30.5
       },
       "manufacturer": {
-        "name": "Ферронордик машины (Ferronordic)",
+        "name": "Ямал СПГ",
         "country": "Россия",
-        "website": "https://kulikova.net",
-        "inn": "5999502719"
+        "website": "https://ip.com",
+        "inn": "1426832497"
       }
     }
   ],
-  "total_amount": 778.88,
+  "total_amount": 316.57,
   "payment_method": "cash",
-  "is_delivery": false,
+  "is_delivery": true,
   "delivery_address": {
     "country": "Россия",
-    "city": "клх Видное",
-    "street": "пр. Торговый",
-    "house": "5",
-    "apartment": "62",
-    "postal_code": "699953"
+    "city": "клх Ясный (Оренб.)",
+    "street": "бул. 8 Марта",
+    "house": "498",
+    "apartment": "99",
+    "postal_code": "943647"
   },
-  "purchase_datetime": "2025-09-03T00:21:06.237810"
+  "purchase_datetime": "2025-07-26T11:36:53.696288"
 }

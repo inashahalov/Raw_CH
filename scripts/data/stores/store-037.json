@@ -1,6 +1,6 @@
 {
   "store_id": "store-037",
-  "store_name": "Маленькая Пикча — Магазин на пр. Северный",
+  "store_name": "Маленькая Пикча — Магазин на пер. Осипенко",
   "store_network": "Маленькая Пикча",
   "store_type_description": "Магазин у дома менее 100 кв.м. Входит в сеть из 15 магазинов.",
   "type": "offline",
@@ -12,19 +12,19 @@
     "🥦 Овощи и зелень"
   ],
   "manager": {
-    "name": "Савватий Анатольевич Меркушев",
-    "phone": "8 131 546 4839",
-    "email": "itrofimova@example.com"
+    "name": "Ларионова Октябрина Романовна",
+    "phone": "+7 114 685 9226",
+    "email": "kopilovaagafja@example.net"
   },
   "location": {
     "country": "Россия",
-    "city": "п. Курумкан",
-    "street": "бул. Волгоградский",
-    "house": "3",
-    "postal_code": "799219",
+    "city": "к. Шенкурск",
+    "street": "пер. Весенний",
+    "house": "92",
+    "postal_code": "150965",
     "coordinates": {
-      "latitude": -61.9254315,
-      "longitude": -55.410536
+      "latitude": -37.683041,
+      "longitude": 8.788011
     }
   },
   "opening_hours": {
@@ -34,6 +34,6 @@
   },
   "accepts_online_orders": true,
   "delivery_available": true,
-  "warehouse_connected": true,
-  "last_inventory_date": "2025-09-25"
+  "warehouse_connected": false,
+  "last_inventory_date": "2025-09-29"
 }

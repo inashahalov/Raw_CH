@@ -1,63 +1,84 @@
 {
   "purchase_id": "ord-00155",
   "customer": {
-    "customer_id": "cus-1035",
-    "first_name": "Станимир",
+    "customer_id": "cus-1034",
+    "first_name": "Петр",
     "last_name": "Семенов",
-    "email": "lukija2011@example.com",
-    "phone": "+7 (312) 285-31-25",
+    "email": "kondratiknjazev@example.com",
+    "phone": "8 840 333 65 64",
     "is_loyalty_member": true,
-    "loyalty_card_number": "LOYAL-E7C27EFAE9"
+    "loyalty_card_number": "LOYAL-7D4932660C"
   },
   "store": {
-    "store_id": "store-016",
-    "store_name": "Большая Пикча — Магазин на пр. Горького",
-    "store_network": "Большая Пикча",
+    "store_id": "store-044",
+    "store_name": "Маленькая Пикча — Магазин на алл. Дорожная",
+    "store_network": "Маленькая Пикча",
     "location": {
       "country": "Россия",
-      "city": "клх Новомичуринск",
-      "street": "пер. З.Космодемьянской",
-      "house": "8",
-      "postal_code": "646457",
+      "city": "д. Нерчинск",
+      "street": "пер. Крымский",
+      "house": "1",
+      "postal_code": "830795",
       "coordinates": {
-        "latitude": -13.8879685,
-        "longitude": -88.240324
+        "latitude": 44.647401,
+        "longitude": -138.20477
       }
     }
   },
   "items": [
     {
-      "product_id": "prd-1012",
-      "name": "Школьный Анализ",
+      "product_id": "prd-1000",
+      "name": "Грустный Дружно",
       "category": "🥦 Овощи и зелень",
-      "quantity": 4,
-      "unit": "л",
-      "price_per_unit": 209.82,
-      "total_price": 839.28,
+      "quantity": 1,
+      "unit": "кг",
+      "price_per_unit": 234.69,
+      "total_price": 234.69,
       "kbju": {
-        "calories": 60.6,
-        "protein": 14.6,
-        "fat": 12.7,
-        "carbohydrates": 41.7
+        "calories": 142.2,
+        "protein": 13.1,
+        "fat": 11.7,
+        "carbohydrates": 10.2
       },
       "manufacturer": {
-        "name": "ИП «Беспалов-Тимофеев»",
+        "name": "АО «Чернов Сафонова»",
         "country": "Россия",
-        "website": "https://npo.edu",
-        "inn": "6799042551"
+        "website": "https://kolobov.info",
+        "inn": "5863746288"
+      }
+    },
+    {
+      "product_id": "prd-1013",
+      "name": "Правление Банк",
+      "category": "🥛 Молочные продукты",
+      "quantity": 3,
+      "unit": "кг",
+      "price_per_unit": 210.76,
+      "total_price": 632.28,
+      "kbju": {
+        "calories": 279.5,
+        "protein": 12.1,
+        "fat": 5.8,
+        "carbohydrates": 44.9
+      },
+      "manufacturer": {
+        "name": "ИП «Королев, Кулагина и Медведева»",
+        "country": "Россия",
+        "website": "https://ooo.net",
+        "inn": "2561502092"
       }
     }
   ],
-  "total_amount": 839.28,
+  "total_amount": 866.97,
   "payment_method": "cash",
-  "is_delivery": false,
+  "is_delivery": true,
   "delivery_address": {
     "country": "Россия",
-    "city": "д. Екатеринбург",
-    "street": "ш. Макарова",
-    "house": "31",
-    "apartment": "92",
-    "postal_code": "809342"
+    "city": "п. Благовещенск (Амур.)",
+    "street": "пер. Белинского",
+    "house": "6",
+    "apartment": "70",
+    "postal_code": "880088"
   },
-  "purchase_datetime": "2025-09-19T00:21:06.227564"
+  "purchase_datetime": "2025-08-14T11:36:53.687822"
 }

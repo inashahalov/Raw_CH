@@ -1,63 +1,63 @@
 {
   "purchase_id": "ord-00036",
   "customer": {
-    "customer_id": "cus-1022",
-    "first_name": "Селиверст",
-    "last_name": "Мельникова",
-    "email": "zinovevaivanna@example.org",
-    "phone": "83922236291",
+    "customer_id": "cus-1012",
+    "first_name": "Ипполит",
+    "last_name": "Юдина",
+    "email": "tverdislav1982@example.net",
+    "phone": "8 (058) 698-1657",
     "is_loyalty_member": true,
-    "loyalty_card_number": "LOYAL-4245591696"
+    "loyalty_card_number": "LOYAL-5DE9D47D7A"
   },
   "store": {
-    "store_id": "store-023",
-    "store_name": "Большая Пикча — Магазин на пер. Прудный",
+    "store_id": "store-026",
+    "store_name": "Большая Пикча — Магазин на пер. Подлесный",
     "store_network": "Большая Пикча",
     "location": {
       "country": "Россия",
-      "city": "с. Владикавказ",
-      "street": "алл. Репина",
-      "house": "4",
-      "postal_code": "867024",
+      "city": "г. Малоярославец",
+      "street": "ул. Гастелло",
+      "house": "551",
+      "postal_code": "122174",
       "coordinates": {
-        "latitude": -27.2311465,
-        "longitude": -151.9032
+        "latitude": -36.7906745,
+        "longitude": -156.169191
       }
     }
   },
   "items": [
     {
-      "product_id": "prd-1007",
-      "name": "Пища Беспомощный",
-      "category": "🥦 Овощи и зелень",
-      "quantity": 1,
-      "unit": "л",
-      "price_per_unit": 61.58,
-      "total_price": 61.58,
+      "product_id": "prd-1003",
+      "name": "Спалить Лететь",
+      "category": "🍏 Фрукты и ягоды",
+      "quantity": 2,
+      "unit": "кг",
+      "price_per_unit": 68.82,
+      "total_price": 137.64,
       "kbju": {
-        "calories": 155.9,
-        "protein": 7.5,
-        "fat": 9.2,
-        "carbohydrates": 7.7
+        "calories": 203.9,
+        "protein": 5.3,
+        "fat": 0.6,
+        "carbohydrates": 11.5
       },
       "manufacturer": {
-        "name": "АО «Гущин-Карпов»",
+        "name": "ООО «Беляков Капустина»",
         "country": "Россия",
-        "website": "https://ip.net",
-        "inn": "7668416058"
+        "website": "https://mostransavto.org",
+        "inn": "0958619414"
       }
     }
   ],
-  "total_amount": 61.58,
-  "payment_method": "cash",
+  "total_amount": 137.64,
+  "payment_method": "card",
   "is_delivery": false,
   "delivery_address": {
     "country": "Россия",
-    "city": "с. Владикавказ",
-    "street": "пр. Ключевой",
-    "house": "860",
+    "city": "ст. Ачинск",
+    "street": "алл. Ставропольская",
+    "house": "95",
     "apartment": "15",
-    "postal_code": "332731"
+    "postal_code": "959483"
   },
-  "purchase_datetime": "2025-09-08T00:21:05.933771"
+  "purchase_datetime": "2025-07-14T11:36:53.643781"
 }

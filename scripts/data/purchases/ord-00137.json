@@ -1,63 +1,63 @@
 {
   "purchase_id": "ord-00137",
   "customer": {
-    "customer_id": "cus-1017",
-    "first_name": "Селиверст",
-    "last_name": "Кузьмин",
-    "email": "muhinaeleonora@example.org",
-    "phone": "+7 (710) 046-15-36",
+    "customer_id": "cus-1030",
+    "first_name": "Данила",
+    "last_name": "Кабанов",
+    "email": "eduard_84@example.com",
+    "phone": "8 (961) 688-18-31",
     "is_loyalty_member": true,
-    "loyalty_card_number": "LOYAL-99AE3AEB37"
+    "loyalty_card_number": "LOYAL-8CCC7CF000"
   },
   "store": {
-    "store_id": "store-015",
-    "store_name": "Большая Пикча — Магазин на алл. Пархоменко",
+    "store_id": "store-003",
+    "store_name": "Большая Пикча — Магазин на алл. Новая",
     "store_network": "Большая Пикча",
     "location": {
       "country": "Россия",
-      "city": "с. Минусинск",
-      "street": "ул. Прудная",
-      "house": "2",
-      "postal_code": "166699",
+      "city": "к. Куртамыш",
+      "street": "ул. Минская",
+      "house": "2/8",
+      "postal_code": "417861",
       "coordinates": {
-        "latitude": -58.9745715,
-        "longitude": -18.750765
+        "latitude": 52.1093415,
+        "longitude": -46.683943
       }
     }
   },
   "items": [
     {
-      "product_id": "prd-1005",
-      "name": "Направо Господь",
+      "product_id": "prd-1004",
+      "name": "Заявление Шлем",
       "category": "🥩 Мясо, рыба, яйца и бобовые",
-      "quantity": 5,
-      "unit": "л",
-      "price_per_unit": 126.73,
-      "total_price": 633.65,
+      "quantity": 4,
+      "unit": "упаковка",
+      "price_per_unit": 261.08,
+      "total_price": 1044.32,
       "kbju": {
-        "calories": 93.0,
-        "protein": 13.6,
-        "fat": 2.1,
-        "carbohydrates": 20.3
+        "calories": 178.3,
+        "protein": 8.6,
+        "fat": 9.2,
+        "carbohydrates": 12.8
       },
       "manufacturer": {
-        "name": "ЗАО «Титова»",
+        "name": "ОАО «Орлов Попова»",
         "country": "Россия",
-        "website": "https://npo.com",
-        "inn": "2777644639"
+        "website": "https://metallservis.ru",
+        "inn": "4728731918"
       }
     }
   ],
-  "total_amount": 633.65,
+  "total_amount": 1044.32,
   "payment_method": "card",
   "is_delivery": true,
   "delivery_address": {
     "country": "Россия",
-    "city": "п. Урюпинск",
-    "street": "пер. Березовый",
-    "house": "782",
-    "apartment": "12",
-    "postal_code": "541803"
+    "city": "с. Аргаяш",
+    "street": "пер. Карла Либкнехта",
+    "house": "5/2",
+    "apartment": "87",
+    "postal_code": "539126"
   },
-  "purchase_datetime": "2025-09-16T00:21:06.216048"
+  "purchase_datetime": "2025-07-04T11:36:53.680154"
 }

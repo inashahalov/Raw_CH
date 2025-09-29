@@ -1,63 +1,84 @@
 {
   "purchase_id": "ord-00087",
   "customer": {
-    "customer_id": "cus-1023",
-    "first_name": "Глеб",
-    "last_name": "Лаврентьева",
-    "email": "nikola_91@example.net",
-    "phone": "8 395 248 0796",
+    "customer_id": "cus-1008",
+    "first_name": "Митофан",
+    "last_name": "Воронцов",
+    "email": "feofan20@example.org",
+    "phone": "87682311561",
     "is_loyalty_member": true,
-    "loyalty_card_number": "LOYAL-9CB7750EFB"
+    "loyalty_card_number": "LOYAL-7C918DCCDB"
   },
   "store": {
-    "store_id": "store-003",
-    "store_name": "Большая Пикча — Магазин на ул. Тульская",
+    "store_id": "store-016",
+    "store_name": "Большая Пикча — Магазин на бул. Придорожный",
     "store_network": "Большая Пикча",
     "location": {
       "country": "Россия",
-      "city": "ст. Игарка",
-      "street": "наб. Смирнова",
-      "house": "31",
-      "postal_code": "004171",
+      "city": "к. Певек",
+      "street": "пр. Мичурина",
+      "house": "44",
+      "postal_code": "053365",
       "coordinates": {
-        "latitude": -4.03426,
-        "longitude": 25.806164
+        "latitude": -76.450329,
+        "longitude": 102.445723
       }
     }
   },
   "items": [
     {
-      "product_id": "prd-1010",
-      "name": "Мгновение Вряд",
-      "category": "🥦 Овощи и зелень",
-      "quantity": 5,
-      "unit": "кг",
-      "price_per_unit": 149.03,
-      "total_price": 745.15,
+      "product_id": "prd-1017",
+      "name": "Народ Построить",
+      "category": "🍏 Фрукты и ягоды",
+      "quantity": 1,
+      "unit": "шт",
+      "price_per_unit": 178.6,
+      "total_price": 178.6,
       "kbju": {
-        "calories": 186.1,
-        "protein": 15.0,
-        "fat": 10.1,
-        "carbohydrates": 27.3
+        "calories": 256.8,
+        "protein": 17.5,
+        "fat": 12.2,
+        "carbohydrates": 17.7
       },
       "manufacturer": {
-        "name": "ИП «Блохина-Гаврилов»",
+        "name": "Корнилов и партнеры",
         "country": "Россия",
-        "website": "https://oao.com",
-        "inn": "1245272063"
+        "website": "https://rao.org",
+        "inn": "2545527642"
+      }
+    },
+    {
+      "product_id": "prd-1009",
+      "name": "Выдержать Карман",
+      "category": "🥛 Молочные продукты",
+      "quantity": 3,
+      "unit": "кг",
+      "price_per_unit": 193.21,
+      "total_price": 579.63,
+      "kbju": {
+        "calories": 234.5,
+        "protein": 3.6,
+        "fat": 14.6,
+        "carbohydrates": 4.9
+      },
+      "manufacturer": {
+        "name": "Романова и партнеры",
+        "country": "Россия",
+        "website": "https://npo.biz",
+        "inn": "4877305481"
       }
     }
   ],
-  "total_amount": 745.15,
-  "payment_method": "card",
+  "total_amount": 758.23,
+  "payment_method": "cash",
   "is_delivery": false,
   "delivery_address": {
     "country": "Россия",
-    "city": "ст. Клин",
-    "street": "наб. Маркса",
-    "house": "99",
-    "apartment": "96",
-    "postal_code": "828143"
+    "city": "с. Ростов-на-Дону",
+    "street": "ул. Окружная",
+    "house": "658",
+    "apartment": "46",
+    "postal_code": "091436"
   },
-  "purchase_datetime": "2025-09-10T00:21:05.954536"
+  "purchase_datetime": "2025-09-16T11:36:53.662595"
 }

@@ -1,84 +1,63 @@
 {
   "purchase_id": "ord-00143",
   "customer": {
-    "customer_id": "cus-1035",
-    "first_name": "Станимир",
-    "last_name": "Семенов",
-    "email": "lukija2011@example.com",
-    "phone": "+7 (312) 285-31-25",
+    "customer_id": "cus-1000",
+    "first_name": "Галактион",
+    "last_name": "Колесникова",
+    "email": "matveevavasilisa@example.org",
+    "phone": "86591576119",
     "is_loyalty_member": true,
-    "loyalty_card_number": "LOYAL-E7C27EFAE9"
+    "loyalty_card_number": "LOYAL-0D8B39670E"
   },
   "store": {
-    "store_id": "store-027",
-    "store_name": "Большая Пикча — Магазин на пер. Сибирский",
+    "store_id": "store-004",
+    "store_name": "Большая Пикча — Магазин на бул. Декабристов",
     "store_network": "Большая Пикча",
     "location": {
       "country": "Россия",
-      "city": "г. Саранск",
-      "street": "бул. Парижской Коммуны",
-      "house": "5/1",
-      "postal_code": "320168",
+      "city": "г. Саров (Морд.)",
+      "street": "бул. Гоголя",
+      "house": "6/3",
+      "postal_code": "651927",
       "coordinates": {
-        "latitude": 72.4326485,
-        "longitude": 142.283966
+        "latitude": 12.2983715,
+        "longitude": 45.641857
       }
     }
   },
   "items": [
     {
-      "product_id": "prd-1002",
-      "name": "Еврейский Отражение",
-      "category": "🥩 Мясо, рыба, яйца и бобовые",
-      "quantity": 1,
-      "unit": "упаковка",
-      "price_per_unit": 268.07,
-      "total_price": 268.07,
+      "product_id": "prd-1009",
+      "name": "Выдержать Карман",
+      "category": "🥛 Молочные продукты",
+      "quantity": 4,
+      "unit": "кг",
+      "price_per_unit": 193.21,
+      "total_price": 772.84,
       "kbju": {
-        "calories": 264.5,
-        "protein": 5.4,
-        "fat": 13.4,
-        "carbohydrates": 29.2
+        "calories": 234.5,
+        "protein": 3.6,
+        "fat": 14.6,
+        "carbohydrates": 4.9
       },
       "manufacturer": {
-        "name": "ОАО «Мишин-Виноградова»",
+        "name": "Романова и партнеры",
         "country": "Россия",
-        "website": "https://ooo.edu",
-        "inn": "8371422850"
-      }
-    },
-    {
-      "product_id": "prd-1003",
-      "name": "Поймать Изба",
-      "category": "🥖 Зерновые и хлебобулочные изделия",
-      "quantity": 1,
-      "unit": "шт",
-      "price_per_unit": 164.24,
-      "total_price": 164.24,
-      "kbju": {
-        "calories": 225.1,
-        "protein": 9.6,
-        "fat": 12.3,
-        "carbohydrates": 33.1
-      },
-      "manufacturer": {
-        "name": "ЗАО «Родионов»",
-        "country": "Россия",
-        "website": "https://ooo.com",
-        "inn": "2508560707"
+        "website": "https://npo.biz",
+        "inn": "4877305481"
       }
     }
   ],
-  "total_amount": 432.31,
+  "total_amount": 772.84,
   "payment_method": "card",
   "is_delivery": true,
   "delivery_address": {
     "country": "Россия",
-    "city": "д. Екатеринбург",
-    "street": "ш. Макарова",
-    "house": "31",
-    "apartment": "92",
-    "postal_code": "809342"
+    "city": "д. Горячий Ключ",
+    "street": "ш. Огородное",
+    "house": "2/4",
+    "apartment": "6",
+    "postal_code": "519228"
   },
-  "purchase_datetime": "2025-08-10T00:21:06.219730"
+  "purchase_datetime": "2025-09-25T11:36:53.682755"
 }

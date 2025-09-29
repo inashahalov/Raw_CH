@@ -1,84 +1,84 @@
 {
   "purchase_id": "ord-00132",
   "customer": {
-    "customer_id": "cus-1034",
-    "first_name": "Глеб",
-    "last_name": "Суханова",
-    "email": "frolovipat@example.org",
-    "phone": "+7 828 354 05 71",
+    "customer_id": "cus-1032",
+    "first_name": "Мариан",
+    "last_name": "Вишняков",
+    "email": "jakov80@example.com",
+    "phone": "8 675 870 6492",
     "is_loyalty_member": true,
-    "loyalty_card_number": "LOYAL-4B3C52328F"
+    "loyalty_card_number": "LOYAL-3EB29158E4"
   },
   "store": {
-    "store_id": "store-039",
-    "store_name": "Маленькая Пикча — Магазин на наб. Гагарина",
+    "store_id": "store-041",
+    "store_name": "Маленькая Пикча — Магазин на наб. Пушкинская",
     "store_network": "Маленькая Пикча",
     "location": {
       "country": "Россия",
-      "city": "д. Минеральные Воды",
-      "street": "пр. Восточный",
-      "house": "48",
-      "postal_code": "169327",
+      "city": "п. Кетченеры",
+      "street": "ш. Урицкого",
+      "house": "3",
+      "postal_code": "224391",
       "coordinates": {
-        "latitude": 53.4992145,
-        "longitude": 133.659473
+        "latitude": 30.850891,
+        "longitude": -30.962086
       }
     }
   },
   "items": [
     {
-      "product_id": "prd-1001",
-      "name": "Домашний Жидкий",
-      "category": "🥛 Молочные продукты",
-      "quantity": 1,
-      "unit": "упаковка",
-      "price_per_unit": 74.5,
-      "total_price": 74.5,
+      "product_id": "prd-1005",
+      "name": "Правильный Факультет",
+      "category": "🥦 Овощи и зелень",
+      "quantity": 5,
+      "unit": "л",
+      "price_per_unit": 246.16,
+      "total_price": 1230.8,
       "kbju": {
-        "calories": 173.9,
-        "protein": 3.6,
-        "fat": 11.0,
-        "carbohydrates": 7.4
+        "calories": 238.0,
+        "protein": 1.6,
+        "fat": 0.4,
+        "carbohydrates": 17.1
       },
       "manufacturer": {
-        "name": "ОАО «Емельянова-Харитонов»",
+        "name": "Михеев и партнеры",
         "country": "Россия",
-        "website": "https://zao.edu",
-        "inn": "4413982995"
+        "website": "https://yakovleva.biz",
+        "inn": "6371685483"
       }
     },
     {
-      "product_id": "prd-1003",
-      "name": "Поймать Изба",
-      "category": "🥖 Зерновые и хлебобулочные изделия",
-      "quantity": 3,
-      "unit": "шт",
-      "price_per_unit": 164.24,
-      "total_price": 492.72,
+      "product_id": "prd-1006",
+      "name": "Очередной Развернуться",
+      "category": "🥩 Мясо, рыба, яйца и бобовые",
+      "quantity": 2,
+      "unit": "упаковка",
+      "price_per_unit": 40.94,
+      "total_price": 81.88,
       "kbju": {
-        "calories": 225.1,
-        "protein": 9.6,
-        "fat": 12.3,
-        "carbohydrates": 33.1
+        "calories": 207.0,
+        "protein": 10.7,
+        "fat": 10.6,
+        "carbohydrates": 30.5
       },
       "manufacturer": {
-        "name": "ЗАО «Родионов»",
+        "name": "Ямал СПГ",
         "country": "Россия",
-        "website": "https://ooo.com",
-        "inn": "2508560707"
+        "website": "https://ip.com",
+        "inn": "1426832497"
       }
     }
   ],
-  "total_amount": 567.22,
+  "total_amount": 1312.68,
   "payment_method": "card",
-  "is_delivery": false,
+  "is_delivery": true,
   "delivery_address": {
     "country": "Россия",
-    "city": "п. Нерчинск",
-    "street": "пер. Красный",
-    "house": "4",
-    "apartment": "61",
-    "postal_code": "843709"
+    "city": "к. Арзамас",
+    "street": "бул. Степана Разина",
+    "house": "174",
+    "apartment": "19",
+    "postal_code": "658013"
   },
-  "purchase_datetime": "2025-07-15T00:21:05.977478"
+  "purchase_datetime": "2025-09-28T11:36:53.678346"
 }

@@ -1,84 +1,63 @@
 {
   "purchase_id": "ord-00067",
   "customer": {
-    "customer_id": "cus-1007",
-    "first_name": "Милий",
-    "last_name": "Королев",
-    "email": "tihon2017@example.org",
-    "phone": "8 184 246 8606",
+    "customer_id": "cus-1003",
+    "first_name": "Олимпий",
+    "last_name": "Зыкова",
+    "email": "epifanponomarev@example.org",
+    "phone": "+78556186083",
     "is_loyalty_member": true,
-    "loyalty_card_number": "LOYAL-A8F2C64542"
+    "loyalty_card_number": "LOYAL-C210E4E9CB"
   },
   "store": {
-    "store_id": "store-004",
-    "store_name": "Большая Пикча — Магазин на ул. Ломоносова",
-    "store_network": "Большая Пикча",
+    "store_id": "store-045",
+    "store_name": "Маленькая Пикча — Магазин на ш. Ермака",
+    "store_network": "Маленькая Пикча",
     "location": {
       "country": "Россия",
-      "city": "с. Кабанск",
-      "street": "бул. Торговый",
-      "house": "447",
-      "postal_code": "208629",
+      "city": "к. Усть-Калманка",
+      "street": "алл. Сельская",
+      "house": "6/9",
+      "postal_code": "464287",
       "coordinates": {
-        "latitude": 66.8270835,
-        "longitude": 20.541815
+        "latitude": -19.4331665,
+        "longitude": -49.686675
       }
     }
   },
   "items": [
     {
-      "product_id": "prd-1007",
-      "name": "Пища Беспомощный",
-      "category": "🥦 Овощи и зелень",
-      "quantity": 5,
-      "unit": "л",
-      "price_per_unit": 61.58,
-      "total_price": 307.9,
-      "kbju": {
-        "calories": 155.9,
-        "protein": 7.5,
-        "fat": 9.2,
-        "carbohydrates": 7.7
-      },
-      "manufacturer": {
-        "name": "АО «Гущин-Карпов»",
-        "country": "Россия",
-        "website": "https://ip.net",
-        "inn": "7668416058"
-      }
-    },
-    {
-      "product_id": "prd-1017",
-      "name": "Цель Единый",
-      "category": "🥖 Зерновые и хлебобулочные изделия",
-      "quantity": 5,
+      "product_id": "prd-1006",
+      "name": "Очередной Развернуться",
+      "category": "🥩 Мясо, рыба, яйца и бобовые",
+      "quantity": 1,
       "unit": "упаковка",
-      "price_per_unit": 99.97,
-      "total_price": 499.85,
+      "price_per_unit": 40.94,
+      "total_price": 40.94,
       "kbju": {
-        "calories": 97.4,
-        "protein": 12.5,
-        "fat": 14.8,
-        "carbohydrates": 11.6
+        "calories": 207.0,
+        "protein": 10.7,
+        "fat": 10.6,
+        "carbohydrates": 30.5
       },
       "manufacturer": {
-        "name": "АО «Белякова»",
+        "name": "Ямал СПГ",
         "country": "Россия",
-        "website": "https://rao.com",
-        "inn": "0030371079"
+        "website": "https://ip.com",
+        "inn": "1426832497"
       }
     }
   ],
-  "total_amount": 807.75,
+  "total_amount": 40.94,
   "payment_method": "cash",
-  "is_delivery": false,
+  "is_delivery": true,
   "delivery_address": {
     "country": "Россия",
-    "city": "с. Ялуторовск",
-    "street": "алл. Лесхозная",
-    "house": "49",
-    "apartment": "72",
-    "postal_code": "070486"
+    "city": "г. Саров (Морд.)",
+    "street": "наб. Толбухина",
+    "house": "251",
+    "apartment": "66",
+    "postal_code": "000900"
   },
-  "purchase_datetime": "2025-07-13T00:21:05.946215"
+  "purchase_datetime": "2025-08-30T11:36:53.655230"
 }

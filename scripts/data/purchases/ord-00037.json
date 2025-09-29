@@ -1,105 +1,84 @@
 {
   "purchase_id": "ord-00037",
   "customer": {
-    "customer_id": "cus-1019",
-    "first_name": "Всеслав",
-    "last_name": "Ершова",
-    "email": "efimovazhanna@example.org",
-    "phone": "+73636279369",
+    "customer_id": "cus-1005",
+    "first_name": "Алексей",
+    "last_name": "Борисов",
+    "email": "averjantsvetkov@example.org",
+    "phone": "+7 (215) 091-68-81",
     "is_loyalty_member": true,
-    "loyalty_card_number": "LOYAL-70F5EFD034"
+    "loyalty_card_number": "LOYAL-85FE53CDBB"
   },
   "store": {
-    "store_id": "store-023",
-    "store_name": "Большая Пикча — Магазин на пер. Прудный",
-    "store_network": "Большая Пикча",
+    "store_id": "store-045",
+    "store_name": "Маленькая Пикча — Магазин на ш. Ермака",
+    "store_network": "Маленькая Пикча",
     "location": {
       "country": "Россия",
-      "city": "с. Владикавказ",
-      "street": "алл. Репина",
-      "house": "4",
-      "postal_code": "867024",
+      "city": "к. Усть-Калманка",
+      "street": "алл. Сельская",
+      "house": "6/9",
+      "postal_code": "464287",
       "coordinates": {
-        "latitude": -27.2311465,
-        "longitude": -151.9032
+        "latitude": -19.4331665,
+        "longitude": -49.686675
       }
     }
   },
   "items": [
     {
-      "product_id": "prd-1013",
-      "name": "Полюбить Руководитель",
-      "category": "🥦 Овощи и зелень",
-      "quantity": 1,
-      "unit": "шт",
-      "price_per_unit": 223.19,
-      "total_price": 223.19,
-      "kbju": {
-        "calories": 249.4,
-        "protein": 17.6,
-        "fat": 5.6,
-        "carbohydrates": 43.3
-      },
-      "manufacturer": {
-        "name": "Профитмед",
-        "country": "Россия",
-        "website": "https://npo.edu",
-        "inn": "4153799624"
-      }
-    },
-    {
-      "product_id": "prd-1018",
-      "name": "Зачем Пол",
-      "category": "🍏 Фрукты и ягоды",
-      "quantity": 4,
-      "unit": "кг",
-      "price_per_unit": 247.99,
-      "total_price": 991.96,
-      "kbju": {
-        "calories": 236.7,
-        "protein": 5.8,
-        "fat": 10.9,
-        "carbohydrates": 13.1
-      },
-      "manufacturer": {
-        "name": "ОАО «Панов-Воробьева»",
-        "country": "Россия",
-        "website": "https://rao.edu",
-        "inn": "5397679829"
-      }
-    },
-    {
-      "product_id": "prd-1015",
-      "name": "Советовать Горький",
+      "product_id": "prd-1012",
+      "name": "Торговля Счастье",
       "category": "🥖 Зерновые и хлебобулочные изделия",
-      "quantity": 4,
+      "quantity": 5,
       "unit": "л",
-      "price_per_unit": 74.06,
-      "total_price": 296.24,
+      "price_per_unit": 70.91,
+      "total_price": 354.55,
       "kbju": {
-        "calories": 265.6,
-        "protein": 14.1,
-        "fat": 13.9,
-        "carbohydrates": 4.2
+        "calories": 149.8,
+        "protein": 5.8,
+        "fat": 6.3,
+        "carbohydrates": 24.8
       },
       "manufacturer": {
-        "name": "РАО «Пахомова-Голубев»",
+        "name": "НПО «Некрасова»",
         "country": "Россия",
-        "website": "https://nlmk.biz",
-        "inn": "6002140966"
+        "website": "https://ao.org",
+        "inn": "8419489062"
+      }
+    },
+    {
+      "product_id": "prd-1000",
+      "name": "Грустный Дружно",
+      "category": "🥦 Овощи и зелень",
+      "quantity": 5,
+      "unit": "кг",
+      "price_per_unit": 234.69,
+      "total_price": 1173.45,
+      "kbju": {
+        "calories": 142.2,
+        "protein": 13.1,
+        "fat": 11.7,
+        "carbohydrates": 10.2
+      },
+      "manufacturer": {
+        "name": "АО «Чернов Сафонова»",
+        "country": "Россия",
+        "website": "https://kolobov.info",
+        "inn": "5863746288"
       }
     }
   ],
-  "total_amount": 1511.39,
-  "payment_method": "card",
-  "is_delivery": false,
+  "total_amount": 1528.0,
+  "payment_method": "cash",
+  "is_delivery": true,
   "delivery_address": {
     "country": "Россия",
-    "city": "п. Витим",
-    "street": "пр. Гафури",
-    "house": "921",
-    "apartment": "67",
-    "postal_code": "232578"
+    "city": "ст. Губкин",
+    "street": "ул. Леонова",
+    "house": "1",
+    "apartment": "76",
+    "postal_code": "591260"
   },
-  "purchase_datetime": "2025-08-09T00:21:05.934118"
+  "purchase_datetime": "2025-09-26T11:36:53.644100"
 }

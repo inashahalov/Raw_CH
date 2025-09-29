@@ -1,84 +1,105 @@
 {
   "purchase_id": "ord-00063",
   "customer": {
-    "customer_id": "cus-1041",
-    "first_name": "Наум",
-    "last_name": "Симонов",
-    "email": "valentinsharov@example.com",
-    "phone": "89031911463",
+    "customer_id": "cus-1040",
+    "first_name": "Захар",
+    "last_name": "Сергеева",
+    "email": "markovaristarh@example.org",
+    "phone": "8 (514) 104-3564",
     "is_loyalty_member": true,
-    "loyalty_card_number": "LOYAL-19C84B142A"
+    "loyalty_card_number": "LOYAL-32912B1ECD"
   },
   "store": {
-    "store_id": "store-019",
-    "store_name": "Большая Пикча — Магазин на ул. Серова",
+    "store_id": "store-024",
+    "store_name": "Большая Пикча — Магазин на алл. Правды",
     "store_network": "Большая Пикча",
     "location": {
       "country": "Россия",
-      "city": "г. Южно-Курильск",
-      "street": "пер. Коммунистический",
-      "house": "4",
-      "postal_code": "511510",
+      "city": "г. Нягань",
+      "street": "наб. Тепличная",
+      "house": "7",
+      "postal_code": "010829",
       "coordinates": {
-        "latitude": -33.1503555,
-        "longitude": 22.862732
+        "latitude": -40.134826,
+        "longitude": -72.151024
       }
     }
   },
   "items": [
     {
-      "product_id": "prd-1014",
-      "name": "Опасность Следовательно",
-      "category": "🥛 Молочные продукты",
-      "quantity": 5,
-      "unit": "кг",
-      "price_per_unit": 213.21,
-      "total_price": 1066.05,
+      "product_id": "prd-1006",
+      "name": "Очередной Развернуться",
+      "category": "🥩 Мясо, рыба, яйца и бобовые",
+      "quantity": 2,
+      "unit": "упаковка",
+      "price_per_unit": 40.94,
+      "total_price": 81.88,
       "kbju": {
-        "calories": 206.8,
-        "protein": 10.5,
-        "fat": 2.9,
-        "carbohydrates": 6.6
+        "calories": 207.0,
+        "protein": 10.7,
+        "fat": 10.6,
+        "carbohydrates": 30.5
       },
       "manufacturer": {
-        "name": "ЗАО «Беляков, Большакова и Князева»",
+        "name": "Ямал СПГ",
         "country": "Россия",
-        "website": "https://npo.com",
-        "inn": "0149036081"
+        "website": "https://ip.com",
+        "inn": "1426832497"
       }
     },
     {
-      "product_id": "prd-1000",
-      "name": "Привлекать Передо",
-      "category": "🥦 Овощи и зелень",
-      "quantity": 4,
+      "product_id": "prd-1018",
+      "name": "Отметить Парень",
+      "category": "🥩 Мясо, рыба, яйца и бобовые",
+      "quantity": 2,
       "unit": "шт",
-      "price_per_unit": 261.89,
-      "total_price": 1047.56,
+      "price_per_unit": 241.62,
+      "total_price": 483.24,
       "kbju": {
-        "calories": 286.2,
-        "protein": 17.9,
-        "fat": 8.7,
-        "carbohydrates": 47.1
+        "calories": 295.0,
+        "protein": 3.5,
+        "fat": 6.0,
+        "carbohydrates": 2.6
       },
       "manufacturer": {
-        "name": "ООО «Баранов-Пестова»",
+        "name": "Петухов Лтд",
         "country": "Россия",
-        "website": "https://ooo.info",
-        "inn": "7520686716"
+        "website": "https://rao.ru",
+        "inn": "4394791537"
+      }
+    },
+    {
+      "product_id": "prd-1013",
+      "name": "Правление Банк",
+      "category": "🥛 Молочные продукты",
+      "quantity": 1,
+      "unit": "кг",
+      "price_per_unit": 210.76,
+      "total_price": 210.76,
+      "kbju": {
+        "calories": 279.5,
+        "protein": 12.1,
+        "fat": 5.8,
+        "carbohydrates": 44.9
+      },
+      "manufacturer": {
+        "name": "ИП «Королев, Кулагина и Медведева»",
+        "country": "Россия",
+        "website": "https://ooo.net",
+        "inn": "2561502092"
       }
     }
   ],
-  "total_amount": 2113.61,
-  "payment_method": "card",
+  "total_amount": 775.88,
+  "payment_method": "cash",
   "is_delivery": true,
   "delivery_address": {
     "country": "Россия",
-    "city": "с. Хасан",
-    "street": "ш. Виноградное",
-    "house": "764",
-    "apartment": "39",
-    "postal_code": "845061"
+    "city": "п. Кетченеры",
+    "street": "ул. Ульяновская",
+    "house": "77",
+    "apartment": "63",
+    "postal_code": "395117"
   },
-  "purchase_datetime": "2025-09-16T00:21:05.944666"
+  "purchase_datetime": "2025-08-08T11:36:53.653808"
 }

@@ -1,105 +1,105 @@
 {
   "purchase_id": "ord-00077",
   "customer": {
-    "customer_id": "cus-1005",
-    "first_name": "Ираклий",
-    "last_name": "Брагина",
-    "email": "dmitri72@example.org",
-    "phone": "+7 584 851 63 37",
+    "customer_id": "cus-1024",
+    "first_name": "Макар",
+    "last_name": "Медведева",
+    "email": "gerasim1992@example.net",
+    "phone": "+75793560855",
     "is_loyalty_member": true,
-    "loyalty_card_number": "LOYAL-7FB5CD1150"
+    "loyalty_card_number": "LOYAL-95143C8F8C"
   },
   "store": {
-    "store_id": "store-045",
-    "store_name": "Маленькая Пикча — Магазин на пр. Дзержинского",
+    "store_id": "store-041",
+    "store_name": "Маленькая Пикча — Магазин на наб. Пушкинская",
     "store_network": "Маленькая Пикча",
     "location": {
       "country": "Россия",
-      "city": "клх Дагомыс",
-      "street": "алл. Гаражная",
-      "house": "5",
-      "postal_code": "904276",
+      "city": "п. Кетченеры",
+      "street": "ш. Урицкого",
+      "house": "3",
+      "postal_code": "224391",
       "coordinates": {
-        "latitude": 67.761409,
-        "longitude": 34.841356
+        "latitude": 30.850891,
+        "longitude": -30.962086
       }
     }
   },
   "items": [
     {
-      "product_id": "prd-1014",
-      "name": "Опасность Следовательно",
-      "category": "🥛 Молочные продукты",
+      "product_id": "prd-1000",
+      "name": "Грустный Дружно",
+      "category": "🥦 Овощи и зелень",
       "quantity": 5,
       "unit": "кг",
-      "price_per_unit": 213.21,
-      "total_price": 1066.05,
+      "price_per_unit": 234.69,
+      "total_price": 1173.45,
       "kbju": {
-        "calories": 206.8,
-        "protein": 10.5,
-        "fat": 2.9,
-        "carbohydrates": 6.6
+        "calories": 142.2,
+        "protein": 13.1,
+        "fat": 11.7,
+        "carbohydrates": 10.2
       },
       "manufacturer": {
-        "name": "ЗАО «Беляков, Большакова и Князева»",
+        "name": "АО «Чернов Сафонова»",
         "country": "Россия",
-        "website": "https://npo.com",
-        "inn": "0149036081"
+        "website": "https://kolobov.info",
+        "inn": "5863746288"
       }
     },
     {
-      "product_id": "prd-1000",
-      "name": "Привлекать Передо",
-      "category": "🥦 Овощи и зелень",
-      "quantity": 4,
-      "unit": "шт",
-      "price_per_unit": 261.89,
-      "total_price": 1047.56,
-      "kbju": {
-        "calories": 286.2,
-        "protein": 17.9,
-        "fat": 8.7,
-        "carbohydrates": 47.1
-      },
-      "manufacturer": {
-        "name": "ООО «Баранов-Пестова»",
-        "country": "Россия",
-        "website": "https://ooo.info",
-        "inn": "7520686716"
-      }
-    },
-    {
-      "product_id": "prd-1006",
-      "name": "Вытаскивать Плод",
+      "product_id": "prd-1008",
+      "name": "Упор Кузнец",
       "category": "🍏 Фрукты и ягоды",
-      "quantity": 1,
-      "unit": "упаковка",
-      "price_per_unit": 123.36,
-      "total_price": 123.36,
+      "quantity": 3,
+      "unit": "л",
+      "price_per_unit": 255.98,
+      "total_price": 767.94,
       "kbju": {
-        "calories": 124.2,
-        "protein": 11.3,
-        "fat": 2.6,
-        "carbohydrates": 42.9
+        "calories": 143.1,
+        "protein": 6.1,
+        "fat": 3.5,
+        "carbohydrates": 47.3
       },
       "manufacturer": {
-        "name": "ИП «Емельянов-Наумова»",
+        "name": "МТС-банк",
         "country": "Россия",
-        "website": "https://npo.edu",
-        "inn": "9973742158"
+        "website": "https://shcherbakova.com",
+        "inn": "1911616255"
+      }
+    },
+    {
+      "product_id": "prd-1018",
+      "name": "Отметить Парень",
+      "category": "🥩 Мясо, рыба, яйца и бобовые",
+      "quantity": 2,
+      "unit": "шт",
+      "price_per_unit": 241.62,
+      "total_price": 483.24,
+      "kbju": {
+        "calories": 295.0,
+        "protein": 3.5,
+        "fat": 6.0,
+        "carbohydrates": 2.6
+      },
+      "manufacturer": {
+        "name": "Петухов Лтд",
+        "country": "Россия",
+        "website": "https://rao.ru",
+        "inn": "4394791537"
       }
     }
   ],
-  "total_amount": 2236.97,
-  "payment_method": "card",
-  "is_delivery": false,
+  "total_amount": 2424.63,
+  "payment_method": "cash",
+  "is_delivery": true,
   "delivery_address": {
     "country": "Россия",
-    "city": "г. Новомосковск",
-    "street": "ш. Фурманова",
-    "house": "723",
-    "apartment": "91",
-    "postal_code": "847239"
+    "city": "ст. Мичуринск",
+    "street": "ш. Семашко",
+    "house": "422",
+    "apartment": "48",
+    "postal_code": "354044"
   },
-  "purchase_datetime": "2025-07-12T00:21:05.950223"
+  "purchase_datetime": "2025-08-05T11:36:53.658644"
 }

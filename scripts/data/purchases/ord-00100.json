@@ -1,105 +1,63 @@
 {
   "purchase_id": "ord-00100",
   "customer": {
-    "customer_id": "cus-1019",
-    "first_name": "Всеслав",
-    "last_name": "Ершова",
-    "email": "efimovazhanna@example.org",
-    "phone": "+73636279369",
+    "customer_id": "cus-1037",
+    "first_name": "Адриан",
+    "last_name": "Коновалов",
+    "email": "karl_1978@example.net",
+    "phone": "+78107088603",
     "is_loyalty_member": true,
-    "loyalty_card_number": "LOYAL-70F5EFD034"
+    "loyalty_card_number": "LOYAL-D0EF0742EC"
   },
   "store": {
-    "store_id": "store-044",
-    "store_name": "Маленькая Пикча — Магазин на ш. Урожайное",
-    "store_network": "Маленькая Пикча",
+    "store_id": "store-015",
+    "store_name": "Большая Пикча — Магазин на алл. Ломоносова",
+    "store_network": "Большая Пикча",
     "location": {
       "country": "Россия",
-      "city": "ст. Клин",
-      "street": "ул. Стадионная",
-      "house": "83",
-      "postal_code": "105750",
+      "city": "ст. Двинской",
+      "street": "наб. Спортивная",
+      "house": "528",
+      "postal_code": "734819",
       "coordinates": {
-        "latitude": -45.9919625,
-        "longitude": -177.086861
+        "latitude": -80.7995515,
+        "longitude": -113.912093
       }
     }
   },
   "items": [
     {
-      "product_id": "prd-1016",
-      "name": "Школьный Очко",
-      "category": "🥖 Зерновые и хлебобулочные изделия",
-      "quantity": 1,
-      "unit": "шт",
-      "price_per_unit": 295.13,
-      "total_price": 295.13,
+      "product_id": "prd-1008",
+      "name": "Упор Кузнец",
+      "category": "🍏 Фрукты и ягоды",
+      "quantity": 4,
+      "unit": "л",
+      "price_per_unit": 255.98,
+      "total_price": 1023.92,
       "kbju": {
-        "calories": 156.7,
-        "protein": 8.3,
-        "fat": 6.7,
-        "carbohydrates": 49.1
+        "calories": 143.1,
+        "protein": 6.1,
+        "fat": 3.5,
+        "carbohydrates": 47.3
       },
       "manufacturer": {
-        "name": "РАО «Марков»",
+        "name": "МТС-банк",
         "country": "Россия",
-        "website": "https://argos.org",
-        "inn": "6328136246"
-      }
-    },
-    {
-      "product_id": "prd-1001",
-      "name": "Домашний Жидкий",
-      "category": "🥛 Молочные продукты",
-      "quantity": 1,
-      "unit": "упаковка",
-      "price_per_unit": 74.5,
-      "total_price": 74.5,
-      "kbju": {
-        "calories": 173.9,
-        "protein": 3.6,
-        "fat": 11.0,
-        "carbohydrates": 7.4
-      },
-      "manufacturer": {
-        "name": "ОАО «Емельянова-Харитонов»",
-        "country": "Россия",
-        "website": "https://zao.edu",
-        "inn": "4413982995"
-      }
-    },
-    {
-      "product_id": "prd-1013",
-      "name": "Полюбить Руководитель",
-      "category": "🥦 Овощи и зелень",
-      "quantity": 3,
-      "unit": "шт",
-      "price_per_unit": 223.19,
-      "total_price": 669.57,
-      "kbju": {
-        "calories": 249.4,
-        "protein": 17.6,
-        "fat": 5.6,
-        "carbohydrates": 43.3
-      },
-      "manufacturer": {
-        "name": "Профитмед",
-        "country": "Россия",
-        "website": "https://npo.edu",
-        "inn": "4153799624"
+        "website": "https://shcherbakova.com",
+        "inn": "1911616255"
       }
     }
   ],
-  "total_amount": 1039.2,
+  "total_amount": 1023.92,
   "payment_method": "cash",
   "is_delivery": true,
   "delivery_address": {
     "country": "Россия",
-    "city": "п. Витим",
-    "street": "пр. Гафури",
-    "house": "921",
-    "apartment": "67",
-    "postal_code": "232578"
+    "city": "клх Красноуфимск",
+    "street": "наб. Карбышева",
+    "house": "66",
+    "apartment": "41",
+    "postal_code": "678239"
   },
-  "purchase_datetime": "2025-07-08T00:21:05.959810"
+  "purchase_datetime": "2025-07-30T11:36:53.667127"
 }

@@ -1,84 +1,84 @@
 {
   "purchase_id": "ord-00161",
   "customer": {
-    "customer_id": "cus-1033",
-    "first_name": "Карп",
-    "last_name": "Корнилов",
-    "email": "dmitri07@example.org",
-    "phone": "83587069742",
+    "customer_id": "cus-1015",
+    "first_name": "Самсон",
+    "last_name": "Быков",
+    "email": "lmihalov@example.net",
+    "phone": "87410645741",
     "is_loyalty_member": true,
-    "loyalty_card_number": "LOYAL-389C1FF3BC"
+    "loyalty_card_number": "LOYAL-5C5B785B11"
   },
   "store": {
-    "store_id": "store-019",
-    "store_name": "Большая Пикча — Магазин на ул. Серова",
+    "store_id": "store-018",
+    "store_name": "Большая Пикча — Магазин на алл. Механизаторов",
     "store_network": "Большая Пикча",
     "location": {
       "country": "Россия",
-      "city": "г. Южно-Курильск",
-      "street": "пер. Коммунистический",
-      "house": "4",
-      "postal_code": "511510",
+      "city": "с. Прохладный",
+      "street": "наб. Механическая",
+      "house": "7/3",
+      "postal_code": "727677",
       "coordinates": {
-        "latitude": -33.1503555,
-        "longitude": 22.862732
+        "latitude": -88.8383715,
+        "longitude": 157.883586
       }
     }
   },
   "items": [
     {
-      "product_id": "prd-1004",
-      "name": "Написать Актриса",
-      "category": "🍏 Фрукты и ягоды",
+      "product_id": "prd-1007",
+      "name": "Интеллектуальный Около",
+      "category": "🥛 Молочные продукты",
       "quantity": 5,
-      "unit": "кг",
-      "price_per_unit": 247.9,
-      "total_price": 1239.5,
+      "unit": "шт",
+      "price_per_unit": 147.81,
+      "total_price": 739.05,
       "kbju": {
-        "calories": 90.5,
-        "protein": 3.5,
-        "fat": 0.2,
-        "carbohydrates": 19.9
+        "calories": 87.6,
+        "protein": 12.8,
+        "fat": 14.2,
+        "carbohydrates": 17.0
       },
       "manufacturer": {
-        "name": "Ферронордик машины (Ferronordic)",
+        "name": "ОАО «Владимирова Богданова»",
         "country": "Россия",
-        "website": "https://kulikova.net",
-        "inn": "5999502719"
+        "website": "https://ip.info",
+        "inn": "3430882539"
       }
     },
     {
-      "product_id": "prd-1010",
-      "name": "Мгновение Вряд",
-      "category": "🥦 Овощи и зелень",
-      "quantity": 4,
-      "unit": "кг",
-      "price_per_unit": 149.03,
-      "total_price": 596.12,
+      "product_id": "prd-1004",
+      "name": "Заявление Шлем",
+      "category": "🥩 Мясо, рыба, яйца и бобовые",
+      "quantity": 2,
+      "unit": "упаковка",
+      "price_per_unit": 261.08,
+      "total_price": 522.16,
       "kbju": {
-        "calories": 186.1,
-        "protein": 15.0,
-        "fat": 10.1,
-        "carbohydrates": 27.3
+        "calories": 178.3,
+        "protein": 8.6,
+        "fat": 9.2,
+        "carbohydrates": 12.8
       },
       "manufacturer": {
-        "name": "ИП «Блохина-Гаврилов»",
+        "name": "ОАО «Орлов Попова»",
         "country": "Россия",
-        "website": "https://oao.com",
-        "inn": "1245272063"
+        "website": "https://metallservis.ru",
+        "inn": "4728731918"
       }
     }
   ],
-  "total_amount": 1835.62,
+  "total_amount": 1261.21,
   "payment_method": "card",
-  "is_delivery": false,
+  "is_delivery": true,
   "delivery_address": {
     "country": "Россия",
-    "city": "к. Яшалта",
-    "street": "ш. Орджоникидзе",
-    "house": "189",
-    "apartment": "41",
-    "postal_code": "555752"
+    "city": "к. Певек",
+    "street": "пер. Поселковый",
+    "house": "51",
+    "apartment": "3",
+    "postal_code": "355210"
   },
-  "purchase_datetime": "2025-07-28T00:21:06.230263"
+  "purchase_datetime": "2025-07-28T11:36:53.689701"
 }

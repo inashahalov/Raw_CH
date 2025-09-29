@@ -1,105 +1,84 @@
 {
   "purchase_id": "ord-00169",
   "customer": {
-    "customer_id": "cus-1033",
-    "first_name": "Карп",
-    "last_name": "Корнилов",
-    "email": "dmitri07@example.org",
-    "phone": "83587069742",
+    "customer_id": "cus-1024",
+    "first_name": "Макар",
+    "last_name": "Медведева",
+    "email": "gerasim1992@example.net",
+    "phone": "+75793560855",
     "is_loyalty_member": true,
-    "loyalty_card_number": "LOYAL-389C1FF3BC"
+    "loyalty_card_number": "LOYAL-95143C8F8C"
   },
   "store": {
-    "store_id": "store-031",
-    "store_name": "Маленькая Пикча — Магазин на ш. Декабристов",
+    "store_id": "store-039",
+    "store_name": "Маленькая Пикча — Магазин на пер. Каштановый",
     "store_network": "Маленькая Пикча",
     "location": {
       "country": "Россия",
-      "city": "п. Каменск-Уральский",
-      "street": "пр. Первомайский",
-      "house": "80",
-      "postal_code": "030700",
+      "city": "ст. Новый Уренгой",
+      "street": "наб. Радищева",
+      "house": "1/1",
+      "postal_code": "295294",
       "coordinates": {
-        "latitude": -55.303203,
-        "longitude": -34.195107
+        "latitude": 88.779798,
+        "longitude": 56.564926
       }
     }
   },
   "items": [
     {
-      "product_id": "prd-1016",
-      "name": "Школьный Очко",
-      "category": "🥖 Зерновые и хлебобулочные изделия",
-      "quantity": 3,
-      "unit": "шт",
-      "price_per_unit": 295.13,
-      "total_price": 885.39,
+      "product_id": "prd-1006",
+      "name": "Очередной Развернуться",
+      "category": "🥩 Мясо, рыба, яйца и бобовые",
+      "quantity": 5,
+      "unit": "упаковка",
+      "price_per_unit": 40.94,
+      "total_price": 204.7,
       "kbju": {
-        "calories": 156.7,
-        "protein": 8.3,
-        "fat": 6.7,
-        "carbohydrates": 49.1
+        "calories": 207.0,
+        "protein": 10.7,
+        "fat": 10.6,
+        "carbohydrates": 30.5
       },
       "manufacturer": {
-        "name": "РАО «Марков»",
+        "name": "Ямал СПГ",
         "country": "Россия",
-        "website": "https://argos.org",
-        "inn": "6328136246"
+        "website": "https://ip.com",
+        "inn": "1426832497"
       }
     },
     {
-      "product_id": "prd-1000",
-      "name": "Привлекать Передо",
-      "category": "🥦 Овощи и зелень",
+      "product_id": "prd-1001",
+      "name": "Лиловый Бок",
+      "category": "🥛 Молочные продукты",
       "quantity": 3,
-      "unit": "шт",
-      "price_per_unit": 261.89,
-      "total_price": 785.67,
+      "unit": "упаковка",
+      "price_per_unit": 242.46,
+      "total_price": 727.38,
       "kbju": {
-        "calories": 286.2,
-        "protein": 17.9,
-        "fat": 8.7,
-        "carbohydrates": 47.1
+        "calories": 274.4,
+        "protein": 6.4,
+        "fat": 6.0,
+        "carbohydrates": 13.5
       },
       "manufacturer": {
-        "name": "ООО «Баранов-Пестова»",
+        "name": "Куликов и партнеры",
         "country": "Россия",
-        "website": "https://ooo.info",
-        "inn": "7520686716"
-      }
-    },
-    {
-      "product_id": "prd-1013",
-      "name": "Полюбить Руководитель",
-      "category": "🥦 Овощи и зелень",
-      "quantity": 2,
-      "unit": "шт",
-      "price_per_unit": 223.19,
-      "total_price": 446.38,
-      "kbju": {
-        "calories": 249.4,
-        "protein": 17.6,
-        "fat": 5.6,
-        "carbohydrates": 43.3
-      },
-      "manufacturer": {
-        "name": "Профитмед",
-        "country": "Россия",
-        "website": "https://npo.edu",
-        "inn": "4153799624"
+        "website": "https://sharapov.net",
+        "inn": "9920890846"
       }
     }
   ],
-  "total_amount": 2117.44,
+  "total_amount": 932.08,
   "payment_method": "cash",
-  "is_delivery": false,
+  "is_delivery": true,
   "delivery_address": {
     "country": "Россия",
-    "city": "к. Яшалта",
-    "street": "ш. Орджоникидзе",
-    "house": "189",
-    "apartment": "41",
-    "postal_code": "555752"
+    "city": "ст. Мичуринск",
+    "street": "ш. Семашко",
+    "house": "422",
+    "apartment": "48",
+    "postal_code": "354044"
   },
-  "purchase_datetime": "2025-09-19T00:21:06.233351"
+  "purchase_datetime": "2025-09-21T11:36:53.692219"
 }

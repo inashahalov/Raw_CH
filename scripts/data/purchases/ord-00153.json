@@ -1,63 +1,105 @@
 {
   "purchase_id": "ord-00153",
   "customer": {
-    "customer_id": "cus-1033",
-    "first_name": "Карп",
-    "last_name": "Корнилов",
-    "email": "dmitri07@example.org",
-    "phone": "83587069742",
+    "customer_id": "cus-1036",
+    "first_name": "Екатерина",
+    "last_name": "Бирюков",
+    "email": "baranovakim@example.net",
+    "phone": "8 031 251 3344",
     "is_loyalty_member": true,
-    "loyalty_card_number": "LOYAL-389C1FF3BC"
+    "loyalty_card_number": "LOYAL-CE7F3C0632"
   },
   "store": {
-    "store_id": "store-035",
-    "store_name": "Маленькая Пикча — Магазин на наб. Ворошилова",
-    "store_network": "Маленькая Пикча",
+    "store_id": "store-012",
+    "store_name": "Большая Пикча — Магазин на наб. Красногвардейская",
+    "store_network": "Большая Пикча",
     "location": {
       "country": "Россия",
-      "city": "п. Нерчинск",
-      "street": "алл. Кольцевая",
-      "house": "4/5",
-      "postal_code": "684320",
+      "city": "клх Белый Яр (Томск.)",
+      "street": "наб. Целинная",
+      "house": "5",
+      "postal_code": "163512",
       "coordinates": {
-        "latitude": -40.406792,
-        "longitude": -57.258998
+        "latitude": -24.8638755,
+        "longitude": -52.430567
       }
     }
   },
   "items": [
     {
-      "product_id": "prd-1019",
-      "name": "Сынок Обида",
-      "category": "🍏 Фрукты и ягоды",
+      "product_id": "prd-1004",
+      "name": "Заявление Шлем",
+      "category": "🥩 Мясо, рыба, яйца и бобовые",
       "quantity": 3,
-      "unit": "кг",
-      "price_per_unit": 86.19,
-      "total_price": 258.57,
+      "unit": "упаковка",
+      "price_per_unit": 261.08,
+      "total_price": 783.24,
       "kbju": {
-        "calories": 224.4,
-        "protein": 5.9,
-        "fat": 13.9,
-        "carbohydrates": 7.6
+        "calories": 178.3,
+        "protein": 8.6,
+        "fat": 9.2,
+        "carbohydrates": 12.8
       },
       "manufacturer": {
-        "name": "ООО «Шилов-Константинова»",
+        "name": "ОАО «Орлов Попова»",
         "country": "Россия",
-        "website": "https://ooo.org",
-        "inn": "6666152301"
+        "website": "https://metallservis.ru",
+        "inn": "4728731918"
+      }
+    },
+    {
+      "product_id": "prd-1005",
+      "name": "Правильный Факультет",
+      "category": "🥦 Овощи и зелень",
+      "quantity": 1,
+      "unit": "л",
+      "price_per_unit": 246.16,
+      "total_price": 246.16,
+      "kbju": {
+        "calories": 238.0,
+        "protein": 1.6,
+        "fat": 0.4,
+        "carbohydrates": 17.1
+      },
+      "manufacturer": {
+        "name": "Михеев и партнеры",
+        "country": "Россия",
+        "website": "https://yakovleva.biz",
+        "inn": "6371685483"
+      }
+    },
+    {
+      "product_id": "prd-1013",
+      "name": "Правление Банк",
+      "category": "🥛 Молочные продукты",
+      "quantity": 2,
+      "unit": "кг",
+      "price_per_unit": 210.76,
+      "total_price": 421.52,
+      "kbju": {
+        "calories": 279.5,
+        "protein": 12.1,
+        "fat": 5.8,
+        "carbohydrates": 44.9
+      },
+      "manufacturer": {
+        "name": "ИП «Королев, Кулагина и Медведева»",
+        "country": "Россия",
+        "website": "https://ooo.net",
+        "inn": "2561502092"
       }
     }
   ],
-  "total_amount": 258.57,
-  "payment_method": "cash",
-  "is_delivery": true,
+  "total_amount": 1450.92,
+  "payment_method": "card",
+  "is_delivery": false,
   "delivery_address": {
     "country": "Россия",
-    "city": "к. Яшалта",
-    "street": "ш. Орджоникидзе",
-    "house": "189",
-    "apartment": "41",
-    "postal_code": "555752"
+    "city": "к. Шенкурск",
+    "street": "алл. Орловская",
+    "house": "88",
+    "apartment": "31",
+    "postal_code": "234043"
   },
-  "purchase_datetime": "2025-08-03T00:21:06.226710"
+  "purchase_datetime": "2025-07-27T11:36:53.687168"
 }

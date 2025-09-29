@@ -1,84 +1,105 @@
 {
   "purchase_id": "ord-00166",
   "customer": {
-    "customer_id": "cus-1012",
-    "first_name": "Модест",
-    "last_name": "Тетерина",
-    "email": "avdeevdobromisl@example.org",
-    "phone": "+7 (066) 573-4317",
+    "customer_id": "cus-1033",
+    "first_name": "Регина",
+    "last_name": "Мясникова",
+    "email": "merkushevvasili@example.net",
+    "phone": "+7 108 060 5193",
     "is_loyalty_member": true,
-    "loyalty_card_number": "LOYAL-C3EA95EB72"
+    "loyalty_card_number": "LOYAL-CB6483D0D7"
   },
   "store": {
-    "store_id": "store-036",
-    "store_name": "Маленькая Пикча — Магазин на бул. Володарского",
-    "store_network": "Маленькая Пикча",
+    "store_id": "store-005",
+    "store_name": "Большая Пикча — Магазин на алл. Зои Космодемьянской",
+    "store_network": "Большая Пикча",
     "location": {
       "country": "Россия",
-      "city": "д. Екатеринбург",
-      "street": "бул. Стахановский",
-      "house": "6/2",
-      "postal_code": "399598",
+      "city": "к. Ульяновск",
+      "street": "ш. Лермонтова",
+      "house": "8/1",
+      "postal_code": "330401",
       "coordinates": {
-        "latitude": 30.924838,
-        "longitude": -116.081649
+        "latitude": -57.1240975,
+        "longitude": -5.759473
       }
     }
   },
   "items": [
     {
-      "product_id": "prd-1014",
-      "name": "Опасность Следовательно",
+      "product_id": "prd-1001",
+      "name": "Лиловый Бок",
       "category": "🥛 Молочные продукты",
-      "quantity": 4,
-      "unit": "кг",
-      "price_per_unit": 213.21,
-      "total_price": 852.84,
+      "quantity": 2,
+      "unit": "упаковка",
+      "price_per_unit": 242.46,
+      "total_price": 484.92,
       "kbju": {
-        "calories": 206.8,
-        "protein": 10.5,
-        "fat": 2.9,
-        "carbohydrates": 6.6
+        "calories": 274.4,
+        "protein": 6.4,
+        "fat": 6.0,
+        "carbohydrates": 13.5
       },
       "manufacturer": {
-        "name": "ЗАО «Беляков, Большакова и Князева»",
+        "name": "Куликов и партнеры",
         "country": "Россия",
-        "website": "https://npo.com",
-        "inn": "0149036081"
+        "website": "https://sharapov.net",
+        "inn": "9920890846"
       }
     },
     {
-      "product_id": "prd-1012",
-      "name": "Школьный Анализ",
+      "product_id": "prd-1010",
+      "name": "Что Кидать",
       "category": "🥦 Овощи и зелень",
       "quantity": 1,
-      "unit": "л",
-      "price_per_unit": 209.82,
-      "total_price": 209.82,
+      "unit": "упаковка",
+      "price_per_unit": 47.43,
+      "total_price": 47.43,
       "kbju": {
-        "calories": 60.6,
-        "protein": 14.6,
-        "fat": 12.7,
-        "carbohydrates": 41.7
+        "calories": 192.3,
+        "protein": 18.7,
+        "fat": 5.8,
+        "carbohydrates": 28.5
       },
       "manufacturer": {
-        "name": "ИП «Беспалов-Тимофеев»",
+        "name": "ИП «Лихачев Наумова»",
         "country": "Россия",
-        "website": "https://npo.edu",
-        "inn": "6799042551"
+        "website": "https://protek.info",
+        "inn": "8715941222"
+      }
+    },
+    {
+      "product_id": "prd-1004",
+      "name": "Заявление Шлем",
+      "category": "🥩 Мясо, рыба, яйца и бобовые",
+      "quantity": 2,
+      "unit": "упаковка",
+      "price_per_unit": 261.08,
+      "total_price": 522.16,
+      "kbju": {
+        "calories": 178.3,
+        "protein": 8.6,
+        "fat": 9.2,
+        "carbohydrates": 12.8
+      },
+      "manufacturer": {
+        "name": "ОАО «Орлов Попова»",
+        "country": "Россия",
+        "website": "https://metallservis.ru",
+        "inn": "4728731918"
       }
     }
   ],
-  "total_amount": 1062.66,
-  "payment_method": "card",
+  "total_amount": 1054.51,
+  "payment_method": "cash",
   "is_delivery": false,
   "delivery_address": {
     "country": "Россия",
-    "city": "п. Лазаревское",
-    "street": "пр. Механический",
-    "house": "8/5",
-    "apartment": "62",
-    "postal_code": "257140"
+    "city": "д. Глазов",
+    "street": "алл. Толбухина",
+    "house": "3",
+    "apartment": "16",
+    "postal_code": "729028"
   },
-  "purchase_datetime": "2025-08-19T00:21:06.232291"
+  "purchase_datetime": "2025-08-04T11:36:53.691150"
 }

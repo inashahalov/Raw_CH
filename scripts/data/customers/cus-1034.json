@@ -1,36 +1,36 @@
 {
   "customer_id": "cus-1034",
-  "first_name": "Глеб",
-  "last_name": "Суханова",
-  "email": "frolovipat@example.org",
-  "phone": "+7 828 354 05 71",
-  "birth_date": "1959-08-06",
-  "gender": "male",
-  "registration_date": "2025-09-25T00:21:05.913577",
+  "first_name": "Петр",
+  "last_name": "Семенов",
+  "email": "kondratiknjazev@example.com",
+  "phone": "8 840 333 65 64",
+  "birth_date": "1981-04-03",
+  "gender": "female",
+  "registration_date": "2025-09-29T11:36:53.625617",
   "is_loyalty_member": true,
-  "loyalty_card_number": "LOYAL-4B3C52328F",
+  "loyalty_card_number": "LOYAL-7D4932660C",
   "purchase_location": {
     "store_id": "store-035",
-    "store_name": "Маленькая Пикча — Магазин на наб. Ворошилова",
+    "store_name": "Маленькая Пикча — Магазин на пр. Макарова",
     "store_network": "Маленькая Пикча",
     "store_type_description": "Магазин у дома менее 100 кв.м. Входит в сеть из 15 магазинов.",
     "country": "Россия",
-    "city": "п. Нерчинск",
-    "street": "алл. Кольцевая",
-    "house": "4/5",
-    "postal_code": "684320"
+    "city": "п. Благовещенск (Амур.)",
+    "street": "ул. Станционная",
+    "house": "23",
+    "postal_code": "496119"
   },
   "delivery_address": {
     "country": "Россия",
-    "city": "п. Нерчинск",
-    "street": "пер. Красный",
-    "house": "4",
-    "apartment": "61",
-    "postal_code": "843709"
+    "city": "п. Благовещенск (Амур.)",
+    "street": "пер. Белинского",
+    "house": "6",
+    "apartment": "70",
+    "postal_code": "880088"
   },
   "preferences": {
     "preferred_language": "ru",
-    "preferred_payment_method": "card",
+    "preferred_payment_method": "cash",
     "receive_promotions": true
   }
 }

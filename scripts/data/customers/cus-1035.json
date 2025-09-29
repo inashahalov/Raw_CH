@@ -1,36 +1,36 @@
 {
   "customer_id": "cus-1035",
-  "first_name": "Станимир",
-  "last_name": "Семенов",
-  "email": "lukija2011@example.com",
-  "phone": "+7 (312) 285-31-25",
-  "birth_date": "1968-08-31",
+  "first_name": "Серафим",
+  "last_name": "Исаев",
+  "email": "avde_57@example.net",
+  "phone": "+7 (877) 809-4149",
+  "birth_date": "1969-01-09",
   "gender": "female",
-  "registration_date": "2025-09-25T00:21:05.914289",
+  "registration_date": "2025-09-29T11:36:53.626090",
   "is_loyalty_member": true,
-  "loyalty_card_number": "LOYAL-E7C27EFAE9",
+  "loyalty_card_number": "LOYAL-7BFFD38238",
   "purchase_location": {
     "store_id": "store-036",
-    "store_name": "Маленькая Пикча — Магазин на бул. Володарского",
+    "store_name": "Маленькая Пикча — Магазин на бул. Краснодарский",
     "store_network": "Маленькая Пикча",
     "store_type_description": "Магазин у дома менее 100 кв.м. Входит в сеть из 15 магазинов.",
     "country": "Россия",
-    "city": "д. Екатеринбург",
-    "street": "бул. Стахановский",
-    "house": "6/2",
-    "postal_code": "399598"
+    "city": "д. Каспийск",
+    "street": "наб. Ломоносова",
+    "house": "7/5",
+    "postal_code": "596753"
   },
   "delivery_address": {
     "country": "Россия",
-    "city": "д. Екатеринбург",
-    "street": "ш. Макарова",
-    "house": "31",
-    "apartment": "92",
-    "postal_code": "809342"
+    "city": "д. Каспийск",
+    "street": "пр. Сенной",
+    "house": "212",
+    "apartment": "14",
+    "postal_code": "643706"
   },
   "preferences": {
     "preferred_language": "ru",
-    "preferred_payment_method": "card",
+    "preferred_payment_method": "cash",
     "receive_promotions": false
   }
 }

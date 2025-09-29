@@ -1,36 +1,36 @@
 {
   "customer_id": "cus-1014",
-  "first_name": "Вера",
-  "last_name": "Логинова",
-  "email": "sofron_04@example.com",
-  "phone": "8 (794) 601-51-70",
-  "birth_date": "1966-08-09",
+  "first_name": "Светозар",
+  "last_name": "Пономарева",
+  "email": "leon2004@example.com",
+  "phone": "+7 120 108 0111",
+  "birth_date": "2005-05-29",
   "gender": "female",
-  "registration_date": "2025-09-25T00:21:05.900528",
+  "registration_date": "2025-09-29T11:36:53.616414",
   "is_loyalty_member": true,
-  "loyalty_card_number": "LOYAL-85166218B3",
+  "loyalty_card_number": "LOYAL-41ED8258D6",
   "purchase_location": {
     "store_id": "store-015",
-    "store_name": "Большая Пикча — Магазин на алл. Пархоменко",
+    "store_name": "Большая Пикча — Магазин на алл. Ломоносова",
     "store_network": "Большая Пикча",
     "store_type_description": "Супермаркет более 200 кв.м. Входит в сеть из 30 магазинов.",
     "country": "Россия",
-    "city": "с. Минусинск",
-    "street": "ул. Прудная",
-    "house": "2",
-    "postal_code": "166699"
+    "city": "ст. Двинской",
+    "street": "наб. Спортивная",
+    "house": "528",
+    "postal_code": "734819"
   },
   "delivery_address": {
     "country": "Россия",
-    "city": "с. Минусинск",
-    "street": "ул. Семашко",
-    "house": "308",
-    "apartment": "11",
-    "postal_code": "401472"
+    "city": "ст. Двинской",
+    "street": "пр. Набережный",
+    "house": "252",
+    "apartment": "41",
+    "postal_code": "786887"
   },
   "preferences": {
     "preferred_language": "ru",
     "preferred_payment_method": "card",
-    "receive_promotions": false
+    "receive_promotions": true
   }
 }

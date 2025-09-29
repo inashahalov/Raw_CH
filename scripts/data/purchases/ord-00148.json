@@ -1,84 +1,63 @@
 {
   "purchase_id": "ord-00148",
   "customer": {
-    "customer_id": "cus-1024",
-    "first_name": "Зосима",
-    "last_name": "Шубин",
-    "email": "klavdija_07@example.org",
-    "phone": "+7 782 950 7836",
+    "customer_id": "cus-1018",
+    "first_name": "Валерия",
+    "last_name": "Федоров",
+    "email": "pshirjaev@example.com",
+    "phone": "+7 456 931 66 72",
     "is_loyalty_member": true,
-    "loyalty_card_number": "LOYAL-99D9345C53"
+    "loyalty_card_number": "LOYAL-862DAC759A"
   },
   "store": {
-    "store_id": "store-015",
-    "store_name": "Большая Пикча — Магазин на алл. Пархоменко",
+    "store_id": "store-026",
+    "store_name": "Большая Пикча — Магазин на пер. Подлесный",
     "store_network": "Большая Пикча",
     "location": {
       "country": "Россия",
-      "city": "с. Минусинск",
-      "street": "ул. Прудная",
-      "house": "2",
-      "postal_code": "166699",
+      "city": "г. Малоярославец",
+      "street": "ул. Гастелло",
+      "house": "551",
+      "postal_code": "122174",
       "coordinates": {
-        "latitude": -58.9745715,
-        "longitude": -18.750765
+        "latitude": -36.7906745,
+        "longitude": -156.169191
       }
     }
   },
   "items": [
     {
-      "product_id": "prd-1001",
-      "name": "Домашний Жидкий",
-      "category": "🥛 Молочные продукты",
-      "quantity": 3,
-      "unit": "упаковка",
-      "price_per_unit": 74.5,
-      "total_price": 223.5,
+      "product_id": "prd-1014",
+      "name": "Спичка Носок",
+      "category": "🍏 Фрукты и ягоды",
+      "quantity": 2,
+      "unit": "шт",
+      "price_per_unit": 180.19,
+      "total_price": 360.38,
       "kbju": {
-        "calories": 173.9,
-        "protein": 3.6,
-        "fat": 11.0,
-        "carbohydrates": 7.4
+        "calories": 248.0,
+        "protein": 12.3,
+        "fat": 6.8,
+        "carbohydrates": 5.2
       },
       "manufacturer": {
-        "name": "ОАО «Емельянова-Харитонов»",
+        "name": "КДВ Групп",
         "country": "Россия",
-        "website": "https://zao.edu",
-        "inn": "4413982995"
-      }
-    },
-    {
-      "product_id": "prd-1009",
-      "name": "Слать Бригада",
-      "category": "🥛 Молочные продукты",
-      "quantity": 1,
-      "unit": "л",
-      "price_per_unit": 240.9,
-      "total_price": 240.9,
-      "kbju": {
-        "calories": 156.2,
-        "protein": 15.7,
-        "fat": 13.4,
-        "carbohydrates": 7.6
-      },
-      "manufacturer": {
-        "name": "НПО «Ефимова»",
-        "country": "Россия",
-        "website": "https://ford.com",
-        "inn": "3687837951"
+        "website": "https://nizhfarm.com",
+        "inn": "8186530463"
       }
     }
   ],
-  "total_amount": 464.4,
-  "payment_method": "cash",
-  "is_delivery": false,
+  "total_amount": 360.38,
+  "payment_method": "card",
+  "is_delivery": true,
   "delivery_address": {
     "country": "Россия",
-    "city": "ст. Малоярославец",
-    "street": "ул. Черемуховая",
-    "house": "352",
-    "apartment": "5",
-    "postal_code": "738654"
+    "city": "г. Сорочинск",
+    "street": "ул. Менделеева",
+    "house": "83",
+    "apartment": "31",
+    "postal_code": "371369"
   },
-  "purchase_datetime": "2025-07-05T00:21:06.223715"
+  "purchase_datetime": "2025-07-27T11:36:53.685125"
 }

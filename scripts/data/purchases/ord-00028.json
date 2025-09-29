@@ -1,84 +1,105 @@
 {
   "purchase_id": "ord-00028",
   "customer": {
-    "customer_id": "cus-1037",
-    "first_name": "Ипатий",
-    "last_name": "Ларионова",
-    "email": "timurfadeev@example.org",
-    "phone": "+7 561 629 90 67",
+    "customer_id": "cus-1030",
+    "first_name": "Данила",
+    "last_name": "Кабанов",
+    "email": "eduard_84@example.com",
+    "phone": "8 (961) 688-18-31",
     "is_loyalty_member": true,
-    "loyalty_card_number": "LOYAL-FA021EE45A"
+    "loyalty_card_number": "LOYAL-8CCC7CF000"
   },
   "store": {
-    "store_id": "store-021",
-    "store_name": "Большая Пикча — Магазин на алл. Огородная",
-    "store_network": "Большая Пикча",
+    "store_id": "store-034",
+    "store_name": "Маленькая Пикча — Магазин на пер. Просвещения",
+    "store_network": "Маленькая Пикча",
     "location": {
       "country": "Россия",
-      "city": "п. Энгельс",
-      "street": "ш. Партизанское",
-      "house": "9/6",
-      "postal_code": "123462",
+      "city": "д. Глазов",
+      "street": "наб. Садовая",
+      "house": "5",
+      "postal_code": "749298",
       "coordinates": {
-        "latitude": -19.580885,
-        "longitude": 86.177992
+        "latitude": 28.905297,
+        "longitude": 129.909873
       }
     }
   },
   "items": [
     {
-      "product_id": "prd-1012",
-      "name": "Школьный Анализ",
-      "category": "🥦 Овощи и зелень",
-      "quantity": 2,
-      "unit": "л",
-      "price_per_unit": 209.82,
-      "total_price": 419.64,
+      "product_id": "prd-1017",
+      "name": "Народ Построить",
+      "category": "🍏 Фрукты и ягоды",
+      "quantity": 4,
+      "unit": "шт",
+      "price_per_unit": 178.6,
+      "total_price": 714.4,
       "kbju": {
-        "calories": 60.6,
-        "protein": 14.6,
-        "fat": 12.7,
-        "carbohydrates": 41.7
+        "calories": 256.8,
+        "protein": 17.5,
+        "fat": 12.2,
+        "carbohydrates": 17.7
       },
       "manufacturer": {
-        "name": "ИП «Беспалов-Тимофеев»",
+        "name": "Корнилов и партнеры",
         "country": "Россия",
-        "website": "https://npo.edu",
-        "inn": "6799042551"
+        "website": "https://rao.org",
+        "inn": "2545527642"
       }
     },
     {
-      "product_id": "prd-1014",
-      "name": "Опасность Следовательно",
+      "product_id": "prd-1001",
+      "name": "Лиловый Бок",
       "category": "🥛 Молочные продукты",
-      "quantity": 1,
-      "unit": "кг",
-      "price_per_unit": 213.21,
-      "total_price": 213.21,
+      "quantity": 4,
+      "unit": "упаковка",
+      "price_per_unit": 242.46,
+      "total_price": 969.84,
       "kbju": {
-        "calories": 206.8,
-        "protein": 10.5,
-        "fat": 2.9,
-        "carbohydrates": 6.6
+        "calories": 274.4,
+        "protein": 6.4,
+        "fat": 6.0,
+        "carbohydrates": 13.5
       },
       "manufacturer": {
-        "name": "ЗАО «Беляков, Большакова и Князева»",
+        "name": "Куликов и партнеры",
         "country": "Россия",
-        "website": "https://npo.com",
-        "inn": "0149036081"
+        "website": "https://sharapov.net",
+        "inn": "9920890846"
+      }
+    },
+    {
+      "product_id": "prd-1015",
+      "name": "Табак Госпожа",
+      "category": "🥛 Молочные продукты",
+      "quantity": 2,
+      "unit": "л",
+      "price_per_unit": 235.2,
+      "total_price": 470.4,
+      "kbju": {
+        "calories": 99.6,
+        "protein": 9.1,
+        "fat": 4.4,
+        "carbohydrates": 37.7
+      },
+      "manufacturer": {
+        "name": "ИП «Куликов, Степанов и Соболева»",
+        "country": "Россия",
+        "website": "https://rjabov.info",
+        "inn": "9167946809"
       }
     }
   ],
-  "total_amount": 632.85,
+  "total_amount": 2154.64,
   "payment_method": "card",
   "is_delivery": false,
   "delivery_address": {
     "country": "Россия",
-    "city": "д. Сосновый Бор",
-    "street": "ул. Халтурина",
-    "house": "4/1",
-    "apartment": "98",
-    "postal_code": "590899"
+    "city": "с. Аргаяш",
+    "street": "пер. Карла Либкнехта",
+    "house": "5/2",
+    "apartment": "87",
+    "postal_code": "539126"
   },
-  "purchase_datetime": "2025-06-29T00:21:05.930618"
+  "purchase_datetime": "2025-08-19T11:36:53.640709"
 }

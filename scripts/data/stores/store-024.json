@@ -1,6 +1,6 @@
 {
   "store_id": "store-024",
-  "store_name": "Большая Пикча — Магазин на наб. Детская",
+  "store_name": "Большая Пикча — Магазин на алл. Правды",
   "store_network": "Большая Пикча",
   "store_type_description": "Супермаркет более 200 кв.м. Входит в сеть из 30 магазинов.",
   "type": "offline",
@@ -12,19 +12,19 @@
     "🥦 Овощи и зелень"
   ],
   "manager": {
-    "name": "Савелий Харитонович Силин",
-    "phone": "88513398693",
-    "email": "antip11@example.com"
+    "name": "Зиновьева Агафья Андреевна",
+    "phone": "88977922929",
+    "email": "faina_72@example.com"
   },
   "location": {
     "country": "Россия",
-    "city": "ст. Клин",
-    "street": "алл. Макарова",
-    "house": "5",
-    "postal_code": "420427",
+    "city": "г. Нягань",
+    "street": "наб. Тепличная",
+    "house": "7",
+    "postal_code": "010829",
     "coordinates": {
-      "latitude": 48.0666515,
-      "longitude": -10.945348
+      "latitude": -40.134826,
+      "longitude": -72.151024
     }
   },
   "opening_hours": {
@@ -34,6 +34,6 @@
   },
   "accepts_online_orders": true,
   "delivery_available": true,
-  "warehouse_connected": true,
-  "last_inventory_date": "2025-09-25"
+  "warehouse_connected": false,
+  "last_inventory_date": "2025-09-29"
 }

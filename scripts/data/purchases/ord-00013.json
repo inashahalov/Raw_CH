@@ -1,63 +1,63 @@
 {
   "purchase_id": "ord-00013",
   "customer": {
-    "customer_id": "cus-1036",
-    "first_name": "Ананий",
-    "last_name": "Шубин",
-    "email": "xvolkov@example.net",
-    "phone": "+7 938 461 4396",
+    "customer_id": "cus-1037",
+    "first_name": "Адриан",
+    "last_name": "Коновалов",
+    "email": "karl_1978@example.net",
+    "phone": "+78107088603",
     "is_loyalty_member": true,
-    "loyalty_card_number": "LOYAL-E36C1302B0"
+    "loyalty_card_number": "LOYAL-D0EF0742EC"
   },
   "store": {
-    "store_id": "store-008",
-    "store_name": "Большая Пикча — Магазин на алл. Приозерная",
-    "store_network": "Большая Пикча",
+    "store_id": "store-037",
+    "store_name": "Маленькая Пикча — Магазин на пер. Осипенко",
+    "store_network": "Маленькая Пикча",
     "location": {
       "country": "Россия",
-      "city": "с. Ялуторовск",
-      "street": "ул. Ягодная",
-      "house": "26",
-      "postal_code": "872820",
+      "city": "к. Шенкурск",
+      "street": "пер. Весенний",
+      "house": "92",
+      "postal_code": "150965",
       "coordinates": {
-        "latitude": -64.557127,
-        "longitude": -134.286499
+        "latitude": -37.683041,
+        "longitude": 8.788011
       }
     }
   },
   "items": [
     {
-      "product_id": "prd-1010",
-      "name": "Мгновение Вряд",
-      "category": "🥦 Овощи и зелень",
-      "quantity": 2,
-      "unit": "кг",
-      "price_per_unit": 149.03,
-      "total_price": 298.06,
+      "product_id": "prd-1006",
+      "name": "Очередной Развернуться",
+      "category": "🥩 Мясо, рыба, яйца и бобовые",
+      "quantity": 3,
+      "unit": "упаковка",
+      "price_per_unit": 40.94,
+      "total_price": 122.82,
       "kbju": {
-        "calories": 186.1,
-        "protein": 15.0,
-        "fat": 10.1,
-        "carbohydrates": 27.3
+        "calories": 207.0,
+        "protein": 10.7,
+        "fat": 10.6,
+        "carbohydrates": 30.5
       },
       "manufacturer": {
-        "name": "ИП «Блохина-Гаврилов»",
+        "name": "Ямал СПГ",
         "country": "Россия",
-        "website": "https://oao.com",
-        "inn": "1245272063"
+        "website": "https://ip.com",
+        "inn": "1426832497"
       }
     }
   ],
-  "total_amount": 298.06,
+  "total_amount": 122.82,
   "payment_method": "card",
   "is_delivery": false,
   "delivery_address": {
     "country": "Россия",
-    "city": "п. Курумкан",
-    "street": "пер. Лесный",
-    "house": "3/9",
-    "apartment": "46",
-    "postal_code": "741876"
+    "city": "клх Красноуфимск",
+    "street": "наб. Карбышева",
+    "house": "66",
+    "apartment": "41",
+    "postal_code": "678239"
   },
-  "purchase_datetime": "2025-07-20T00:21:05.924124"
+  "purchase_datetime": "2025-09-22T11:36:53.634781"
 }

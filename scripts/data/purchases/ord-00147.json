@@ -1,63 +1,84 @@
 {
   "purchase_id": "ord-00147",
   "customer": {
-    "customer_id": "cus-1020",
-    "first_name": "Эраст",
-    "last_name": "Куликова",
-    "email": "gremislavkondratev@example.net",
-    "phone": "8 672 125 64 83",
+    "customer_id": "cus-1034",
+    "first_name": "Петр",
+    "last_name": "Семенов",
+    "email": "kondratiknjazev@example.com",
+    "phone": "8 840 333 65 64",
     "is_loyalty_member": true,
-    "loyalty_card_number": "LOYAL-7883FC4DA4"
+    "loyalty_card_number": "LOYAL-7D4932660C"
   },
   "store": {
-    "store_id": "store-026",
-    "store_name": "Большая Пикча — Магазин на наб. Горная",
+    "store_id": "store-017",
+    "store_name": "Большая Пикча — Магазин на пер. Вольный",
     "store_network": "Большая Пикча",
     "location": {
       "country": "Россия",
-      "city": "с. Нижневартовск",
-      "street": "пер. Дарвина",
+      "city": "с. Апшеронск",
+      "street": "ул. Литейная",
       "house": "8",
-      "postal_code": "513083",
+      "postal_code": "203874",
       "coordinates": {
-        "latitude": -78.2781365,
-        "longitude": -138.552401
+        "latitude": 81.6722735,
+        "longitude": 110.482576
       }
     }
   },
   "items": [
     {
-      "product_id": "prd-1008",
-      "name": "Освободить Призыв",
-      "category": "🥩 Мясо, рыба, яйца и бобовые",
-      "quantity": 5,
+      "product_id": "prd-1005",
+      "name": "Правильный Факультет",
+      "category": "🥦 Овощи и зелень",
+      "quantity": 2,
       "unit": "л",
-      "price_per_unit": 265.49,
-      "total_price": 1327.45,
+      "price_per_unit": 246.16,
+      "total_price": 492.32,
       "kbju": {
-        "calories": 130.4,
-        "protein": 5.2,
-        "fat": 10.6,
-        "carbohydrates": 22.8
+        "calories": 238.0,
+        "protein": 1.6,
+        "fat": 0.4,
+        "carbohydrates": 17.1
       },
       "manufacturer": {
-        "name": "ИП «Маслова, Денисов и Фокина»",
+        "name": "Михеев и партнеры",
         "country": "Россия",
-        "website": "https://ignatev.com",
-        "inn": "7104068639"
+        "website": "https://yakovleva.biz",
+        "inn": "6371685483"
+      }
+    },
+    {
+      "product_id": "prd-1019",
+      "name": "Разводить Подробность",
+      "category": "🥖 Зерновые и хлебобулочные изделия",
+      "quantity": 5,
+      "unit": "шт",
+      "price_per_unit": 202.14,
+      "total_price": 1010.7,
+      "kbju": {
+        "calories": 104.0,
+        "protein": 4.5,
+        "fat": 1.3,
+        "carbohydrates": 30.3
+      },
+      "manufacturer": {
+        "name": "АО «Филатов, Гусев и Рябов»",
+        "country": "Россия",
+        "website": "https://oao.com",
+        "inn": "8155112705"
       }
     }
   ],
-  "total_amount": 1327.45,
-  "payment_method": "card",
+  "total_amount": 1503.02,
+  "payment_method": "cash",
   "is_delivery": true,
   "delivery_address": {
     "country": "Россия",
-    "city": "п. Энгельс",
-    "street": "ул. Тепличная",
-    "house": "78",
-    "apartment": "45",
-    "postal_code": "770377"
+    "city": "п. Благовещенск (Амур.)",
+    "street": "пер. Белинского",
+    "house": "6",
+    "apartment": "70",
+    "postal_code": "880088"
   },
-  "purchase_datetime": "2025-07-10T00:21:06.223124"
+  "purchase_datetime": "2025-09-21T11:36:53.684683"
 }

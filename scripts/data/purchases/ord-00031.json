@@ -1,105 +1,105 @@
 {
   "purchase_id": "ord-00031",
   "customer": {
-    "customer_id": "cus-1043",
-    "first_name": "Кир",
-    "last_name": "Калашников",
-    "email": "bsamsonov@example.org",
-    "phone": "+7 (013) 078-6626",
+    "customer_id": "cus-1039",
+    "first_name": "Кузьма",
+    "last_name": "Баранова",
+    "email": "zosima_60@example.org",
+    "phone": "+7 (296) 047-26-00",
     "is_loyalty_member": true,
-    "loyalty_card_number": "LOYAL-920D6D926B"
+    "loyalty_card_number": "LOYAL-E3C74B481D"
   },
   "store": {
-    "store_id": "store-003",
-    "store_name": "Большая Пикча — Магазин на ул. Тульская",
+    "store_id": "store-029",
+    "store_name": "Большая Пикча — Магазин на бул. Казанский",
     "store_network": "Большая Пикча",
     "location": {
       "country": "Россия",
-      "city": "ст. Игарка",
-      "street": "наб. Смирнова",
-      "house": "31",
-      "postal_code": "004171",
+      "city": "клх Углегорск",
+      "street": "бул. Бригадный",
+      "house": "1/9",
+      "postal_code": "536870",
       "coordinates": {
-        "latitude": -4.03426,
-        "longitude": 25.806164
+        "latitude": 86.35557,
+        "longitude": 60.62358
       }
     }
   },
   "items": [
     {
-      "product_id": "prd-1008",
-      "name": "Освободить Призыв",
-      "category": "🥩 Мясо, рыба, яйца и бобовые",
-      "quantity": 1,
-      "unit": "л",
-      "price_per_unit": 265.49,
-      "total_price": 265.49,
+      "product_id": "prd-1011",
+      "name": "Зачем Вскакивать",
+      "category": "🥛 Молочные продукты",
+      "quantity": 3,
+      "unit": "шт",
+      "price_per_unit": 105.34,
+      "total_price": 316.02,
       "kbju": {
-        "calories": 130.4,
-        "protein": 5.2,
-        "fat": 10.6,
-        "carbohydrates": 22.8
+        "calories": 207.5,
+        "protein": 16.9,
+        "fat": 5.3,
+        "carbohydrates": 19.0
       },
       "manufacturer": {
-        "name": "ИП «Маслова, Денисов и Фокина»",
+        "name": "ИП «Нестеров, Лыткин и Евсеев»",
         "country": "Россия",
-        "website": "https://ignatev.com",
-        "inn": "7104068639"
+        "website": "https://ip.ru",
+        "inn": "1814255141"
       }
     },
     {
       "product_id": "prd-1013",
-      "name": "Полюбить Руководитель",
-      "category": "🥦 Овощи и зелень",
-      "quantity": 1,
-      "unit": "шт",
-      "price_per_unit": 223.19,
-      "total_price": 223.19,
+      "name": "Правление Банк",
+      "category": "🥛 Молочные продукты",
+      "quantity": 5,
+      "unit": "кг",
+      "price_per_unit": 210.76,
+      "total_price": 1053.8,
       "kbju": {
-        "calories": 249.4,
-        "protein": 17.6,
-        "fat": 5.6,
-        "carbohydrates": 43.3
+        "calories": 279.5,
+        "protein": 12.1,
+        "fat": 5.8,
+        "carbohydrates": 44.9
       },
       "manufacturer": {
-        "name": "Профитмед",
+        "name": "ИП «Королев, Кулагина и Медведева»",
         "country": "Россия",
-        "website": "https://npo.edu",
-        "inn": "4153799624"
+        "website": "https://ooo.net",
+        "inn": "2561502092"
       }
     },
     {
-      "product_id": "prd-1007",
-      "name": "Пища Беспомощный",
-      "category": "🥦 Овощи и зелень",
+      "product_id": "prd-1019",
+      "name": "Разводить Подробность",
+      "category": "🥖 Зерновые и хлебобулочные изделия",
       "quantity": 1,
-      "unit": "л",
-      "price_per_unit": 61.58,
-      "total_price": 61.58,
+      "unit": "шт",
+      "price_per_unit": 202.14,
+      "total_price": 202.14,
       "kbju": {
-        "calories": 155.9,
-        "protein": 7.5,
-        "fat": 9.2,
-        "carbohydrates": 7.7
+        "calories": 104.0,
+        "protein": 4.5,
+        "fat": 1.3,
+        "carbohydrates": 30.3
       },
       "manufacturer": {
-        "name": "АО «Гущин-Карпов»",
+        "name": "АО «Филатов, Гусев и Рябов»",
         "country": "Россия",
-        "website": "https://ip.net",
-        "inn": "7668416058"
+        "website": "https://oao.com",
+        "inn": "8155112705"
       }
     }
   ],
-  "total_amount": 550.26,
+  "total_amount": 1571.96,
   "payment_method": "card",
   "is_delivery": false,
   "delivery_address": {
     "country": "Россия",
-    "city": "ст. Клин",
-    "street": "алл. Седова",
-    "house": "39",
-    "apartment": "77",
-    "postal_code": "957804"
+    "city": "ст. Малая Вишера",
+    "street": "пр. Азина",
+    "house": "717",
+    "apartment": "16",
+    "postal_code": "935380"
   },
-  "purchase_datetime": "2025-07-20T00:21:05.931887"
+  "purchase_datetime": "2025-07-31T11:36:53.641829"
 }

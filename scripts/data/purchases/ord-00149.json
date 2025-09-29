@@ -1,105 +1,63 @@
 {
   "purchase_id": "ord-00149",
   "customer": {
-    "customer_id": "cus-1013",
-    "first_name": "Селиван",
-    "last_name": "Савельев",
-    "email": "vissarion_40@example.com",
-    "phone": "+71178778499",
+    "customer_id": "cus-1036",
+    "first_name": "Екатерина",
+    "last_name": "Бирюков",
+    "email": "baranovakim@example.net",
+    "phone": "8 031 251 3344",
     "is_loyalty_member": true,
-    "loyalty_card_number": "LOYAL-CA2847D92B"
+    "loyalty_card_number": "LOYAL-CE7F3C0632"
   },
   "store": {
     "store_id": "store-016",
-    "store_name": "Большая Пикча — Магазин на пр. Горького",
+    "store_name": "Большая Пикча — Магазин на бул. Придорожный",
     "store_network": "Большая Пикча",
     "location": {
       "country": "Россия",
-      "city": "клх Новомичуринск",
-      "street": "пер. З.Космодемьянской",
-      "house": "8",
-      "postal_code": "646457",
+      "city": "к. Певек",
+      "street": "пр. Мичурина",
+      "house": "44",
+      "postal_code": "053365",
       "coordinates": {
-        "latitude": -13.8879685,
-        "longitude": -88.240324
+        "latitude": -76.450329,
+        "longitude": 102.445723
       }
     }
   },
   "items": [
     {
-      "product_id": "prd-1008",
-      "name": "Освободить Призыв",
-      "category": "🥩 Мясо, рыба, яйца и бобовые",
-      "quantity": 1,
-      "unit": "л",
-      "price_per_unit": 265.49,
-      "total_price": 265.49,
-      "kbju": {
-        "calories": 130.4,
-        "protein": 5.2,
-        "fat": 10.6,
-        "carbohydrates": 22.8
-      },
-      "manufacturer": {
-        "name": "ИП «Маслова, Денисов и Фокина»",
-        "country": "Россия",
-        "website": "https://ignatev.com",
-        "inn": "7104068639"
-      }
-    },
-    {
-      "product_id": "prd-1013",
-      "name": "Полюбить Руководитель",
+      "product_id": "prd-1016",
+      "name": "Ребятишки Лететь",
       "category": "🥦 Овощи и зелень",
       "quantity": 3,
       "unit": "шт",
-      "price_per_unit": 223.19,
-      "total_price": 669.57,
+      "price_per_unit": 266.18,
+      "total_price": 798.54,
       "kbju": {
-        "calories": 249.4,
-        "protein": 17.6,
-        "fat": 5.6,
-        "carbohydrates": 43.3
+        "calories": 249.2,
+        "protein": 2.2,
+        "fat": 4.1,
+        "carbohydrates": 29.2
       },
       "manufacturer": {
-        "name": "Профитмед",
+        "name": "АО «Быкова, Наумов и Фадеев»",
         "country": "Россия",
-        "website": "https://npo.edu",
-        "inn": "4153799624"
-      }
-    },
-    {
-      "product_id": "prd-1016",
-      "name": "Школьный Очко",
-      "category": "🥖 Зерновые и хлебобулочные изделия",
-      "quantity": 4,
-      "unit": "шт",
-      "price_per_unit": 295.13,
-      "total_price": 1180.52,
-      "kbju": {
-        "calories": 156.7,
-        "protein": 8.3,
-        "fat": 6.7,
-        "carbohydrates": 49.1
-      },
-      "manufacturer": {
-        "name": "РАО «Марков»",
-        "country": "Россия",
-        "website": "https://argos.org",
-        "inn": "6328136246"
+        "website": "https://rao.ru",
+        "inn": "1171341012"
       }
     }
   ],
-  "total_amount": 2115.58,
+  "total_amount": 798.54,
   "payment_method": "card",
-  "is_delivery": true,
+  "is_delivery": false,
   "delivery_address": {
     "country": "Россия",
-    "city": "п. Качканар",
-    "street": "пр. Геологов",
-    "house": "882",
-    "apartment": "57",
-    "postal_code": "363767"
+    "city": "к. Шенкурск",
+    "street": "алл. Орловская",
+    "house": "88",
+    "apartment": "31",
+    "postal_code": "234043"
   },
-  "purchase_datetime": "2025-08-08T00:21:06.224463"
+  "purchase_datetime": "2025-07-20T11:36:53.685500"
 }

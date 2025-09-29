@@ -1,63 +1,105 @@
 {
   "purchase_id": "ord-00145",
   "customer": {
-    "customer_id": "cus-1009",
-    "first_name": "Любомир",
-    "last_name": "Зайцева",
-    "email": "mironovdementi@example.net",
-    "phone": "8 083 438 03 36",
+    "customer_id": "cus-1007",
+    "first_name": "Максимильян",
+    "last_name": "Лебедев",
+    "email": "pankratsharapov@example.net",
+    "phone": "+7 (225) 168-03-89",
     "is_loyalty_member": true,
-    "loyalty_card_number": "LOYAL-B97665AA7B"
+    "loyalty_card_number": "LOYAL-A44F359300"
   },
   "store": {
-    "store_id": "store-017",
-    "store_name": "Большая Пикча — Магазин на алл. Тамбовская",
+    "store_id": "store-001",
+    "store_name": "Большая Пикча — Магазин на бул. Урицкого",
     "store_network": "Большая Пикча",
     "location": {
       "country": "Россия",
-      "city": "к. Воркута",
-      "street": "наб. Байкальская",
-      "house": "38",
-      "postal_code": "038139",
+      "city": "д. Горячий Ключ",
+      "street": "ш. Громова",
+      "house": "1/3",
+      "postal_code": "610910",
       "coordinates": {
-        "latitude": -35.4698385,
-        "longitude": 107.698
+        "latitude": 83.181936,
+        "longitude": 25.518363
       }
     }
   },
   "items": [
     {
-      "product_id": "prd-1008",
-      "name": "Освободить Призыв",
-      "category": "🥩 Мясо, рыба, яйца и бобовые",
-      "quantity": 1,
-      "unit": "л",
-      "price_per_unit": 265.49,
-      "total_price": 265.49,
+      "product_id": "prd-1011",
+      "name": "Зачем Вскакивать",
+      "category": "🥛 Молочные продукты",
+      "quantity": 5,
+      "unit": "шт",
+      "price_per_unit": 105.34,
+      "total_price": 526.7,
       "kbju": {
-        "calories": 130.4,
-        "protein": 5.2,
-        "fat": 10.6,
-        "carbohydrates": 22.8
+        "calories": 207.5,
+        "protein": 16.9,
+        "fat": 5.3,
+        "carbohydrates": 19.0
       },
       "manufacturer": {
-        "name": "ИП «Маслова, Денисов и Фокина»",
+        "name": "ИП «Нестеров, Лыткин и Евсеев»",
         "country": "Россия",
-        "website": "https://ignatev.com",
-        "inn": "7104068639"
+        "website": "https://ip.ru",
+        "inn": "1814255141"
+      }
+    },
+    {
+      "product_id": "prd-1008",
+      "name": "Упор Кузнец",
+      "category": "🍏 Фрукты и ягоды",
+      "quantity": 1,
+      "unit": "л",
+      "price_per_unit": 255.98,
+      "total_price": 255.98,
+      "kbju": {
+        "calories": 143.1,
+        "protein": 6.1,
+        "fat": 3.5,
+        "carbohydrates": 47.3
+      },
+      "manufacturer": {
+        "name": "МТС-банк",
+        "country": "Россия",
+        "website": "https://shcherbakova.com",
+        "inn": "1911616255"
+      }
+    },
+    {
+      "product_id": "prd-1012",
+      "name": "Торговля Счастье",
+      "category": "🥖 Зерновые и хлебобулочные изделия",
+      "quantity": 5,
+      "unit": "л",
+      "price_per_unit": 70.91,
+      "total_price": 354.55,
+      "kbju": {
+        "calories": 149.8,
+        "protein": 5.8,
+        "fat": 6.3,
+        "carbohydrates": 24.8
+      },
+      "manufacturer": {
+        "name": "НПО «Некрасова»",
+        "country": "Россия",
+        "website": "https://ao.org",
+        "inn": "8419489062"
       }
     }
   ],
-  "total_amount": 265.49,
-  "payment_method": "card",
-  "is_delivery": false,
+  "total_amount": 1137.23,
+  "payment_method": "cash",
+  "is_delivery": true,
   "delivery_address": {
     "country": "Россия",
-    "city": "к. Тулун",
-    "street": "бул. Зеленый",
-    "house": "5",
-    "apartment": "42",
-    "postal_code": "594984"
+    "city": "ст. Луховицы",
+    "street": "бул. Светлый",
+    "house": "4/5",
+    "apartment": "70",
+    "postal_code": "230633"
   },
-  "purchase_datetime": "2025-07-29T00:21:06.221525"
+  "purchase_datetime": "2025-07-21T11:36:53.683734"
 }

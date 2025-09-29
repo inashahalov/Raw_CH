@@ -1,63 +1,84 @@
 {
   "purchase_id": "ord-00108",
   "customer": {
-    "customer_id": "cus-1033",
-    "first_name": "Карп",
-    "last_name": "Корнилов",
-    "email": "dmitri07@example.org",
-    "phone": "83587069742",
+    "customer_id": "cus-1037",
+    "first_name": "Адриан",
+    "last_name": "Коновалов",
+    "email": "karl_1978@example.net",
+    "phone": "+78107088603",
     "is_loyalty_member": true,
-    "loyalty_card_number": "LOYAL-389C1FF3BC"
+    "loyalty_card_number": "LOYAL-D0EF0742EC"
   },
   "store": {
-    "store_id": "store-014",
-    "store_name": "Большая Пикча — Магазин на ш. Школьное",
+    "store_id": "store-008",
+    "store_name": "Большая Пикча — Магазин на бул. Советской Армии",
     "store_network": "Большая Пикча",
     "location": {
       "country": "Россия",
-      "city": "п. Качканар",
-      "street": "пр. Щетинкина",
-      "house": "45",
-      "postal_code": "380111",
+      "city": "ст. Луховицы",
+      "street": "пер. Пролетарский",
+      "house": "376",
+      "postal_code": "913521",
       "coordinates": {
-        "latitude": -48.1943695,
-        "longitude": -77.577854
+        "latitude": -42.894459,
+        "longitude": 22.13989
       }
     }
   },
   "items": [
     {
-      "product_id": "prd-1013",
-      "name": "Полюбить Руководитель",
-      "category": "🥦 Овощи и зелень",
-      "quantity": 5,
-      "unit": "шт",
-      "price_per_unit": 223.19,
-      "total_price": 1115.95,
+      "product_id": "prd-1006",
+      "name": "Очередной Развернуться",
+      "category": "🥩 Мясо, рыба, яйца и бобовые",
+      "quantity": 2,
+      "unit": "упаковка",
+      "price_per_unit": 40.94,
+      "total_price": 81.88,
       "kbju": {
-        "calories": 249.4,
-        "protein": 17.6,
-        "fat": 5.6,
-        "carbohydrates": 43.3
+        "calories": 207.0,
+        "protein": 10.7,
+        "fat": 10.6,
+        "carbohydrates": 30.5
       },
       "manufacturer": {
-        "name": "Профитмед",
+        "name": "Ямал СПГ",
         "country": "Россия",
-        "website": "https://npo.edu",
-        "inn": "4153799624"
+        "website": "https://ip.com",
+        "inn": "1426832497"
+      }
+    },
+    {
+      "product_id": "prd-1016",
+      "name": "Ребятишки Лететь",
+      "category": "🥦 Овощи и зелень",
+      "quantity": 4,
+      "unit": "шт",
+      "price_per_unit": 266.18,
+      "total_price": 1064.72,
+      "kbju": {
+        "calories": 249.2,
+        "protein": 2.2,
+        "fat": 4.1,
+        "carbohydrates": 29.2
+      },
+      "manufacturer": {
+        "name": "АО «Быкова, Наумов и Фадеев»",
+        "country": "Россия",
+        "website": "https://rao.ru",
+        "inn": "1171341012"
       }
     }
   ],
-  "total_amount": 1115.95,
+  "total_amount": 1146.6,
   "payment_method": "cash",
-  "is_delivery": true,
+  "is_delivery": false,
   "delivery_address": {
     "country": "Россия",
-    "city": "к. Яшалта",
-    "street": "ш. Орджоникидзе",
-    "house": "189",
+    "city": "клх Красноуфимск",
+    "street": "наб. Карбышева",
+    "house": "66",
     "apartment": "41",
-    "postal_code": "555752"
+    "postal_code": "678239"
   },
-  "purchase_datetime": "2025-08-10T00:21:05.963730"
+  "purchase_datetime": "2025-07-21T11:36:53.669979"
 }

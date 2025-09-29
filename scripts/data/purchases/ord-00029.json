@@ -1,105 +1,63 @@
 {
   "purchase_id": "ord-00029",
   "customer": {
-    "customer_id": "cus-1015",
-    "first_name": "Аникей",
-    "last_name": "Новиков",
-    "email": "oisakova@example.org",
-    "phone": "8 (510) 536-4882",
+    "customer_id": "cus-1016",
+    "first_name": "Валерий",
+    "last_name": "Мясникова",
+    "email": "visheslav2010@example.org",
+    "phone": "+7 348 113 4344",
     "is_loyalty_member": true,
-    "loyalty_card_number": "LOYAL-E87EA9AED1"
+    "loyalty_card_number": "LOYAL-EDAFBAB1B8"
   },
   "store": {
-    "store_id": "store-025",
-    "store_name": "Большая Пикча — Магазин на ш. Гончарова",
+    "store_id": "store-004",
+    "store_name": "Большая Пикча — Магазин на бул. Декабристов",
     "store_network": "Большая Пикча",
     "location": {
       "country": "Россия",
-      "city": "ст. Малоярославец",
-      "street": "алл. Калужская",
-      "house": "201",
-      "postal_code": "574860",
+      "city": "г. Саров (Морд.)",
+      "street": "бул. Гоголя",
+      "house": "6/3",
+      "postal_code": "651927",
       "coordinates": {
-        "latitude": -56.801937,
-        "longitude": 157.630796
+        "latitude": 12.2983715,
+        "longitude": 45.641857
       }
     }
   },
   "items": [
     {
-      "product_id": "prd-1015",
-      "name": "Советовать Горький",
+      "product_id": "prd-1019",
+      "name": "Разводить Подробность",
       "category": "🥖 Зерновые и хлебобулочные изделия",
-      "quantity": 1,
-      "unit": "л",
-      "price_per_unit": 74.06,
-      "total_price": 74.06,
+      "quantity": 5,
+      "unit": "шт",
+      "price_per_unit": 202.14,
+      "total_price": 1010.7,
       "kbju": {
-        "calories": 265.6,
-        "protein": 14.1,
-        "fat": 13.9,
-        "carbohydrates": 4.2
+        "calories": 104.0,
+        "protein": 4.5,
+        "fat": 1.3,
+        "carbohydrates": 30.3
       },
       "manufacturer": {
-        "name": "РАО «Пахомова-Голубев»",
+        "name": "АО «Филатов, Гусев и Рябов»",
         "country": "Россия",
-        "website": "https://nlmk.biz",
-        "inn": "6002140966"
-      }
-    },
-    {
-      "product_id": "prd-1009",
-      "name": "Слать Бригада",
-      "category": "🥛 Молочные продукты",
-      "quantity": 1,
-      "unit": "л",
-      "price_per_unit": 240.9,
-      "total_price": 240.9,
-      "kbju": {
-        "calories": 156.2,
-        "protein": 15.7,
-        "fat": 13.4,
-        "carbohydrates": 7.6
-      },
-      "manufacturer": {
-        "name": "НПО «Ефимова»",
-        "country": "Россия",
-        "website": "https://ford.com",
-        "inn": "3687837951"
-      }
-    },
-    {
-      "product_id": "prd-1017",
-      "name": "Цель Единый",
-      "category": "🥖 Зерновые и хлебобулочные изделия",
-      "quantity": 2,
-      "unit": "упаковка",
-      "price_per_unit": 99.97,
-      "total_price": 199.94,
-      "kbju": {
-        "calories": 97.4,
-        "protein": 12.5,
-        "fat": 14.8,
-        "carbohydrates": 11.6
-      },
-      "manufacturer": {
-        "name": "АО «Белякова»",
-        "country": "Россия",
-        "website": "https://rao.com",
-        "inn": "0030371079"
+        "website": "https://oao.com",
+        "inn": "8155112705"
       }
     }
   ],
-  "total_amount": 514.9,
-  "payment_method": "card",
-  "is_delivery": false,
+  "total_amount": 1010.7,
+  "payment_method": "cash",
+  "is_delivery": true,
   "delivery_address": {
     "country": "Россия",
-    "city": "клх Новомичуринск",
-    "street": "алл. Космонавтов",
-    "house": "8/4",
-    "apartment": "96",
-    "postal_code": "158931"
+    "city": "с. Апшеронск",
+    "street": "пр. Космический",
+    "house": "6",
+    "apartment": "88",
+    "postal_code": "959491"
   },
-  "purchase_datetime": "2025-07-14T00:21:05.931021"
+  "purchase_datetime": "2025-08-10T11:36:53.641146"
 }

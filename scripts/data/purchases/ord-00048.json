@@ -1,105 +1,84 @@
 {
   "purchase_id": "ord-00048",
   "customer": {
-    "customer_id": "cus-1036",
-    "first_name": "Ананий",
-    "last_name": "Шубин",
-    "email": "xvolkov@example.net",
-    "phone": "+7 938 461 4396",
+    "customer_id": "cus-1023",
+    "first_name": "Панкрат",
+    "last_name": "Евдокимов",
+    "email": "lavrenti_48@example.org",
+    "phone": "8 (089) 348-13-39",
     "is_loyalty_member": true,
-    "loyalty_card_number": "LOYAL-E36C1302B0"
+    "loyalty_card_number": "LOYAL-DF9EB001FC"
   },
   "store": {
-    "store_id": "store-008",
-    "store_name": "Большая Пикча — Магазин на алл. Приозерная",
+    "store_id": "store-001",
+    "store_name": "Большая Пикча — Магазин на бул. Урицкого",
     "store_network": "Большая Пикча",
     "location": {
       "country": "Россия",
-      "city": "с. Ялуторовск",
-      "street": "ул. Ягодная",
-      "house": "26",
-      "postal_code": "872820",
+      "city": "д. Горячий Ключ",
+      "street": "ш. Громова",
+      "house": "1/3",
+      "postal_code": "610910",
       "coordinates": {
-        "latitude": -64.557127,
-        "longitude": -134.286499
+        "latitude": 83.181936,
+        "longitude": 25.518363
       }
     }
   },
   "items": [
     {
-      "product_id": "prd-1016",
-      "name": "Школьный Очко",
+      "product_id": "prd-1014",
+      "name": "Спичка Носок",
+      "category": "🍏 Фрукты и ягоды",
+      "quantity": 3,
+      "unit": "шт",
+      "price_per_unit": 180.19,
+      "total_price": 540.57,
+      "kbju": {
+        "calories": 248.0,
+        "protein": 12.3,
+        "fat": 6.8,
+        "carbohydrates": 5.2
+      },
+      "manufacturer": {
+        "name": "КДВ Групп",
+        "country": "Россия",
+        "website": "https://nizhfarm.com",
+        "inn": "8186530463"
+      }
+    },
+    {
+      "product_id": "prd-1019",
+      "name": "Разводить Подробность",
       "category": "🥖 Зерновые и хлебобулочные изделия",
       "quantity": 4,
       "unit": "шт",
-      "price_per_unit": 295.13,
-      "total_price": 1180.52,
+      "price_per_unit": 202.14,
+      "total_price": 808.56,
       "kbju": {
-        "calories": 156.7,
-        "protein": 8.3,
-        "fat": 6.7,
-        "carbohydrates": 49.1
+        "calories": 104.0,
+        "protein": 4.5,
+        "fat": 1.3,
+        "carbohydrates": 30.3
       },
       "manufacturer": {
-        "name": "РАО «Марков»",
+        "name": "АО «Филатов, Гусев и Рябов»",
         "country": "Россия",
-        "website": "https://argos.org",
-        "inn": "6328136246"
-      }
-    },
-    {
-      "product_id": "prd-1008",
-      "name": "Освободить Призыв",
-      "category": "🥩 Мясо, рыба, яйца и бобовые",
-      "quantity": 2,
-      "unit": "л",
-      "price_per_unit": 265.49,
-      "total_price": 530.98,
-      "kbju": {
-        "calories": 130.4,
-        "protein": 5.2,
-        "fat": 10.6,
-        "carbohydrates": 22.8
-      },
-      "manufacturer": {
-        "name": "ИП «Маслова, Денисов и Фокина»",
-        "country": "Россия",
-        "website": "https://ignatev.com",
-        "inn": "7104068639"
-      }
-    },
-    {
-      "product_id": "prd-1007",
-      "name": "Пища Беспомощный",
-      "category": "🥦 Овощи и зелень",
-      "quantity": 4,
-      "unit": "л",
-      "price_per_unit": 61.58,
-      "total_price": 246.32,
-      "kbju": {
-        "calories": 155.9,
-        "protein": 7.5,
-        "fat": 9.2,
-        "carbohydrates": 7.7
-      },
-      "manufacturer": {
-        "name": "АО «Гущин-Карпов»",
-        "country": "Россия",
-        "website": "https://ip.net",
-        "inn": "7668416058"
+        "website": "https://oao.com",
+        "inn": "8155112705"
       }
     }
   ],
-  "total_amount": 1957.82,
-  "payment_method": "card",
-  "is_delivery": true,
+  "total_amount": 1349.13,
+  "payment_method": "cash",
+  "is_delivery": false,
   "delivery_address": {
     "country": "Россия",
-    "city": "п. Курумкан",
-    "street": "пер. Лесный",
-    "house": "3/9",
-    "apartment": "46",
-    "postal_code": "741876"
+    "city": "г. Нягань",
+    "street": "наб. Ушакова",
+    "house": "24",
+    "apartment": "76",
+    "postal_code": "051733"
   },
-  "purchase_datetime": "2025-09-02T00:21:05.938099"
+  "purchase_datetime": "2025-08-25T11:36:53.648205"
 }

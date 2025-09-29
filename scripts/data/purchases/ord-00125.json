@@ -1,105 +1,63 @@
 {
   "purchase_id": "ord-00125",
   "customer": {
-    "customer_id": "cus-1013",
-    "first_name": "Селиван",
-    "last_name": "Савельев",
-    "email": "vissarion_40@example.com",
-    "phone": "+71178778499",
+    "customer_id": "cus-1040",
+    "first_name": "Захар",
+    "last_name": "Сергеева",
+    "email": "markovaristarh@example.org",
+    "phone": "8 (514) 104-3564",
     "is_loyalty_member": true,
-    "loyalty_card_number": "LOYAL-CA2847D92B"
+    "loyalty_card_number": "LOYAL-32912B1ECD"
   },
   "store": {
-    "store_id": "store-006",
-    "store_name": "Большая Пикча — Магазин на ш. Базарное",
-    "store_network": "Большая Пикча",
+    "store_id": "store-044",
+    "store_name": "Маленькая Пикча — Магазин на алл. Дорожная",
+    "store_network": "Маленькая Пикча",
     "location": {
       "country": "Россия",
-      "city": "г. Новомосковск",
-      "street": "бул. Волкова",
-      "house": "6",
-      "postal_code": "811518",
+      "city": "д. Нерчинск",
+      "street": "пер. Крымский",
+      "house": "1",
+      "postal_code": "830795",
       "coordinates": {
-        "latitude": -73.791002,
-        "longitude": -108.701609
+        "latitude": 44.647401,
+        "longitude": -138.20477
       }
     }
   },
   "items": [
     {
-      "product_id": "prd-1005",
-      "name": "Направо Господь",
-      "category": "🥩 Мясо, рыба, яйца и бобовые",
-      "quantity": 1,
-      "unit": "л",
-      "price_per_unit": 126.73,
-      "total_price": 126.73,
-      "kbju": {
-        "calories": 93.0,
-        "protein": 13.6,
-        "fat": 2.1,
-        "carbohydrates": 20.3
-      },
-      "manufacturer": {
-        "name": "ЗАО «Титова»",
-        "country": "Россия",
-        "website": "https://npo.com",
-        "inn": "2777644639"
-      }
-    },
-    {
-      "product_id": "prd-1016",
-      "name": "Школьный Очко",
+      "product_id": "prd-1019",
+      "name": "Разводить Подробность",
       "category": "🥖 Зерновые и хлебобулочные изделия",
-      "quantity": 4,
+      "quantity": 1,
       "unit": "шт",
-      "price_per_unit": 295.13,
-      "total_price": 1180.52,
+      "price_per_unit": 202.14,
+      "total_price": 202.14,
       "kbju": {
-        "calories": 156.7,
-        "protein": 8.3,
-        "fat": 6.7,
-        "carbohydrates": 49.1
+        "calories": 104.0,
+        "protein": 4.5,
+        "fat": 1.3,
+        "carbohydrates": 30.3
       },
       "manufacturer": {
-        "name": "РАО «Марков»",
+        "name": "АО «Филатов, Гусев и Рябов»",
         "country": "Россия",
-        "website": "https://argos.org",
-        "inn": "6328136246"
-      }
-    },
-    {
-      "product_id": "prd-1012",
-      "name": "Школьный Анализ",
-      "category": "🥦 Овощи и зелень",
-      "quantity": 4,
-      "unit": "л",
-      "price_per_unit": 209.82,
-      "total_price": 839.28,
-      "kbju": {
-        "calories": 60.6,
-        "protein": 14.6,
-        "fat": 12.7,
-        "carbohydrates": 41.7
-      },
-      "manufacturer": {
-        "name": "ИП «Беспалов-Тимофеев»",
-        "country": "Россия",
-        "website": "https://npo.edu",
-        "inn": "6799042551"
+        "website": "https://oao.com",
+        "inn": "8155112705"
       }
     }
   ],
-  "total_amount": 2146.53,
-  "payment_method": "card",
-  "is_delivery": true,
+  "total_amount": 202.14,
+  "payment_method": "cash",
+  "is_delivery": false,
   "delivery_address": {
     "country": "Россия",
-    "city": "п. Качканар",
-    "street": "пр. Геологов",
-    "house": "882",
-    "apartment": "57",
-    "postal_code": "363767"
+    "city": "п. Кетченеры",
+    "street": "ул. Ульяновская",
+    "house": "77",
+    "apartment": "63",
+    "postal_code": "395117"
   },
-  "purchase_datetime": "2025-08-29T00:21:05.971911"
+  "purchase_datetime": "2025-08-01T11:36:53.675864"
 }

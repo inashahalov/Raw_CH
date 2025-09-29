@@ -1,105 +1,84 @@
 {
   "purchase_id": "ord-00183",
   "customer": {
-    "customer_id": "cus-1041",
-    "first_name": "Наум",
-    "last_name": "Симонов",
-    "email": "valentinsharov@example.com",
-    "phone": "89031911463",
+    "customer_id": "cus-1035",
+    "first_name": "Серафим",
+    "last_name": "Исаев",
+    "email": "avde_57@example.net",
+    "phone": "+7 (877) 809-4149",
     "is_loyalty_member": true,
-    "loyalty_card_number": "LOYAL-19C84B142A"
+    "loyalty_card_number": "LOYAL-7BFFD38238"
   },
   "store": {
-    "store_id": "store-027",
-    "store_name": "Большая Пикча — Магазин на пер. Сибирский",
+    "store_id": "store-029",
+    "store_name": "Большая Пикча — Магазин на бул. Казанский",
     "store_network": "Большая Пикча",
     "location": {
       "country": "Россия",
-      "city": "г. Саранск",
-      "street": "бул. Парижской Коммуны",
-      "house": "5/1",
-      "postal_code": "320168",
+      "city": "клх Углегорск",
+      "street": "бул. Бригадный",
+      "house": "1/9",
+      "postal_code": "536870",
       "coordinates": {
-        "latitude": 72.4326485,
-        "longitude": 142.283966
+        "latitude": 86.35557,
+        "longitude": 60.62358
       }
     }
   },
   "items": [
     {
       "product_id": "prd-1011",
-      "name": "Привлекать Пол",
-      "category": "🥩 Мясо, рыба, яйца и бобовые",
-      "quantity": 2,
-      "unit": "л",
-      "price_per_unit": 85.86,
-      "total_price": 171.72,
-      "kbju": {
-        "calories": 65.4,
-        "protein": 5.6,
-        "fat": 1.9,
-        "carbohydrates": 24.1
-      },
-      "manufacturer": {
-        "name": "ИП «Галкина-Терентьев»",
-        "country": "Россия",
-        "website": "https://rao.ru",
-        "inn": "5528391758"
-      }
-    },
-    {
-      "product_id": "prd-1013",
-      "name": "Полюбить Руководитель",
-      "category": "🥦 Овощи и зелень",
-      "quantity": 2,
-      "unit": "шт",
-      "price_per_unit": 223.19,
-      "total_price": 446.38,
-      "kbju": {
-        "calories": 249.4,
-        "protein": 17.6,
-        "fat": 5.6,
-        "carbohydrates": 43.3
-      },
-      "manufacturer": {
-        "name": "Профитмед",
-        "country": "Россия",
-        "website": "https://npo.edu",
-        "inn": "4153799624"
-      }
-    },
-    {
-      "product_id": "prd-1014",
-      "name": "Опасность Следовательно",
+      "name": "Зачем Вскакивать",
       "category": "🥛 Молочные продукты",
-      "quantity": 4,
-      "unit": "кг",
-      "price_per_unit": 213.21,
-      "total_price": 852.84,
+      "quantity": 1,
+      "unit": "шт",
+      "price_per_unit": 105.34,
+      "total_price": 105.34,
       "kbju": {
-        "calories": 206.8,
-        "protein": 10.5,
-        "fat": 2.9,
-        "carbohydrates": 6.6
+        "calories": 207.5,
+        "protein": 16.9,
+        "fat": 5.3,
+        "carbohydrates": 19.0
       },
       "manufacturer": {
-        "name": "ЗАО «Беляков, Большакова и Князева»",
+        "name": "ИП «Нестеров, Лыткин и Евсеев»",
         "country": "Россия",
-        "website": "https://npo.com",
-        "inn": "0149036081"
+        "website": "https://ip.ru",
+        "inn": "1814255141"
+      }
+    },
+    {
+      "product_id": "prd-1010",
+      "name": "Что Кидать",
+      "category": "🥦 Овощи и зелень",
+      "quantity": 3,
+      "unit": "упаковка",
+      "price_per_unit": 47.43,
+      "total_price": 142.29,
+      "kbju": {
+        "calories": 192.3,
+        "protein": 18.7,
+        "fat": 5.8,
+        "carbohydrates": 28.5
+      },
+      "manufacturer": {
+        "name": "ИП «Лихачев Наумова»",
+        "country": "Россия",
+        "website": "https://protek.info",
+        "inn": "8715941222"
       }
     }
   ],
-  "total_amount": 1470.94,
-  "payment_method": "cash",
+  "total_amount": 247.63,
+  "payment_method": "card",
   "is_delivery": true,
   "delivery_address": {
     "country": "Россия",
-    "city": "с. Хасан",
-    "street": "ш. Виноградное",
-    "house": "764",
-    "apartment": "39",
-    "postal_code": "845061"
+    "city": "д. Каспийск",
+    "street": "пр. Сенной",
+    "house": "212",
+    "apartment": "14",
+    "postal_code": "643706"
   },
-  "purchase_datetime": "2025-09-22T00:21:06.238575"
+  "purchase_datetime": "2025-09-17T11:36:53.696926"
 }

@@ -1,105 +1,63 @@
 {
   "purchase_id": "ord-00096",
   "customer": {
-    "customer_id": "cus-1014",
-    "first_name": "Вера",
-    "last_name": "Логинова",
-    "email": "sofron_04@example.com",
-    "phone": "8 (794) 601-51-70",
+    "customer_id": "cus-1024",
+    "first_name": "Макар",
+    "last_name": "Медведева",
+    "email": "gerasim1992@example.net",
+    "phone": "+75793560855",
     "is_loyalty_member": true,
-    "loyalty_card_number": "LOYAL-85166218B3"
+    "loyalty_card_number": "LOYAL-95143C8F8C"
   },
   "store": {
-    "store_id": "store-011",
-    "store_name": "Большая Пикча — Магазин на алл. Таманская",
+    "store_id": "store-029",
+    "store_name": "Большая Пикча — Магазин на бул. Казанский",
     "store_network": "Большая Пикча",
     "location": {
       "country": "Россия",
-      "city": "клх Шали",
-      "street": "алл. Кольцевая",
-      "house": "80",
-      "postal_code": "288720",
+      "city": "клх Углегорск",
+      "street": "бул. Бригадный",
+      "house": "1/9",
+      "postal_code": "536870",
       "coordinates": {
-        "latitude": 79.614012,
-        "longitude": -12.849486
+        "latitude": 86.35557,
+        "longitude": 60.62358
       }
     }
   },
   "items": [
     {
-      "product_id": "prd-1009",
-      "name": "Слать Бригада",
-      "category": "🥛 Молочные продукты",
-      "quantity": 5,
-      "unit": "л",
-      "price_per_unit": 240.9,
-      "total_price": 1204.5,
-      "kbju": {
-        "calories": 156.2,
-        "protein": 15.7,
-        "fat": 13.4,
-        "carbohydrates": 7.6
-      },
-      "manufacturer": {
-        "name": "НПО «Ефимова»",
-        "country": "Россия",
-        "website": "https://ford.com",
-        "inn": "3687837951"
-      }
-    },
-    {
-      "product_id": "prd-1006",
-      "name": "Вытаскивать Плод",
+      "product_id": "prd-1003",
+      "name": "Спалить Лететь",
       "category": "🍏 Фрукты и ягоды",
       "quantity": 1,
-      "unit": "упаковка",
-      "price_per_unit": 123.36,
-      "total_price": 123.36,
+      "unit": "кг",
+      "price_per_unit": 68.82,
+      "total_price": 68.82,
       "kbju": {
-        "calories": 124.2,
-        "protein": 11.3,
-        "fat": 2.6,
-        "carbohydrates": 42.9
+        "calories": 203.9,
+        "protein": 5.3,
+        "fat": 0.6,
+        "carbohydrates": 11.5
       },
       "manufacturer": {
-        "name": "ИП «Емельянов-Наумова»",
+        "name": "ООО «Беляков Капустина»",
         "country": "Россия",
-        "website": "https://npo.edu",
-        "inn": "9973742158"
-      }
-    },
-    {
-      "product_id": "prd-1016",
-      "name": "Школьный Очко",
-      "category": "🥖 Зерновые и хлебобулочные изделия",
-      "quantity": 1,
-      "unit": "шт",
-      "price_per_unit": 295.13,
-      "total_price": 295.13,
-      "kbju": {
-        "calories": 156.7,
-        "protein": 8.3,
-        "fat": 6.7,
-        "carbohydrates": 49.1
-      },
-      "manufacturer": {
-        "name": "РАО «Марков»",
-        "country": "Россия",
-        "website": "https://argos.org",
-        "inn": "6328136246"
+        "website": "https://mostransavto.org",
+        "inn": "0958619414"
       }
     }
   ],
-  "total_amount": 1622.99,
-  "payment_method": "card",
+  "total_amount": 68.82,
+  "payment_method": "cash",
   "is_delivery": true,
   "delivery_address": {
     "country": "Россия",
-    "city": "с. Минусинск",
-    "street": "ул. Семашко",
-    "house": "308",
-    "apartment": "11",
-    "postal_code": "401472"
+    "city": "ст. Мичуринск",
+    "street": "ш. Семашко",
+    "house": "422",
+    "apartment": "48",
+    "postal_code": "354044"
   },
-  "purchase_datetime": "2025-09-01T00:21:05.957917"
+  "purchase_datetime": "2025-08-27T11:36:53.665778"
 }

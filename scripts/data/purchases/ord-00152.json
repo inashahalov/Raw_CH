@@ -1,63 +1,63 @@
 {
   "purchase_id": "ord-00152",
   "customer": {
-    "customer_id": "cus-1013",
-    "first_name": "Селиван",
-    "last_name": "Савельев",
-    "email": "vissarion_40@example.com",
-    "phone": "+71178778499",
+    "customer_id": "cus-1012",
+    "first_name": "Ипполит",
+    "last_name": "Юдина",
+    "email": "tverdislav1982@example.net",
+    "phone": "8 (058) 698-1657",
     "is_loyalty_member": true,
-    "loyalty_card_number": "LOYAL-CA2847D92B"
+    "loyalty_card_number": "LOYAL-5DE9D47D7A"
   },
   "store": {
-    "store_id": "store-041",
-    "store_name": "Маленькая Пикча — Магазин на пер. Крайний",
-    "store_network": "Маленькая Пикча",
+    "store_id": "store-002",
+    "store_name": "Большая Пикча — Магазин на наб. Проточная",
+    "store_network": "Большая Пикча",
     "location": {
       "country": "Россия",
-      "city": "ст. Юрьевец (Иван.)",
-      "street": "алл. Ульяновская",
-      "house": "5/1",
-      "postal_code": "942139",
+      "city": "г. Внуково (метеост.)",
+      "street": "пр. Высоцкого",
+      "house": "639",
+      "postal_code": "915797",
       "coordinates": {
-        "latitude": 61.712771,
-        "longitude": -11.16547
+        "latitude": -63.399121,
+        "longitude": 145.807952
       }
     }
   },
   "items": [
     {
-      "product_id": "prd-1019",
-      "name": "Сынок Обида",
-      "category": "🍏 Фрукты и ягоды",
-      "quantity": 4,
-      "unit": "кг",
-      "price_per_unit": 86.19,
-      "total_price": 344.76,
+      "product_id": "prd-1005",
+      "name": "Правильный Факультет",
+      "category": "🥦 Овощи и зелень",
+      "quantity": 5,
+      "unit": "л",
+      "price_per_unit": 246.16,
+      "total_price": 1230.8,
       "kbju": {
-        "calories": 224.4,
-        "protein": 5.9,
-        "fat": 13.9,
-        "carbohydrates": 7.6
+        "calories": 238.0,
+        "protein": 1.6,
+        "fat": 0.4,
+        "carbohydrates": 17.1
       },
       "manufacturer": {
-        "name": "ООО «Шилов-Константинова»",
+        "name": "Михеев и партнеры",
         "country": "Россия",
-        "website": "https://ooo.org",
-        "inn": "6666152301"
+        "website": "https://yakovleva.biz",
+        "inn": "6371685483"
       }
     }
   ],
-  "total_amount": 344.76,
-  "payment_method": "card",
-  "is_delivery": true,
+  "total_amount": 1230.8,
+  "payment_method": "cash",
+  "is_delivery": false,
   "delivery_address": {
     "country": "Россия",
-    "city": "п. Качканар",
-    "street": "пр. Геологов",
-    "house": "882",
-    "apartment": "57",
-    "postal_code": "363767"
+    "city": "ст. Ачинск",
+    "street": "алл. Ставропольская",
+    "house": "95",
+    "apartment": "15",
+    "postal_code": "959483"
   },
-  "purchase_datetime": "2025-09-08T00:21:06.226126"
+  "purchase_datetime": "2025-07-08T11:36:53.686832"
 }

@@ -1,105 +1,105 @@
 {
   "purchase_id": "ord-00117",
   "customer": {
-    "customer_id": "cus-1034",
-    "first_name": "Глеб",
-    "last_name": "Суханова",
-    "email": "frolovipat@example.org",
-    "phone": "+7 828 354 05 71",
+    "customer_id": "cus-1036",
+    "first_name": "Екатерина",
+    "last_name": "Бирюков",
+    "email": "baranovakim@example.net",
+    "phone": "8 031 251 3344",
     "is_loyalty_member": true,
-    "loyalty_card_number": "LOYAL-4B3C52328F"
+    "loyalty_card_number": "LOYAL-CE7F3C0632"
   },
   "store": {
-    "store_id": "store-037",
-    "store_name": "Маленькая Пикча — Магазин на пр. Северный",
-    "store_network": "Маленькая Пикча",
+    "store_id": "store-004",
+    "store_name": "Большая Пикча — Магазин на бул. Декабристов",
+    "store_network": "Большая Пикча",
     "location": {
       "country": "Россия",
-      "city": "п. Курумкан",
-      "street": "бул. Волгоградский",
-      "house": "3",
-      "postal_code": "799219",
+      "city": "г. Саров (Морд.)",
+      "street": "бул. Гоголя",
+      "house": "6/3",
+      "postal_code": "651927",
       "coordinates": {
-        "latitude": -61.9254315,
-        "longitude": -55.410536
+        "latitude": 12.2983715,
+        "longitude": 45.641857
       }
     }
   },
   "items": [
     {
-      "product_id": "prd-1001",
-      "name": "Домашний Жидкий",
+      "product_id": "prd-1015",
+      "name": "Табак Госпожа",
       "category": "🥛 Молочные продукты",
-      "quantity": 5,
-      "unit": "упаковка",
-      "price_per_unit": 74.5,
-      "total_price": 372.5,
-      "kbju": {
-        "calories": 173.9,
-        "protein": 3.6,
-        "fat": 11.0,
-        "carbohydrates": 7.4
-      },
-      "manufacturer": {
-        "name": "ОАО «Емельянова-Харитонов»",
-        "country": "Россия",
-        "website": "https://zao.edu",
-        "inn": "4413982995"
-      }
-    },
-    {
-      "product_id": "prd-1014",
-      "name": "Опасность Следовательно",
-      "category": "🥛 Молочные продукты",
-      "quantity": 3,
-      "unit": "кг",
-      "price_per_unit": 213.21,
-      "total_price": 639.63,
-      "kbju": {
-        "calories": 206.8,
-        "protein": 10.5,
-        "fat": 2.9,
-        "carbohydrates": 6.6
-      },
-      "manufacturer": {
-        "name": "ЗАО «Беляков, Большакова и Князева»",
-        "country": "Россия",
-        "website": "https://npo.com",
-        "inn": "0149036081"
-      }
-    },
-    {
-      "product_id": "prd-1019",
-      "name": "Сынок Обида",
-      "category": "🍏 Фрукты и ягоды",
       "quantity": 4,
-      "unit": "кг",
-      "price_per_unit": 86.19,
-      "total_price": 344.76,
+      "unit": "л",
+      "price_per_unit": 235.2,
+      "total_price": 940.8,
       "kbju": {
-        "calories": 224.4,
-        "protein": 5.9,
-        "fat": 13.9,
-        "carbohydrates": 7.6
+        "calories": 99.6,
+        "protein": 9.1,
+        "fat": 4.4,
+        "carbohydrates": 37.7
       },
       "manufacturer": {
-        "name": "ООО «Шилов-Константинова»",
+        "name": "ИП «Куликов, Степанов и Соболева»",
         "country": "Россия",
-        "website": "https://ooo.org",
-        "inn": "6666152301"
+        "website": "https://rjabov.info",
+        "inn": "9167946809"
+      }
+    },
+    {
+      "product_id": "prd-1017",
+      "name": "Народ Построить",
+      "category": "🍏 Фрукты и ягоды",
+      "quantity": 3,
+      "unit": "шт",
+      "price_per_unit": 178.6,
+      "total_price": 535.8,
+      "kbju": {
+        "calories": 256.8,
+        "protein": 17.5,
+        "fat": 12.2,
+        "carbohydrates": 17.7
+      },
+      "manufacturer": {
+        "name": "Корнилов и партнеры",
+        "country": "Россия",
+        "website": "https://rao.org",
+        "inn": "2545527642"
+      }
+    },
+    {
+      "product_id": "prd-1018",
+      "name": "Отметить Парень",
+      "category": "🥩 Мясо, рыба, яйца и бобовые",
+      "quantity": 1,
+      "unit": "шт",
+      "price_per_unit": 241.62,
+      "total_price": 241.62,
+      "kbju": {
+        "calories": 295.0,
+        "protein": 3.5,
+        "fat": 6.0,
+        "carbohydrates": 2.6
+      },
+      "manufacturer": {
+        "name": "Петухов Лтд",
+        "country": "Россия",
+        "website": "https://rao.ru",
+        "inn": "4394791537"
       }
     }
   ],
-  "total_amount": 1356.89,
+  "total_amount": 1718.22,
   "payment_method": "cash",
-  "is_delivery": true,
+  "is_delivery": false,
   "delivery_address": {
     "country": "Россия",
-    "city": "п. Нерчинск",
-    "street": "пер. Красный",
-    "house": "4",
-    "apartment": "61",
-    "postal_code": "843709"
+    "city": "к. Шенкурск",
+    "street": "алл. Орловская",
+    "house": "88",
+    "apartment": "31",
+    "postal_code": "234043"
   },
-  "purchase_datetime": "2025-08-11T00:21:05.967960"
+  "purchase_datetime": "2025-09-26T11:36:53.673226"
 }

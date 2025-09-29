@@ -1,84 +1,63 @@
 {
   "purchase_id": "ord-00078",
   "customer": {
-    "customer_id": "cus-1015",
-    "first_name": "Аникей",
-    "last_name": "Новиков",
-    "email": "oisakova@example.org",
-    "phone": "8 (510) 536-4882",
+    "customer_id": "cus-1025",
+    "first_name": "Адам",
+    "last_name": "Белоусов",
+    "email": "milan54@example.org",
+    "phone": "8 760 444 8443",
     "is_loyalty_member": true,
-    "loyalty_card_number": "LOYAL-E87EA9AED1"
+    "loyalty_card_number": "LOYAL-1734699199"
   },
   "store": {
-    "store_id": "store-045",
-    "store_name": "Маленькая Пикча — Магазин на пр. Дзержинского",
+    "store_id": "store-035",
+    "store_name": "Маленькая Пикча — Магазин на пр. Макарова",
     "store_network": "Маленькая Пикча",
     "location": {
       "country": "Россия",
-      "city": "клх Дагомыс",
-      "street": "алл. Гаражная",
-      "house": "5",
-      "postal_code": "904276",
+      "city": "п. Благовещенск (Амур.)",
+      "street": "ул. Станционная",
+      "house": "23",
+      "postal_code": "496119",
       "coordinates": {
-        "latitude": 67.761409,
-        "longitude": 34.841356
+        "latitude": 23.703187,
+        "longitude": -137.223537
       }
     }
   },
   "items": [
     {
-      "product_id": "prd-1006",
-      "name": "Вытаскивать Плод",
-      "category": "🍏 Фрукты и ягоды",
-      "quantity": 2,
-      "unit": "упаковка",
-      "price_per_unit": 123.36,
-      "total_price": 246.72,
-      "kbju": {
-        "calories": 124.2,
-        "protein": 11.3,
-        "fat": 2.6,
-        "carbohydrates": 42.9
-      },
-      "manufacturer": {
-        "name": "ИП «Емельянов-Наумова»",
-        "country": "Россия",
-        "website": "https://npo.edu",
-        "inn": "9973742158"
-      }
-    },
-    {
-      "product_id": "prd-1011",
-      "name": "Привлекать Пол",
-      "category": "🥩 Мясо, рыба, яйца и бобовые",
+      "product_id": "prd-1001",
+      "name": "Лиловый Бок",
+      "category": "🥛 Молочные продукты",
       "quantity": 3,
-      "unit": "л",
-      "price_per_unit": 85.86,
-      "total_price": 257.58,
+      "unit": "упаковка",
+      "price_per_unit": 242.46,
+      "total_price": 727.38,
       "kbju": {
-        "calories": 65.4,
-        "protein": 5.6,
-        "fat": 1.9,
-        "carbohydrates": 24.1
+        "calories": 274.4,
+        "protein": 6.4,
+        "fat": 6.0,
+        "carbohydrates": 13.5
       },
       "manufacturer": {
-        "name": "ИП «Галкина-Терентьев»",
+        "name": "Куликов и партнеры",
         "country": "Россия",
-        "website": "https://rao.ru",
-        "inn": "5528391758"
+        "website": "https://sharapov.net",
+        "inn": "9920890846"
       }
     }
   ],
-  "total_amount": 504.3,
+  "total_amount": 727.38,
   "payment_method": "cash",
-  "is_delivery": false,
+  "is_delivery": true,
   "delivery_address": {
     "country": "Россия",
-    "city": "клх Новомичуринск",
-    "street": "алл. Космонавтов",
-    "house": "8/4",
-    "apartment": "96",
-    "postal_code": "158931"
+    "city": "г. Малоярославец",
+    "street": "бул. Ясный",
+    "house": "621",
+    "apartment": "4",
+    "postal_code": "911622"
   },
-  "purchase_datetime": "2025-09-22T00:21:05.950631"
+  "purchase_datetime": "2025-08-25T11:36:53.659008"
 }

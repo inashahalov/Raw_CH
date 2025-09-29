@@ -1,63 +1,63 @@
 {
   "purchase_id": "ord-00059",
   "customer": {
-    "customer_id": "cus-1035",
-    "first_name": "Станимир",
-    "last_name": "Семенов",
-    "email": "lukija2011@example.com",
-    "phone": "+7 (312) 285-31-25",
+    "customer_id": "cus-1020",
+    "first_name": "Назар",
+    "last_name": "Андреева",
+    "email": "sbogdanova@example.com",
+    "phone": "8 897 525 1983",
     "is_loyalty_member": true,
-    "loyalty_card_number": "LOYAL-E7C27EFAE9"
+    "loyalty_card_number": "LOYAL-DB9ED9AC67"
   },
   "store": {
-    "store_id": "store-044",
-    "store_name": "Маленькая Пикча — Магазин на ш. Урожайное",
-    "store_network": "Маленькая Пикча",
+    "store_id": "store-019",
+    "store_name": "Большая Пикча — Магазин на пер. Цветочный",
+    "store_network": "Большая Пикча",
     "location": {
       "country": "Россия",
-      "city": "ст. Клин",
-      "street": "ул. Стадионная",
-      "house": "83",
-      "postal_code": "105750",
+      "city": "г. Сорочинск",
+      "street": "пр. Таежный",
+      "house": "3",
+      "postal_code": "737970",
       "coordinates": {
-        "latitude": -45.9919625,
-        "longitude": -177.086861
+        "latitude": 82.6657625,
+        "longitude": -135.46292
       }
     }
   },
   "items": [
     {
-      "product_id": "prd-1014",
-      "name": "Опасность Следовательно",
-      "category": "🥛 Молочные продукты",
-      "quantity": 3,
-      "unit": "кг",
-      "price_per_unit": 213.21,
-      "total_price": 639.63,
+      "product_id": "prd-1012",
+      "name": "Торговля Счастье",
+      "category": "🥖 Зерновые и хлебобулочные изделия",
+      "quantity": 4,
+      "unit": "л",
+      "price_per_unit": 70.91,
+      "total_price": 283.64,
       "kbju": {
-        "calories": 206.8,
-        "protein": 10.5,
-        "fat": 2.9,
-        "carbohydrates": 6.6
+        "calories": 149.8,
+        "protein": 5.8,
+        "fat": 6.3,
+        "carbohydrates": 24.8
       },
       "manufacturer": {
-        "name": "ЗАО «Беляков, Большакова и Князева»",
+        "name": "НПО «Некрасова»",
         "country": "Россия",
-        "website": "https://npo.com",
-        "inn": "0149036081"
+        "website": "https://ao.org",
+        "inn": "8419489062"
       }
     }
   ],
-  "total_amount": 639.63,
-  "payment_method": "card",
+  "total_amount": 283.64,
+  "payment_method": "cash",
   "is_delivery": false,
   "delivery_address": {
     "country": "Россия",
-    "city": "д. Екатеринбург",
-    "street": "ш. Макарова",
-    "house": "31",
-    "apartment": "92",
-    "postal_code": "809342"
+    "city": "г. Ступино",
+    "street": "пер. Транспортный",
+    "house": "12",
+    "apartment": "10",
+    "postal_code": "389125"
   },
-  "purchase_datetime": "2025-06-27T00:21:05.942819"
+  "purchase_datetime": "2025-07-15T11:36:53.652409"
 }

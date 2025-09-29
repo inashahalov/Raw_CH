@@ -1,84 +1,84 @@
 {
   "purchase_id": "ord-00006",
   "customer": {
-    "customer_id": "cus-1040",
-    "first_name": "Поликарп",
-    "last_name": "Ефимов",
-    "email": "ermilsavin@example.com",
-    "phone": "8 018 957 0132",
+    "customer_id": "cus-1044",
+    "first_name": "Евфросиния",
+    "last_name": "Капустин",
+    "email": "svetlana2023@example.net",
+    "phone": "+7 (418) 339-9436",
     "is_loyalty_member": true,
-    "loyalty_card_number": "LOYAL-C977953C5A"
+    "loyalty_card_number": "LOYAL-8308EE78DE"
   },
   "store": {
-    "store_id": "store-012",
-    "store_name": "Большая Пикча — Магазин на алл. Светлая",
-    "store_network": "Большая Пикча",
+    "store_id": "store-042",
+    "store_name": "Маленькая Пикча — Магазин на пр. Льва Толстого",
+    "store_network": "Маленькая Пикча",
     "location": {
       "country": "Россия",
-      "city": "ст. Макушино",
-      "street": "пр. Российский",
-      "house": "6/9",
-      "postal_code": "793395",
+      "city": "с. Любань",
+      "street": "ш. М.Горького",
+      "house": "45",
+      "postal_code": "169119",
       "coordinates": {
-        "latitude": 53.1520475,
-        "longitude": 132.28453
+        "latitude": 73.7860975,
+        "longitude": 53.061392
       }
     }
   },
   "items": [
     {
-      "product_id": "prd-1011",
-      "name": "Привлекать Пол",
+      "product_id": "prd-1004",
+      "name": "Заявление Шлем",
       "category": "🥩 Мясо, рыба, яйца и бобовые",
-      "quantity": 2,
-      "unit": "л",
-      "price_per_unit": 85.86,
-      "total_price": 171.72,
+      "quantity": 5,
+      "unit": "упаковка",
+      "price_per_unit": 261.08,
+      "total_price": 1305.4,
       "kbju": {
-        "calories": 65.4,
-        "protein": 5.6,
-        "fat": 1.9,
-        "carbohydrates": 24.1
+        "calories": 178.3,
+        "protein": 8.6,
+        "fat": 9.2,
+        "carbohydrates": 12.8
       },
       "manufacturer": {
-        "name": "ИП «Галкина-Терентьев»",
+        "name": "ОАО «Орлов Попова»",
         "country": "Россия",
-        "website": "https://rao.ru",
-        "inn": "5528391758"
+        "website": "https://metallservis.ru",
+        "inn": "4728731918"
       }
     },
     {
-      "product_id": "prd-1005",
-      "name": "Направо Господь",
-      "category": "🥩 Мясо, рыба, яйца и бобовые",
-      "quantity": 2,
-      "unit": "л",
-      "price_per_unit": 126.73,
-      "total_price": 253.46,
+      "product_id": "prd-1016",
+      "name": "Ребятишки Лететь",
+      "category": "🥦 Овощи и зелень",
+      "quantity": 4,
+      "unit": "шт",
+      "price_per_unit": 266.18,
+      "total_price": 1064.72,
       "kbju": {
-        "calories": 93.0,
-        "protein": 13.6,
-        "fat": 2.1,
-        "carbohydrates": 20.3
+        "calories": 249.2,
+        "protein": 2.2,
+        "fat": 4.1,
+        "carbohydrates": 29.2
       },
       "manufacturer": {
-        "name": "ЗАО «Титова»",
+        "name": "АО «Быкова, Наумов и Фадеев»",
         "country": "Россия",
-        "website": "https://npo.com",
-        "inn": "2777644639"
+        "website": "https://rao.ru",
+        "inn": "1171341012"
       }
     }
   ],
-  "total_amount": 425.18,
+  "total_amount": 2370.12,
   "payment_method": "cash",
-  "is_delivery": true,
+  "is_delivery": false,
   "delivery_address": {
     "country": "Россия",
-    "city": "ст. Юрьевец (Иван.)",
-    "street": "наб. Социалистическая",
-    "house": "27",
-    "apartment": "24",
-    "postal_code": "060808"
+    "city": "к. Усть-Калманка",
+    "street": "алл. Рыбацкая",
+    "house": "9",
+    "apartment": "10",
+    "postal_code": "261333"
   },
-  "purchase_datetime": "2025-09-25T00:21:05.921425"
+  "purchase_datetime": "2025-07-08T11:36:53.632198"
 }

@@ -1,105 +1,105 @@
 {
   "purchase_id": "ord-00051",
   "customer": {
-    "customer_id": "cus-1006",
-    "first_name": "Регина",
-    "last_name": "Кудряшов",
-    "email": "seliverst_17@example.net",
-    "phone": "+7 153 863 80 58",
+    "customer_id": "cus-1019",
+    "first_name": "Ювеналий",
+    "last_name": "Доронина",
+    "email": "beljakovanike@example.net",
+    "phone": "8 (105) 231-4521",
     "is_loyalty_member": true,
-    "loyalty_card_number": "LOYAL-12243F909F"
+    "loyalty_card_number": "LOYAL-BD1D0D3053"
   },
   "store": {
-    "store_id": "store-030",
-    "store_name": "Большая Пикча — Магазин на алл. Кузнецкая",
+    "store_id": "store-026",
+    "store_name": "Большая Пикча — Магазин на пер. Подлесный",
     "store_network": "Большая Пикча",
     "location": {
       "country": "Россия",
-      "city": "д. Учалы",
-      "street": "алл. Димитрова",
-      "house": "3",
-      "postal_code": "234970",
+      "city": "г. Малоярославец",
+      "street": "ул. Гастелло",
+      "house": "551",
+      "postal_code": "122174",
       "coordinates": {
-        "latitude": 76.7471465,
-        "longitude": -99.722231
+        "latitude": -36.7906745,
+        "longitude": -156.169191
       }
     }
   },
   "items": [
     {
-      "product_id": "prd-1016",
-      "name": "Школьный Очко",
-      "category": "🥖 Зерновые и хлебобулочные изделия",
+      "product_id": "prd-1017",
+      "name": "Народ Построить",
+      "category": "🍏 Фрукты и ягоды",
       "quantity": 5,
       "unit": "шт",
-      "price_per_unit": 295.13,
-      "total_price": 1475.65,
+      "price_per_unit": 178.6,
+      "total_price": 893.0,
       "kbju": {
-        "calories": 156.7,
-        "protein": 8.3,
-        "fat": 6.7,
-        "carbohydrates": 49.1
+        "calories": 256.8,
+        "protein": 17.5,
+        "fat": 12.2,
+        "carbohydrates": 17.7
       },
       "manufacturer": {
-        "name": "РАО «Марков»",
+        "name": "Корнилов и партнеры",
         "country": "Россия",
-        "website": "https://argos.org",
-        "inn": "6328136246"
-      }
-    },
-    {
-      "product_id": "prd-1017",
-      "name": "Цель Единый",
-      "category": "🥖 Зерновые и хлебобулочные изделия",
-      "quantity": 1,
-      "unit": "упаковка",
-      "price_per_unit": 99.97,
-      "total_price": 99.97,
-      "kbju": {
-        "calories": 97.4,
-        "protein": 12.5,
-        "fat": 14.8,
-        "carbohydrates": 11.6
-      },
-      "manufacturer": {
-        "name": "АО «Белякова»",
-        "country": "Россия",
-        "website": "https://rao.com",
-        "inn": "0030371079"
+        "website": "https://rao.org",
+        "inn": "2545527642"
       }
     },
     {
       "product_id": "prd-1006",
-      "name": "Вытаскивать Плод",
-      "category": "🍏 Фрукты и ягоды",
-      "quantity": 2,
+      "name": "Очередной Развернуться",
+      "category": "🥩 Мясо, рыба, яйца и бобовые",
+      "quantity": 1,
       "unit": "упаковка",
-      "price_per_unit": 123.36,
-      "total_price": 246.72,
+      "price_per_unit": 40.94,
+      "total_price": 40.94,
       "kbju": {
-        "calories": 124.2,
-        "protein": 11.3,
-        "fat": 2.6,
-        "carbohydrates": 42.9
+        "calories": 207.0,
+        "protein": 10.7,
+        "fat": 10.6,
+        "carbohydrates": 30.5
       },
       "manufacturer": {
-        "name": "ИП «Емельянов-Наумова»",
+        "name": "Ямал СПГ",
         "country": "Россия",
-        "website": "https://npo.edu",
-        "inn": "9973742158"
+        "website": "https://ip.com",
+        "inn": "1426832497"
+      }
+    },
+    {
+      "product_id": "prd-1010",
+      "name": "Что Кидать",
+      "category": "🥦 Овощи и зелень",
+      "quantity": 3,
+      "unit": "упаковка",
+      "price_per_unit": 47.43,
+      "total_price": 142.29,
+      "kbju": {
+        "calories": 192.3,
+        "protein": 18.7,
+        "fat": 5.8,
+        "carbohydrates": 28.5
+      },
+      "manufacturer": {
+        "name": "ИП «Лихачев Наумова»",
+        "country": "Россия",
+        "website": "https://protek.info",
+        "inn": "8715941222"
       }
     }
   ],
-  "total_amount": 1822.34,
+  "total_amount": 1076.23,
   "payment_method": "card",
-  "is_delivery": true,
+  "is_delivery": false,
   "delivery_address": {
     "country": "Россия",
-    "city": "клх Шумиха",
-    "street": "бул. Сурикова",
-    "house": "824",
-    "apartment": "2",
-    "postal_code": "530049"
+    "city": "к. Павловская",
+    "street": "бул. Достоевского",
+    "house": "10",
+    "apartment": "61",
+    "postal_code": "978961"
   },
-  "purchase_datetime": "2025-09-16T00:21:05.939245"
+  "purchase_datetime": "2025-07-13T11:36:53.649412"
 }

@@ -1,63 +1,105 @@
 {
   "purchase_id": "ord-00050",
   "customer": {
-    "customer_id": "cus-1022",
-    "first_name": "Селиверст",
-    "last_name": "Мельникова",
-    "email": "zinovevaivanna@example.org",
-    "phone": "83922236291",
+    "customer_id": "cus-1042",
+    "first_name": "Феоктист",
+    "last_name": "Котова",
+    "email": "danilovmaksimiljan@example.com",
+    "phone": "+7 102 205 0348",
     "is_loyalty_member": true,
-    "loyalty_card_number": "LOYAL-4245591696"
+    "loyalty_card_number": "LOYAL-42A13245D1"
   },
   "store": {
-    "store_id": "store-021",
-    "store_name": "Большая Пикча — Магазин на алл. Огородная",
-    "store_network": "Большая Пикча",
+    "store_id": "store-035",
+    "store_name": "Маленькая Пикча — Магазин на пр. Макарова",
+    "store_network": "Маленькая Пикча",
     "location": {
       "country": "Россия",
-      "city": "п. Энгельс",
-      "street": "ш. Партизанское",
-      "house": "9/6",
-      "postal_code": "123462",
+      "city": "п. Благовещенск (Амур.)",
+      "street": "ул. Станционная",
+      "house": "23",
+      "postal_code": "496119",
       "coordinates": {
-        "latitude": -19.580885,
-        "longitude": 86.177992
+        "latitude": 23.703187,
+        "longitude": -137.223537
       }
     }
   },
   "items": [
     {
       "product_id": "prd-1005",
-      "name": "Направо Господь",
-      "category": "🥩 Мясо, рыба, яйца и бобовые",
-      "quantity": 3,
+      "name": "Правильный Факультет",
+      "category": "🥦 Овощи и зелень",
+      "quantity": 2,
       "unit": "л",
-      "price_per_unit": 126.73,
-      "total_price": 380.19,
+      "price_per_unit": 246.16,
+      "total_price": 492.32,
       "kbju": {
-        "calories": 93.0,
-        "protein": 13.6,
-        "fat": 2.1,
-        "carbohydrates": 20.3
+        "calories": 238.0,
+        "protein": 1.6,
+        "fat": 0.4,
+        "carbohydrates": 17.1
       },
       "manufacturer": {
-        "name": "ЗАО «Титова»",
+        "name": "Михеев и партнеры",
         "country": "Россия",
-        "website": "https://npo.com",
-        "inn": "2777644639"
+        "website": "https://yakovleva.biz",
+        "inn": "6371685483"
+      }
+    },
+    {
+      "product_id": "prd-1001",
+      "name": "Лиловый Бок",
+      "category": "🥛 Молочные продукты",
+      "quantity": 4,
+      "unit": "упаковка",
+      "price_per_unit": 242.46,
+      "total_price": 969.84,
+      "kbju": {
+        "calories": 274.4,
+        "protein": 6.4,
+        "fat": 6.0,
+        "carbohydrates": 13.5
+      },
+      "manufacturer": {
+        "name": "Куликов и партнеры",
+        "country": "Россия",
+        "website": "https://sharapov.net",
+        "inn": "9920890846"
+      }
+    },
+    {
+      "product_id": "prd-1010",
+      "name": "Что Кидать",
+      "category": "🥦 Овощи и зелень",
+      "quantity": 3,
+      "unit": "упаковка",
+      "price_per_unit": 47.43,
+      "total_price": 142.29,
+      "kbju": {
+        "calories": 192.3,
+        "protein": 18.7,
+        "fat": 5.8,
+        "carbohydrates": 28.5
+      },
+      "manufacturer": {
+        "name": "ИП «Лихачев Наумова»",
+        "country": "Россия",
+        "website": "https://protek.info",
+        "inn": "8715941222"
       }
     }
   ],
-  "total_amount": 380.19,
+  "total_amount": 1604.45,
   "payment_method": "cash",
-  "is_delivery": true,
+  "is_delivery": false,
   "delivery_address": {
     "country": "Россия",
-    "city": "с. Владикавказ",
-    "street": "пр. Ключевой",
-    "house": "860",
-    "apartment": "15",
-    "postal_code": "332731"
+    "city": "клх Ясный (Оренб.)",
+    "street": "бул. 8 Марта",
+    "house": "498",
+    "apartment": "99",
+    "postal_code": "943647"
   },
-  "purchase_datetime": "2025-09-03T00:21:05.938897"
+  "purchase_datetime": "2025-07-11T11:36:53.649048"
 }

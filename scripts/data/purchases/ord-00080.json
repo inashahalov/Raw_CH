@@ -1,84 +1,84 @@
 {
   "purchase_id": "ord-00080",
   "customer": {
-    "customer_id": "cus-1020",
-    "first_name": "Эраст",
-    "last_name": "Куликова",
-    "email": "gremislavkondratev@example.net",
-    "phone": "8 672 125 64 83",
+    "customer_id": "cus-1000",
+    "first_name": "Галактион",
+    "last_name": "Колесникова",
+    "email": "matveevavasilisa@example.org",
+    "phone": "86591576119",
     "is_loyalty_member": true,
-    "loyalty_card_number": "LOYAL-7883FC4DA4"
+    "loyalty_card_number": "LOYAL-0D8B39670E"
   },
   "store": {
-    "store_id": "store-013",
-    "store_name": "Большая Пикча — Магазин на алл. Мелиоративная",
-    "store_network": "Большая Пикча",
+    "store_id": "store-037",
+    "store_name": "Маленькая Пикча — Магазин на пер. Осипенко",
+    "store_network": "Маленькая Пикча",
     "location": {
       "country": "Россия",
-      "city": "п. Лазаревское",
-      "street": "пер. Малый",
-      "house": "88",
-      "postal_code": "425601",
+      "city": "к. Шенкурск",
+      "street": "пер. Весенний",
+      "house": "92",
+      "postal_code": "150965",
       "coordinates": {
-        "latitude": -84.4676175,
-        "longitude": -90.154137
+        "latitude": -37.683041,
+        "longitude": 8.788011
       }
     }
   },
   "items": [
     {
       "product_id": "prd-1010",
-      "name": "Мгновение Вряд",
+      "name": "Что Кидать",
       "category": "🥦 Овощи и зелень",
-      "quantity": 5,
-      "unit": "кг",
-      "price_per_unit": 149.03,
-      "total_price": 745.15,
+      "quantity": 4,
+      "unit": "упаковка",
+      "price_per_unit": 47.43,
+      "total_price": 189.72,
       "kbju": {
-        "calories": 186.1,
-        "protein": 15.0,
-        "fat": 10.1,
-        "carbohydrates": 27.3
+        "calories": 192.3,
+        "protein": 18.7,
+        "fat": 5.8,
+        "carbohydrates": 28.5
       },
       "manufacturer": {
-        "name": "ИП «Блохина-Гаврилов»",
+        "name": "ИП «Лихачев Наумова»",
         "country": "Россия",
-        "website": "https://oao.com",
-        "inn": "1245272063"
+        "website": "https://protek.info",
+        "inn": "8715941222"
       }
     },
     {
-      "product_id": "prd-1015",
-      "name": "Советовать Горький",
-      "category": "🥖 Зерновые и хлебобулочные изделия",
-      "quantity": 4,
-      "unit": "л",
-      "price_per_unit": 74.06,
-      "total_price": 296.24,
+      "product_id": "prd-1016",
+      "name": "Ребятишки Лететь",
+      "category": "🥦 Овощи и зелень",
+      "quantity": 5,
+      "unit": "шт",
+      "price_per_unit": 266.18,
+      "total_price": 1330.9,
       "kbju": {
-        "calories": 265.6,
-        "protein": 14.1,
-        "fat": 13.9,
-        "carbohydrates": 4.2
+        "calories": 249.2,
+        "protein": 2.2,
+        "fat": 4.1,
+        "carbohydrates": 29.2
       },
       "manufacturer": {
-        "name": "РАО «Пахомова-Голубев»",
+        "name": "АО «Быкова, Наумов и Фадеев»",
         "country": "Россия",
-        "website": "https://nlmk.biz",
-        "inn": "6002140966"
+        "website": "https://rao.ru",
+        "inn": "1171341012"
       }
     }
   ],
-  "total_amount": 1041.39,
-  "payment_method": "cash",
+  "total_amount": 1520.62,
+  "payment_method": "card",
   "is_delivery": true,
   "delivery_address": {
     "country": "Россия",
-    "city": "п. Энгельс",
-    "street": "ул. Тепличная",
-    "house": "78",
-    "apartment": "45",
-    "postal_code": "770377"
+    "city": "д. Горячий Ключ",
+    "street": "ш. Огородное",
+    "house": "2/4",
+    "apartment": "6",
+    "postal_code": "519228"
   },
-  "purchase_datetime": "2025-08-28T00:21:05.952008"
+  "purchase_datetime": "2025-07-11T11:36:53.660232"
 }

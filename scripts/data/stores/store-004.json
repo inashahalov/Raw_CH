@@ -1,6 +1,6 @@
 {
   "store_id": "store-004",
-  "store_name": "Большая Пикча — Магазин на ул. Ломоносова",
+  "store_name": "Большая Пикча — Магазин на бул. Декабристов",
   "store_network": "Большая Пикча",
   "store_type_description": "Супермаркет более 200 кв.м. Входит в сеть из 30 магазинов.",
   "type": "offline",
@@ -12,19 +12,19 @@
     "🥦 Овощи и зелень"
   ],
   "manager": {
-    "name": "Прохоров Мечислав Гертрудович",
-    "phone": "8 774 572 21 64",
-    "email": "ljubov2001@example.com"
+    "name": "Аксенова Валентина Никифоровна",
+    "phone": "8 079 035 9200",
+    "email": "fekla84@example.org"
   },
   "location": {
     "country": "Россия",
-    "city": "с. Кабанск",
-    "street": "бул. Торговый",
-    "house": "447",
-    "postal_code": "208629",
+    "city": "г. Саров (Морд.)",
+    "street": "бул. Гоголя",
+    "house": "6/3",
+    "postal_code": "651927",
     "coordinates": {
-      "latitude": 66.8270835,
-      "longitude": 20.541815
+      "latitude": 12.2983715,
+      "longitude": 45.641857
     }
   },
   "opening_hours": {
@@ -34,6 +34,6 @@
   },
   "accepts_online_orders": true,
   "delivery_available": true,
-  "warehouse_connected": false,
-  "last_inventory_date": "2025-09-25"
+  "warehouse_connected": true,
+  "last_inventory_date": "2025-09-29"
 }

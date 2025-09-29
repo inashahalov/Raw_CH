@@ -1,6 +1,6 @@
 {
   "store_id": "store-032",
-  "store_name": "Маленькая Пикча — Магазин на бул. Цветочный",
+  "store_name": "Маленькая Пикча — Магазин на пер. Большой",
   "store_network": "Маленькая Пикча",
   "store_type_description": "Магазин у дома менее 100 кв.м. Входит в сеть из 15 магазинов.",
   "type": "offline",
@@ -12,19 +12,19 @@
     "🥦 Овощи и зелень"
   ],
   "manager": {
-    "name": "Алевтина Кирилловна Михеева",
-    "phone": "+7 339 884 7910",
-    "email": "kostinaemilija@example.org"
+    "name": "Веселов Савватий Захарьевич",
+    "phone": "+7 771 265 72 82",
+    "email": "fokinakim@example.com"
   },
   "location": {
     "country": "Россия",
-    "city": "к. Сыктывкар",
-    "street": "пр. Локомотивный",
-    "house": "891",
-    "postal_code": "063771",
+    "city": "с. Кизилюрт",
+    "street": "ул. Крылова",
+    "house": "34",
+    "postal_code": "448931",
     "coordinates": {
-      "latitude": 82.944341,
-      "longitude": 165.988591
+      "latitude": -34.754942,
+      "longitude": 17.064394
     }
   },
   "opening_hours": {
@@ -35,5 +35,5 @@
   "accepts_online_orders": true,
   "delivery_available": true,
   "warehouse_connected": true,
-  "last_inventory_date": "2025-09-25"
+  "last_inventory_date": "2025-09-29"
 }

@@ -1,6 +1,6 @@
 {
   "store_id": "store-008",
-  "store_name": "Большая Пикча — Магазин на алл. Приозерная",
+  "store_name": "Большая Пикча — Магазин на бул. Советской Армии",
   "store_network": "Большая Пикча",
   "store_type_description": "Супермаркет более 200 кв.м. Входит в сеть из 30 магазинов.",
   "type": "offline",
@@ -12,19 +12,19 @@
     "🥦 Овощи и зелень"
   ],
   "manager": {
-    "name": "Тарасов Остап Филатович",
-    "phone": "8 549 669 7975",
-    "email": "polikarp37@example.net"
+    "name": "Евграф Федосеевич Сидоров",
+    "phone": "8 (499) 787-24-11",
+    "email": "kopiloverofe@example.org"
   },
   "location": {
     "country": "Россия",
-    "city": "с. Ялуторовск",
-    "street": "ул. Ягодная",
-    "house": "26",
-    "postal_code": "872820",
+    "city": "ст. Луховицы",
+    "street": "пер. Пролетарский",
+    "house": "376",
+    "postal_code": "913521",
     "coordinates": {
-      "latitude": -64.557127,
-      "longitude": -134.286499
+      "latitude": -42.894459,
+      "longitude": 22.13989
     }
   },
   "opening_hours": {
@@ -34,6 +34,6 @@
   },
   "accepts_online_orders": true,
   "delivery_available": true,
-  "warehouse_connected": true,
-  "last_inventory_date": "2025-09-25"
+  "warehouse_connected": false,
+  "last_inventory_date": "2025-09-29"
 }

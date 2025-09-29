@@ -1,63 +1,105 @@
 {
   "purchase_id": "ord-00075",
   "customer": {
-    "customer_id": "cus-1028",
-    "first_name": "Зинаида",
-    "last_name": "Пономарев",
-    "email": "emmanuil04@example.net",
-    "phone": "8 (428) 186-9379",
+    "customer_id": "cus-1041",
+    "first_name": "Пимен",
+    "last_name": "Гуляева",
+    "email": "antip30@example.org",
+    "phone": "8 (236) 408-44-58",
     "is_loyalty_member": true,
-    "loyalty_card_number": "LOYAL-D9355E6F5D"
+    "loyalty_card_number": "LOYAL-67837940E3"
   },
   "store": {
-    "store_id": "store-034",
-    "store_name": "Маленькая Пикча — Магазин на пер. Большевистский",
-    "store_network": "Маленькая Пикча",
+    "store_id": "store-012",
+    "store_name": "Большая Пикча — Магазин на наб. Красногвардейская",
+    "store_network": "Большая Пикча",
     "location": {
       "country": "Россия",
-      "city": "к. Яшалта",
-      "street": "алл. Лунная",
-      "house": "3",
-      "postal_code": "125791",
+      "city": "клх Белый Яр (Томск.)",
+      "street": "наб. Целинная",
+      "house": "5",
+      "postal_code": "163512",
       "coordinates": {
-        "latitude": 35.452102,
-        "longitude": 117.041786
+        "latitude": -24.8638755,
+        "longitude": -52.430567
       }
     }
   },
   "items": [
     {
-      "product_id": "prd-1006",
-      "name": "Вытаскивать Плод",
-      "category": "🍏 Фрукты и ягоды",
-      "quantity": 2,
-      "unit": "упаковка",
-      "price_per_unit": 123.36,
-      "total_price": 246.72,
+      "product_id": "prd-1012",
+      "name": "Торговля Счастье",
+      "category": "🥖 Зерновые и хлебобулочные изделия",
+      "quantity": 4,
+      "unit": "л",
+      "price_per_unit": 70.91,
+      "total_price": 283.64,
       "kbju": {
-        "calories": 124.2,
-        "protein": 11.3,
-        "fat": 2.6,
-        "carbohydrates": 42.9
+        "calories": 149.8,
+        "protein": 5.8,
+        "fat": 6.3,
+        "carbohydrates": 24.8
       },
       "manufacturer": {
-        "name": "ИП «Емельянов-Наумова»",
+        "name": "НПО «Некрасова»",
         "country": "Россия",
-        "website": "https://npo.edu",
-        "inn": "9973742158"
+        "website": "https://ao.org",
+        "inn": "8419489062"
+      }
+    },
+    {
+      "product_id": "prd-1018",
+      "name": "Отметить Парень",
+      "category": "🥩 Мясо, рыба, яйца и бобовые",
+      "quantity": 2,
+      "unit": "шт",
+      "price_per_unit": 241.62,
+      "total_price": 483.24,
+      "kbju": {
+        "calories": 295.0,
+        "protein": 3.5,
+        "fat": 6.0,
+        "carbohydrates": 2.6
+      },
+      "manufacturer": {
+        "name": "Петухов Лтд",
+        "country": "Россия",
+        "website": "https://rao.ru",
+        "inn": "4394791537"
+      }
+    },
+    {
+      "product_id": "prd-1009",
+      "name": "Выдержать Карман",
+      "category": "🥛 Молочные продукты",
+      "quantity": 4,
+      "unit": "кг",
+      "price_per_unit": 193.21,
+      "total_price": 772.84,
+      "kbju": {
+        "calories": 234.5,
+        "protein": 3.6,
+        "fat": 14.6,
+        "carbohydrates": 4.9
+      },
+      "manufacturer": {
+        "name": "Романова и партнеры",
+        "country": "Россия",
+        "website": "https://npo.biz",
+        "inn": "4877305481"
       }
     }
   ],
-  "total_amount": 246.72,
+  "total_amount": 1539.72,
   "payment_method": "card",
   "is_delivery": true,
   "delivery_address": {
     "country": "Россия",
-    "city": "ст. Чебоксары",
-    "street": "ш. Песочное",
-    "house": "85",
-    "apartment": "6",
-    "postal_code": "044646"
+    "city": "с. Любань",
+    "street": "алл. Маркса",
+    "house": "167",
+    "apartment": "59",
+    "postal_code": "476085"
   },
-  "purchase_datetime": "2025-09-21T00:21:05.949402"
+  "purchase_datetime": "2025-08-09T11:36:53.657896"
 }

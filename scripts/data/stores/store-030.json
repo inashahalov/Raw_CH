@@ -1,6 +1,6 @@
 {
   "store_id": "store-030",
-  "store_name": "Большая Пикча — Магазин на алл. Кузнецкая",
+  "store_name": "Большая Пикча — Магазин на ш. Веселое",
   "store_network": "Большая Пикча",
   "store_type_description": "Супермаркет более 200 кв.м. Входит в сеть из 30 магазинов.",
   "type": "offline",
@@ -12,19 +12,19 @@
     "🥦 Овощи и зелень"
   ],
   "manager": {
-    "name": "Венедикт Бориславович Трофимов",
-    "phone": "8 638 402 60 37",
-    "email": "agapmaslov@example.com"
+    "name": "Анна Антоновна Фокина",
+    "phone": "+71473456597",
+    "email": "budimir82@example.com"
   },
   "location": {
     "country": "Россия",
-    "city": "д. Учалы",
-    "street": "алл. Димитрова",
-    "house": "3",
-    "postal_code": "234970",
+    "city": "п. Калининград",
+    "street": "ш. Сибирское",
+    "house": "81",
+    "postal_code": "675168",
     "coordinates": {
-      "latitude": 76.7471465,
-      "longitude": -99.722231
+      "latitude": -39.0920925,
+      "longitude": 133.662951
     }
   },
   "opening_hours": {
@@ -35,5 +35,5 @@
   "accepts_online_orders": true,
   "delivery_available": true,
   "warehouse_connected": false,
-  "last_inventory_date": "2025-09-25"
+  "last_inventory_date": "2025-09-29"
 }

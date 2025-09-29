@@ -1,84 +1,105 @@
 {
   "purchase_id": "ord-00042",
   "customer": {
-    "customer_id": "cus-1013",
-    "first_name": "Селиван",
-    "last_name": "Савельев",
-    "email": "vissarion_40@example.com",
-    "phone": "+71178778499",
+    "customer_id": "cus-1018",
+    "first_name": "Валерия",
+    "last_name": "Федоров",
+    "email": "pshirjaev@example.com",
+    "phone": "+7 456 931 66 72",
     "is_loyalty_member": true,
-    "loyalty_card_number": "LOYAL-CA2847D92B"
+    "loyalty_card_number": "LOYAL-862DAC759A"
   },
   "store": {
-    "store_id": "store-018",
-    "store_name": "Большая Пикча — Магазин на ш. Колхозное",
+    "store_id": "store-011",
+    "store_name": "Большая Пикча — Магазин на ул. Юности",
     "store_network": "Большая Пикча",
     "location": {
       "country": "Россия",
-      "city": "п. Урюпинск",
-      "street": "ул. Королева",
-      "house": "5",
-      "postal_code": "809286",
+      "city": "ст. Гаврилов-Ям",
+      "street": "пер. Гафури",
+      "house": "858",
+      "postal_code": "012405",
       "coordinates": {
-        "latitude": 9.686733,
-        "longitude": 33.027261
+        "latitude": 24.9422205,
+        "longitude": -79.557732
       }
     }
   },
   "items": [
     {
-      "product_id": "prd-1003",
-      "name": "Поймать Изба",
-      "category": "🥖 Зерновые и хлебобулочные изделия",
-      "quantity": 4,
-      "unit": "шт",
-      "price_per_unit": 164.24,
-      "total_price": 656.96,
+      "product_id": "prd-1015",
+      "name": "Табак Госпожа",
+      "category": "🥛 Молочные продукты",
+      "quantity": 5,
+      "unit": "л",
+      "price_per_unit": 235.2,
+      "total_price": 1176.0,
       "kbju": {
-        "calories": 225.1,
-        "protein": 9.6,
-        "fat": 12.3,
-        "carbohydrates": 33.1
+        "calories": 99.6,
+        "protein": 9.1,
+        "fat": 4.4,
+        "carbohydrates": 37.7
       },
       "manufacturer": {
-        "name": "ЗАО «Родионов»",
+        "name": "ИП «Куликов, Степанов и Соболева»",
         "country": "Россия",
-        "website": "https://ooo.com",
-        "inn": "2508560707"
+        "website": "https://rjabov.info",
+        "inn": "9167946809"
       }
     },
     {
-      "product_id": "prd-1005",
-      "name": "Направо Господь",
+      "product_id": "prd-1006",
+      "name": "Очередной Развернуться",
       "category": "🥩 Мясо, рыба, яйца и бобовые",
       "quantity": 1,
-      "unit": "л",
-      "price_per_unit": 126.73,
-      "total_price": 126.73,
+      "unit": "упаковка",
+      "price_per_unit": 40.94,
+      "total_price": 40.94,
       "kbju": {
-        "calories": 93.0,
-        "protein": 13.6,
-        "fat": 2.1,
-        "carbohydrates": 20.3
+        "calories": 207.0,
+        "protein": 10.7,
+        "fat": 10.6,
+        "carbohydrates": 30.5
       },
       "manufacturer": {
-        "name": "ЗАО «Титова»",
+        "name": "Ямал СПГ",
         "country": "Россия",
-        "website": "https://npo.com",
-        "inn": "2777644639"
+        "website": "https://ip.com",
+        "inn": "1426832497"
+      }
+    },
+    {
+      "product_id": "prd-1018",
+      "name": "Отметить Парень",
+      "category": "🥩 Мясо, рыба, яйца и бобовые",
+      "quantity": 5,
+      "unit": "шт",
+      "price_per_unit": 241.62,
+      "total_price": 1208.1,
+      "kbju": {
+        "calories": 295.0,
+        "protein": 3.5,
+        "fat": 6.0,
+        "carbohydrates": 2.6
+      },
+      "manufacturer": {
+        "name": "Петухов Лтд",
+        "country": "Россия",
+        "website": "https://rao.ru",
+        "inn": "4394791537"
       }
     }
   ],
-  "total_amount": 783.69,
+  "total_amount": 2425.04,
   "payment_method": "card",
   "is_delivery": false,
   "delivery_address": {
     "country": "Россия",
-    "city": "п. Качканар",
-    "street": "пр. Геологов",
-    "house": "882",
-    "apartment": "57",
-    "postal_code": "363767"
+    "city": "г. Сорочинск",
+    "street": "ул. Менделеева",
+    "house": "83",
+    "apartment": "31",
+    "postal_code": "371369"
   },
-  "purchase_datetime": "2025-07-17T00:21:05.935839"
+  "purchase_datetime": "2025-08-18T11:36:53.646023"
 }

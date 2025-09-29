@@ -1,105 +1,105 @@
 {
   "purchase_id": "ord-00018",
   "customer": {
-    "customer_id": "cus-1028",
-    "first_name": "Зинаида",
-    "last_name": "Пономарев",
-    "email": "emmanuil04@example.net",
-    "phone": "8 (428) 186-9379",
+    "customer_id": "cus-1026",
+    "first_name": "Мартьян",
+    "last_name": "Алексеева",
+    "email": "ksenija_55@example.org",
+    "phone": "8 453 992 00 68",
     "is_loyalty_member": true,
-    "loyalty_card_number": "LOYAL-D9355E6F5D"
+    "loyalty_card_number": "LOYAL-E908AC35D3"
   },
   "store": {
-    "store_id": "store-042",
-    "store_name": "Маленькая Пикча — Магазин на алл. 1 Мая",
-    "store_network": "Маленькая Пикча",
+    "store_id": "store-008",
+    "store_name": "Большая Пикча — Магазин на бул. Советской Армии",
+    "store_network": "Большая Пикча",
     "location": {
       "country": "Россия",
-      "city": "с. Хасан",
-      "street": "пр. Союзный",
-      "house": "30",
-      "postal_code": "343674",
+      "city": "ст. Луховицы",
+      "street": "пер. Пролетарский",
+      "house": "376",
+      "postal_code": "913521",
       "coordinates": {
-        "latitude": 84.753875,
-        "longitude": 159.690738
+        "latitude": -42.894459,
+        "longitude": 22.13989
       }
     }
   },
   "items": [
     {
-      "product_id": "prd-1010",
-      "name": "Мгновение Вряд",
+      "product_id": "prd-1000",
+      "name": "Грустный Дружно",
       "category": "🥦 Овощи и зелень",
-      "quantity": 4,
-      "unit": "кг",
-      "price_per_unit": 149.03,
-      "total_price": 596.12,
-      "kbju": {
-        "calories": 186.1,
-        "protein": 15.0,
-        "fat": 10.1,
-        "carbohydrates": 27.3
-      },
-      "manufacturer": {
-        "name": "ИП «Блохина-Гаврилов»",
-        "country": "Россия",
-        "website": "https://oao.com",
-        "inn": "1245272063"
-      }
-    },
-    {
-      "product_id": "prd-1019",
-      "name": "Сынок Обида",
-      "category": "🍏 Фрукты и ягоды",
       "quantity": 1,
       "unit": "кг",
-      "price_per_unit": 86.19,
-      "total_price": 86.19,
+      "price_per_unit": 234.69,
+      "total_price": 234.69,
       "kbju": {
-        "calories": 224.4,
-        "protein": 5.9,
-        "fat": 13.9,
-        "carbohydrates": 7.6
+        "calories": 142.2,
+        "protein": 13.1,
+        "fat": 11.7,
+        "carbohydrates": 10.2
       },
       "manufacturer": {
-        "name": "ООО «Шилов-Константинова»",
+        "name": "АО «Чернов Сафонова»",
         "country": "Россия",
-        "website": "https://ooo.org",
-        "inn": "6666152301"
+        "website": "https://kolobov.info",
+        "inn": "5863746288"
       }
     },
     {
-      "product_id": "prd-1001",
-      "name": "Домашний Жидкий",
+      "product_id": "prd-1002",
+      "name": "Манера Остановить",
       "category": "🥛 Молочные продукты",
       "quantity": 3,
-      "unit": "упаковка",
-      "price_per_unit": 74.5,
-      "total_price": 223.5,
+      "unit": "кг",
+      "price_per_unit": 49.56,
+      "total_price": 148.68,
       "kbju": {
-        "calories": 173.9,
-        "protein": 3.6,
-        "fat": 11.0,
-        "carbohydrates": 7.4
+        "calories": 233.3,
+        "protein": 5.6,
+        "fat": 13.1,
+        "carbohydrates": 34.2
       },
       "manufacturer": {
-        "name": "ОАО «Емельянова-Харитонов»",
+        "name": "АО «Вишнякова-Устинова»",
         "country": "Россия",
-        "website": "https://zao.edu",
-        "inn": "4413982995"
+        "website": "https://efimov.ru",
+        "inn": "0302933009"
+      }
+    },
+    {
+      "product_id": "prd-1005",
+      "name": "Правильный Факультет",
+      "category": "🥦 Овощи и зелень",
+      "quantity": 1,
+      "unit": "л",
+      "price_per_unit": 246.16,
+      "total_price": 246.16,
+      "kbju": {
+        "calories": 238.0,
+        "protein": 1.6,
+        "fat": 0.4,
+        "carbohydrates": 17.1
+      },
+      "manufacturer": {
+        "name": "Михеев и партнеры",
+        "country": "Россия",
+        "website": "https://yakovleva.biz",
+        "inn": "6371685483"
       }
     }
   ],
-  "total_amount": 905.81,
-  "payment_method": "card",
+  "total_amount": 629.53,
+  "payment_method": "cash",
   "is_delivery": false,
   "delivery_address": {
     "country": "Россия",
-    "city": "ст. Чебоксары",
-    "street": "ш. Песочное",
-    "house": "85",
-    "apartment": "6",
-    "postal_code": "044646"
+    "city": "ст. Нальчик",
+    "street": "алл. Ольховая",
+    "house": "287",
+    "apartment": "46",
+    "postal_code": "124437"
   },
-  "purchase_datetime": "2025-08-23T00:21:05.926309"
+  "purchase_datetime": "2025-08-29T11:36:53.636720"
 }

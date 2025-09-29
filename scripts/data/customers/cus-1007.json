@@ -1,36 +1,36 @@
 {
   "customer_id": "cus-1007",
-  "first_name": "Милий",
-  "last_name": "Королев",
-  "email": "tihon2017@example.org",
-  "phone": "8 184 246 8606",
-  "birth_date": "1980-10-06",
+  "first_name": "Максимильян",
+  "last_name": "Лебедев",
+  "email": "pankratsharapov@example.net",
+  "phone": "+7 (225) 168-03-89",
+  "birth_date": "2001-05-09",
   "gender": "female",
-  "registration_date": "2025-09-25T00:21:05.895668",
+  "registration_date": "2025-09-29T11:36:53.613037",
   "is_loyalty_member": true,
-  "loyalty_card_number": "LOYAL-A8F2C64542",
+  "loyalty_card_number": "LOYAL-A44F359300",
   "purchase_location": {
     "store_id": "store-008",
-    "store_name": "Большая Пикча — Магазин на алл. Приозерная",
+    "store_name": "Большая Пикча — Магазин на бул. Советской Армии",
     "store_network": "Большая Пикча",
     "store_type_description": "Супермаркет более 200 кв.м. Входит в сеть из 30 магазинов.",
     "country": "Россия",
-    "city": "с. Ялуторовск",
-    "street": "ул. Ягодная",
-    "house": "26",
-    "postal_code": "872820"
+    "city": "ст. Луховицы",
+    "street": "пер. Пролетарский",
+    "house": "376",
+    "postal_code": "913521"
   },
   "delivery_address": {
     "country": "Россия",
-    "city": "с. Ялуторовск",
-    "street": "алл. Лесхозная",
-    "house": "49",
-    "apartment": "72",
-    "postal_code": "070486"
+    "city": "ст. Луховицы",
+    "street": "бул. Светлый",
+    "house": "4/5",
+    "apartment": "70",
+    "postal_code": "230633"
   },
   "preferences": {
     "preferred_language": "ru",
-    "preferred_payment_method": "cash",
-    "receive_promotions": true
+    "preferred_payment_method": "card",
+    "receive_promotions": false
   }
 }

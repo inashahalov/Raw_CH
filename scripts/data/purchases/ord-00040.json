@@ -1,63 +1,84 @@
 {
   "purchase_id": "ord-00040",
   "customer": {
-    "customer_id": "cus-1034",
-    "first_name": "Глеб",
-    "last_name": "Суханова",
-    "email": "frolovipat@example.org",
-    "phone": "+7 828 354 05 71",
+    "customer_id": "cus-1041",
+    "first_name": "Пимен",
+    "last_name": "Гуляева",
+    "email": "antip30@example.org",
+    "phone": "8 (236) 408-44-58",
     "is_loyalty_member": true,
-    "loyalty_card_number": "LOYAL-4B3C52328F"
+    "loyalty_card_number": "LOYAL-67837940E3"
   },
   "store": {
-    "store_id": "store-043",
-    "store_name": "Маленькая Пикча — Магазин на алл. Сенная",
-    "store_network": "Маленькая Пикча",
+    "store_id": "store-012",
+    "store_name": "Большая Пикча — Магазин на наб. Красногвардейская",
+    "store_network": "Большая Пикча",
     "location": {
       "country": "Россия",
-      "city": "г. Кириши",
-      "street": "бул. Карла Либкнехта",
-      "house": "309",
-      "postal_code": "690237",
+      "city": "клх Белый Яр (Томск.)",
+      "street": "наб. Целинная",
+      "house": "5",
+      "postal_code": "163512",
       "coordinates": {
-        "latitude": 82.5789505,
-        "longitude": 15.979647
+        "latitude": -24.8638755,
+        "longitude": -52.430567
       }
     }
   },
   "items": [
     {
-      "product_id": "prd-1004",
-      "name": "Написать Актриса",
-      "category": "🍏 Фрукты и ягоды",
-      "quantity": 2,
-      "unit": "кг",
-      "price_per_unit": 247.9,
-      "total_price": 495.8,
+      "product_id": "prd-1012",
+      "name": "Торговля Счастье",
+      "category": "🥖 Зерновые и хлебобулочные изделия",
+      "quantity": 3,
+      "unit": "л",
+      "price_per_unit": 70.91,
+      "total_price": 212.73,
       "kbju": {
-        "calories": 90.5,
-        "protein": 3.5,
-        "fat": 0.2,
-        "carbohydrates": 19.9
+        "calories": 149.8,
+        "protein": 5.8,
+        "fat": 6.3,
+        "carbohydrates": 24.8
       },
       "manufacturer": {
-        "name": "Ферронордик машины (Ferronordic)",
+        "name": "НПО «Некрасова»",
         "country": "Россия",
-        "website": "https://kulikova.net",
-        "inn": "5999502719"
+        "website": "https://ao.org",
+        "inn": "8419489062"
+      }
+    },
+    {
+      "product_id": "prd-1000",
+      "name": "Грустный Дружно",
+      "category": "🥦 Овощи и зелень",
+      "quantity": 1,
+      "unit": "кг",
+      "price_per_unit": 234.69,
+      "total_price": 234.69,
+      "kbju": {
+        "calories": 142.2,
+        "protein": 13.1,
+        "fat": 11.7,
+        "carbohydrates": 10.2
+      },
+      "manufacturer": {
+        "name": "АО «Чернов Сафонова»",
+        "country": "Россия",
+        "website": "https://kolobov.info",
+        "inn": "5863746288"
       }
     }
   ],
-  "total_amount": 495.8,
-  "payment_method": "cash",
+  "total_amount": 447.42,
+  "payment_method": "card",
   "is_delivery": false,
   "delivery_address": {
     "country": "Россия",
-    "city": "п. Нерчинск",
-    "street": "пер. Красный",
-    "house": "4",
-    "apartment": "61",
-    "postal_code": "843709"
+    "city": "с. Любань",
+    "street": "алл. Маркса",
+    "house": "167",
+    "apartment": "59",
+    "postal_code": "476085"
   },
-  "purchase_datetime": "2025-07-05T00:21:05.935182"
+  "purchase_datetime": "2025-09-04T11:36:53.645234"
 }

@@ -1,84 +1,105 @@
 {
   "purchase_id": "ord-00157",
   "customer": {
-    "customer_id": "cus-1013",
-    "first_name": "Селиван",
-    "last_name": "Савельев",
-    "email": "vissarion_40@example.com",
-    "phone": "+71178778499",
+    "customer_id": "cus-1026",
+    "first_name": "Мартьян",
+    "last_name": "Алексеева",
+    "email": "ksenija_55@example.org",
+    "phone": "8 453 992 00 68",
     "is_loyalty_member": true,
-    "loyalty_card_number": "LOYAL-CA2847D92B"
+    "loyalty_card_number": "LOYAL-E908AC35D3"
   },
   "store": {
-    "store_id": "store-005",
-    "store_name": "Большая Пикча — Магазин на наб. Павлика Морозова",
-    "store_network": "Большая Пикча",
+    "store_id": "store-033",
+    "store_name": "Маленькая Пикча — Магазин на пр. Ставропольский",
+    "store_network": "Маленькая Пикча",
     "location": {
       "country": "Россия",
-      "city": "к. Шелехов",
-      "street": "ул. Челюскинцев",
-      "house": "4",
-      "postal_code": "513570",
+      "city": "к. Арзамас",
+      "street": "алл. Совхозная",
+      "house": "64",
+      "postal_code": "975984",
       "coordinates": {
-        "latitude": 55.763913,
-        "longitude": -58.333025
+        "latitude": 72.4718475,
+        "longitude": -164.998246
       }
     }
   },
   "items": [
     {
-      "product_id": "prd-1007",
-      "name": "Пища Беспомощный",
-      "category": "🥦 Овощи и зелень",
+      "product_id": "prd-1011",
+      "name": "Зачем Вскакивать",
+      "category": "🥛 Молочные продукты",
       "quantity": 3,
-      "unit": "л",
-      "price_per_unit": 61.58,
-      "total_price": 184.74,
+      "unit": "шт",
+      "price_per_unit": 105.34,
+      "total_price": 316.02,
       "kbju": {
-        "calories": 155.9,
-        "protein": 7.5,
-        "fat": 9.2,
-        "carbohydrates": 7.7
+        "calories": 207.5,
+        "protein": 16.9,
+        "fat": 5.3,
+        "carbohydrates": 19.0
       },
       "manufacturer": {
-        "name": "АО «Гущин-Карпов»",
+        "name": "ИП «Нестеров, Лыткин и Евсеев»",
         "country": "Россия",
-        "website": "https://ip.net",
-        "inn": "7668416058"
+        "website": "https://ip.ru",
+        "inn": "1814255141"
       }
     },
     {
-      "product_id": "prd-1018",
-      "name": "Зачем Пол",
+      "product_id": "prd-1017",
+      "name": "Народ Построить",
       "category": "🍏 Фрукты и ягоды",
       "quantity": 5,
-      "unit": "кг",
-      "price_per_unit": 247.99,
-      "total_price": 1239.95,
+      "unit": "шт",
+      "price_per_unit": 178.6,
+      "total_price": 893.0,
       "kbju": {
-        "calories": 236.7,
-        "protein": 5.8,
-        "fat": 10.9,
-        "carbohydrates": 13.1
+        "calories": 256.8,
+        "protein": 17.5,
+        "fat": 12.2,
+        "carbohydrates": 17.7
       },
       "manufacturer": {
-        "name": "ОАО «Панов-Воробьева»",
+        "name": "Корнилов и партнеры",
         "country": "Россия",
-        "website": "https://rao.edu",
-        "inn": "5397679829"
+        "website": "https://rao.org",
+        "inn": "2545527642"
+      }
+    },
+    {
+      "product_id": "prd-1000",
+      "name": "Грустный Дружно",
+      "category": "🥦 Овощи и зелень",
+      "quantity": 2,
+      "unit": "кг",
+      "price_per_unit": 234.69,
+      "total_price": 469.38,
+      "kbju": {
+        "calories": 142.2,
+        "protein": 13.1,
+        "fat": 11.7,
+        "carbohydrates": 10.2
+      },
+      "manufacturer": {
+        "name": "АО «Чернов Сафонова»",
+        "country": "Россия",
+        "website": "https://kolobov.info",
+        "inn": "5863746288"
       }
     }
   ],
-  "total_amount": 1424.69,
-  "payment_method": "card",
-  "is_delivery": false,
+  "total_amount": 1678.4,
+  "payment_method": "cash",
+  "is_delivery": true,
   "delivery_address": {
     "country": "Россия",
-    "city": "п. Качканар",
-    "street": "пр. Геологов",
-    "house": "882",
-    "apartment": "57",
-    "postal_code": "363767"
+    "city": "ст. Нальчик",
+    "street": "алл. Ольховая",
+    "house": "287",
+    "apartment": "46",
+    "postal_code": "124437"
   },
-  "purchase_datetime": "2025-09-11T00:21:06.228534"
+  "purchase_datetime": "2025-07-24T11:36:53.688405"
 }

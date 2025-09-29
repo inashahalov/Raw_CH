@@ -1,105 +1,105 @@
 {
   "purchase_id": "ord-00065",
   "customer": {
-    "customer_id": "cus-1026",
-    "first_name": "Эраст",
-    "last_name": "Кузьмин",
-    "email": "melnikovmefodi@example.net",
-    "phone": "8 775 616 5831",
+    "customer_id": "cus-1040",
+    "first_name": "Захар",
+    "last_name": "Сергеева",
+    "email": "markovaristarh@example.org",
+    "phone": "8 (514) 104-3564",
     "is_loyalty_member": true,
-    "loyalty_card_number": "LOYAL-255ED1E23D"
+    "loyalty_card_number": "LOYAL-32912B1ECD"
   },
   "store": {
-    "store_id": "store-044",
-    "store_name": "Маленькая Пикча — Магазин на ш. Урожайное",
-    "store_network": "Маленькая Пикча",
+    "store_id": "store-009",
+    "store_name": "Большая Пикча — Магазин на ул. Цветочная",
+    "store_network": "Большая Пикча",
     "location": {
       "country": "Россия",
-      "city": "ст. Клин",
-      "street": "ул. Стадионная",
-      "house": "83",
-      "postal_code": "105750",
+      "city": "с. Ростов-на-Дону",
+      "street": "алл. Комсомольская",
+      "house": "471",
+      "postal_code": "820122",
       "coordinates": {
-        "latitude": -45.9919625,
-        "longitude": -177.086861
+        "latitude": -78.051791,
+        "longitude": -105.571834
       }
     }
   },
   "items": [
     {
-      "product_id": "prd-1002",
-      "name": "Еврейский Отражение",
-      "category": "🥩 Мясо, рыба, яйца и бобовые",
-      "quantity": 3,
-      "unit": "упаковка",
-      "price_per_unit": 268.07,
-      "total_price": 804.21,
+      "product_id": "prd-1016",
+      "name": "Ребятишки Лететь",
+      "category": "🥦 Овощи и зелень",
+      "quantity": 1,
+      "unit": "шт",
+      "price_per_unit": 266.18,
+      "total_price": 266.18,
       "kbju": {
-        "calories": 264.5,
-        "protein": 5.4,
-        "fat": 13.4,
+        "calories": 249.2,
+        "protein": 2.2,
+        "fat": 4.1,
         "carbohydrates": 29.2
       },
       "manufacturer": {
-        "name": "ОАО «Мишин-Виноградова»",
+        "name": "АО «Быкова, Наумов и Фадеев»",
         "country": "Россия",
-        "website": "https://ooo.edu",
-        "inn": "8371422850"
+        "website": "https://rao.ru",
+        "inn": "1171341012"
       }
     },
     {
-      "product_id": "prd-1019",
-      "name": "Сынок Обида",
-      "category": "🍏 Фрукты и ягоды",
-      "quantity": 1,
-      "unit": "кг",
-      "price_per_unit": 86.19,
-      "total_price": 86.19,
+      "product_id": "prd-1006",
+      "name": "Очередной Развернуться",
+      "category": "🥩 Мясо, рыба, яйца и бобовые",
+      "quantity": 4,
+      "unit": "упаковка",
+      "price_per_unit": 40.94,
+      "total_price": 163.76,
       "kbju": {
-        "calories": 224.4,
-        "protein": 5.9,
-        "fat": 13.9,
-        "carbohydrates": 7.6
+        "calories": 207.0,
+        "protein": 10.7,
+        "fat": 10.6,
+        "carbohydrates": 30.5
       },
       "manufacturer": {
-        "name": "ООО «Шилов-Константинова»",
+        "name": "Ямал СПГ",
         "country": "Россия",
-        "website": "https://ooo.org",
-        "inn": "6666152301"
+        "website": "https://ip.com",
+        "inn": "1426832497"
       }
     },
     {
       "product_id": "prd-1004",
-      "name": "Написать Актриса",
-      "category": "🍏 Фрукты и ягоды",
-      "quantity": 1,
-      "unit": "кг",
-      "price_per_unit": 247.9,
-      "total_price": 247.9,
+      "name": "Заявление Шлем",
+      "category": "🥩 Мясо, рыба, яйца и бобовые",
+      "quantity": 5,
+      "unit": "упаковка",
+      "price_per_unit": 261.08,
+      "total_price": 1305.4,
       "kbju": {
-        "calories": 90.5,
-        "protein": 3.5,
-        "fat": 0.2,
-        "carbohydrates": 19.9
+        "calories": 178.3,
+        "protein": 8.6,
+        "fat": 9.2,
+        "carbohydrates": 12.8
       },
       "manufacturer": {
-        "name": "Ферронордик машины (Ferronordic)",
+        "name": "ОАО «Орлов Попова»",
         "country": "Россия",
-        "website": "https://kulikova.net",
-        "inn": "5999502719"
+        "website": "https://metallservis.ru",
+        "inn": "4728731918"
       }
     }
   ],
-  "total_amount": 1138.3,
+  "total_amount": 1735.34,
   "payment_method": "card",
   "is_delivery": true,
   "delivery_address": {
     "country": "Россия",
-    "city": "г. Саранск",
-    "street": "пр. Чапаева",
-    "house": "5",
-    "apartment": "46",
-    "postal_code": "863546"
+    "city": "п. Кетченеры",
+    "street": "ул. Ульяновская",
+    "house": "77",
+    "apartment": "63",
+    "postal_code": "395117"
   },
-  "purchase_datetime": "2025-07-25T00:21:05.945492"
+  "purchase_datetime": "2025-09-13T11:36:53.654476"
 }

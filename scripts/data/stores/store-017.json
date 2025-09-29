@@ -1,6 +1,6 @@
 {
   "store_id": "store-017",
-  "store_name": "Большая Пикча — Магазин на алл. Тамбовская",
+  "store_name": "Большая Пикча — Магазин на пер. Вольный",
   "store_network": "Большая Пикча",
   "store_type_description": "Супермаркет более 200 кв.м. Входит в сеть из 30 магазинов.",
   "type": "offline",
@@ -12,19 +12,19 @@
     "🥦 Овощи и зелень"
   ],
   "manager": {
-    "name": "Попова Вера Павловна",
-    "phone": "89233813854",
-    "email": "ilinagap@example.org"
+    "name": "Гедеон Витальевич Третьяков",
+    "phone": "+7 113 542 0107",
+    "email": "ermilfomin@example.net"
   },
   "location": {
     "country": "Россия",
-    "city": "к. Воркута",
-    "street": "наб. Байкальская",
-    "house": "38",
-    "postal_code": "038139",
+    "city": "с. Апшеронск",
+    "street": "ул. Литейная",
+    "house": "8",
+    "postal_code": "203874",
     "coordinates": {
-      "latitude": -35.4698385,
-      "longitude": 107.698
+      "latitude": 81.6722735,
+      "longitude": 110.482576
     }
   },
   "opening_hours": {
@@ -34,6 +34,6 @@
   },
   "accepts_online_orders": true,
   "delivery_available": true,
-  "warehouse_connected": false,
-  "last_inventory_date": "2025-09-25"
+  "warehouse_connected": true,
+  "last_inventory_date": "2025-09-29"
 }

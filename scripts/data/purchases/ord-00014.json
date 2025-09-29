@@ -1,63 +1,105 @@
 {
   "purchase_id": "ord-00014",
   "customer": {
-    "customer_id": "cus-1013",
-    "first_name": "Селиван",
-    "last_name": "Савельев",
-    "email": "vissarion_40@example.com",
-    "phone": "+71178778499",
+    "customer_id": "cus-1037",
+    "first_name": "Адриан",
+    "last_name": "Коновалов",
+    "email": "karl_1978@example.net",
+    "phone": "+78107088603",
     "is_loyalty_member": true,
-    "loyalty_card_number": "LOYAL-CA2847D92B"
+    "loyalty_card_number": "LOYAL-D0EF0742EC"
   },
   "store": {
-    "store_id": "store-043",
-    "store_name": "Маленькая Пикча — Магазин на алл. Сенная",
+    "store_id": "store-042",
+    "store_name": "Маленькая Пикча — Магазин на пр. Льва Толстого",
     "store_network": "Маленькая Пикча",
     "location": {
       "country": "Россия",
-      "city": "г. Кириши",
-      "street": "бул. Карла Либкнехта",
-      "house": "309",
-      "postal_code": "690237",
+      "city": "с. Любань",
+      "street": "ш. М.Горького",
+      "house": "45",
+      "postal_code": "169119",
       "coordinates": {
-        "latitude": 82.5789505,
-        "longitude": 15.979647
+        "latitude": 73.7860975,
+        "longitude": 53.061392
       }
     }
   },
   "items": [
     {
-      "product_id": "prd-1008",
-      "name": "Освободить Призыв",
-      "category": "🥩 Мясо, рыба, яйца и бобовые",
-      "quantity": 5,
+      "product_id": "prd-1015",
+      "name": "Табак Госпожа",
+      "category": "🥛 Молочные продукты",
+      "quantity": 2,
       "unit": "л",
-      "price_per_unit": 265.49,
-      "total_price": 1327.45,
+      "price_per_unit": 235.2,
+      "total_price": 470.4,
       "kbju": {
-        "calories": 130.4,
-        "protein": 5.2,
-        "fat": 10.6,
-        "carbohydrates": 22.8
+        "calories": 99.6,
+        "protein": 9.1,
+        "fat": 4.4,
+        "carbohydrates": 37.7
       },
       "manufacturer": {
-        "name": "ИП «Маслова, Денисов и Фокина»",
+        "name": "ИП «Куликов, Степанов и Соболева»",
         "country": "Россия",
-        "website": "https://ignatev.com",
-        "inn": "7104068639"
+        "website": "https://rjabov.info",
+        "inn": "9167946809"
+      }
+    },
+    {
+      "product_id": "prd-1010",
+      "name": "Что Кидать",
+      "category": "🥦 Овощи и зелень",
+      "quantity": 5,
+      "unit": "упаковка",
+      "price_per_unit": 47.43,
+      "total_price": 237.15,
+      "kbju": {
+        "calories": 192.3,
+        "protein": 18.7,
+        "fat": 5.8,
+        "carbohydrates": 28.5
+      },
+      "manufacturer": {
+        "name": "ИП «Лихачев Наумова»",
+        "country": "Россия",
+        "website": "https://protek.info",
+        "inn": "8715941222"
+      }
+    },
+    {
+      "product_id": "prd-1013",
+      "name": "Правление Банк",
+      "category": "🥛 Молочные продукты",
+      "quantity": 1,
+      "unit": "кг",
+      "price_per_unit": 210.76,
+      "total_price": 210.76,
+      "kbju": {
+        "calories": 279.5,
+        "protein": 12.1,
+        "fat": 5.8,
+        "carbohydrates": 44.9
+      },
+      "manufacturer": {
+        "name": "ИП «Королев, Кулагина и Медведева»",
+        "country": "Россия",
+        "website": "https://ooo.net",
+        "inn": "2561502092"
       }
     }
   ],
-  "total_amount": 1327.45,
+  "total_amount": 918.31,
   "payment_method": "card",
-  "is_delivery": false,
+  "is_delivery": true,
   "delivery_address": {
     "country": "Россия",
-    "city": "п. Качканар",
-    "street": "пр. Геологов",
-    "house": "882",
-    "apartment": "57",
-    "postal_code": "363767"
+    "city": "клх Красноуфимск",
+    "street": "наб. Карбышева",
+    "house": "66",
+    "apartment": "41",
+    "postal_code": "678239"
   },
-  "purchase_datetime": "2025-07-13T00:21:05.924487"
+  "purchase_datetime": "2025-08-04T11:36:53.635191"
 }

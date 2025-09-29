@@ -1,84 +1,105 @@
 {
   "purchase_id": "ord-00114",
   "customer": {
-    "customer_id": "cus-1022",
-    "first_name": "Селиверст",
-    "last_name": "Мельникова",
-    "email": "zinovevaivanna@example.org",
-    "phone": "83922236291",
+    "customer_id": "cus-1024",
+    "first_name": "Макар",
+    "last_name": "Медведева",
+    "email": "gerasim1992@example.net",
+    "phone": "+75793560855",
     "is_loyalty_member": true,
-    "loyalty_card_number": "LOYAL-4245591696"
+    "loyalty_card_number": "LOYAL-95143C8F8C"
   },
   "store": {
-    "store_id": "store-001",
-    "store_name": "Большая Пикча — Магазин на алл. Бажова",
+    "store_id": "store-020",
+    "store_name": "Большая Пикча — Магазин на бул. Луначарского",
     "store_network": "Большая Пикча",
     "location": {
       "country": "Россия",
-      "city": "с. Апрелевка",
-      "street": "ш. Солнечное",
-      "house": "3",
-      "postal_code": "956691",
+      "city": "к. Павловская",
+      "street": "пр. Маркса Карла",
+      "house": "860",
+      "postal_code": "766762",
       "coordinates": {
-        "latitude": 50.3479975,
-        "longitude": -167.674641
+        "latitude": -83.1780595,
+        "longitude": 1.638287
       }
     }
   },
   "items": [
     {
-      "product_id": "prd-1010",
-      "name": "Мгновение Вряд",
-      "category": "🥦 Овощи и зелень",
-      "quantity": 2,
-      "unit": "кг",
-      "price_per_unit": 149.03,
-      "total_price": 298.06,
+      "product_id": "prd-1011",
+      "name": "Зачем Вскакивать",
+      "category": "🥛 Молочные продукты",
+      "quantity": 5,
+      "unit": "шт",
+      "price_per_unit": 105.34,
+      "total_price": 526.7,
       "kbju": {
-        "calories": 186.1,
-        "protein": 15.0,
-        "fat": 10.1,
-        "carbohydrates": 27.3
+        "calories": 207.5,
+        "protein": 16.9,
+        "fat": 5.3,
+        "carbohydrates": 19.0
       },
       "manufacturer": {
-        "name": "ИП «Блохина-Гаврилов»",
+        "name": "ИП «Нестеров, Лыткин и Евсеев»",
         "country": "Россия",
-        "website": "https://oao.com",
-        "inn": "1245272063"
+        "website": "https://ip.ru",
+        "inn": "1814255141"
       }
     },
     {
-      "product_id": "prd-1002",
-      "name": "Еврейский Отражение",
-      "category": "🥩 Мясо, рыба, яйца и бобовые",
-      "quantity": 4,
-      "unit": "упаковка",
-      "price_per_unit": 268.07,
-      "total_price": 1072.28,
+      "product_id": "prd-1000",
+      "name": "Грустный Дружно",
+      "category": "🥦 Овощи и зелень",
+      "quantity": 1,
+      "unit": "кг",
+      "price_per_unit": 234.69,
+      "total_price": 234.69,
       "kbju": {
-        "calories": 264.5,
-        "protein": 5.4,
-        "fat": 13.4,
-        "carbohydrates": 29.2
+        "calories": 142.2,
+        "protein": 13.1,
+        "fat": 11.7,
+        "carbohydrates": 10.2
       },
       "manufacturer": {
-        "name": "ОАО «Мишин-Виноградова»",
+        "name": "АО «Чернов Сафонова»",
         "country": "Россия",
-        "website": "https://ooo.edu",
-        "inn": "8371422850"
+        "website": "https://kolobov.info",
+        "inn": "5863746288"
+      }
+    },
+    {
+      "product_id": "prd-1017",
+      "name": "Народ Построить",
+      "category": "🍏 Фрукты и ягоды",
+      "quantity": 4,
+      "unit": "шт",
+      "price_per_unit": 178.6,
+      "total_price": 714.4,
+      "kbju": {
+        "calories": 256.8,
+        "protein": 17.5,
+        "fat": 12.2,
+        "carbohydrates": 17.7
+      },
+      "manufacturer": {
+        "name": "Корнилов и партнеры",
+        "country": "Россия",
+        "website": "https://rao.org",
+        "inn": "2545527642"
       }
     }
   ],
-  "total_amount": 1370.34,
-  "payment_method": "cash",
-  "is_delivery": false,
+  "total_amount": 1475.79,
+  "payment_method": "card",
+  "is_delivery": true,
   "delivery_address": {
     "country": "Россия",
-    "city": "с. Владикавказ",
-    "street": "пр. Ключевой",
-    "house": "860",
-    "apartment": "15",
-    "postal_code": "332731"
+    "city": "ст. Мичуринск",
+    "street": "ш. Семашко",
+    "house": "422",
+    "apartment": "48",
+    "postal_code": "354044"
   },
-  "purchase_datetime": "2025-08-25T00:21:05.966574"
+  "purchase_datetime": "2025-09-25T11:36:53.672189"
 }

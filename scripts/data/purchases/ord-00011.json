@@ -1,63 +1,63 @@
 {
   "purchase_id": "ord-00011",
   "customer": {
-    "customer_id": "cus-1023",
-    "first_name": "Глеб",
-    "last_name": "Лаврентьева",
-    "email": "nikola_91@example.net",
-    "phone": "8 395 248 0796",
+    "customer_id": "cus-1040",
+    "first_name": "Захар",
+    "last_name": "Сергеева",
+    "email": "markovaristarh@example.org",
+    "phone": "8 (514) 104-3564",
     "is_loyalty_member": true,
-    "loyalty_card_number": "LOYAL-9CB7750EFB"
+    "loyalty_card_number": "LOYAL-32912B1ECD"
   },
   "store": {
-    "store_id": "store-043",
-    "store_name": "Маленькая Пикча — Магазин на алл. Сенная",
-    "store_network": "Маленькая Пикча",
+    "store_id": "store-004",
+    "store_name": "Большая Пикча — Магазин на бул. Декабристов",
+    "store_network": "Большая Пикча",
     "location": {
       "country": "Россия",
-      "city": "г. Кириши",
-      "street": "бул. Карла Либкнехта",
-      "house": "309",
-      "postal_code": "690237",
+      "city": "г. Саров (Морд.)",
+      "street": "бул. Гоголя",
+      "house": "6/3",
+      "postal_code": "651927",
       "coordinates": {
-        "latitude": 82.5789505,
-        "longitude": 15.979647
+        "latitude": 12.2983715,
+        "longitude": 45.641857
       }
     }
   },
   "items": [
     {
-      "product_id": "prd-1005",
-      "name": "Направо Господь",
-      "category": "🥩 Мясо, рыба, яйца и бобовые",
-      "quantity": 1,
+      "product_id": "prd-1015",
+      "name": "Табак Госпожа",
+      "category": "🥛 Молочные продукты",
+      "quantity": 4,
       "unit": "л",
-      "price_per_unit": 126.73,
-      "total_price": 126.73,
+      "price_per_unit": 235.2,
+      "total_price": 940.8,
       "kbju": {
-        "calories": 93.0,
-        "protein": 13.6,
-        "fat": 2.1,
-        "carbohydrates": 20.3
+        "calories": 99.6,
+        "protein": 9.1,
+        "fat": 4.4,
+        "carbohydrates": 37.7
       },
       "manufacturer": {
-        "name": "ЗАО «Титова»",
+        "name": "ИП «Куликов, Степанов и Соболева»",
         "country": "Россия",
-        "website": "https://npo.com",
-        "inn": "2777644639"
+        "website": "https://rjabov.info",
+        "inn": "9167946809"
       }
     }
   ],
-  "total_amount": 126.73,
-  "payment_method": "cash",
+  "total_amount": 940.8,
+  "payment_method": "card",
   "is_delivery": true,
   "delivery_address": {
     "country": "Россия",
-    "city": "ст. Клин",
-    "street": "наб. Маркса",
-    "house": "99",
-    "apartment": "96",
-    "postal_code": "828143"
+    "city": "п. Кетченеры",
+    "street": "ул. Ульяновская",
+    "house": "77",
+    "apartment": "63",
+    "postal_code": "395117"
   },
-  "purchase_datetime": "2025-09-17T00:21:05.923387"
+  "purchase_datetime": "2025-07-28T11:36:53.634007"
 }

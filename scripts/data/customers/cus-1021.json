@@ -1,36 +1,36 @@
 {
   "customer_id": "cus-1021",
-  "first_name": "Никанор",
-  "last_name": "Красильникова",
-  "email": "mihail1977@example.com",
-  "phone": "8 811 770 3445",
-  "birth_date": "1956-06-07",
-  "gender": "male",
-  "registration_date": "2025-09-25T00:21:05.905044",
+  "first_name": "Пахом",
+  "last_name": "Субботина",
+  "email": "seliverstovamaja@example.com",
+  "phone": "+7 777 951 8931",
+  "birth_date": "1966-01-17",
+  "gender": "female",
+  "registration_date": "2025-09-29T11:36:53.619622",
   "is_loyalty_member": true,
-  "loyalty_card_number": "LOYAL-A495EF04B9",
+  "loyalty_card_number": "LOYAL-0D7AC7C215",
   "purchase_location": {
     "store_id": "store-022",
-    "store_name": "Большая Пикча — Магазин на пер. Геологов",
+    "store_name": "Большая Пикча — Магазин на ул. Кузнецова",
     "store_network": "Большая Пикча",
     "store_type_description": "Супермаркет более 200 кв.м. Входит в сеть из 30 магазинов.",
     "country": "Россия",
-    "city": "г. Каменномостский",
-    "street": "наб. Балтийская",
-    "house": "3",
-    "postal_code": "206608"
+    "city": "п. Яхрома",
+    "street": "бул. Угловой",
+    "house": "4",
+    "postal_code": "292777"
   },
   "delivery_address": {
     "country": "Россия",
-    "city": "г. Каменномостский",
-    "street": "пр. Средний",
-    "house": "80",
-    "apartment": "32",
-    "postal_code": "917327"
+    "city": "п. Яхрома",
+    "street": "ул. Красных Партизан",
+    "house": "10",
+    "apartment": "90",
+    "postal_code": "529239"
   },
   "preferences": {
     "preferred_language": "ru",
-    "preferred_payment_method": "card",
+    "preferred_payment_method": "cash",
     "receive_promotions": true
   }
 }

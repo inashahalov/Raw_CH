@@ -1,63 +1,84 @@
 {
   "purchase_id": "ord-00032",
   "customer": {
-    "customer_id": "cus-1041",
-    "first_name": "Наум",
-    "last_name": "Симонов",
-    "email": "valentinsharov@example.com",
-    "phone": "89031911463",
+    "customer_id": "cus-1013",
+    "first_name": "Август",
+    "last_name": "Бобылева",
+    "email": "denis_1972@example.net",
+    "phone": "+7 (675) 164-65-63",
     "is_loyalty_member": true,
-    "loyalty_card_number": "LOYAL-19C84B142A"
+    "loyalty_card_number": "LOYAL-2AC87952E6"
   },
   "store": {
-    "store_id": "store-035",
-    "store_name": "Маленькая Пикча — Магазин на наб. Ворошилова",
+    "store_id": "store-040",
+    "store_name": "Маленькая Пикча — Магазин на наб. Кирова",
     "store_network": "Маленькая Пикча",
     "location": {
       "country": "Россия",
-      "city": "п. Нерчинск",
-      "street": "алл. Кольцевая",
-      "house": "4/5",
-      "postal_code": "684320",
+      "city": "ст. Малая Вишера",
+      "street": "пр. Енисейский",
+      "house": "4",
+      "postal_code": "496524",
       "coordinates": {
-        "latitude": -40.406792,
-        "longitude": -57.258998
+        "latitude": -40.5576365,
+        "longitude": 135.346412
       }
     }
   },
   "items": [
     {
-      "product_id": "prd-1009",
-      "name": "Слать Бригада",
-      "category": "🥛 Молочные продукты",
-      "quantity": 5,
+      "product_id": "prd-1008",
+      "name": "Упор Кузнец",
+      "category": "🍏 Фрукты и ягоды",
+      "quantity": 4,
       "unit": "л",
-      "price_per_unit": 240.9,
-      "total_price": 1204.5,
+      "price_per_unit": 255.98,
+      "total_price": 1023.92,
       "kbju": {
-        "calories": 156.2,
-        "protein": 15.7,
-        "fat": 13.4,
-        "carbohydrates": 7.6
+        "calories": 143.1,
+        "protein": 6.1,
+        "fat": 3.5,
+        "carbohydrates": 47.3
       },
       "manufacturer": {
-        "name": "НПО «Ефимова»",
+        "name": "МТС-банк",
         "country": "Россия",
-        "website": "https://ford.com",
-        "inn": "3687837951"
+        "website": "https://shcherbakova.com",
+        "inn": "1911616255"
+      }
+    },
+    {
+      "product_id": "prd-1006",
+      "name": "Очередной Развернуться",
+      "category": "🥩 Мясо, рыба, яйца и бобовые",
+      "quantity": 5,
+      "unit": "упаковка",
+      "price_per_unit": 40.94,
+      "total_price": 204.7,
+      "kbju": {
+        "calories": 207.0,
+        "protein": 10.7,
+        "fat": 10.6,
+        "carbohydrates": 30.5
+      },
+      "manufacturer": {
+        "name": "Ямал СПГ",
+        "country": "Россия",
+        "website": "https://ip.com",
+        "inn": "1426832497"
       }
     }
   ],
-  "total_amount": 1204.5,
-  "payment_method": "card",
+  "total_amount": 1228.62,
+  "payment_method": "cash",
   "is_delivery": true,
   "delivery_address": {
     "country": "Россия",
-    "city": "с. Хасан",
-    "street": "ш. Виноградное",
-    "house": "764",
-    "apartment": "39",
-    "postal_code": "845061"
+    "city": "с. Моршанск",
+    "street": "ш. Куйбышева",
+    "house": "398",
+    "apartment": "42",
+    "postal_code": "981166"
   },
-  "purchase_datetime": "2025-08-22T00:21:05.932411"
+  "purchase_datetime": "2025-09-24T11:36:53.642338"
 }

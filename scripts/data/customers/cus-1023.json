@@ -1,36 +1,36 @@
 {
   "customer_id": "cus-1023",
-  "first_name": "Глеб",
-  "last_name": "Лаврентьева",
-  "email": "nikola_91@example.net",
-  "phone": "8 395 248 0796",
-  "birth_date": "1959-12-20",
+  "first_name": "Панкрат",
+  "last_name": "Евдокимов",
+  "email": "lavrenti_48@example.org",
+  "phone": "8 (089) 348-13-39",
+  "birth_date": "1965-01-08",
   "gender": "male",
-  "registration_date": "2025-09-25T00:21:05.906458",
+  "registration_date": "2025-09-29T11:36:53.620541",
   "is_loyalty_member": true,
-  "loyalty_card_number": "LOYAL-9CB7750EFB",
+  "loyalty_card_number": "LOYAL-DF9EB001FC",
   "purchase_location": {
     "store_id": "store-024",
-    "store_name": "Большая Пикча — Магазин на наб. Детская",
+    "store_name": "Большая Пикча — Магазин на алл. Правды",
     "store_network": "Большая Пикча",
     "store_type_description": "Супермаркет более 200 кв.м. Входит в сеть из 30 магазинов.",
     "country": "Россия",
-    "city": "ст. Клин",
-    "street": "алл. Макарова",
-    "house": "5",
-    "postal_code": "420427"
+    "city": "г. Нягань",
+    "street": "наб. Тепличная",
+    "house": "7",
+    "postal_code": "010829"
   },
   "delivery_address": {
     "country": "Россия",
-    "city": "ст. Клин",
-    "street": "наб. Маркса",
-    "house": "99",
-    "apartment": "96",
-    "postal_code": "828143"
+    "city": "г. Нягань",
+    "street": "наб. Ушакова",
+    "house": "24",
+    "apartment": "76",
+    "postal_code": "051733"
   },
   "preferences": {
     "preferred_language": "ru",
-    "preferred_payment_method": "cash",
-    "receive_promotions": true
+    "preferred_payment_method": "card",
+    "receive_promotions": false
   }
 }

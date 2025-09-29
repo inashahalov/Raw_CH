@@ -1,63 +1,105 @@
 {
   "purchase_id": "ord-00134",
   "customer": {
-    "customer_id": "cus-1031",
-    "first_name": "Валентин",
-    "last_name": "Михайлова",
-    "email": "maksim2011@example.com",
-    "phone": "+70563049404",
+    "customer_id": "cus-1024",
+    "first_name": "Макар",
+    "last_name": "Медведева",
+    "email": "gerasim1992@example.net",
+    "phone": "+75793560855",
     "is_loyalty_member": true,
-    "loyalty_card_number": "LOYAL-BBFFDEC266"
+    "loyalty_card_number": "LOYAL-95143C8F8C"
   },
   "store": {
-    "store_id": "store-038",
-    "store_name": "Маленькая Пикча — Магазин на ш. Шахтерское",
+    "store_id": "store-043",
+    "store_name": "Маленькая Пикча — Магазин на наб. Пограничная",
     "store_network": "Маленькая Пикча",
     "location": {
       "country": "Россия",
-      "city": "д. Сосновый Бор",
-      "street": "пр. Новый",
-      "house": "8",
-      "postal_code": "442480",
+      "city": "клх Ясный (Оренб.)",
+      "street": "пер. Ленинский",
+      "house": "8/6",
+      "postal_code": "274845",
       "coordinates": {
-        "latitude": -48.355729,
-        "longitude": -128.321237
+        "latitude": -0.776416,
+        "longitude": -67.21301
       }
     }
   },
   "items": [
     {
-      "product_id": "prd-1010",
-      "name": "Мгновение Вряд",
-      "category": "🥦 Овощи и зелень",
-      "quantity": 4,
+      "product_id": "prd-1002",
+      "name": "Манера Остановить",
+      "category": "🥛 Молочные продукты",
+      "quantity": 3,
       "unit": "кг",
-      "price_per_unit": 149.03,
-      "total_price": 596.12,
+      "price_per_unit": 49.56,
+      "total_price": 148.68,
       "kbju": {
-        "calories": 186.1,
-        "protein": 15.0,
-        "fat": 10.1,
-        "carbohydrates": 27.3
+        "calories": 233.3,
+        "protein": 5.6,
+        "fat": 13.1,
+        "carbohydrates": 34.2
       },
       "manufacturer": {
-        "name": "ИП «Блохина-Гаврилов»",
+        "name": "АО «Вишнякова-Устинова»",
         "country": "Россия",
-        "website": "https://oao.com",
-        "inn": "1245272063"
+        "website": "https://efimov.ru",
+        "inn": "0302933009"
+      }
+    },
+    {
+      "product_id": "prd-1003",
+      "name": "Спалить Лететь",
+      "category": "🍏 Фрукты и ягоды",
+      "quantity": 2,
+      "unit": "кг",
+      "price_per_unit": 68.82,
+      "total_price": 137.64,
+      "kbju": {
+        "calories": 203.9,
+        "protein": 5.3,
+        "fat": 0.6,
+        "carbohydrates": 11.5
+      },
+      "manufacturer": {
+        "name": "ООО «Беляков Капустина»",
+        "country": "Россия",
+        "website": "https://mostransavto.org",
+        "inn": "0958619414"
+      }
+    },
+    {
+      "product_id": "prd-1007",
+      "name": "Интеллектуальный Около",
+      "category": "🥛 Молочные продукты",
+      "quantity": 1,
+      "unit": "шт",
+      "price_per_unit": 147.81,
+      "total_price": 147.81,
+      "kbju": {
+        "calories": 87.6,
+        "protein": 12.8,
+        "fat": 14.2,
+        "carbohydrates": 17.0
+      },
+      "manufacturer": {
+        "name": "ОАО «Владимирова Богданова»",
+        "country": "Россия",
+        "website": "https://ip.info",
+        "inn": "3430882539"
       }
     }
   ],
-  "total_amount": 596.12,
-  "payment_method": "cash",
+  "total_amount": 434.13,
+  "payment_method": "card",
   "is_delivery": true,
   "delivery_address": {
     "country": "Россия",
-    "city": "к. Сыктывкар",
-    "street": "ул. Путейская",
-    "house": "320",
-    "apartment": "35",
-    "postal_code": "558591"
+    "city": "ст. Мичуринск",
+    "street": "ш. Семашко",
+    "house": "422",
+    "apartment": "48",
+    "postal_code": "354044"
   },
-  "purchase_datetime": "2025-09-23T00:21:06.100512"
+  "purchase_datetime": "2025-08-25T11:36:53.679012"
 }

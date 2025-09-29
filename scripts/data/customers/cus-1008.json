@@ -1,36 +1,36 @@
 {
   "customer_id": "cus-1008",
-  "first_name": "Гордей",
-  "last_name": "Абрамов",
-  "email": "georgi_2000@example.com",
-  "phone": "+7 307 508 0235",
-  "birth_date": "1968-03-25",
+  "first_name": "Митофан",
+  "last_name": "Воронцов",
+  "email": "feofan20@example.org",
+  "phone": "87682311561",
+  "birth_date": "1988-01-09",
   "gender": "female",
-  "registration_date": "2025-09-25T00:21:05.896416",
+  "registration_date": "2025-09-29T11:36:53.613509",
   "is_loyalty_member": true,
-  "loyalty_card_number": "LOYAL-2C2BC04842",
+  "loyalty_card_number": "LOYAL-7C918DCCDB",
   "purchase_location": {
     "store_id": "store-009",
-    "store_name": "Большая Пикча — Магазин на пр. Угольный",
+    "store_name": "Большая Пикча — Магазин на ул. Цветочная",
     "store_network": "Большая Пикча",
     "store_type_description": "Супермаркет более 200 кв.м. Входит в сеть из 30 магазинов.",
     "country": "Россия",
-    "city": "с. Лысьва",
-    "street": "пр. Енисейский",
-    "house": "8/1",
-    "postal_code": "512530"
+    "city": "с. Ростов-на-Дону",
+    "street": "алл. Комсомольская",
+    "house": "471",
+    "postal_code": "820122"
   },
   "delivery_address": {
     "country": "Россия",
-    "city": "с. Лысьва",
-    "street": "ш. Поперечное",
-    "house": "136",
-    "apartment": "17",
-    "postal_code": "230937"
+    "city": "с. Ростов-на-Дону",
+    "street": "ул. Окружная",
+    "house": "658",
+    "apartment": "46",
+    "postal_code": "091436"
   },
   "preferences": {
     "preferred_language": "ru",
-    "preferred_payment_method": "card",
+    "preferred_payment_method": "cash",
     "receive_promotions": true
   }
 }

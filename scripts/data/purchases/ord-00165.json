@@ -1,105 +1,105 @@
 {
   "purchase_id": "ord-00165",
   "customer": {
-    "customer_id": "cus-1015",
-    "first_name": "Аникей",
-    "last_name": "Новиков",
-    "email": "oisakova@example.org",
-    "phone": "8 (510) 536-4882",
+    "customer_id": "cus-1034",
+    "first_name": "Петр",
+    "last_name": "Семенов",
+    "email": "kondratiknjazev@example.com",
+    "phone": "8 840 333 65 64",
     "is_loyalty_member": true,
-    "loyalty_card_number": "LOYAL-E87EA9AED1"
+    "loyalty_card_number": "LOYAL-7D4932660C"
   },
   "store": {
-    "store_id": "store-020",
-    "store_name": "Большая Пикча — Магазин на алл. Парковая",
+    "store_id": "store-012",
+    "store_name": "Большая Пикча — Магазин на наб. Красногвардейская",
     "store_network": "Большая Пикча",
     "location": {
       "country": "Россия",
-      "city": "п. Витим",
-      "street": "ш. Проточное",
-      "house": "6/9",
-      "postal_code": "926506",
+      "city": "клх Белый Яр (Томск.)",
+      "street": "наб. Целинная",
+      "house": "5",
+      "postal_code": "163512",
       "coordinates": {
-        "latitude": -88.588761,
-        "longitude": -151.51246
+        "latitude": -24.8638755,
+        "longitude": -52.430567
       }
     }
   },
   "items": [
     {
-      "product_id": "prd-1018",
-      "name": "Зачем Пол",
-      "category": "🍏 Фрукты и ягоды",
-      "quantity": 2,
-      "unit": "кг",
-      "price_per_unit": 247.99,
-      "total_price": 495.98,
-      "kbju": {
-        "calories": 236.7,
-        "protein": 5.8,
-        "fat": 10.9,
-        "carbohydrates": 13.1
-      },
-      "manufacturer": {
-        "name": "ОАО «Панов-Воробьева»",
-        "country": "Россия",
-        "website": "https://rao.edu",
-        "inn": "5397679829"
-      }
-    },
-    {
-      "product_id": "prd-1012",
-      "name": "Школьный Анализ",
+      "product_id": "prd-1005",
+      "name": "Правильный Факультет",
       "category": "🥦 Овощи и зелень",
-      "quantity": 3,
+      "quantity": 2,
       "unit": "л",
-      "price_per_unit": 209.82,
-      "total_price": 629.46,
+      "price_per_unit": 246.16,
+      "total_price": 492.32,
       "kbju": {
-        "calories": 60.6,
-        "protein": 14.6,
-        "fat": 12.7,
-        "carbohydrates": 41.7
+        "calories": 238.0,
+        "protein": 1.6,
+        "fat": 0.4,
+        "carbohydrates": 17.1
       },
       "manufacturer": {
-        "name": "ИП «Беспалов-Тимофеев»",
+        "name": "Михеев и партнеры",
         "country": "Россия",
-        "website": "https://npo.edu",
-        "inn": "6799042551"
+        "website": "https://yakovleva.biz",
+        "inn": "6371685483"
       }
     },
     {
-      "product_id": "prd-1000",
-      "name": "Привлекать Передо",
+      "product_id": "prd-1008",
+      "name": "Упор Кузнец",
+      "category": "🍏 Фрукты и ягоды",
+      "quantity": 5,
+      "unit": "л",
+      "price_per_unit": 255.98,
+      "total_price": 1279.9,
+      "kbju": {
+        "calories": 143.1,
+        "protein": 6.1,
+        "fat": 3.5,
+        "carbohydrates": 47.3
+      },
+      "manufacturer": {
+        "name": "МТС-банк",
+        "country": "Россия",
+        "website": "https://shcherbakova.com",
+        "inn": "1911616255"
+      }
+    },
+    {
+      "product_id": "prd-1016",
+      "name": "Ребятишки Лететь",
       "category": "🥦 Овощи и зелень",
       "quantity": 4,
       "unit": "шт",
-      "price_per_unit": 261.89,
-      "total_price": 1047.56,
+      "price_per_unit": 266.18,
+      "total_price": 1064.72,
       "kbju": {
-        "calories": 286.2,
-        "protein": 17.9,
-        "fat": 8.7,
-        "carbohydrates": 47.1
+        "calories": 249.2,
+        "protein": 2.2,
+        "fat": 4.1,
+        "carbohydrates": 29.2
       },
       "manufacturer": {
-        "name": "ООО «Баранов-Пестова»",
+        "name": "АО «Быкова, Наумов и Фадеев»",
         "country": "Россия",
-        "website": "https://ooo.info",
-        "inn": "7520686716"
+        "website": "https://rao.ru",
+        "inn": "1171341012"
       }
     }
   ],
-  "total_amount": 2173.0,
-  "payment_method": "cash",
+  "total_amount": 2836.94,
+  "payment_method": "card",
   "is_delivery": true,
   "delivery_address": {
     "country": "Россия",
-    "city": "клх Новомичуринск",
-    "street": "алл. Космонавтов",
-    "house": "8/4",
-    "apartment": "96",
-    "postal_code": "158931"
+    "city": "п. Благовещенск (Амур.)",
+    "street": "пер. Белинского",
+    "house": "6",
+    "apartment": "70",
+    "postal_code": "880088"
   },
-  "purchase_datetime": "2025-08-21T00:21:06.231870"
+  "purchase_datetime": "2025-07-02T11:36:53.690817"
 }

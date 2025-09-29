@@ -1,84 +1,63 @@
 {
   "purchase_id": "ord-00122",
   "customer": {
-    "customer_id": "cus-1009",
-    "first_name": "Любомир",
-    "last_name": "Зайцева",
-    "email": "mironovdementi@example.net",
-    "phone": "8 083 438 03 36",
+    "customer_id": "cus-1020",
+    "first_name": "Назар",
+    "last_name": "Андреева",
+    "email": "sbogdanova@example.com",
+    "phone": "8 897 525 1983",
     "is_loyalty_member": true,
-    "loyalty_card_number": "LOYAL-B97665AA7B"
+    "loyalty_card_number": "LOYAL-DB9ED9AC67"
   },
   "store": {
-    "store_id": "store-028",
-    "store_name": "Большая Пикча — Магазин на пер. Придорожный",
+    "store_id": "store-010",
+    "store_name": "Большая Пикча — Магазин на пер. Ставропольский",
     "store_network": "Большая Пикча",
     "location": {
       "country": "Россия",
-      "city": "п. Великие Луки",
-      "street": "алл. Сельская",
-      "house": "9/1",
-      "postal_code": "131366",
+      "city": "г. Белорецк",
+      "street": "ул. Громова",
+      "house": "16",
+      "postal_code": "153247",
       "coordinates": {
-        "latitude": 89.2025215,
-        "longitude": 9.359875
+        "latitude": 38.5265505,
+        "longitude": -6.13565
       }
     }
   },
   "items": [
     {
-      "product_id": "prd-1004",
-      "name": "Написать Актриса",
-      "category": "🍏 Фрукты и ягоды",
-      "quantity": 2,
+      "product_id": "prd-1013",
+      "name": "Правление Банк",
+      "category": "🥛 Молочные продукты",
+      "quantity": 1,
       "unit": "кг",
-      "price_per_unit": 247.9,
-      "total_price": 495.8,
+      "price_per_unit": 210.76,
+      "total_price": 210.76,
       "kbju": {
-        "calories": 90.5,
-        "protein": 3.5,
-        "fat": 0.2,
-        "carbohydrates": 19.9
+        "calories": 279.5,
+        "protein": 12.1,
+        "fat": 5.8,
+        "carbohydrates": 44.9
       },
       "manufacturer": {
-        "name": "Ферронордик машины (Ferronordic)",
+        "name": "ИП «Королев, Кулагина и Медведева»",
         "country": "Россия",
-        "website": "https://kulikova.net",
-        "inn": "5999502719"
-      }
-    },
-    {
-      "product_id": "prd-1015",
-      "name": "Советовать Горький",
-      "category": "🥖 Зерновые и хлебобулочные изделия",
-      "quantity": 4,
-      "unit": "л",
-      "price_per_unit": 74.06,
-      "total_price": 296.24,
-      "kbju": {
-        "calories": 265.6,
-        "protein": 14.1,
-        "fat": 13.9,
-        "carbohydrates": 4.2
-      },
-      "manufacturer": {
-        "name": "РАО «Пахомова-Голубев»",
-        "country": "Россия",
-        "website": "https://nlmk.biz",
-        "inn": "6002140966"
+        "website": "https://ooo.net",
+        "inn": "2561502092"
       }
     }
   ],
-  "total_amount": 792.04,
-  "payment_method": "cash",
-  "is_delivery": true,
+  "total_amount": 210.76,
+  "payment_method": "card",
+  "is_delivery": false,
   "delivery_address": {
     "country": "Россия",
-    "city": "к. Тулун",
-    "street": "бул. Зеленый",
-    "house": "5",
-    "apartment": "42",
-    "postal_code": "594984"
+    "city": "г. Ступино",
+    "street": "пер. Транспортный",
+    "house": "12",
+    "apartment": "10",
+    "postal_code": "389125"
   },
-  "purchase_datetime": "2025-09-23T00:21:05.970408"
+  "purchase_datetime": "2025-09-07T11:36:53.675081"
 }

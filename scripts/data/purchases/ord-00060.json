@@ -1,63 +1,105 @@
 {
   "purchase_id": "ord-00060",
   "customer": {
-    "customer_id": "cus-1027",
-    "first_name": "Ананий",
-    "last_name": "Смирнов",
-    "email": "eremeartemev@example.org",
-    "phone": "+7 373 716 0061",
+    "customer_id": "cus-1022",
+    "first_name": "Парамон",
+    "last_name": "Шестаков",
+    "email": "emmanuil80@example.net",
+    "phone": "+7 787 031 23 21",
     "is_loyalty_member": true,
-    "loyalty_card_number": "LOYAL-8563997E39"
+    "loyalty_card_number": "LOYAL-A111D48E9C"
   },
   "store": {
-    "store_id": "store-039",
-    "store_name": "Маленькая Пикча — Магазин на наб. Гагарина",
+    "store_id": "store-041",
+    "store_name": "Маленькая Пикча — Магазин на наб. Пушкинская",
     "store_network": "Маленькая Пикча",
     "location": {
       "country": "Россия",
-      "city": "д. Минеральные Воды",
-      "street": "пр. Восточный",
-      "house": "48",
-      "postal_code": "169327",
+      "city": "п. Кетченеры",
+      "street": "ш. Урицкого",
+      "house": "3",
+      "postal_code": "224391",
       "coordinates": {
-        "latitude": 53.4992145,
-        "longitude": 133.659473
+        "latitude": 30.850891,
+        "longitude": -30.962086
       }
     }
   },
   "items": [
     {
-      "product_id": "prd-1004",
-      "name": "Написать Актриса",
-      "category": "🍏 Фрукты и ягоды",
-      "quantity": 1,
-      "unit": "кг",
-      "price_per_unit": 247.9,
-      "total_price": 247.9,
+      "product_id": "prd-1019",
+      "name": "Разводить Подробность",
+      "category": "🥖 Зерновые и хлебобулочные изделия",
+      "quantity": 5,
+      "unit": "шт",
+      "price_per_unit": 202.14,
+      "total_price": 1010.7,
       "kbju": {
-        "calories": 90.5,
-        "protein": 3.5,
-        "fat": 0.2,
-        "carbohydrates": 19.9
+        "calories": 104.0,
+        "protein": 4.5,
+        "fat": 1.3,
+        "carbohydrates": 30.3
       },
       "manufacturer": {
-        "name": "Ферронордик машины (Ferronordic)",
+        "name": "АО «Филатов, Гусев и Рябов»",
         "country": "Россия",
-        "website": "https://kulikova.net",
-        "inn": "5999502719"
+        "website": "https://oao.com",
+        "inn": "8155112705"
+      }
+    },
+    {
+      "product_id": "prd-1001",
+      "name": "Лиловый Бок",
+      "category": "🥛 Молочные продукты",
+      "quantity": 2,
+      "unit": "упаковка",
+      "price_per_unit": 242.46,
+      "total_price": 484.92,
+      "kbju": {
+        "calories": 274.4,
+        "protein": 6.4,
+        "fat": 6.0,
+        "carbohydrates": 13.5
+      },
+      "manufacturer": {
+        "name": "Куликов и партнеры",
+        "country": "Россия",
+        "website": "https://sharapov.net",
+        "inn": "9920890846"
+      }
+    },
+    {
+      "product_id": "prd-1007",
+      "name": "Интеллектуальный Около",
+      "category": "🥛 Молочные продукты",
+      "quantity": 2,
+      "unit": "шт",
+      "price_per_unit": 147.81,
+      "total_price": 295.62,
+      "kbju": {
+        "calories": 87.6,
+        "protein": 12.8,
+        "fat": 14.2,
+        "carbohydrates": 17.0
+      },
+      "manufacturer": {
+        "name": "ОАО «Владимирова Богданова»",
+        "country": "Россия",
+        "website": "https://ip.info",
+        "inn": "3430882539"
       }
     }
   ],
-  "total_amount": 247.9,
-  "payment_method": "cash",
-  "is_delivery": false,
+  "total_amount": 1791.24,
+  "payment_method": "card",
+  "is_delivery": true,
   "delivery_address": {
     "country": "Россия",
-    "city": "п. Великие Луки",
-    "street": "бул. Фестивальный",
-    "house": "937",
-    "apartment": "48",
-    "postal_code": "607745"
+    "city": "д. Кострома",
+    "street": "бул. Подлесный",
+    "house": "1",
+    "apartment": "27",
+    "postal_code": "091819"
   },
-  "purchase_datetime": "2025-07-24T00:21:05.943301"
+  "purchase_datetime": "2025-07-14T11:36:53.652747"
 }

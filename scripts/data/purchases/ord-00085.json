@@ -1,63 +1,84 @@
 {
   "purchase_id": "ord-00085",
   "customer": {
-    "customer_id": "cus-1003",
-    "first_name": "Полина",
-    "last_name": "Шарова",
-    "email": "valerija_1971@example.net",
-    "phone": "+74365505643",
+    "customer_id": "cus-1006",
+    "first_name": "Кондрат",
+    "last_name": "Матвеева",
+    "email": "kuzminilarion@example.net",
+    "phone": "+7 (811) 265-95-44",
     "is_loyalty_member": true,
-    "loyalty_card_number": "LOYAL-C222052A45"
+    "loyalty_card_number": "LOYAL-816B977AA0"
   },
   "store": {
-    "store_id": "store-021",
-    "store_name": "Большая Пикча — Магазин на алл. Огородная",
+    "store_id": "store-001",
+    "store_name": "Большая Пикча — Магазин на бул. Урицкого",
     "store_network": "Большая Пикча",
     "location": {
       "country": "Россия",
-      "city": "п. Энгельс",
-      "street": "ш. Партизанское",
-      "house": "9/6",
-      "postal_code": "123462",
+      "city": "д. Горячий Ключ",
+      "street": "ш. Громова",
+      "house": "1/3",
+      "postal_code": "610910",
       "coordinates": {
-        "latitude": -19.580885,
-        "longitude": 86.177992
+        "latitude": 83.181936,
+        "longitude": 25.518363
       }
     }
   },
   "items": [
     {
-      "product_id": "prd-1010",
-      "name": "Мгновение Вряд",
-      "category": "🥦 Овощи и зелень",
-      "quantity": 5,
+      "product_id": "prd-1013",
+      "name": "Правление Банк",
+      "category": "🥛 Молочные продукты",
+      "quantity": 3,
       "unit": "кг",
-      "price_per_unit": 149.03,
-      "total_price": 745.15,
+      "price_per_unit": 210.76,
+      "total_price": 632.28,
       "kbju": {
-        "calories": 186.1,
-        "protein": 15.0,
-        "fat": 10.1,
-        "carbohydrates": 27.3
+        "calories": 279.5,
+        "protein": 12.1,
+        "fat": 5.8,
+        "carbohydrates": 44.9
       },
       "manufacturer": {
-        "name": "ИП «Блохина-Гаврилов»",
+        "name": "ИП «Королев, Кулагина и Медведева»",
         "country": "Россия",
-        "website": "https://oao.com",
-        "inn": "1245272063"
+        "website": "https://ooo.net",
+        "inn": "2561502092"
+      }
+    },
+    {
+      "product_id": "prd-1001",
+      "name": "Лиловый Бок",
+      "category": "🥛 Молочные продукты",
+      "quantity": 5,
+      "unit": "упаковка",
+      "price_per_unit": 242.46,
+      "total_price": 1212.3,
+      "kbju": {
+        "calories": 274.4,
+        "protein": 6.4,
+        "fat": 6.0,
+        "carbohydrates": 13.5
+      },
+      "manufacturer": {
+        "name": "Куликов и партнеры",
+        "country": "Россия",
+        "website": "https://sharapov.net",
+        "inn": "9920890846"
       }
     }
   ],
-  "total_amount": 745.15,
+  "total_amount": 1844.58,
   "payment_method": "card",
-  "is_delivery": true,
+  "is_delivery": false,
   "delivery_address": {
     "country": "Россия",
-    "city": "с. Кабанск",
-    "street": "наб. Саратовская",
-    "house": "5",
-    "apartment": "29",
-    "postal_code": "362727"
+    "city": "п. Воронеж",
+    "street": "бул. Тепличный",
+    "house": "699",
+    "apartment": "47",
+    "postal_code": "552286"
   },
-  "purchase_datetime": "2025-09-15T00:21:05.953917"
+  "purchase_datetime": "2025-08-17T11:36:53.661978"
 }

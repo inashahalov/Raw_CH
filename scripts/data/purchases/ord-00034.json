@@ -1,63 +1,63 @@
 {
   "purchase_id": "ord-00034",
   "customer": {
-    "customer_id": "cus-1028",
-    "first_name": "Зинаида",
-    "last_name": "Пономарев",
-    "email": "emmanuil04@example.net",
-    "phone": "8 (428) 186-9379",
+    "customer_id": "cus-1011",
+    "first_name": "Октябрина",
+    "last_name": "Тихонова",
+    "email": "silvestrkudrjavtsev@example.net",
+    "phone": "8 (694) 286-0435",
     "is_loyalty_member": true,
-    "loyalty_card_number": "LOYAL-D9355E6F5D"
+    "loyalty_card_number": "LOYAL-25A3B93BDE"
   },
   "store": {
-    "store_id": "store-025",
-    "store_name": "Большая Пикча — Магазин на ш. Гончарова",
-    "store_network": "Большая Пикча",
+    "store_id": "store-031",
+    "store_name": "Маленькая Пикча — Магазин на алл. Озерная",
+    "store_network": "Маленькая Пикча",
     "location": {
       "country": "Россия",
-      "city": "ст. Малоярославец",
-      "street": "алл. Калужская",
-      "house": "201",
-      "postal_code": "574860",
+      "city": "с. Аргаяш",
+      "street": "наб. Дальняя",
+      "house": "10",
+      "postal_code": "465584",
       "coordinates": {
-        "latitude": -56.801937,
-        "longitude": 157.630796
+        "latitude": 21.7768635,
+        "longitude": 107.910087
       }
     }
   },
   "items": [
     {
-      "product_id": "prd-1004",
-      "name": "Написать Актриса",
-      "category": "🍏 Фрукты и ягоды",
-      "quantity": 5,
+      "product_id": "prd-1000",
+      "name": "Грустный Дружно",
+      "category": "🥦 Овощи и зелень",
+      "quantity": 4,
       "unit": "кг",
-      "price_per_unit": 247.9,
-      "total_price": 1239.5,
+      "price_per_unit": 234.69,
+      "total_price": 938.76,
       "kbju": {
-        "calories": 90.5,
-        "protein": 3.5,
-        "fat": 0.2,
-        "carbohydrates": 19.9
+        "calories": 142.2,
+        "protein": 13.1,
+        "fat": 11.7,
+        "carbohydrates": 10.2
       },
       "manufacturer": {
-        "name": "Ферронордик машины (Ferronordic)",
+        "name": "АО «Чернов Сафонова»",
         "country": "Россия",
-        "website": "https://kulikova.net",
-        "inn": "5999502719"
+        "website": "https://kolobov.info",
+        "inn": "5863746288"
       }
     }
   ],
-  "total_amount": 1239.5,
+  "total_amount": 938.76,
   "payment_method": "card",
   "is_delivery": true,
   "delivery_address": {
     "country": "Россия",
-    "city": "ст. Чебоксары",
-    "street": "ш. Песочное",
-    "house": "85",
-    "apartment": "6",
-    "postal_code": "044646"
+    "city": "клх Белый Яр (Томск.)",
+    "street": "бул. Космический",
+    "house": "169",
+    "apartment": "25",
+    "postal_code": "507633"
   },
-  "purchase_datetime": "2025-08-29T00:21:05.933101"
+  "purchase_datetime": "2025-07-05T11:36:53.643145"
 }

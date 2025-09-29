@@ -1,63 +1,105 @@
 {
   "purchase_id": "ord-00039",
   "customer": {
-    "customer_id": "cus-1037",
-    "first_name": "Ипатий",
-    "last_name": "Ларионова",
-    "email": "timurfadeev@example.org",
-    "phone": "+7 561 629 90 67",
+    "customer_id": "cus-1041",
+    "first_name": "Пимен",
+    "last_name": "Гуляева",
+    "email": "antip30@example.org",
+    "phone": "8 (236) 408-44-58",
     "is_loyalty_member": true,
-    "loyalty_card_number": "LOYAL-FA021EE45A"
+    "loyalty_card_number": "LOYAL-67837940E3"
   },
   "store": {
-    "store_id": "store-045",
-    "store_name": "Маленькая Пикча — Магазин на пр. Дзержинского",
-    "store_network": "Маленькая Пикча",
+    "store_id": "store-003",
+    "store_name": "Большая Пикча — Магазин на алл. Новая",
+    "store_network": "Большая Пикча",
     "location": {
       "country": "Россия",
-      "city": "клх Дагомыс",
-      "street": "алл. Гаражная",
-      "house": "5",
-      "postal_code": "904276",
+      "city": "к. Куртамыш",
+      "street": "ул. Минская",
+      "house": "2/8",
+      "postal_code": "417861",
       "coordinates": {
-        "latitude": 67.761409,
-        "longitude": 34.841356
+        "latitude": 52.1093415,
+        "longitude": -46.683943
       }
     }
   },
   "items": [
     {
-      "product_id": "prd-1016",
-      "name": "Школьный Очко",
-      "category": "🥖 Зерновые и хлебобулочные изделия",
-      "quantity": 5,
-      "unit": "шт",
-      "price_per_unit": 295.13,
-      "total_price": 1475.65,
+      "product_id": "prd-1002",
+      "name": "Манера Остановить",
+      "category": "🥛 Молочные продукты",
+      "quantity": 4,
+      "unit": "кг",
+      "price_per_unit": 49.56,
+      "total_price": 198.24,
       "kbju": {
-        "calories": 156.7,
-        "protein": 8.3,
-        "fat": 6.7,
-        "carbohydrates": 49.1
+        "calories": 233.3,
+        "protein": 5.6,
+        "fat": 13.1,
+        "carbohydrates": 34.2
       },
       "manufacturer": {
-        "name": "РАО «Марков»",
+        "name": "АО «Вишнякова-Устинова»",
         "country": "Россия",
-        "website": "https://argos.org",
-        "inn": "6328136246"
+        "website": "https://efimov.ru",
+        "inn": "0302933009"
+      }
+    },
+    {
+      "product_id": "prd-1008",
+      "name": "Упор Кузнец",
+      "category": "🍏 Фрукты и ягоды",
+      "quantity": 5,
+      "unit": "л",
+      "price_per_unit": 255.98,
+      "total_price": 1279.9,
+      "kbju": {
+        "calories": 143.1,
+        "protein": 6.1,
+        "fat": 3.5,
+        "carbohydrates": 47.3
+      },
+      "manufacturer": {
+        "name": "МТС-банк",
+        "country": "Россия",
+        "website": "https://shcherbakova.com",
+        "inn": "1911616255"
+      }
+    },
+    {
+      "product_id": "prd-1013",
+      "name": "Правление Банк",
+      "category": "🥛 Молочные продукты",
+      "quantity": 3,
+      "unit": "кг",
+      "price_per_unit": 210.76,
+      "total_price": 632.28,
+      "kbju": {
+        "calories": 279.5,
+        "protein": 12.1,
+        "fat": 5.8,
+        "carbohydrates": 44.9
+      },
+      "manufacturer": {
+        "name": "ИП «Королев, Кулагина и Медведева»",
+        "country": "Россия",
+        "website": "https://ooo.net",
+        "inn": "2561502092"
       }
     }
   ],
-  "total_amount": 1475.65,
-  "payment_method": "card",
-  "is_delivery": false,
+  "total_amount": 2110.42,
+  "payment_method": "cash",
+  "is_delivery": true,
   "delivery_address": {
     "country": "Россия",
-    "city": "д. Сосновый Бор",
-    "street": "ул. Халтурина",
-    "house": "4/1",
-    "apartment": "98",
-    "postal_code": "590899"
+    "city": "с. Любань",
+    "street": "алл. Маркса",
+    "house": "167",
+    "apartment": "59",
+    "postal_code": "476085"
   },
-  "purchase_datetime": "2025-09-12T00:21:05.934850"
+  "purchase_datetime": "2025-09-23T11:36:53.644822"
 }

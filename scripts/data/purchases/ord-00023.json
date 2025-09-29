@@ -1,63 +1,63 @@
 {
   "purchase_id": "ord-00023",
   "customer": {
-    "customer_id": "cus-1006",
+    "customer_id": "cus-1009",
     "first_name": "Регина",
-    "last_name": "Кудряшов",
-    "email": "seliverst_17@example.net",
-    "phone": "+7 153 863 80 58",
+    "last_name": "Галкина",
+    "email": "ibelozerova@example.net",
+    "phone": "+7 (044) 992-6879",
     "is_loyalty_member": true,
-    "loyalty_card_number": "LOYAL-12243F909F"
+    "loyalty_card_number": "LOYAL-E90EF7AB67"
   },
   "store": {
-    "store_id": "store-007",
-    "store_name": "Большая Пикча — Магазин на пр. Механический",
+    "store_id": "store-006",
+    "store_name": "Большая Пикча — Магазин на пр. Леваневского",
     "store_network": "Большая Пикча",
     "location": {
       "country": "Россия",
-      "city": "клх Шумиха",
-      "street": "бул. Невского",
-      "house": "64",
-      "postal_code": "269152",
+      "city": "ст. Губкин",
+      "street": "ш. Луговое",
+      "house": "952",
+      "postal_code": "282523",
       "coordinates": {
-        "latitude": 39.768381,
-        "longitude": 87.782488
+        "latitude": 5.8483085,
+        "longitude": 17.738948
       }
     }
   },
   "items": [
     {
-      "product_id": "prd-1012",
-      "name": "Школьный Анализ",
+      "product_id": "prd-1010",
+      "name": "Что Кидать",
       "category": "🥦 Овощи и зелень",
-      "quantity": 3,
-      "unit": "л",
-      "price_per_unit": 209.82,
-      "total_price": 629.46,
+      "quantity": 5,
+      "unit": "упаковка",
+      "price_per_unit": 47.43,
+      "total_price": 237.15,
       "kbju": {
-        "calories": 60.6,
-        "protein": 14.6,
-        "fat": 12.7,
-        "carbohydrates": 41.7
+        "calories": 192.3,
+        "protein": 18.7,
+        "fat": 5.8,
+        "carbohydrates": 28.5
       },
       "manufacturer": {
-        "name": "ИП «Беспалов-Тимофеев»",
+        "name": "ИП «Лихачев Наумова»",
         "country": "Россия",
-        "website": "https://npo.edu",
-        "inn": "6799042551"
+        "website": "https://protek.info",
+        "inn": "8715941222"
       }
     }
   ],
-  "total_amount": 629.46,
-  "payment_method": "card",
-  "is_delivery": true,
+  "total_amount": 237.15,
+  "payment_method": "cash",
+  "is_delivery": false,
   "delivery_address": {
     "country": "Россия",
-    "city": "клх Шумиха",
-    "street": "бул. Сурикова",
-    "house": "824",
-    "apartment": "2",
-    "postal_code": "530049"
+    "city": "г. Белорецк",
+    "street": "наб. Курганная",
+    "house": "82",
+    "apartment": "41",
+    "postal_code": "119073"
   },
-  "purchase_datetime": "2025-08-21T00:21:05.928226"
+  "purchase_datetime": "2025-08-08T11:36:53.638784"
 }

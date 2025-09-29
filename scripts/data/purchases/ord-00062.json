@@ -1,84 +1,84 @@
 {
   "purchase_id": "ord-00062",
   "customer": {
-    "customer_id": "cus-1033",
-    "first_name": "Карп",
-    "last_name": "Корнилов",
-    "email": "dmitri07@example.org",
-    "phone": "83587069742",
+    "customer_id": "cus-1030",
+    "first_name": "Данила",
+    "last_name": "Кабанов",
+    "email": "eduard_84@example.com",
+    "phone": "8 (961) 688-18-31",
     "is_loyalty_member": true,
-    "loyalty_card_number": "LOYAL-389C1FF3BC"
+    "loyalty_card_number": "LOYAL-8CCC7CF000"
   },
   "store": {
-    "store_id": "store-022",
-    "store_name": "Большая Пикча — Магазин на пер. Геологов",
+    "store_id": "store-016",
+    "store_name": "Большая Пикча — Магазин на бул. Придорожный",
     "store_network": "Большая Пикча",
     "location": {
       "country": "Россия",
-      "city": "г. Каменномостский",
-      "street": "наб. Балтийская",
-      "house": "3",
-      "postal_code": "206608",
+      "city": "к. Певек",
+      "street": "пр. Мичурина",
+      "house": "44",
+      "postal_code": "053365",
       "coordinates": {
-        "latitude": 70.41788,
-        "longitude": 35.145444
+        "latitude": -76.450329,
+        "longitude": 102.445723
       }
     }
   },
   "items": [
     {
-      "product_id": "prd-1002",
-      "name": "Еврейский Отражение",
-      "category": "🥩 Мясо, рыба, яйца и бобовые",
-      "quantity": 3,
-      "unit": "упаковка",
-      "price_per_unit": 268.07,
-      "total_price": 804.21,
+      "product_id": "prd-1007",
+      "name": "Интеллектуальный Около",
+      "category": "🥛 Молочные продукты",
+      "quantity": 1,
+      "unit": "шт",
+      "price_per_unit": 147.81,
+      "total_price": 147.81,
       "kbju": {
-        "calories": 264.5,
-        "protein": 5.4,
-        "fat": 13.4,
-        "carbohydrates": 29.2
+        "calories": 87.6,
+        "protein": 12.8,
+        "fat": 14.2,
+        "carbohydrates": 17.0
       },
       "manufacturer": {
-        "name": "ОАО «Мишин-Виноградова»",
+        "name": "ОАО «Владимирова Богданова»",
         "country": "Россия",
-        "website": "https://ooo.edu",
-        "inn": "8371422850"
+        "website": "https://ip.info",
+        "inn": "3430882539"
       }
     },
     {
-      "product_id": "prd-1006",
-      "name": "Вытаскивать Плод",
-      "category": "🍏 Фрукты и ягоды",
-      "quantity": 4,
-      "unit": "упаковка",
-      "price_per_unit": 123.36,
-      "total_price": 493.44,
+      "product_id": "prd-1009",
+      "name": "Выдержать Карман",
+      "category": "🥛 Молочные продукты",
+      "quantity": 5,
+      "unit": "кг",
+      "price_per_unit": 193.21,
+      "total_price": 966.05,
       "kbju": {
-        "calories": 124.2,
-        "protein": 11.3,
-        "fat": 2.6,
-        "carbohydrates": 42.9
+        "calories": 234.5,
+        "protein": 3.6,
+        "fat": 14.6,
+        "carbohydrates": 4.9
       },
       "manufacturer": {
-        "name": "ИП «Емельянов-Наумова»",
+        "name": "Романова и партнеры",
         "country": "Россия",
-        "website": "https://npo.edu",
-        "inn": "9973742158"
+        "website": "https://npo.biz",
+        "inn": "4877305481"
       }
     }
   ],
-  "total_amount": 1297.65,
-  "payment_method": "card",
-  "is_delivery": true,
+  "total_amount": 1113.86,
+  "payment_method": "cash",
+  "is_delivery": false,
   "delivery_address": {
     "country": "Россия",
-    "city": "к. Яшалта",
-    "street": "ш. Орджоникидзе",
-    "house": "189",
-    "apartment": "41",
-    "postal_code": "555752"
+    "city": "с. Аргаяш",
+    "street": "пер. Карла Либкнехта",
+    "house": "5/2",
+    "apartment": "87",
+    "postal_code": "539126"
   },
-  "purchase_datetime": "2025-08-25T00:21:05.944204"
+  "purchase_datetime": "2025-07-08T11:36:53.653473"
 }

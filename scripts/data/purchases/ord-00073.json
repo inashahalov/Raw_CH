@@ -1,105 +1,63 @@
 {
   "purchase_id": "ord-00073",
   "customer": {
-    "customer_id": "cus-1004",
-    "first_name": "Мстислав",
-    "last_name": "Фомин",
-    "email": "adam_2017@example.net",
-    "phone": "+73490219511",
+    "customer_id": "cus-1002",
+    "first_name": "Евгения",
+    "last_name": "Якушев",
+    "email": "martinovairina@example.net",
+    "phone": "+7 824 721 2309",
     "is_loyalty_member": true,
-    "loyalty_card_number": "LOYAL-69A22C9F90"
+    "loyalty_card_number": "LOYAL-13FF9996C5"
   },
   "store": {
-    "store_id": "store-019",
-    "store_name": "Большая Пикча — Магазин на ул. Серова",
-    "store_network": "Большая Пикча",
+    "store_id": "store-032",
+    "store_name": "Маленькая Пикча — Магазин на пер. Большой",
+    "store_network": "Маленькая Пикча",
     "location": {
       "country": "Россия",
-      "city": "г. Южно-Курильск",
-      "street": "пер. Коммунистический",
-      "house": "4",
-      "postal_code": "511510",
+      "city": "с. Кизилюрт",
+      "street": "ул. Крылова",
+      "house": "34",
+      "postal_code": "448931",
       "coordinates": {
-        "latitude": -33.1503555,
-        "longitude": 22.862732
+        "latitude": -34.754942,
+        "longitude": 17.064394
       }
     }
   },
   "items": [
     {
-      "product_id": "prd-1007",
-      "name": "Пища Беспомощный",
-      "category": "🥦 Овощи и зелень",
+      "product_id": "prd-1017",
+      "name": "Народ Построить",
+      "category": "🍏 Фрукты и ягоды",
       "quantity": 3,
-      "unit": "л",
-      "price_per_unit": 61.58,
-      "total_price": 184.74,
+      "unit": "шт",
+      "price_per_unit": 178.6,
+      "total_price": 535.8,
       "kbju": {
-        "calories": 155.9,
-        "protein": 7.5,
-        "fat": 9.2,
-        "carbohydrates": 7.7
+        "calories": 256.8,
+        "protein": 17.5,
+        "fat": 12.2,
+        "carbohydrates": 17.7
       },
       "manufacturer": {
-        "name": "АО «Гущин-Карпов»",
+        "name": "Корнилов и партнеры",
         "country": "Россия",
-        "website": "https://ip.net",
-        "inn": "7668416058"
-      }
-    },
-    {
-      "product_id": "prd-1001",
-      "name": "Домашний Жидкий",
-      "category": "🥛 Молочные продукты",
-      "quantity": 4,
-      "unit": "упаковка",
-      "price_per_unit": 74.5,
-      "total_price": 298.0,
-      "kbju": {
-        "calories": 173.9,
-        "protein": 3.6,
-        "fat": 11.0,
-        "carbohydrates": 7.4
-      },
-      "manufacturer": {
-        "name": "ОАО «Емельянова-Харитонов»",
-        "country": "Россия",
-        "website": "https://zao.edu",
-        "inn": "4413982995"
-      }
-    },
-    {
-      "product_id": "prd-1010",
-      "name": "Мгновение Вряд",
-      "category": "🥦 Овощи и зелень",
-      "quantity": 3,
-      "unit": "кг",
-      "price_per_unit": 149.03,
-      "total_price": 447.09,
-      "kbju": {
-        "calories": 186.1,
-        "protein": 15.0,
-        "fat": 10.1,
-        "carbohydrates": 27.3
-      },
-      "manufacturer": {
-        "name": "ИП «Блохина-Гаврилов»",
-        "country": "Россия",
-        "website": "https://oao.com",
-        "inn": "1245272063"
+        "website": "https://rao.org",
+        "inn": "2545527642"
       }
     }
   ],
-  "total_amount": 929.83,
-  "payment_method": "cash",
+  "total_amount": 535.8,
+  "payment_method": "card",
   "is_delivery": false,
   "delivery_address": {
     "country": "Россия",
-    "city": "к. Шелехов",
-    "street": "алл. Высотная",
-    "house": "4/6",
-    "apartment": "89",
-    "postal_code": "352737"
+    "city": "к. Куртамыш",
+    "street": "ул. Беляева",
+    "house": "27",
+    "apartment": "45",
+    "postal_code": "141618"
   },
-  "purchase_datetime": "2025-09-06T00:21:05.948464"
+  "purchase_datetime": "2025-09-16T11:36:53.657296"
 }

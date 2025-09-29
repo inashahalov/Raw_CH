@@ -1,6 +1,6 @@
 {
   "store_id": "store-002",
-  "store_name": "Большая Пикча — Магазин на пр. Мирный",
+  "store_name": "Большая Пикча — Магазин на наб. Проточная",
   "store_network": "Большая Пикча",
   "store_type_description": "Супермаркет более 200 кв.м. Входит в сеть из 30 магазинов.",
   "type": "offline",
@@ -12,19 +12,19 @@
     "🥦 Овощи и зелень"
   ],
   "manager": {
-    "name": "Януарий Теймуразович Степанов",
-    "phone": "+7 291 245 6214",
-    "email": "kornil68@example.org"
+    "name": "Красильников Родион Бориславович",
+    "phone": "8 (813) 243-99-11",
+    "email": "polikarp2016@example.net"
   },
   "location": {
     "country": "Россия",
-    "city": "клх Видное",
-    "street": "пр. Толбухина",
-    "house": "9/6",
-    "postal_code": "511141",
+    "city": "г. Внуково (метеост.)",
+    "street": "пр. Высоцкого",
+    "house": "639",
+    "postal_code": "915797",
     "coordinates": {
-      "latitude": 13.224143,
-      "longitude": -111.857686
+      "latitude": -63.399121,
+      "longitude": 145.807952
     }
   },
   "opening_hours": {
@@ -34,6 +34,6 @@
   },
   "accepts_online_orders": true,
   "delivery_available": true,
-  "warehouse_connected": true,
-  "last_inventory_date": "2025-09-25"
+  "warehouse_connected": false,
+  "last_inventory_date": "2025-09-29"
 }

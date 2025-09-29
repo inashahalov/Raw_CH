@@ -1,84 +1,105 @@
 {
   "purchase_id": "ord-00120",
   "customer": {
-    "customer_id": "cus-1013",
-    "first_name": "Селиван",
-    "last_name": "Савельев",
-    "email": "vissarion_40@example.com",
-    "phone": "+71178778499",
+    "customer_id": "cus-1017",
+    "first_name": "Светозар",
+    "last_name": "Беспалов",
+    "email": "oleg69@example.org",
+    "phone": "+7 (197) 286-56-89",
     "is_loyalty_member": true,
-    "loyalty_card_number": "LOYAL-CA2847D92B"
+    "loyalty_card_number": "LOYAL-F2D48C3AC6"
   },
   "store": {
-    "store_id": "store-016",
-    "store_name": "Большая Пикча — Магазин на пр. Горького",
-    "store_network": "Большая Пикча",
+    "store_id": "store-031",
+    "store_name": "Маленькая Пикча — Магазин на алл. Озерная",
+    "store_network": "Маленькая Пикча",
     "location": {
       "country": "Россия",
-      "city": "клх Новомичуринск",
-      "street": "пер. З.Космодемьянской",
-      "house": "8",
-      "postal_code": "646457",
+      "city": "с. Аргаяш",
+      "street": "наб. Дальняя",
+      "house": "10",
+      "postal_code": "465584",
       "coordinates": {
-        "latitude": -13.8879685,
-        "longitude": -88.240324
+        "latitude": 21.7768635,
+        "longitude": 107.910087
       }
     }
   },
   "items": [
     {
-      "product_id": "prd-1007",
-      "name": "Пища Беспомощный",
-      "category": "🥦 Овощи и зелень",
-      "quantity": 4,
-      "unit": "л",
-      "price_per_unit": 61.58,
-      "total_price": 246.32,
+      "product_id": "prd-1004",
+      "name": "Заявление Шлем",
+      "category": "🥩 Мясо, рыба, яйца и бобовые",
+      "quantity": 5,
+      "unit": "упаковка",
+      "price_per_unit": 261.08,
+      "total_price": 1305.4,
       "kbju": {
-        "calories": 155.9,
-        "protein": 7.5,
+        "calories": 178.3,
+        "protein": 8.6,
         "fat": 9.2,
-        "carbohydrates": 7.7
+        "carbohydrates": 12.8
       },
       "manufacturer": {
-        "name": "АО «Гущин-Карпов»",
+        "name": "ОАО «Орлов Попова»",
         "country": "Россия",
-        "website": "https://ip.net",
-        "inn": "7668416058"
+        "website": "https://metallservis.ru",
+        "inn": "4728731918"
+      }
+    },
+    {
+      "product_id": "prd-1011",
+      "name": "Зачем Вскакивать",
+      "category": "🥛 Молочные продукты",
+      "quantity": 2,
+      "unit": "шт",
+      "price_per_unit": 105.34,
+      "total_price": 210.68,
+      "kbju": {
+        "calories": 207.5,
+        "protein": 16.9,
+        "fat": 5.3,
+        "carbohydrates": 19.0
+      },
+      "manufacturer": {
+        "name": "ИП «Нестеров, Лыткин и Евсеев»",
+        "country": "Россия",
+        "website": "https://ip.ru",
+        "inn": "1814255141"
       }
     },
     {
       "product_id": "prd-1016",
-      "name": "Школьный Очко",
-      "category": "🥖 Зерновые и хлебобулочные изделия",
-      "quantity": 5,
+      "name": "Ребятишки Лететь",
+      "category": "🥦 Овощи и зелень",
+      "quantity": 2,
       "unit": "шт",
-      "price_per_unit": 295.13,
-      "total_price": 1475.65,
+      "price_per_unit": 266.18,
+      "total_price": 532.36,
       "kbju": {
-        "calories": 156.7,
-        "protein": 8.3,
-        "fat": 6.7,
-        "carbohydrates": 49.1
+        "calories": 249.2,
+        "protein": 2.2,
+        "fat": 4.1,
+        "carbohydrates": 29.2
       },
       "manufacturer": {
-        "name": "РАО «Марков»",
+        "name": "АО «Быкова, Наумов и Фадеев»",
         "country": "Россия",
-        "website": "https://argos.org",
-        "inn": "6328136246"
+        "website": "https://rao.ru",
+        "inn": "1171341012"
       }
     }
   ],
-  "total_amount": 1721.97,
+  "total_amount": 2048.44,
   "payment_method": "card",
   "is_delivery": true,
   "delivery_address": {
     "country": "Россия",
-    "city": "п. Качканар",
-    "street": "пр. Геологов",
-    "house": "882",
-    "apartment": "57",
-    "postal_code": "363767"
+    "city": "с. Прохладный",
+    "street": "пер. Коммунистический",
+    "house": "75",
+    "apartment": "98",
+    "postal_code": "489797"
   },
-  "purchase_datetime": "2025-06-29T00:21:05.969417"
+  "purchase_datetime": "2025-07-10T11:36:53.674397"
 }

@@ -1,84 +1,63 @@
 {
   "purchase_id": "ord-00054",
   "customer": {
-    "customer_id": "cus-1021",
-    "first_name": "Никанор",
-    "last_name": "Красильникова",
-    "email": "mihail1977@example.com",
-    "phone": "8 811 770 3445",
+    "customer_id": "cus-1000",
+    "first_name": "Галактион",
+    "last_name": "Колесникова",
+    "email": "matveevavasilisa@example.org",
+    "phone": "86591576119",
     "is_loyalty_member": true,
-    "loyalty_card_number": "LOYAL-A495EF04B9"
+    "loyalty_card_number": "LOYAL-0D8B39670E"
   },
   "store": {
-    "store_id": "store-027",
-    "store_name": "Большая Пикча — Магазин на пер. Сибирский",
+    "store_id": "store-030",
+    "store_name": "Большая Пикча — Магазин на ш. Веселое",
     "store_network": "Большая Пикча",
     "location": {
       "country": "Россия",
-      "city": "г. Саранск",
-      "street": "бул. Парижской Коммуны",
-      "house": "5/1",
-      "postal_code": "320168",
+      "city": "п. Калининград",
+      "street": "ш. Сибирское",
+      "house": "81",
+      "postal_code": "675168",
       "coordinates": {
-        "latitude": 72.4326485,
-        "longitude": 142.283966
+        "latitude": -39.0920925,
+        "longitude": 133.662951
       }
     }
   },
   "items": [
     {
-      "product_id": "prd-1009",
-      "name": "Слать Бригада",
-      "category": "🥛 Молочные продукты",
-      "quantity": 2,
+      "product_id": "prd-1008",
+      "name": "Упор Кузнец",
+      "category": "🍏 Фрукты и ягоды",
+      "quantity": 5,
       "unit": "л",
-      "price_per_unit": 240.9,
-      "total_price": 481.8,
+      "price_per_unit": 255.98,
+      "total_price": 1279.9,
       "kbju": {
-        "calories": 156.2,
-        "protein": 15.7,
-        "fat": 13.4,
-        "carbohydrates": 7.6
+        "calories": 143.1,
+        "protein": 6.1,
+        "fat": 3.5,
+        "carbohydrates": 47.3
       },
       "manufacturer": {
-        "name": "НПО «Ефимова»",
+        "name": "МТС-банк",
         "country": "Россия",
-        "website": "https://ford.com",
-        "inn": "3687837951"
-      }
-    },
-    {
-      "product_id": "prd-1011",
-      "name": "Привлекать Пол",
-      "category": "🥩 Мясо, рыба, яйца и бобовые",
-      "quantity": 2,
-      "unit": "л",
-      "price_per_unit": 85.86,
-      "total_price": 171.72,
-      "kbju": {
-        "calories": 65.4,
-        "protein": 5.6,
-        "fat": 1.9,
-        "carbohydrates": 24.1
-      },
-      "manufacturer": {
-        "name": "ИП «Галкина-Терентьев»",
-        "country": "Россия",
-        "website": "https://rao.ru",
-        "inn": "5528391758"
+        "website": "https://shcherbakova.com",
+        "inn": "1911616255"
       }
     }
   ],
-  "total_amount": 653.52,
+  "total_amount": 1279.9,
   "payment_method": "cash",
   "is_delivery": false,
   "delivery_address": {
     "country": "Россия",
-    "city": "г. Каменномостский",
-    "street": "пр. Средний",
-    "house": "80",
-    "apartment": "32",
-    "postal_code": "917327"
+    "city": "д. Горячий Ключ",
+    "street": "ш. Огородное",
+    "house": "2/4",
+    "apartment": "6",
+    "postal_code": "519228"
   },
-  "purchase_datetime": "2025-08-02T00:21:05.940349"
+  "purchase_datetime": "2025-07-14T11:36:53.650549"
 }

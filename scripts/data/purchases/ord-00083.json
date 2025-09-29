@@ -1,63 +1,84 @@
 {
   "purchase_id": "ord-00083",
   "customer": {
-    "customer_id": "cus-1039",
-    "first_name": "Елизавета",
-    "last_name": "Колесникова",
-    "email": "wdementev@example.com",
-    "phone": "+71929955281",
+    "customer_id": "cus-1040",
+    "first_name": "Захар",
+    "last_name": "Сергеева",
+    "email": "markovaristarh@example.org",
+    "phone": "8 (514) 104-3564",
     "is_loyalty_member": true,
-    "loyalty_card_number": "LOYAL-6607096E44"
+    "loyalty_card_number": "LOYAL-32912B1ECD"
   },
   "store": {
-    "store_id": "store-034",
-    "store_name": "Маленькая Пикча — Магазин на пер. Большевистский",
-    "store_network": "Маленькая Пикча",
+    "store_id": "store-007",
+    "store_name": "Большая Пикча — Магазин на ш. Медицинское",
+    "store_network": "Большая Пикча",
     "location": {
       "country": "Россия",
-      "city": "к. Яшалта",
-      "street": "алл. Лунная",
-      "house": "3",
-      "postal_code": "125791",
+      "city": "п. Воронеж",
+      "street": "алл. Инженерная",
+      "house": "288",
+      "postal_code": "258116",
       "coordinates": {
-        "latitude": 35.452102,
-        "longitude": 117.041786
+        "latitude": -45.824131,
+        "longitude": -4.141949
       }
     }
   },
   "items": [
     {
-      "product_id": "prd-1007",
-      "name": "Пища Беспомощный",
-      "category": "🥦 Овощи и зелень",
+      "product_id": "prd-1018",
+      "name": "Отметить Парень",
+      "category": "🥩 Мясо, рыба, яйца и бобовые",
       "quantity": 5,
-      "unit": "л",
-      "price_per_unit": 61.58,
-      "total_price": 307.9,
+      "unit": "шт",
+      "price_per_unit": 241.62,
+      "total_price": 1208.1,
       "kbju": {
-        "calories": 155.9,
-        "protein": 7.5,
-        "fat": 9.2,
-        "carbohydrates": 7.7
+        "calories": 295.0,
+        "protein": 3.5,
+        "fat": 6.0,
+        "carbohydrates": 2.6
       },
       "manufacturer": {
-        "name": "АО «Гущин-Карпов»",
+        "name": "Петухов Лтд",
         "country": "Россия",
-        "website": "https://ip.net",
-        "inn": "7668416058"
+        "website": "https://rao.ru",
+        "inn": "4394791537"
+      }
+    },
+    {
+      "product_id": "prd-1003",
+      "name": "Спалить Лететь",
+      "category": "🍏 Фрукты и ягоды",
+      "quantity": 1,
+      "unit": "кг",
+      "price_per_unit": 68.82,
+      "total_price": 68.82,
+      "kbju": {
+        "calories": 203.9,
+        "protein": 5.3,
+        "fat": 0.6,
+        "carbohydrates": 11.5
+      },
+      "manufacturer": {
+        "name": "ООО «Беляков Капустина»",
+        "country": "Россия",
+        "website": "https://mostransavto.org",
+        "inn": "0958619414"
       }
     }
   ],
-  "total_amount": 307.9,
-  "payment_method": "card",
-  "is_delivery": true,
+  "total_amount": 1276.92,
+  "payment_method": "cash",
+  "is_delivery": false,
   "delivery_address": {
     "country": "Россия",
-    "city": "д. Гатчина",
-    "street": "наб. Сенная",
-    "house": "25",
-    "apartment": "58",
-    "postal_code": "343297"
+    "city": "п. Кетченеры",
+    "street": "ул. Ульяновская",
+    "house": "77",
+    "apartment": "63",
+    "postal_code": "395117"
   },
-  "purchase_datetime": "2025-07-30T00:21:05.953202"
+  "purchase_datetime": "2025-07-04T11:36:53.661285"
 }

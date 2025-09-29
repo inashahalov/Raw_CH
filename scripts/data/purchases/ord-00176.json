@@ -1,105 +1,63 @@
 {
   "purchase_id": "ord-00176",
   "customer": {
-    "customer_id": "cus-1035",
-    "first_name": "Станимир",
-    "last_name": "Семенов",
-    "email": "lukija2011@example.com",
-    "phone": "+7 (312) 285-31-25",
+    "customer_id": "cus-1017",
+    "first_name": "Светозар",
+    "last_name": "Беспалов",
+    "email": "oleg69@example.org",
+    "phone": "+7 (197) 286-56-89",
     "is_loyalty_member": true,
-    "loyalty_card_number": "LOYAL-E7C27EFAE9"
+    "loyalty_card_number": "LOYAL-F2D48C3AC6"
   },
   "store": {
-    "store_id": "store-004",
-    "store_name": "Большая Пикча — Магазин на ул. Ломоносова",
+    "store_id": "store-018",
+    "store_name": "Большая Пикча — Магазин на алл. Механизаторов",
     "store_network": "Большая Пикча",
     "location": {
       "country": "Россия",
-      "city": "с. Кабанск",
-      "street": "бул. Торговый",
-      "house": "447",
-      "postal_code": "208629",
+      "city": "с. Прохладный",
+      "street": "наб. Механическая",
+      "house": "7/3",
+      "postal_code": "727677",
       "coordinates": {
-        "latitude": 66.8270835,
-        "longitude": 20.541815
+        "latitude": -88.8383715,
+        "longitude": 157.883586
       }
     }
   },
   "items": [
     {
-      "product_id": "prd-1019",
-      "name": "Сынок Обида",
-      "category": "🍏 Фрукты и ягоды",
-      "quantity": 5,
-      "unit": "кг",
-      "price_per_unit": 86.19,
-      "total_price": 430.95,
-      "kbju": {
-        "calories": 224.4,
-        "protein": 5.9,
-        "fat": 13.9,
-        "carbohydrates": 7.6
-      },
-      "manufacturer": {
-        "name": "ООО «Шилов-Константинова»",
-        "country": "Россия",
-        "website": "https://ooo.org",
-        "inn": "6666152301"
-      }
-    },
-    {
-      "product_id": "prd-1001",
-      "name": "Домашний Жидкий",
-      "category": "🥛 Молочные продукты",
-      "quantity": 1,
-      "unit": "упаковка",
-      "price_per_unit": 74.5,
-      "total_price": 74.5,
-      "kbju": {
-        "calories": 173.9,
-        "protein": 3.6,
-        "fat": 11.0,
-        "carbohydrates": 7.4
-      },
-      "manufacturer": {
-        "name": "ОАО «Емельянова-Харитонов»",
-        "country": "Россия",
-        "website": "https://zao.edu",
-        "inn": "4413982995"
-      }
-    },
-    {
-      "product_id": "prd-1002",
-      "name": "Еврейский Отражение",
+      "product_id": "prd-1018",
+      "name": "Отметить Парень",
       "category": "🥩 Мясо, рыба, яйца и бобовые",
-      "quantity": 2,
-      "unit": "упаковка",
-      "price_per_unit": 268.07,
-      "total_price": 536.14,
+      "quantity": 1,
+      "unit": "шт",
+      "price_per_unit": 241.62,
+      "total_price": 241.62,
       "kbju": {
-        "calories": 264.5,
-        "protein": 5.4,
-        "fat": 13.4,
-        "carbohydrates": 29.2
+        "calories": 295.0,
+        "protein": 3.5,
+        "fat": 6.0,
+        "carbohydrates": 2.6
       },
       "manufacturer": {
-        "name": "ОАО «Мишин-Виноградова»",
+        "name": "Петухов Лтд",
         "country": "Россия",
-        "website": "https://ooo.edu",
-        "inn": "8371422850"
+        "website": "https://rao.ru",
+        "inn": "4394791537"
       }
     }
   ],
-  "total_amount": 1041.59,
-  "payment_method": "cash",
+  "total_amount": 241.62,
+  "payment_method": "card",
   "is_delivery": false,
   "delivery_address": {
     "country": "Россия",
-    "city": "д. Екатеринбург",
-    "street": "ш. Макарова",
-    "house": "31",
-    "apartment": "92",
-    "postal_code": "809342"
+    "city": "с. Прохладный",
+    "street": "пер. Коммунистический",
+    "house": "75",
+    "apartment": "98",
+    "postal_code": "489797"
   },
-  "purchase_datetime": "2025-09-08T00:21:06.236029"
+  "purchase_datetime": "2025-08-16T11:36:53.694521"
 }

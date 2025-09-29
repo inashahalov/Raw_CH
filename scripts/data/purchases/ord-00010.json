@@ -1,63 +1,84 @@
 {
   "purchase_id": "ord-00010",
   "customer": {
-    "customer_id": "cus-1034",
-    "first_name": "Глеб",
-    "last_name": "Суханова",
-    "email": "frolovipat@example.org",
-    "phone": "+7 828 354 05 71",
+    "customer_id": "cus-1014",
+    "first_name": "Светозар",
+    "last_name": "Пономарева",
+    "email": "leon2004@example.com",
+    "phone": "+7 120 108 0111",
     "is_loyalty_member": true,
-    "loyalty_card_number": "LOYAL-4B3C52328F"
+    "loyalty_card_number": "LOYAL-41ED8258D6"
   },
   "store": {
-    "store_id": "store-014",
-    "store_name": "Большая Пикча — Магазин на ш. Школьное",
-    "store_network": "Большая Пикча",
+    "store_id": "store-043",
+    "store_name": "Маленькая Пикча — Магазин на наб. Пограничная",
+    "store_network": "Маленькая Пикча",
     "location": {
       "country": "Россия",
-      "city": "п. Качканар",
-      "street": "пр. Щетинкина",
-      "house": "45",
-      "postal_code": "380111",
+      "city": "клх Ясный (Оренб.)",
+      "street": "пер. Ленинский",
+      "house": "8/6",
+      "postal_code": "274845",
       "coordinates": {
-        "latitude": -48.1943695,
-        "longitude": -77.577854
+        "latitude": -0.776416,
+        "longitude": -67.21301
       }
     }
   },
   "items": [
     {
-      "product_id": "prd-1002",
-      "name": "Еврейский Отражение",
-      "category": "🥩 Мясо, рыба, яйца и бобовые",
-      "quantity": 1,
+      "product_id": "prd-1010",
+      "name": "Что Кидать",
+      "category": "🥦 Овощи и зелень",
+      "quantity": 5,
       "unit": "упаковка",
-      "price_per_unit": 268.07,
-      "total_price": 268.07,
+      "price_per_unit": 47.43,
+      "total_price": 237.15,
       "kbju": {
-        "calories": 264.5,
-        "protein": 5.4,
-        "fat": 13.4,
-        "carbohydrates": 29.2
+        "calories": 192.3,
+        "protein": 18.7,
+        "fat": 5.8,
+        "carbohydrates": 28.5
       },
       "manufacturer": {
-        "name": "ОАО «Мишин-Виноградова»",
+        "name": "ИП «Лихачев Наумова»",
         "country": "Россия",
-        "website": "https://ooo.edu",
-        "inn": "8371422850"
+        "website": "https://protek.info",
+        "inn": "8715941222"
+      }
+    },
+    {
+      "product_id": "prd-1009",
+      "name": "Выдержать Карман",
+      "category": "🥛 Молочные продукты",
+      "quantity": 5,
+      "unit": "кг",
+      "price_per_unit": 193.21,
+      "total_price": 966.05,
+      "kbju": {
+        "calories": 234.5,
+        "protein": 3.6,
+        "fat": 14.6,
+        "carbohydrates": 4.9
+      },
+      "manufacturer": {
+        "name": "Романова и партнеры",
+        "country": "Россия",
+        "website": "https://npo.biz",
+        "inn": "4877305481"
       }
     }
   ],
-  "total_amount": 268.07,
-  "payment_method": "card",
+  "total_amount": 1203.2,
+  "payment_method": "cash",
   "is_delivery": true,
   "delivery_address": {
     "country": "Россия",
-    "city": "п. Нерчинск",
-    "street": "пер. Красный",
-    "house": "4",
-    "apartment": "61",
-    "postal_code": "843709"
+    "city": "ст. Двинской",
+    "street": "пр. Набережный",
+    "house": "252",
+    "apartment": "41",
+    "postal_code": "786887"
   },
-  "purchase_datetime": "2025-08-01T00:21:05.923045"
+  "purchase_datetime": "2025-09-10T11:36:53.633568"
 }

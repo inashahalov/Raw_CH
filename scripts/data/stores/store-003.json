@@ -1,6 +1,6 @@
 {
   "store_id": "store-003",
-  "store_name": "Большая Пикча — Магазин на ул. Тульская",
+  "store_name": "Большая Пикча — Магазин на алл. Новая",
   "store_network": "Большая Пикча",
   "store_type_description": "Супермаркет более 200 кв.м. Входит в сеть из 30 магазинов.",
   "type": "offline",
@@ -12,19 +12,19 @@
     "🥦 Овощи и зелень"
   ],
   "manager": {
-    "name": "Герман Еремеевич Колесников",
-    "phone": "+7 (656) 382-21-42",
-    "email": "jaroslav_70@example.com"
+    "name": "Дмитриева Светлана Рубеновна",
+    "phone": "+7 (821) 487-98-37",
+    "email": "ivasilev@example.org"
   },
   "location": {
     "country": "Россия",
-    "city": "ст. Игарка",
-    "street": "наб. Смирнова",
-    "house": "31",
-    "postal_code": "004171",
+    "city": "к. Куртамыш",
+    "street": "ул. Минская",
+    "house": "2/8",
+    "postal_code": "417861",
     "coordinates": {
-      "latitude": -4.03426,
-      "longitude": 25.806164
+      "latitude": 52.1093415,
+      "longitude": -46.683943
     }
   },
   "opening_hours": {
@@ -35,5 +35,5 @@
   "accepts_online_orders": true,
   "delivery_available": true,
   "warehouse_connected": true,
-  "last_inventory_date": "2025-09-25"
+  "last_inventory_date": "2025-09-29"
 }

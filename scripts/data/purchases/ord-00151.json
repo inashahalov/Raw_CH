@@ -1,63 +1,105 @@
 {
   "purchase_id": "ord-00151",
   "customer": {
-    "customer_id": "cus-1010",
-    "first_name": "Мартьян",
-    "last_name": "Ларионов",
-    "email": "kpestova@example.com",
-    "phone": "+7 229 169 07 41",
+    "customer_id": "cus-1032",
+    "first_name": "Мариан",
+    "last_name": "Вишняков",
+    "email": "jakov80@example.com",
+    "phone": "8 675 870 6492",
     "is_loyalty_member": true,
-    "loyalty_card_number": "LOYAL-DB4F6E6E4D"
+    "loyalty_card_number": "LOYAL-3EB29158E4"
   },
   "store": {
-    "store_id": "store-013",
-    "store_name": "Большая Пикча — Магазин на алл. Мелиоративная",
-    "store_network": "Большая Пикча",
+    "store_id": "store-044",
+    "store_name": "Маленькая Пикча — Магазин на алл. Дорожная",
+    "store_network": "Маленькая Пикча",
     "location": {
       "country": "Россия",
-      "city": "п. Лазаревское",
-      "street": "пер. Малый",
-      "house": "88",
-      "postal_code": "425601",
+      "city": "д. Нерчинск",
+      "street": "пер. Крымский",
+      "house": "1",
+      "postal_code": "830795",
       "coordinates": {
-        "latitude": -84.4676175,
-        "longitude": -90.154137
+        "latitude": 44.647401,
+        "longitude": -138.20477
       }
     }
   },
   "items": [
     {
-      "product_id": "prd-1017",
-      "name": "Цель Единый",
-      "category": "🥖 Зерновые и хлебобулочные изделия",
+      "product_id": "prd-1015",
+      "name": "Табак Госпожа",
+      "category": "🥛 Молочные продукты",
       "quantity": 4,
-      "unit": "упаковка",
-      "price_per_unit": 99.97,
-      "total_price": 399.88,
+      "unit": "л",
+      "price_per_unit": 235.2,
+      "total_price": 940.8,
       "kbju": {
-        "calories": 97.4,
-        "protein": 12.5,
-        "fat": 14.8,
-        "carbohydrates": 11.6
+        "calories": 99.6,
+        "protein": 9.1,
+        "fat": 4.4,
+        "carbohydrates": 37.7
       },
       "manufacturer": {
-        "name": "АО «Белякова»",
+        "name": "ИП «Куликов, Степанов и Соболева»",
         "country": "Россия",
-        "website": "https://rao.com",
-        "inn": "0030371079"
+        "website": "https://rjabov.info",
+        "inn": "9167946809"
+      }
+    },
+    {
+      "product_id": "prd-1018",
+      "name": "Отметить Парень",
+      "category": "🥩 Мясо, рыба, яйца и бобовые",
+      "quantity": 1,
+      "unit": "шт",
+      "price_per_unit": 241.62,
+      "total_price": 241.62,
+      "kbju": {
+        "calories": 295.0,
+        "protein": 3.5,
+        "fat": 6.0,
+        "carbohydrates": 2.6
+      },
+      "manufacturer": {
+        "name": "Петухов Лтд",
+        "country": "Россия",
+        "website": "https://rao.ru",
+        "inn": "4394791537"
+      }
+    },
+    {
+      "product_id": "prd-1002",
+      "name": "Манера Остановить",
+      "category": "🥛 Молочные продукты",
+      "quantity": 2,
+      "unit": "кг",
+      "price_per_unit": 49.56,
+      "total_price": 99.12,
+      "kbju": {
+        "calories": 233.3,
+        "protein": 5.6,
+        "fat": 13.1,
+        "carbohydrates": 34.2
+      },
+      "manufacturer": {
+        "name": "АО «Вишнякова-Устинова»",
+        "country": "Россия",
+        "website": "https://efimov.ru",
+        "inn": "0302933009"
       }
     }
   ],
-  "total_amount": 399.88,
-  "payment_method": "cash",
-  "is_delivery": false,
+  "total_amount": 1281.54,
+  "payment_method": "card",
+  "is_delivery": true,
   "delivery_address": {
     "country": "Россия",
-    "city": "клх Шали",
-    "street": "наб. Курчатова",
-    "house": "26",
-    "apartment": "100",
-    "postal_code": "877623"
+    "city": "к. Арзамас",
+    "street": "бул. Степана Разина",
+    "house": "174",
+    "apartment": "19",
+    "postal_code": "658013"
   },
-  "purchase_datetime": "2025-09-12T00:21:06.225507"
+  "purchase_datetime": "2025-07-11T11:36:53.686241"
 }

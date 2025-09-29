@@ -1,63 +1,63 @@
 {
   "purchase_id": "ord-00170",
   "customer": {
-    "customer_id": "cus-1015",
-    "first_name": "Аникей",
-    "last_name": "Новиков",
-    "email": "oisakova@example.org",
-    "phone": "8 (510) 536-4882",
+    "customer_id": "cus-1012",
+    "first_name": "Ипполит",
+    "last_name": "Юдина",
+    "email": "tverdislav1982@example.net",
+    "phone": "8 (058) 698-1657",
     "is_loyalty_member": true,
-    "loyalty_card_number": "LOYAL-E87EA9AED1"
+    "loyalty_card_number": "LOYAL-5DE9D47D7A"
   },
   "store": {
-    "store_id": "store-017",
-    "store_name": "Большая Пикча — Магазин на алл. Тамбовская",
+    "store_id": "store-025",
+    "store_name": "Большая Пикча — Магазин на ш. Гагарина",
     "store_network": "Большая Пикча",
     "location": {
       "country": "Россия",
-      "city": "к. Воркута",
-      "street": "наб. Байкальская",
-      "house": "38",
-      "postal_code": "038139",
+      "city": "ст. Мичуринск",
+      "street": "наб. Гоголя",
+      "house": "78",
+      "postal_code": "729137",
       "coordinates": {
-        "latitude": -35.4698385,
-        "longitude": 107.698
+        "latitude": -53.14136,
+        "longitude": -53.865817
       }
     }
   },
   "items": [
     {
-      "product_id": "prd-1017",
-      "name": "Цель Единый",
+      "product_id": "prd-1012",
+      "name": "Торговля Счастье",
       "category": "🥖 Зерновые и хлебобулочные изделия",
       "quantity": 2,
-      "unit": "упаковка",
-      "price_per_unit": 99.97,
-      "total_price": 199.94,
+      "unit": "л",
+      "price_per_unit": 70.91,
+      "total_price": 141.82,
       "kbju": {
-        "calories": 97.4,
-        "protein": 12.5,
-        "fat": 14.8,
-        "carbohydrates": 11.6
+        "calories": 149.8,
+        "protein": 5.8,
+        "fat": 6.3,
+        "carbohydrates": 24.8
       },
       "manufacturer": {
-        "name": "АО «Белякова»",
+        "name": "НПО «Некрасова»",
         "country": "Россия",
-        "website": "https://rao.com",
-        "inn": "0030371079"
+        "website": "https://ao.org",
+        "inn": "8419489062"
       }
     }
   ],
-  "total_amount": 199.94,
+  "total_amount": 141.82,
   "payment_method": "cash",
-  "is_delivery": true,
+  "is_delivery": false,
   "delivery_address": {
     "country": "Россия",
-    "city": "клх Новомичуринск",
-    "street": "алл. Космонавтов",
-    "house": "8/4",
-    "apartment": "96",
-    "postal_code": "158931"
+    "city": "ст. Ачинск",
+    "street": "алл. Ставропольская",
+    "house": "95",
+    "apartment": "15",
+    "postal_code": "959483"
   },
-  "purchase_datetime": "2025-06-28T00:21:06.233739"
+  "purchase_datetime": "2025-09-08T11:36:53.692530"
 }

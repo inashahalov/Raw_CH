@@ -1,36 +1,36 @@
 {
   "customer_id": "cus-1020",
-  "first_name": "Эраст",
-  "last_name": "Куликова",
-  "email": "gremislavkondratev@example.net",
-  "phone": "8 672 125 64 83",
-  "birth_date": "1965-05-07",
-  "gender": "male",
-  "registration_date": "2025-09-25T00:21:05.904422",
+  "first_name": "Назар",
+  "last_name": "Андреева",
+  "email": "sbogdanova@example.com",
+  "phone": "8 897 525 1983",
+  "birth_date": "1994-12-28",
+  "gender": "female",
+  "registration_date": "2025-09-29T11:36:53.619184",
   "is_loyalty_member": true,
-  "loyalty_card_number": "LOYAL-7883FC4DA4",
+  "loyalty_card_number": "LOYAL-DB9ED9AC67",
   "purchase_location": {
     "store_id": "store-021",
-    "store_name": "Большая Пикча — Магазин на алл. Огородная",
+    "store_name": "Большая Пикча — Магазин на пр. Производственный",
     "store_network": "Большая Пикча",
     "store_type_description": "Супермаркет более 200 кв.м. Входит в сеть из 30 магазинов.",
     "country": "Россия",
-    "city": "п. Энгельс",
-    "street": "ш. Партизанское",
-    "house": "9/6",
-    "postal_code": "123462"
+    "city": "г. Ступино",
+    "street": "наб. 50 лет ВЛКСМ",
+    "house": "79",
+    "postal_code": "971583"
   },
   "delivery_address": {
     "country": "Россия",
-    "city": "п. Энгельс",
-    "street": "ул. Тепличная",
-    "house": "78",
-    "apartment": "45",
-    "postal_code": "770377"
+    "city": "г. Ступино",
+    "street": "пер. Транспортный",
+    "house": "12",
+    "apartment": "10",
+    "postal_code": "389125"
   },
   "preferences": {
     "preferred_language": "ru",
     "preferred_payment_method": "card",
-    "receive_promotions": false
+    "receive_promotions": true
   }
 }

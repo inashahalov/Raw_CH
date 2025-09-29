@@ -1,63 +1,105 @@
 {
   "purchase_id": "ord-00159",
   "customer": {
-    "customer_id": "cus-1043",
-    "first_name": "Кир",
-    "last_name": "Калашников",
-    "email": "bsamsonov@example.org",
-    "phone": "+7 (013) 078-6626",
+    "customer_id": "cus-1033",
+    "first_name": "Регина",
+    "last_name": "Мясникова",
+    "email": "merkushevvasili@example.net",
+    "phone": "+7 108 060 5193",
     "is_loyalty_member": true,
-    "loyalty_card_number": "LOYAL-920D6D926B"
+    "loyalty_card_number": "LOYAL-CB6483D0D7"
   },
   "store": {
-    "store_id": "store-041",
-    "store_name": "Маленькая Пикча — Магазин на пер. Крайний",
-    "store_network": "Маленькая Пикча",
+    "store_id": "store-029",
+    "store_name": "Большая Пикча — Магазин на бул. Казанский",
+    "store_network": "Большая Пикча",
     "location": {
       "country": "Россия",
-      "city": "ст. Юрьевец (Иван.)",
-      "street": "алл. Ульяновская",
-      "house": "5/1",
-      "postal_code": "942139",
+      "city": "клх Углегорск",
+      "street": "бул. Бригадный",
+      "house": "1/9",
+      "postal_code": "536870",
       "coordinates": {
-        "latitude": 61.712771,
-        "longitude": -11.16547
+        "latitude": 86.35557,
+        "longitude": 60.62358
       }
     }
   },
   "items": [
     {
-      "product_id": "prd-1003",
-      "name": "Поймать Изба",
+      "product_id": "prd-1012",
+      "name": "Торговля Счастье",
       "category": "🥖 Зерновые и хлебобулочные изделия",
-      "quantity": 1,
-      "unit": "шт",
-      "price_per_unit": 164.24,
-      "total_price": 164.24,
+      "quantity": 3,
+      "unit": "л",
+      "price_per_unit": 70.91,
+      "total_price": 212.73,
       "kbju": {
-        "calories": 225.1,
-        "protein": 9.6,
-        "fat": 12.3,
-        "carbohydrates": 33.1
+        "calories": 149.8,
+        "protein": 5.8,
+        "fat": 6.3,
+        "carbohydrates": 24.8
       },
       "manufacturer": {
-        "name": "ЗАО «Родионов»",
+        "name": "НПО «Некрасова»",
         "country": "Россия",
-        "website": "https://ooo.com",
-        "inn": "2508560707"
+        "website": "https://ao.org",
+        "inn": "8419489062"
+      }
+    },
+    {
+      "product_id": "prd-1005",
+      "name": "Правильный Факультет",
+      "category": "🥦 Овощи и зелень",
+      "quantity": 3,
+      "unit": "л",
+      "price_per_unit": 246.16,
+      "total_price": 738.48,
+      "kbju": {
+        "calories": 238.0,
+        "protein": 1.6,
+        "fat": 0.4,
+        "carbohydrates": 17.1
+      },
+      "manufacturer": {
+        "name": "Михеев и партнеры",
+        "country": "Россия",
+        "website": "https://yakovleva.biz",
+        "inn": "6371685483"
+      }
+    },
+    {
+      "product_id": "prd-1017",
+      "name": "Народ Построить",
+      "category": "🍏 Фрукты и ягоды",
+      "quantity": 5,
+      "unit": "шт",
+      "price_per_unit": 178.6,
+      "total_price": 893.0,
+      "kbju": {
+        "calories": 256.8,
+        "protein": 17.5,
+        "fat": 12.2,
+        "carbohydrates": 17.7
+      },
+      "manufacturer": {
+        "name": "Корнилов и партнеры",
+        "country": "Россия",
+        "website": "https://rao.org",
+        "inn": "2545527642"
       }
     }
   ],
-  "total_amount": 164.24,
+  "total_amount": 1844.21,
   "payment_method": "cash",
-  "is_delivery": true,
+  "is_delivery": false,
   "delivery_address": {
     "country": "Россия",
-    "city": "ст. Клин",
-    "street": "алл. Седова",
-    "house": "39",
-    "apartment": "77",
-    "postal_code": "957804"
+    "city": "д. Глазов",
+    "street": "алл. Толбухина",
+    "house": "3",
+    "apartment": "16",
+    "postal_code": "729028"
   },
-  "purchase_datetime": "2025-07-22T00:21:06.229477"
+  "purchase_datetime": "2025-09-23T11:36:53.689125"
 }

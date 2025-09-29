@@ -1,63 +1,63 @@
 {
   "purchase_id": "ord-00174",
   "customer": {
-    "customer_id": "cus-1038",
-    "first_name": "Евдоким",
-    "last_name": "Матвеев",
-    "email": "haritonovaantonina@example.org",
-    "phone": "+7 (031) 771-83-80",
+    "customer_id": "cus-1017",
+    "first_name": "Светозар",
+    "last_name": "Беспалов",
+    "email": "oleg69@example.org",
+    "phone": "+7 (197) 286-56-89",
     "is_loyalty_member": true,
-    "loyalty_card_number": "LOYAL-0BA56BC180"
+    "loyalty_card_number": "LOYAL-F2D48C3AC6"
   },
   "store": {
-    "store_id": "store-011",
-    "store_name": "Большая Пикча — Магазин на алл. Таманская",
-    "store_network": "Большая Пикча",
+    "store_id": "store-040",
+    "store_name": "Маленькая Пикча — Магазин на наб. Кирова",
+    "store_network": "Маленькая Пикча",
     "location": {
       "country": "Россия",
-      "city": "клх Шали",
-      "street": "алл. Кольцевая",
-      "house": "80",
-      "postal_code": "288720",
+      "city": "ст. Малая Вишера",
+      "street": "пр. Енисейский",
+      "house": "4",
+      "postal_code": "496524",
       "coordinates": {
-        "latitude": 79.614012,
-        "longitude": -12.849486
+        "latitude": -40.5576365,
+        "longitude": 135.346412
       }
     }
   },
   "items": [
     {
-      "product_id": "prd-1009",
-      "name": "Слать Бригада",
+      "product_id": "prd-1007",
+      "name": "Интеллектуальный Около",
       "category": "🥛 Молочные продукты",
       "quantity": 3,
-      "unit": "л",
-      "price_per_unit": 240.9,
-      "total_price": 722.7,
+      "unit": "шт",
+      "price_per_unit": 147.81,
+      "total_price": 443.43,
       "kbju": {
-        "calories": 156.2,
-        "protein": 15.7,
-        "fat": 13.4,
-        "carbohydrates": 7.6
+        "calories": 87.6,
+        "protein": 12.8,
+        "fat": 14.2,
+        "carbohydrates": 17.0
       },
       "manufacturer": {
-        "name": "НПО «Ефимова»",
+        "name": "ОАО «Владимирова Богданова»",
         "country": "Россия",
-        "website": "https://ford.com",
-        "inn": "3687837951"
+        "website": "https://ip.info",
+        "inn": "3430882539"
       }
     }
   ],
-  "total_amount": 722.7,
+  "total_amount": 443.43,
   "payment_method": "card",
-  "is_delivery": false,
+  "is_delivery": true,
   "delivery_address": {
     "country": "Россия",
-    "city": "д. Минеральные Воды",
-    "street": "пер. Железнодорожный",
-    "house": "9",
-    "apartment": "53",
-    "postal_code": "879693"
+    "city": "с. Прохладный",
+    "street": "пер. Коммунистический",
+    "house": "75",
+    "apartment": "98",
+    "postal_code": "489797"
   },
-  "purchase_datetime": "2025-08-11T00:21:06.235227"
+  "purchase_datetime": "2025-09-01T11:36:53.693881"
 }

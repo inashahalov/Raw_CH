@@ -1,63 +1,63 @@
 {
   "purchase_id": "ord-00106",
   "customer": {
-    "customer_id": "cus-1038",
-    "first_name": "Евдоким",
-    "last_name": "Матвеев",
-    "email": "haritonovaantonina@example.org",
-    "phone": "+7 (031) 771-83-80",
+    "customer_id": "cus-1017",
+    "first_name": "Светозар",
+    "last_name": "Беспалов",
+    "email": "oleg69@example.org",
+    "phone": "+7 (197) 286-56-89",
     "is_loyalty_member": true,
-    "loyalty_card_number": "LOYAL-0BA56BC180"
+    "loyalty_card_number": "LOYAL-F2D48C3AC6"
   },
   "store": {
-    "store_id": "store-030",
-    "store_name": "Большая Пикча — Магазин на алл. Кузнецкая",
-    "store_network": "Большая Пикча",
+    "store_id": "store-040",
+    "store_name": "Маленькая Пикча — Магазин на наб. Кирова",
+    "store_network": "Маленькая Пикча",
     "location": {
       "country": "Россия",
-      "city": "д. Учалы",
-      "street": "алл. Димитрова",
-      "house": "3",
-      "postal_code": "234970",
+      "city": "ст. Малая Вишера",
+      "street": "пр. Енисейский",
+      "house": "4",
+      "postal_code": "496524",
       "coordinates": {
-        "latitude": 76.7471465,
-        "longitude": -99.722231
+        "latitude": -40.5576365,
+        "longitude": 135.346412
       }
     }
   },
   "items": [
     {
-      "product_id": "prd-1018",
-      "name": "Зачем Пол",
-      "category": "🍏 Фрукты и ягоды",
+      "product_id": "prd-1015",
+      "name": "Табак Госпожа",
+      "category": "🥛 Молочные продукты",
       "quantity": 4,
-      "unit": "кг",
-      "price_per_unit": 247.99,
-      "total_price": 991.96,
+      "unit": "л",
+      "price_per_unit": 235.2,
+      "total_price": 940.8,
       "kbju": {
-        "calories": 236.7,
-        "protein": 5.8,
-        "fat": 10.9,
-        "carbohydrates": 13.1
+        "calories": 99.6,
+        "protein": 9.1,
+        "fat": 4.4,
+        "carbohydrates": 37.7
       },
       "manufacturer": {
-        "name": "ОАО «Панов-Воробьева»",
+        "name": "ИП «Куликов, Степанов и Соболева»",
         "country": "Россия",
-        "website": "https://rao.edu",
-        "inn": "5397679829"
+        "website": "https://rjabov.info",
+        "inn": "9167946809"
       }
     }
   ],
-  "total_amount": 991.96,
+  "total_amount": 940.8,
   "payment_method": "cash",
   "is_delivery": true,
   "delivery_address": {
     "country": "Россия",
-    "city": "д. Минеральные Воды",
-    "street": "пер. Железнодорожный",
-    "house": "9",
-    "apartment": "53",
-    "postal_code": "879693"
+    "city": "с. Прохладный",
+    "street": "пер. Коммунистический",
+    "house": "75",
+    "apartment": "98",
+    "postal_code": "489797"
   },
-  "purchase_datetime": "2025-07-23T00:21:05.962821"
+  "purchase_datetime": "2025-09-21T11:36:53.669292"
 }

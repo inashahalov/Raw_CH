@@ -1,105 +1,105 @@
 {
   "purchase_id": "ord-00197",
   "customer": {
-    "customer_id": "cus-1008",
-    "first_name": "Гордей",
-    "last_name": "Абрамов",
-    "email": "georgi_2000@example.com",
-    "phone": "+7 307 508 0235",
+    "customer_id": "cus-1034",
+    "first_name": "Петр",
+    "last_name": "Семенов",
+    "email": "kondratiknjazev@example.com",
+    "phone": "8 840 333 65 64",
     "is_loyalty_member": true,
-    "loyalty_card_number": "LOYAL-2C2BC04842"
+    "loyalty_card_number": "LOYAL-7D4932660C"
   },
   "store": {
-    "store_id": "store-006",
-    "store_name": "Большая Пикча — Магазин на ш. Базарное",
-    "store_network": "Большая Пикча",
+    "store_id": "store-041",
+    "store_name": "Маленькая Пикча — Магазин на наб. Пушкинская",
+    "store_network": "Маленькая Пикча",
     "location": {
       "country": "Россия",
-      "city": "г. Новомосковск",
-      "street": "бул. Волкова",
-      "house": "6",
-      "postal_code": "811518",
+      "city": "п. Кетченеры",
+      "street": "ш. Урицкого",
+      "house": "3",
+      "postal_code": "224391",
       "coordinates": {
-        "latitude": -73.791002,
-        "longitude": -108.701609
+        "latitude": 30.850891,
+        "longitude": -30.962086
       }
     }
   },
   "items": [
     {
-      "product_id": "prd-1004",
-      "name": "Написать Актриса",
-      "category": "🍏 Фрукты и ягоды",
-      "quantity": 1,
-      "unit": "кг",
-      "price_per_unit": 247.9,
-      "total_price": 247.9,
-      "kbju": {
-        "calories": 90.5,
-        "protein": 3.5,
-        "fat": 0.2,
-        "carbohydrates": 19.9
-      },
-      "manufacturer": {
-        "name": "Ферронордик машины (Ferronordic)",
-        "country": "Россия",
-        "website": "https://kulikova.net",
-        "inn": "5999502719"
-      }
-    },
-    {
-      "product_id": "prd-1015",
-      "name": "Советовать Горький",
-      "category": "🥖 Зерновые и хлебобулочные изделия",
-      "quantity": 1,
-      "unit": "л",
-      "price_per_unit": 74.06,
-      "total_price": 74.06,
-      "kbju": {
-        "calories": 265.6,
-        "protein": 14.1,
-        "fat": 13.9,
-        "carbohydrates": 4.2
-      },
-      "manufacturer": {
-        "name": "РАО «Пахомова-Голубев»",
-        "country": "Россия",
-        "website": "https://nlmk.biz",
-        "inn": "6002140966"
-      }
-    },
-    {
-      "product_id": "prd-1000",
-      "name": "Привлекать Передо",
-      "category": "🥦 Овощи и зелень",
+      "product_id": "prd-1011",
+      "name": "Зачем Вскакивать",
+      "category": "🥛 Молочные продукты",
       "quantity": 3,
       "unit": "шт",
-      "price_per_unit": 261.89,
-      "total_price": 785.67,
+      "price_per_unit": 105.34,
+      "total_price": 316.02,
       "kbju": {
-        "calories": 286.2,
-        "protein": 17.9,
-        "fat": 8.7,
-        "carbohydrates": 47.1
+        "calories": 207.5,
+        "protein": 16.9,
+        "fat": 5.3,
+        "carbohydrates": 19.0
       },
       "manufacturer": {
-        "name": "ООО «Баранов-Пестова»",
+        "name": "ИП «Нестеров, Лыткин и Евсеев»",
         "country": "Россия",
-        "website": "https://ooo.info",
-        "inn": "7520686716"
+        "website": "https://ip.ru",
+        "inn": "1814255141"
+      }
+    },
+    {
+      "product_id": "prd-1013",
+      "name": "Правление Банк",
+      "category": "🥛 Молочные продукты",
+      "quantity": 1,
+      "unit": "кг",
+      "price_per_unit": 210.76,
+      "total_price": 210.76,
+      "kbju": {
+        "calories": 279.5,
+        "protein": 12.1,
+        "fat": 5.8,
+        "carbohydrates": 44.9
+      },
+      "manufacturer": {
+        "name": "ИП «Королев, Кулагина и Медведева»",
+        "country": "Россия",
+        "website": "https://ooo.net",
+        "inn": "2561502092"
+      }
+    },
+    {
+      "product_id": "prd-1010",
+      "name": "Что Кидать",
+      "category": "🥦 Овощи и зелень",
+      "quantity": 2,
+      "unit": "упаковка",
+      "price_per_unit": 47.43,
+      "total_price": 94.86,
+      "kbju": {
+        "calories": 192.3,
+        "protein": 18.7,
+        "fat": 5.8,
+        "carbohydrates": 28.5
+      },
+      "manufacturer": {
+        "name": "ИП «Лихачев Наумова»",
+        "country": "Россия",
+        "website": "https://protek.info",
+        "inn": "8715941222"
       }
     }
   ],
-  "total_amount": 1107.63,
+  "total_amount": 621.64,
   "payment_method": "card",
-  "is_delivery": true,
+  "is_delivery": false,
   "delivery_address": {
     "country": "Россия",
-    "city": "с. Лысьва",
-    "street": "ш. Поперечное",
-    "house": "136",
-    "apartment": "17",
-    "postal_code": "230937"
+    "city": "п. Благовещенск (Амур.)",
+    "street": "пер. Белинского",
+    "house": "6",
+    "apartment": "70",
+    "postal_code": "880088"
   },
-  "purchase_datetime": "2025-09-09T00:21:06.243619"
+  "purchase_datetime": "2025-09-01T11:36:53.701290"
 }

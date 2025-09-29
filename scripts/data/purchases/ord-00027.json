@@ -1,63 +1,84 @@
 {
   "purchase_id": "ord-00027",
   "customer": {
-    "customer_id": "cus-1043",
-    "first_name": "Кир",
-    "last_name": "Калашников",
-    "email": "bsamsonov@example.org",
-    "phone": "+7 (013) 078-6626",
+    "customer_id": "cus-1030",
+    "first_name": "Данила",
+    "last_name": "Кабанов",
+    "email": "eduard_84@example.com",
+    "phone": "8 (961) 688-18-31",
     "is_loyalty_member": true,
-    "loyalty_card_number": "LOYAL-920D6D926B"
+    "loyalty_card_number": "LOYAL-8CCC7CF000"
   },
   "store": {
-    "store_id": "store-001",
-    "store_name": "Большая Пикча — Магазин на алл. Бажова",
+    "store_id": "store-013",
+    "store_name": "Большая Пикча — Магазин на бул. Солнечный",
     "store_network": "Большая Пикча",
     "location": {
       "country": "Россия",
-      "city": "с. Апрелевка",
-      "street": "ш. Солнечное",
-      "house": "3",
-      "postal_code": "956691",
+      "city": "ст. Ачинск",
+      "street": "бул. Сосновый",
+      "house": "927",
+      "postal_code": "091959",
       "coordinates": {
-        "latitude": 50.3479975,
-        "longitude": -167.674641
+        "latitude": -3.544509,
+        "longitude": 125.206608
       }
     }
   },
   "items": [
     {
-      "product_id": "prd-1005",
-      "name": "Направо Господь",
-      "category": "🥩 Мясо, рыба, яйца и бобовые",
+      "product_id": "prd-1016",
+      "name": "Ребятишки Лететь",
+      "category": "🥦 Овощи и зелень",
       "quantity": 4,
-      "unit": "л",
-      "price_per_unit": 126.73,
-      "total_price": 506.92,
+      "unit": "шт",
+      "price_per_unit": 266.18,
+      "total_price": 1064.72,
       "kbju": {
-        "calories": 93.0,
-        "protein": 13.6,
-        "fat": 2.1,
-        "carbohydrates": 20.3
+        "calories": 249.2,
+        "protein": 2.2,
+        "fat": 4.1,
+        "carbohydrates": 29.2
       },
       "manufacturer": {
-        "name": "ЗАО «Титова»",
+        "name": "АО «Быкова, Наумов и Фадеев»",
         "country": "Россия",
-        "website": "https://npo.com",
-        "inn": "2777644639"
+        "website": "https://rao.ru",
+        "inn": "1171341012"
+      }
+    },
+    {
+      "product_id": "prd-1014",
+      "name": "Спичка Носок",
+      "category": "🍏 Фрукты и ягоды",
+      "quantity": 1,
+      "unit": "шт",
+      "price_per_unit": 180.19,
+      "total_price": 180.19,
+      "kbju": {
+        "calories": 248.0,
+        "protein": 12.3,
+        "fat": 6.8,
+        "carbohydrates": 5.2
+      },
+      "manufacturer": {
+        "name": "КДВ Групп",
+        "country": "Россия",
+        "website": "https://nizhfarm.com",
+        "inn": "8186530463"
       }
     }
   ],
-  "total_amount": 506.92,
+  "total_amount": 1244.91,
   "payment_method": "cash",
   "is_delivery": false,
   "delivery_address": {
     "country": "Россия",
-    "city": "ст. Клин",
-    "street": "алл. Седова",
-    "house": "39",
-    "apartment": "77",
-    "postal_code": "957804"
+    "city": "с. Аргаяш",
+    "street": "пер. Карла Либкнехта",
+    "house": "5/2",
+    "apartment": "87",
+    "postal_code": "539126"
   },
-  "purchase_datetime": "2025-09-19T00:21:05.930152"
+  "purchase_datetime": "2025-07-11T11:36:53.640309"
 }

@@ -1,6 +1,6 @@
 {
   "store_id": "store-020",
-  "store_name": "Большая Пикча — Магазин на алл. Парковая",
+  "store_name": "Большая Пикча — Магазин на бул. Луначарского",
   "store_network": "Большая Пикча",
   "store_type_description": "Супермаркет более 200 кв.м. Входит в сеть из 30 магазинов.",
   "type": "offline",
@@ -12,19 +12,19 @@
     "🥦 Овощи и зелень"
   ],
   "manager": {
-    "name": "Ирина Федоровна Кудрявцева",
-    "phone": "+7 (056) 531-6653",
-    "email": "firs2000@example.net"
+    "name": "Рогова Анна Владиславовна",
+    "phone": "8 (134) 933-92-10",
+    "email": "karp_2015@example.com"
   },
   "location": {
     "country": "Россия",
-    "city": "п. Витим",
-    "street": "ш. Проточное",
-    "house": "6/9",
-    "postal_code": "926506",
+    "city": "к. Павловская",
+    "street": "пр. Маркса Карла",
+    "house": "860",
+    "postal_code": "766762",
     "coordinates": {
-      "latitude": -88.588761,
-      "longitude": -151.51246
+      "latitude": -83.1780595,
+      "longitude": 1.638287
     }
   },
   "opening_hours": {
@@ -34,6 +34,6 @@
   },
   "accepts_online_orders": true,
   "delivery_available": true,
-  "warehouse_connected": true,
-  "last_inventory_date": "2025-09-25"
+  "warehouse_connected": false,
+  "last_inventory_date": "2025-09-29"
 }

@@ -1,105 +1,105 @@
 {
   "purchase_id": "ord-00049",
   "customer": {
-    "customer_id": "cus-1010",
-    "first_name": "Мартьян",
-    "last_name": "Ларионов",
-    "email": "kpestova@example.com",
-    "phone": "+7 229 169 07 41",
+    "customer_id": "cus-1020",
+    "first_name": "Назар",
+    "last_name": "Андреева",
+    "email": "sbogdanova@example.com",
+    "phone": "8 897 525 1983",
     "is_loyalty_member": true,
-    "loyalty_card_number": "LOYAL-DB4F6E6E4D"
+    "loyalty_card_number": "LOYAL-DB9ED9AC67"
   },
   "store": {
-    "store_id": "store-042",
-    "store_name": "Маленькая Пикча — Магазин на алл. 1 Мая",
-    "store_network": "Маленькая Пикча",
+    "store_id": "store-008",
+    "store_name": "Большая Пикча — Магазин на бул. Советской Армии",
+    "store_network": "Большая Пикча",
     "location": {
       "country": "Россия",
-      "city": "с. Хасан",
-      "street": "пр. Союзный",
-      "house": "30",
-      "postal_code": "343674",
+      "city": "ст. Луховицы",
+      "street": "пер. Пролетарский",
+      "house": "376",
+      "postal_code": "913521",
       "coordinates": {
-        "latitude": 84.753875,
-        "longitude": 159.690738
+        "latitude": -42.894459,
+        "longitude": 22.13989
       }
     }
   },
   "items": [
     {
-      "product_id": "prd-1006",
-      "name": "Вытаскивать Плод",
-      "category": "🍏 Фрукты и ягоды",
-      "quantity": 2,
+      "product_id": "prd-1004",
+      "name": "Заявление Шлем",
+      "category": "🥩 Мясо, рыба, яйца и бобовые",
+      "quantity": 4,
       "unit": "упаковка",
-      "price_per_unit": 123.36,
-      "total_price": 246.72,
+      "price_per_unit": 261.08,
+      "total_price": 1044.32,
       "kbju": {
-        "calories": 124.2,
-        "protein": 11.3,
-        "fat": 2.6,
-        "carbohydrates": 42.9
+        "calories": 178.3,
+        "protein": 8.6,
+        "fat": 9.2,
+        "carbohydrates": 12.8
       },
       "manufacturer": {
-        "name": "ИП «Емельянов-Наумова»",
+        "name": "ОАО «Орлов Попова»",
         "country": "Россия",
-        "website": "https://npo.edu",
-        "inn": "9973742158"
+        "website": "https://metallservis.ru",
+        "inn": "4728731918"
       }
     },
     {
-      "product_id": "prd-1003",
-      "name": "Поймать Изба",
-      "category": "🥖 Зерновые и хлебобулочные изделия",
+      "product_id": "prd-1018",
+      "name": "Отметить Парень",
+      "category": "🥩 Мясо, рыба, яйца и бобовые",
       "quantity": 2,
       "unit": "шт",
-      "price_per_unit": 164.24,
-      "total_price": 328.48,
+      "price_per_unit": 241.62,
+      "total_price": 483.24,
       "kbju": {
-        "calories": 225.1,
-        "protein": 9.6,
-        "fat": 12.3,
-        "carbohydrates": 33.1
+        "calories": 295.0,
+        "protein": 3.5,
+        "fat": 6.0,
+        "carbohydrates": 2.6
       },
       "manufacturer": {
-        "name": "ЗАО «Родионов»",
+        "name": "Петухов Лтд",
         "country": "Россия",
-        "website": "https://ooo.com",
-        "inn": "2508560707"
+        "website": "https://rao.ru",
+        "inn": "4394791537"
       }
     },
     {
-      "product_id": "prd-1009",
-      "name": "Слать Бригада",
-      "category": "🥛 Молочные продукты",
+      "product_id": "prd-1008",
+      "name": "Упор Кузнец",
+      "category": "🍏 Фрукты и ягоды",
       "quantity": 5,
       "unit": "л",
-      "price_per_unit": 240.9,
-      "total_price": 1204.5,
+      "price_per_unit": 255.98,
+      "total_price": 1279.9,
       "kbju": {
-        "calories": 156.2,
-        "protein": 15.7,
-        "fat": 13.4,
-        "carbohydrates": 7.6
+        "calories": 143.1,
+        "protein": 6.1,
+        "fat": 3.5,
+        "carbohydrates": 47.3
       },
       "manufacturer": {
-        "name": "НПО «Ефимова»",
+        "name": "МТС-банк",
         "country": "Россия",
-        "website": "https://ford.com",
-        "inn": "3687837951"
+        "website": "https://shcherbakova.com",
+        "inn": "1911616255"
       }
     }
   ],
-  "total_amount": 1779.7,
-  "payment_method": "card",
+  "total_amount": 2807.46,
+  "payment_method": "cash",
   "is_delivery": false,
   "delivery_address": {
     "country": "Россия",
-    "city": "клх Шали",
-    "street": "наб. Курчатова",
-    "house": "26",
-    "apartment": "100",
-    "postal_code": "877623"
+    "city": "г. Ступино",
+    "street": "пер. Транспортный",
+    "house": "12",
+    "apartment": "10",
+    "postal_code": "389125"
   },
-  "purchase_datetime": "2025-08-04T00:21:05.938490"
+  "purchase_datetime": "2025-08-07T11:36:53.648612"
 }

@@ -1,63 +1,105 @@
 {
   "purchase_id": "ord-00033",
   "customer": {
-    "customer_id": "cus-1015",
-    "first_name": "Аникей",
-    "last_name": "Новиков",
-    "email": "oisakova@example.org",
-    "phone": "8 (510) 536-4882",
+    "customer_id": "cus-1038",
+    "first_name": "Владимир",
+    "last_name": "Самойлов",
+    "email": "belousovatamara@example.net",
+    "phone": "8 112 931 47 90",
     "is_loyalty_member": true,
-    "loyalty_card_number": "LOYAL-E87EA9AED1"
+    "loyalty_card_number": "LOYAL-F4C1831015"
   },
   "store": {
-    "store_id": "store-001",
-    "store_name": "Большая Пикча — Магазин на алл. Бажова",
+    "store_id": "store-013",
+    "store_name": "Большая Пикча — Магазин на бул. Солнечный",
     "store_network": "Большая Пикча",
     "location": {
       "country": "Россия",
-      "city": "с. Апрелевка",
-      "street": "ш. Солнечное",
-      "house": "3",
-      "postal_code": "956691",
+      "city": "ст. Ачинск",
+      "street": "бул. Сосновый",
+      "house": "927",
+      "postal_code": "091959",
       "coordinates": {
-        "latitude": 50.3479975,
-        "longitude": -167.674641
+        "latitude": -3.544509,
+        "longitude": 125.206608
       }
     }
   },
   "items": [
     {
-      "product_id": "prd-1000",
-      "name": "Привлекать Передо",
-      "category": "🥦 Овощи и зелень",
-      "quantity": 5,
-      "unit": "шт",
-      "price_per_unit": 261.89,
-      "total_price": 1309.45,
+      "product_id": "prd-1004",
+      "name": "Заявление Шлем",
+      "category": "🥩 Мясо, рыба, яйца и бобовые",
+      "quantity": 3,
+      "unit": "упаковка",
+      "price_per_unit": 261.08,
+      "total_price": 783.24,
       "kbju": {
-        "calories": 286.2,
-        "protein": 17.9,
-        "fat": 8.7,
-        "carbohydrates": 47.1
+        "calories": 178.3,
+        "protein": 8.6,
+        "fat": 9.2,
+        "carbohydrates": 12.8
       },
       "manufacturer": {
-        "name": "ООО «Баранов-Пестова»",
+        "name": "ОАО «Орлов Попова»",
         "country": "Россия",
-        "website": "https://ooo.info",
-        "inn": "7520686716"
+        "website": "https://metallservis.ru",
+        "inn": "4728731918"
+      }
+    },
+    {
+      "product_id": "prd-1015",
+      "name": "Табак Госпожа",
+      "category": "🥛 Молочные продукты",
+      "quantity": 1,
+      "unit": "л",
+      "price_per_unit": 235.2,
+      "total_price": 235.2,
+      "kbju": {
+        "calories": 99.6,
+        "protein": 9.1,
+        "fat": 4.4,
+        "carbohydrates": 37.7
+      },
+      "manufacturer": {
+        "name": "ИП «Куликов, Степанов и Соболева»",
+        "country": "Россия",
+        "website": "https://rjabov.info",
+        "inn": "9167946809"
+      }
+    },
+    {
+      "product_id": "prd-1000",
+      "name": "Грустный Дружно",
+      "category": "🥦 Овощи и зелень",
+      "quantity": 5,
+      "unit": "кг",
+      "price_per_unit": 234.69,
+      "total_price": 1173.45,
+      "kbju": {
+        "calories": 142.2,
+        "protein": 13.1,
+        "fat": 11.7,
+        "carbohydrates": 10.2
+      },
+      "manufacturer": {
+        "name": "АО «Чернов Сафонова»",
+        "country": "Россия",
+        "website": "https://kolobov.info",
+        "inn": "5863746288"
       }
     }
   ],
-  "total_amount": 1309.45,
+  "total_amount": 2191.89,
   "payment_method": "card",
   "is_delivery": false,
   "delivery_address": {
     "country": "Россия",
-    "city": "клх Новомичуринск",
-    "street": "алл. Космонавтов",
-    "house": "8/4",
-    "apartment": "96",
-    "postal_code": "158931"
+    "city": "ст. Новый Уренгой",
+    "street": "наб. Ворошилова",
+    "house": "3",
+    "apartment": "52",
+    "postal_code": "931831"
   },
-  "purchase_datetime": "2025-07-30T00:21:05.932773"
+  "purchase_datetime": "2025-07-17T11:36:53.642743"
 }

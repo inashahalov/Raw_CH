@@ -1,84 +1,63 @@
 {
   "purchase_id": "ord-00088",
   "customer": {
-    "customer_id": "cus-1037",
-    "first_name": "Ипатий",
-    "last_name": "Ларионова",
-    "email": "timurfadeev@example.org",
-    "phone": "+7 561 629 90 67",
+    "customer_id": "cus-1001",
+    "first_name": "Юрий",
+    "last_name": "Симонова",
+    "email": "semenovaljudmila@example.net",
+    "phone": "+7 301 909 6362",
     "is_loyalty_member": true,
-    "loyalty_card_number": "LOYAL-FA021EE45A"
+    "loyalty_card_number": "LOYAL-8E1F7B0096"
   },
   "store": {
-    "store_id": "store-015",
-    "store_name": "Большая Пикча — Магазин на алл. Пархоменко",
-    "store_network": "Большая Пикча",
+    "store_id": "store-042",
+    "store_name": "Маленькая Пикча — Магазин на пр. Льва Толстого",
+    "store_network": "Маленькая Пикча",
     "location": {
       "country": "Россия",
-      "city": "с. Минусинск",
-      "street": "ул. Прудная",
-      "house": "2",
-      "postal_code": "166699",
+      "city": "с. Любань",
+      "street": "ш. М.Горького",
+      "house": "45",
+      "postal_code": "169119",
       "coordinates": {
-        "latitude": -58.9745715,
-        "longitude": -18.750765
+        "latitude": 73.7860975,
+        "longitude": 53.061392
       }
     }
   },
   "items": [
     {
-      "product_id": "prd-1014",
-      "name": "Опасность Следовательно",
-      "category": "🥛 Молочные продукты",
+      "product_id": "prd-1019",
+      "name": "Разводить Подробность",
+      "category": "🥖 Зерновые и хлебобулочные изделия",
       "quantity": 4,
-      "unit": "кг",
-      "price_per_unit": 213.21,
-      "total_price": 852.84,
+      "unit": "шт",
+      "price_per_unit": 202.14,
+      "total_price": 808.56,
       "kbju": {
-        "calories": 206.8,
-        "protein": 10.5,
-        "fat": 2.9,
-        "carbohydrates": 6.6
+        "calories": 104.0,
+        "protein": 4.5,
+        "fat": 1.3,
+        "carbohydrates": 30.3
       },
       "manufacturer": {
-        "name": "ЗАО «Беляков, Большакова и Князева»",
+        "name": "АО «Филатов, Гусев и Рябов»",
         "country": "Россия",
-        "website": "https://npo.com",
-        "inn": "0149036081"
-      }
-    },
-    {
-      "product_id": "prd-1018",
-      "name": "Зачем Пол",
-      "category": "🍏 Фрукты и ягоды",
-      "quantity": 4,
-      "unit": "кг",
-      "price_per_unit": 247.99,
-      "total_price": 991.96,
-      "kbju": {
-        "calories": 236.7,
-        "protein": 5.8,
-        "fat": 10.9,
-        "carbohydrates": 13.1
-      },
-      "manufacturer": {
-        "name": "ОАО «Панов-Воробьева»",
-        "country": "Россия",
-        "website": "https://rao.edu",
-        "inn": "5397679829"
+        "website": "https://oao.com",
+        "inn": "8155112705"
       }
     }
   ],
-  "total_amount": 1844.8,
+  "total_amount": 808.56,
   "payment_method": "card",
-  "is_delivery": true,
+  "is_delivery": false,
   "delivery_address": {
     "country": "Россия",
-    "city": "д. Сосновый Бор",
-    "street": "ул. Халтурина",
-    "house": "4/1",
-    "apartment": "98",
-    "postal_code": "590899"
+    "city": "г. Внуково (метеост.)",
+    "street": "ул. Стахановская",
+    "house": "561",
+    "apartment": "100",
+    "postal_code": "012285"
   },
-  "purchase_datetime": "2025-08-02T00:21:05.954875"
+  "purchase_datetime": "2025-08-17T11:36:53.662925"
 }

@@ -1,63 +1,105 @@
 {
   "purchase_id": "ord-00047",
   "customer": {
-    "customer_id": "cus-1027",
-    "first_name": "Ананий",
-    "last_name": "Смирнов",
-    "email": "eremeartemev@example.org",
-    "phone": "+7 373 716 0061",
+    "customer_id": "cus-1036",
+    "first_name": "Екатерина",
+    "last_name": "Бирюков",
+    "email": "baranovakim@example.net",
+    "phone": "8 031 251 3344",
     "is_loyalty_member": true,
-    "loyalty_card_number": "LOYAL-8563997E39"
+    "loyalty_card_number": "LOYAL-CE7F3C0632"
   },
   "store": {
-    "store_id": "store-024",
-    "store_name": "Большая Пикча — Магазин на наб. Детская",
+    "store_id": "store-005",
+    "store_name": "Большая Пикча — Магазин на алл. Зои Космодемьянской",
     "store_network": "Большая Пикча",
     "location": {
       "country": "Россия",
-      "city": "ст. Клин",
-      "street": "алл. Макарова",
-      "house": "5",
-      "postal_code": "420427",
+      "city": "к. Ульяновск",
+      "street": "ш. Лермонтова",
+      "house": "8/1",
+      "postal_code": "330401",
       "coordinates": {
-        "latitude": 48.0666515,
-        "longitude": -10.945348
+        "latitude": -57.1240975,
+        "longitude": -5.759473
       }
     }
   },
   "items": [
     {
-      "product_id": "prd-1011",
-      "name": "Привлекать Пол",
-      "category": "🥩 Мясо, рыба, яйца и бобовые",
-      "quantity": 4,
+      "product_id": "prd-1008",
+      "name": "Упор Кузнец",
+      "category": "🍏 Фрукты и ягоды",
+      "quantity": 3,
       "unit": "л",
-      "price_per_unit": 85.86,
-      "total_price": 343.44,
+      "price_per_unit": 255.98,
+      "total_price": 767.94,
       "kbju": {
-        "calories": 65.4,
-        "protein": 5.6,
-        "fat": 1.9,
-        "carbohydrates": 24.1
+        "calories": 143.1,
+        "protein": 6.1,
+        "fat": 3.5,
+        "carbohydrates": 47.3
       },
       "manufacturer": {
-        "name": "ИП «Галкина-Терентьев»",
+        "name": "МТС-банк",
         "country": "Россия",
-        "website": "https://rao.ru",
-        "inn": "5528391758"
+        "website": "https://shcherbakova.com",
+        "inn": "1911616255"
+      }
+    },
+    {
+      "product_id": "prd-1013",
+      "name": "Правление Банк",
+      "category": "🥛 Молочные продукты",
+      "quantity": 5,
+      "unit": "кг",
+      "price_per_unit": 210.76,
+      "total_price": 1053.8,
+      "kbju": {
+        "calories": 279.5,
+        "protein": 12.1,
+        "fat": 5.8,
+        "carbohydrates": 44.9
+      },
+      "manufacturer": {
+        "name": "ИП «Королев, Кулагина и Медведева»",
+        "country": "Россия",
+        "website": "https://ooo.net",
+        "inn": "2561502092"
+      }
+    },
+    {
+      "product_id": "prd-1005",
+      "name": "Правильный Факультет",
+      "category": "🥦 Овощи и зелень",
+      "quantity": 5,
+      "unit": "л",
+      "price_per_unit": 246.16,
+      "total_price": 1230.8,
+      "kbju": {
+        "calories": 238.0,
+        "protein": 1.6,
+        "fat": 0.4,
+        "carbohydrates": 17.1
+      },
+      "manufacturer": {
+        "name": "Михеев и партнеры",
+        "country": "Россия",
+        "website": "https://yakovleva.biz",
+        "inn": "6371685483"
       }
     }
   ],
-  "total_amount": 343.44,
+  "total_amount": 3052.54,
   "payment_method": "cash",
-  "is_delivery": false,
+  "is_delivery": true,
   "delivery_address": {
     "country": "Россия",
-    "city": "п. Великие Луки",
-    "street": "бул. Фестивальный",
-    "house": "937",
-    "apartment": "48",
-    "postal_code": "607745"
+    "city": "к. Шенкурск",
+    "street": "алл. Орловская",
+    "house": "88",
+    "apartment": "31",
+    "postal_code": "234043"
   },
-  "purchase_datetime": "2025-08-22T00:21:05.937755"
+  "purchase_datetime": "2025-08-17T11:36:53.647822"
 }

@@ -1,84 +1,105 @@
 {
   "purchase_id": "ord-00141",
   "customer": {
-    "customer_id": "cus-1009",
-    "first_name": "Любомир",
-    "last_name": "Зайцева",
-    "email": "mironovdementi@example.net",
-    "phone": "8 083 438 03 36",
+    "customer_id": "cus-1037",
+    "first_name": "Адриан",
+    "last_name": "Коновалов",
+    "email": "karl_1978@example.net",
+    "phone": "+78107088603",
     "is_loyalty_member": true,
-    "loyalty_card_number": "LOYAL-B97665AA7B"
+    "loyalty_card_number": "LOYAL-D0EF0742EC"
   },
   "store": {
-    "store_id": "store-029",
-    "store_name": "Большая Пикча — Магазин на ш. Владимирское",
-    "store_network": "Большая Пикча",
+    "store_id": "store-039",
+    "store_name": "Маленькая Пикча — Магазин на пер. Каштановый",
+    "store_network": "Маленькая Пикча",
     "location": {
       "country": "Россия",
-      "city": "ст. Чебоксары",
-      "street": "наб. Тюленина",
-      "house": "5",
-      "postal_code": "132041",
+      "city": "ст. Новый Уренгой",
+      "street": "наб. Радищева",
+      "house": "1/1",
+      "postal_code": "295294",
       "coordinates": {
-        "latitude": 64.245416,
-        "longitude": -159.654898
+        "latitude": 88.779798,
+        "longitude": 56.564926
       }
     }
   },
   "items": [
     {
-      "product_id": "prd-1004",
-      "name": "Написать Актриса",
-      "category": "🍏 Фрукты и ягоды",
+      "product_id": "prd-1002",
+      "name": "Манера Остановить",
+      "category": "🥛 Молочные продукты",
       "quantity": 5,
       "unit": "кг",
-      "price_per_unit": 247.9,
-      "total_price": 1239.5,
+      "price_per_unit": 49.56,
+      "total_price": 247.8,
       "kbju": {
-        "calories": 90.5,
-        "protein": 3.5,
-        "fat": 0.2,
-        "carbohydrates": 19.9
+        "calories": 233.3,
+        "protein": 5.6,
+        "fat": 13.1,
+        "carbohydrates": 34.2
       },
       "manufacturer": {
-        "name": "Ферронордик машины (Ferronordic)",
+        "name": "АО «Вишнякова-Устинова»",
         "country": "Россия",
-        "website": "https://kulikova.net",
-        "inn": "5999502719"
+        "website": "https://efimov.ru",
+        "inn": "0302933009"
       }
     },
     {
-      "product_id": "prd-1016",
-      "name": "Школьный Очко",
+      "product_id": "prd-1019",
+      "name": "Разводить Подробность",
       "category": "🥖 Зерновые и хлебобулочные изделия",
-      "quantity": 4,
+      "quantity": 3,
       "unit": "шт",
-      "price_per_unit": 295.13,
-      "total_price": 1180.52,
+      "price_per_unit": 202.14,
+      "total_price": 606.42,
       "kbju": {
-        "calories": 156.7,
-        "protein": 8.3,
-        "fat": 6.7,
-        "carbohydrates": 49.1
+        "calories": 104.0,
+        "protein": 4.5,
+        "fat": 1.3,
+        "carbohydrates": 30.3
       },
       "manufacturer": {
-        "name": "РАО «Марков»",
+        "name": "АО «Филатов, Гусев и Рябов»",
         "country": "Россия",
-        "website": "https://argos.org",
-        "inn": "6328136246"
+        "website": "https://oao.com",
+        "inn": "8155112705"
+      }
+    },
+    {
+      "product_id": "prd-1004",
+      "name": "Заявление Шлем",
+      "category": "🥩 Мясо, рыба, яйца и бобовые",
+      "quantity": 4,
+      "unit": "упаковка",
+      "price_per_unit": 261.08,
+      "total_price": 1044.32,
+      "kbju": {
+        "calories": 178.3,
+        "protein": 8.6,
+        "fat": 9.2,
+        "carbohydrates": 12.8
+      },
+      "manufacturer": {
+        "name": "ОАО «Орлов Попова»",
+        "country": "Россия",
+        "website": "https://metallservis.ru",
+        "inn": "4728731918"
       }
     }
   ],
-  "total_amount": 2420.02,
-  "payment_method": "cash",
+  "total_amount": 1898.54,
+  "payment_method": "card",
   "is_delivery": false,
   "delivery_address": {
     "country": "Россия",
-    "city": "к. Тулун",
-    "street": "бул. Зеленый",
-    "house": "5",
-    "apartment": "42",
-    "postal_code": "594984"
+    "city": "клх Красноуфимск",
+    "street": "наб. Карбышева",
+    "house": "66",
+    "apartment": "41",
+    "postal_code": "678239"
   },
-  "purchase_datetime": "2025-08-10T00:21:06.218305"
+  "purchase_datetime": "2025-09-23T11:36:53.681812"
 }

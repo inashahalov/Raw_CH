@@ -1,105 +1,84 @@
 {
   "purchase_id": "ord-00098",
   "customer": {
-    "customer_id": "cus-1040",
-    "first_name": "Поликарп",
-    "last_name": "Ефимов",
-    "email": "ermilsavin@example.com",
-    "phone": "8 018 957 0132",
+    "customer_id": "cus-1008",
+    "first_name": "Митофан",
+    "last_name": "Воронцов",
+    "email": "feofan20@example.org",
+    "phone": "87682311561",
     "is_loyalty_member": true,
-    "loyalty_card_number": "LOYAL-C977953C5A"
+    "loyalty_card_number": "LOYAL-7C918DCCDB"
   },
   "store": {
-    "store_id": "store-018",
-    "store_name": "Большая Пикча — Магазин на ш. Колхозное",
+    "store_id": "store-003",
+    "store_name": "Большая Пикча — Магазин на алл. Новая",
     "store_network": "Большая Пикча",
     "location": {
       "country": "Россия",
-      "city": "п. Урюпинск",
-      "street": "ул. Королева",
-      "house": "5",
-      "postal_code": "809286",
+      "city": "к. Куртамыш",
+      "street": "ул. Минская",
+      "house": "2/8",
+      "postal_code": "417861",
       "coordinates": {
-        "latitude": 9.686733,
-        "longitude": 33.027261
+        "latitude": 52.1093415,
+        "longitude": -46.683943
       }
     }
   },
   "items": [
     {
-      "product_id": "prd-1013",
-      "name": "Полюбить Руководитель",
+      "product_id": "prd-1010",
+      "name": "Что Кидать",
       "category": "🥦 Овощи и зелень",
-      "quantity": 5,
-      "unit": "шт",
-      "price_per_unit": 223.19,
-      "total_price": 1115.95,
-      "kbju": {
-        "calories": 249.4,
-        "protein": 17.6,
-        "fat": 5.6,
-        "carbohydrates": 43.3
-      },
-      "manufacturer": {
-        "name": "Профитмед",
-        "country": "Россия",
-        "website": "https://npo.edu",
-        "inn": "4153799624"
-      }
-    },
-    {
-      "product_id": "prd-1017",
-      "name": "Цель Единый",
-      "category": "🥖 Зерновые и хлебобулочные изделия",
-      "quantity": 3,
-      "unit": "упаковка",
-      "price_per_unit": 99.97,
-      "total_price": 299.91,
-      "kbju": {
-        "calories": 97.4,
-        "protein": 12.5,
-        "fat": 14.8,
-        "carbohydrates": 11.6
-      },
-      "manufacturer": {
-        "name": "АО «Белякова»",
-        "country": "Россия",
-        "website": "https://rao.com",
-        "inn": "0030371079"
-      }
-    },
-    {
-      "product_id": "prd-1002",
-      "name": "Еврейский Отражение",
-      "category": "🥩 Мясо, рыба, яйца и бобовые",
       "quantity": 4,
       "unit": "упаковка",
-      "price_per_unit": 268.07,
-      "total_price": 1072.28,
+      "price_per_unit": 47.43,
+      "total_price": 189.72,
       "kbju": {
-        "calories": 264.5,
-        "protein": 5.4,
-        "fat": 13.4,
-        "carbohydrates": 29.2
+        "calories": 192.3,
+        "protein": 18.7,
+        "fat": 5.8,
+        "carbohydrates": 28.5
       },
       "manufacturer": {
-        "name": "ОАО «Мишин-Виноградова»",
+        "name": "ИП «Лихачев Наумова»",
         "country": "Россия",
-        "website": "https://ooo.edu",
-        "inn": "8371422850"
+        "website": "https://protek.info",
+        "inn": "8715941222"
+      }
+    },
+    {
+      "product_id": "prd-1015",
+      "name": "Табак Госпожа",
+      "category": "🥛 Молочные продукты",
+      "quantity": 1,
+      "unit": "л",
+      "price_per_unit": 235.2,
+      "total_price": 235.2,
+      "kbju": {
+        "calories": 99.6,
+        "protein": 9.1,
+        "fat": 4.4,
+        "carbohydrates": 37.7
+      },
+      "manufacturer": {
+        "name": "ИП «Куликов, Степанов и Соболева»",
+        "country": "Россия",
+        "website": "https://rjabov.info",
+        "inn": "9167946809"
       }
     }
   ],
-  "total_amount": 2488.14,
-  "payment_method": "cash",
-  "is_delivery": false,
+  "total_amount": 424.92,
+  "payment_method": "card",
+  "is_delivery": true,
   "delivery_address": {
     "country": "Россия",
-    "city": "ст. Юрьевец (Иван.)",
-    "street": "наб. Социалистическая",
-    "house": "27",
-    "apartment": "24",
-    "postal_code": "060808"
+    "city": "с. Ростов-на-Дону",
+    "street": "ул. Окружная",
+    "house": "658",
+    "apartment": "46",
+    "postal_code": "091436"
   },
-  "purchase_datetime": "2025-08-30T00:21:05.958813"
+  "purchase_datetime": "2025-08-27T11:36:53.666451"
 }

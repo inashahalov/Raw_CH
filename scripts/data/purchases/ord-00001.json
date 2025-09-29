@@ -1,84 +1,84 @@
 {
   "purchase_id": "ord-00001",
   "customer": {
-    "customer_id": "cus-1042",
-    "first_name": "Савва",
-    "last_name": "Чернов",
-    "email": "pkrilov@example.net",
-    "phone": "+7 (265) 699-5095",
+    "customer_id": "cus-1002",
+    "first_name": "Евгения",
+    "last_name": "Якушев",
+    "email": "martinovairina@example.net",
+    "phone": "+7 824 721 2309",
     "is_loyalty_member": true,
-    "loyalty_card_number": "LOYAL-2A49CFA7A7"
+    "loyalty_card_number": "LOYAL-13FF9996C5"
   },
   "store": {
-    "store_id": "store-040",
-    "store_name": "Маленькая Пикча — Магазин на алл. Ушакова",
-    "store_network": "Маленькая Пикча",
+    "store_id": "store-008",
+    "store_name": "Большая Пикча — Магазин на бул. Советской Армии",
+    "store_network": "Большая Пикча",
     "location": {
       "country": "Россия",
-      "city": "д. Гатчина",
-      "street": "бул. Широкий",
-      "house": "64",
-      "postal_code": "922449",
+      "city": "ст. Луховицы",
+      "street": "пер. Пролетарский",
+      "house": "376",
+      "postal_code": "913521",
       "coordinates": {
-        "latitude": -0.667882,
-        "longitude": 129.214545
+        "latitude": -42.894459,
+        "longitude": 22.13989
       }
     }
   },
   "items": [
     {
-      "product_id": "prd-1013",
-      "name": "Полюбить Руководитель",
-      "category": "🥦 Овощи и зелень",
-      "quantity": 1,
+      "product_id": "prd-1007",
+      "name": "Интеллектуальный Около",
+      "category": "🥛 Молочные продукты",
+      "quantity": 5,
       "unit": "шт",
-      "price_per_unit": 223.19,
-      "total_price": 223.19,
+      "price_per_unit": 147.81,
+      "total_price": 739.05,
       "kbju": {
-        "calories": 249.4,
-        "protein": 17.6,
-        "fat": 5.6,
-        "carbohydrates": 43.3
+        "calories": 87.6,
+        "protein": 12.8,
+        "fat": 14.2,
+        "carbohydrates": 17.0
       },
       "manufacturer": {
-        "name": "Профитмед",
+        "name": "ОАО «Владимирова Богданова»",
         "country": "Россия",
-        "website": "https://npo.edu",
-        "inn": "4153799624"
+        "website": "https://ip.info",
+        "inn": "3430882539"
       }
     },
     {
-      "product_id": "prd-1009",
-      "name": "Слать Бригада",
+      "product_id": "prd-1011",
+      "name": "Зачем Вскакивать",
       "category": "🥛 Молочные продукты",
-      "quantity": 4,
-      "unit": "л",
-      "price_per_unit": 240.9,
-      "total_price": 963.6,
+      "quantity": 3,
+      "unit": "шт",
+      "price_per_unit": 105.34,
+      "total_price": 316.02,
       "kbju": {
-        "calories": 156.2,
-        "protein": 15.7,
-        "fat": 13.4,
-        "carbohydrates": 7.6
+        "calories": 207.5,
+        "protein": 16.9,
+        "fat": 5.3,
+        "carbohydrates": 19.0
       },
       "manufacturer": {
-        "name": "НПО «Ефимова»",
+        "name": "ИП «Нестеров, Лыткин и Евсеев»",
         "country": "Россия",
-        "website": "https://ford.com",
-        "inn": "3687837951"
+        "website": "https://ip.ru",
+        "inn": "1814255141"
       }
     }
   ],
-  "total_amount": 1186.79,
-  "payment_method": "cash",
+  "total_amount": 1055.07,
+  "payment_method": "card",
   "is_delivery": false,
   "delivery_address": {
     "country": "Россия",
-    "city": "г. Кириши",
-    "street": "ш. Халтурина",
-    "house": "189",
-    "apartment": "10",
-    "postal_code": "579995"
+    "city": "к. Куртамыш",
+    "street": "ул. Беляева",
+    "house": "27",
+    "apartment": "45",
+    "postal_code": "141618"
   },
-  "purchase_datetime": "2025-09-01T00:21:05.919167"
+  "purchase_datetime": "2025-07-02T11:36:53.630550"
 }

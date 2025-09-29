@@ -2,83 +2,104 @@
   "purchase_id": "ord-00021",
   "customer": {
     "customer_id": "cus-1025",
-    "first_name": "Спиридон",
-    "last_name": "Чернова",
-    "email": "matverusakov@example.com",
-    "phone": "8 (952) 467-03-44",
+    "first_name": "Адам",
+    "last_name": "Белоусов",
+    "email": "milan54@example.org",
+    "phone": "8 760 444 8443",
     "is_loyalty_member": true,
-    "loyalty_card_number": "LOYAL-4B48A341FD"
+    "loyalty_card_number": "LOYAL-1734699199"
   },
   "store": {
-    "store_id": "store-019",
-    "store_name": "Большая Пикча — Магазин на ул. Серова",
+    "store_id": "store-003",
+    "store_name": "Большая Пикча — Магазин на алл. Новая",
     "store_network": "Большая Пикча",
     "location": {
       "country": "Россия",
-      "city": "г. Южно-Курильск",
-      "street": "пер. Коммунистический",
-      "house": "4",
-      "postal_code": "511510",
+      "city": "к. Куртамыш",
+      "street": "ул. Минская",
+      "house": "2/8",
+      "postal_code": "417861",
       "coordinates": {
-        "latitude": -33.1503555,
-        "longitude": 22.862732
+        "latitude": 52.1093415,
+        "longitude": -46.683943
       }
     }
   },
   "items": [
     {
-      "product_id": "prd-1014",
-      "name": "Опасность Следовательно",
+      "product_id": "prd-1007",
+      "name": "Интеллектуальный Около",
       "category": "🥛 Молочные продукты",
-      "quantity": 1,
-      "unit": "кг",
-      "price_per_unit": 213.21,
-      "total_price": 213.21,
+      "quantity": 2,
+      "unit": "шт",
+      "price_per_unit": 147.81,
+      "total_price": 295.62,
       "kbju": {
-        "calories": 206.8,
-        "protein": 10.5,
-        "fat": 2.9,
-        "carbohydrates": 6.6
+        "calories": 87.6,
+        "protein": 12.8,
+        "fat": 14.2,
+        "carbohydrates": 17.0
       },
       "manufacturer": {
-        "name": "ЗАО «Беляков, Большакова и Князева»",
+        "name": "ОАО «Владимирова Богданова»",
         "country": "Россия",
-        "website": "https://npo.com",
-        "inn": "0149036081"
+        "website": "https://ip.info",
+        "inn": "3430882539"
       }
     },
     {
-      "product_id": "prd-1006",
-      "name": "Вытаскивать Плод",
-      "category": "🍏 Фрукты и ягоды",
+      "product_id": "prd-1010",
+      "name": "Что Кидать",
+      "category": "🥦 Овощи и зелень",
       "quantity": 5,
       "unit": "упаковка",
-      "price_per_unit": 123.36,
-      "total_price": 616.8,
+      "price_per_unit": 47.43,
+      "total_price": 237.15,
       "kbju": {
-        "calories": 124.2,
-        "protein": 11.3,
-        "fat": 2.6,
-        "carbohydrates": 42.9
+        "calories": 192.3,
+        "protein": 18.7,
+        "fat": 5.8,
+        "carbohydrates": 28.5
       },
       "manufacturer": {
-        "name": "ИП «Емельянов-Наумова»",
+        "name": "ИП «Лихачев Наумова»",
         "country": "Россия",
-        "website": "https://npo.edu",
-        "inn": "9973742158"
+        "website": "https://protek.info",
+        "inn": "8715941222"
+      }
+    },
+    {
+      "product_id": "prd-1008",
+      "name": "Упор Кузнец",
+      "category": "🍏 Фрукты и ягоды",
+      "quantity": 5,
+      "unit": "л",
+      "price_per_unit": 255.98,
+      "total_price": 1279.9,
+      "kbju": {
+        "calories": 143.1,
+        "protein": 6.1,
+        "fat": 3.5,
+        "carbohydrates": 47.3
+      },
+      "manufacturer": {
+        "name": "МТС-банк",
+        "country": "Россия",
+        "website": "https://shcherbakova.com",
+        "inn": "1911616255"
       }
     }
   ],
-  "total_amount": 830.01,
+  "total_amount": 1812.67,
   "payment_method": "cash",
-  "is_delivery": false,
+  "is_delivery": true,
   "delivery_address": {
     "country": "Россия",
-    "city": "с. Нижневартовск",
-    "street": "бул. Дальневосточный",
-    "house": "4/6",
-    "apartment": "18",
-    "postal_code": "016225"
+    "city": "г. Малоярославец",
+    "street": "бул. Ясный",
+    "house": "621",
+    "apartment": "4",
+    "postal_code": "911622"
   },
-  "purchase_datetime": "2025-09-03T00:21:05.927458"
+  "purchase_datetime": "2025-08-03T11:36:53.638001"
 }

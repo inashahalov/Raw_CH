@@ -46,7 +46,9 @@ services:
       - "8123:8123"
       - "9000:9000"
     volumes:
-      - ./config/clickhouse/listen_all.xml:/etc/clickhouse-server/config.d/listen_all.xml
+      - clickhouse_/var/lib/clickhouse  # ← добавлен том для данных
+      - ./config/clickhouse:/etc/clickhouse-server/config.d  # ← монтируем папку, не файл
+    command: --config-file=/etc/clickhouse-server/config.xml  # ← принудительная инициализация
     ulimits:
       nofile:
         soft: 262144
@@ -72,6 +74,7 @@ services:
 
 volumes:
   mongo_data:
+  clickhouse_data:  # ← добавлен том для ClickHouse
 
 networks:
   piccha-net:

@@ -1,6 +1,6 @@
 {
   "store_id": "store-011",
-  "store_name": "Большая Пикча — Магазин на алл. Таманская",
+  "store_name": "Большая Пикча — Магазин на ул. Юности",
   "store_network": "Большая Пикча",
   "store_type_description": "Супермаркет более 200 кв.м. Входит в сеть из 30 магазинов.",
   "type": "offline",
@@ -12,19 +12,19 @@
     "🥦 Овощи и зелень"
   ],
   "manager": {
-    "name": "Устин Викторович Богданов",
-    "phone": "8 887 092 43 33",
-    "email": "vsemil66@example.com"
+    "name": "Суханов Творимир Димитриевич",
+    "phone": "8 955 673 5384",
+    "email": "vladimirovaija@example.com"
   },
   "location": {
     "country": "Россия",
-    "city": "клх Шали",
-    "street": "алл. Кольцевая",
-    "house": "80",
-    "postal_code": "288720",
+    "city": "ст. Гаврилов-Ям",
+    "street": "пер. Гафури",
+    "house": "858",
+    "postal_code": "012405",
     "coordinates": {
-      "latitude": 79.614012,
-      "longitude": -12.849486
+      "latitude": 24.9422205,
+      "longitude": -79.557732
     }
   },
   "opening_hours": {
@@ -35,5 +35,5 @@
   "accepts_online_orders": true,
   "delivery_available": true,
   "warehouse_connected": true,
-  "last_inventory_date": "2025-09-25"
+  "last_inventory_date": "2025-09-29"
 }

@@ -1,36 +1,36 @@
 {
   "customer_id": "cus-1006",
-  "first_name": "Регина",
-  "last_name": "Кудряшов",
-  "email": "seliverst_17@example.net",
-  "phone": "+7 153 863 80 58",
-  "birth_date": "1999-02-19",
+  "first_name": "Кондрат",
+  "last_name": "Матвеева",
+  "email": "kuzminilarion@example.net",
+  "phone": "+7 (811) 265-95-44",
+  "birth_date": "1993-04-03",
   "gender": "female",
-  "registration_date": "2025-09-25T00:21:05.894917",
+  "registration_date": "2025-09-29T11:36:53.612573",
   "is_loyalty_member": true,
-  "loyalty_card_number": "LOYAL-12243F909F",
+  "loyalty_card_number": "LOYAL-816B977AA0",
   "purchase_location": {
     "store_id": "store-007",
-    "store_name": "Большая Пикча — Магазин на пр. Механический",
+    "store_name": "Большая Пикча — Магазин на ш. Медицинское",
     "store_network": "Большая Пикча",
     "store_type_description": "Супермаркет более 200 кв.м. Входит в сеть из 30 магазинов.",
     "country": "Россия",
-    "city": "клх Шумиха",
-    "street": "бул. Невского",
-    "house": "64",
-    "postal_code": "269152"
+    "city": "п. Воронеж",
+    "street": "алл. Инженерная",
+    "house": "288",
+    "postal_code": "258116"
   },
   "delivery_address": {
     "country": "Россия",
-    "city": "клх Шумиха",
-    "street": "бул. Сурикова",
-    "house": "824",
-    "apartment": "2",
-    "postal_code": "530049"
+    "city": "п. Воронеж",
+    "street": "бул. Тепличный",
+    "house": "699",
+    "apartment": "47",
+    "postal_code": "552286"
   },
   "preferences": {
     "preferred_language": "ru",
-    "preferred_payment_method": "card",
-    "receive_promotions": false
+    "preferred_payment_method": "cash",
+    "receive_promotions": true
   }
 }

@@ -1,63 +1,63 @@
 {
   "purchase_id": "ord-00179",
   "customer": {
-    "customer_id": "cus-1040",
-    "first_name": "Поликарп",
-    "last_name": "Ефимов",
-    "email": "ermilsavin@example.com",
-    "phone": "8 018 957 0132",
+    "customer_id": "cus-1028",
+    "first_name": "Аполлинарий",
+    "last_name": "Титов",
+    "email": "orlovvladilen@example.org",
+    "phone": "84375159559",
     "is_loyalty_member": true,
-    "loyalty_card_number": "LOYAL-C977953C5A"
+    "loyalty_card_number": "LOYAL-980F90B4B5"
   },
   "store": {
-    "store_id": "store-016",
-    "store_name": "Большая Пикча — Магазин на пр. Горького",
+    "store_id": "store-027",
+    "store_name": "Большая Пикча — Магазин на пер. Крестьянский",
     "store_network": "Большая Пикча",
     "location": {
       "country": "Россия",
-      "city": "клх Новомичуринск",
-      "street": "пер. З.Космодемьянской",
-      "house": "8",
-      "postal_code": "646457",
+      "city": "ст. Нальчик",
+      "street": "ш. Химиков",
+      "house": "34",
+      "postal_code": "699126",
       "coordinates": {
-        "latitude": -13.8879685,
-        "longitude": -88.240324
+        "latitude": 17.3697085,
+        "longitude": -102.433166
       }
     }
   },
   "items": [
     {
-      "product_id": "prd-1001",
-      "name": "Домашний Жидкий",
+      "product_id": "prd-1015",
+      "name": "Табак Госпожа",
       "category": "🥛 Молочные продукты",
       "quantity": 4,
-      "unit": "упаковка",
-      "price_per_unit": 74.5,
-      "total_price": 298.0,
+      "unit": "л",
+      "price_per_unit": 235.2,
+      "total_price": 940.8,
       "kbju": {
-        "calories": 173.9,
-        "protein": 3.6,
-        "fat": 11.0,
-        "carbohydrates": 7.4
+        "calories": 99.6,
+        "protein": 9.1,
+        "fat": 4.4,
+        "carbohydrates": 37.7
       },
       "manufacturer": {
-        "name": "ОАО «Емельянова-Харитонов»",
+        "name": "ИП «Куликов, Степанов и Соболева»",
         "country": "Россия",
-        "website": "https://zao.edu",
-        "inn": "4413982995"
+        "website": "https://rjabov.info",
+        "inn": "9167946809"
       }
     }
   ],
-  "total_amount": 298.0,
+  "total_amount": 940.8,
   "payment_method": "card",
-  "is_delivery": true,
+  "is_delivery": false,
   "delivery_address": {
     "country": "Россия",
-    "city": "ст. Юрьевец (Иван.)",
-    "street": "наб. Социалистическая",
-    "house": "27",
-    "apartment": "24",
-    "postal_code": "060808"
+    "city": "клх Углегорск",
+    "street": "ш. Механизаторов",
+    "house": "4",
+    "apartment": "5",
+    "postal_code": "619271"
   },
-  "purchase_datetime": "2025-08-21T00:21:06.237144"
+  "purchase_datetime": "2025-08-20T11:36:53.695514"
 }

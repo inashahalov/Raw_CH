@@ -1,6 +1,6 @@
 {
   "store_id": "store-023",
-  "store_name": "Большая Пикча — Магазин на пер. Прудный",
+  "store_name": "Большая Пикча — Магазин на наб. Дружбы",
   "store_network": "Большая Пикча",
   "store_type_description": "Супермаркет более 200 кв.м. Входит в сеть из 30 магазинов.",
   "type": "offline",
@@ -12,19 +12,19 @@
     "🥦 Овощи и зелень"
   ],
   "manager": {
-    "name": "Ершова Ульяна Станиславовна",
-    "phone": "8 (217) 070-85-43",
-    "email": "nikola90@example.com"
+    "name": "Агафонов Мартын Федосьевич",
+    "phone": "8 (026) 438-4913",
+    "email": "nbragin@example.com"
   },
   "location": {
     "country": "Россия",
-    "city": "с. Владикавказ",
-    "street": "алл. Репина",
-    "house": "4",
-    "postal_code": "867024",
+    "city": "д. Кострома",
+    "street": "наб. Ленина",
+    "house": "872",
+    "postal_code": "369528",
     "coordinates": {
-      "latitude": -27.2311465,
-      "longitude": -151.9032
+      "latitude": 58.081764,
+      "longitude": 13.123443
     }
   },
   "opening_hours": {
@@ -35,5 +35,5 @@
   "accepts_online_orders": true,
   "delivery_available": true,
   "warehouse_connected": true,
-  "last_inventory_date": "2025-09-25"
+  "last_inventory_date": "2025-09-29"
 }

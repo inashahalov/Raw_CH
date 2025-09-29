@@ -1,105 +1,105 @@
 {
   "purchase_id": "ord-00046",
   "customer": {
-    "customer_id": "cus-1006",
-    "first_name": "Регина",
-    "last_name": "Кудряшов",
-    "email": "seliverst_17@example.net",
-    "phone": "+7 153 863 80 58",
+    "customer_id": "cus-1026",
+    "first_name": "Мартьян",
+    "last_name": "Алексеева",
+    "email": "ksenija_55@example.org",
+    "phone": "8 453 992 00 68",
     "is_loyalty_member": true,
-    "loyalty_card_number": "LOYAL-12243F909F"
+    "loyalty_card_number": "LOYAL-E908AC35D3"
   },
   "store": {
-    "store_id": "store-044",
-    "store_name": "Маленькая Пикча — Магазин на ш. Урожайное",
-    "store_network": "Маленькая Пикча",
+    "store_id": "store-027",
+    "store_name": "Большая Пикча — Магазин на пер. Крестьянский",
+    "store_network": "Большая Пикча",
     "location": {
       "country": "Россия",
-      "city": "ст. Клин",
-      "street": "ул. Стадионная",
-      "house": "83",
-      "postal_code": "105750",
+      "city": "ст. Нальчик",
+      "street": "ш. Химиков",
+      "house": "34",
+      "postal_code": "699126",
       "coordinates": {
-        "latitude": -45.9919625,
-        "longitude": -177.086861
+        "latitude": 17.3697085,
+        "longitude": -102.433166
       }
     }
   },
   "items": [
     {
-      "product_id": "prd-1013",
-      "name": "Полюбить Руководитель",
+      "product_id": "prd-1016",
+      "name": "Ребятишки Лететь",
       "category": "🥦 Овощи и зелень",
-      "quantity": 1,
+      "quantity": 5,
       "unit": "шт",
-      "price_per_unit": 223.19,
-      "total_price": 223.19,
+      "price_per_unit": 266.18,
+      "total_price": 1330.9,
       "kbju": {
-        "calories": 249.4,
-        "protein": 17.6,
-        "fat": 5.6,
-        "carbohydrates": 43.3
+        "calories": 249.2,
+        "protein": 2.2,
+        "fat": 4.1,
+        "carbohydrates": 29.2
       },
       "manufacturer": {
-        "name": "Профитмед",
-        "country": "Россия",
-        "website": "https://npo.edu",
-        "inn": "4153799624"
-      }
-    },
-    {
-      "product_id": "prd-1003",
-      "name": "Поймать Изба",
-      "category": "🥖 Зерновые и хлебобулочные изделия",
-      "quantity": 1,
-      "unit": "шт",
-      "price_per_unit": 164.24,
-      "total_price": 164.24,
-      "kbju": {
-        "calories": 225.1,
-        "protein": 9.6,
-        "fat": 12.3,
-        "carbohydrates": 33.1
-      },
-      "manufacturer": {
-        "name": "ЗАО «Родионов»",
-        "country": "Россия",
-        "website": "https://ooo.com",
-        "inn": "2508560707"
-      }
-    },
-    {
-      "product_id": "prd-1011",
-      "name": "Привлекать Пол",
-      "category": "🥩 Мясо, рыба, яйца и бобовые",
-      "quantity": 4,
-      "unit": "л",
-      "price_per_unit": 85.86,
-      "total_price": 343.44,
-      "kbju": {
-        "calories": 65.4,
-        "protein": 5.6,
-        "fat": 1.9,
-        "carbohydrates": 24.1
-      },
-      "manufacturer": {
-        "name": "ИП «Галкина-Терентьев»",
+        "name": "АО «Быкова, Наумов и Фадеев»",
         "country": "Россия",
         "website": "https://rao.ru",
-        "inn": "5528391758"
+        "inn": "1171341012"
+      }
+    },
+    {
+      "product_id": "prd-1010",
+      "name": "Что Кидать",
+      "category": "🥦 Овощи и зелень",
+      "quantity": 5,
+      "unit": "упаковка",
+      "price_per_unit": 47.43,
+      "total_price": 237.15,
+      "kbju": {
+        "calories": 192.3,
+        "protein": 18.7,
+        "fat": 5.8,
+        "carbohydrates": 28.5
+      },
+      "manufacturer": {
+        "name": "ИП «Лихачев Наумова»",
+        "country": "Россия",
+        "website": "https://protek.info",
+        "inn": "8715941222"
+      }
+    },
+    {
+      "product_id": "prd-1001",
+      "name": "Лиловый Бок",
+      "category": "🥛 Молочные продукты",
+      "quantity": 4,
+      "unit": "упаковка",
+      "price_per_unit": 242.46,
+      "total_price": 969.84,
+      "kbju": {
+        "calories": 274.4,
+        "protein": 6.4,
+        "fat": 6.0,
+        "carbohydrates": 13.5
+      },
+      "manufacturer": {
+        "name": "Куликов и партнеры",
+        "country": "Россия",
+        "website": "https://sharapov.net",
+        "inn": "9920890846"
       }
     }
   ],
-  "total_amount": 730.87,
+  "total_amount": 2537.89,
   "payment_method": "cash",
-  "is_delivery": false,
+  "is_delivery": true,
   "delivery_address": {
     "country": "Россия",
-    "city": "клх Шумиха",
-    "street": "бул. Сурикова",
-    "house": "824",
-    "apartment": "2",
-    "postal_code": "530049"
+    "city": "ст. Нальчик",
+    "street": "алл. Ольховая",
+    "house": "287",
+    "apartment": "46",
+    "postal_code": "124437"
   },
-  "purchase_datetime": "2025-09-07T00:21:05.937324"
+  "purchase_datetime": "2025-08-19T11:36:53.647450"
 }

@@ -1,36 +1,36 @@
 {
   "customer_id": "cus-1036",
-  "first_name": "Ананий",
-  "last_name": "Шубин",
-  "email": "xvolkov@example.net",
-  "phone": "+7 938 461 4396",
-  "birth_date": "1981-03-01",
+  "first_name": "Екатерина",
+  "last_name": "Бирюков",
+  "email": "baranovakim@example.net",
+  "phone": "8 031 251 3344",
+  "birth_date": "2006-05-01",
   "gender": "female",
-  "registration_date": "2025-09-25T00:21:05.914752",
+  "registration_date": "2025-09-29T11:36:53.626507",
   "is_loyalty_member": true,
-  "loyalty_card_number": "LOYAL-E36C1302B0",
+  "loyalty_card_number": "LOYAL-CE7F3C0632",
   "purchase_location": {
     "store_id": "store-037",
-    "store_name": "Маленькая Пикча — Магазин на пр. Северный",
+    "store_name": "Маленькая Пикча — Магазин на пер. Осипенко",
     "store_network": "Маленькая Пикча",
     "store_type_description": "Магазин у дома менее 100 кв.м. Входит в сеть из 15 магазинов.",
     "country": "Россия",
-    "city": "п. Курумкан",
-    "street": "бул. Волгоградский",
-    "house": "3",
-    "postal_code": "799219"
+    "city": "к. Шенкурск",
+    "street": "пер. Весенний",
+    "house": "92",
+    "postal_code": "150965"
   },
   "delivery_address": {
     "country": "Россия",
-    "city": "п. Курумкан",
-    "street": "пер. Лесный",
-    "house": "3/9",
-    "apartment": "46",
-    "postal_code": "741876"
+    "city": "к. Шенкурск",
+    "street": "алл. Орловская",
+    "house": "88",
+    "apartment": "31",
+    "postal_code": "234043"
   },
   "preferences": {
     "preferred_language": "ru",
-    "preferred_payment_method": "card",
-    "receive_promotions": false
+    "preferred_payment_method": "cash",
+    "receive_promotions": true
   }
 }

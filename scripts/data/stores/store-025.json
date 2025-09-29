@@ -1,6 +1,6 @@
 {
   "store_id": "store-025",
-  "store_name": "Большая Пикча — Магазин на ш. Гончарова",
+  "store_name": "Большая Пикча — Магазин на ш. Гагарина",
   "store_network": "Большая Пикча",
   "store_type_description": "Супермаркет более 200 кв.м. Входит в сеть из 30 магазинов.",
   "type": "offline",
@@ -12,19 +12,19 @@
     "🥦 Овощи и зелень"
   ],
   "manager": {
-    "name": "Валерия Игоревна Нестерова",
-    "phone": "+7 433 374 70 50",
-    "email": "gostomisl_12@example.net"
+    "name": "Дьячкова Екатерина Феликсовна",
+    "phone": "+7 567 628 03 14",
+    "email": "davidovepifan@example.org"
   },
   "location": {
     "country": "Россия",
-    "city": "ст. Малоярославец",
-    "street": "алл. Калужская",
-    "house": "201",
-    "postal_code": "574860",
+    "city": "ст. Мичуринск",
+    "street": "наб. Гоголя",
+    "house": "78",
+    "postal_code": "729137",
     "coordinates": {
-      "latitude": -56.801937,
-      "longitude": 157.630796
+      "latitude": -53.14136,
+      "longitude": -53.865817
     }
   },
   "opening_hours": {
@@ -35,5 +35,5 @@
   "accepts_online_orders": true,
   "delivery_available": true,
   "warehouse_connected": false,
-  "last_inventory_date": "2025-09-25"
+  "last_inventory_date": "2025-09-29"
 }

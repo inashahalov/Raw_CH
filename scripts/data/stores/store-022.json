@@ -1,6 +1,6 @@
 {
   "store_id": "store-022",
-  "store_name": "Большая Пикча — Магазин на пер. Геологов",
+  "store_name": "Большая Пикча — Магазин на ул. Кузнецова",
   "store_network": "Большая Пикча",
   "store_type_description": "Супермаркет более 200 кв.м. Входит в сеть из 30 магазинов.",
   "type": "offline",
@@ -12,19 +12,19 @@
     "🥦 Овощи и зелень"
   ],
   "manager": {
-    "name": "Пономарев Никита Григорьевич",
-    "phone": "+7 (271) 325-38-73",
-    "email": "kalashnikovevse@example.com"
+    "name": "Борисова Раиса Артемовна",
+    "phone": "8 (291) 431-01-57",
+    "email": "bogdan_58@example.org"
   },
   "location": {
     "country": "Россия",
-    "city": "г. Каменномостский",
-    "street": "наб. Балтийская",
-    "house": "3",
-    "postal_code": "206608",
+    "city": "п. Яхрома",
+    "street": "бул. Угловой",
+    "house": "4",
+    "postal_code": "292777",
     "coordinates": {
-      "latitude": 70.41788,
-      "longitude": 35.145444
+      "latitude": 71.4229395,
+      "longitude": 80.067446
     }
   },
   "opening_hours": {
@@ -35,5 +35,5 @@
   "accepts_online_orders": true,
   "delivery_available": true,
   "warehouse_connected": true,
-  "last_inventory_date": "2025-09-25"
+  "last_inventory_date": "2025-09-29"
 }

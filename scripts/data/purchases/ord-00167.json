@@ -1,63 +1,84 @@
 {
   "purchase_id": "ord-00167",
   "customer": {
-    "customer_id": "cus-1019",
-    "first_name": "Всеслав",
-    "last_name": "Ершова",
-    "email": "efimovazhanna@example.org",
-    "phone": "+73636279369",
+    "customer_id": "cus-1025",
+    "first_name": "Адам",
+    "last_name": "Белоусов",
+    "email": "milan54@example.org",
+    "phone": "8 760 444 8443",
     "is_loyalty_member": true,
-    "loyalty_card_number": "LOYAL-70F5EFD034"
+    "loyalty_card_number": "LOYAL-1734699199"
   },
   "store": {
-    "store_id": "store-002",
-    "store_name": "Большая Пикча — Магазин на пр. Мирный",
+    "store_id": "store-018",
+    "store_name": "Большая Пикча — Магазин на алл. Механизаторов",
     "store_network": "Большая Пикча",
     "location": {
       "country": "Россия",
-      "city": "клх Видное",
-      "street": "пр. Толбухина",
-      "house": "9/6",
-      "postal_code": "511141",
+      "city": "с. Прохладный",
+      "street": "наб. Механическая",
+      "house": "7/3",
+      "postal_code": "727677",
       "coordinates": {
-        "latitude": 13.224143,
-        "longitude": -111.857686
+        "latitude": -88.8383715,
+        "longitude": 157.883586
       }
     }
   },
   "items": [
     {
-      "product_id": "prd-1018",
-      "name": "Зачем Пол",
+      "product_id": "prd-1008",
+      "name": "Упор Кузнец",
       "category": "🍏 Фрукты и ягоды",
-      "quantity": 4,
-      "unit": "кг",
-      "price_per_unit": 247.99,
-      "total_price": 991.96,
+      "quantity": 2,
+      "unit": "л",
+      "price_per_unit": 255.98,
+      "total_price": 511.96,
       "kbju": {
-        "calories": 236.7,
-        "protein": 5.8,
-        "fat": 10.9,
-        "carbohydrates": 13.1
+        "calories": 143.1,
+        "protein": 6.1,
+        "fat": 3.5,
+        "carbohydrates": 47.3
       },
       "manufacturer": {
-        "name": "ОАО «Панов-Воробьева»",
+        "name": "МТС-банк",
         "country": "Россия",
-        "website": "https://rao.edu",
-        "inn": "5397679829"
+        "website": "https://shcherbakova.com",
+        "inn": "1911616255"
+      }
+    },
+    {
+      "product_id": "prd-1009",
+      "name": "Выдержать Карман",
+      "category": "🥛 Молочные продукты",
+      "quantity": 3,
+      "unit": "кг",
+      "price_per_unit": 193.21,
+      "total_price": 579.63,
+      "kbju": {
+        "calories": 234.5,
+        "protein": 3.6,
+        "fat": 14.6,
+        "carbohydrates": 4.9
+      },
+      "manufacturer": {
+        "name": "Романова и партнеры",
+        "country": "Россия",
+        "website": "https://npo.biz",
+        "inn": "4877305481"
       }
     }
   ],
-  "total_amount": 991.96,
-  "payment_method": "card",
-  "is_delivery": true,
+  "total_amount": 1091.59,
+  "payment_method": "cash",
+  "is_delivery": false,
   "delivery_address": {
     "country": "Россия",
-    "city": "п. Витим",
-    "street": "пр. Гафури",
-    "house": "921",
-    "apartment": "67",
-    "postal_code": "232578"
+    "city": "г. Малоярославец",
+    "street": "бул. Ясный",
+    "house": "621",
+    "apartment": "4",
+    "postal_code": "911622"
   },
-  "purchase_datetime": "2025-08-09T00:21:06.232642"
+  "purchase_datetime": "2025-07-30T11:36:53.691467"
 }

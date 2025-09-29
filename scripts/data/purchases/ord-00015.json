@@ -1,63 +1,63 @@
 {
   "purchase_id": "ord-00015",
   "customer": {
-    "customer_id": "cus-1027",
-    "first_name": "Ананий",
-    "last_name": "Смирнов",
-    "email": "eremeartemev@example.org",
-    "phone": "+7 373 716 0061",
+    "customer_id": "cus-1011",
+    "first_name": "Октябрина",
+    "last_name": "Тихонова",
+    "email": "silvestrkudrjavtsev@example.net",
+    "phone": "8 (694) 286-0435",
     "is_loyalty_member": true,
-    "loyalty_card_number": "LOYAL-8563997E39"
+    "loyalty_card_number": "LOYAL-25A3B93BDE"
   },
   "store": {
-    "store_id": "store-022",
-    "store_name": "Большая Пикча — Магазин на пер. Геологов",
+    "store_id": "store-005",
+    "store_name": "Большая Пикча — Магазин на алл. Зои Космодемьянской",
     "store_network": "Большая Пикча",
     "location": {
       "country": "Россия",
-      "city": "г. Каменномостский",
-      "street": "наб. Балтийская",
-      "house": "3",
-      "postal_code": "206608",
+      "city": "к. Ульяновск",
+      "street": "ш. Лермонтова",
+      "house": "8/1",
+      "postal_code": "330401",
       "coordinates": {
-        "latitude": 70.41788,
-        "longitude": 35.145444
+        "latitude": -57.1240975,
+        "longitude": -5.759473
       }
     }
   },
   "items": [
     {
-      "product_id": "prd-1018",
-      "name": "Зачем Пол",
+      "product_id": "prd-1017",
+      "name": "Народ Построить",
       "category": "🍏 Фрукты и ягоды",
-      "quantity": 4,
-      "unit": "кг",
-      "price_per_unit": 247.99,
-      "total_price": 991.96,
+      "quantity": 3,
+      "unit": "шт",
+      "price_per_unit": 178.6,
+      "total_price": 535.8,
       "kbju": {
-        "calories": 236.7,
-        "protein": 5.8,
-        "fat": 10.9,
-        "carbohydrates": 13.1
+        "calories": 256.8,
+        "protein": 17.5,
+        "fat": 12.2,
+        "carbohydrates": 17.7
       },
       "manufacturer": {
-        "name": "ОАО «Панов-Воробьева»",
+        "name": "Корнилов и партнеры",
         "country": "Россия",
-        "website": "https://rao.edu",
-        "inn": "5397679829"
+        "website": "https://rao.org",
+        "inn": "2545527642"
       }
     }
   ],
-  "total_amount": 991.96,
-  "payment_method": "card",
+  "total_amount": 535.8,
+  "payment_method": "cash",
   "is_delivery": false,
   "delivery_address": {
     "country": "Россия",
-    "city": "п. Великие Луки",
-    "street": "бул. Фестивальный",
-    "house": "937",
-    "apartment": "48",
-    "postal_code": "607745"
+    "city": "клх Белый Яр (Томск.)",
+    "street": "бул. Космический",
+    "house": "169",
+    "apartment": "25",
+    "postal_code": "507633"
   },
-  "purchase_datetime": "2025-06-29T00:21:05.924917"
+  "purchase_datetime": "2025-08-29T11:36:53.635570"
 }

@@ -1,105 +1,84 @@
 {
   "purchase_id": "ord-00084",
   "customer": {
-    "customer_id": "cus-1031",
-    "first_name": "Валентин",
-    "last_name": "Михайлова",
-    "email": "maksim2011@example.com",
-    "phone": "+70563049404",
+    "customer_id": "cus-1043",
+    "first_name": "Артемий",
+    "last_name": "Гурьев",
+    "email": "ilinfeoktist@example.org",
+    "phone": "+7 (521) 181-86-39",
     "is_loyalty_member": true,
-    "loyalty_card_number": "LOYAL-BBFFDEC266"
+    "loyalty_card_number": "LOYAL-E6A14270B7"
   },
   "store": {
-    "store_id": "store-009",
-    "store_name": "Большая Пикча — Магазин на пр. Угольный",
+    "store_id": "store-003",
+    "store_name": "Большая Пикча — Магазин на алл. Новая",
     "store_network": "Большая Пикча",
     "location": {
       "country": "Россия",
-      "city": "с. Лысьва",
-      "street": "пр. Енисейский",
-      "house": "8/1",
-      "postal_code": "512530",
+      "city": "к. Куртамыш",
+      "street": "ул. Минская",
+      "house": "2/8",
+      "postal_code": "417861",
       "coordinates": {
-        "latitude": 48.498737,
-        "longitude": -86.543856
+        "latitude": 52.1093415,
+        "longitude": -46.683943
       }
     }
   },
   "items": [
     {
-      "product_id": "prd-1004",
-      "name": "Написать Актриса",
-      "category": "🍏 Фрукты и ягоды",
-      "quantity": 4,
-      "unit": "кг",
-      "price_per_unit": 247.9,
-      "total_price": 991.6,
-      "kbju": {
-        "calories": 90.5,
-        "protein": 3.5,
-        "fat": 0.2,
-        "carbohydrates": 19.9
-      },
-      "manufacturer": {
-        "name": "Ферронордик машины (Ferronordic)",
-        "country": "Россия",
-        "website": "https://kulikova.net",
-        "inn": "5999502719"
-      }
-    },
-    {
-      "product_id": "prd-1013",
-      "name": "Полюбить Руководитель",
-      "category": "🥦 Овощи и зелень",
-      "quantity": 3,
-      "unit": "шт",
-      "price_per_unit": 223.19,
-      "total_price": 669.57,
-      "kbju": {
-        "calories": 249.4,
-        "protein": 17.6,
-        "fat": 5.6,
-        "carbohydrates": 43.3
-      },
-      "manufacturer": {
-        "name": "Профитмед",
-        "country": "Россия",
-        "website": "https://npo.edu",
-        "inn": "4153799624"
-      }
-    },
-    {
-      "product_id": "prd-1001",
-      "name": "Домашний Жидкий",
+      "product_id": "prd-1007",
+      "name": "Интеллектуальный Около",
       "category": "🥛 Молочные продукты",
-      "quantity": 4,
-      "unit": "упаковка",
-      "price_per_unit": 74.5,
-      "total_price": 298.0,
+      "quantity": 2,
+      "unit": "шт",
+      "price_per_unit": 147.81,
+      "total_price": 295.62,
       "kbju": {
-        "calories": 173.9,
-        "protein": 3.6,
-        "fat": 11.0,
-        "carbohydrates": 7.4
+        "calories": 87.6,
+        "protein": 12.8,
+        "fat": 14.2,
+        "carbohydrates": 17.0
       },
       "manufacturer": {
-        "name": "ОАО «Емельянова-Харитонов»",
+        "name": "ОАО «Владимирова Богданова»",
         "country": "Россия",
-        "website": "https://zao.edu",
-        "inn": "4413982995"
+        "website": "https://ip.info",
+        "inn": "3430882539"
+      }
+    },
+    {
+      "product_id": "prd-1015",
+      "name": "Табак Госпожа",
+      "category": "🥛 Молочные продукты",
+      "quantity": 2,
+      "unit": "л",
+      "price_per_unit": 235.2,
+      "total_price": 470.4,
+      "kbju": {
+        "calories": 99.6,
+        "protein": 9.1,
+        "fat": 4.4,
+        "carbohydrates": 37.7
+      },
+      "manufacturer": {
+        "name": "ИП «Куликов, Степанов и Соболева»",
+        "country": "Россия",
+        "website": "https://rjabov.info",
+        "inn": "9167946809"
       }
     }
   ],
-  "total_amount": 1959.17,
-  "payment_method": "cash",
+  "total_amount": 766.02,
+  "payment_method": "card",
   "is_delivery": false,
   "delivery_address": {
     "country": "Россия",
-    "city": "к. Сыктывкар",
-    "street": "ул. Путейская",
-    "house": "320",
-    "apartment": "35",
-    "postal_code": "558591"
+    "city": "д. Нерчинск",
+    "street": "наб. Щорса",
+    "house": "829",
+    "apartment": "56",
+    "postal_code": "543297"
   },
-  "purchase_datetime": "2025-08-22T00:21:05.953507"
+  "purchase_datetime": "2025-09-08T11:36:53.661623"
 }

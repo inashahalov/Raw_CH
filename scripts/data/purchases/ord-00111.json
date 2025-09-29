@@ -1,84 +1,84 @@
 {
   "purchase_id": "ord-00111",
   "customer": {
-    "customer_id": "cus-1036",
-    "first_name": "Ананий",
-    "last_name": "Шубин",
-    "email": "xvolkov@example.net",
-    "phone": "+7 938 461 4396",
+    "customer_id": "cus-1012",
+    "first_name": "Ипполит",
+    "last_name": "Юдина",
+    "email": "tverdislav1982@example.net",
+    "phone": "8 (058) 698-1657",
     "is_loyalty_member": true,
-    "loyalty_card_number": "LOYAL-E36C1302B0"
+    "loyalty_card_number": "LOYAL-5DE9D47D7A"
   },
   "store": {
-    "store_id": "store-002",
-    "store_name": "Большая Пикча — Магазин на пр. Мирный",
+    "store_id": "store-013",
+    "store_name": "Большая Пикча — Магазин на бул. Солнечный",
     "store_network": "Большая Пикча",
     "location": {
       "country": "Россия",
-      "city": "клх Видное",
-      "street": "пр. Толбухина",
-      "house": "9/6",
-      "postal_code": "511141",
+      "city": "ст. Ачинск",
+      "street": "бул. Сосновый",
+      "house": "927",
+      "postal_code": "091959",
       "coordinates": {
-        "latitude": 13.224143,
-        "longitude": -111.857686
+        "latitude": -3.544509,
+        "longitude": 125.206608
       }
     }
   },
   "items": [
     {
-      "product_id": "prd-1000",
-      "name": "Привлекать Передо",
-      "category": "🥦 Овощи и зелень",
-      "quantity": 2,
+      "product_id": "prd-1014",
+      "name": "Спичка Носок",
+      "category": "🍏 Фрукты и ягоды",
+      "quantity": 3,
       "unit": "шт",
-      "price_per_unit": 261.89,
-      "total_price": 523.78,
+      "price_per_unit": 180.19,
+      "total_price": 540.57,
       "kbju": {
-        "calories": 286.2,
-        "protein": 17.9,
-        "fat": 8.7,
-        "carbohydrates": 47.1
+        "calories": 248.0,
+        "protein": 12.3,
+        "fat": 6.8,
+        "carbohydrates": 5.2
       },
       "manufacturer": {
-        "name": "ООО «Баранов-Пестова»",
+        "name": "КДВ Групп",
         "country": "Россия",
-        "website": "https://ooo.info",
-        "inn": "7520686716"
+        "website": "https://nizhfarm.com",
+        "inn": "8186530463"
       }
     },
     {
-      "product_id": "prd-1010",
-      "name": "Мгновение Вряд",
-      "category": "🥦 Овощи и зелень",
-      "quantity": 3,
-      "unit": "кг",
-      "price_per_unit": 149.03,
-      "total_price": 447.09,
+      "product_id": "prd-1001",
+      "name": "Лиловый Бок",
+      "category": "🥛 Молочные продукты",
+      "quantity": 1,
+      "unit": "упаковка",
+      "price_per_unit": 242.46,
+      "total_price": 242.46,
       "kbju": {
-        "calories": 186.1,
-        "protein": 15.0,
-        "fat": 10.1,
-        "carbohydrates": 27.3
+        "calories": 274.4,
+        "protein": 6.4,
+        "fat": 6.0,
+        "carbohydrates": 13.5
       },
       "manufacturer": {
-        "name": "ИП «Блохина-Гаврилов»",
+        "name": "Куликов и партнеры",
         "country": "Россия",
-        "website": "https://oao.com",
-        "inn": "1245272063"
+        "website": "https://sharapov.net",
+        "inn": "9920890846"
       }
     }
   ],
-  "total_amount": 970.87,
+  "total_amount": 783.03,
   "payment_method": "cash",
   "is_delivery": false,
   "delivery_address": {
     "country": "Россия",
-    "city": "п. Курумкан",
-    "street": "пер. Лесный",
-    "house": "3/9",
-    "apartment": "46",
-    "postal_code": "741876"
+    "city": "ст. Ачинск",
+    "street": "алл. Ставропольская",
+    "house": "95",
+    "apartment": "15",
+    "postal_code": "959483"
   },
-  "purchase_datetime": "2025-07-16T00:21:05.965108"
+  "purchase_datetime": "2025-09-14T11:36:53.671077"
 }

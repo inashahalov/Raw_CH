@@ -1,84 +1,63 @@
 {
   "purchase_id": "ord-00110",
   "customer": {
-    "customer_id": "cus-1004",
-    "first_name": "Мстислав",
-    "last_name": "Фомин",
-    "email": "adam_2017@example.net",
-    "phone": "+73490219511",
+    "customer_id": "cus-1024",
+    "first_name": "Макар",
+    "last_name": "Медведева",
+    "email": "gerasim1992@example.net",
+    "phone": "+75793560855",
     "is_loyalty_member": true,
-    "loyalty_card_number": "LOYAL-69A22C9F90"
+    "loyalty_card_number": "LOYAL-95143C8F8C"
   },
   "store": {
-    "store_id": "store-018",
-    "store_name": "Большая Пикча — Магазин на ш. Колхозное",
+    "store_id": "store-003",
+    "store_name": "Большая Пикча — Магазин на алл. Новая",
     "store_network": "Большая Пикча",
     "location": {
       "country": "Россия",
-      "city": "п. Урюпинск",
-      "street": "ул. Королева",
-      "house": "5",
-      "postal_code": "809286",
+      "city": "к. Куртамыш",
+      "street": "ул. Минская",
+      "house": "2/8",
+      "postal_code": "417861",
       "coordinates": {
-        "latitude": 9.686733,
-        "longitude": 33.027261
+        "latitude": 52.1093415,
+        "longitude": -46.683943
       }
     }
   },
   "items": [
     {
-      "product_id": "prd-1014",
-      "name": "Опасность Следовательно",
+      "product_id": "prd-1011",
+      "name": "Зачем Вскакивать",
       "category": "🥛 Молочные продукты",
-      "quantity": 2,
-      "unit": "кг",
-      "price_per_unit": 213.21,
-      "total_price": 426.42,
+      "quantity": 1,
+      "unit": "шт",
+      "price_per_unit": 105.34,
+      "total_price": 105.34,
       "kbju": {
-        "calories": 206.8,
-        "protein": 10.5,
-        "fat": 2.9,
-        "carbohydrates": 6.6
+        "calories": 207.5,
+        "protein": 16.9,
+        "fat": 5.3,
+        "carbohydrates": 19.0
       },
       "manufacturer": {
-        "name": "ЗАО «Беляков, Большакова и Князева»",
+        "name": "ИП «Нестеров, Лыткин и Евсеев»",
         "country": "Россия",
-        "website": "https://npo.com",
-        "inn": "0149036081"
-      }
-    },
-    {
-      "product_id": "prd-1008",
-      "name": "Освободить Призыв",
-      "category": "🥩 Мясо, рыба, яйца и бобовые",
-      "quantity": 2,
-      "unit": "л",
-      "price_per_unit": 265.49,
-      "total_price": 530.98,
-      "kbju": {
-        "calories": 130.4,
-        "protein": 5.2,
-        "fat": 10.6,
-        "carbohydrates": 22.8
-      },
-      "manufacturer": {
-        "name": "ИП «Маслова, Денисов и Фокина»",
-        "country": "Россия",
-        "website": "https://ignatev.com",
-        "inn": "7104068639"
+        "website": "https://ip.ru",
+        "inn": "1814255141"
       }
     }
   ],
-  "total_amount": 957.4,
-  "payment_method": "card",
-  "is_delivery": false,
+  "total_amount": 105.34,
+  "payment_method": "cash",
+  "is_delivery": true,
   "delivery_address": {
     "country": "Россия",
-    "city": "к. Шелехов",
-    "street": "алл. Высотная",
-    "house": "4/6",
-    "apartment": "89",
-    "postal_code": "352737"
+    "city": "ст. Мичуринск",
+    "street": "ш. Семашко",
+    "house": "422",
+    "apartment": "48",
+    "postal_code": "354044"
   },
-  "purchase_datetime": "2025-08-14T00:21:05.964634"
+  "purchase_datetime": "2025-09-03T11:36:53.670717"
 }

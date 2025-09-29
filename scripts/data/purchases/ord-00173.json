@@ -1,105 +1,105 @@
 {
   "purchase_id": "ord-00173",
   "customer": {
-    "customer_id": "cus-1033",
-    "first_name": "Карп",
-    "last_name": "Корнилов",
-    "email": "dmitri07@example.org",
-    "phone": "83587069742",
+    "customer_id": "cus-1044",
+    "first_name": "Евфросиния",
+    "last_name": "Капустин",
+    "email": "svetlana2023@example.net",
+    "phone": "+7 (418) 339-9436",
     "is_loyalty_member": true,
-    "loyalty_card_number": "LOYAL-389C1FF3BC"
+    "loyalty_card_number": "LOYAL-8308EE78DE"
   },
   "store": {
-    "store_id": "store-012",
-    "store_name": "Большая Пикча — Магазин на алл. Светлая",
-    "store_network": "Большая Пикча",
+    "store_id": "store-033",
+    "store_name": "Маленькая Пикча — Магазин на пр. Ставропольский",
+    "store_network": "Маленькая Пикча",
     "location": {
       "country": "Россия",
-      "city": "ст. Макушино",
-      "street": "пр. Российский",
-      "house": "6/9",
-      "postal_code": "793395",
+      "city": "к. Арзамас",
+      "street": "алл. Совхозная",
+      "house": "64",
+      "postal_code": "975984",
       "coordinates": {
-        "latitude": 53.1520475,
-        "longitude": 132.28453
+        "latitude": 72.4718475,
+        "longitude": -164.998246
       }
     }
   },
   "items": [
     {
-      "product_id": "prd-1013",
-      "name": "Полюбить Руководитель",
+      "product_id": "prd-1002",
+      "name": "Манера Остановить",
+      "category": "🥛 Молочные продукты",
+      "quantity": 2,
+      "unit": "кг",
+      "price_per_unit": 49.56,
+      "total_price": 99.12,
+      "kbju": {
+        "calories": 233.3,
+        "protein": 5.6,
+        "fat": 13.1,
+        "carbohydrates": 34.2
+      },
+      "manufacturer": {
+        "name": "АО «Вишнякова-Устинова»",
+        "country": "Россия",
+        "website": "https://efimov.ru",
+        "inn": "0302933009"
+      }
+    },
+    {
+      "product_id": "prd-1017",
+      "name": "Народ Построить",
+      "category": "🍏 Фрукты и ягоды",
+      "quantity": 5,
+      "unit": "шт",
+      "price_per_unit": 178.6,
+      "total_price": 893.0,
+      "kbju": {
+        "calories": 256.8,
+        "protein": 17.5,
+        "fat": 12.2,
+        "carbohydrates": 17.7
+      },
+      "manufacturer": {
+        "name": "Корнилов и партнеры",
+        "country": "Россия",
+        "website": "https://rao.org",
+        "inn": "2545527642"
+      }
+    },
+    {
+      "product_id": "prd-1005",
+      "name": "Правильный Факультет",
       "category": "🥦 Овощи и зелень",
       "quantity": 1,
-      "unit": "шт",
-      "price_per_unit": 223.19,
-      "total_price": 223.19,
-      "kbju": {
-        "calories": 249.4,
-        "protein": 17.6,
-        "fat": 5.6,
-        "carbohydrates": 43.3
-      },
-      "manufacturer": {
-        "name": "Профитмед",
-        "country": "Россия",
-        "website": "https://npo.edu",
-        "inn": "4153799624"
-      }
-    },
-    {
-      "product_id": "prd-1009",
-      "name": "Слать Бригада",
-      "category": "🥛 Молочные продукты",
-      "quantity": 1,
       "unit": "л",
-      "price_per_unit": 240.9,
-      "total_price": 240.9,
+      "price_per_unit": 246.16,
+      "total_price": 246.16,
       "kbju": {
-        "calories": 156.2,
-        "protein": 15.7,
-        "fat": 13.4,
-        "carbohydrates": 7.6
+        "calories": 238.0,
+        "protein": 1.6,
+        "fat": 0.4,
+        "carbohydrates": 17.1
       },
       "manufacturer": {
-        "name": "НПО «Ефимова»",
+        "name": "Михеев и партнеры",
         "country": "Россия",
-        "website": "https://ford.com",
-        "inn": "3687837951"
-      }
-    },
-    {
-      "product_id": "prd-1001",
-      "name": "Домашний Жидкий",
-      "category": "🥛 Молочные продукты",
-      "quantity": 1,
-      "unit": "упаковка",
-      "price_per_unit": 74.5,
-      "total_price": 74.5,
-      "kbju": {
-        "calories": 173.9,
-        "protein": 3.6,
-        "fat": 11.0,
-        "carbohydrates": 7.4
-      },
-      "manufacturer": {
-        "name": "ОАО «Емельянова-Харитонов»",
-        "country": "Россия",
-        "website": "https://zao.edu",
-        "inn": "4413982995"
+        "website": "https://yakovleva.biz",
+        "inn": "6371685483"
       }
     }
   ],
-  "total_amount": 538.59,
-  "payment_method": "card",
-  "is_delivery": true,
+  "total_amount": 1238.28,
+  "payment_method": "cash",
+  "is_delivery": false,
   "delivery_address": {
     "country": "Россия",
-    "city": "к. Яшалта",
-    "street": "ш. Орджоникидзе",
-    "house": "189",
-    "apartment": "41",
-    "postal_code": "555752"
+    "city": "к. Усть-Калманка",
+    "street": "алл. Рыбацкая",
+    "house": "9",
+    "apartment": "10",
+    "postal_code": "261333"
   },
-  "purchase_datetime": "2025-07-03T00:21:06.234798"
+  "purchase_datetime": "2025-08-07T11:36:53.693416"
 }
