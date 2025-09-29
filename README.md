@@ -355,7 +355,7 @@ services:
     ports:
       - "27018:27017"
     volumes:
-      - mongo_/data/db
+      - mongo_data:/data/db
     networks:
       - piccha-net
 
@@ -387,8 +387,8 @@ services:
       - piccha-net
 
 volumes:
-  mongo_
-  clickhouse_
+  mongo_data:
+  clickhouse_data:
 
 networks:
   piccha-net:
@@ -521,7 +521,7 @@ logger = logging.getLogger(__name__)
 # === ПРИМЕР: b'DpY1VLwmMeRO18y5BTLIibyzd-BheI5N1NpxCoHdMBo=' =================
 # === !!! УБЕДИТЕСЬ, ЧТО КЛЮЧ СОВПАДАЕТ С ТЕМ, ЧТО В kafka_producer.py !!! ====
 # =============================================================================
-ENCRYPTION_KEY = b'dI6S2mer6xD6JpDcATx5r_wFE78Rf1TQC6bVg29ZjKE='
+ENCRYPTION_KEY = b'ВСТАВЬТЕ_СЮДА_СВОЙ_КЛЮЧ_ИЗ_kafka_producer.py'
 cipher = Fernet(ENCRYPTION_KEY)
 
 logger.info("🔑 Используем ключ шифрования.")
@@ -782,7 +782,7 @@ def main() -> None:
                 # Обработка last_inventory_date
                 last_inventory_date_dt = safe_parse_date(doc.get('last_inventory_date'))
 
-                # Вставка в таблицу stores
+                # Вставка в таблицу stores (piccha_raw)
                 client.execute("""
                 INSERT INTO piccha_raw.stores VALUES
                 """, [(
@@ -815,7 +815,7 @@ def main() -> None:
             elif collection_type == 'products':
                 doc = raw_doc
 
-                # Вставка в таблицу products
+                # Вставка в таблицу products (piccha_raw)
                 client.execute("""
                 INSERT INTO piccha_raw.products VALUES
                 """, [(
@@ -847,7 +847,7 @@ def main() -> None:
                 birth_date_dt = safe_parse_date(doc.get('birth_date'))
                 registration_date_dt = safe_parse_datetime(doc.get('registration_date'))
 
-                # Вставка в таблицу customers
+                # Вставка в таблицу customers (piccha_raw)
                 client.execute("""
                 INSERT INTO piccha_raw.customers VALUES
                 """, [(
@@ -943,6 +943,153 @@ def main() -> None:
 
 if __name__ == "__main__":
     main()
+```
+
+</details>
+
+---
+
+## Очистка данных и Materialized View (MART)
+
+Скрипт `scripts/clean_data.sql` создает **MART** таблицы и **Materialized View**, которые:
+
+- Проверяют дубликаты
+- Проверяют NULL и пустые строки
+- Проверяют адекватность дат
+- Приводят данные к нижнему регистру
+
+<details>
+<summary>Показать код (scripts/clean_data.sql)</summary>
+
+```sql
+-- scripts/clean_data.sql
+
+-- Создание базы MART
+CREATE DATABASE IF NOT EXISTS piccha_mart;
+
+-- Создание MART-таблиц
+CREATE TABLE IF NOT EXISTS piccha_mart.purchases_mart (
+    purchase_id String,
+    customer_id String,
+    store_id String,
+    total_amount Float32,
+    payment_method String,
+    is_delivery UInt8,
+    delivery_address_city String,
+    delivery_address_street String,
+    delivery_address_house String,
+    delivery_address_apartment String,
+    delivery_address_postal_code String,
+    purchase_datetime DateTime
+) ENGINE = MergeTree()
+ORDER BY (purchase_datetime, purchase_id);
+
+CREATE TABLE IF NOT EXISTS piccha_mart.customers_mart (
+    customer_id String,
+    first_name String,
+    last_name String,
+    email String,
+    phone String,
+    birth_date Date,
+    gender String,
+    registration_date DateTime,
+    is_loyalty_member UInt8,
+    loyalty_card_number String,
+    purchase_location_store_id String,
+    purchase_location_city String,
+    delivery_address_city String,
+    delivery_address_street String,
+    delivery_address_house String,
+    delivery_address_apartment String,
+    delivery_address_postal_code String,
+    preferred_language String,
+    preferred_payment_method String,
+    receive_promotions UInt8
+) ENGINE = MergeTree()
+ORDER BY customer_id;
+
+-- Materialized View для очистки и загрузки покупок
+CREATE MATERIALIZED VIEW piccha_mart.purchases_mart_mv
+TO piccha_mart.purchases_mart
+AS SELECT
+    purchase_id,
+    customer_id,
+    store_id,
+    total_amount,
+    lower(payment_method) AS payment_method,
+    is_delivery,
+    lower(delivery_address_city) AS delivery_address_city,
+    lower(delivery_address_street) AS delivery_address_street,
+    delivery_address_house,
+    delivery_address_apartment,
+    delivery_address_postal_code,
+    purchase_datetime
+FROM piccha_raw.purchases
+WHERE
+    purchase_id != '' AND purchase_id IS NOT NULL
+    AND customer_id != '' AND customer_id IS NOT NULL
+    AND store_id != '' AND store_id IS NOT NULL
+    AND purchase_datetime <= now()
+    AND total_amount > 0;
+
+-- Materialized View для очистки и загрузки покупателей
+CREATE MATERIALIZED VIEW piccha_mart.customers_mart_mv
+TO piccha_mart.customers_mart
+AS SELECT
+    customer_id,
+    lower(first_name) AS first_name,
+    lower(last_name) AS last_name,
+    lower(email) AS email,
+    phone,
+    birth_date,
+    lower(gender) AS gender,
+    registration_date,
+    is_loyalty_member,
+    loyalty_card_number,
+    purchase_location_store_id,
+    lower(purchase_location_city) AS purchase_location_city,
+    lower(delivery_address_city) AS delivery_address_city,
+    lower(delivery_address_street) AS delivery_address_street,
+    delivery_address_house,
+    delivery_address_apartment,
+    delivery_address_postal_code,
+    lower(preferred_language) AS preferred_language,
+    lower(preferred_payment_method) AS preferred_payment_method,
+    receive_promotions
+FROM piccha_raw.customers
+WHERE
+    customer_id != '' AND customer_id IS NOT NULL
+    AND first_name != '' AND first_name IS NOT NULL
+    AND last_name != '' AND last_name IS NOT NULL
+    AND birth_date <= today()
+    AND registration_date <= now();
+
+-- Таблица для логирования дубликатов
+CREATE TABLE IF NOT EXISTS piccha_mart.duplicates_log (
+    table_name String,
+    duplicate_count UInt64,
+    total_count UInt64,
+    duplicate_percentage Float32,
+    timestamp DateTime DEFAULT now()
+) ENGINE = MergeTree()
+ORDER BY (table_name, timestamp);
+
+-- Materialized View для логирования дубликатов (пример для purchases)
+-- В реальности, для точного подсчета дубликатов может потребоваться более сложный запрос или триггер.
+-- Этот MV показывает общий принцип.
+CREATE MATERIALIZED VIEW piccha_mart.duplicates_log_mv
+TO piccha_mart.duplicates_log
+AS
+SELECT
+    'purchases' AS table_name,
+    (SELECT count(*) - uniq(purchase_id) FROM piccha_raw.purchases WHERE purchase_id != '' AND purchase_id IS NOT NULL) AS duplicate_count,
+    (SELECT count(*) FROM piccha_raw.purchases WHERE purchase_id != '' AND purchase_id IS NOT NULL) AS total_count,
+    (duplicate_count * 100.0) / total_count AS duplicate_percentage
+FROM system.one
+WHERE duplicate_percentage > 50;
+```
+
+</details>
 
 ---
 
@@ -955,43 +1102,44 @@ if __name__ == "__main__":
 3. Нажми **Add data source**
 4. Выбери **ClickHouse**
 5. Укажи:
-   - **URL**: `http://clickhouse:8123`
+   - **URL**: `http://clickhouse:8123` (если Grafana в Docker) или `http://localhost:8123` (если на хосте)
    - **Database**: `piccha_raw`
    - **User**: `default`
-   - **Password**: (если установлен)
+   - **Password**: (оставь пустым)
 
 ### 7.2. Создание дашборда
 
 1. Перейди в **Create → Dashboard**
 2. Добавь панель:
    - **Query**:
-     ```
+     ```sql
      SELECT COUNT(*) AS "Количество покупок" FROM piccha_raw.purchases
      ```
    - **Format as**: `SingleStat`
 3. Добавь ещё одну панель:
    - **Query**:
-     ```
+     ```sql
      SELECT COUNT(DISTINCT store_id) AS "Количество магазинов" FROM piccha_raw.stores
      ```
    - **Format as**: `SingleStat`
 4. Сохрани дашборд.
-![](/home/f/Изображения/1 задание.png) 
- 
+5. Сделай скриншот и сохрани как `dashboard_screenshot.png` в корне проекта.
+
 ### 7.3. Настройка алертинга дубликатов
 
-1. Перейди в **Alerting → Contact points** 
+1. Перейди в **Alerting → Contact points**
 2. Добавь **Telegram**:
    - Вставь **токен бота** и **ID чата**
 3. Перейди в **Alerting → Alert rules**
 4. Создай правило:
    - **Query**:
-     ```
+     ```sql
      SELECT duplicate_percentage FROM piccha_mart.duplicates_log ORDER BY timestamp DESC LIMIT 1
      ```
    - **Condition**: `IS ABOVE 50`
    - **Contact point**: Telegram
 5. Сохрани алерт.
+6. Сделай скриншот и сохрани как `telegram_alert_screenshot.png` в корне проекта.
 
 ---
 
@@ -1008,10 +1156,11 @@ if __name__ == "__main__":
 1. `docker-compose up -d`
 2. `python scripts/generate_data.py`
 3. `python scripts/load_to_mongo.py`
-4. `python scripts/kafka_producer.py`
-5. `python scripts/kafka_to_clickhouse.py`
-6. `clickhouse-client < scripts/clean_data.sql`
-7. Настрой Grafana → создай дашборд → настрой алертинг → сделай скриншоты
+4. `python scripts/kafka_producer.py` (скопируйте ключ шифрования из вывода)
+5. Вставьте ключ в `scripts/kafka_to_clickhouse.py`
+6. `python scripts/kafka_to_clickhouse.py`
+7. `clickhouse-client < scripts/clean_data.sql`
+8. Настрой Grafana → создай дашборд → настрой алертинг → сделай скриншоты
 
 ---
 
@@ -1026,3 +1175,4 @@ if __name__ == "__main__":
 - ✅ Алерт в Telegram срабатывает при > 50% дубликатов
 
 ---
+```
