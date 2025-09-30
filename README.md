@@ -46,27 +46,8 @@ MongoDB (NoSQL) → Kafka → ClickHouse (RAW) → Materialized View (MART) → 
 
 ## Структура проекта
 
-```
-project/
-├── data/
-│   ├── stores/
-│   ├── products/
-│   ├── customers/
-│   └── purchases/
-├── scripts/
-│   ├── generate_data.py
-│   ├── load_to_mongo.py
-│   ├── kafka_producer.py
-│   ├── kafka_to_clickhouse.py
-│   └── clean_data.sql
-├── config/
-│   └── clickhouse/
-│       ├── listen_all.xml
-│       └── users.d/
-├── docker-compose.yml
-├── dashboard_screenshot.png
-├── telegram_alert_screenshot.png
-└── README.md
+<img width="362" height="846" alt="image" src="https://github.com/user-attachments/assets/80d4aed8-ce23-4da3-b35b-82a373101e2e" />
+
 ```
 
 ---
