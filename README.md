@@ -37,7 +37,6 @@
 MongoDB (NoSQL) → Kafka → ClickHouse (RAW) → Materialized View (MART) → Grafana (Dashboard & Alerting)
 ```
 
----
 
 ## Участники команды
 
