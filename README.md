@@ -41,7 +41,7 @@ MongoDB (NoSQL) → Kafka → ClickHouse (RAW) → Materialized View (MART) → 
 
 
 ## Структура проекта
-```
+
 <img width="362" height="846" alt="image" src="https://github.com/user-attachments/assets/80d4aed8-ce23-4da3-b35b-82a373101e2e" />
 
 ```
