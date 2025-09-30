@@ -38,10 +38,7 @@ MongoDB (NoSQL) → Kafka → ClickHouse (RAW) → Materialized View (MART) → 
 ```
 
 
-## Участники команды
 
-- Илья Нашахалов (nashahalov@outlook.com)
----
 
 ## Структура проекта
 ```
