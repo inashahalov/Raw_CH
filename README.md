@@ -1122,8 +1122,9 @@ WHERE duplicate_percentage > 50;
      SELECT COUNT(DISTINCT store_id) AS "Количество магазинов" FROM piccha_raw.stores
      ```
    - **Format as**: `SingleStat`
-4. Сохрани дашборд.
-5. Сделай скриншот и сохрани как `dashboard_screenshot.png` в корне проекта.
+
+   <img width="629" height="519" alt="1 задание" src="https://github.com/user-attachments/assets/a5bbef9d-ecd2-4ab7-adeb-2cbb08d08a52" />
+
 
 ### 7.3. Настройка алертинга дубликатов
 
