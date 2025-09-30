@@ -53,6 +53,10 @@ MongoDB (NoSQL) → Kafka → ClickHouse (RAW) → Materialized View (MART) → 
 
 ## Генерация данных
 
+
+<details>
+<summary>Показать код (scripts/load_to_mongo.py)</summary>
+
 Скрипт `scripts/generate_data.py` генерирует JSON-файлы для:
 
 - 45 магазинов
